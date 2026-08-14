@@ -15,6 +15,8 @@ import path from 'path';
 import {JWTStrategy} from './authentication-strategy/jwt-strategy';
 import {DbDataSource} from './datasources';
 import {
+  EmailServiceBindings,
+  OtpServiceBindings,
   PasswordHasherBindings,
   RbacServiceBindings,
   TokenServiceBindings,
@@ -25,6 +27,7 @@ import {
   AssetTypesRepository,
   ComplianceStatusesRepository,
   GradeLevelsRepository,
+  OtpRepository,
   PermissionsRepository,
   RolePermissionsRepository,
   RolesRepository,
@@ -37,8 +40,10 @@ import {
 import {MySequence} from './sequence';
 import {
   BcryptHasher,
+  EmailService,
   JWTService,
   MyUserService,
+  OtpService,
   RbacService,
 } from './services';
 
@@ -106,6 +111,7 @@ export class LmsBackendApplication extends BootMixin(
     this.repository(TiersRepository);
     this.repository(AssetTypesRepository);
     this.repository(ComplianceStatusesRepository);
+    this.repository(OtpRepository);
 
     // Hasher binding
     this.bind(PasswordHasherBindings.PASSWORD_HASHER).toClass(BcryptHasher);
@@ -124,5 +130,11 @@ export class LmsBackendApplication extends BootMixin(
 
     // RBAC Service Binding
     this.bind(RbacServiceBindings.RBAC_SERVICE).toClass(RbacService);
+
+    // Email Service Binding
+    this.bind(EmailServiceBindings.EMAIL_SERVICE).toClass(EmailService);
+
+    // OTP Service Binding
+    this.bind(OtpServiceBindings.OTP_SERVICE).toClass(OtpService);
   }
 }

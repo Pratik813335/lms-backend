@@ -9,3 +9,4 @@ export * from './subjects.repository';
 export * from './tiers.repository';
 export * from './asset-types.repository';
 export * from './compliance-statuses.repository';
+export * from './otp.repository';

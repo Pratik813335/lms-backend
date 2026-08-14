@@ -61,11 +61,13 @@
     "@loopback/service-proxy": "^8.0.14",
     "@types/bcryptjs": "^2.4.6",
     "@types/jsonwebtoken": "^9.0.10",
+    "@types/nodemailer": "^8.0.1",
     "@types/uuid": "^10.0.0",
     "bcryptjs": "^3.0.3",
     "dotenv": "^17.4.2",
     "jsonwebtoken": "^9.0.3",
     "loopback-connector-postgresql": "^9.0.1",
+    "nodemailer": "^9.0.5",
     "tslib": "^2.0.0",
     "uuid": "^14.0.1"
   },

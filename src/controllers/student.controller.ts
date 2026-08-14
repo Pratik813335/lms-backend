@@ -44,13 +44,13 @@ export class StudentController {
         usersId: currentUser.id,
         gradeLevel: currentUser.gradeLevel || 'Grade 10',
         tier: currentUser.roles?.includes('student_junior') ? 'junior' : 'senior',
-        xp: 1250,
-        level: 5,
-        streakDays: 7,
-        gpa: 3.8,
-        completedLessons: 14,
-        enrolledCoursesCount: 4,
-        aiInsights: 'Great progress in Algebra and Physics. Keep up the 7-day learning streak!',
+        xp: 0,
+        level: 1,
+        streakDays: 0,
+        gpa: 0.0,
+        completedLessons: 0,
+        enrolledCoursesCount: 0,
+        aiInsights: 'Welcome to LucidPrep! Complete your first lesson to unlock personalized AI learning insights.',
       });
     }
 
@@ -73,7 +73,7 @@ export class StudentController {
       },
       aiInsights: profile.aiInsights,
       weeklyGoal: {
-        currentHours: 4.5,
+        currentHours: profile.completedLessons ? profile.completedLessons * 0.5 : 0,
         targetHours: 6.0,
       },
     };
@@ -101,6 +101,13 @@ export class StudentController {
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
         gradeLevel: currentUser.gradeLevel || 'Grade 10',
+        tier: currentUser.roles?.includes('student_junior') ? 'junior' : 'senior',
+        xp: 0,
+        level: 1,
+        streakDays: 0,
+        gpa: 0.0,
+        completedLessons: 0,
+        enrolledCoursesCount: 0,
       });
     }
 

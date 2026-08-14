@@ -9,3 +9,4 @@ export * from './subjects.model';
 export * from './tiers.model';
 export * from './asset-types.model';
 export * from './compliance-statuses.model';
+export * from './otp.model';

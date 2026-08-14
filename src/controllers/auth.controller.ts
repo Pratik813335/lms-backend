@@ -1,5 +1,6 @@
-import {authenticate} from '@loopback/authentication';
-import {inject} from '@loopback/core';
+import { authenticate } from '@loopback/authentication';
+import { inject } from '@loopback/core';
+import { repository } from '@loopback/repository';
 import {
   post,
   get,
@@ -7,18 +8,27 @@ import {
   HttpErrors,
   ResponseObject,
 } from '@loopback/rest';
-import {SecurityBindings, UserProfile, securityId} from '@loopback/security';
+import { SecurityBindings, UserProfile, securityId } from '@loopback/security';
 import {
+  OtpServiceBindings,
   PasswordHasherBindings,
+  RbacServiceBindings,
   TokenServiceBindings,
   UserServiceBindings,
 } from '../keys';
 import {
+  RolesRepository,
+  StudentProfileRepository,
+  UsersRepository,
+} from '../repositories';
+import {
   BcryptHasher,
   JWTService,
   MyUserService,
+  OtpService,
+  RbacService,
 } from '../services';
-import {Credentials, LmsUserProfile} from '../types';
+import { Credentials, LmsUserProfile } from '../types';
 
 const LOGIN_RESPONSE: ResponseObject = {
   description: 'JWT Authentication Token Response',
@@ -27,14 +37,14 @@ const LOGIN_RESPONSE: ResponseObject = {
       schema: {
         type: 'object',
         properties: {
-          token: {type: 'string'},
+          token: { type: 'string' },
           user: {
             type: 'object',
             properties: {
-              id: {type: 'string'},
-              email: {type: 'string'},
-              roles: {type: 'array', items: {type: 'string'}},
-              fullName: {type: 'string'},
+              id: { type: 'string' },
+              email: { type: 'string' },
+              roles: { type: 'array', items: { type: 'string' } },
+              fullName: { type: 'string' },
             },
           },
         },
@@ -51,7 +61,17 @@ export class AuthController {
     public userService: MyUserService,
     @inject(PasswordHasherBindings.PASSWORD_HASHER)
     public hasher: BcryptHasher,
-  ) {}
+    @inject(RbacServiceBindings.RBAC_SERVICE)
+    public rbacService: RbacService,
+    @inject(OtpServiceBindings.OTP_SERVICE)
+    public otpService: OtpService,
+    @repository(UsersRepository)
+    public usersRepo: UsersRepository,
+    @repository(RolesRepository)
+    public rolesRepo: RolesRepository,
+    @repository(StudentProfileRepository)
+    public studentProfileRepo: StudentProfileRepository,
+  ) { }
 
   @post('/auth/login', {
     responses: {
@@ -66,15 +86,15 @@ export class AuthController {
             type: 'object',
             required: ['email', 'password'],
             properties: {
-              email: {type: 'string', format: 'email'},
-              password: {type: 'string'},
+              email: { type: 'string', format: 'email' },
+              password: { type: 'string' },
             },
           },
         },
       },
     })
     credentials: Credentials,
-  ): Promise<{token: string; user: UserProfile}> {
+  ): Promise<{ token: string; user: UserProfile }> {
     const user = await this.userService.verifyCredentials(credentials);
     const userProfile = this.userService.convertToUserProfile(user);
     const token = await this.jwtService.generateToken(userProfile);
@@ -94,9 +114,9 @@ export class AuthController {
             schema: {
               type: 'object',
               properties: {
-                message: {type: 'string'},
-                token: {type: 'string'},
-                user: {type: 'object'},
+                message: { type: 'string' },
+                token: { type: 'string' },
+                user: { type: 'object' },
               },
             },
           },
@@ -112,11 +132,11 @@ export class AuthController {
             type: 'object',
             required: ['email', 'password', 'role'],
             properties: {
-              email: {type: 'string'},
-              password: {type: 'string'},
-              role: {type: 'string'},
-              fullName: {type: 'string'},
-              gradeLevel: {type: 'string'},
+              email: { type: 'string' },
+              password: { type: 'string' },
+              role: { type: 'string' },
+              fullName: { type: 'string' },
+              gradeLevel: { type: 'string' },
             },
           },
         },
@@ -129,24 +149,69 @@ export class AuthController {
       fullName?: string;
       gradeLevel?: string;
     },
-  ): Promise<{message: string; token: string; user: UserProfile}> {
+  ): Promise<{ message: string; token: string; user: UserProfile }> {
+    // 1. Validate that requested role exists in system roles table BEFORE creating anything
+    const targetRole = await this.rolesRepo.findOne({
+      where: { value: userData.role, isActive: true, isDeleted: false },
+    });
+
+    if (!targetRole) {
+      const activeRoles = await this.rbacService.getAllActiveRoles();
+      const validRoleKeys = activeRoles.map(r => r.key).join(', ');
+      throw new HttpErrors.BadRequest(
+        `Invalid role '${userData.role}'. Allowed system roles are: ${validRoleKeys}`,
+      );
+    }
+
+    // 2. Check if user already exists
+    const existingUser = await this.usersRepo.findOne({
+      where: { email: userData.email },
+    });
+
+    if (existingUser) {
+      throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
+    }
+
+    // 3. Hash password with bcrypt
     const hashedPassword = await this.hasher.hashPassword(userData.password);
 
-    const mockUser = {
-      id: `usr_${Date.now()}`,
+    // 4. Create user in PostgreSQL users table
+    const savedUser = await this.usersRepo.create({
       email: userData.email,
-      roles: [userData.role],
+      password: hashedPassword,
       fullName: userData.fullName || userData.email.split('@')[0],
-      gradeLevel: userData.gradeLevel || 'Grade 10',
-    };
+      isActive: true,
+    });
 
+    // 5. Assign user role in PostgreSQL user_roles table using RbacService
+    await this.rbacService.assignUserRole(savedUser.id!, userData.role);
+
+    // 6. If student, create initial clean student profile in student_profiles table (zero stats)
+    const isStudentRole = userData.role.startsWith('student_');
+    if (isStudentRole) {
+      const tier = userData.role === 'student_junior' ? 'junior' : 'senior';
+      await this.studentProfileRepo.create({
+        usersId: savedUser.id,
+        gradeLevel: userData.gradeLevel || (tier === 'junior' ? 'Grade 6' : 'Grade 10'),
+        tier: tier,
+        xp: 0,
+        level: 1,
+        streakDays: 0,
+        gpa: 0.0,
+        completedLessons: 0,
+        enrolledCoursesCount: 0,
+        aiInsights: 'Welcome to LucidPrep LMS! Complete your first lesson to unlock personalized AI learning insights.',
+      });
+    }
+
+    // 7. Build authenticated user profile & JWT token (gradeLevel is ONLY for student roles, null for staff)
     const userProfile: LmsUserProfile = {
-      [securityId]: mockUser.id,
-      id: mockUser.id,
-      email: mockUser.email,
-      roles: mockUser.roles,
-      fullName: mockUser.fullName,
-      gradeLevel: mockUser.gradeLevel,
+      [securityId]: savedUser.id!,
+      id: savedUser.id!,
+      email: savedUser.email,
+      roles: [userData.role as any],
+      fullName: savedUser.fullName,
+      gradeLevel: isStudentRole ? (userData.gradeLevel || (userData.role === 'student_junior' ? 'Grade 6' : 'Grade 10')) : (null as any),
     };
 
     const token = await this.jwtService.generateToken(userProfile);
@@ -158,6 +223,81 @@ export class AuthController {
     };
   }
 
+  @post('/auth/send-otp', {
+    responses: {
+      '200': {
+        description: 'Send 6-Digit Email OTP Response',
+        content: {
+          'application/json': {
+            schema: {
+              type: 'object',
+              properties: {
+                message: { type: 'string' },
+                expiresAt: { type: 'string' },
+              },
+            },
+          },
+        },
+      },
+    },
+  })
+  async sendOtp(
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            required: ['email'],
+            properties: {
+              email: { type: 'string', format: 'email' },
+            },
+          },
+        },
+      },
+    })
+    payload: { email: string },
+  ): Promise<{ message: string; expiresAt: Date }> {
+    return this.otpService.generateAndSendOtp(payload.email);
+  }
+
+  @post('/auth/verify-otp', {
+    responses: {
+      '200': {
+        description: 'Verify 6-Digit Email OTP Response',
+        content: {
+          'application/json': {
+            schema: {
+              type: 'object',
+              properties: {
+                success: { type: 'boolean' },
+                message: { type: 'string' },
+              },
+            },
+          },
+        },
+      },
+    },
+  })
+  async verifyOtp(
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            required: ['email', 'otp'],
+            properties: {
+              email: { type: 'string', format: 'email' },
+              otp: { type: 'string' },
+            },
+          },
+        },
+      },
+    })
+    payload: { email: string; otp: string },
+  ): Promise<{ success: boolean; message: string }> {
+    return this.otpService.verifyOtp(payload.email, payload.otp);
+  }
+
   @authenticate('jwt')
   @get('/auth/me', {
     responses: {
@@ -165,7 +305,7 @@ export class AuthController {
         description: 'Authenticated User Profile',
         content: {
           'application/json': {
-            schema: {type: 'object'},
+            schema: { type: 'object' },
           },
         },
       },
@@ -185,17 +325,9 @@ export class AuthController {
       },
     },
   })
-  async getSupportedRoles(): Promise<{roles: Array<{key: string; label: string}>}> {
-    return {
-      roles: [
-        {key: 'student_junior', label: 'Junior Student (Grades 1-8)'},
-        {key: 'student_senior', label: 'Senior Student (Grades 9-12)'},
-        {key: 'admin', label: 'System Administrator'},
-        {key: 'academic', label: 'Academic Coordinator'},
-        {key: 'content', label: 'Content Creator / Curriculum Author'},
-        {key: 'operations', label: 'Operations & Billing Staff'},
-      ],
-    };
+  async getSupportedRoles(): Promise<{ roles: Array<{ key: string; label: string; description?: string }> }> {
+    const roles = await this.rbacService.getAllActiveRoles();
+    return { roles };
   }
 
   @authenticate('jwt')
@@ -216,18 +348,38 @@ export class AuthController {
             type: 'object',
             required: ['oldPassword', 'newPassword'],
             properties: {
-              oldPassword: {type: 'string'},
-              newPassword: {type: 'string'},
+              oldPassword: { type: 'string' },
+              newPassword: { type: 'string' },
             },
           },
         },
       },
     })
-    passwordData: {oldPassword: string; newPassword: string},
-  ): Promise<{message: string}> {
+    passwordData: { oldPassword: string; newPassword: string },
+  ): Promise<{ message: string }> {
     if (passwordData.newPassword.length < 6) {
       throw new HttpErrors.BadRequest('New password must be at least 6 characters long');
     }
+
+    const user = await this.usersRepo.findById(currentUser.id);
+    if (!user || !user.password) {
+      throw new HttpErrors.NotFound('User record not found');
+    }
+
+    const isOldValid = await this.hasher.comparePassword(
+      passwordData.oldPassword,
+      user.password,
+    );
+
+    if (!isOldValid) {
+      throw new HttpErrors.BadRequest('Current password is incorrect');
+    }
+
+    const newHashed = await this.hasher.hashPassword(passwordData.newPassword);
+    await this.usersRepo.updateById(user.id, {
+      password: newHashed,
+      updatedAt: new Date(),
+    });
 
     return {
       message: 'Password updated successfully',
