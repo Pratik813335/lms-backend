@@ -23,10 +23,14 @@ export async function migrate(args: string[]) {
       'StudentProfile',
       'GradeLevels',
       'Subjects',
-      'Tiers',
       'AssetTypes',
       'ComplianceStatuses',
       'Otp',
+      'Course',
+      'Module',
+      'Lesson',
+      'Enrollment',
+      'LessonProgress',
     ],
   });
 
