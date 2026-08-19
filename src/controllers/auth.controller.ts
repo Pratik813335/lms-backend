@@ -10,13 +10,6 @@ import {
 } from '@loopback/rest';
 import { SecurityBindings, UserProfile, securityId } from '@loopback/security';
 import {
-  OtpServiceBindings,
-  PasswordHasherBindings,
-  RbacServiceBindings,
-  TokenServiceBindings,
-  UserServiceBindings,
-} from '../keys';
-import {
   RolesRepository,
   StudentProfileRepository,
   UsersRepository,
@@ -55,15 +48,15 @@ const LOGIN_RESPONSE: ResponseObject = {
 
 export class AuthController {
   constructor(
-    @inject(TokenServiceBindings.TOKEN_SERVICE)
+    @inject('service.jwt.service')
     public jwtService: JWTService,
-    @inject(UserServiceBindings.USER_SERVICE)
+    @inject('service.user.service')
     public userService: MyUserService,
-    @inject(PasswordHasherBindings.PASSWORD_HASHER)
+    @inject('service.hasher')
     public hasher: BcryptHasher,
-    @inject(RbacServiceBindings.RBAC_SERVICE)
+    @inject('services.rbac')
     public rbacService: RbacService,
-    @inject(OtpServiceBindings.OTP_SERVICE)
+    @inject('services.otp')
     public otpService: OtpService,
     @repository(UsersRepository)
     public usersRepo: UsersRepository,
@@ -71,7 +64,7 @@ export class AuthController {
     public rolesRepo: RolesRepository,
     @repository(StudentProfileRepository)
     public studentProfileRepo: StudentProfileRepository,
-  ) { }
+  ) {}
 
   @post('/auth/login', {
     responses: {
@@ -150,7 +143,12 @@ export class AuthController {
       gradeLevel?: string;
     },
   ): Promise<{ message: string; token: string; user: UserProfile }> {
-    // 1. Validate that requested role exists in system roles table BEFORE creating anything
+    // 1. Validate password minimum length & complexity (Security Enhancement)
+    if (!userData.password || userData.password.length < 8) {
+      throw new HttpErrors.BadRequest('Password must be at least 8 characters long');
+    }
+
+    // 2. Validate that requested role exists in system roles table BEFORE creating anything
     const targetRole = await this.rolesRepo.findOne({
       where: { value: userData.role, isActive: true, isDeleted: false },
     });
@@ -163,7 +161,7 @@ export class AuthController {
       );
     }
 
-    // 2. Check if user already exists
+    // 3. Check if user already exists
     const existingUser = await this.usersRepo.findOne({
       where: { email: userData.email },
     });
@@ -172,10 +170,10 @@ export class AuthController {
       throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
     }
 
-    // 3. Hash password with bcrypt
+    // 4. Hash password with bcrypt
     const hashedPassword = await this.hasher.hashPassword(userData.password);
 
-    // 4. Create user in PostgreSQL users table
+    // 5. Create user in PostgreSQL users table
     const savedUser = await this.usersRepo.create({
       email: userData.email,
       password: hashedPassword,
@@ -183,10 +181,10 @@ export class AuthController {
       isActive: true,
     });
 
-    // 5. Assign user role in PostgreSQL user_roles table using RbacService
+    // 6. Assign user role in PostgreSQL user_roles table using RbacService
     await this.rbacService.assignUserRole(savedUser.id!, userData.role);
 
-    // 6. If student, create initial clean student profile in student_profiles table (zero stats)
+    // 7. If student, create initial clean student profile in student_profiles table (zero stats)
     const isStudentRole = userData.role.startsWith('student_');
     if (isStudentRole) {
       const tier = userData.role === 'student_junior' ? 'junior' : 'senior';
@@ -204,7 +202,7 @@ export class AuthController {
       });
     }
 
-    // 7. Build authenticated user profile & JWT token (gradeLevel is ONLY for student roles, null for staff)
+    // 8. Build authenticated user profile & JWT token (gradeLevel is ONLY for student roles, null for staff)
     const userProfile: LmsUserProfile = {
       [securityId]: savedUser.id!,
       id: savedUser.id!,
@@ -357,8 +355,8 @@ export class AuthController {
     })
     passwordData: { oldPassword: string; newPassword: string },
   ): Promise<{ message: string }> {
-    if (passwordData.newPassword.length < 6) {
-      throw new HttpErrors.BadRequest('New password must be at least 6 characters long');
+    if (passwordData.newPassword.length < 8) {
+      throw new HttpErrors.BadRequest('New password must be at least 8 characters long');
     }
 
     const user = await this.usersRepo.findById(currentUser.id);

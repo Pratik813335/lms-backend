@@ -3,34 +3,29 @@ import {inject} from '@loopback/core';
 import {repository} from '@loopback/repository';
 import {get, getModelSchemaRef, param, patch, post, requestBody, HttpErrors} from '@loopback/rest';
 import {SecurityBindings, UserProfile} from '@loopback/security';
-import {RbacServiceBindings} from '../keys';
 import {
   AssetTypes,
   ComplianceStatuses,
   GradeLevels,
   Subjects,
-  Tiers,
 } from '../models';
 import {
   AssetTypesRepository,
   ComplianceStatusesRepository,
   GradeLevelsRepository,
   SubjectsRepository,
-  TiersRepository,
 } from '../repositories';
 import {RbacService} from '../services';
 import {formatSuccessResponse} from '../utils';
 
 export class MasterController {
   constructor(
-    @inject(RbacServiceBindings.RBAC_SERVICE)
+    @inject('services.rbac')
     public rbacService: RbacService,
     @repository(GradeLevelsRepository)
     public gradeLevelsRepo: GradeLevelsRepository,
     @repository(SubjectsRepository)
     public subjectsRepo: SubjectsRepository,
-    @repository(TiersRepository)
-    public tiersRepo: TiersRepository,
     @repository(AssetTypesRepository)
     public assetTypesRepo: AssetTypesRepository,
     @repository(ComplianceStatusesRepository)
@@ -185,81 +180,6 @@ export class MasterController {
     });
     const updated = await this.subjectsRepo.findById(id);
     return formatSuccessResponse(updated, 'Subject updated successfully');
-  }
-
-  // ── Tiers Master ────────────────────────────────────────────────────────
-  @get('/masters/tiers')
-  async getTiers() {
-    const list = await this.tiersRepo.find({
-      where: {isDeleted: false, isActive: true},
-    });
-    return formatSuccessResponse(list, 'Tiers retrieved successfully');
-  }
-
-  @authenticate('jwt')
-  @post('/masters/tiers', {
-    responses: {
-      '200': {
-        description: 'Tiers Model Instance',
-        content: {'application/json': {schema: getModelSchemaRef(Tiers)}},
-      },
-    },
-  })
-  async createTier(
-    @inject(SecurityBindings.USER) currentUser: UserProfile,
-    @requestBody({
-      content: {
-        'application/json': {
-          schema: getModelSchemaRef(Tiers, {
-            title: 'NewTier',
-            exclude: ['id', 'createdAt', 'updatedAt', 'isDeleted'],
-          }),
-        },
-      },
-    })
-    data: Omit<Tiers, 'id'>,
-  ) {
-    this.rbacService.validateRole(currentUser as any, ['admin']);
-    const created = await this.tiersRepo.create(data);
-    return formatSuccessResponse(created, 'Tier created successfully');
-  }
-
-  @authenticate('jwt')
-  @patch('/masters/tiers/{id}', {
-    responses: {
-      '200': {
-        description: 'Tiers PATCH Success',
-        content: {'application/json': {schema: getModelSchemaRef(Tiers)}},
-      },
-    },
-  })
-  async updateTier(
-    @param.path.string('id') id: string,
-    @inject(SecurityBindings.USER) currentUser: UserProfile,
-    @requestBody({
-      content: {
-        'application/json': {
-          schema: getModelSchemaRef(Tiers, {
-            title: 'UpdateTier',
-            partial: true,
-            exclude: ['id', 'createdAt', 'updatedAt'],
-          }),
-        },
-      },
-    })
-    data: Partial<Tiers>,
-  ) {
-    this.rbacService.validateRole(currentUser as any, ['admin']);
-    const record = await this.tiersRepo.findOne({where: {id, isDeleted: false}});
-    if (!record) {
-      throw new HttpErrors.NotFound(`Tier with ID '${id}' not found`);
-    }
-    await this.tiersRepo.updateById(id, {
-      ...data,
-      updatedAt: new Date(),
-    });
-    const updated = await this.tiersRepo.findById(id);
-    return formatSuccessResponse(updated, 'Tier updated successfully');
   }
 
   // ── Asset Types Master ──────────────────────────────────────────────────

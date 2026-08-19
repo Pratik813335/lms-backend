@@ -3,14 +3,13 @@ import {TokenService} from '@loopback/authentication';
 import {HttpErrors} from '@loopback/rest';
 import {securityId, UserProfile} from '@loopback/security';
 import * as jwt from 'jsonwebtoken';
-import {TokenServiceBindings} from '../keys';
 import {LmsUserProfile} from '../types';
 
 @injectable({scope: BindingScope.SINGLETON})
 export class JWTService implements TokenService {
   constructor(
-    @inject(TokenServiceBindings.TOKEN_SECRET) private jwtSecret: string,
-    @inject(TokenServiceBindings.TOKEN_EXPIRES_IN) private jwtExpiresIn: string,
+    @inject('jwt.secret') private jwtSecret: string,
+    @inject('jwt.expiresIn') private jwtExpiresIn: string,
   ) {}
 
   private async signJwt(
@@ -43,16 +42,15 @@ export class JWTService implements TokenService {
 
   async generateToken(userProfile: UserProfile): Promise<string> {
     if (!userProfile) {
-      throw new HttpErrors.NotFound('User profile is null');
+      throw new HttpErrors.Unauthorized('Error generating token: userProfile is null');
     }
 
     const payload = {
-      id: userProfile.id || userProfile[securityId],
-      email: (userProfile as any).email,
-      roles: (userProfile as any).roles || [],
-      permissions: (userProfile as any).permissions || [],
-      fullName: (userProfile as any).fullName,
-      gradeLevel: (userProfile as any).gradeLevel,
+      id: userProfile[securityId],
+      name: userProfile.name,
+      email: (userProfile as LmsUserProfile).email,
+      roles: (userProfile as LmsUserProfile).roles,
+      gradeLevel: (userProfile as LmsUserProfile).gradeLevel,
     };
 
     return this.signJwt(
@@ -63,26 +61,24 @@ export class JWTService implements TokenService {
 
   async verifyToken(token: string): Promise<UserProfile> {
     if (!token) {
-      throw new HttpErrors.Unauthorized('Error verifying token: token is missing');
+      throw new HttpErrors.Unauthorized('Error verifying token: token is null');
     }
 
     try {
-      const decoded: any = await this.verifyJwt(token);
-
+      const decryptedToken: any = await this.verifyJwt(token);
       const userProfile: LmsUserProfile = {
-        [securityId]: String(decoded.id),
-        id: String(decoded.id),
-        email: decoded.email,
-        roles: decoded.roles ?? [],
-        permissions: decoded.permissions ?? [],
-        fullName: decoded.fullName,
-        gradeLevel: decoded.gradeLevel,
+        [securityId]: String(decryptedToken.id),
+        id: String(decryptedToken.id),
+        name: decryptedToken.name,
+        email: decryptedToken.email,
+        roles: decryptedToken.roles || [],
+        gradeLevel: decryptedToken.gradeLevel,
       };
 
       return userProfile;
-    } catch (error: any) {
+    } catch (error) {
       throw new HttpErrors.Unauthorized(
-        `Error verifying token: ${error.message || error}`,
+        `Error verifying token: ${error.message || 'Invalid or expired token'}`,
       );
     }
   }

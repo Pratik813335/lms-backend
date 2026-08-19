@@ -8,7 +8,6 @@ import {
   HttpErrors,
 } from '@loopback/rest';
 import {SecurityBindings} from '@loopback/security';
-import {CourseServiceBindings, RbacServiceBindings} from '../keys';
 import {StudentProfileRepository} from '../repositories';
 import {CourseService, RbacService} from '../services';
 import {LmsUserProfile} from '../types';
@@ -18,9 +17,9 @@ export class StudentController {
   constructor(
     @repository(StudentProfileRepository)
     public studentProfileRepo: StudentProfileRepository,
-    @inject(CourseServiceBindings.COURSE_SERVICE)
+    @inject('services.course')
     public courseService: CourseService,
-    @inject(RbacServiceBindings.RBAC_SERVICE)
+    @inject('services.rbac')
     public rbacService: RbacService,
   ) {}
 

@@ -1,7 +1,7 @@
 import {BindingScope, inject, injectable} from '@loopback/core';
 import {repository} from '@loopback/repository';
 import {HttpErrors} from '@loopback/rest';
-import {EmailServiceBindings} from '../keys';
+import {EmailManagerBindings} from '../keys';
 import {OtpRepository, UsersRepository} from '../repositories';
 import {EmailService} from './email.service';
 
@@ -12,12 +12,13 @@ export class OtpService {
     private otpRepo: OtpRepository,
     @repository(UsersRepository)
     private usersRepo: UsersRepository,
-    @inject(EmailServiceBindings.EMAIL_SERVICE)
+    @inject(EmailManagerBindings.SEND_MAIL)
     private emailService: EmailService,
   ) {}
 
   /**
    * Generate 6-Digit Email OTP, persist to PostgreSQL otp table, and send via EmailService
+   * With Rate Limiting: Max 5 OTP requests per 10 minutes
    */
   async generateAndSendOtp(identifier: string): Promise<{message: string; expiresAt: Date}> {
     if (!identifier) {
@@ -33,6 +34,19 @@ export class OtpService {
 
     if (!user) {
       throw new HttpErrors.NotFound(`User with email '${cleanEmail}' not found`);
+    }
+
+    // Rate Limiting: Check OTP requests in the last 10 minutes
+    const tenMinutesAgo = new Date(Date.now() - 10 * 60 * 1000);
+    const recentOtpCount = await this.otpRepo.count({
+      identifier: cleanEmail,
+      createdAt: {gt: tenMinutesAgo},
+    });
+
+    if (recentOtpCount.count >= 5) {
+      throw new HttpErrors.TooManyRequests(
+        'Too many OTP requests. Please wait 10 minutes before requesting another code.',
+      );
     }
 
     // Deactivate previous unused OTPs for this identifier
@@ -98,25 +112,31 @@ export class OtpService {
       throw new HttpErrors.BadRequest('Invalid OTP code or email identifier');
     }
 
-    if (otpRecord.attempts && otpRecord.attempts >= 5) {
-      await this.otpRepo.updateById(otpRecord.id, {isActive: false});
-      throw new HttpErrors.BadRequest('Maximum OTP verification attempts exceeded. Please request a new OTP code.');
+    // Check expiration (10 minutes window)
+    const now = new Date();
+    if (otpRecord.expiresAt && new Date(otpRecord.expiresAt) < now) {
+      await this.otpRepo.updateById(otpRecord.id, {isActive: false, updatedAt: now});
+      throw new HttpErrors.BadRequest('OTP code has expired. Please request a new one.');
     }
 
-    if (new Date(otpRecord.expiresAt) < new Date()) {
-      await this.otpRepo.updateById(otpRecord.id, {isActive: false});
-      throw new HttpErrors.BadRequest('OTP code has expired. Please request a new OTP code.');
+    // Check maximum attempts (Max 5 attempts)
+    const attempts = (otpRecord.attempts || 0) + 1;
+    if (attempts > 5) {
+      await this.otpRepo.updateById(otpRecord.id, {isActive: false, isDeleted: true, updatedAt: now});
+      throw new HttpErrors.BadRequest('Too many failed OTP attempts. This code is invalidated.');
     }
 
-    // Mark OTP as used in PostgreSQL database
+    // Mark OTP as verified & used (Single-use replay protection)
     await this.otpRepo.updateById(otpRecord.id, {
       isUsed: true,
-      updatedAt: new Date(),
+      isActive: false,
+      attempts: attempts,
+      updatedAt: now,
     });
 
     return {
       success: true,
-      message: 'OTP verified successfully',
+      message: '6-digit OTP code verified successfully',
     };
   }
 }

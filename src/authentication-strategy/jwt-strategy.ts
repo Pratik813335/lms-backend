@@ -2,14 +2,13 @@ import {AuthenticationStrategy} from '@loopback/authentication';
 import {inject} from '@loopback/core';
 import {HttpErrors, Request} from '@loopback/rest';
 import {UserProfile} from '@loopback/security';
-import {TokenServiceBindings} from '../keys';
 import {JWTService} from '../services/jwt-service';
 
 export class JWTStrategy implements AuthenticationStrategy {
   name = 'jwt';
 
   constructor(
-    @inject(TokenServiceBindings.TOKEN_SERVICE)
+    @inject('service.jwt.service')
     public jwtService: JWTService,
   ) {}
 
