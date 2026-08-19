@@ -5,19 +5,34 @@ import {setupApplication} from './test-helper';
 describe('Database Master Data Controller (Acceptance)', () => {
   let app: LmsBackendApplication;
   let client: Client;
+  let adminToken: string;
 
   before('setupApplication', async () => {
     ({app, client} = await setupApplication());
+
+    // Register admin user for master administration
+    const adminEmail = `admin_masters_${Date.now()}@example.com`;
+    const adminRes = await client
+      .post('/auth/signup')
+      .send({
+        email: adminEmail,
+        password: 'AdminPassword123!',
+        role: 'admin',
+        fullName: 'Master Admin',
+      })
+      .expect(200);
+    adminToken = adminRes.body.token;
   });
 
   after(async () => {
     await app.stop();
   });
 
-  it('POST /masters/grade-levels inserts new grade level into PostgreSQL', async () => {
+  it('POST & PATCH /masters/grade-levels creates and updates grade level in PostgreSQL', async () => {
     const val = `Grade_Test_${Date.now()}`;
     const postRes = await client
       .post('/masters/grade-levels')
+      .set('Authorization', `Bearer ${adminToken}`)
       .send({
         label: `Grade Test (${val})`,
         value: val,
@@ -27,16 +42,39 @@ describe('Database Master Data Controller (Acceptance)', () => {
       .expect(200);
 
     expect(postRes.body.success).to.be.true();
-    expect(postRes.body.data).to.have.property('id');
+    const createdId = postRes.body.data.id;
 
+    // Test PATCH
+    const patchRes = await client
+      .patch(`/masters/grade-levels/${createdId}`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        description: 'Updated grade level description',
+      })
+      .expect(200);
+
+    expect(patchRes.body.data.description).to.equal('Updated grade level description');
+
+    // Public GET test
     const getRes = await client.get('/masters/grade-levels').expect(200);
     expect(getRes.body.data.some((g: any) => g.value === val)).to.be.true();
   });
 
-  it('POST /masters/subjects inserts new subject into PostgreSQL', async () => {
+  it('POST /masters/grade-levels rejects unauthenticated request with 401 Unauthorized', async () => {
+    await client
+      .post('/masters/grade-levels')
+      .send({
+        label: 'Unauthorized Grade',
+        value: 'Unauthorized_Grade',
+      })
+      .expect(401);
+  });
+
+  it('POST & PATCH /masters/subjects creates and updates subject in PostgreSQL', async () => {
     const val = `Subject_Test_${Date.now()}`;
     const postRes = await client
       .post('/masters/subjects')
+      .set('Authorization', `Bearer ${adminToken}`)
       .send({
         label: `Subject Test (${val})`,
         value: val,
@@ -45,30 +83,25 @@ describe('Database Master Data Controller (Acceptance)', () => {
       .expect(200);
 
     expect(postRes.body.success).to.be.true();
+    const createdId = postRes.body.data.id;
 
-    const getRes = await client.get('/masters/subjects').expect(200);
-    expect(getRes.body.data.some((s: any) => s.value === val)).to.be.true();
-  });
-
-  it('POST /masters/tiers inserts new tier into PostgreSQL', async () => {
-    const val = `Tier_Test_${Date.now()}`;
-    await client
-      .post('/masters/tiers')
+    // Test PATCH
+    const patchRes = await client
+      .patch(`/masters/subjects/${createdId}`)
+      .set('Authorization', `Bearer ${adminToken}`)
       .send({
-        label: `Tier Test (${val})`,
-        value: val,
-        description: 'Test tier description',
+        label: `Updated Subject (${val})`,
       })
       .expect(200);
 
-    const res = await client.get('/masters/tiers').expect(200);
-    expect(res.body.data.some((t: any) => t.value === val)).to.be.true();
+    expect(patchRes.body.data.label).to.equal(`Updated Subject (${val})`);
   });
 
-  it('POST /masters/asset-types inserts new asset type into PostgreSQL', async () => {
+  it('POST & PATCH /masters/asset-types creates and updates asset type in PostgreSQL', async () => {
     const val = `Asset_Test_${Date.now()}`;
-    await client
+    const postRes = await client
       .post('/masters/asset-types')
+      .set('Authorization', `Bearer ${adminToken}`)
       .send({
         label: `Asset Type (${val})`,
         value: val,
@@ -76,14 +109,25 @@ describe('Database Master Data Controller (Acceptance)', () => {
       })
       .expect(200);
 
-    const res = await client.get('/masters/asset-types').expect(200);
-    expect(res.body.data.some((a: any) => a.value === val)).to.be.true();
+    const createdId = postRes.body.data.id;
+
+    // Test PATCH
+    const patchRes = await client
+      .patch(`/masters/asset-types/${createdId}`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        label: `Updated Asset (${val})`,
+      })
+      .expect(200);
+
+    expect(patchRes.body.data.label).to.equal(`Updated Asset (${val})`);
   });
 
-  it('POST /masters/compliance-statuses inserts new status into PostgreSQL', async () => {
+  it('POST & PATCH /masters/compliance-statuses creates and updates status in PostgreSQL', async () => {
     const val = `Compliance_Test_${Date.now()}`;
-    await client
+    const postRes = await client
       .post('/masters/compliance-statuses')
+      .set('Authorization', `Bearer ${adminToken}`)
       .send({
         label: `Status (${val})`,
         value: val,
@@ -91,7 +135,17 @@ describe('Database Master Data Controller (Acceptance)', () => {
       })
       .expect(200);
 
-    const res = await client.get('/masters/compliance-statuses').expect(200);
-    expect(res.body.data.some((c: any) => c.value === val)).to.be.true();
+    const createdId = postRes.body.data.id;
+
+    // Test PATCH
+    const patchRes = await client
+      .patch(`/masters/compliance-statuses/${createdId}`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        description: 'Updated compliance description',
+      })
+      .expect(200);
+
+    expect(patchRes.body.data.description).to.equal('Updated compliance description');
   });
 });

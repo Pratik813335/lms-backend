@@ -37,25 +37,25 @@ export class StudentProfile extends Entity {
 
   @property({
     type: 'number',
-    default: 1250,
+    default: 0,
   })
   xp?: number;
 
   @property({
     type: 'number',
-    default: 5,
+    default: 1,
   })
   level?: number;
 
   @property({
     type: 'number',
-    default: 7,
+    default: 0,
   })
   streakDays?: number;
 
   @property({
     type: 'number',
-    default: 3.8,
+    default: 0.0,
     postgresql: {
       dataType: 'double precision',
     },
@@ -64,19 +64,19 @@ export class StudentProfile extends Entity {
 
   @property({
     type: 'number',
-    default: 14,
+    default: 0,
   })
   completedLessons?: number;
 
   @property({
     type: 'number',
-    default: 4,
+    default: 0,
   })
   enrolledCoursesCount?: number;
 
   @property({
     type: 'string',
-    default: 'Excellent progress in Algebra 1 and Physics. Consider spending 15 more minutes on calculus practice problems this week.',
+    default: 'Welcome to LucidPrep LMS! Complete your first lesson to unlock personalized AI learning insights.',
   })
   aiInsights?: string;
 

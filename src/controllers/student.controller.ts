@@ -8,7 +8,9 @@ import {
   HttpErrors,
 } from '@loopback/rest';
 import {SecurityBindings} from '@loopback/security';
+import {CourseServiceBindings, RbacServiceBindings} from '../keys';
 import {StudentProfileRepository} from '../repositories';
+import {CourseService, RbacService} from '../services';
 import {LmsUserProfile} from '../types';
 import {formatSuccessResponse} from '../utils';
 
@@ -16,6 +18,10 @@ export class StudentController {
   constructor(
     @repository(StudentProfileRepository)
     public studentProfileRepo: StudentProfileRepository,
+    @inject(CourseServiceBindings.COURSE_SERVICE)
+    public courseService: CourseService,
+    @inject(RbacServiceBindings.RBAC_SERVICE)
+    public rbacService: RbacService,
   ) {}
 
   @authenticate('jwt')
@@ -35,15 +41,18 @@ export class StudentController {
     @inject(SecurityBindings.USER)
     currentUser: LmsUserProfile,
   ) {
+    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+
     let profile = await this.studentProfileRepo.findOne({
       where: {usersId: currentUser.id},
     });
 
     if (!profile) {
+      const isJunior = currentUser.roles?.includes('student_junior');
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
-        gradeLevel: currentUser.gradeLevel || 'Grade 10',
-        tier: currentUser.roles?.includes('student_junior') ? 'junior' : 'senior',
+        gradeLevel: currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10'),
+        tier: isJunior ? 'junior' : 'senior',
         xp: 0,
         level: 1,
         streakDays: 0,
@@ -64,12 +73,12 @@ export class StudentController {
         tier: profile.tier,
       },
       stats: {
-        xp: profile.xp,
-        level: profile.level,
-        streakDays: profile.streakDays,
-        gpa: profile.gpa,
-        completedLessons: profile.completedLessons,
-        enrolledCoursesCount: profile.enrolledCoursesCount,
+        xp: profile.xp || 0,
+        level: profile.level || 1,
+        streakDays: profile.streakDays || 0,
+        gpa: profile.gpa || 0.0,
+        completedLessons: profile.completedLessons || 0,
+        enrolledCoursesCount: profile.enrolledCoursesCount || 0,
       },
       aiInsights: profile.aiInsights,
       weeklyGoal: {
@@ -93,15 +102,18 @@ export class StudentController {
     @inject(SecurityBindings.USER)
     currentUser: LmsUserProfile,
   ) {
+    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+
     let profile = await this.studentProfileRepo.findOne({
       where: {usersId: currentUser.id},
     });
 
     if (!profile) {
+      const isJunior = currentUser.roles?.includes('student_junior');
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
-        gradeLevel: currentUser.gradeLevel || 'Grade 10',
-        tier: currentUser.roles?.includes('student_junior') ? 'junior' : 'senior',
+        gradeLevel: currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10'),
+        tier: isJunior ? 'junior' : 'senior',
         xp: 0,
         level: 1,
         streakDays: 0,
@@ -149,6 +161,8 @@ export class StudentController {
       tier?: 'junior' | 'senior';
     },
   ) {
+    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+
     const profile = await this.studentProfileRepo.findOne({
       where: {usersId: currentUser.id},
     });
@@ -164,5 +178,22 @@ export class StudentController {
 
     const updatedProfile = await this.studentProfileRepo.findById(profile.id);
     return formatSuccessResponse(updatedProfile, 'Student profile updated successfully');
+  }
+
+  @authenticate('jwt')
+  @get('/student/me/learning-map', {
+    responses: {
+      '200': {
+        description: 'Get Junior Interactive Learning Node Path Graph',
+      },
+    },
+  })
+  async getLearningMap(
+    @inject(SecurityBindings.USER)
+    currentUser: LmsUserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    const result = await this.courseService.getJuniorLearningMap(currentUser.id);
+    return formatSuccessResponse(result, 'Junior learning map retrieved successfully');
   }
 }
