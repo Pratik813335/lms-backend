@@ -64,7 +64,6 @@ export class StudentController {
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
         gradeLevelId: gradeMaster?.id,
-        tier: isJunior ? 'junior' : 'senior',
         xp: 0,
         level: 1,
         streakDays: 0,
@@ -77,6 +76,7 @@ export class StudentController {
 
     const plainProfile: any = typeof profile.toJSON === 'function' ? profile.toJSON() : profile;
     const gradeLevelDisplay = plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
+    const tierDisplay = plainProfile.gradeLevel?.category || (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
 
     const dashboardMetrics = {
       profile: {
@@ -86,7 +86,7 @@ export class StudentController {
         email: currentUser.email,
         gradeLevelId: profile.gradeLevelId,
         gradeLevel: gradeLevelDisplay,
-        tier: profile.tier,
+        tier: tierDisplay,
       },
       stats: {
         xp: profile.xp || 0,
@@ -140,7 +140,6 @@ export class StudentController {
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
         gradeLevelId: gradeMaster?.id,
-        tier: isJunior ? 'junior' : 'senior',
         xp: 0,
         level: 1,
         streakDays: 0,
@@ -152,11 +151,13 @@ export class StudentController {
 
     const plainProfile: any = typeof profile.toJSON === 'function' ? profile.toJSON() : profile;
     const gradeLevelDisplay = plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
+    const tierDisplay = plainProfile.gradeLevel?.category || (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
 
     const fullProfileData = {
       ...plainProfile,
       gradeLevelId: profile.gradeLevelId,
       gradeLevel: gradeLevelDisplay,
+      tier: tierDisplay,
       fullName: currentUser.fullName || currentUser.email.split('@')[0],
       email: currentUser.email,
     };
@@ -182,7 +183,6 @@ export class StudentController {
             type: 'object',
             properties: {
               gradeLevelId: {type: 'string'},
-              tier: {type: 'string', enum: ['junior', 'senior']},
             },
           },
         },
@@ -190,7 +190,6 @@ export class StudentController {
     })
     updateData: {
       gradeLevelId?: string;
-      tier?: 'junior' | 'senior';
     },
   ) {
     this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
@@ -204,10 +203,6 @@ export class StudentController {
     }
 
     const updatePayload: any = {};
-    if (updateData.tier !== undefined) {
-      updatePayload.tier = updateData.tier;
-    }
-
     if (updateData.gradeLevelId) {
       const gradeMaster = await this.gradeLevelsRepo.findOne({
         where: {id: updateData.gradeLevelId, isActive: true, isDeleted: false},

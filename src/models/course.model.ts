@@ -55,13 +55,6 @@ export class Course extends Entity {
 
   @property({
     type: 'string',
-    required: true,
-    default: 'senior', // 'junior' | 'senior'
-  })
-  tier: string;
-
-  @property({
-    type: 'string',
   })
   duration?: string;
 
@@ -82,12 +75,6 @@ export class Course extends Entity {
     default: 'published', // 'draft' | 'published' | 'archived'
   })
   status?: string;
-
-  @property({
-    type: 'number',
-    default: 0,
-  })
-  progress?: number;
 
   @property({
     type: 'boolean',

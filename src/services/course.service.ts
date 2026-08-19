@@ -48,8 +48,10 @@ export class CourseService {
    */
   private formatCourseWithRelations(course: any) {
     const plain = typeof course.toJSON === 'function' ? course.toJSON() : course;
+    const tier = plain.gradeLevel?.category || 'senior';
     return {
       ...plain,
+      tier,
       subject: plain.subject?.label || plain.subject?.value || plain.subject || '',
       gradeLevel: plain.gradeLevel?.label || plain.gradeLevel?.value || plain.gradeLevel || '',
       instructor: plain.instructor?.fullName || plain.author?.fullName || '',
@@ -80,7 +82,15 @@ export class CourseService {
     };
 
     if (query.tier) {
-      whereClause.tier = query.tier;
+      const matchingGrades = await this.gradeLevelsRepo.find({
+        where: {category: query.tier, isActive: true, isDeleted: false},
+      });
+      const gradeIds = matchingGrades.map(g => g.id);
+      if (gradeIds.length > 0) {
+        whereClause.gradeLevelId = {inq: gradeIds};
+      } else {
+        whereClause.gradeLevelId = '00000000-0000-0000-0000-000000000000';
+      }
     }
 
     // Filter by subjectId foreign key
@@ -114,7 +124,7 @@ export class CourseService {
         {
           relation: 'gradeLevel',
           scope: {
-            fields: {id: true, label: true, value: true},
+            fields: {id: true, label: true, value: true, category: true},
           },
         },
         {
@@ -423,9 +433,14 @@ export class CourseService {
       where: {usersId: userId, status: 'active'},
     });
 
+    const juniorGrades = await this.gradeLevelsRepo.find({
+      where: {category: 'junior', isActive: true, isDeleted: false},
+    });
+    const juniorGradeIds: string[] = juniorGrades.map(g => g.id!).filter(Boolean);
+
     const activeCourses = await this.courseRepo.find({
       where: {
-        tier: 'junior',
+        gradeLevelId: {inq: juniorGradeIds.length > 0 ? juniorGradeIds : ['00000000-0000-0000-0000-000000000000']},
         isDeleted: false,
         isActive: true,
       },

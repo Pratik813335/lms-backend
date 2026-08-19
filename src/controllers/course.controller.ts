@@ -120,7 +120,6 @@ export class CourseController {
       instructorId?: string;
       subtitle?: string;
       description?: string;
-      tier?: string;
       duration?: string;
       credits?: number;
       emoji?: string;
@@ -163,8 +162,7 @@ export class CourseController {
       }
     }
 
-    const courseTier = data.tier || 'senior';
-    const courseCredits = data.credits !== undefined ? data.credits : (courseTier === 'junior' ? 0.0 : 1.0);
+    const courseCredits = data.credits !== undefined ? data.credits : (validGrade.category === 'junior' ? 0.0 : 1.0);
 
     const created = await this.courseRepo.create({
       title: data.title.trim(),
@@ -174,7 +172,6 @@ export class CourseController {
       gradeLevelId: data.gradeLevelId,
       instructorId: data.instructorId,
       authorId: (currentUser as any).id || (currentUser as any).userId,
-      tier: courseTier,
       duration: data.duration,
       credits: courseCredits,
       emoji: data.emoji,
@@ -228,7 +225,6 @@ export class CourseController {
               subjectId: {type: 'string'},
               gradeLevelId: {type: 'string'},
               instructorId: {type: 'string'},
-              tier: {type: 'string', enum: ['junior', 'senior']},
               duration: {type: 'string'},
               credits: {type: 'number'},
               emoji: {type: 'string'},
@@ -246,7 +242,6 @@ export class CourseController {
       subjectId?: string;
       gradeLevelId?: string;
       instructorId?: string;
-      tier?: string;
       duration?: string;
       credits?: number;
       emoji?: string;
@@ -265,7 +260,6 @@ export class CourseController {
     if (data.title !== undefined) updatePayload.title = data.title;
     if (data.subtitle !== undefined) updatePayload.subtitle = data.subtitle;
     if (data.description !== undefined) updatePayload.description = data.description;
-    if (data.tier !== undefined) updatePayload.tier = data.tier;
     if (data.duration !== undefined) updatePayload.duration = data.duration;
     if (data.credits !== undefined) updatePayload.credits = data.credits;
     if (data.emoji !== undefined) updatePayload.emoji = data.emoji;

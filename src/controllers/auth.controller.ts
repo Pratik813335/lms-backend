@@ -67,7 +67,7 @@ export class AuthController {
     public studentProfileRepo: StudentProfileRepository,
     @repository(GradeLevelsRepository)
     public gradeLevelsRepo: GradeLevelsRepository,
-  ) {}
+  ) { }
 
   @post('/auth/login', {
     responses: {

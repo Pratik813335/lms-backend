@@ -1,6 +1,6 @@
-import {belongsTo, Entity, model, property} from '@loopback/repository';
-import {GradeLevels} from './grade-levels.model';
-import {Users} from './users.model';
+import { belongsTo, Entity, model, property } from '@loopback/repository';
+import { GradeLevels } from './grade-levels.model';
+import { Users } from './users.model';
 
 @model({
   settings: {
