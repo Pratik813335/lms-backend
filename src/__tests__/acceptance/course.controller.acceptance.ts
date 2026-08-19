@@ -16,6 +16,10 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
   before('setupApplication', async () => {
     ({app, client} = await setupApplication());
 
+    const rolesRes = await client.get('/auth/roles').expect(200);
+    const adminRoleId = rolesRes.body.roles.find((r: any) => r.key === 'admin')?.id;
+    const seniorRoleId = rolesRes.body.roles.find((r: any) => r.key === 'student_senior')?.id;
+
     // Register admin user
     const adminEmail = `admin_week2_${Date.now()}@example.com`;
     const adminRes = await client
@@ -23,7 +27,7 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
       .send({
         email: adminEmail,
         password: 'AdminPassword123!',
-        role: 'admin',
+        roleId: adminRoleId,
         fullName: 'Week 2 Admin',
       })
       .expect(200);
@@ -61,7 +65,7 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
       .send({
         email: studentEmail,
         password: 'StudentPassword123!',
-        role: 'student_senior',
+        roleId: seniorRoleId,
         fullName: 'Week 2 Student',
         gradeLevelId: gradeLevelId,
       })

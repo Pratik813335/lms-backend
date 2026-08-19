@@ -10,6 +10,9 @@ describe('Database Master Data Controller (Acceptance)', () => {
   before('setupApplication', async () => {
     ({app, client} = await setupApplication());
 
+    const rolesRes = await client.get('/auth/roles').expect(200);
+    const adminRoleId = rolesRes.body.roles.find((r: any) => r.key === 'admin')?.id;
+
     // Register admin user for master administration
     const adminEmail = `admin_masters_${Date.now()}@example.com`;
     const adminRes = await client
@@ -17,7 +20,7 @@ describe('Database Master Data Controller (Acceptance)', () => {
       .send({
         email: adminEmail,
         password: 'AdminPassword123!',
-        role: 'admin',
+        roleId: adminRoleId,
         fullName: 'Master Admin',
       })
       .expect(200);

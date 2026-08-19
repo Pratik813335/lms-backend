@@ -126,11 +126,11 @@ export class AuthController {
         'application/json': {
           schema: {
             type: 'object',
-            required: ['email', 'password', 'role'],
+            required: ['email', 'password'],
             properties: {
               email: { type: 'string' },
               password: { type: 'string' },
-              role: { type: 'string' },
+              roleId: { type: 'string' },
               fullName: { type: 'string' },
               gradeLevelId: { type: 'string' },
             },
@@ -141,7 +141,7 @@ export class AuthController {
     userData: {
       email: string;
       password: string;
-      role: string;
+      roleId?: string;
       fullName?: string;
       gradeLevelId?: string;
     },
@@ -152,17 +152,26 @@ export class AuthController {
         throw new HttpErrors.BadRequest('Password must be at least 8 characters long');
       }
 
-      // 2. Validate that requested role exists in system roles table BEFORE creating anything
-      const targetRole = await this.rolesRepo.findOne({
-        where: { value: userData.role, isActive: true, isDeleted: false },
-      });
+      // 2. Validate that requested roleId exists in system roles table BEFORE creating anything
+      let targetRole: any = null;
+      if (userData.roleId) {
+        targetRole = await this.rolesRepo.findOne({
+          where: { id: userData.roleId, isActive: true, isDeleted: false },
+        });
+        if (!targetRole) {
+          throw new HttpErrors.BadRequest(
+            `Invalid roleId '${userData.roleId}'. Role does not exist in master data.`,
+          );
+        }
+      } else {
+        // Default to student_senior master role
+        targetRole = await this.rolesRepo.findOne({
+          where: { value: 'student_senior', isActive: true, isDeleted: false },
+        });
+      }
 
       if (!targetRole) {
-        const activeRoles = await this.rbacService.getAllActiveRoles();
-        const validRoleKeys = activeRoles.map(r => r.key).join(', ');
-        throw new HttpErrors.BadRequest(
-          `Invalid role '${userData.role}'. Allowed system roles are: ${validRoleKeys}`,
-        );
+        throw new HttpErrors.BadRequest('Default student_senior role not found in master data.');
       }
 
       // 3. Check if user already exists
@@ -186,13 +195,13 @@ export class AuthController {
       });
 
       // 6. Assign user role in PostgreSQL user_roles table using RbacService
-      await this.rbacService.assignUserRole(savedUser.id!, userData.role);
+      await this.rbacService.assignUserRole(savedUser.id!, targetRole.id!);
 
       // 7. If student, create initial clean student profile in student_profiles table (zero stats)
-      const isStudentRole = userData.role.startsWith('student_');
+      const isStudentRole = targetRole.value.startsWith('student_');
       let resolvedGradeDisplay = 'Grade 10';
       if (isStudentRole) {
-        const tier = userData.role === 'student_junior' ? 'junior' : 'senior';
+        const tier = targetRole.value === 'student_junior' ? 'junior' : 'senior';
         let gradeMaster: any = null;
 
         if (userData.gradeLevelId) {
@@ -232,7 +241,7 @@ export class AuthController {
         [securityId]: savedUser.id!,
         id: savedUser.id!,
         email: savedUser.email,
-        roles: [userData.role as any],
+        roles: [targetRole.value as any],
         fullName: savedUser.fullName,
         gradeLevel: isStudentRole ? resolvedGradeDisplay : (null as any),
       };

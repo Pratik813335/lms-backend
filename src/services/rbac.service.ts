@@ -24,6 +24,7 @@ export class RbacService {
     });
 
     return roles.map(r => ({
+      id: r.id,
       key: r.value,
       label: r.label,
       description: r.description,
@@ -34,16 +35,21 @@ export class RbacService {
    * Assign role to user in user_roles table matching Amplio pattern.
    * Throws 400 Bad Request if roleValue does not exist in system roles.
    */
-  async assignUserRole(userId: string, roleValue: string) {
+  async assignUserRole(userId: string, roleIdentifier: string) {
+    const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(roleIdentifier);
     const role = await this.rolesRepo.findOne({
-      where: {value: roleValue, isActive: true, isDeleted: false},
+      where: {
+        or: isUuid ? [{id: roleIdentifier}, {value: roleIdentifier}] : [{value: roleIdentifier}],
+        isActive: true,
+        isDeleted: false,
+      },
     });
 
     if (!role) {
       const activeRoles = await this.getAllActiveRoles();
-      const validKeys = activeRoles.map(r => r.key).join(', ');
+      const validKeys = activeRoles.map(r => `${r.label} (${r.key})`).join(', ');
       throw new HttpErrors.BadRequest(
-        `Invalid role '${roleValue}'. Allowed system roles are: ${validKeys}`,
+        `Invalid role '${roleIdentifier}'. Allowed system roles are: ${validKeys}`,
       );
     }
 
