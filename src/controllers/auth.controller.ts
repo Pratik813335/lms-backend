@@ -10,6 +10,7 @@ import {
 } from '@loopback/rest';
 import { SecurityBindings, UserProfile, securityId } from '@loopback/security';
 import {
+  GradeLevelsRepository,
   RolesRepository,
   StudentProfileRepository,
   UsersRepository,
@@ -64,6 +65,8 @@ export class AuthController {
     public rolesRepo: RolesRepository,
     @repository(StudentProfileRepository)
     public studentProfileRepo: StudentProfileRepository,
+    @repository(GradeLevelsRepository)
+    public gradeLevelsRepo: GradeLevelsRepository,
   ) {}
 
   @post('/auth/login', {
@@ -129,7 +132,7 @@ export class AuthController {
               password: { type: 'string' },
               role: { type: 'string' },
               fullName: { type: 'string' },
-              gradeLevel: { type: 'string' },
+              gradeLevelId: { type: 'string' },
             },
           },
         },
@@ -140,85 +143,111 @@ export class AuthController {
       password: string;
       role: string;
       fullName?: string;
-      gradeLevel?: string;
+      gradeLevelId?: string;
     },
   ): Promise<{ message: string; token: string; user: UserProfile }> {
-    // 1. Validate password minimum length & complexity (Security Enhancement)
-    if (!userData.password || userData.password.length < 8) {
-      throw new HttpErrors.BadRequest('Password must be at least 8 characters long');
-    }
+    try {
+      // 1. Validate password minimum length & complexity (Security Enhancement)
+      if (!userData.password || userData.password.length < 8) {
+        throw new HttpErrors.BadRequest('Password must be at least 8 characters long');
+      }
 
-    // 2. Validate that requested role exists in system roles table BEFORE creating anything
-    const targetRole = await this.rolesRepo.findOne({
-      where: { value: userData.role, isActive: true, isDeleted: false },
-    });
-
-    if (!targetRole) {
-      const activeRoles = await this.rbacService.getAllActiveRoles();
-      const validRoleKeys = activeRoles.map(r => r.key).join(', ');
-      throw new HttpErrors.BadRequest(
-        `Invalid role '${userData.role}'. Allowed system roles are: ${validRoleKeys}`,
-      );
-    }
-
-    // 3. Check if user already exists
-    const existingUser = await this.usersRepo.findOne({
-      where: { email: userData.email },
-    });
-
-    if (existingUser) {
-      throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
-    }
-
-    // 4. Hash password with bcrypt
-    const hashedPassword = await this.hasher.hashPassword(userData.password);
-
-    // 5. Create user in PostgreSQL users table
-    const savedUser = await this.usersRepo.create({
-      email: userData.email,
-      password: hashedPassword,
-      fullName: userData.fullName || userData.email.split('@')[0],
-      isActive: true,
-    });
-
-    // 6. Assign user role in PostgreSQL user_roles table using RbacService
-    await this.rbacService.assignUserRole(savedUser.id!, userData.role);
-
-    // 7. If student, create initial clean student profile in student_profiles table (zero stats)
-    const isStudentRole = userData.role.startsWith('student_');
-    if (isStudentRole) {
-      const tier = userData.role === 'student_junior' ? 'junior' : 'senior';
-      await this.studentProfileRepo.create({
-        usersId: savedUser.id,
-        gradeLevel: userData.gradeLevel || (tier === 'junior' ? 'Grade 6' : 'Grade 10'),
-        tier: tier,
-        xp: 0,
-        level: 1,
-        streakDays: 0,
-        gpa: 0.0,
-        completedLessons: 0,
-        enrolledCoursesCount: 0,
-        aiInsights: 'Welcome to LucidPrep LMS! Complete your first lesson to unlock personalized AI learning insights.',
+      // 2. Validate that requested role exists in system roles table BEFORE creating anything
+      const targetRole = await this.rolesRepo.findOne({
+        where: { value: userData.role, isActive: true, isDeleted: false },
       });
+
+      if (!targetRole) {
+        const activeRoles = await this.rbacService.getAllActiveRoles();
+        const validRoleKeys = activeRoles.map(r => r.key).join(', ');
+        throw new HttpErrors.BadRequest(
+          `Invalid role '${userData.role}'. Allowed system roles are: ${validRoleKeys}`,
+        );
+      }
+
+      // 3. Check if user already exists
+      const existingUser = await this.usersRepo.findOne({
+        where: { email: userData.email },
+      });
+
+      if (existingUser) {
+        throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
+      }
+
+      // 4. Hash password with bcrypt
+      const hashedPassword = await this.hasher.hashPassword(userData.password);
+
+      // 5. Create user in PostgreSQL users table
+      const savedUser = await this.usersRepo.create({
+        email: userData.email,
+        password: hashedPassword,
+        fullName: userData.fullName || userData.email.split('@')[0],
+        isActive: true,
+      });
+
+      // 6. Assign user role in PostgreSQL user_roles table using RbacService
+      await this.rbacService.assignUserRole(savedUser.id!, userData.role);
+
+      // 7. If student, create initial clean student profile in student_profiles table (zero stats)
+      const isStudentRole = userData.role.startsWith('student_');
+      let resolvedGradeDisplay = 'Grade 10';
+      if (isStudentRole) {
+        const tier = userData.role === 'student_junior' ? 'junior' : 'senior';
+        let gradeMaster: any = null;
+
+        if (userData.gradeLevelId) {
+          gradeMaster = await this.gradeLevelsRepo.findOne({
+            where: { id: userData.gradeLevelId, isActive: true, isDeleted: false },
+          });
+          if (!gradeMaster) {
+            throw new HttpErrors.BadRequest(
+              `Invalid gradeLevelId '${userData.gradeLevelId}'. Grade level does not exist in master data.`,
+            );
+          }
+        } else {
+          const defaultTarget = tier === 'junior' ? 'Grade 6' : 'Grade 10';
+          gradeMaster = await this.gradeLevelsRepo.findOne({
+            where: { or: [{ value: defaultTarget }, { label: defaultTarget }], isDeleted: false },
+          });
+        }
+
+        resolvedGradeDisplay = gradeMaster?.value || (tier === 'junior' ? 'Grade 6' : 'Grade 10');
+
+        await this.studentProfileRepo.create({
+          usersId: savedUser.id,
+          gradeLevelId: gradeMaster?.id,
+          tier: tier,
+          xp: 0,
+          level: 1,
+          streakDays: 0,
+          gpa: 0.0,
+          completedLessons: 0,
+          enrolledCoursesCount: 0,
+          aiInsights: 'Welcome to LucidPrep LMS! Complete your first lesson to unlock personalized AI learning insights.',
+        });
+      }
+
+      // 8. Build authenticated user profile & JWT token (gradeLevel is ONLY for student roles, null for staff)
+      const userProfile: LmsUserProfile = {
+        [securityId]: savedUser.id!,
+        id: savedUser.id!,
+        email: savedUser.email,
+        roles: [userData.role as any],
+        fullName: savedUser.fullName,
+        gradeLevel: isStudentRole ? resolvedGradeDisplay : (null as any),
+      };
+
+      const token = await this.jwtService.generateToken(userProfile);
+
+      return {
+        message: 'User registered successfully',
+        token,
+        user: userProfile,
+      };
+    } catch (error) {
+      console.error('SIGNUP ERROR:', error);
+      throw error;
     }
-
-    // 8. Build authenticated user profile & JWT token (gradeLevel is ONLY for student roles, null for staff)
-    const userProfile: LmsUserProfile = {
-      [securityId]: savedUser.id!,
-      id: savedUser.id!,
-      email: savedUser.email,
-      roles: [userData.role as any],
-      fullName: savedUser.fullName,
-      gradeLevel: isStudentRole ? (userData.gradeLevel || (userData.role === 'student_junior' ? 'Grade 6' : 'Grade 10')) : (null as any),
-    };
-
-    const token = await this.jwtService.generateToken(userProfile);
-
-    return {
-      message: 'User registered successfully',
-      token,
-      user: userProfile,
-    };
   }
 
   @post('/auth/send-otp', {

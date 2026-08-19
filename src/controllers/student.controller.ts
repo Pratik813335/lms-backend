@@ -8,7 +8,7 @@ import {
   HttpErrors,
 } from '@loopback/rest';
 import {SecurityBindings} from '@loopback/security';
-import {StudentProfileRepository} from '../repositories';
+import {GradeLevelsRepository, StudentProfileRepository} from '../repositories';
 import {CourseService, RbacService} from '../services';
 import {LmsUserProfile} from '../types';
 import {formatSuccessResponse} from '../utils';
@@ -17,6 +17,8 @@ export class StudentController {
   constructor(
     @repository(StudentProfileRepository)
     public studentProfileRepo: StudentProfileRepository,
+    @repository(GradeLevelsRepository)
+    public gradeLevelsRepo: GradeLevelsRepository,
     @inject('services.course')
     public courseService: CourseService,
     @inject('services.rbac')
@@ -44,13 +46,24 @@ export class StudentController {
 
     let profile = await this.studentProfileRepo.findOne({
       where: {usersId: currentUser.id},
+      include: [
+        {
+          relation: 'gradeLevel',
+          scope: {fields: {id: true, label: true, value: true, category: true}},
+        },
+      ],
     });
 
     if (!profile) {
       const isJunior = currentUser.roles?.includes('student_junior');
+      const gradeTarget = currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10');
+      const gradeMaster = await this.gradeLevelsRepo.findOne({
+        where: {or: [{value: gradeTarget}, {label: gradeTarget}], isDeleted: false},
+      });
+
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
-        gradeLevel: currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10'),
+        gradeLevelId: gradeMaster?.id,
         tier: isJunior ? 'junior' : 'senior',
         xp: 0,
         level: 1,
@@ -62,13 +75,17 @@ export class StudentController {
       });
     }
 
+    const plainProfile: any = typeof profile.toJSON === 'function' ? profile.toJSON() : profile;
+    const gradeLevelDisplay = plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
+
     const dashboardMetrics = {
       profile: {
         id: profile.id,
         usersId: profile.usersId,
         fullName: currentUser.fullName || currentUser.email.split('@')[0],
         email: currentUser.email,
-        gradeLevel: profile.gradeLevel,
+        gradeLevelId: profile.gradeLevelId,
+        gradeLevel: gradeLevelDisplay,
         tier: profile.tier,
       },
       stats: {
@@ -105,13 +122,24 @@ export class StudentController {
 
     let profile = await this.studentProfileRepo.findOne({
       where: {usersId: currentUser.id},
+      include: [
+        {
+          relation: 'gradeLevel',
+          scope: {fields: {id: true, label: true, value: true, category: true}},
+        },
+      ],
     });
 
     if (!profile) {
       const isJunior = currentUser.roles?.includes('student_junior');
+      const gradeTarget = currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10');
+      const gradeMaster = await this.gradeLevelsRepo.findOne({
+        where: {or: [{value: gradeTarget}, {label: gradeTarget}], isDeleted: false},
+      });
+
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
-        gradeLevel: currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10'),
+        gradeLevelId: gradeMaster?.id,
         tier: isJunior ? 'junior' : 'senior',
         xp: 0,
         level: 1,
@@ -122,8 +150,13 @@ export class StudentController {
       });
     }
 
+    const plainProfile: any = typeof profile.toJSON === 'function' ? profile.toJSON() : profile;
+    const gradeLevelDisplay = plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
+
     const fullProfileData = {
-      ...profile,
+      ...plainProfile,
+      gradeLevelId: profile.gradeLevelId,
+      gradeLevel: gradeLevelDisplay,
       fullName: currentUser.fullName || currentUser.email.split('@')[0],
       email: currentUser.email,
     };
@@ -148,7 +181,7 @@ export class StudentController {
           schema: {
             type: 'object',
             properties: {
-              gradeLevel: {type: 'string'},
+              gradeLevelId: {type: 'string'},
               tier: {type: 'string', enum: ['junior', 'senior']},
             },
           },
@@ -156,7 +189,7 @@ export class StudentController {
       },
     })
     updateData: {
-      gradeLevel?: string;
+      gradeLevelId?: string;
       tier?: 'junior' | 'senior';
     },
   ) {
@@ -170,12 +203,34 @@ export class StudentController {
       throw new HttpErrors.NotFound('Student profile not found');
     }
 
+    const updatePayload: any = {};
+    if (updateData.tier !== undefined) {
+      updatePayload.tier = updateData.tier;
+    }
+
+    if (updateData.gradeLevelId) {
+      const gradeMaster = await this.gradeLevelsRepo.findOne({
+        where: {id: updateData.gradeLevelId, isActive: true, isDeleted: false},
+      });
+      if (!gradeMaster) {
+        throw new HttpErrors.BadRequest(`Invalid gradeLevelId '${updateData.gradeLevelId}'. Grade level does not exist in master data.`);
+      }
+      updatePayload.gradeLevelId = gradeMaster.id;
+    }
+
     await this.studentProfileRepo.updateById(profile.id, {
-      ...updateData,
+      ...updatePayload,
       updatedAt: new Date(),
     });
 
-    const updatedProfile = await this.studentProfileRepo.findById(profile.id);
+    const updatedProfile = await this.studentProfileRepo.findById(profile.id, {
+      include: [
+        {
+          relation: 'gradeLevel',
+          scope: {fields: {id: true, label: true, value: true, category: true}},
+        },
+      ],
+    });
     return formatSuccessResponse(updatedProfile, 'Student profile updated successfully');
   }
 

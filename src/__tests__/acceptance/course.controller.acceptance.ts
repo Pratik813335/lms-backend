@@ -7,7 +7,8 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
   let client: Client;
   let adminToken: string;
   let studentToken: string;
-  let subjectValue: string;
+  let subjectId: string;
+  let gradeLevelId: string;
   let createdCourseId: string;
   let createdModuleId: string;
   let createdLessonId: string;
@@ -28,23 +29,9 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
       .expect(200);
     adminToken = adminRes.body.token;
 
-    // Register student user
-    const studentEmail = `student_week2_${Date.now()}@example.com`;
-    const studentRes = await client
-      .post('/auth/signup')
-      .send({
-        email: studentEmail,
-        password: 'StudentPassword123!',
-        role: 'student_senior',
-        fullName: 'Week 2 Student',
-        gradeLevel: 'Grade 10',
-      })
-      .expect(200);
-    studentToken = studentRes.body.token;
-
     // Pre-insert valid subject master using admin authorization
-    subjectValue = `Subject_W2_${Date.now()}`;
-    await client
+    const subjectValue = `Subject_W2_${Date.now()}`;
+    const subjectRes = await client
       .post('/masters/subjects')
       .set('Authorization', `Bearer ${adminToken}`)
       .send({
@@ -53,13 +40,40 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
         description: 'Math Subject Master',
       })
       .expect(200);
+    subjectId = subjectRes.body.data.id;
+
+    // Pre-insert valid grade level master
+    const gradeLevelRes = await client
+      .post('/masters/grade-levels')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        label: 'Grade 10 (Sophomore)',
+        value: `Grade_10_${Date.now()}`,
+        category: 'senior',
+      })
+      .expect(200);
+    gradeLevelId = gradeLevelRes.body.data.id;
+
+    // Register student user with gradeLevelId
+    const studentEmail = `student_week2_${Date.now()}@example.com`;
+    const studentRes = await client
+      .post('/auth/signup')
+      .send({
+        email: studentEmail,
+        password: 'StudentPassword123!',
+        role: 'student_senior',
+        fullName: 'Week 2 Student',
+        gradeLevelId: gradeLevelId,
+      })
+      .expect(200);
+    studentToken = studentRes.body.token;
   });
 
   after(async () => {
     await app.stop();
   });
 
-  it('POST /courses creates new course with valid subject master', async () => {
+  it('POST /courses creates new course with valid subject & gradeLevel foreign keys', async () => {
     const courseTitle = `Algebra 101 (${Date.now()})`;
     const res = await client
       .post('/courses')
@@ -68,10 +82,9 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
         title: courseTitle,
         subtitle: 'Foundations of Equations',
         description: 'Comprehensive algebra course for high school students',
-        subject: subjectValue,
-        gradeLevel: 'Grade 10',
+        subjectId: subjectId,
+        gradeLevelId: gradeLevelId,
         tier: 'senior',
-        instructor: 'Dr. Euler',
         duration: '18 weeks',
         credits: 1.0,
         ncaaApproved: true,
@@ -80,25 +93,27 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
 
     expect(res.body.success).to.be.true();
     expect(res.body.data).to.have.property('id');
+    expect(res.body.data.subjectId).to.equal(subjectId);
+    expect(res.body.data.gradeLevelId).to.equal(gradeLevelId);
     createdCourseId = res.body.data.id;
   });
 
-  it('POST /courses rejects invalid subject with 400 Bad Request', async () => {
+  it('POST /courses rejects invalid foreign key with 400 Bad Request', async () => {
     await client
       .post('/courses')
       .set('Authorization', `Bearer ${adminToken}`)
       .send({
         title: 'Quantum Physics',
-        subject: 'InvalidSubject_XYZ', // Invalid subject name not in master
-        gradeLevel: 'Grade 12',
+        subjectId: '00000000-0000-0000-0000-000000000000', // Non-existent UUID
+        gradeLevelId: gradeLevelId,
         tier: 'senior',
       })
       .expect(400);
   });
 
-  it('GET /courses retrieves paginated & filtered course catalog', async () => {
+  it('GET /courses retrieves paginated & filtered course catalog by subjectId & tier', async () => {
     const res = await client
-      .get(`/courses?subject=${subjectValue}&tier=senior`)
+      .get(`/courses?subjectId=${subjectId}&tier=senior`)
       .expect(200);
 
     expect(res.body.success).to.be.true();

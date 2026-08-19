@@ -67,22 +67,21 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
       throw new HttpErrors.Unauthorized('Invalid password credentials');
     }
 
-    // Fetch user roles from PostgreSQL user_roles and roles tables
-    const userRoles = await this.userRolesRepo.find({
-      where: {usersId: userEntity.id},
+    // Fetch user roles via hasManyThrough relation inclusion
+    const userWithRoles = await this.usersRepo.findById(userEntity.id, {
+      include: ['roles'],
     });
-
-    const roleIds = userRoles.map(ur => ur.rolesId);
-    const rolesList = await this.rolesRepo.find({
-      where: {id: {inq: roleIds}},
-    });
-    const roles = rolesList.map(r => r.value);
+    const roles = (userWithRoles.roles || []).map(r => r.value);
 
     // gradeLevel is ONLY for student roles; null for staff roles (admin, content, academic, operations)
     const isStudentRole = roles.some(r => r.startsWith('student_'));
     const profile = isStudentRole
-      ? await this.studentProfileRepo.findOne({where: {usersId: userEntity.id}})
+      ? await this.studentProfileRepo.findOne({where: {usersId: userEntity.id}, include: ['gradeLevel']})
       : null;
+    const plainProf: any = profile ? (typeof profile.toJSON === 'function' ? profile.toJSON() : profile) : null;
+    const isJunior = roles.includes('student_junior');
+    const defaultGrade = isJunior ? 'Grade 6' : 'Grade 10';
+    const gradeLevelVal = plainProf?.gradeLevel?.value || plainProf?.gradeLevel?.label || defaultGrade;
 
     return {
       id: userEntity.id!,
@@ -90,7 +89,7 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
       password: userEntity.password,
       roles: roles.length ? roles : ['student_senior'],
       fullName: userEntity.fullName || userEntity.email.split('@')[0],
-      gradeLevel: isStudentRole ? (profile?.gradeLevel || 'Grade 10') : null,
+      gradeLevel: isStudentRole ? gradeLevelVal : null,
       isActive: userEntity.isActive,
     };
   }

@@ -4,10 +4,14 @@ import {HttpErrors} from '@loopback/rest';
 import {
   CourseRepository,
   EnrollmentRepository,
+  GradeLevelsRepository,
   LessonProgressRepository,
   LessonRepository,
   ModuleRepository,
+  RolesRepository,
   StudentProfileRepository,
+  SubjectsRepository,
+  UserRolesRepository,
   UsersRepository,
 } from '../repositories';
 import {Course, Lesson} from '../models';
@@ -29,7 +33,28 @@ export class CourseService {
     public studentProfileRepo: StudentProfileRepository,
     @repository(UsersRepository)
     public usersRepo: UsersRepository,
+    @repository(SubjectsRepository)
+    public subjectsRepo: SubjectsRepository,
+    @repository(GradeLevelsRepository)
+    public gradeLevelsRepo: GradeLevelsRepository,
+    @repository(RolesRepository)
+    public rolesRepo: RolesRepository,
+    @repository(UserRolesRepository)
+    public userRolesRepo: UserRolesRepository,
   ) {}
+
+  /**
+   * Format course instance with resolved relational values for frontend
+   */
+  private formatCourseWithRelations(course: any) {
+    const plain = typeof course.toJSON === 'function' ? course.toJSON() : course;
+    return {
+      ...plain,
+      subject: plain.subject?.label || plain.subject?.value || plain.subject || '',
+      gradeLevel: plain.gradeLevel?.label || plain.gradeLevel?.value || plain.gradeLevel || '',
+      instructor: plain.instructor?.fullName || plain.author?.fullName || '',
+    };
+  }
 
   /**
    * Fetch paginated & filtered course catalog
@@ -37,7 +62,9 @@ export class CourseService {
   async getCatalog(query: {
     tier?: string;
     subject?: string;
+    subjectId?: string;
     gradeLevel?: string;
+    gradeLevelId?: string;
     search?: string;
     page?: number;
     limit?: number;
@@ -55,30 +82,63 @@ export class CourseService {
     if (query.tier) {
       whereClause.tier = query.tier;
     }
-    if (query.subject) {
-      whereClause.subject = query.subject;
+
+    // Filter by subjectId foreign key
+    if (query.subjectId) {
+      whereClause.subjectId = query.subjectId;
     }
-    if (query.gradeLevel) {
-      whereClause.gradeLevel = query.gradeLevel;
+
+    // Filter by gradeLevelId foreign key
+    if (query.gradeLevelId) {
+      whereClause.gradeLevelId = query.gradeLevelId;
     }
+
     if (query.search) {
       whereClause.or = [
         {title: {like: `%${query.search}%`, options: 'i'}},
         {description: {like: `%${query.search}%`, options: 'i'}},
-        {subject: {like: `%${query.search}%`, options: 'i'}},
+        {subtitle: {like: `%${query.search}%`, options: 'i'}},
       ];
     }
 
     const total = await this.courseRepo.count(whereClause);
     const courses = await this.courseRepo.find({
       where: whereClause,
+      include: [
+        {
+          relation: 'subject',
+          scope: {
+            fields: {id: true, label: true, value: true},
+          },
+        },
+        {
+          relation: 'gradeLevel',
+          scope: {
+            fields: {id: true, label: true, value: true},
+          },
+        },
+        {
+          relation: 'instructor',
+          scope: {
+            fields: {id: true, fullName: true, email: true},
+          },
+        },
+        {
+          relation: 'author',
+          scope: {
+            fields: {id: true, fullName: true, email: true},
+          },
+        },
+      ],
       limit,
       skip,
       order: ['createdAt DESC'],
     });
 
+    const formattedCourses = courses.map(c => this.formatCourseWithRelations(c));
+
     return {
-      courses,
+      courses: formattedCourses,
       pagination: {
         total: total.count,
         page,
@@ -94,6 +154,24 @@ export class CourseService {
   async getSyllabusTree(courseId: string, userId?: string) {
     const course = await this.courseRepo.findOne({
       where: {id: courseId, isDeleted: false},
+      include: [
+        {
+          relation: 'subject',
+          scope: {fields: {id: true, label: true, value: true}},
+        },
+        {
+          relation: 'gradeLevel',
+          scope: {fields: {id: true, label: true, value: true}},
+        },
+        {
+          relation: 'instructor',
+          scope: {fields: {id: true, fullName: true, email: true}},
+        },
+        {
+          relation: 'author',
+          scope: {fields: {id: true, fullName: true, email: true}},
+        },
+      ],
     });
 
     if (!course) {
@@ -147,9 +225,38 @@ export class CourseService {
     }
 
     return {
-      course,
+      course: this.formatCourseWithRelations(course),
       modules: syllabusModules,
     };
+  }
+
+  /**
+   * Fetch eligible instructors list (staff roles: content, academic, admin)
+   */
+  async getInstructors() {
+    const users = await this.usersRepo.find({
+      where: {isDeleted: false, isActive: true},
+      fields: {id: true, fullName: true, email: true},
+      include: [
+        {
+          relation: 'roles',
+          scope: {
+            where: {isActive: true, isDeleted: false},
+            fields: {id: true, value: true, label: true},
+          },
+        },
+      ],
+    });
+
+    const instructors = users.filter(u =>
+      (u.roles || []).some(r => ['content', 'academic', 'admin'].includes(r.value)),
+    );
+
+    return instructors.map(u => ({
+      id: u.id,
+      fullName: u.fullName || u.email.split('@')[0],
+      email: u.email,
+    }));
   }
 
   /**
@@ -316,18 +423,17 @@ export class CourseService {
       where: {usersId: userId, status: 'active'},
     });
 
-    const enrolledCourseIds = enrollments.map(e => e.courseId);
-
     const activeCourses = await this.courseRepo.find({
       where: {
         tier: 'junior',
         isDeleted: false,
         isActive: true,
       },
+      include: ['subject'],
       limit: 10,
     });
 
-    const nodes = activeCourses.map((course, idx) => {
+    const nodes = activeCourses.map((course: any, idx) => {
       const enrollment = enrollments.find(e => e.courseId === course.id);
       const isEnrolled = !!enrollment;
       const progress = enrollment?.progressRate || 0;
@@ -346,7 +452,7 @@ export class CourseService {
         id: course.id,
         nodeIndex: idx + 1,
         title: course.title,
-        subject: course.subject,
+        subject: course.subject?.label || course.subject?.value || 'General',
         emoji: course.emoji || '📚',
         status,
         progress,

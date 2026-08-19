@@ -1,28 +1,29 @@
 import {authenticate} from '@loopback/authentication';
 import {inject} from '@loopback/core';
-import {repository} from '@loopback/repository';
 import {
-  del,
-  get,
   getModelSchemaRef,
+  HttpErrors,
   param,
   patch,
   post,
+  get,
+  del,
   requestBody,
-  HttpErrors,
 } from '@loopback/rest';
 import {SecurityBindings, UserProfile} from '@loopback/security';
-import {Course, Enrollment, Lesson, Module} from '../models';
-import {
-  CourseRepository,
-  EnrollmentRepository,
-  GradeLevelsRepository,
-  LessonRepository,
-  ModuleRepository,
-  SubjectsRepository,
-} from '../repositories';
-import {CourseService, RbacService} from '../services';
-import {formatSuccessResponse} from '../utils';
+import {repository} from '@loopback/repository';
+import {Course, Lesson, Module} from '../models';
+import {CourseRepository} from '../repositories/course.repository';
+import {EnrollmentRepository} from '../repositories/enrollment.repository';
+import {GradeLevelsRepository} from '../repositories/grade-levels.repository';
+import {LessonProgressRepository} from '../repositories/lesson-progress.repository';
+import {LessonRepository} from '../repositories/lesson.repository';
+import {ModuleRepository} from '../repositories/module.repository';
+import {SubjectsRepository} from '../repositories/subjects.repository';
+import {UsersRepository} from '../repositories/users.repository';
+import {CourseService} from '../services/course.service';
+import {RbacService} from '../services/rbac.service';
+import {formatSuccessResponse} from '../utils/response.util';
 
 export class CourseController {
   constructor(
@@ -36,28 +37,40 @@ export class CourseController {
     public moduleRepo: ModuleRepository,
     @repository(LessonRepository)
     public lessonRepo: LessonRepository,
+    @repository(LessonProgressRepository)
+    public lessonProgressRepo: LessonProgressRepository,
     @repository(EnrollmentRepository)
     public enrollmentRepo: EnrollmentRepository,
     @repository(GradeLevelsRepository)
     public gradeLevelsRepo: GradeLevelsRepository,
     @repository(SubjectsRepository)
     public subjectsRepo: SubjectsRepository,
+    @repository(UsersRepository)
+    public usersRepo: UsersRepository,
   ) {}
+
+  // ── Instructors Dropdown List ───────────────────────────────────────────
+  @authenticate('jwt')
+  @get('/courses/instructors')
+  async getInstructors() {
+    const instructors = await this.courseService.getInstructors();
+    return formatSuccessResponse(instructors, 'Instructors list retrieved successfully');
+  }
 
   // ── Course Catalog & Filter Engine ──────────────────────────────────────
   @get('/courses')
   async getCatalog(
     @param.query.string('tier') tier?: string,
-    @param.query.string('subject') subject?: string,
-    @param.query.string('gradeLevel') gradeLevel?: string,
+    @param.query.string('subjectId') subjectId?: string,
+    @param.query.string('gradeLevelId') gradeLevelId?: string,
     @param.query.string('search') search?: string,
     @param.query.number('page') page?: number,
     @param.query.number('limit') limit?: number,
   ) {
     const result = await this.courseService.getCatalog({
       tier,
-      subject,
-      gradeLevel,
+      subjectId,
+      gradeLevelId,
       search,
       page,
       limit,
@@ -79,36 +92,93 @@ export class CourseController {
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(Course, {
-            title: 'NewCourse',
-            exclude: ['id', 'createdAt', 'updatedAt', 'isDeleted'],
-          }),
+          schema: {
+            type: 'object',
+            required: ['title', 'subjectId', 'gradeLevelId'],
+            properties: {
+              title: {type: 'string'},
+              subtitle: {type: 'string'},
+              description: {type: 'string'},
+              subjectId: {type: 'string'},
+              gradeLevelId: {type: 'string'},
+              instructorId: {type: 'string'},
+              tier: {type: 'string', enum: ['junior', 'senior']},
+              duration: {type: 'string'},
+              credits: {type: 'number'},
+              emoji: {type: 'string'},
+              ncaaApproved: {type: 'boolean'},
+              status: {type: 'string', enum: ['draft', 'published', 'archived']},
+            },
+          },
         },
       },
     })
-    data: Omit<Course, 'id'>,
+    data: {
+      title: string;
+      subjectId: string;
+      gradeLevelId: string;
+      instructorId?: string;
+      subtitle?: string;
+      description?: string;
+      tier?: string;
+      duration?: string;
+      credits?: number;
+      emoji?: string;
+      ncaaApproved?: boolean;
+      status?: string;
+    },
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin', 'content']);
 
-    if (!data.title || !data.subject || !data.gradeLevel) {
-      throw new HttpErrors.BadRequest('Title, subject, and gradeLevel are required');
+    if (!data.title || !data.title.trim()) {
+      throw new HttpErrors.BadRequest('Title is required');
     }
 
-    // Pre-validate subject against PostgreSQL master table (Rule #1)
+    if (!data.subjectId) {
+      throw new HttpErrors.BadRequest('subjectId is required');
+    }
     const validSubject = await this.subjectsRepo.findOne({
-      where: {value: data.subject, isActive: true, isDeleted: false},
+      where: {id: data.subjectId, isActive: true, isDeleted: false},
     });
     if (!validSubject) {
-      throw new HttpErrors.BadRequest(`Invalid subject '${data.subject}'. Subject does not exist in master data.`);
+      throw new HttpErrors.BadRequest(`Invalid subjectId '${data.subjectId}'. Subject does not exist in master data.`);
+    }
+
+    if (!data.gradeLevelId) {
+      throw new HttpErrors.BadRequest('gradeLevelId is required');
+    }
+    const validGrade = await this.gradeLevelsRepo.findOne({
+      where: {id: data.gradeLevelId, isActive: true, isDeleted: false},
+    });
+    if (!validGrade) {
+      throw new HttpErrors.BadRequest(`Invalid gradeLevelId '${data.gradeLevelId}'. Grade level does not exist in master data.`);
+    }
+
+    if (data.instructorId) {
+      const instUser = await this.usersRepo.findOne({
+        where: {id: data.instructorId, isActive: true, isDeleted: false},
+      });
+      if (!instUser) {
+        throw new HttpErrors.BadRequest(`Invalid instructorId '${data.instructorId}'. Instructor user does not exist.`);
+      }
     }
 
     const courseTier = data.tier || 'senior';
     const courseCredits = data.credits !== undefined ? data.credits : (courseTier === 'junior' ? 0.0 : 1.0);
 
     const created = await this.courseRepo.create({
-      ...data,
+      title: data.title.trim(),
+      subtitle: data.subtitle,
+      description: data.description,
+      subjectId: data.subjectId,
+      gradeLevelId: data.gradeLevelId,
+      instructorId: data.instructorId,
+      authorId: (currentUser as any).id || (currentUser as any).userId,
       tier: courseTier,
+      duration: data.duration,
       credits: courseCredits,
+      emoji: data.emoji,
+      ncaaApproved: data.ncaaApproved || false,
       status: data.status || 'published',
       isActive: true,
       isDeleted: false,
@@ -121,6 +191,12 @@ export class CourseController {
   async getCourseById(@param.path.string('id') id: string) {
     const course = await this.courseRepo.findOne({
       where: {id, isDeleted: false},
+      include: [
+        {relation: 'subject', scope: {fields: {id: true, label: true, value: true}}},
+        {relation: 'gradeLevel', scope: {fields: {id: true, label: true, value: true}}},
+        {relation: 'instructor', scope: {fields: {id: true, fullName: true, email: true}}},
+        {relation: 'author', scope: {fields: {id: true, fullName: true, email: true}}},
+      ],
     });
     if (!course) {
       throw new HttpErrors.NotFound(`Course with ID '${id}' not found`);
@@ -143,15 +219,40 @@ export class CourseController {
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(Course, {
-            title: 'UpdateCourse',
-            partial: true,
-            exclude: ['id', 'createdAt', 'updatedAt'],
-          }),
+          schema: {
+            type: 'object',
+            properties: {
+              title: {type: 'string'},
+              subtitle: {type: 'string'},
+              description: {type: 'string'},
+              subjectId: {type: 'string'},
+              gradeLevelId: {type: 'string'},
+              instructorId: {type: 'string'},
+              tier: {type: 'string', enum: ['junior', 'senior']},
+              duration: {type: 'string'},
+              credits: {type: 'number'},
+              emoji: {type: 'string'},
+              ncaaApproved: {type: 'boolean'},
+              status: {type: 'string', enum: ['draft', 'published', 'archived']},
+            },
+          },
         },
       },
     })
-    data: Partial<Course>,
+    data: {
+      title?: string;
+      subtitle?: string;
+      description?: string;
+      subjectId?: string;
+      gradeLevelId?: string;
+      instructorId?: string;
+      tier?: string;
+      duration?: string;
+      credits?: number;
+      emoji?: string;
+      ncaaApproved?: boolean;
+      status?: string;
+    },
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin', 'content']);
 
@@ -160,21 +261,60 @@ export class CourseController {
       throw new HttpErrors.NotFound(`Course with ID '${id}' not found`);
     }
 
-    if (data.subject) {
+    const updatePayload: any = {};
+    if (data.title !== undefined) updatePayload.title = data.title;
+    if (data.subtitle !== undefined) updatePayload.subtitle = data.subtitle;
+    if (data.description !== undefined) updatePayload.description = data.description;
+    if (data.tier !== undefined) updatePayload.tier = data.tier;
+    if (data.duration !== undefined) updatePayload.duration = data.duration;
+    if (data.credits !== undefined) updatePayload.credits = data.credits;
+    if (data.emoji !== undefined) updatePayload.emoji = data.emoji;
+    if (data.ncaaApproved !== undefined) updatePayload.ncaaApproved = data.ncaaApproved;
+    if (data.status !== undefined) updatePayload.status = data.status;
+
+    if (data.subjectId) {
       const validSubject = await this.subjectsRepo.findOne({
-        where: {value: data.subject, isActive: true, isDeleted: false},
+        where: {id: data.subjectId, isActive: true, isDeleted: false},
       });
       if (!validSubject) {
-        throw new HttpErrors.BadRequest(`Invalid subject '${data.subject}'. Subject does not exist in master data.`);
+        throw new HttpErrors.BadRequest(`Invalid subjectId '${data.subjectId}'. Subject does not exist in master data.`);
       }
+      updatePayload.subjectId = data.subjectId;
+    }
+
+    if (data.gradeLevelId) {
+      const validGrade = await this.gradeLevelsRepo.findOne({
+        where: {id: data.gradeLevelId, isActive: true, isDeleted: false},
+      });
+      if (!validGrade) {
+        throw new HttpErrors.BadRequest(`Invalid gradeLevelId '${data.gradeLevelId}'. Grade level does not exist in master data.`);
+      }
+      updatePayload.gradeLevelId = data.gradeLevelId;
+    }
+
+    if (data.instructorId) {
+      const instUser = await this.usersRepo.findOne({
+        where: {id: data.instructorId, isActive: true, isDeleted: false},
+      });
+      if (!instUser) {
+        throw new HttpErrors.BadRequest(`Invalid instructorId '${data.instructorId}'. Instructor user does not exist.`);
+      }
+      updatePayload.instructorId = data.instructorId;
     }
 
     await this.courseRepo.updateById(id, {
-      ...data,
+      ...updatePayload,
       updatedAt: new Date(),
     });
 
-    const updated = await this.courseRepo.findById(id);
+    const updated = await this.courseRepo.findById(id, {
+      include: [
+        {relation: 'subject', scope: {fields: {id: true, label: true, value: true}}},
+        {relation: 'gradeLevel', scope: {fields: {id: true, label: true, value: true}}},
+        {relation: 'instructor', scope: {fields: {id: true, fullName: true, email: true}}},
+        {relation: 'author', scope: {fields: {id: true, fullName: true, email: true}}},
+      ],
+    });
     return formatSuccessResponse(updated, 'Course updated successfully');
   }
 
@@ -184,7 +324,7 @@ export class CourseController {
     @param.path.string('id') id: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
   ) {
-    this.rbacService.validateRole(currentUser as any, ['admin']);
+    this.rbacService.validateRole(currentUser as any, ['admin', 'content']);
 
     const course = await this.courseRepo.findOne({where: {id, isDeleted: false}});
     if (!course) {
@@ -193,27 +333,18 @@ export class CourseController {
 
     await this.courseRepo.updateById(id, {
       isDeleted: true,
-      updatedAt: new Date(),
+      deletedAt: new Date(),
     });
 
-    return formatSuccessResponse(null, 'Course deleted successfully');
+    return formatSuccessResponse({id}, 'Course soft deleted successfully');
   }
 
-  // ── Curriculum Syllabus Hierarchy ─────────────────────────────────────────
-  @get('/courses/{id}/syllabus')
-  async getCourseSyllabus(
-    @param.path.string('id') id: string,
-    @param.query.string('userId') userId?: string,
-  ) {
-    const result = await this.courseService.getSyllabusTree(id, userId);
-    return formatSuccessResponse(result, 'Course syllabus tree retrieved successfully');
-  }
-
+  // ── Curriculum Modules ──────────────────────────────────────────────────
   @authenticate('jwt')
   @post('/courses/{id}/modules', {
     responses: {
       '200': {
-        description: 'Module Model Instance',
+        description: 'Module Instance',
         content: {'application/json': {schema: getModelSchemaRef(Module)}},
       },
     },
@@ -226,12 +357,12 @@ export class CourseController {
         'application/json': {
           schema: getModelSchemaRef(Module, {
             title: 'NewModule',
-            exclude: ['id', 'courseId', 'createdAt', 'updatedAt', 'isDeleted'],
+            exclude: ['id', 'courseId', 'createdAt', 'updatedAt'],
           }),
         },
       },
     })
-    data: Omit<Module, 'id' | 'courseId'>,
+    data: Omit<Module, 'id'>,
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin', 'content']);
 
@@ -240,14 +371,9 @@ export class CourseController {
       throw new HttpErrors.NotFound(`Course with ID '${courseId}' not found`);
     }
 
-    if (!data.title) {
-      throw new HttpErrors.BadRequest('Module title is required');
-    }
-
     const created = await this.moduleRepo.create({
       ...data,
       courseId,
-      orderIndex: data.orderIndex || 1,
       isActive: true,
       isDeleted: false,
     });
@@ -256,25 +382,14 @@ export class CourseController {
   }
 
   @authenticate('jwt')
-  @patch('/modules/{id}', {
-    responses: {
-      '200': {
-        description: 'Module PATCH Success',
-        content: {'application/json': {schema: getModelSchemaRef(Module)}},
-      },
-    },
-  })
+  @patch('/modules/{id}')
   async updateModule(
     @param.path.string('id') id: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(Module, {
-            title: 'UpdateModule',
-            partial: true,
-            exclude: ['id', 'courseId', 'createdAt', 'updatedAt'],
-          }),
+          schema: getModelSchemaRef(Module, {partial: true}),
         },
       },
     })
@@ -282,8 +397,8 @@ export class CourseController {
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin', 'content']);
 
-    const moduleRecord = await this.moduleRepo.findOne({where: {id, isDeleted: false}});
-    if (!moduleRecord) {
+    const mod = await this.moduleRepo.findOne({where: {id, isDeleted: false}});
+    if (!mod) {
       throw new HttpErrors.NotFound(`Module with ID '${id}' not found`);
     }
 
@@ -297,10 +412,31 @@ export class CourseController {
   }
 
   @authenticate('jwt')
+  @del('/modules/{id}')
+  async deleteModule(
+    @param.path.string('id') id: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'content']);
+
+    const mod = await this.moduleRepo.findOne({where: {id, isDeleted: false}});
+    if (!mod) {
+      throw new HttpErrors.NotFound(`Module with ID '${id}' not found`);
+    }
+
+    await this.moduleRepo.updateById(id, {
+      isDeleted: true,
+    });
+
+    return formatSuccessResponse({id}, 'Module deleted successfully');
+  }
+
+  // ── Curriculum Lessons ──────────────────────────────────────────────────
+  @authenticate('jwt')
   @post('/modules/{id}/lessons', {
     responses: {
       '200': {
-        description: 'Lesson Model Instance',
+        description: 'Lesson Instance',
         content: {'application/json': {schema: getModelSchemaRef(Lesson)}},
       },
     },
@@ -313,12 +449,12 @@ export class CourseController {
         'application/json': {
           schema: getModelSchemaRef(Lesson, {
             title: 'NewLesson',
-            exclude: ['id', 'moduleId', 'courseId', 'createdAt', 'updatedAt', 'isDeleted'],
+            exclude: ['id', 'moduleId', 'courseId', 'createdAt', 'updatedAt'],
           }),
         },
       },
     })
-    data: Omit<Lesson, 'id' | 'moduleId' | 'courseId'>,
+    data: Omit<Lesson, 'id'>,
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin', 'content']);
 
@@ -327,17 +463,10 @@ export class CourseController {
       throw new HttpErrors.NotFound(`Module with ID '${moduleId}' not found`);
     }
 
-    if (!data.title) {
-      throw new HttpErrors.BadRequest('Lesson title is required');
-    }
-
     const created = await this.lessonRepo.create({
       ...data,
       moduleId,
       courseId: moduleRecord.courseId,
-      type: data.type || 'video',
-      orderIndex: data.orderIndex || 1,
-      xpReward: data.xpReward || 50,
       isActive: true,
       isDeleted: false,
     });
@@ -346,25 +475,14 @@ export class CourseController {
   }
 
   @authenticate('jwt')
-  @patch('/lessons/{id}', {
-    responses: {
-      '200': {
-        description: 'Lesson PATCH Success',
-        content: {'application/json': {schema: getModelSchemaRef(Lesson)}},
-      },
-    },
-  })
+  @patch('/lessons/{id}')
   async updateLesson(
     @param.path.string('id') id: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(Lesson, {
-            title: 'UpdateLesson',
-            partial: true,
-            exclude: ['id', 'moduleId', 'courseId', 'createdAt', 'updatedAt'],
-          }),
+          schema: getModelSchemaRef(Lesson, {partial: true}),
         },
       },
     })
@@ -386,68 +504,47 @@ export class CourseController {
     return formatSuccessResponse(updated, 'Lesson updated successfully');
   }
 
-  // ── Enrollments & Progress Tracking ──────────────────────────────────────
+  @authenticate('jwt')
+  @del('/lessons/{id}')
+  async deleteLesson(
+    @param.path.string('id') id: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'content']);
+
+    const lesson = await this.lessonRepo.findOne({where: {id, isDeleted: false}});
+    if (!lesson) {
+      throw new HttpErrors.NotFound(`Lesson with ID '${id}' not found`);
+    }
+
+    await this.lessonRepo.updateById(id, {
+      isDeleted: true,
+    });
+
+    return formatSuccessResponse({id}, 'Lesson deleted successfully');
+  }
+
+  // ── Syllabus Tree ───────────────────────────────────────────────────────
+  @get('/courses/{id}/syllabus')
+  async getSyllabus(
+    @param.path.string('id') courseId: string,
+    @param.query.string('userId') userId?: string,
+  ) {
+    const syllabus = await this.courseService.getSyllabusTree(courseId, userId);
+    return formatSuccessResponse(syllabus, 'Course syllabus tree retrieved successfully');
+  }
+
+  // ── Enrollment & Lesson Progress Engine ─────────────────────────────────
   @authenticate('jwt')
   @post('/courses/{id}/enroll')
   async enrollStudent(
     @param.path.string('id') courseId: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
-    @requestBody({
-      content: {
-        'application/json': {
-          schema: {type: 'object'},
-        },
-      },
-      required: false,
-    })
-    requestBodyData?: any,
   ) {
-    const result = await this.courseService.enrollStudent(currentUser.id, courseId);
-    return formatSuccessResponse(result, 'Student course enrollment processed');
-  }
-
-  @authenticate('jwt')
-  @patch('/enrollments/{id}', {
-    responses: {
-      '200': {
-        description: 'Enrollment PATCH Success',
-        content: {'application/json': {schema: getModelSchemaRef(Enrollment)}},
-      },
-    },
-  })
-  async updateEnrollment(
-    @param.path.string('id') id: string,
-    @inject(SecurityBindings.USER) currentUser: UserProfile,
-    @requestBody({
-      content: {
-        'application/json': {
-          schema: getModelSchemaRef(Enrollment, {
-            title: 'UpdateEnrollment',
-            partial: true,
-            exclude: ['id', 'usersId', 'courseId', 'createdAt', 'updatedAt'],
-          }),
-        },
-      },
-    })
-    data: Partial<Enrollment>,
-  ) {
-    const enrollment = await this.enrollmentRepo.findOne({where: {id}});
-    if (!enrollment) {
-      throw new HttpErrors.NotFound(`Enrollment with ID '${id}' not found`);
-    }
-
-    // Scoped check: User can only update their own enrollment unless admin
-    if (enrollment.usersId !== currentUser.id && !currentUser.roles.includes('admin')) {
-      throw new HttpErrors.Forbidden('Cannot update another student enrollment');
-    }
-
-    await this.enrollmentRepo.updateById(id, {
-      ...data,
-      updatedAt: new Date(),
-    });
-
-    const updated = await this.enrollmentRepo.findById(id);
-    return formatSuccessResponse(updated, 'Enrollment updated successfully');
+    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    const userId = (currentUser as any).id || (currentUser as any).userId;
+    const result = await this.courseService.enrollStudent(userId, courseId);
+    return formatSuccessResponse(result, 'Enrollment status updated');
   }
 
   @authenticate('jwt')
@@ -455,17 +552,10 @@ export class CourseController {
   async completeLesson(
     @param.path.string('id') lessonId: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
-    @requestBody({
-      content: {
-        'application/json': {
-          schema: {type: 'object'},
-        },
-      },
-      required: false,
-    })
-    requestBodyData?: any,
   ) {
-    const result = await this.courseService.completeLesson(currentUser.id, lessonId);
-    return formatSuccessResponse(result, 'Lesson completion recorded successfully');
+    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    const userId = (currentUser as any).id || (currentUser as any).userId;
+    const result = await this.courseService.completeLesson(userId, lessonId);
+    return formatSuccessResponse(result, 'Lesson completed and progress updated');
   }
 }

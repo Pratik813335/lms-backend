@@ -1,4 +1,5 @@
 import {belongsTo, Entity, model, property} from '@loopback/repository';
+import {GradeLevels} from './grade-levels.model';
 import {Users} from './users.model';
 
 @model({
@@ -23,11 +24,8 @@ export class StudentProfile extends Entity {
   @belongsTo(() => Users)
   usersId: string;
 
-  @property({
-    type: 'string',
-    default: 'Grade 10',
-  })
-  gradeLevel?: string;
+  @belongsTo(() => GradeLevels)
+  gradeLevelId?: string;
 
   @property({
     type: 'string',

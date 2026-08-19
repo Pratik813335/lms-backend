@@ -34,7 +34,6 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
         password: 'password123',
         role: 'student_senior',
         fullName: 'Test Senior Student',
-        gradeLevel: 'Grade 11',
       })
       .expect(200);
 
@@ -42,7 +41,7 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     expect(res.body.user).to.have.property('id');
     expect(res.body.user.email).to.equal(testEmail);
     expect(res.body.user.roles).to.containEql('student_senior');
-    expect(res.body.user.gradeLevel).to.equal('Grade 11');
+    expect(res.body.user.gradeLevel).to.equal('Grade 10');
   });
 
   it('POST /auth/signup rejects weak password (< 8 chars) with 400 Bad Request', async () => {
@@ -161,7 +160,6 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
         password,
         role: 'student_junior',
         fullName: 'Junior Student Demo',
-        gradeLevel: 'Grade 6',
       })
       .expect(200);
 
@@ -192,7 +190,6 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
         password: 'Password123!',
         role: 'student_senior',
         fullName: 'Dashboard Tester',
-        gradeLevel: 'Grade 10',
       })
       .expect(200);
 

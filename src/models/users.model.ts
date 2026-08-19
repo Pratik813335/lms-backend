@@ -1,6 +1,6 @@
-import { Entity, hasMany, model, property } from '@loopback/repository';
-import { Roles } from './roles.model';
-import { UserRoles } from './user-roles.model';
+import {Entity, hasMany, model, property} from '@loopback/repository';
+import {Roles} from './roles.model';
+import {UserRoles} from './user-roles.model';
 
 @model({
   settings: {
@@ -10,8 +10,8 @@ import { UserRoles } from './user-roles.model';
     },
     indexes: {
       uniqueEmail: {
-        keys: { email: 1 },
-        options: { unique: true },
+        keys: {email: 1},
+        options: {unique: true},
       },
     },
   },
@@ -77,12 +77,13 @@ export class Users extends Entity {
   })
   deletedAt?: Date;
 
-  @hasMany(() => Roles, { through: { model: () => UserRoles } })
-  roles?: Roles[];
+  @hasMany(() => Roles, {through: {model: () => UserRoles}})
+  roles: Roles[];
 
   constructor(data?: Partial<Users>) {
     super(data);
   }
 }
 
-export type UsersWithRelations = Users;
+export interface UsersRelations {}
+export type UsersWithRelations = Users & UsersRelations;

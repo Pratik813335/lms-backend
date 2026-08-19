@@ -1,6 +1,9 @@
-import {Entity, hasMany, model, property} from '@loopback/repository';
-import {Module} from './module.model';
-import {Lesson} from './lesson.model';
+import { belongsTo, Entity, hasMany, model, property } from '@loopback/repository';
+import { GradeLevels } from './grade-levels.model';
+import { Lesson } from './lesson.model';
+import { Module } from './module.model';
+import { Subjects } from './subjects.model';
+import { Users } from './users.model';
 
 @model({
   settings: {
@@ -34,21 +37,21 @@ export class Course extends Entity {
 
   @property({
     type: 'string',
-    postgresql: {dataType: 'text'},
+    postgresql: { dataType: 'text' },
   })
   description?: string;
 
-  @property({
-    type: 'string',
-    required: true,
-  })
-  subject: string;
+  @belongsTo(() => Subjects)
+  subjectId: string;
 
-  @property({
-    type: 'string',
-    required: true,
-  })
-  gradeLevel: string;
+  @belongsTo(() => GradeLevels)
+  gradeLevelId: string;
+
+  @belongsTo(() => Users, { name: 'instructor' })
+  instructorId?: string;
+
+  @belongsTo(() => Users, { name: 'author' })
+  authorId?: string;
 
   @property({
     type: 'string',
@@ -60,17 +63,12 @@ export class Course extends Entity {
   @property({
     type: 'string',
   })
-  instructor?: string;
-
-  @property({
-    type: 'string',
-  })
   duration?: string;
 
   @property({
     type: 'number',
     default: 1.0,
-    postgresql: {dataType: 'double precision'},
+    postgresql: { dataType: 'double precision' },
   })
   credits?: number;
 
@@ -81,30 +79,21 @@ export class Course extends Entity {
 
   @property({
     type: 'string',
-  })
-  color?: string;
-
-  @property({
-    type: 'string',
-  })
-  bg?: string;
-
-  @property({
-    type: 'string',
-  })
-  border?: string;
-
-  @property({
-    type: 'boolean',
-    default: true,
-  })
-  ncaaApproved?: boolean;
-
-  @property({
-    type: 'string',
     default: 'published', // 'draft' | 'published' | 'archived'
   })
   status?: string;
+
+  @property({
+    type: 'number',
+    default: 0,
+  })
+  progress?: number;
+
+  @property({
+    type: 'boolean',
+    default: false,
+  })
+  ncaaApproved?: boolean;
 
   @property({
     type: 'boolean',
@@ -130,11 +119,16 @@ export class Course extends Entity {
   })
   updatedAt?: Date;
 
-  @hasMany(() => Module, {keyTo: 'courseId'})
-  modules: Module[];
+  @property({
+    type: 'date',
+  })
+  deletedAt?: Date;
 
-  @hasMany(() => Lesson, {keyTo: 'courseId'})
-  lessons: Lesson[];
+  @hasMany(() => Module, { keyTo: 'courseId' })
+  modules?: Module[];
+
+  @hasMany(() => Lesson, { keyTo: 'courseId' })
+  lessons?: Lesson[];
 
   constructor(data?: Partial<Course>) {
     super(data);
