@@ -1,20 +1,45 @@
 import {Client, expect} from '@loopback/testlab';
 import {LmsBackendApplication} from '../../application';
-import {OtpRepository} from '../../repositories';
+import {GradeLevelsRepository, OtpRepository} from '../../repositories';
 import {setupApplication} from './test-helper';
 
 describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
   let app: LmsBackendApplication;
   let client: Client;
-  let seniorRoleId: string;
-  let juniorRoleId: string;
+  let adminRoleId: string;
+  let seniorGradeId: string;
+  let juniorGradeId: string;
 
   before('setupApplication', async () => {
     ({app, client} = await setupApplication());
 
     const rolesRes = await client.get('/auth/roles').expect(200);
-    seniorRoleId = rolesRes.body.roles.find((r: any) => r.key === 'student_senior')?.id;
-    juniorRoleId = rolesRes.body.roles.find((r: any) => r.key === 'student_junior')?.id;
+    adminRoleId = rolesRes.body.roles.find((r: any) => r.key === 'admin')?.id;
+
+    const gradeRepo = await app.getRepository(GradeLevelsRepository);
+    let seniorGrade = await gradeRepo.findOne({where: {category: 'senior', isDeleted: false}});
+    if (!seniorGrade) {
+      seniorGrade = await gradeRepo.create({
+        label: 'Grade 10 (Sophomore)',
+        value: `Grade_10_Test_${Date.now()}`,
+        category: 'senior',
+        isActive: true,
+        isDeleted: false,
+      });
+    }
+    seniorGradeId = seniorGrade.id!;
+
+    let juniorGrade = await gradeRepo.findOne({where: {category: 'junior', isDeleted: false}});
+    if (!juniorGrade) {
+      juniorGrade = await gradeRepo.create({
+        label: 'Grade 6 (Middle School)',
+        value: `Grade_6_Test_${Date.now()}`,
+        category: 'junior',
+        isActive: true,
+        isDeleted: false,
+      });
+    }
+    juniorGradeId = juniorGrade.id!;
   });
 
   after(async () => {
@@ -32,14 +57,14 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     expect(keys).to.containEql('admin');
   });
 
-  it('POST /auth/signup registers new user into PostgreSQL and issues JWT token', async () => {
+  it('POST /auth/student/signup registers senior student with automatic student_senior role mapping', async () => {
     const testEmail = `student_${Date.now()}@example.com`;
     const res = await client
-      .post('/auth/signup')
+      .post('/auth/student/signup')
       .send({
         email: testEmail,
         password: 'password123',
-        roleId: seniorRoleId,
+        gradeLevelId: seniorGradeId,
         fullName: 'Test Senior Student',
       })
       .expect(200);
@@ -48,42 +73,91 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     expect(res.body.user).to.have.property('id');
     expect(res.body.user.email).to.equal(testEmail);
     expect(res.body.user.roles).to.containEql('student_senior');
-    expect(res.body.user.gradeLevel).to.equal('Grade 10');
+    expect(res.body.user.gradeLevel).to.be.a.String();
   });
 
-  it('POST /auth/signup rejects weak password (< 8 chars) with 400 Bad Request', async () => {
+  it('POST /auth/student/signup registers junior student with automatic student_junior role mapping', async () => {
+    const testEmail = `junior_${Date.now()}@example.com`;
     const res = await client
-      .post('/auth/signup')
+      .post('/auth/student/signup')
+      .send({
+        email: testEmail,
+        password: 'password123',
+        gradeLevelId: juniorGradeId,
+        fullName: 'Test Junior Student',
+      })
+      .expect(200);
+
+    expect(res.body).to.have.property('token');
+    expect(res.body.user.roles).to.containEql('student_junior');
+  });
+
+  it('POST /auth/student/signup rejects invalid gradeLevelId with 400 Bad Request', async () => {
+    const res = await client
+      .post('/auth/student/signup')
+      .send({
+        email: `invalid_grade_${Date.now()}@example.com`,
+        password: 'password123',
+        gradeLevelId: '00000000-0000-0000-0000-000000000000',
+      })
+      .expect(400);
+
+    expect(res.body.error.message).to.containEql('Invalid gradeLevelId');
+  });
+
+  it('POST /auth/student/signup rejects weak password (< 8 chars) with 400 Bad Request', async () => {
+    const res = await client
+      .post('/auth/student/signup')
       .send({
         email: `weak_pwd_${Date.now()}@example.com`,
-        password: '123', // Under 8 characters
+        password: '123',
+        gradeLevelId: seniorGradeId,
       })
       .expect(400);
 
     expect(res.body.error.message).to.containEql('Password must be at least 8 characters long');
   });
 
-  it('POST /auth/signup rejects invalid roleId with 400 Bad Request', async () => {
+  it('POST /auth/signup registers staff user with explicit roleId', async () => {
+    const adminEmail = `admin_staff_${Date.now()}@example.com`;
     const res = await client
       .post('/auth/signup')
       .send({
-        email: `invalid_role_${Date.now()}@example.com`,
-        password: 'password123',
-        roleId: '00000000-0000-0000-0000-000000000000', // Non-existent UUID
+        email: adminEmail,
+        password: 'AdminPassword123!',
+        roleId: adminRoleId,
+        fullName: 'Staff Admin User',
+      })
+      .expect(200);
+
+    expect(res.body).to.have.property('token');
+    expect(res.body.user.roles).to.containEql('admin');
+  });
+
+  it('POST /auth/signup rejects student role on staff endpoint with 400 Bad Request', async () => {
+    const rolesRes = await client.get('/auth/roles').expect(200);
+    const seniorRoleId = rolesRes.body.roles.find((r: any) => r.key === 'student_senior')?.id;
+
+    const res = await client
+      .post('/auth/signup')
+      .send({
+        email: `reject_student_${Date.now()}@example.com`,
+        password: 'StudentPassword123!',
+        roleId: seniorRoleId,
       })
       .expect(400);
 
-    expect(res.body.error.message).to.containEql('Invalid roleId');
+    expect(res.body.error.message).to.containEql('Student registration must use the /auth/student/signup endpoint');
   });
 
   it('POST /auth/send-otp generates and sends 6-digit OTP for registered user', async () => {
     const testEmail = `otp_user_${Date.now()}@example.com`;
     await client
-      .post('/auth/signup')
+      .post('/auth/student/signup')
       .send({
         email: testEmail,
         password: 'password123',
-        roleId: seniorRoleId,
+        gradeLevelId: seniorGradeId,
         fullName: 'OTP Test Student',
       })
       .expect(200);
@@ -100,11 +174,11 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
   it('POST /auth/send-otp rate limits after 5 requests (429 Too Many Requests)', async () => {
     const testEmail = `otp_ratelimit_${Date.now()}@example.com`;
     await client
-      .post('/auth/signup')
+      .post('/auth/student/signup')
       .send({
         email: testEmail,
         password: 'password123',
-        roleId: seniorRoleId,
+        gradeLevelId: seniorGradeId,
         fullName: 'Rate Limit Student',
       })
       .expect(200);
@@ -127,11 +201,11 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
   it('POST /auth/verify-otp verifies 6-digit OTP code correctly', async () => {
     const testEmail = `otp_verify_${Date.now()}@example.com`;
     await client
-      .post('/auth/signup')
+      .post('/auth/student/signup')
       .send({
         email: testEmail,
         password: 'password123',
-        roleId: seniorRoleId,
+        gradeLevelId: seniorGradeId,
         fullName: 'Verify OTP Student',
       })
       .expect(200);
@@ -162,11 +236,11 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     const password = 'StudentPassword123!';
 
     await client
-      .post('/auth/signup')
+      .post('/auth/student/signup')
       .send({
         email: testEmail,
         password,
-        roleId: juniorRoleId,
+        gradeLevelId: juniorGradeId,
         fullName: 'Junior Student Demo',
       })
       .expect(200);
@@ -182,7 +256,6 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     expect(loginRes.body).to.have.property('token');
     expect(loginRes.body.user.email).to.equal(testEmail);
     expect(loginRes.body.user.roles).to.containEql('student_junior');
-    expect(loginRes.body.user.gradeLevel).to.equal('Grade 6');
   });
 
   it('GET /student/me/dashboard requires JWT token (401 Unauthorized without token)', async () => {
@@ -192,11 +265,11 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
   it('GET /student/me/dashboard succeeds with valid JWT Bearer token', async () => {
     const testEmail = `dashboard_${Date.now()}@example.com`;
     const signupRes = await client
-      .post('/auth/signup')
+      .post('/auth/student/signup')
       .send({
         email: testEmail,
         password: 'Password123!',
-        roleId: seniorRoleId,
+        gradeLevelId: seniorGradeId,
         fullName: 'Dashboard Tester',
       })
       .expect(200);

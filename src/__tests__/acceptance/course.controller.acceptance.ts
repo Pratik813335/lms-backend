@@ -61,11 +61,10 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
     // Register student user with gradeLevelId
     const studentEmail = `student_week2_${Date.now()}@example.com`;
     const studentRes = await client
-      .post('/auth/signup')
+      .post('/auth/student/signup')
       .send({
         email: studentEmail,
         password: 'StudentPassword123!',
-        roleId: seniorRoleId,
         fullName: 'Week 2 Student',
         gradeLevelId: gradeLevelId,
       })
