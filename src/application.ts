@@ -49,6 +49,45 @@ export class LmsBackendApplication extends BootMixin(
   ServiceMixin(RepositoryMixin(RestApplication)),
 ) {
   constructor(options: ApplicationConfig = {}) {
+    const allowedOrigins = (
+      process.env.CORS_ALLOWED_ORIGINS
+        ? process.env.CORS_ALLOWED_ORIGINS.split(',').map(o => o.trim().replace(/\/+$/, ''))
+        : ['http://localhost:5173', 'https://lms-frontend-web-orcin.vercel.app']
+    ).filter(Boolean);
+
+    const corsOptions = {
+      origin: (
+        origin: string | undefined,
+        callback: (err: Error | null, allow?: boolean) => void,
+      ) => {
+        // Allow requests with no origin (such as mobile apps, curl, Postman, server-to-server)
+        if (!origin) {
+          return callback(null, true);
+        }
+        const normalized = origin.replace(/\/+$/, '');
+        if (allowedOrigins.includes(normalized)) {
+          return callback(null, true);
+        }
+        return callback(null, false);
+      },
+      methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+      allowedHeaders: [
+        'Content-Type',
+        'Authorization',
+        'Accept',
+        'Origin',
+        'X-Requested-With',
+        'x-api-key',
+      ],
+      credentials: true,
+      maxAge: 86400,
+    };
+
+    options.rest = {
+      ...options.rest,
+      cors: options.rest?.cors ?? corsOptions,
+    };
+
     super(options);
 
     // Set up the custom sequence

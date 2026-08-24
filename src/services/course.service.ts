@@ -241,7 +241,7 @@ export class CourseService {
   }
 
   /**
-   * Fetch eligible instructors list (staff roles: content, academic, admin)
+   * Fetch eligible instructors list (Content Managers / Curriculum Authors: role 'content')
    */
   async getInstructors() {
     const users = await this.usersRepo.find({
@@ -259,7 +259,7 @@ export class CourseService {
     });
 
     const instructors = users.filter(u =>
-      (u.roles || []).some(r => ['content', 'academic', 'admin'].includes(r.value)),
+      (u.roles || []).some(r => r.value === 'content'),
     );
 
     return instructors.map(u => ({
