@@ -4,11 +4,17 @@ import {repository} from '@loopback/repository';
 import {
   get,
   patch,
+  param,
   requestBody,
   HttpErrors,
 } from '@loopback/rest';
 import {SecurityBindings} from '@loopback/security';
-import {GradeLevelsRepository, StudentProfileRepository} from '../repositories';
+import {
+  EnrollmentRepository,
+  GradeLevelsRepository,
+  StudentProfileRepository,
+  UsersRepository,
+} from '../repositories';
 import {CourseService, RbacService} from '../services';
 import {LmsUserProfile} from '../types';
 import {formatSuccessResponse} from '../utils';
@@ -19,6 +25,10 @@ export class StudentController {
     public studentProfileRepo: StudentProfileRepository,
     @repository(GradeLevelsRepository)
     public gradeLevelsRepo: GradeLevelsRepository,
+    @repository(UsersRepository)
+    public usersRepo: UsersRepository,
+    @repository(EnrollmentRepository)
+    public enrollmentRepo: EnrollmentRepository,
     @inject('services.course')
     public courseService: CourseService,
     @inject('services.rbac')
@@ -244,5 +254,130 @@ export class StudentController {
     this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
     const result = await this.courseService.getJuniorLearningMap(currentUser.id);
     return formatSuccessResponse(result, 'Junior learning map retrieved successfully');
+  }
+
+  /**
+   * Get All Students Directory (Returns all students with profiles, grade levels, and stats)
+   */
+  @authenticate('jwt')
+  @get('/students', {
+    responses: {
+      '200': {
+        description: 'Get all students list with user info, student profiles, and metrics',
+        content: {
+          'application/json': {
+            schema: {
+              type: 'object',
+              properties: {
+                success: { type: 'boolean' },
+                message: { type: 'string' },
+                data: {
+                  type: 'object',
+                  properties: {
+                    total: { type: 'number' },
+                    page: { type: 'number' },
+                    limit: { type: 'number' },
+                    totalPages: { type: 'number' },
+                    students: {
+                      type: 'array',
+                      items: { type: 'object' },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  })
+  async getAllStudents(
+    @param.query.number('page') page?: number,
+    @param.query.number('limit') limit?: number,
+    @param.query.string('tier') tier?: string,
+    @param.query.string('gradeLevelId') gradeLevelId?: string,
+    @param.query.string('search') search?: string,
+  ) {
+    const pageNum = Math.max(Number(page) || 1, 1);
+    const limitNum = Math.min(Math.max(Number(limit) || 10, 1), 100);
+
+    const profiles = await this.studentProfileRepo.find({
+      include: [
+        {
+          relation: 'gradeLevel',
+          scope: {fields: {id: true, label: true, value: true, category: true}},
+        },
+      ],
+      order: ['createdAt DESC'],
+    });
+
+    const userIds = profiles.map(p => p.usersId).filter(Boolean);
+    const users = userIds.length > 0 ? await this.usersRepo.find({ where: { id: { inq: userIds } } }) : [];
+    const userMap = new Map<string, any>(users.map(u => [u.id!, u]));
+
+    const enrollments = await this.enrollmentRepo.find();
+    const enrollmentMap = new Map<string, string[]>();
+    for (const e of enrollments) {
+      if (e.usersId && e.courseId) {
+        const arr = enrollmentMap.get(e.usersId) || [];
+        arr.push(e.courseId);
+        enrollmentMap.set(e.usersId, arr);
+      }
+    }
+
+    let list = profiles.map(p => {
+      const plainProf: any = typeof p.toJSON === 'function' ? p.toJSON() : p;
+      const user = userMap.get(p.usersId) || {};
+      const grade = plainProf.gradeLevel || {};
+      const enrolled = enrollmentMap.get(p.usersId) || [];
+      const studentTier = p.tier || grade.category || 'senior';
+
+      return {
+        id: user.id || p.usersId,
+        profileId: p.id,
+        name: user.fullName || (user.email ? user.email.split('@')[0] : 'Student'),
+        email: user.email || '',
+        role: studentTier === 'junior' ? 'student_junior' : 'student_senior',
+        gradeLevel: grade.label || grade.value || (studentTier === 'junior' ? 'Grade 6' : 'Grade 10'),
+        gradeLevelId: p.gradeLevelId || grade.id,
+        tier: studentTier,
+        gpa: p.gpa ?? 0.0,
+        completedLessons: p.completedLessons ?? 0,
+        enrolledCoursesCount: enrolled.length,
+        enrolledCourses: enrolled,
+        xp: p.xp ?? 0,
+        level: p.level ?? 1,
+        streakDays: p.streakDays ?? 0,
+        isActive: user.isActive ?? true,
+        createdAt: user.createdAt || p.createdAt,
+      };
+    });
+
+    if (tier) {
+      list = list.filter(s => s.tier === tier.toLowerCase());
+    }
+    if (gradeLevelId) {
+      list = list.filter(s => s.gradeLevelId === gradeLevelId);
+    }
+    if (search && search.trim()) {
+      const q = search.trim().toLowerCase();
+      list = list.filter(s => s.name.toLowerCase().includes(q) || s.email.toLowerCase().includes(q));
+    }
+
+    const total = list.length;
+    const totalPages = Math.ceil(total / limitNum) || 1;
+    const startIndex = (pageNum - 1) * limitNum;
+    const paginatedStudents = list.slice(startIndex, startIndex + limitNum);
+
+    return formatSuccessResponse(
+      {
+        total,
+        page: pageNum,
+        limit: limitNum,
+        totalPages,
+        students: paginatedStudents,
+      },
+      'All students retrieved successfully',
+    );
   }
 }

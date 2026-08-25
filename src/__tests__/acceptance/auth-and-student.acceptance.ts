@@ -286,4 +286,40 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     expect(dashRes.body.data.stats.xp).to.equal(0);
     expect(dashRes.body.data.stats.level).to.equal(1);
   });
+
+  it('GET /students requires JWT token (401 Unauthorized without token)', async () => {
+    await client.get('/students').expect(401);
+  });
+
+  it('GET /students returns all students with profiles, grade levels, and stats', async () => {
+    const testEmail = `all_students_${Date.now()}@example.com`;
+    const signupRes = await client
+      .post('/auth/student/signup')
+      .send({
+        email: testEmail,
+        password: 'Password123!',
+        gradeLevelId: seniorGradeId,
+        fullName: 'All Students Query Test',
+      })
+      .expect(200);
+
+    const token = signupRes.body.token;
+
+    const res = await client
+      .get('/students')
+      .set('Authorization', `Bearer ${token}`)
+      .expect(200);
+
+    expect(res.body.success).to.be.true();
+    expect(res.body.data).to.have.property('students');
+    expect(res.body.data.students).to.be.Array();
+    expect(res.body.data.total).to.be.greaterThan(0);
+
+    const found = res.body.data.students.find((s: any) => s.email === testEmail);
+    expect(found).to.not.be.undefined();
+    expect(found.role).to.equal('student_senior');
+    expect(found.tier).to.equal('senior');
+    expect(found.gpa).to.equal(0);
+    expect(found.completedLessons).to.equal(0);
+  });
 });
