@@ -14,3 +14,4 @@ export * from './module.repository';
 export * from './lesson.repository';
 export * from './enrollment.repository';
 export * from './lesson-progress.repository';
+export * from './media.repository';

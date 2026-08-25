@@ -5,3 +5,4 @@ export * from './rbac.service';
 export * from './email.service';
 export * from './otp.service';
 export * from './course.service';
+export * from './file-upload.service';

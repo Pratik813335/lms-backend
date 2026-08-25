@@ -18,6 +18,7 @@ import {EnrollmentRepository} from '../repositories/enrollment.repository';
 import {GradeLevelsRepository} from '../repositories/grade-levels.repository';
 import {LessonProgressRepository} from '../repositories/lesson-progress.repository';
 import {LessonRepository} from '../repositories/lesson.repository';
+import {MediaRepository} from '../repositories/media.repository';
 import {ModuleRepository} from '../repositories/module.repository';
 import {SubjectsRepository} from '../repositories/subjects.repository';
 import {UsersRepository} from '../repositories/users.repository';
@@ -47,6 +48,8 @@ export class CourseController {
     public subjectsRepo: SubjectsRepository,
     @repository(UsersRepository)
     public usersRepo: UsersRepository,
+    @repository(MediaRepository)
+    public mediaRepo: MediaRepository,
   ) {}
 
   // ── Instructors Dropdown List ───────────────────────────────────────────
@@ -457,6 +460,16 @@ export class CourseController {
       throw new HttpErrors.NotFound(`Module with ID '${moduleId}' not found`);
     }
 
+    if (data.mediaId) {
+      const validMedia = await this.mediaRepo.findOne({
+        where: {id: data.mediaId, isDeleted: false, isActive: true},
+      });
+      if (!validMedia) {
+        throw new HttpErrors.BadRequest(`Invalid mediaId '${data.mediaId}'. Media asset does not exist.`);
+      }
+      await this.mediaRepo.updateById(data.mediaId, {isUsed: true});
+    }
+
     const created = await this.lessonRepo.create({
       ...data,
       moduleId,
@@ -465,7 +478,11 @@ export class CourseController {
       isDeleted: false,
     });
 
-    return formatSuccessResponse(created, 'Lesson created successfully');
+    const lessonWithMedia = await this.lessonRepo.findById(created.id, {
+      include: [{relation: 'media'}],
+    });
+
+    return formatSuccessResponse(lessonWithMedia, 'Lesson created successfully');
   }
 
   @authenticate('jwt')
@@ -489,12 +506,24 @@ export class CourseController {
       throw new HttpErrors.NotFound(`Lesson with ID '${id}' not found`);
     }
 
+    if (data.mediaId) {
+      const validMedia = await this.mediaRepo.findOne({
+        where: {id: data.mediaId, isDeleted: false, isActive: true},
+      });
+      if (!validMedia) {
+        throw new HttpErrors.BadRequest(`Invalid mediaId '${data.mediaId}'. Media asset does not exist.`);
+      }
+      await this.mediaRepo.updateById(data.mediaId, {isUsed: true});
+    }
+
     await this.lessonRepo.updateById(id, {
       ...data,
       updatedAt: new Date(),
     });
 
-    const updated = await this.lessonRepo.findById(id);
+    const updated = await this.lessonRepo.findById(id, {
+      include: [{relation: 'media'}],
+    });
     return formatSuccessResponse(updated, 'Lesson updated successfully');
   }
 

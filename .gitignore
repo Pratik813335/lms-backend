@@ -63,5 +63,10 @@ typings/
 # Cache used by TypeScript's incremental build
 *.tsbuildinfo
 
+# Local Upload & Test Sandbox Storage
+.sandbox/
+.sandbox/storage/
+storage/
+
 # Emacs auto-save file
 \#*#

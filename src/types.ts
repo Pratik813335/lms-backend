@@ -1,4 +1,11 @@
 import {UserProfile} from '@loopback/security';
+import {Request, Response} from '@loopback/rest';
+
+export type FileUploadHandler = (
+  request: Request,
+  response: Response,
+  cb: (err: unknown) => void,
+) => void;
 
 export interface Credentials {
   email: string;

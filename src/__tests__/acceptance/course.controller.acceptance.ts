@@ -153,6 +153,14 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
   });
 
   it('POST /modules/{id}/lessons creates a lesson within a module', async () => {
+    // 1. Upload sample media
+    const uploadRes = await client
+      .post('/files')
+      .attach('file', Buffer.from('Mock Lesson Video Buffer'), 'lesson_video.mp4')
+      .expect(200);
+    const mediaId = uploadRes.body.data.files[0].id;
+
+    // 2. Create lesson referencing mediaId
     const res = await client
       .post(`/modules/${createdModuleId}/lessons`)
       .set('Authorization', `Bearer ${adminToken}`)
@@ -160,14 +168,30 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
         title: 'Order of Operations (PEMDAS)',
         type: 'video',
         duration: '2 min',
-        videoId: 'jfKfPfyJRdk',
+        mediaId: mediaId,
+        externalUrl: 'https://www.youtube.com/watch?v=jfKfPfyJRdk',
         orderIndex: 1,
         xpReward: 50,
       })
       .expect(200);
 
     expect(res.body.success).to.be.true();
+    expect(res.body.data).to.have.property('id');
+    expect(res.body.data.mediaId).to.equal(mediaId);
+    expect(res.body.data.media).to.have.property('fileUrl');
     createdLessonId = res.body.data.id;
+  });
+
+  it('POST /modules/{id}/lessons rejects invalid mediaId with 400 Bad Request', async () => {
+    await client
+      .post(`/modules/${createdModuleId}/lessons`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        title: 'Fractions Drill',
+        type: 'video',
+        mediaId: '00000000-0000-0000-0000-000000000000',
+      })
+      .expect(400);
   });
 
   it('GET /courses/{id}/syllabus fetches complete ordered curriculum tree', async () => {

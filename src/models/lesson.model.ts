@@ -1,6 +1,7 @@
 import {belongsTo, Entity, model, property} from '@loopback/repository';
 import {Course} from './course.model';
 import {Module} from './module.model';
+import {Media} from './media.model';
 
 @model({
   settings: {
@@ -45,6 +46,18 @@ export class Lesson extends Entity {
   )
   courseId: string;
 
+  @belongsTo(
+    () => Media,
+    {name: 'media'},
+    {
+      type: 'string',
+      postgresql: {
+        dataType: 'uuid',
+      },
+    },
+  )
+  mediaId?: string;
+
   @property({
     type: 'string',
     required: true,
@@ -64,14 +77,9 @@ export class Lesson extends Entity {
 
   @property({
     type: 'string',
-  })
-  videoId?: string;
-
-  @property({
-    type: 'string',
     postgresql: {dataType: 'text'},
   })
-  contentUrl?: string;
+  externalUrl?: string;
 
   @property({
     type: 'number',
@@ -100,12 +108,18 @@ export class Lesson extends Entity {
   @property({
     type: 'date',
     defaultFn: 'now',
+    postgresql: {
+      dataType: 'timestamptz',
+    },
   })
   createdAt?: Date;
 
   @property({
     type: 'date',
     defaultFn: 'now',
+    postgresql: {
+      dataType: 'timestamptz',
+    },
   })
   updatedAt?: Date;
 
@@ -114,4 +128,10 @@ export class Lesson extends Entity {
   }
 }
 
-export type LessonWithRelations = Lesson;
+export interface LessonRelations {
+  module?: Module;
+  course?: Course;
+  media?: Media;
+}
+
+export type LessonWithRelations = Lesson & LessonRelations;

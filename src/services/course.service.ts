@@ -208,6 +208,7 @@ export class CourseService {
     for (const mod of modules) {
       const lessons = await this.lessonRepo.find({
         where: {moduleId: mod.id, isDeleted: false, isActive: true},
+        include: [{relation: 'media'}],
         order: ['orderIndex ASC'],
       });
 

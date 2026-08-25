@@ -13,7 +13,7 @@ import {
   registerAuthenticationStrategy,
 } from '@loopback/authentication';
 import {JWTStrategy} from './authentication-strategy/jwt-strategy';
-import {EmailManagerBindings} from './keys';
+import {EmailManagerBindings, FILE_UPLOAD_SERVICE, STORAGE_DIRECTORY} from './keys';
 import {
   AssetTypesRepository,
   ComplianceStatusesRepository,
@@ -22,6 +22,7 @@ import {
   GradeLevelsRepository,
   LessonProgressRepository,
   LessonRepository,
+  MediaRepository,
   ModuleRepository,
   OtpRepository,
   PermissionsRepository,
@@ -37,6 +38,7 @@ import {
   BcryptHasher,
   CourseService,
   EmailService,
+  FileUploadProvider,
   JWTService,
   MyUserService,
   OtpService,
@@ -142,6 +144,15 @@ export class LmsBackendApplication extends BootMixin(
     this.bind('services.otp').toClass(OtpService);
     this.bind(EmailManagerBindings.SEND_MAIL).toClass(EmailService);
 
+    // Storage Directory & File Upload Service (Amplio Pattern)
+    const storagePath =
+      process.env.STORAGE_DIRECTORY || path.join(__dirname, '../.sandbox/storage');
+    this.bind(STORAGE_DIRECTORY).to(storagePath);
+    this.bind(FILE_UPLOAD_SERVICE).toProvider(FileUploadProvider);
+    this.configure(FILE_UPLOAD_SERVICE).to({
+      dest: storagePath,
+    });
+
     // Repositories Registration
     this.repository(UsersRepository);
     this.repository(RolesRepository);
@@ -159,5 +170,6 @@ export class LmsBackendApplication extends BootMixin(
     this.repository(LessonRepository);
     this.repository(EnrollmentRepository);
     this.repository(LessonProgressRepository);
+    this.repository(MediaRepository);
   }
 }

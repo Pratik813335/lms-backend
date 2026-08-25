@@ -14,3 +14,4 @@ export * from './module.model';
 export * from './lesson.model';
 export * from './enrollment.model';
 export * from './lesson-progress.model';
+export * from './media.model';
