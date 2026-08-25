@@ -554,7 +554,6 @@ export class AuthController {
     @param.query.number('page') page: number = 1,
     @param.query.number('limit') limit: number = 10,
     @param.query.string('role') role?: string,
-    @param.query.boolean('isStaff') isStaff?: boolean,
     @param.query.string('search') search?: string,
     @param.query.boolean('isActive') isActive?: boolean,
   ) {
