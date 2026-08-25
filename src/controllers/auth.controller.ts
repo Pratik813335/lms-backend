@@ -4,11 +4,13 @@ import { repository } from '@loopback/repository';
 import {
   post,
   get,
+  param,
   requestBody,
   HttpErrors,
   ResponseObject,
 } from '@loopback/rest';
 import { SecurityBindings, UserProfile, securityId } from '@loopback/security';
+import { formatSuccessResponse } from '../utils/response.util';
 import {
   GradeLevelsRepository,
   RolesRepository,
@@ -510,5 +512,131 @@ export class AuthController {
     return {
       message: 'Password updated successfully',
     };
+  }
+
+  /**
+   * Paginated & Filtered Users Directory (Supports staff, admin, and role filtering)
+   */
+  @authenticate('jwt')
+  @get('/users', {
+    responses: {
+      '200': {
+        description: 'Paginated and filtered list of users',
+        content: {
+          'application/json': {
+            schema: {
+              type: 'object',
+              properties: {
+                success: { type: 'boolean' },
+                message: { type: 'string' },
+                data: {
+                  type: 'object',
+                  properties: {
+                    total: { type: 'number' },
+                    page: { type: 'number' },
+                    limit: { type: 'number' },
+                    totalPages: { type: 'number' },
+                    users: {
+                      type: 'array',
+                      items: { type: 'object' },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  })
+  async getUsers(
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+    @param.query.number('page') page: number = 1,
+    @param.query.number('limit') limit: number = 10,
+    @param.query.string('role') role?: string,
+    @param.query.boolean('isStaff') isStaff?: boolean,
+    @param.query.string('search') search?: string,
+    @param.query.boolean('isActive') isActive?: boolean,
+  ) {
+    const pageNum = Math.max(1, Number(page) || 1);
+    const limitNum = Math.min(100, Math.max(1, Number(limit) || 10));
+
+    // Fetch all active users with their associated roles
+    const allUsers = await this.usersRepo.find({
+      where: {
+        isDeleted: false,
+        ...(isActive !== undefined ? { isActive } : {}),
+      },
+      include: [
+        {
+          relation: 'roles',
+          scope: {
+            where: { isActive: true, isDeleted: false },
+            fields: { id: true, value: true, label: true },
+          },
+        },
+      ],
+      order: ['createdAt DESC'],
+    });
+
+    const staffRoles = ['admin', 'content', 'academic', 'operations'];
+
+    // Apply filtering in memory across relation data
+    let filtered = allUsers.filter(u => {
+      const userRoleValues = (u.roles || []).map(r => r.value);
+
+      // 1. Role Filter (e.g. ?role=admin)
+      if (role && !userRoleValues.includes(role)) {
+        return false;
+      }
+
+      // 2. Staff Only Filter (e.g. ?isStaff=true)
+      if (isStaff === true) {
+        const hasStaffRole = userRoleValues.some(r => staffRoles.includes(r));
+        if (!hasStaffRole) return false;
+      }
+
+      // 3. Search Filter (by full name or email)
+      if (search && search.trim()) {
+        const q = search.trim().toLowerCase();
+        const matchesEmail = u.email.toLowerCase().includes(q);
+        const matchesName = u.fullName ? u.fullName.toLowerCase().includes(q) : false;
+        if (!matchesEmail && !matchesName) return false;
+      }
+
+      return true;
+    });
+
+    const total = filtered.length;
+    const totalPages = Math.ceil(total / limitNum) || 1;
+    const startIndex = (pageNum - 1) * limitNum;
+    const paginatedUsers = filtered.slice(startIndex, startIndex + limitNum);
+
+    const formatted = paginatedUsers.map(u => ({
+      id: u.id,
+      email: u.email,
+      fullName: u.fullName || u.email.split('@')[0],
+      phone: u.phone,
+      roles: (u.roles || []).map(r => ({
+        id: r.id,
+        value: r.value,
+        label: r.label,
+      })),
+      roleValues: (u.roles || []).map(r => r.value),
+      isActive: u.isActive,
+      createdAt: u.createdAt,
+      updatedAt: u.updatedAt,
+    }));
+
+    return formatSuccessResponse(
+      {
+        total,
+        page: pageNum,
+        limit: limitNum,
+        totalPages,
+        users: formatted,
+      },
+      'Users directory retrieved successfully',
+    );
   }
 }
