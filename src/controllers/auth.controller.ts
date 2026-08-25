@@ -579,24 +579,25 @@ export class AuthController {
       order: ['createdAt DESC'],
     });
 
-    const staffRoles = ['admin', 'content', 'academic', 'operations'];
+    // Strict Staff Roles: Content Managers, Academic Coordinators, and Operations Staff (Excluding admin & students)
+    const staffRoles = ['content', 'academic', 'operations'];
 
-    // Apply filtering in memory across relation data
+    // Apply filtering across staff roles
     let filtered = allUsers.filter(u => {
       const userRoleValues = (u.roles || []).map(r => r.value);
 
-      // 1. Role Filter (e.g. ?role=admin)
+      // Must have at least one staff role (content, academic, operations) and NOT admin or student
+      const isStaffUser = userRoleValues.some(r => staffRoles.includes(r)) && !userRoleValues.includes('admin');
+      if (!isStaffUser) {
+        return false;
+      }
+
+      // Optional specific role filter (e.g. ?role=content or ?role=academic)
       if (role && !userRoleValues.includes(role)) {
         return false;
       }
 
-      // 2. Staff Only Filter (e.g. ?isStaff=true)
-      if (isStaff === true) {
-        const hasStaffRole = userRoleValues.some(r => staffRoles.includes(r));
-        if (!hasStaffRole) return false;
-      }
-
-      // 3. Search Filter (by full name or email)
+      // Search Filter (by full name or email)
       if (search && search.trim()) {
         const q = search.trim().toLowerCase();
         const matchesEmail = u.email.toLowerCase().includes(q);
