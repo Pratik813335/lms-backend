@@ -11,6 +11,7 @@ import {
 } from '@loopback/rest';
 import { SecurityBindings, UserProfile, securityId } from '@loopback/security';
 import { formatSuccessResponse } from '../utils/response.util';
+import { validateStrongPassword } from '../utils/password.util';
 import {
   GradeLevelsRepository,
   RolesRepository,
@@ -485,9 +486,7 @@ export class AuthController {
     })
     passwordData: { oldPassword: string; newPassword: string },
   ): Promise<{ message: string }> {
-    if (passwordData.newPassword.length < 8) {
-      throw new HttpErrors.BadRequest('New password must be at least 8 characters long');
-    }
+    validateStrongPassword(passwordData.newPassword);
 
     const user = await this.usersRepo.findById(currentUser.id);
     if (!user || !user.password) {
@@ -506,6 +505,7 @@ export class AuthController {
     const newHashed = await this.hasher.hashPassword(passwordData.newPassword);
     await this.usersRepo.updateById(user.id, {
       password: newHashed,
+      isOnboarding: false,
       updatedAt: new Date(),
     });
 

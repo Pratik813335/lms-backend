@@ -322,4 +322,103 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     expect(found.gpa).to.equal(0);
     expect(found.completedLessons).to.equal(0);
   });
+
+  it('POST /admin/students creates student with isOnboarding: true, and POST /auth/change-password completes onboarding', async () => {
+    // 1. Admin logs in or signs up
+    const adminEmail = `admin_tester_${Date.now()}@example.com`;
+    const adminSignup = await client
+      .post('/auth/signup')
+      .send({
+        email: adminEmail,
+        password: 'AdminPassword123!',
+        roleId: adminRoleId,
+        fullName: 'Admin Tester',
+      })
+      .expect(200);
+
+    const adminToken = adminSignup.body.token;
+
+    // 2. Admin creates student with default password Student@123
+    const newStudentEmail = `onboard_student_${Date.now()}@example.com`;
+    const createRes = await client
+      .post('/admin/students')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        fullName: 'Carlos Ruiz',
+        email: newStudentEmail,
+        gradeLevelId: seniorGradeId,
+        role: 'student_senior',
+        password: 'Student@123',
+        gpa: 3.9,
+      })
+      .expect(200);
+
+    expect(createRes.body.success).to.be.true();
+    expect(createRes.body.data.email).to.equal(newStudentEmail);
+    expect(createRes.body.data.isOnboarding).to.be.true();
+
+    // 3. Student logs in for first time with Student@123
+    const firstLoginRes = await client
+      .post('/auth/login')
+      .send({
+        email: newStudentEmail,
+        password: 'Student@123',
+      })
+      .expect(200);
+
+    expect(firstLoginRes.body.token).to.be.String();
+    expect(firstLoginRes.body.user.isOnboarding).to.be.true();
+    const studentToken = firstLoginRes.body.token;
+
+    // 4. Student updates password via POST /auth/change-password
+    const updatePwdRes = await client
+      .post('/auth/change-password')
+      .set('Authorization', `Bearer ${studentToken}`)
+      .send({
+        oldPassword: 'Student@123',
+        newPassword: 'MyNewPermanentPassword123!',
+      })
+      .expect(200);
+
+    expect(updatePwdRes.body.message).to.equal('Password updated successfully');
+
+    // 5. Subsequent login with new password returns isOnboarding: false
+    const secondLoginRes = await client
+      .post('/auth/login')
+      .send({
+        email: newStudentEmail,
+        password: 'MyNewPermanentPassword123!',
+      })
+      .expect(200);
+
+    expect(secondLoginRes.body.user.isOnboarding).to.be.false();
+  });
+
+  it('POST /admin/students rejects gradeLevelId and role mismatch with 400 Bad Request', async () => {
+    const adminEmail = `admin_mismatch_${Date.now()}@example.com`;
+    const adminSignup = await client
+      .post('/auth/signup')
+      .send({
+        email: adminEmail,
+        password: 'AdminPassword123!',
+        roleId: adminRoleId,
+        fullName: 'Admin Mismatch Tester',
+      })
+      .expect(200);
+
+    const adminToken = adminSignup.body.token;
+
+    // Send junior grade with senior role -> expect 400
+    await client
+      .post('/admin/students')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        fullName: 'Mismatch Student',
+        email: `mismatch_${Date.now()}@example.com`,
+        gradeLevelId: juniorGradeId, // Grade 6 (junior)
+        role: 'student_senior',       // Mismatch!
+        password: 'Student@123',
+      })
+      .expect(400);
+  });
 });

@@ -1,16 +1,16 @@
-import {UserService} from '@loopback/authentication';
-import {inject} from '@loopback/core';
-import {repository} from '@loopback/repository';
-import {HttpErrors} from '@loopback/rest';
-import {securityId, UserProfile} from '@loopback/security';
+import { UserService } from '@loopback/authentication';
+import { inject } from '@loopback/core';
+import { repository } from '@loopback/repository';
+import { HttpErrors } from '@loopback/rest';
+import { securityId, UserProfile } from '@loopback/security';
 import {
   RolesRepository,
   StudentProfileRepository,
   UserRolesRepository,
   UsersRepository,
 } from '../repositories';
-import {Credentials, LmsUserProfile} from '../types';
-import {BcryptHasher} from './hash.password.bcrypt';
+import { Credentials, LmsUserProfile } from '../types';
+import { BcryptHasher } from './hash.password.bcrypt';
 
 export interface UserAccount {
   id: string;
@@ -21,6 +21,7 @@ export interface UserAccount {
   fullName?: string;
   gradeLevel?: string | null;
   isActive?: boolean;
+  isOnboarding?: boolean;
 }
 
 export class MyUserService implements UserService<UserAccount, Credentials> {
@@ -35,7 +36,7 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
     public rolesRepo: RolesRepository,
     @repository(StudentProfileRepository)
     public studentProfileRepo: StudentProfileRepository,
-  ) {}
+  ) { }
 
   async verifyCredentials(credentials: Credentials): Promise<UserAccount> {
     if (!credentials.email || !credentials.password) {
@@ -43,7 +44,7 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
     }
 
     const userEntity = await this.usersRepo.findOne({
-      where: {email: credentials.email},
+      where: { email: credentials.email },
     });
 
     if (!userEntity) {
@@ -76,7 +77,7 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
     // gradeLevel is ONLY for student roles; null for staff roles (admin, content, academic, operations)
     const isStudentRole = roles.some(r => r.startsWith('student_'));
     const profile = isStudentRole
-      ? await this.studentProfileRepo.findOne({where: {usersId: userEntity.id}, include: ['gradeLevel']})
+      ? await this.studentProfileRepo.findOne({ where: { usersId: userEntity.id }, include: ['gradeLevel'] })
       : null;
     const plainProf: any = profile ? (typeof profile.toJSON === 'function' ? profile.toJSON() : profile) : null;
     const isJunior = roles.includes('student_junior');
@@ -91,6 +92,7 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
       fullName: userEntity.fullName || userEntity.email.split('@')[0],
       gradeLevel: isStudentRole ? gradeLevelVal : null,
       isActive: userEntity.isActive,
+      isOnboarding: userEntity.isOnboarding ?? false,
     };
   }
 
@@ -103,6 +105,7 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
       permissions: user.permissions || [],
       fullName: user.fullName,
       gradeLevel: user.gradeLevel as any,
+      isOnboarding: user.isOnboarding ?? false,
     };
     return profile;
   }

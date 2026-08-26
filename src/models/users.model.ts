@@ -57,6 +57,15 @@ export class Users extends Entity {
   @property({
     type: 'boolean',
     default: false,
+    postgresql: {
+      columnName: 'is_onboarding',
+    },
+  })
+  isOnboarding?: boolean;
+
+  @property({
+    type: 'boolean',
+    default: false,
   })
   isDeleted?: boolean;
 

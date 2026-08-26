@@ -27,6 +27,7 @@ export interface LmsUserProfile extends UserProfile {
   permissions?: string[];
   gradeLevel?: string;
   fullName?: string;
+  isOnboarding?: boolean;
 }
 
 export interface AuthorizeMetadata {

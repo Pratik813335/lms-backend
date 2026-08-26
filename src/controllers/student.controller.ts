@@ -1,23 +1,28 @@
-import {authenticate} from '@loopback/authentication';
-import {inject} from '@loopback/core';
-import {repository} from '@loopback/repository';
+import { authenticate } from '@loopback/authentication';
+import { inject } from '@loopback/core';
+import { repository } from '@loopback/repository';
 import {
   get,
+  post,
   patch,
   param,
   requestBody,
   HttpErrors,
 } from '@loopback/rest';
-import {SecurityBindings} from '@loopback/security';
+import { SecurityBindings } from '@loopback/security';
 import {
+  CourseRepository,
   EnrollmentRepository,
   GradeLevelsRepository,
+  RolesRepository,
   StudentProfileRepository,
+  UserRolesRepository,
   UsersRepository,
 } from '../repositories';
-import {CourseService, RbacService} from '../services';
-import {LmsUserProfile} from '../types';
-import {formatSuccessResponse} from '../utils';
+import { BcryptHasher, CourseService, RbacService } from '../services';
+import { LmsUserProfile } from '../types';
+import { formatSuccessResponse } from '../utils';
+import { validateStrongPassword } from '../utils/password.util';
 
 export class StudentController {
   constructor(
@@ -27,13 +32,21 @@ export class StudentController {
     public gradeLevelsRepo: GradeLevelsRepository,
     @repository(UsersRepository)
     public usersRepo: UsersRepository,
+    @repository(RolesRepository)
+    public rolesRepo: RolesRepository,
+    @repository(UserRolesRepository)
+    public userRolesRepo: UserRolesRepository,
     @repository(EnrollmentRepository)
     public enrollmentRepo: EnrollmentRepository,
+    @repository(CourseRepository)
+    public courseRepo: CourseRepository,
+    @inject('service.hasher')
+    public hasher: BcryptHasher,
     @inject('services.course')
     public courseService: CourseService,
     @inject('services.rbac')
     public rbacService: RbacService,
-  ) {}
+  ) { }
 
   @authenticate('jwt')
   @get('/student/me/dashboard', {
@@ -42,7 +55,7 @@ export class StudentController {
         description: 'Student Live Dashboard Metrics',
         content: {
           'application/json': {
-            schema: {type: 'object'},
+            schema: { type: 'object' },
           },
         },
       },
@@ -55,11 +68,11 @@ export class StudentController {
     this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
 
     let profile = await this.studentProfileRepo.findOne({
-      where: {usersId: currentUser.id},
+      where: { usersId: currentUser.id },
       include: [
         {
           relation: 'gradeLevel',
-          scope: {fields: {id: true, label: true, value: true, category: true}},
+          scope: { fields: { id: true, label: true, value: true, category: true } },
         },
       ],
     });
@@ -68,7 +81,7 @@ export class StudentController {
       const isJunior = currentUser.roles?.includes('student_junior');
       const gradeTarget = currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10');
       const gradeMaster = await this.gradeLevelsRepo.findOne({
-        where: {or: [{value: gradeTarget}, {label: gradeTarget}], isDeleted: false},
+        where: { or: [{ value: gradeTarget }, { label: gradeTarget }], isDeleted: false },
       });
 
       profile = await this.studentProfileRepo.create({
@@ -131,11 +144,11 @@ export class StudentController {
     this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
 
     let profile = await this.studentProfileRepo.findOne({
-      where: {usersId: currentUser.id},
+      where: { usersId: currentUser.id },
       include: [
         {
           relation: 'gradeLevel',
-          scope: {fields: {id: true, label: true, value: true, category: true}},
+          scope: { fields: { id: true, label: true, value: true, category: true } },
         },
       ],
     });
@@ -144,7 +157,7 @@ export class StudentController {
       const isJunior = currentUser.roles?.includes('student_junior');
       const gradeTarget = currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10');
       const gradeMaster = await this.gradeLevelsRepo.findOne({
-        where: {or: [{value: gradeTarget}, {label: gradeTarget}], isDeleted: false},
+        where: { or: [{ value: gradeTarget }, { label: gradeTarget }], isDeleted: false },
       });
 
       profile = await this.studentProfileRepo.create({
@@ -192,7 +205,7 @@ export class StudentController {
           schema: {
             type: 'object',
             properties: {
-              gradeLevelId: {type: 'string'},
+              gradeLevelId: { type: 'string' },
             },
           },
         },
@@ -205,7 +218,7 @@ export class StudentController {
     this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
 
     const profile = await this.studentProfileRepo.findOne({
-      where: {usersId: currentUser.id},
+      where: { usersId: currentUser.id },
     });
 
     if (!profile) {
@@ -215,7 +228,7 @@ export class StudentController {
     const updatePayload: any = {};
     if (updateData.gradeLevelId) {
       const gradeMaster = await this.gradeLevelsRepo.findOne({
-        where: {id: updateData.gradeLevelId, isActive: true, isDeleted: false},
+        where: { id: updateData.gradeLevelId, isActive: true, isDeleted: false },
       });
       if (!gradeMaster) {
         throw new HttpErrors.BadRequest(`Invalid gradeLevelId '${updateData.gradeLevelId}'. Grade level does not exist in master data.`);
@@ -232,7 +245,7 @@ export class StudentController {
       include: [
         {
           relation: 'gradeLevel',
-          scope: {fields: {id: true, label: true, value: true, category: true}},
+          scope: { fields: { id: true, label: true, value: true, category: true } },
         },
       ],
     });
@@ -305,7 +318,7 @@ export class StudentController {
       include: [
         {
           relation: 'gradeLevel',
-          scope: {fields: {id: true, label: true, value: true, category: true}},
+          scope: { fields: { id: true, label: true, value: true, category: true } },
         },
       ],
       order: ['createdAt DESC'],
@@ -348,6 +361,7 @@ export class StudentController {
         xp: p.xp ?? 0,
         level: p.level ?? 1,
         streakDays: p.streakDays ?? 0,
+        isOnboarding: user.isOnboarding ?? false,
         isActive: user.isActive ?? true,
         createdAt: user.createdAt || p.createdAt,
       };
@@ -378,6 +392,192 @@ export class StudentController {
         students: paginatedStudents,
       },
       'All students retrieved successfully',
+    );
+  }
+
+  /**
+   * Admin Student Creation (Add Student button in Admin Students Directory)
+   */
+  @authenticate('jwt')
+  @post('/admin/students', {
+    responses: {
+      '200': {
+        description: 'Admin student creation with 9 modal fields, course enrollments, and onboarding flag',
+        content: {
+          'application/json': {
+            schema: {
+              type: 'object',
+              properties: {
+                success: { type: 'boolean' },
+                message: { type: 'string' },
+                data: { type: 'object' },
+              },
+            },
+          },
+        },
+      },
+    },
+  })
+  async adminCreateStudent(
+    @inject(SecurityBindings.USER) currentUser: LmsUserProfile,
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            required: ['fullName', 'email', 'gradeLevelId'],
+            properties: {
+              fullName: { type: 'string' },
+              email: { type: 'string' },
+              gradeLevelId: { type: 'string' },
+              role: { type: 'string', enum: ['student_junior', 'student_senior'] },
+              password: { type: 'string' },
+              gpa: { type: 'number' },
+              completionRate: { type: 'number' },
+              joinDate: { type: 'string' },
+              enrolledCourses: { type: 'array', items: { type: 'string' } },
+            },
+          },
+        },
+      },
+    })
+    body: {
+      fullName: string;
+      email: string;
+      gradeLevelId: string;
+      role?: 'student_junior' | 'student_senior';
+      password?: string;
+      gpa?: number | string;
+      completionRate?: number | string;
+      joinDate?: string;
+      enrolledCourses?: string[];
+    },
+  ) {
+    if (!body.fullName || !body.fullName.trim()) {
+      throw new HttpErrors.BadRequest('fullName is required');
+    }
+    if (!body.gradeLevelId) {
+      throw new HttpErrors.BadRequest('gradeLevelId is required');
+    }
+    const studentName = body.fullName.trim();
+    const studentEmail = body.email.trim();
+    const rawPassword = body.password?.trim();
+    const initialPassword = (!rawPassword || rawPassword === 'Student123' || rawPassword === 'Student@123')
+      ? 'Student@123'
+      : rawPassword;
+
+    // Validate password if custom password provided
+    if (initialPassword !== 'Student@123') {
+      validateStrongPassword(initialPassword);
+    }
+
+    // 1. Resolve Grade Level Master via foreign key
+    const gradeMaster = await this.gradeLevelsRepo.findOne({
+      where: { id: body.gradeLevelId, isActive: true, isDeleted: false },
+    });
+    if (!gradeMaster) {
+      throw new HttpErrors.BadRequest(
+        `Invalid gradeLevelId '${body.gradeLevelId}'. Grade level does not exist in master data.`,
+      );
+    }
+
+    // 2. Resolve & Validate Role consistency with Grade Level Tier
+    const expectedRole = gradeMaster.category === 'junior' ? 'student_junior' : 'student_senior';
+    if (body.role && body.role !== expectedRole) {
+      throw new HttpErrors.BadRequest(
+        `Grade level '${gradeMaster.label || gradeMaster.value}' belongs to the ${gradeMaster.category} tier and cannot be assigned role senior. Expected junior.`,
+      );
+    }
+    const roleKey = expectedRole;
+
+    const targetRole = await this.rolesRepo.findOne({
+      where: { value: roleKey, isActive: true, isDeleted: false },
+    });
+
+    if (!targetRole) {
+      throw new HttpErrors.BadRequest(`System role '${roleKey}' not found in master data.`);
+    }
+
+    // 3. Check for existing user
+    const existingUser = await this.usersRepo.findOne({
+      where: { email: studentEmail },
+    });
+
+    if (existingUser) {
+      throw new HttpErrors.Conflict(`User with email ${studentEmail} already exists`);
+    }
+
+    // 4. Hash initial password
+    const hashedPassword = await this.hasher.hashPassword(initialPassword);
+
+    // 5. Create user in PostgreSQL users table with isOnboarding: true
+    const savedUser = await this.usersRepo.create({
+      email: studentEmail,
+      password: hashedPassword,
+      fullName: studentName,
+      isActive: true,
+      isOnboarding: true,
+      createdAt: body.joinDate ? new Date(body.joinDate) : new Date(),
+    });
+
+    // 6. Assign student role
+    await this.userRolesRepo.create({
+      usersId: savedUser.id!,
+      rolesId: targetRole.id!,
+      isActive: true,
+      isDeleted: false,
+    });
+
+    // 7. Create student profile
+    const gpaNum = Number(body.gpa) || 0.0;
+    const enrolledCoursesList = Array.isArray(body.enrolledCourses) ? body.enrolledCourses : [];
+
+    await this.studentProfileRepo.create({
+      usersId: savedUser.id,
+      gradeLevelId: gradeMaster.id,
+      tier: roleKey === 'student_junior' ? 'junior' : 'senior',
+      xp: 0,
+      level: 1,
+      streakDays: 0,
+      gpa: gpaNum,
+      completedLessons: 0,
+      enrolledCoursesCount: enrolledCoursesList.length,
+      aiInsights: 'Newly enrolled student — monitor onboarding and first-week engagement.',
+      createdAt: body.joinDate ? new Date(body.joinDate) : new Date(),
+    });
+
+    // 8. Auto-enroll courses if selected
+    if (enrolledCoursesList.length > 0) {
+      for (const cId of enrolledCoursesList) {
+        if (cId && typeof cId === 'string') {
+          const course = await this.courseRepo.findOne({ where: { id: cId, isDeleted: false } });
+          if (course) {
+            await this.enrollmentRepo.create({
+              usersId: savedUser.id!,
+              courseId: cId,
+              status: 'active',
+              progressRate: Number(body.completionRate) || 0,
+            });
+          }
+        }
+      }
+    }
+
+    return formatSuccessResponse(
+      {
+        id: savedUser.id,
+        name: studentName,
+        email: studentEmail,
+        role: roleKey,
+        gradeLevel: gradeMaster.label || gradeMaster.value,
+        tier: roleKey === 'student_junior' ? 'junior' : 'senior',
+        gpa: gpaNum,
+        completionRate: Number(body.completionRate) || 0,
+        enrolledCourses: enrolledCoursesList,
+        isOnboarding: true,
+        createdAt: savedUser.createdAt,
+      },
+      'Student created successfully by admin',
     );
   }
 }
