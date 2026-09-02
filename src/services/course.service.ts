@@ -78,7 +78,6 @@ export class CourseService {
     const whereClause: any = {
       isDeleted: false,
       isActive: true,
-      status: 'published',
     };
 
     if (query.tier) {
