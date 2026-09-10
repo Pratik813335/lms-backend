@@ -50,6 +50,26 @@ export class GradeLevels extends Entity {
   @property({
     type: 'boolean',
     default: true,
+    postgresql: {
+      columnName: 'has_test_prep',
+      dataType: 'boolean',
+    },
+  })
+  hasTestPrep?: boolean;
+
+  @property({
+    type: 'boolean',
+    default: true,
+    postgresql: {
+      columnName: 'has_full_curriculum',
+      dataType: 'boolean',
+    },
+  })
+  hasFullCurriculum?: boolean;
+
+  @property({
+    type: 'boolean',
+    default: true,
   })
   isActive?: boolean;
 

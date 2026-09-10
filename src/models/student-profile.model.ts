@@ -90,6 +90,12 @@ export class StudentProfile extends Entity {
   })
   updatedAt?: Date;
 
+  @property({
+    type: 'boolean',
+    default: false,
+  })
+  isDeleted?: boolean;
+
   constructor(data?: Partial<StudentProfile>) {
     super(data);
   }

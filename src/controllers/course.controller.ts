@@ -66,6 +66,7 @@ export class CourseController {
     @param.query.string('tier') tier?: string,
     @param.query.string('subjectId') subjectId?: string,
     @param.query.string('gradeLevelId') gradeLevelId?: string,
+    @param.query.string('status') status?: string,
     @param.query.string('search') search?: string,
     @param.query.number('page') page?: number,
     @param.query.number('limit') limit?: number,
@@ -74,6 +75,7 @@ export class CourseController {
       tier,
       subjectId,
       gradeLevelId,
+      status,
       search,
       page,
       limit,
@@ -557,6 +559,76 @@ export class CourseController {
     return formatSuccessResponse(syllabus, 'Course syllabus tree retrieved successfully');
   }
 
+  // ── Allocation & Roster Engine ──────────────────────────────────────────
+  @authenticate('jwt')
+  @post('/courses/{id}/instructors/assign')
+  async assignInstructor(
+    @param.path.string('id') courseId: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            required: ['instructorId'],
+            properties: {
+              instructorId: {type: 'string'},
+            },
+          },
+        },
+      },
+    })
+    body: {instructorId: string},
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'content', 'academic']);
+    const result = await this.courseService.assignInstructor(courseId, body.instructorId);
+    return formatSuccessResponse(result, 'Instructor assigned successfully');
+  }
+
+  @authenticate('jwt')
+  @post('/courses/{id}/students/batch-enroll')
+  async batchEnrollStudents(
+    @param.path.string('id') courseId: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            required: ['studentUserIds'],
+            properties: {
+              studentUserIds: {
+                type: 'array',
+                items: {type: 'string'},
+              },
+              learningMode: {type: 'string', enum: ['credit', 'revision']},
+            },
+          },
+        },
+      },
+    })
+    body: {studentUserIds: string[]; learningMode?: 'credit' | 'revision'},
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'content', 'academic']);
+    const result = await this.courseService.batchEnrollStudents(
+      courseId,
+      body.studentUserIds,
+      body.learningMode,
+    );
+    return formatSuccessResponse(result, 'Batch enrollment completed');
+  }
+
+  @authenticate('jwt')
+  @get('/courses/{id}/roster')
+  async getCourseRoster(
+    @param.path.string('id') courseId: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'content', 'academic', 'operations']);
+    const roster = await this.courseService.getCourseRoster(courseId);
+    return formatSuccessResponse(roster, 'Course roster retrieved successfully');
+  }
+
   // ── Enrollment & Lesson Progress Engine ─────────────────────────────────
   @authenticate('jwt')
   @post('/courses/{id}/enroll')
@@ -571,6 +643,33 @@ export class CourseController {
   }
 
   @authenticate('jwt')
+  @del('/courses/{id}/enroll')
+  async unenrollStudentStaff(
+    @param.path.string('id') courseId: string,
+    @param.query.string('userId') userId: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'content', 'academic']);
+    if (!userId) {
+      throw new HttpErrors.BadRequest('userId query parameter is required to unenroll student.');
+    }
+    const result = await this.courseService.unenrollStudent(userId, courseId);
+    return formatSuccessResponse(result, 'Student unenrolled from course');
+  }
+
+  @authenticate('jwt')
+  @del('/student/me/courses/{id}/enroll')
+  async selfUnenrollStudent(
+    @param.path.string('id') courseId: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    const userId = (currentUser as any).id || (currentUser as any).userId;
+    const result = await this.courseService.unenrollStudent(userId, courseId);
+    return formatSuccessResponse(result, 'Successfully dropped course');
+  }
+
+  @authenticate('jwt')
   @post('/lessons/{id}/complete')
   async completeLesson(
     @param.path.string('id') lessonId: string,
@@ -582,3 +681,4 @@ export class CourseController {
     return formatSuccessResponse(result, 'Lesson completed and progress updated');
   }
 }
+

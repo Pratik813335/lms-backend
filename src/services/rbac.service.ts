@@ -39,9 +39,11 @@ export class RbacService {
     const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(roleIdentifier);
     const role = await this.rolesRepo.findOne({
       where: {
-        or: isUuid ? [{id: roleIdentifier}, {value: roleIdentifier}] : [{value: roleIdentifier}],
-        isActive: true,
-        isDeleted: false,
+        and: [
+          {or: isUuid ? [{id: roleIdentifier}, {value: roleIdentifier}] : [{value: roleIdentifier}]},
+          {isActive: true},
+          {isDeleted: false},
+        ],
       },
     });
 

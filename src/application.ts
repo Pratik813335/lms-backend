@@ -32,6 +32,16 @@ import {
   SubjectsRepository,
   UserRolesRepository,
   UsersRepository,
+  AssessmentRepository,
+  QuestionRepository,
+  AssessmentSubmissionRepository,
+  BadgeRepository,
+  UserBadgeRepository,
+  CertificateRepository,
+  WritingPromptRepository,
+  WritingLabSubmissionRepository,
+  ComplianceAuditRepository,
+  PaymentRepository,
 } from './repositories';
 import {MySequence} from './sequence';
 import {
@@ -43,6 +53,14 @@ import {
   MyUserService,
   OtpService,
   RbacService,
+  AssessmentService,
+  GamificationService,
+  CertificateService,
+  WritingLabService,
+  ComplianceService,
+  TestPrepService,
+  PaymentService,
+  AnalyticsService,
 } from './services';
 
 export {ApplicationConfig};
@@ -142,6 +160,14 @@ export class LmsBackendApplication extends BootMixin(
     // Domain Services (Amplio Pattern)
     this.bind('services.course').toClass(CourseService);
     this.bind('services.otp').toClass(OtpService);
+    this.bind('services.assessment').toClass(AssessmentService);
+    this.bind('services.gamification').toClass(GamificationService);
+    this.bind('services.certificate').toClass(CertificateService);
+    this.bind('services.writingLab').toClass(WritingLabService);
+    this.bind('services.compliance').toClass(ComplianceService);
+    this.bind('services.testPrep').toClass(TestPrepService);
+    this.bind('services.payment').toClass(PaymentService);
+    this.bind('services.analytics').toClass(AnalyticsService);
     this.bind(EmailManagerBindings.SEND_MAIL).toClass(EmailService);
 
     // Storage Directory & File Upload Service (Amplio Pattern)
@@ -171,5 +197,15 @@ export class LmsBackendApplication extends BootMixin(
     this.repository(EnrollmentRepository);
     this.repository(LessonProgressRepository);
     this.repository(MediaRepository);
+    this.repository(AssessmentRepository);
+    this.repository(QuestionRepository);
+    this.repository(AssessmentSubmissionRepository);
+    this.repository(BadgeRepository);
+    this.repository(UserBadgeRepository);
+    this.repository(CertificateRepository);
+    this.repository(WritingPromptRepository);
+    this.repository(WritingLabSubmissionRepository);
+    this.repository(ComplianceAuditRepository);
+    this.repository(PaymentRepository);
   }
 }

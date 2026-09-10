@@ -15,3 +15,14 @@ export * from './lesson.repository';
 export * from './enrollment.repository';
 export * from './lesson-progress.repository';
 export * from './media.repository';
+export * from './assessment.repository';
+export * from './question.repository';
+export * from './assessment-submission.repository';
+export * from './badge.repository';
+export * from './user-badge.repository';
+export * from './certificate.repository';
+export * from './writing-prompt.repository';
+export * from './writing-lab-submission.repository';
+export * from './compliance-audit.repository';
+export * from './payment.repository';
+

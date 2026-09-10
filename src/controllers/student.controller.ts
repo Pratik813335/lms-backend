@@ -5,6 +5,7 @@ import {
   get,
   post,
   patch,
+  del,
   param,
   requestBody,
   HttpErrors,
@@ -72,7 +73,7 @@ export class StudentController {
       include: [
         {
           relation: 'gradeLevel',
-          scope: { fields: { id: true, label: true, value: true, category: true } },
+          scope: { fields: { id: true, label: true, value: true, category: true, hasTestPrep: true, hasFullCurriculum: true } },
         },
       ],
     });
@@ -81,7 +82,12 @@ export class StudentController {
       const isJunior = currentUser.roles?.includes('student_junior');
       const gradeTarget = currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10');
       const gradeMaster = await this.gradeLevelsRepo.findOne({
-        where: { or: [{ value: gradeTarget }, { label: gradeTarget }], isDeleted: false },
+        where: {
+          and: [
+            { or: [{ value: gradeTarget }, { label: gradeTarget }] },
+            { isDeleted: false },
+          ],
+        },
       });
 
       profile = await this.studentProfileRepo.create({
@@ -100,6 +106,8 @@ export class StudentController {
     const plainProfile: any = typeof profile.toJSON === 'function' ? profile.toJSON() : profile;
     const gradeLevelDisplay = plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
     const tierDisplay = plainProfile.gradeLevel?.category || (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
+    const hasTestPrep = plainProfile.gradeLevel?.hasTestPrep !== undefined ? plainProfile.gradeLevel.hasTestPrep : true;
+    const hasFullCurriculum = plainProfile.gradeLevel?.hasFullCurriculum !== undefined ? plainProfile.gradeLevel.hasFullCurriculum : (tierDisplay === 'senior');
 
     const dashboardMetrics = {
       profile: {
@@ -110,6 +118,8 @@ export class StudentController {
         gradeLevelId: profile.gradeLevelId,
         gradeLevel: gradeLevelDisplay,
         tier: tierDisplay,
+        hasTestPrep,
+        hasFullCurriculum,
       },
       stats: {
         xp: profile.xp || 0,
@@ -148,7 +158,7 @@ export class StudentController {
       include: [
         {
           relation: 'gradeLevel',
-          scope: { fields: { id: true, label: true, value: true, category: true } },
+          scope: { fields: { id: true, label: true, value: true, category: true, hasTestPrep: true, hasFullCurriculum: true } },
         },
       ],
     });
@@ -157,7 +167,12 @@ export class StudentController {
       const isJunior = currentUser.roles?.includes('student_junior');
       const gradeTarget = currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10');
       const gradeMaster = await this.gradeLevelsRepo.findOne({
-        where: { or: [{ value: gradeTarget }, { label: gradeTarget }], isDeleted: false },
+        where: {
+          and: [
+            { or: [{ value: gradeTarget }, { label: gradeTarget }] },
+            { isDeleted: false },
+          ],
+        },
       });
 
       profile = await this.studentProfileRepo.create({
@@ -175,12 +190,16 @@ export class StudentController {
     const plainProfile: any = typeof profile.toJSON === 'function' ? profile.toJSON() : profile;
     const gradeLevelDisplay = plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
     const tierDisplay = plainProfile.gradeLevel?.category || (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
+    const hasTestPrep = plainProfile.gradeLevel?.hasTestPrep !== undefined ? plainProfile.gradeLevel.hasTestPrep : true;
+    const hasFullCurriculum = plainProfile.gradeLevel?.hasFullCurriculum !== undefined ? plainProfile.gradeLevel.hasFullCurriculum : (tierDisplay === 'senior');
 
     const fullProfileData = {
       ...plainProfile,
       gradeLevelId: profile.gradeLevelId,
       gradeLevel: gradeLevelDisplay,
       tier: tierDisplay,
+      hasTestPrep,
+      hasFullCurriculum,
       fullName: currentUser.fullName || currentUser.email.split('@')[0],
       email: currentUser.email,
     };
@@ -580,4 +599,114 @@ export class StudentController {
       'Student created successfully by admin',
     );
   }
+
+  /**
+   * Edit Student profile, grade level, and GPA by Admin
+   */
+  @authenticate('jwt')
+  @patch('/admin/students/{id}')
+  async updateStudentByAdmin(
+    @param.path.string('id') id: string,
+    @inject(SecurityBindings.USER) currentUser: LmsUserProfile,
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            properties: {
+              fullName: {type: 'string'},
+              gradeLevelId: {type: 'string'},
+              gpa: {type: 'number'},
+              isActive: {type: 'boolean'},
+            },
+          },
+        },
+      },
+    })
+    body: {
+      fullName?: string;
+      gradeLevelId?: string;
+      gpa?: number;
+      isActive?: boolean;
+    },
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'academic', 'operations']);
+
+    const user = await this.usersRepo.findOne({where: {id, isDeleted: false}});
+    if (!user) {
+      throw new HttpErrors.NotFound(`Student with ID '${id}' not found.`);
+    }
+
+    if (body.fullName !== undefined || body.isActive !== undefined) {
+      const userUpdate: any = {updatedAt: new Date()};
+      if (body.fullName !== undefined) userUpdate.fullName = body.fullName;
+      if (body.isActive !== undefined) userUpdate.isActive = body.isActive;
+      await this.usersRepo.updateById(id, userUpdate);
+    }
+
+    const profile = await this.studentProfileRepo.findOne({where: {usersId: id}});
+    if (profile) {
+      const profileUpdate: any = {updatedAt: new Date()};
+      if (body.gpa !== undefined) profileUpdate.gpa = body.gpa;
+      if (body.gradeLevelId) {
+        const gradeMaster = await this.gradeLevelsRepo.findOne({
+          where: {id: body.gradeLevelId, isActive: true, isDeleted: false},
+        });
+        if (!gradeMaster) {
+          throw new HttpErrors.BadRequest(`Grade level with ID '${body.gradeLevelId}' not found.`);
+        }
+        profileUpdate.gradeLevelId = body.gradeLevelId;
+        profileUpdate.tier = gradeMaster.category === 'junior' ? 'junior' : 'senior';
+      }
+      await this.studentProfileRepo.updateById(profile.id, profileUpdate);
+    }
+
+    const updatedUser = await this.usersRepo.findById(id);
+    const updatedProfile = await this.studentProfileRepo.findOne({
+      where: {usersId: id},
+      include: [{relation: 'gradeLevel'}],
+    });
+
+    return formatSuccessResponse(
+      {
+        user: updatedUser,
+        profile: updatedProfile,
+      },
+      'Student updated successfully',
+    );
+  }
+
+  /**
+   * Deactivate / Soft-delete Student by Admin
+   */
+  @authenticate('jwt')
+  @del('/admin/students/{id}')
+  async deleteStudentByAdmin(
+    @param.path.string('id') id: string,
+    @inject(SecurityBindings.USER) currentUser: LmsUserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'operations']);
+
+    const user = await this.usersRepo.findOne({where: {id, isDeleted: false}});
+    if (!user) {
+      throw new HttpErrors.NotFound(`Student with ID '${id}' not found.`);
+    }
+
+    await this.usersRepo.updateById(id, {
+      isDeleted: true,
+      isActive: false,
+      updatedAt: new Date(),
+    });
+
+    const profile = await this.studentProfileRepo.findOne({where: {usersId: id}});
+    if (profile) {
+      await this.studentProfileRepo.updateById(profile.id, {
+        isDeleted: true,
+        updatedAt: new Date(),
+      });
+    }
+
+    return formatSuccessResponse({id}, 'Student deleted successfully');
+  }
 }
+

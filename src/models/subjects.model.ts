@@ -43,6 +43,16 @@ export class Subjects extends Entity {
 
   @property({
     type: 'boolean',
+    default: false,
+    postgresql: {
+      columnName: 'is_test_prep',
+      dataType: 'boolean',
+    },
+  })
+  isTestPrep?: boolean;
+
+  @property({
+    type: 'boolean',
     default: true,
   })
   isActive?: boolean;

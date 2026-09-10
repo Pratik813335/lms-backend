@@ -15,3 +15,14 @@ export * from './lesson.model';
 export * from './enrollment.model';
 export * from './lesson-progress.model';
 export * from './media.model';
+export * from './assessment.model';
+export * from './question.model';
+export * from './assessment-submission.model';
+export * from './badge.model';
+export * from './user-badge.model';
+export * from './certificate.model';
+export * from './writing-prompt.model';
+export * from './writing-lab-submission.model';
+export * from './compliance-audit.model';
+export * from './payment.model';
+

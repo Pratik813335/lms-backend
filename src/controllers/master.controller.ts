@@ -1,8 +1,8 @@
-import {authenticate} from '@loopback/authentication';
-import {inject} from '@loopback/core';
-import {repository} from '@loopback/repository';
-import {get, getModelSchemaRef, param, patch, post, requestBody, HttpErrors} from '@loopback/rest';
-import {SecurityBindings, UserProfile} from '@loopback/security';
+import { authenticate } from '@loopback/authentication';
+import { inject } from '@loopback/core';
+import { repository } from '@loopback/repository';
+import { get, getModelSchemaRef, param, patch, post, requestBody, HttpErrors } from '@loopback/rest';
+import { SecurityBindings, UserProfile } from '@loopback/security';
 import {
   AssetTypes,
   ComplianceStatuses,
@@ -15,8 +15,8 @@ import {
   GradeLevelsRepository,
   SubjectsRepository,
 } from '../repositories';
-import {RbacService} from '../services';
-import {formatSuccessResponse} from '../utils';
+import { RbacService } from '../services';
+import { formatSuccessResponse } from '../utils';
 
 export class MasterController {
   constructor(
@@ -30,13 +30,23 @@ export class MasterController {
     public assetTypesRepo: AssetTypesRepository,
     @repository(ComplianceStatusesRepository)
     public complianceStatusesRepo: ComplianceStatusesRepository,
-  ) {}
+  ) { }
 
   // ── Grade Levels Master ──────────────────────────────────────────────────
   @get('/masters/grade-levels')
-  async getGradeLevels() {
+  async getGradeLevels(
+    @param.query.string('category') category?: string,
+    @param.query.boolean('hasTestPrep') hasTestPrep?: boolean,
+    @param.query.boolean('hasFullCurriculum') hasFullCurriculum?: boolean,
+  ) {
+    const whereClause: any = { isDeleted: false, isActive: true };
+    if (category) whereClause.category = category;
+    if (hasTestPrep !== undefined) whereClause.hasTestPrep = hasTestPrep;
+    if (hasFullCurriculum !== undefined) whereClause.hasFullCurriculum = hasFullCurriculum;
+
     const list = await this.gradeLevelsRepo.find({
-      where: {isDeleted: false, isActive: true},
+      where: whereClause,
+      order: ['value ASC'],
     });
     return formatSuccessResponse(list, 'Grade levels retrieved successfully');
   }
@@ -46,7 +56,7 @@ export class MasterController {
     responses: {
       '200': {
         description: 'GradeLevels Model Instance',
-        content: {'application/json': {schema: getModelSchemaRef(GradeLevels)}},
+        content: { 'application/json': { schema: getModelSchemaRef(GradeLevels) } },
       },
     },
   })
@@ -74,13 +84,13 @@ export class MasterController {
     responses: {
       '200': {
         description: 'GradeLevels PATCH Success',
-        content: {'application/json': {schema: getModelSchemaRef(GradeLevels)}},
+        content: { 'application/json': { schema: getModelSchemaRef(GradeLevels) } },
       },
     },
   })
   async updateGradeLevel(
-    @param.path.string('id') id: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
+    @param.path.string('id') id: string,
     @requestBody({
       content: {
         'application/json': {
@@ -95,7 +105,7 @@ export class MasterController {
     data: Partial<GradeLevels>,
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin']);
-    const record = await this.gradeLevelsRepo.findOne({where: {id, isDeleted: false}});
+    const record = await this.gradeLevelsRepo.findOne({ where: { id, isDeleted: false } });
     if (!record) {
       throw new HttpErrors.NotFound(`Grade level with ID '${id}' not found`);
     }
@@ -109,9 +119,13 @@ export class MasterController {
 
   // ── Subjects Master ─────────────────────────────────────────────────────
   @get('/masters/subjects')
-  async getSubjects() {
+  async getSubjects(@param.query.boolean('isTestPrep') isTestPrep?: boolean) {
+    const whereClause: any = { isDeleted: false, isActive: true };
+    if (isTestPrep !== undefined) whereClause.isTestPrep = isTestPrep;
+
     const list = await this.subjectsRepo.find({
-      where: {isDeleted: false, isActive: true},
+      where: whereClause,
+      order: ['label ASC'],
     });
     return formatSuccessResponse(list, 'Subjects retrieved successfully');
   }
@@ -121,7 +135,7 @@ export class MasterController {
     responses: {
       '200': {
         description: 'Subjects Model Instance',
-        content: {'application/json': {schema: getModelSchemaRef(Subjects)}},
+        content: { 'application/json': { schema: getModelSchemaRef(Subjects) } },
       },
     },
   })
@@ -149,7 +163,7 @@ export class MasterController {
     responses: {
       '200': {
         description: 'Subjects PATCH Success',
-        content: {'application/json': {schema: getModelSchemaRef(Subjects)}},
+        content: { 'application/json': { schema: getModelSchemaRef(Subjects) } },
       },
     },
   })
@@ -170,7 +184,7 @@ export class MasterController {
     data: Partial<Subjects>,
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin']);
-    const record = await this.subjectsRepo.findOne({where: {id, isDeleted: false}});
+    const record = await this.subjectsRepo.findOne({ where: { id, isDeleted: false } });
     if (!record) {
       throw new HttpErrors.NotFound(`Subject with ID '${id}' not found`);
     }
@@ -186,7 +200,7 @@ export class MasterController {
   @get('/masters/asset-types')
   async getAssetTypes() {
     const list = await this.assetTypesRepo.find({
-      where: {isDeleted: false, isActive: true},
+      where: { isDeleted: false, isActive: true },
     });
     return formatSuccessResponse(list, 'Asset types retrieved successfully');
   }
@@ -196,7 +210,7 @@ export class MasterController {
     responses: {
       '200': {
         description: 'AssetTypes Model Instance',
-        content: {'application/json': {schema: getModelSchemaRef(AssetTypes)}},
+        content: { 'application/json': { schema: getModelSchemaRef(AssetTypes) } },
       },
     },
   })
@@ -224,7 +238,7 @@ export class MasterController {
     responses: {
       '200': {
         description: 'AssetTypes PATCH Success',
-        content: {'application/json': {schema: getModelSchemaRef(AssetTypes)}},
+        content: { 'application/json': { schema: getModelSchemaRef(AssetTypes) } },
       },
     },
   })
@@ -245,7 +259,7 @@ export class MasterController {
     data: Partial<AssetTypes>,
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin']);
-    const record = await this.assetTypesRepo.findOne({where: {id, isDeleted: false}});
+    const record = await this.assetTypesRepo.findOne({ where: { id, isDeleted: false } });
     if (!record) {
       throw new HttpErrors.NotFound(`Asset type with ID '${id}' not found`);
     }
@@ -261,7 +275,7 @@ export class MasterController {
   @get('/masters/compliance-statuses')
   async getComplianceStatuses() {
     const list = await this.complianceStatusesRepo.find({
-      where: {isDeleted: false, isActive: true},
+      where: { isDeleted: false, isActive: true },
     });
     return formatSuccessResponse(list, 'Compliance statuses retrieved successfully');
   }
@@ -271,7 +285,7 @@ export class MasterController {
     responses: {
       '200': {
         description: 'ComplianceStatuses Model Instance',
-        content: {'application/json': {schema: getModelSchemaRef(ComplianceStatuses)}},
+        content: { 'application/json': { schema: getModelSchemaRef(ComplianceStatuses) } },
       },
     },
   })
@@ -299,7 +313,7 @@ export class MasterController {
     responses: {
       '200': {
         description: 'ComplianceStatuses PATCH Success',
-        content: {'application/json': {schema: getModelSchemaRef(ComplianceStatuses)}},
+        content: { 'application/json': { schema: getModelSchemaRef(ComplianceStatuses) } },
       },
     },
   })
@@ -320,7 +334,7 @@ export class MasterController {
     data: Partial<ComplianceStatuses>,
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin']);
-    const record = await this.complianceStatusesRepo.findOne({where: {id, isDeleted: false}});
+    const record = await this.complianceStatusesRepo.findOne({ where: { id, isDeleted: false } });
     if (!record) {
       throw new HttpErrors.NotFound(`Compliance status with ID '${id}' not found`);
     }

@@ -67,6 +67,7 @@ export class CourseService {
     subjectId?: string;
     gradeLevel?: string;
     gradeLevelId?: string;
+    status?: string;
     search?: string;
     page?: number;
     limit?: number;
@@ -75,40 +76,50 @@ export class CourseService {
     const limit = Math.min(50, Math.max(1, Number(query.limit) || 12));
     const skip = (page - 1) * limit;
 
-    const whereClause: any = {
-      isDeleted: false,
-      isActive: true,
-    };
+    const andClauses: any[] = [
+      {isDeleted: false},
+      {isActive: true},
+    ];
+
+    // Filter by status if specified (e.g. 'draft', 'published', 'archived', or 'all')
+    if (query.status && query.status.toLowerCase() !== 'all') {
+      andClauses.push({status: query.status.toLowerCase()});
+    }
 
     if (query.tier) {
       const matchingGrades = await this.gradeLevelsRepo.find({
-        where: {category: query.tier, isActive: true, isDeleted: false},
+        where: {and: [{category: query.tier}, {isActive: true}, {isDeleted: false}]},
       });
       const gradeIds = matchingGrades.map(g => g.id);
       if (gradeIds.length > 0) {
-        whereClause.gradeLevelId = {inq: gradeIds};
+        andClauses.push({gradeLevelId: {inq: gradeIds}});
       } else {
-        whereClause.gradeLevelId = '00000000-0000-0000-0000-000000000000';
+        andClauses.push({gradeLevelId: '00000000-0000-0000-0000-000000000000'});
       }
     }
 
     // Filter by subjectId foreign key
     if (query.subjectId) {
-      whereClause.subjectId = query.subjectId;
+      andClauses.push({subjectId: query.subjectId});
     }
 
     // Filter by gradeLevelId foreign key
     if (query.gradeLevelId) {
-      whereClause.gradeLevelId = query.gradeLevelId;
+      andClauses.push({gradeLevelId: query.gradeLevelId});
     }
 
-    if (query.search) {
-      whereClause.or = [
-        {title: {like: `%${query.search}%`, options: 'i'}},
-        {description: {like: `%${query.search}%`, options: 'i'}},
-        {subtitle: {like: `%${query.search}%`, options: 'i'}},
-      ];
+    if (query.search && query.search.trim()) {
+      const searchTerm = query.search.trim();
+      andClauses.push({
+        or: [
+          {title: {ilike: `%${searchTerm}%`}},
+          {description: {ilike: `%${searchTerm}%`}},
+          {subtitle: {ilike: `%${searchTerm}%`}},
+        ],
+      });
     }
+
+    const whereClause: any = andClauses.length > 1 ? {and: andClauses} : andClauses[0];
 
     const total = await this.courseRepo.count(whereClause);
     const courses = await this.courseRepo.find({
@@ -286,9 +297,10 @@ export class CourseService {
     });
 
     if (existingEnrollment) {
-      if (existingEnrollment.status === 'dropped') {
+      if (existingEnrollment.status === 'dropped' || existingEnrollment.isDeleted) {
         await this.enrollmentRepo.updateById(existingEnrollment.id, {
           status: 'active',
+          isDeleted: false,
           updatedAt: new Date(),
         });
       }
@@ -482,4 +494,218 @@ export class CourseService {
       },
     };
   }
+
+  /**
+   * Soft-delete Course
+   */
+  async deleteCourse(id: string) {
+    const course = await this.courseRepo.findOne({where: {id, isDeleted: false}});
+    if (!course) {
+      throw new HttpErrors.NotFound(`Course with ID '${id}' not found.`);
+    }
+
+    await this.courseRepo.updateById(id, {
+      isDeleted: true,
+      isActive: false,
+      updatedAt: new Date(),
+    });
+
+    return {id, message: 'Course deleted successfully'};
+  }
+
+  /**
+   * Soft-delete Module
+   */
+  async deleteModule(id: string) {
+    const moduleRecord = await this.moduleRepo.findOne({where: {id, isDeleted: false}});
+    if (!moduleRecord) {
+      throw new HttpErrors.NotFound(`Module with ID '${id}' not found.`);
+    }
+
+    await this.moduleRepo.updateById(id, {
+      isDeleted: true,
+      isActive: false,
+      updatedAt: new Date(),
+    });
+
+    return {id, message: 'Module deleted successfully'};
+  }
+
+  /**
+   * Assign primary instructor to a course
+   */
+  async assignInstructor(courseId: string, instructorId: string) {
+    const course = await this.courseRepo.findOne({where: {id: courseId, isDeleted: false}});
+    if (!course) {
+      throw new HttpErrors.NotFound(`Course with ID '${courseId}' not found.`);
+    }
+
+    const instructor = await this.usersRepo.findOne({where: {id: instructorId, isDeleted: false}});
+    if (!instructor) {
+      throw new HttpErrors.NotFound(`Instructor with ID '${instructorId}' not found.`);
+    }
+
+    await this.courseRepo.updateById(courseId, {
+      instructorId,
+      updatedAt: new Date(),
+    });
+
+    return {
+      courseId,
+      instructorId,
+      instructorName: instructor.fullName || instructor.email,
+      message: 'Instructor successfully assigned to course',
+    };
+  }
+
+  /**
+   * Batch enroll an entire cohort of students into a course
+   */
+  async batchEnrollStudents(
+    courseId: string,
+    studentUserIds: string[],
+    learningMode: 'credit' | 'revision' = 'credit',
+  ) {
+    const course = await this.courseRepo.findOne({where: {id: courseId, isDeleted: false}});
+    if (!course) {
+      throw new HttpErrors.NotFound(`Course with ID '${courseId}' not found.`);
+    }
+
+    if (!Array.isArray(studentUserIds) || studentUserIds.length === 0) {
+      throw new HttpErrors.BadRequest('studentUserIds must be a non-empty array of user UUIDs.');
+    }
+
+    const validUsers = await this.usersRepo.find({
+      where: {id: {inq: studentUserIds}, isDeleted: false},
+    });
+    const validUserIds = new Set(validUsers.map(u => u.id));
+
+    const enrolled: any[] = [];
+    for (const userId of studentUserIds) {
+      if (!validUserIds.has(userId)) continue;
+
+      const existing = await this.enrollmentRepo.findOne({
+        where: {usersId: userId, courseId, isDeleted: false},
+      });
+
+      if (!existing) {
+        const newEnrollment = await this.enrollmentRepo.create({
+          usersId: userId,
+          courseId,
+          progressRate: 0,
+          status: 'active',
+          enrolledAt: new Date(),
+        });
+        enrolled.push(newEnrollment);
+
+        // Update student enrolled courses count
+        const profile = await this.studentProfileRepo.findOne({where: {usersId: userId}});
+        if (profile) {
+          await this.studentProfileRepo.updateById(profile.id, {
+            enrolledCoursesCount: (profile.enrolledCoursesCount || 0) + 1,
+          });
+        }
+      }
+    }
+
+    return {
+      courseId,
+      totalRequested: studentUserIds.length,
+      successfullyEnrolled: enrolled.length,
+      learningMode,
+      message: `Successfully enrolled ${enrolled.length} students into course`,
+    };
+  }
+
+  /**
+   * Get live student progress roster for a course
+   */
+  async getCourseRoster(courseId: string) {
+    const course = await this.courseRepo.findOne({where: {id: courseId, isDeleted: false}});
+    if (!course) {
+      throw new HttpErrors.NotFound(`Course with ID '${courseId}' not found.`);
+    }
+
+    const enrollments = await this.enrollmentRepo.find({
+      where: {courseId, isDeleted: false},
+      include: [
+        {
+          relation: 'user',
+          scope: {fields: {id: true, fullName: true, email: true, phone: true}},
+        },
+      ],
+      order: ['enrolledAt DESC'],
+    });
+
+    const studentIds = enrollments.map(e => e.usersId);
+    const profiles = studentIds.length > 0
+      ? await this.studentProfileRepo.find({
+          where: {usersId: {inq: studentIds}},
+          include: [{relation: 'gradeLevel'}],
+        })
+      : [];
+
+    const roster = enrollments.map(e => {
+      const plainUser: any = (e as any).user || {};
+      const profile = profiles.find(p => p.usersId === e.usersId);
+      const grade = (profile as any)?.gradeLevel?.label || 'Grade 10';
+      const progress = e.progressRate || 0;
+
+      let studentStatus: 'on_track' | 'at_risk' | 'completed' = 'on_track';
+      if (progress >= 100) studentStatus = 'completed';
+      else if (progress < 25) studentStatus = 'at_risk';
+
+      return {
+        enrollmentId: e.id,
+        studentId: e.usersId,
+        studentName: plainUser.fullName || plainUser.email?.split('@')[0] || 'Student Learner',
+        studentEmail: plainUser.email || '',
+        gradeLevel: grade,
+        progressRate: progress,
+        status: e.status || 'active',
+        performanceStatus: studentStatus,
+        enrolledAt: e.enrolledAt || e.createdAt,
+      };
+    });
+
+    return {
+      courseId,
+      courseTitle: course.title,
+      totalStudentsEnrolled: roster.length,
+      roster,
+    };
+  }
+
+  /**
+   * Unenroll / Drop student from course
+   */
+  async unenrollStudent(userId: string, courseId: string) {
+    const enrollment = await this.enrollmentRepo.findOne({
+      where: {usersId: userId, courseId, isDeleted: false},
+    });
+
+    if (!enrollment) {
+      throw new HttpErrors.NotFound('Active enrollment record not found.');
+    }
+
+    await this.enrollmentRepo.updateById(enrollment.id, {
+      isDeleted: true,
+      status: 'dropped',
+      updatedAt: new Date(),
+    });
+
+    const profile = await this.studentProfileRepo.findOne({where: {usersId: userId}});
+    if (profile && (profile.enrolledCoursesCount || 0) > 0) {
+      await this.studentProfileRepo.updateById(profile.id, {
+        enrolledCoursesCount: Math.max(0, (profile.enrolledCoursesCount || 1) - 1),
+      });
+    }
+
+    return {
+      courseId,
+      userId,
+      message: 'Student successfully unenrolled from course',
+    };
+  }
 }
+

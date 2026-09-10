@@ -4,6 +4,8 @@ import { repository } from '@loopback/repository';
 import {
   post,
   get,
+  patch,
+  del,
   param,
   requestBody,
   HttpErrors,
@@ -639,4 +641,85 @@ export class AuthController {
       'Users directory retrieved successfully',
     );
   }
+
+  /**
+   * Edit Staff Member details & role
+   */
+  @authenticate('jwt')
+  @patch('/admin/users/{id}')
+  async updateStaffUser(
+    @param.path.string('id') id: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            properties: {
+              fullName: {type: 'string'},
+              phone: {type: 'string'},
+              roleId: {type: 'string'},
+              isActive: {type: 'boolean'},
+            },
+          },
+        },
+      },
+    })
+    body: {
+      fullName?: string;
+      phone?: string;
+      roleId?: string;
+      isActive?: boolean;
+    },
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin']);
+
+    const user = await this.usersRepo.findOne({where: {id, isDeleted: false}});
+    if (!user) {
+      throw new HttpErrors.NotFound(`User with ID '${id}' not found.`);
+    }
+
+    const updatePayload: any = {updatedAt: new Date()};
+    if (body.fullName !== undefined) updatePayload.fullName = body.fullName;
+    if (body.phone !== undefined) updatePayload.phone = body.phone;
+    if (body.isActive !== undefined) updatePayload.isActive = body.isActive;
+
+    await this.usersRepo.updateById(id, updatePayload);
+
+    if (body.roleId) {
+      await this.rbacService.assignUserRole(id, body.roleId);
+    }
+
+    const updatedUser = await this.usersRepo.findById(id, {
+      include: [{relation: 'roles'}],
+    });
+
+    return formatSuccessResponse(updatedUser, 'Staff user updated successfully');
+  }
+
+  /**
+   * Deactivate / Soft-delete Staff Member
+   */
+  @authenticate('jwt')
+  @del('/admin/users/{id}')
+  async deactivateStaffUser(
+    @param.path.string('id') id: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin']);
+
+    const user = await this.usersRepo.findOne({where: {id, isDeleted: false}});
+    if (!user) {
+      throw new HttpErrors.NotFound(`User with ID '${id}' not found.`);
+    }
+
+    await this.usersRepo.updateById(id, {
+      isDeleted: true,
+      isActive: false,
+      updatedAt: new Date(),
+    });
+
+    return formatSuccessResponse({id}, 'Staff user deactivated successfully');
+  }
 }
+
