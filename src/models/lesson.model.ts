@@ -82,6 +82,15 @@ export class Lesson extends Entity {
   externalUrl?: string;
 
   @property({
+    type: 'object',
+    postgresql: {
+      columnName: 'content',
+      dataType: 'jsonb',
+    },
+  })
+  content?: object;
+
+  @property({
     type: 'number',
     default: 1,
   })

@@ -57,6 +57,7 @@ import {
   GamificationService,
   CertificateService,
   WritingLabService,
+  AiTutorService,
   ComplianceService,
   TestPrepService,
   PaymentService,
@@ -164,6 +165,7 @@ export class LmsBackendApplication extends BootMixin(
     this.bind('services.gamification').toClass(GamificationService);
     this.bind('services.certificate').toClass(CertificateService);
     this.bind('services.writingLab').toClass(WritingLabService);
+    this.bind('services.aiTutor').toClass(AiTutorService);
     this.bind('services.compliance').toClass(ComplianceService);
     this.bind('services.testPrep').toClass(TestPrepService);
     this.bind('services.payment').toClass(PaymentService);

@@ -226,6 +226,22 @@ describe('Phase 3: Certificates, Writing Lab, AI Tutor & Compliance (Acceptance)
     expect(res.body.data.length).to.be.greaterThanOrEqual(1);
   });
 
+  it('POST /ai/tutor/chat generates grounded 1-on-1 Socratic AI explanation', async () => {
+    const res = await client
+      .post('/ai/tutor/chat')
+      .set('Authorization', `Bearer ${studentToken}`)
+      .send({
+        courseId,
+        message: 'How do I identify if a relation is a function?',
+      })
+      .expect(200);
+
+    expect(res.body.success).to.be.true();
+    expect(res.body.data.reply).to.be.String();
+    expect(res.body.data.suggestedQuestions).to.be.Array();
+    expect(res.body.data.courseContext.courseTitle).to.equal('Ninth Grade Literature & Composition');
+  });
+
   it('POST /academic/compliance-audits records course NCAA and syllabus compliance', async () => {
     const res = await client
       .post('/academic/compliance-audits')

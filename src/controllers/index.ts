@@ -8,6 +8,7 @@ export * from './assessment.controller';
 export * from './gamification.controller';
 export * from './certificate.controller';
 export * from './writing-lab.controller';
+export * from './ai-tutor.controller';
 export * from './compliance.controller';
 export * from './test-prep.controller';
 export * from './payment.controller';

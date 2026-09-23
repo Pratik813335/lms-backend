@@ -436,20 +436,19 @@ export async function runIngestion() {
             },
           });
 
-          if (!existingLesson) {
-            // Encode rich weekly syllabus content into externalUrl JSON payload
-            const lessonPayload = {
-              focus: w.focus,
-              overview: w.instructor_overview,
-              learningObjectives: w.learning_objectives,
-              warmUp: w.warm_up,
-              lessonContent: w.lesson_content,
-              vocabulary: w.vocabulary,
-              practice: w.practice,
-              assignment: w.assignment,
-              quizInfo: w.weekly_quiz,
-            };
+          const lessonPayload = {
+            focus: w.focus,
+            overview: w.instructor_overview,
+            learningObjectives: w.learning_objectives,
+            warmUp: w.warm_up,
+            lessonContent: w.lesson_content,
+            vocabulary: w.vocabulary,
+            practice: w.practice,
+            assignment: w.assignment,
+            quizInfo: w.weekly_quiz,
+          };
 
+          if (!existingLesson) {
             await lessonRepo.create({
               courseId: course.id,
               moduleId: mod.id,
@@ -458,12 +457,19 @@ export async function runIngestion() {
               orderIndex: weekNumber,
               duration: '45 mins',
               xpReward: 50,
-              externalUrl: JSON.stringify(lessonPayload),
+              content: lessonPayload,
+              externalUrl: undefined,
               isActive: true,
               isDeleted: false,
             });
             totalLessonsCreated++;
             courseLessonsCount++;
+          } else {
+            // Update existing lesson to migrate content to jsonb and clean externalUrl
+            await lessonRepo.updateById(existingLesson.id, {
+              content: lessonPayload,
+              externalUrl: undefined,
+            });
           }
         }
       }

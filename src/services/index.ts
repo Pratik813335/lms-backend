@@ -10,6 +10,7 @@ export * from './assessment.service';
 export * from './gamification.service';
 export * from './certificate.service';
 export * from './writing-lab.service';
+export * from './ai-tutor.service';
 export * from './compliance.service';
 export * from './test-prep.service';
 export * from './payment.service';

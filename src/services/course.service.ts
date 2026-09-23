@@ -233,9 +233,23 @@ export class CourseService {
           isFirstUncompletedSet = true;
         }
 
+        let content = (lesson as any).content || null;
+        let externalUrl = lesson.externalUrl || null;
+
+        if (externalUrl && externalUrl.trim().startsWith('{')) {
+          try {
+            content = JSON.parse(externalUrl);
+            externalUrl = null;
+          } catch {
+            // keep as is
+          }
+        }
+
         return {
           ...lesson,
           status,
+          content,
+          externalUrl,
         };
       });
 
