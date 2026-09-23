@@ -3,6 +3,8 @@ import {Course} from './course.model';
 import {Module} from './module.model';
 import {Question} from './question.model';
 import {AssessmentSubmission} from './assessment-submission.model';
+import {GradeLevels} from './grade-levels.model';
+import {Subjects} from './subjects.model';
 
 @model({
   settings: {
@@ -34,7 +36,7 @@ export class Assessment extends Entity {
       },
     },
   )
-  courseId: string;
+  courseId?: string;
 
   @belongsTo(
     () => Module,
@@ -48,6 +50,42 @@ export class Assessment extends Entity {
     },
   )
   moduleId?: string;
+
+  @belongsTo(
+    () => GradeLevels,
+    {name: 'gradeLevel'},
+    {
+      type: 'string',
+      postgresql: {
+        columnName: 'grade_level_id',
+        dataType: 'uuid',
+      },
+    },
+  )
+  gradeLevelId?: string;
+
+  @belongsTo(
+    () => Subjects,
+    {name: 'subject'},
+    {
+      type: 'string',
+      postgresql: {
+        columnName: 'subject_id',
+        dataType: 'uuid',
+      },
+    },
+  )
+  subjectId?: string;
+
+  @property({
+    type: 'string',
+    postgresql: {
+      columnName: 'paper_code',
+      dataType: 'character varying',
+      dataLength: 100,
+    },
+  })
+  paperCode?: string;
 
   @property({
     type: 'string',
@@ -162,8 +200,11 @@ export class Assessment extends Entity {
 export interface AssessmentRelations {
   course?: Course;
   module?: Module;
+  gradeLevel?: GradeLevels;
+  subject?: Subjects;
   questions?: Question[];
   submissions?: AssessmentSubmission[];
 }
 
 export type AssessmentWithRelations = Assessment & AssessmentRelations;
+

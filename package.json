@@ -29,6 +29,8 @@
     "docker:run": "docker run -p 3000:3000 -d lms-backend",
     "premigrate": "npm run build",
     "migrate": "node ./dist/migrate",
+    "preseed:content": "npm run build",
+    "seed:content": "node ./dist/seed/import-content.js",
     "preopenapi-spec": "npm run build",
     "openapi-spec": "node ./dist/openapi-spec",
     "prestart": "npm run rebuild",

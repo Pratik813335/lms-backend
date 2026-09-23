@@ -44,28 +44,44 @@ export class TestPrepService {
 
     const results = await Promise.all(
       subjects.map(async sub => {
-        // Find courses or assessments under this subject
+        // Direct assessments by subjectId
+        const directAssessments = await this.assessmentRepo.find({
+          where: {
+            subjectId: sub.id,
+            isActive: true,
+            isDeleted: false,
+            ...(gradeLevelId ? {gradeLevelId} : {}),
+          },
+        });
+
+        // Find courses under this subject
         const courses = await this.courseRepo.find({
-          where: {subjectId: sub.id, isActive: true, isDeleted: false},
+          where: {
+            subjectId: sub.id,
+            isActive: true,
+            isDeleted: false,
+            ...(gradeLevelId ? {gradeLevelId} : {}),
+          },
         });
         const courseIds = courses.map(c => c.id!);
 
-        let assessmentCount = 0;
-        let questionCount = 0;
-
+        let courseAssessments: any[] = [];
         if (courseIds.length > 0) {
-          const assessments = await this.assessmentRepo.find({
+          courseAssessments = await this.assessmentRepo.find({
             where: {courseId: {inq: courseIds}, isActive: true, isDeleted: false},
           });
-          assessmentCount = assessments.length;
+        }
 
-          const assessmentIds = assessments.map(a => a.id!);
-          if (assessmentIds.length > 0) {
-            const questions = await this.questionRepo.find({
-              where: {assessmentId: {inq: assessmentIds}, isActive: true, isDeleted: false},
-            });
-            questionCount = questions.length;
-          }
+        const allAssessments = [...directAssessments, ...courseAssessments];
+        const uniqueAssessmentIds = Array.from(new Set(allAssessments.map(a => a.id!)));
+        const assessmentCount = uniqueAssessmentIds.length;
+
+        let questionCount = 0;
+        if (uniqueAssessmentIds.length > 0) {
+          const questions = await this.questionRepo.find({
+            where: {assessmentId: {inq: uniqueAssessmentIds}, isActive: true, isDeleted: false},
+          });
+          questionCount = questions.length;
         }
 
         return {
@@ -74,8 +90,8 @@ export class TestPrepService {
           value: sub.value,
           description: sub.description || `Core ${sub.label} test preparation and practice drills`,
           icon: sub.value === 'math' ? 'Sigma' : sub.value === 'ela' ? 'BookOpen' : 'Atom',
-          totalPracticeSets: Math.max(assessmentCount, 6),
-          totalQuestions: Math.max(questionCount, 60),
+          totalPracticeSets: assessmentCount > 0 ? assessmentCount : 6,
+          totalQuestions: questionCount > 0 ? questionCount : 60,
           isTestPrep: true,
         };
       }),
@@ -95,14 +111,36 @@ export class TestPrepService {
       throw new HttpErrors.NotFound(`Subject with ID '${subjectId}' not found.`);
     }
 
+    // Direct assessments on subject (and gradeLevelId if provided)
+    const directAssessments = await this.assessmentRepo.find({
+      where: {
+        subjectId,
+        isActive: true,
+        isDeleted: false,
+        ...(gradeLevelId ? {gradeLevelId} : {}),
+      },
+      include: [
+        {relation: 'questions', scope: {where: {isActive: true, isDeleted: false}}},
+        {relation: 'subject', scope: {fields: {id: true, label: true, value: true}}},
+        {relation: 'gradeLevel', scope: {fields: {id: true, label: true, value: true}}},
+      ],
+      order: ['title ASC'],
+    });
+
+    // Course assessments
     const courses = await this.courseRepo.find({
-      where: {subjectId, isActive: true, isDeleted: false},
+      where: {
+        subjectId,
+        isActive: true,
+        isDeleted: false,
+        ...(gradeLevelId ? {gradeLevelId} : {}),
+      },
     });
     const courseIds = courses.map(c => c.id!);
 
-    let assessments: any[] = [];
+    let courseAssessments: any[] = [];
     if (courseIds.length > 0) {
-      assessments = await this.assessmentRepo.find({
+      courseAssessments = await this.assessmentRepo.find({
         where: {courseId: {inq: courseIds}, isActive: true, isDeleted: false},
         include: [
           {relation: 'questions', scope: {where: {isActive: true, isDeleted: false}}},
@@ -112,19 +150,27 @@ export class TestPrepService {
       });
     }
 
+    const seenIds = new Set<string>();
+    const combinedAssessments = [...directAssessments, ...courseAssessments].filter(a => {
+      if (seenIds.has(a.id!)) return false;
+      seenIds.add(a.id!);
+      return true;
+    });
+
     return {
       subject: {
         id: subject.id,
         label: subject.label,
         value: subject.value,
       },
-      assessments: assessments.map(a => {
+      assessments: combinedAssessments.map(a => {
         const plain = typeof a.toJSON === 'function' ? a.toJSON() : a;
         return {
           id: plain.id,
           title: plain.title,
-          type: plain.type, // 'practice_test' | 'quiz' | 'checkpoint'
+          type: plain.type, // 'practice_test' | 'test_prep' | 'quiz' | 'checkpoint'
           description: plain.description,
+          paperCode: plain.paperCode,
           passingPercentage: plain.passingPercentage || 80.0,
           timeLimitMinutes: plain.timeLimitMinutes || 20,
           questionCount: plain.questions?.length || 0,
