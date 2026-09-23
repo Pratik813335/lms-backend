@@ -1,0 +1,4404 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 3 Mathematics",
+  "grade": 3,
+  "standard_family": "Common Core Mathematics Grade 3",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G3-MATHEMATICS-MODULE-1",
+      "course": "Grade 3 Mathematics",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Multiplication & Division Concepts",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Multiplication",
+          "standard": "3.OA.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "There are 3 equal groups with 4 objects in each group. How many objects are there in all?",
+          "options": [
+            "12",
+            "13",
+            "8",
+            "15"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "3 × 4 = 12.",
+          "question_id": "G3-MATHEMATICS-M1-W1-Q1"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Multiplication",
+          "standard": "3.OA.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "There are 4 equal groups with 5 objects in each group. How many objects are there in all?",
+          "options": [
+            "20",
+            "21",
+            "15",
+            "24"
+          ],
+          "correct_answer": "20",
+          "answer_explanation": "4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-M1-W1-Q2"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Multiplication",
+          "standard": "3.OA.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "There are 5 equal groups with 6 objects in each group. How many objects are there in all?",
+          "options": [
+            "30",
+            "31",
+            "24",
+            "35"
+          ],
+          "correct_answer": "30",
+          "answer_explanation": "5 × 6 = 30.",
+          "question_id": "G3-MATHEMATICS-M1-W1-Q3"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Multiplication",
+          "standard": "3.OA.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "There are 6 equal groups with 7 objects in each group. How many objects are there in all?",
+          "options": [
+            "42",
+            "43",
+            "35",
+            "48"
+          ],
+          "correct_answer": "42",
+          "answer_explanation": "6 × 7 = 42.",
+          "question_id": "G3-MATHEMATICS-M1-W1-Q4"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Multiplication",
+          "standard": "3.OA.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "There are 7 equal groups with 4 objects in each group. How many objects are there in all?",
+          "options": [
+            "28",
+            "29",
+            "24",
+            "35"
+          ],
+          "correct_answer": "28",
+          "answer_explanation": "7 × 4 = 28.",
+          "question_id": "G3-MATHEMATICS-M1-W1-Q5"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "12 apples are shared equally among 3 children. How many apples does each child get?",
+          "options": [
+            "4",
+            "5",
+            "3",
+            "9"
+          ],
+          "correct_answer": "4",
+          "answer_explanation": "12 ÷ 3 = 4.",
+          "question_id": "G3-MATHEMATICS-M1-W2-Q1"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "20 apples are shared equally among 4 children. How many apples does each child get?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "16"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "20 ÷ 4 = 5.",
+          "question_id": "G3-MATHEMATICS-M1-W2-Q2"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "30 apples are shared equally among 5 children. How many apples does each child get?",
+          "options": [
+            "6",
+            "7",
+            "5",
+            "25"
+          ],
+          "correct_answer": "6",
+          "answer_explanation": "30 ÷ 5 = 6.",
+          "question_id": "G3-MATHEMATICS-M1-W2-Q3"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "42 apples are shared equally among 6 children. How many apples does each child get?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "36"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "42 ÷ 6 = 7.",
+          "question_id": "G3-MATHEMATICS-M1-W2-Q4"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "56 apples are shared equally among 7 children. How many apples does each child get?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "49"
+          ],
+          "correct_answer": "8",
+          "answer_explanation": "56 ÷ 7 = 8.",
+          "question_id": "G3-MATHEMATICS-M1-W2-Q5"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 4 × 3 = 12?",
+          "options": [
+            "12 ÷ 4 = 3",
+            "12 ÷ 4 = 4",
+            "7 ÷ 4 = 3",
+            "12 ÷ 7 = 3"
+          ],
+          "correct_answer": "12 ÷ 4 = 3",
+          "answer_explanation": "Multiplication and division are inverse operations: 12 ÷ 4 = 3.",
+          "question_id": "G3-MATHEMATICS-M1-W3-Q1"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 5 × 4 = 20?",
+          "options": [
+            "20 ÷ 5 = 4",
+            "20 ÷ 5 = 5",
+            "9 ÷ 5 = 4",
+            "20 ÷ 9 = 4"
+          ],
+          "correct_answer": "20 ÷ 5 = 4",
+          "answer_explanation": "Multiplication and division are inverse operations: 20 ÷ 5 = 4.",
+          "question_id": "G3-MATHEMATICS-M1-W3-Q2"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 6 × 5 = 30?",
+          "options": [
+            "30 ÷ 6 = 5",
+            "30 ÷ 6 = 6",
+            "11 ÷ 6 = 5",
+            "30 ÷ 11 = 5"
+          ],
+          "correct_answer": "30 ÷ 6 = 5",
+          "answer_explanation": "Multiplication and division are inverse operations: 30 ÷ 6 = 5.",
+          "question_id": "G3-MATHEMATICS-M1-W3-Q3"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 7 × 6 = 42?",
+          "options": [
+            "42 ÷ 7 = 6",
+            "42 ÷ 7 = 7",
+            "13 ÷ 7 = 6",
+            "42 ÷ 13 = 6"
+          ],
+          "correct_answer": "42 ÷ 7 = 6",
+          "answer_explanation": "Multiplication and division are inverse operations: 42 ÷ 7 = 6.",
+          "question_id": "G3-MATHEMATICS-M1-W3-Q4"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 8 × 3 = 24?",
+          "options": [
+            "24 ÷ 8 = 3",
+            "24 ÷ 4 = 8",
+            "11 ÷ 8 = 3",
+            "24 ÷ 11 = 3"
+          ],
+          "correct_answer": "24 ÷ 8 = 3",
+          "answer_explanation": "Multiplication and division are inverse operations: 24 ÷ 8 = 3.",
+          "question_id": "G3-MATHEMATICS-M1-W3-Q5"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Properties of Multiplication",
+          "standard": "3.OA.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression shows the commutative property for 2 × 5?",
+          "options": [
+            "5 × 2",
+            "2+5",
+            "2×6",
+            "2-5"
+          ],
+          "correct_answer": "5 × 2",
+          "answer_explanation": "The commutative property says factors can switch places: 2 × 5 = 5 × 2.",
+          "question_id": "G3-MATHEMATICS-M1-W4-Q1"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Properties of Multiplication",
+          "standard": "3.OA.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression shows the commutative property for 3 × 6?",
+          "options": [
+            "6 × 3",
+            "3+6",
+            "3×7",
+            "3-6"
+          ],
+          "correct_answer": "6 × 3",
+          "answer_explanation": "The commutative property says factors can switch places: 3 × 6 = 6 × 3.",
+          "question_id": "G3-MATHEMATICS-M1-W4-Q2"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Properties of Multiplication",
+          "standard": "3.OA.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression shows the commutative property for 4 × 7?",
+          "options": [
+            "7 × 4",
+            "4+7",
+            "4×8",
+            "4-7"
+          ],
+          "correct_answer": "7 × 4",
+          "answer_explanation": "The commutative property says factors can switch places: 4 × 7 = 7 × 4.",
+          "question_id": "G3-MATHEMATICS-M1-W4-Q3"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Properties of Multiplication",
+          "standard": "3.OA.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression shows the commutative property for 5 × 5?",
+          "options": [
+            "5 × 5",
+            "5+5",
+            "5×6",
+            "5-5"
+          ],
+          "correct_answer": "5 × 5",
+          "answer_explanation": "The commutative property says factors can switch places: 5 × 5 = 5 × 5.",
+          "question_id": "G3-MATHEMATICS-M1-W4-Q4"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Properties of Multiplication",
+          "standard": "3.OA.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression shows the commutative property for 2 × 6?",
+          "options": [
+            "6 × 2",
+            "2+6",
+            "2×7",
+            "2-6"
+          ],
+          "correct_answer": "6 × 2",
+          "answer_explanation": "The commutative property says factors can switch places: 2 × 6 = 6 × 2.",
+          "question_id": "G3-MATHEMATICS-M1-W4-Q5"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 6 × 2?",
+          "options": [
+            "12",
+            "17",
+            "10",
+            "8"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "Multiplying 6 groups of 2 gives 12.",
+          "question_id": "G3-MATHEMATICS-M1-W5-Q1"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 7 × 3?",
+          "options": [
+            "21",
+            "26",
+            "19",
+            "10"
+          ],
+          "correct_answer": "21",
+          "answer_explanation": "Multiplying 7 groups of 3 gives 21.",
+          "question_id": "G3-MATHEMATICS-M1-W5-Q2"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 8 × 4?",
+          "options": [
+            "32",
+            "37",
+            "30",
+            "12"
+          ],
+          "correct_answer": "32",
+          "answer_explanation": "Multiplying 8 groups of 4 gives 32.",
+          "question_id": "G3-MATHEMATICS-M1-W5-Q3"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 9 × 5?",
+          "options": [
+            "45",
+            "50",
+            "43",
+            "14"
+          ],
+          "correct_answer": "45",
+          "answer_explanation": "Multiplying 9 groups of 5 gives 45.",
+          "question_id": "G3-MATHEMATICS-M1-W5-Q4"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 10 × 6?",
+          "options": [
+            "60",
+            "65",
+            "58",
+            "16"
+          ],
+          "correct_answer": "60",
+          "answer_explanation": "Multiplying 10 groups of 6 gives 60.",
+          "question_id": "G3-MATHEMATICS-M1-W5-Q5"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Division Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 6 ÷ 2?",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "4"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "2 × 3 = 6, so 6 ÷ 2 = 3.",
+          "question_id": "G3-MATHEMATICS-M1-W6-Q1"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Division Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 12 ÷ 3?",
+          "options": [
+            "4",
+            "3",
+            "9",
+            "5"
+          ],
+          "correct_answer": "4",
+          "answer_explanation": "3 × 4 = 12, so 12 ÷ 3 = 4.",
+          "question_id": "G3-MATHEMATICS-M1-W6-Q2"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Division Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 20 ÷ 4?",
+          "options": [
+            "5",
+            "4",
+            "16",
+            "6"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "4 × 5 = 20, so 20 ÷ 4 = 5.",
+          "question_id": "G3-MATHEMATICS-M1-W6-Q3"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Division Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 30 ÷ 5?",
+          "options": [
+            "6",
+            "5",
+            "25",
+            "7"
+          ],
+          "correct_answer": "6",
+          "answer_explanation": "5 × 6 = 30, so 30 ÷ 5 = 6.",
+          "question_id": "G3-MATHEMATICS-M1-W6-Q4"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Division Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 42 ÷ 6?",
+          "options": [
+            "7",
+            "6",
+            "36",
+            "8"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "6 × 7 = 42, so 42 ÷ 6 = 7.",
+          "question_id": "G3-MATHEMATICS-M1-W6-Q5"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Word Problems",
+          "standard": "3.OA.3/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A teacher has 3 boxes with 4 pencils in each box. How many pencils are there?",
+          "options": [
+            "12",
+            "7",
+            "16",
+            "9"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "3 groups of 4 pencils gives 3 × 4 = 12.",
+          "question_id": "G3-MATHEMATICS-M1-W7-Q1"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Word Problems",
+          "standard": "3.OA.3/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A teacher has 4 boxes with 5 pencils in each box. How many pencils are there?",
+          "options": [
+            "20",
+            "9",
+            "25",
+            "16"
+          ],
+          "correct_answer": "20",
+          "answer_explanation": "4 groups of 5 pencils gives 4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-M1-W7-Q2"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Word Problems",
+          "standard": "3.OA.3/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A teacher has 5 boxes with 6 pencils in each box. How many pencils are there?",
+          "options": [
+            "30",
+            "11",
+            "36",
+            "25"
+          ],
+          "correct_answer": "30",
+          "answer_explanation": "5 groups of 6 pencils gives 5 × 6 = 30.",
+          "question_id": "G3-MATHEMATICS-M1-W7-Q3"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Word Problems",
+          "standard": "3.OA.3/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A teacher has 6 boxes with 7 pencils in each box. How many pencils are there?",
+          "options": [
+            "42",
+            "13",
+            "49",
+            "36"
+          ],
+          "correct_answer": "42",
+          "answer_explanation": "6 groups of 7 pencils gives 6 × 7 = 42.",
+          "question_id": "G3-MATHEMATICS-M1-W7-Q4"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Word Problems",
+          "standard": "3.OA.3/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A teacher has 7 boxes with 4 pencils in each box. How many pencils are there?",
+          "options": [
+            "28",
+            "11",
+            "32",
+            "21"
+          ],
+          "correct_answer": "28",
+          "answer_explanation": "7 groups of 4 pencils gives 7 × 4 = 28.",
+          "question_id": "G3-MATHEMATICS-M1-W7-Q5"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Patterns in Arithmetic",
+          "standard": "3.OA.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What number comes next in the pattern 5, 8, 11, 14, ...?",
+          "options": [
+            "17",
+            "18",
+            "11",
+            "20"
+          ],
+          "correct_answer": "17",
+          "answer_explanation": "The pattern adds 3 each time.",
+          "question_id": "G3-MATHEMATICS-M1-W8-Q1"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Patterns in Arithmetic",
+          "standard": "3.OA.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What number comes next in the pattern 6, 10, 14, 18, ...?",
+          "options": [
+            "22",
+            "23",
+            "14",
+            "26"
+          ],
+          "correct_answer": "22",
+          "answer_explanation": "The pattern adds 4 each time.",
+          "question_id": "G3-MATHEMATICS-M1-W8-Q2"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Patterns in Arithmetic",
+          "standard": "3.OA.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What number comes next in the pattern 7, 12, 17, 22, ...?",
+          "options": [
+            "27",
+            "28",
+            "17",
+            "32"
+          ],
+          "correct_answer": "27",
+          "answer_explanation": "The pattern adds 5 each time.",
+          "question_id": "G3-MATHEMATICS-M1-W8-Q3"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Patterns in Arithmetic",
+          "standard": "3.OA.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What number comes next in the pattern 8, 14, 20, 26, ...?",
+          "options": [
+            "32",
+            "33",
+            "20",
+            "38"
+          ],
+          "correct_answer": "32",
+          "answer_explanation": "The pattern adds 6 each time.",
+          "question_id": "G3-MATHEMATICS-M1-W8-Q4"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Patterns in Arithmetic",
+          "standard": "3.OA.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What number comes next in the pattern 9, 12, 15, 18, ...?",
+          "options": [
+            "21",
+            "22",
+            "15",
+            "24"
+          ],
+          "correct_answer": "21",
+          "answer_explanation": "The pattern adds 3 each time.",
+          "question_id": "G3-MATHEMATICS-M1-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-MATHEMATICS-MODULE-2",
+      "course": "Grade 3 Mathematics",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "Place Value & Multi-Digit Operations",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Place Value to Thousands",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 1000?",
+          "options": [
+            "0",
+            "0",
+            "0",
+            "1000"
+          ],
+          "correct_answer": "0",
+          "answer_explanation": "The hundreds digit represents 0.",
+          "question_id": "G3-MATHEMATICS-M2-W1-Q1"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Place Value to Thousands",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 1111?",
+          "options": [
+            "100",
+            "10",
+            "1",
+            "1000"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "The hundreds digit represents 100.",
+          "question_id": "G3-MATHEMATICS-M2-W1-Q2"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Place Value to Thousands",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 1222?",
+          "options": [
+            "200",
+            "20",
+            "2",
+            "1000"
+          ],
+          "correct_answer": "200",
+          "answer_explanation": "The hundreds digit represents 200.",
+          "question_id": "G3-MATHEMATICS-M2-W1-Q3"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Place Value to Thousands",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 1333?",
+          "options": [
+            "300",
+            "30",
+            "3",
+            "1000"
+          ],
+          "correct_answer": "300",
+          "answer_explanation": "The hundreds digit represents 300.",
+          "question_id": "G3-MATHEMATICS-M2-W1-Q4"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Place Value to Thousands",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 1444?",
+          "options": [
+            "400",
+            "40",
+            "4",
+            "1000"
+          ],
+          "correct_answer": "400",
+          "answer_explanation": "The hundreds digit represents 400.",
+          "question_id": "G3-MATHEMATICS-M2-W1-Q5"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Rounding",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 120 to the nearest 10.",
+          "options": [
+            "120",
+            "130",
+            "110",
+            "100"
+          ],
+          "correct_answer": "120",
+          "answer_explanation": "The ones digit is 0; therefore 120 rounds to 120.",
+          "question_id": "G3-MATHEMATICS-M2-W2-Q1"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Rounding",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 133 to the nearest 10.",
+          "options": [
+            "130",
+            "140",
+            "120",
+            "100"
+          ],
+          "correct_answer": "130",
+          "answer_explanation": "The ones digit is 3; therefore 133 rounds to 130.",
+          "question_id": "G3-MATHEMATICS-M2-W2-Q2"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Rounding",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 146 to the nearest 10.",
+          "options": [
+            "150",
+            "160",
+            "140",
+            "100"
+          ],
+          "correct_answer": "150",
+          "answer_explanation": "The ones digit is 6; therefore 146 rounds to 150.",
+          "question_id": "G3-MATHEMATICS-M2-W2-Q3"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Rounding",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 159 to the nearest 10.",
+          "options": [
+            "160",
+            "170",
+            "150",
+            "200"
+          ],
+          "correct_answer": "160",
+          "answer_explanation": "The ones digit is 9; therefore 159 rounds to 160.",
+          "question_id": "G3-MATHEMATICS-M2-W2-Q4"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Rounding",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 172 to the nearest 10.",
+          "options": [
+            "170",
+            "180",
+            "160",
+            "200"
+          ],
+          "correct_answer": "170",
+          "answer_explanation": "The ones digit is 2; therefore 172 rounds to 170.",
+          "question_id": "G3-MATHEMATICS-M2-W2-Q5"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Adding within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 200 + 100?",
+          "options": [
+            "300",
+            "310",
+            "290",
+            "400"
+          ],
+          "correct_answer": "300",
+          "answer_explanation": "Adding the two numbers gives 300.",
+          "question_id": "G3-MATHEMATICS-M2-W3-Q1"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Adding within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 237 + 129?",
+          "options": [
+            "366",
+            "376",
+            "356",
+            "466"
+          ],
+          "correct_answer": "366",
+          "answer_explanation": "Adding the two numbers gives 366.",
+          "question_id": "G3-MATHEMATICS-M2-W3-Q2"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Adding within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 274 + 158?",
+          "options": [
+            "432",
+            "442",
+            "422",
+            "532"
+          ],
+          "correct_answer": "432",
+          "answer_explanation": "Adding the two numbers gives 432.",
+          "question_id": "G3-MATHEMATICS-M2-W3-Q3"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Adding within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 311 + 187?",
+          "options": [
+            "498",
+            "508",
+            "488",
+            "598"
+          ],
+          "correct_answer": "498",
+          "answer_explanation": "Adding the two numbers gives 498.",
+          "question_id": "G3-MATHEMATICS-M2-W3-Q4"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Adding within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 348 + 216?",
+          "options": [
+            "564",
+            "574",
+            "554",
+            "664"
+          ],
+          "correct_answer": "564",
+          "answer_explanation": "Adding the two numbers gives 564.",
+          "question_id": "G3-MATHEMATICS-M2-W3-Q5"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 500 − 100?",
+          "options": [
+            "400",
+            "410",
+            "390",
+            "600"
+          ],
+          "correct_answer": "400",
+          "answer_explanation": "Subtracting 100 from 500 gives 400.",
+          "question_id": "G3-MATHEMATICS-M2-W4-Q1"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 531 − 117?",
+          "options": [
+            "414",
+            "424",
+            "404",
+            "648"
+          ],
+          "correct_answer": "414",
+          "answer_explanation": "Subtracting 117 from 531 gives 414.",
+          "question_id": "G3-MATHEMATICS-M2-W4-Q2"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 562 − 134?",
+          "options": [
+            "428",
+            "438",
+            "418",
+            "696"
+          ],
+          "correct_answer": "428",
+          "answer_explanation": "Subtracting 134 from 562 gives 428.",
+          "question_id": "G3-MATHEMATICS-M2-W4-Q3"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 593 − 151?",
+          "options": [
+            "442",
+            "452",
+            "432",
+            "744"
+          ],
+          "correct_answer": "442",
+          "answer_explanation": "Subtracting 151 from 593 gives 442.",
+          "question_id": "G3-MATHEMATICS-M2-W4-Q4"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 624 − 168?",
+          "options": [
+            "456",
+            "466",
+            "446",
+            "792"
+          ],
+          "correct_answer": "456",
+          "answer_explanation": "Subtracting 168 from 624 gives 456.",
+          "question_id": "G3-MATHEMATICS-M2-W4-Q5"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2 × 20?",
+          "options": [
+            "40",
+            "4",
+            "50",
+            "22"
+          ],
+          "correct_answer": "40",
+          "answer_explanation": "2 × 20 = 40.",
+          "question_id": "G3-MATHEMATICS-M2-W5-Q1"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 30?",
+          "options": [
+            "90",
+            "9",
+            "100",
+            "33"
+          ],
+          "correct_answer": "90",
+          "answer_explanation": "3 × 30 = 90.",
+          "question_id": "G3-MATHEMATICS-M2-W5-Q2"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4 × 40?",
+          "options": [
+            "160",
+            "16",
+            "170",
+            "44"
+          ],
+          "correct_answer": "160",
+          "answer_explanation": "4 × 40 = 160.",
+          "question_id": "G3-MATHEMATICS-M2-W5-Q3"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5 × 50?",
+          "options": [
+            "250",
+            "25",
+            "260",
+            "55"
+          ],
+          "correct_answer": "250",
+          "answer_explanation": "5 × 50 = 250.",
+          "question_id": "G3-MATHEMATICS-M2-W5-Q4"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 6 × 60?",
+          "options": [
+            "360",
+            "36",
+            "370",
+            "66"
+          ],
+          "correct_answer": "360",
+          "answer_explanation": "6 × 60 = 360.",
+          "question_id": "G3-MATHEMATICS-M2-W5-Q5"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Estimation",
+          "standard": "3.NBT.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "About how much is 148 + 251? Round each number to the nearest 10 first.",
+          "options": [
+            "400",
+            "399",
+            "500",
+            "300"
+          ],
+          "correct_answer": "400",
+          "answer_explanation": "148 rounds to 150 and 251 to 250; the estimate is 400.",
+          "question_id": "G3-MATHEMATICS-M2-W6-Q1"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Estimation",
+          "standard": "3.NBT.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "About how much is 155 + 256? Round each number to the nearest 10 first.",
+          "options": [
+            "420",
+            "411",
+            "520",
+            "320"
+          ],
+          "correct_answer": "420",
+          "answer_explanation": "155 rounds to 160 and 256 to 260; the estimate is 420.",
+          "question_id": "G3-MATHEMATICS-M2-W6-Q2"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Estimation",
+          "standard": "3.NBT.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "About how much is 162 + 261? Round each number to the nearest 10 first.",
+          "options": [
+            "420",
+            "423",
+            "520",
+            "320"
+          ],
+          "correct_answer": "420",
+          "answer_explanation": "162 rounds to 160 and 261 to 260; the estimate is 420.",
+          "question_id": "G3-MATHEMATICS-M2-W6-Q3"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Estimation",
+          "standard": "3.NBT.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "About how much is 169 + 266? Round each number to the nearest 10 first.",
+          "options": [
+            "440",
+            "435",
+            "540",
+            "340"
+          ],
+          "correct_answer": "440",
+          "answer_explanation": "169 rounds to 170 and 266 to 270; the estimate is 440.",
+          "question_id": "G3-MATHEMATICS-M2-W6-Q4"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Estimation",
+          "standard": "3.NBT.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "About how much is 176 + 271? Round each number to the nearest 10 first.",
+          "options": [
+            "450",
+            "447",
+            "550",
+            "350"
+          ],
+          "correct_answer": "450",
+          "answer_explanation": "176 rounds to 180 and 271 to 270; the estimate is 450.",
+          "question_id": "G3-MATHEMATICS-M2-W6-Q5"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Multi-Step Problems",
+          "standard": "3.OA.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 4 boxes with 3 books in each box. Then 2 more books arrive. How many books are there?",
+          "options": [
+            "14",
+            "12",
+            "16",
+            "9"
+          ],
+          "correct_answer": "14",
+          "answer_explanation": "First 4 × 3 = 12; then add 2 to get 14.",
+          "question_id": "G3-MATHEMATICS-M2-W7-Q1"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Multi-Step Problems",
+          "standard": "3.OA.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 5 boxes with 4 books in each box. Then 3 more books arrive. How many books are there?",
+          "options": [
+            "23",
+            "20",
+            "26",
+            "12"
+          ],
+          "correct_answer": "23",
+          "answer_explanation": "First 5 × 4 = 20; then add 3 to get 23.",
+          "question_id": "G3-MATHEMATICS-M2-W7-Q2"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Multi-Step Problems",
+          "standard": "3.OA.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 6 boxes with 5 books in each box. Then 4 more books arrive. How many books are there?",
+          "options": [
+            "34",
+            "30",
+            "38",
+            "15"
+          ],
+          "correct_answer": "34",
+          "answer_explanation": "First 6 × 5 = 30; then add 4 to get 34.",
+          "question_id": "G3-MATHEMATICS-M2-W7-Q3"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Multi-Step Problems",
+          "standard": "3.OA.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 7 boxes with 6 books in each box. Then 2 more books arrive. How many books are there?",
+          "options": [
+            "44",
+            "42",
+            "46",
+            "15"
+          ],
+          "correct_answer": "44",
+          "answer_explanation": "First 7 × 6 = 42; then add 2 to get 44.",
+          "question_id": "G3-MATHEMATICS-M2-W7-Q4"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Multi-Step Problems",
+          "standard": "3.OA.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 8 boxes with 3 books in each box. Then 3 more books arrive. How many books are there?",
+          "options": [
+            "27",
+            "24",
+            "30",
+            "14"
+          ],
+          "correct_answer": "27",
+          "answer_explanation": "First 8 × 3 = 24; then add 3 to get 27.",
+          "question_id": "G3-MATHEMATICS-M2-W7-Q5"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Fluency & Review",
+          "standard": "3.NBT",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 30 + 20?",
+          "options": [
+            "50",
+            "60",
+            "40",
+            "600"
+          ],
+          "correct_answer": "50",
+          "answer_explanation": "30 + 20 = 50.",
+          "question_id": "G3-MATHEMATICS-M2-W8-Q1"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Fluency & Review",
+          "standard": "3.NBT",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 37 + 25?",
+          "options": [
+            "62",
+            "72",
+            "52",
+            "925"
+          ],
+          "correct_answer": "62",
+          "answer_explanation": "37 + 25 = 62.",
+          "question_id": "G3-MATHEMATICS-M2-W8-Q2"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Fluency & Review",
+          "standard": "3.NBT",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 44 + 30?",
+          "options": [
+            "74",
+            "84",
+            "64",
+            "1320"
+          ],
+          "correct_answer": "74",
+          "answer_explanation": "44 + 30 = 74.",
+          "question_id": "G3-MATHEMATICS-M2-W8-Q3"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Fluency & Review",
+          "standard": "3.NBT",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 51 + 35?",
+          "options": [
+            "86",
+            "96",
+            "76",
+            "1785"
+          ],
+          "correct_answer": "86",
+          "answer_explanation": "51 + 35 = 86.",
+          "question_id": "G3-MATHEMATICS-M2-W8-Q4"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Fluency & Review",
+          "standard": "3.NBT",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 58 + 40?",
+          "options": [
+            "98",
+            "108",
+            "88",
+            "2320"
+          ],
+          "correct_answer": "98",
+          "answer_explanation": "58 + 40 = 98.",
+          "question_id": "G3-MATHEMATICS-M2-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-MATHEMATICS-MODULE-3",
+      "course": "Grade 3 Mathematics",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Fractions",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Understanding Fractions",
+          "standard": "3.NF.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A whole is divided into 2 equal parts. What fraction names one of those parts?",
+          "options": [
+            "1/2",
+            "1/2",
+            "2/1",
+            "1/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "One equal part out of 2 is the unit fraction 1/2.",
+          "question_id": "G3-MATHEMATICS-M3-W1-Q1"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Understanding Fractions",
+          "standard": "3.NF.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A whole is divided into 3 equal parts. What fraction names one of those parts?",
+          "options": [
+            "1/3",
+            "2/3",
+            "3/1",
+            "1/4"
+          ],
+          "correct_answer": "1/3",
+          "answer_explanation": "One equal part out of 3 is the unit fraction 1/3.",
+          "question_id": "G3-MATHEMATICS-M3-W1-Q2"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Understanding Fractions",
+          "standard": "3.NF.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A whole is divided into 4 equal parts. What fraction names one of those parts?",
+          "options": [
+            "1/4",
+            "3/4",
+            "4/1",
+            "1/5"
+          ],
+          "correct_answer": "1/4",
+          "answer_explanation": "One equal part out of 4 is the unit fraction 1/4.",
+          "question_id": "G3-MATHEMATICS-M3-W1-Q3"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Understanding Fractions",
+          "standard": "3.NF.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A whole is divided into 5 equal parts. What fraction names one of those parts?",
+          "options": [
+            "1/5",
+            "4/5",
+            "5/1",
+            "1/6"
+          ],
+          "correct_answer": "1/5",
+          "answer_explanation": "One equal part out of 5 is the unit fraction 1/5.",
+          "question_id": "G3-MATHEMATICS-M3-W1-Q4"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Understanding Fractions",
+          "standard": "3.NF.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A whole is divided into 6 equal parts. What fraction names one of those parts?",
+          "options": [
+            "1/6",
+            "5/6",
+            "6/1",
+            "1/7"
+          ],
+          "correct_answer": "1/6",
+          "answer_explanation": "One equal part out of 6 is the unit fraction 1/6.",
+          "question_id": "G3-MATHEMATICS-M3-W1-Q5"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions on a Number Line",
+          "standard": "3.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction represents the 1th equal part out of 4 on a number line from 0 to 1?",
+          "options": [
+            "1/4",
+            "1/4",
+            "4/1",
+            "2/4"
+          ],
+          "correct_answer": "1/4",
+          "answer_explanation": "After 1 equal steps of size 1/4, the point is 1/4.",
+          "question_id": "G3-MATHEMATICS-M3-W2-Q1"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions on a Number Line",
+          "standard": "3.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction represents the 2th equal part out of 5 on a number line from 0 to 1?",
+          "options": [
+            "2/5",
+            "1/5",
+            "5/2",
+            "3/5"
+          ],
+          "correct_answer": "2/5",
+          "answer_explanation": "After 2 equal steps of size 1/5, the point is 2/5.",
+          "question_id": "G3-MATHEMATICS-M3-W2-Q2"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions on a Number Line",
+          "standard": "3.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction represents the 3th equal part out of 6 on a number line from 0 to 1?",
+          "options": [
+            "3/6",
+            "1/6",
+            "6/3",
+            "4/6"
+          ],
+          "correct_answer": "3/6",
+          "answer_explanation": "After 3 equal steps of size 1/6, the point is 3/6.",
+          "question_id": "G3-MATHEMATICS-M3-W2-Q3"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions on a Number Line",
+          "standard": "3.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction represents the 4th equal part out of 7 on a number line from 0 to 1?",
+          "options": [
+            "4/7",
+            "1/7",
+            "7/4",
+            "5/7"
+          ],
+          "correct_answer": "4/7",
+          "answer_explanation": "After 4 equal steps of size 1/7, the point is 4/7.",
+          "question_id": "G3-MATHEMATICS-M3-W2-Q4"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions on a Number Line",
+          "standard": "3.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction represents the 5th equal part out of 8 on a number line from 0 to 1?",
+          "options": [
+            "5/8",
+            "1/8",
+            "8/5",
+            "6/8"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "After 5 equal steps of size 1/8, the point is 5/8.",
+          "question_id": "G3-MATHEMATICS-M3-W2-Q5"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Equivalent Fractions",
+          "standard": "3.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 1/2?",
+          "options": [
+            "2/4",
+            "1/3",
+            "3/5",
+            "2/3"
+          ],
+          "correct_answer": "2/4",
+          "answer_explanation": "Two fourths covers the same amount as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W3-Q1"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Equivalent Fractions",
+          "standard": "3.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 1/2?",
+          "options": [
+            "2/4",
+            "1/3",
+            "3/5",
+            "2/3"
+          ],
+          "correct_answer": "2/4",
+          "answer_explanation": "Two fourths covers the same amount as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W3-Q2"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Equivalent Fractions",
+          "standard": "3.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 1/2?",
+          "options": [
+            "2/4",
+            "1/3",
+            "3/5",
+            "2/3"
+          ],
+          "correct_answer": "2/4",
+          "answer_explanation": "Two fourths covers the same amount as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W3-Q3"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Equivalent Fractions",
+          "standard": "3.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 1/2?",
+          "options": [
+            "2/4",
+            "1/3",
+            "3/5",
+            "2/3"
+          ],
+          "correct_answer": "2/4",
+          "answer_explanation": "Two fourths covers the same amount as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W3-Q4"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Equivalent Fractions",
+          "standard": "3.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 1/2?",
+          "options": [
+            "2/4",
+            "1/3",
+            "3/5",
+            "2/3"
+          ],
+          "correct_answer": "2/4",
+          "answer_explanation": "Two fourths covers the same amount as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W3-Q5"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Comparing Fractions",
+          "standard": "3.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "3/4",
+            "1/4",
+            "2/4",
+            "1/2"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "With the same denominator, the larger numerator represents more.",
+          "question_id": "G3-MATHEMATICS-M3-W4-Q1"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Comparing Fractions",
+          "standard": "3.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "3/4",
+            "1/4",
+            "2/4",
+            "1/2"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "With the same denominator, the larger numerator represents more.",
+          "question_id": "G3-MATHEMATICS-M3-W4-Q2"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Comparing Fractions",
+          "standard": "3.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "3/4",
+            "1/4",
+            "2/4",
+            "1/2"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "With the same denominator, the larger numerator represents more.",
+          "question_id": "G3-MATHEMATICS-M3-W4-Q3"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Comparing Fractions",
+          "standard": "3.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "3/4",
+            "1/4",
+            "2/4",
+            "1/2"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "With the same denominator, the larger numerator represents more.",
+          "question_id": "G3-MATHEMATICS-M3-W4-Q4"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Comparing Fractions",
+          "standard": "3.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "3/4",
+            "1/4",
+            "2/4",
+            "1/2"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "With the same denominator, the larger numerator represents more.",
+          "question_id": "G3-MATHEMATICS-M3-W4-Q5"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Whole Numbers as Fractions",
+          "standard": "3.NF.3c",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equal to the whole number 3?",
+          "options": [
+            "3/1",
+            "1/3",
+            "2/3",
+            "3/4"
+          ],
+          "correct_answer": "3/1",
+          "answer_explanation": "A whole number n can be written as n/1.",
+          "question_id": "G3-MATHEMATICS-M3-W5-Q1"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Whole Numbers as Fractions",
+          "standard": "3.NF.3c",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equal to the whole number 3?",
+          "options": [
+            "3/1",
+            "1/3",
+            "2/3",
+            "3/4"
+          ],
+          "correct_answer": "3/1",
+          "answer_explanation": "A whole number n can be written as n/1.",
+          "question_id": "G3-MATHEMATICS-M3-W5-Q2"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Whole Numbers as Fractions",
+          "standard": "3.NF.3c",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equal to the whole number 3?",
+          "options": [
+            "3/1",
+            "1/3",
+            "2/3",
+            "3/4"
+          ],
+          "correct_answer": "3/1",
+          "answer_explanation": "A whole number n can be written as n/1.",
+          "question_id": "G3-MATHEMATICS-M3-W5-Q3"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Whole Numbers as Fractions",
+          "standard": "3.NF.3c",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equal to the whole number 3?",
+          "options": [
+            "3/1",
+            "1/3",
+            "2/3",
+            "3/4"
+          ],
+          "correct_answer": "3/1",
+          "answer_explanation": "A whole number n can be written as n/1.",
+          "question_id": "G3-MATHEMATICS-M3-W5-Q4"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Whole Numbers as Fractions",
+          "standard": "3.NF.3c",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equal to the whole number 3?",
+          "options": [
+            "3/1",
+            "1/3",
+            "2/3",
+            "3/4"
+          ],
+          "correct_answer": "3/1",
+          "answer_explanation": "A whole number n can be written as n/1.",
+          "question_id": "G3-MATHEMATICS-M3-W5-Q5"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-M3-W6-Q1"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-M3-W6-Q2"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-M3-W6-Q3"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-M3-W6-Q4"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-M3-W6-Q5"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W7-Q1"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W7-Q2"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W7-Q3"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W7-Q4"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-M3-W7-Q5"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2.",
+          "question_id": "G3-MATHEMATICS-M3-W8-Q1"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2.",
+          "question_id": "G3-MATHEMATICS-M3-W8-Q2"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2.",
+          "question_id": "G3-MATHEMATICS-M3-W8-Q3"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2.",
+          "question_id": "G3-MATHEMATICS-M3-W8-Q4"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2.",
+          "question_id": "G3-MATHEMATICS-M3-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-MATHEMATICS-MODULE-4",
+      "course": "Grade 3 Mathematics",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Measurement, Data & Geometry",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-M4-W1-Q1"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-M4-W1-Q2"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-M4-W1-Q3"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-M4-W1-Q4"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-M4-W1-Q5"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Mass & Liquid Volume",
+          "standard": "3.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which unit is most appropriate for measuring the amount of water in a large bottle?",
+          "options": [
+            "liters",
+            "grams",
+            "kilograms",
+            "minutes"
+          ],
+          "correct_answer": "liters",
+          "answer_explanation": "Liters are used to measure liquid volume.",
+          "question_id": "G3-MATHEMATICS-M4-W2-Q1"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Mass & Liquid Volume",
+          "standard": "3.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which unit is most appropriate for measuring the amount of water in a large bottle?",
+          "options": [
+            "liters",
+            "grams",
+            "kilograms",
+            "minutes"
+          ],
+          "correct_answer": "liters",
+          "answer_explanation": "Liters are used to measure liquid volume.",
+          "question_id": "G3-MATHEMATICS-M4-W2-Q2"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Mass & Liquid Volume",
+          "standard": "3.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which unit is most appropriate for measuring the amount of water in a large bottle?",
+          "options": [
+            "liters",
+            "grams",
+            "kilograms",
+            "minutes"
+          ],
+          "correct_answer": "liters",
+          "answer_explanation": "Liters are used to measure liquid volume.",
+          "question_id": "G3-MATHEMATICS-M4-W2-Q3"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Mass & Liquid Volume",
+          "standard": "3.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which unit is most appropriate for measuring the amount of water in a large bottle?",
+          "options": [
+            "liters",
+            "grams",
+            "kilograms",
+            "minutes"
+          ],
+          "correct_answer": "liters",
+          "answer_explanation": "Liters are used to measure liquid volume.",
+          "question_id": "G3-MATHEMATICS-M4-W2-Q4"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Mass & Liquid Volume",
+          "standard": "3.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which unit is most appropriate for measuring the amount of water in a large bottle?",
+          "options": [
+            "liters",
+            "grams",
+            "kilograms",
+            "minutes"
+          ],
+          "correct_answer": "liters",
+          "answer_explanation": "Liters are used to measure liquid volume.",
+          "question_id": "G3-MATHEMATICS-M4-W2-Q5"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Area Concepts",
+          "standard": "3.MD.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is covered by 4 rows of 5 unit squares. What is its area?",
+          "options": [
+            "20 square units",
+            "9 square units",
+            "18 square units",
+            "25 square units"
+          ],
+          "correct_answer": "20 square units",
+          "answer_explanation": "Area is the number of unit squares: 4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-M4-W3-Q1"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Area Concepts",
+          "standard": "3.MD.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is covered by 4 rows of 5 unit squares. What is its area?",
+          "options": [
+            "20 square units",
+            "9 square units",
+            "18 square units",
+            "25 square units"
+          ],
+          "correct_answer": "20 square units",
+          "answer_explanation": "Area is the number of unit squares: 4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-M4-W3-Q2"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Area Concepts",
+          "standard": "3.MD.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is covered by 4 rows of 5 unit squares. What is its area?",
+          "options": [
+            "20 square units",
+            "9 square units",
+            "18 square units",
+            "25 square units"
+          ],
+          "correct_answer": "20 square units",
+          "answer_explanation": "Area is the number of unit squares: 4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-M4-W3-Q3"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Area Concepts",
+          "standard": "3.MD.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is covered by 4 rows of 5 unit squares. What is its area?",
+          "options": [
+            "20 square units",
+            "9 square units",
+            "18 square units",
+            "25 square units"
+          ],
+          "correct_answer": "20 square units",
+          "answer_explanation": "Area is the number of unit squares: 4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-M4-W3-Q4"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Area Concepts",
+          "standard": "3.MD.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is covered by 4 rows of 5 unit squares. What is its area?",
+          "options": [
+            "20 square units",
+            "9 square units",
+            "18 square units",
+            "25 square units"
+          ],
+          "correct_answer": "20 square units",
+          "answer_explanation": "Area is the number of unit squares: 4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-M4-W3-Q5"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Area & Multiplication",
+          "standard": "3.MD.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 6 units long and 3 units wide. What is its area?",
+          "options": [
+            "18 square units",
+            "9 square units",
+            "12 square units",
+            "20 square units"
+          ],
+          "correct_answer": "18 square units",
+          "answer_explanation": "Area = length × width = 6 × 3 = 18 square units.",
+          "question_id": "G3-MATHEMATICS-M4-W4-Q1"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Area & Multiplication",
+          "standard": "3.MD.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 6 units long and 3 units wide. What is its area?",
+          "options": [
+            "18 square units",
+            "9 square units",
+            "12 square units",
+            "20 square units"
+          ],
+          "correct_answer": "18 square units",
+          "answer_explanation": "Area = length × width = 6 × 3 = 18 square units.",
+          "question_id": "G3-MATHEMATICS-M4-W4-Q2"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Area & Multiplication",
+          "standard": "3.MD.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 6 units long and 3 units wide. What is its area?",
+          "options": [
+            "18 square units",
+            "9 square units",
+            "12 square units",
+            "20 square units"
+          ],
+          "correct_answer": "18 square units",
+          "answer_explanation": "Area = length × width = 6 × 3 = 18 square units.",
+          "question_id": "G3-MATHEMATICS-M4-W4-Q3"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Area & Multiplication",
+          "standard": "3.MD.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 6 units long and 3 units wide. What is its area?",
+          "options": [
+            "18 square units",
+            "9 square units",
+            "12 square units",
+            "20 square units"
+          ],
+          "correct_answer": "18 square units",
+          "answer_explanation": "Area = length × width = 6 × 3 = 18 square units.",
+          "question_id": "G3-MATHEMATICS-M4-W4-Q4"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Area & Multiplication",
+          "standard": "3.MD.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 6 units long and 3 units wide. What is its area?",
+          "options": [
+            "18 square units",
+            "9 square units",
+            "12 square units",
+            "20 square units"
+          ],
+          "correct_answer": "18 square units",
+          "answer_explanation": "Area = length × width = 6 × 3 = 18 square units.",
+          "question_id": "G3-MATHEMATICS-M4-W4-Q5"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Perimeter",
+          "standard": "3.MD.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 5 units long and 3 units wide. What is its perimeter?",
+          "options": [
+            "16 units",
+            "15 units",
+            "8 units",
+            "10 units"
+          ],
+          "correct_answer": "16 units",
+          "answer_explanation": "Perimeter = 5 + 3 + 5 + 3 = 16 units.",
+          "question_id": "G3-MATHEMATICS-M4-W5-Q1"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Perimeter",
+          "standard": "3.MD.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 5 units long and 3 units wide. What is its perimeter?",
+          "options": [
+            "16 units",
+            "15 units",
+            "8 units",
+            "10 units"
+          ],
+          "correct_answer": "16 units",
+          "answer_explanation": "Perimeter = 5 + 3 + 5 + 3 = 16 units.",
+          "question_id": "G3-MATHEMATICS-M4-W5-Q2"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Perimeter",
+          "standard": "3.MD.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 5 units long and 3 units wide. What is its perimeter?",
+          "options": [
+            "16 units",
+            "15 units",
+            "8 units",
+            "10 units"
+          ],
+          "correct_answer": "16 units",
+          "answer_explanation": "Perimeter = 5 + 3 + 5 + 3 = 16 units.",
+          "question_id": "G3-MATHEMATICS-M4-W5-Q3"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Perimeter",
+          "standard": "3.MD.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 5 units long and 3 units wide. What is its perimeter?",
+          "options": [
+            "16 units",
+            "15 units",
+            "8 units",
+            "10 units"
+          ],
+          "correct_answer": "16 units",
+          "answer_explanation": "Perimeter = 5 + 3 + 5 + 3 = 16 units.",
+          "question_id": "G3-MATHEMATICS-M4-W5-Q4"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Perimeter",
+          "standard": "3.MD.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 5 units long and 3 units wide. What is its perimeter?",
+          "options": [
+            "16 units",
+            "15 units",
+            "8 units",
+            "10 units"
+          ],
+          "correct_answer": "16 units",
+          "answer_explanation": "Perimeter = 5 + 3 + 5 + 3 = 16 units.",
+          "question_id": "G3-MATHEMATICS-M4-W5-Q5"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Bar Graphs & Pictographs",
+          "standard": "3.MD.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pictograph shows 1 picture = 2 books. If there are 5 pictures, how many books are shown?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Each picture represents 2 books, so 5 × 2 = 10.",
+          "question_id": "G3-MATHEMATICS-M4-W6-Q1"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Bar Graphs & Pictographs",
+          "standard": "3.MD.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pictograph shows 1 picture = 2 books. If there are 5 pictures, how many books are shown?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Each picture represents 2 books, so 5 × 2 = 10.",
+          "question_id": "G3-MATHEMATICS-M4-W6-Q2"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Bar Graphs & Pictographs",
+          "standard": "3.MD.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pictograph shows 1 picture = 2 books. If there are 5 pictures, how many books are shown?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Each picture represents 2 books, so 5 × 2 = 10.",
+          "question_id": "G3-MATHEMATICS-M4-W6-Q3"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Bar Graphs & Pictographs",
+          "standard": "3.MD.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pictograph shows 1 picture = 2 books. If there are 5 pictures, how many books are shown?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Each picture represents 2 books, so 5 × 2 = 10.",
+          "question_id": "G3-MATHEMATICS-M4-W6-Q4"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Bar Graphs & Pictographs",
+          "standard": "3.MD.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pictograph shows 1 picture = 2 books. If there are 5 pictures, how many books are shown?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Each picture represents 2 books, so 5 × 2 = 10.",
+          "question_id": "G3-MATHEMATICS-M4-W6-Q5"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Line Plots",
+          "standard": "3.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 students at 4 inches and 2 students at 5 inches. How many students are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "2"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 students.",
+          "question_id": "G3-MATHEMATICS-M4-W7-Q1"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Line Plots",
+          "standard": "3.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 students at 4 inches and 2 students at 5 inches. How many students are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "2"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 students.",
+          "question_id": "G3-MATHEMATICS-M4-W7-Q2"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Line Plots",
+          "standard": "3.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 students at 4 inches and 2 students at 5 inches. How many students are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "2"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 students.",
+          "question_id": "G3-MATHEMATICS-M4-W7-Q3"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Line Plots",
+          "standard": "3.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 students at 4 inches and 2 students at 5 inches. How many students are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "2"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 students.",
+          "question_id": "G3-MATHEMATICS-M4-W7-Q4"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Line Plots",
+          "standard": "3.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 students at 4 inches and 2 students at 5 inches. How many students are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "2"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 students.",
+          "question_id": "G3-MATHEMATICS-M4-W7-Q5"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-M4-W8-Q1"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-M4-W8-Q2"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-M4-W8-Q3"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-M4-W8-Q4"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-M4-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-MATHEMATICS-MOCK-1",
+      "course": "Grade 3 Mathematics",
+      "grade": 3,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Multiplication",
+          "standard": "3.OA.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "There are 4 equal groups with 5 objects in each group. How many objects are there in all?",
+          "options": [
+            "20",
+            "21",
+            "15",
+            "24"
+          ],
+          "correct_answer": "20",
+          "answer_explanation": "4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q1"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "30 apples are shared equally among 5 children. How many apples does each child get?",
+          "options": [
+            "6",
+            "7",
+            "5",
+            "25"
+          ],
+          "correct_answer": "6",
+          "answer_explanation": "30 ÷ 5 = 6.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q2"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 7 × 6 = 42?",
+          "options": [
+            "42 ÷ 7 = 6",
+            "42 ÷ 7 = 7",
+            "13 ÷ 7 = 6",
+            "42 ÷ 13 = 6"
+          ],
+          "correct_answer": "42 ÷ 7 = 6",
+          "answer_explanation": "Multiplication and division are inverse operations: 42 ÷ 7 = 6.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q3"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Properties of Multiplication",
+          "standard": "3.OA.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression shows the commutative property for 2 × 6?",
+          "options": [
+            "6 × 2",
+            "2+6",
+            "2×7",
+            "2-6"
+          ],
+          "correct_answer": "6 × 2",
+          "answer_explanation": "The commutative property says factors can switch places: 2 × 6 = 6 × 2.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q4"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 6 × 2?",
+          "options": [
+            "12",
+            "17",
+            "10",
+            "8"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "Multiplying 6 groups of 2 gives 12.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q5"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Division Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 12 ÷ 3?",
+          "options": [
+            "4",
+            "3",
+            "9",
+            "5"
+          ],
+          "correct_answer": "4",
+          "answer_explanation": "3 × 4 = 12, so 12 ÷ 3 = 4.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q6"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Word Problems",
+          "standard": "3.OA.3/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A teacher has 5 boxes with 6 pencils in each box. How many pencils are there?",
+          "options": [
+            "30",
+            "11",
+            "36",
+            "25"
+          ],
+          "correct_answer": "30",
+          "answer_explanation": "5 groups of 6 pencils gives 5 × 6 = 30.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q7"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Patterns in Arithmetic",
+          "standard": "3.OA.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What number comes next in the pattern 8, 14, 20, 26, ...?",
+          "options": [
+            "32",
+            "33",
+            "20",
+            "38"
+          ],
+          "correct_answer": "32",
+          "answer_explanation": "The pattern adds 6 each time.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q8"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Place Value to Thousands",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 1111?",
+          "options": [
+            "100",
+            "10",
+            "1",
+            "1000"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "The hundreds digit represents 100.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q9"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Rounding",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 146 to the nearest 10.",
+          "options": [
+            "150",
+            "160",
+            "140",
+            "100"
+          ],
+          "correct_answer": "150",
+          "answer_explanation": "The ones digit is 6; therefore 146 rounds to 150.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q10"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Adding within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 311 + 187?",
+          "options": [
+            "498",
+            "508",
+            "488",
+            "598"
+          ],
+          "correct_answer": "498",
+          "answer_explanation": "Adding the two numbers gives 498.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q11"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 624 − 168?",
+          "options": [
+            "456",
+            "466",
+            "446",
+            "792"
+          ],
+          "correct_answer": "456",
+          "answer_explanation": "Subtracting 168 from 624 gives 456.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q12"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2 × 20?",
+          "options": [
+            "40",
+            "4",
+            "50",
+            "22"
+          ],
+          "correct_answer": "40",
+          "answer_explanation": "2 × 20 = 40.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q13"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Estimation",
+          "standard": "3.NBT.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "About how much is 155 + 256? Round each number to the nearest 10 first.",
+          "options": [
+            "420",
+            "411",
+            "520",
+            "320"
+          ],
+          "correct_answer": "420",
+          "answer_explanation": "155 rounds to 160 and 256 to 260; the estimate is 420.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q14"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Multi-Step Problems",
+          "standard": "3.OA.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 6 boxes with 5 books in each box. Then 4 more books arrive. How many books are there?",
+          "options": [
+            "34",
+            "30",
+            "38",
+            "15"
+          ],
+          "correct_answer": "34",
+          "answer_explanation": "First 6 × 5 = 30; then add 4 to get 34.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q15"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Fluency & Review",
+          "standard": "3.NBT",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 51 + 35?",
+          "options": [
+            "86",
+            "96",
+            "76",
+            "1785"
+          ],
+          "correct_answer": "86",
+          "answer_explanation": "51 + 35 = 86.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q16"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Understanding Fractions",
+          "standard": "3.NF.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A whole is divided into 3 equal parts. What fraction names one of those parts?",
+          "options": [
+            "1/3",
+            "2/3",
+            "3/1",
+            "1/4"
+          ],
+          "correct_answer": "1/3",
+          "answer_explanation": "One equal part out of 3 is the unit fraction 1/3.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q17"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions on a Number Line",
+          "standard": "3.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction represents the 3th equal part out of 6 on a number line from 0 to 1?",
+          "options": [
+            "3/6",
+            "1/6",
+            "6/3",
+            "4/6"
+          ],
+          "correct_answer": "3/6",
+          "answer_explanation": "After 3 equal steps of size 1/6, the point is 3/6.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q18"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Equivalent Fractions",
+          "standard": "3.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 1/2?",
+          "options": [
+            "2/4",
+            "1/3",
+            "3/5",
+            "2/3"
+          ],
+          "correct_answer": "2/4",
+          "answer_explanation": "Two fourths covers the same amount as one half.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q19"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Comparing Fractions",
+          "standard": "3.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "3/4",
+            "1/4",
+            "2/4",
+            "1/2"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "With the same denominator, the larger numerator represents more.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q20"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Whole Numbers as Fractions",
+          "standard": "3.NF.3c",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equal to the whole number 3?",
+          "options": [
+            "3/1",
+            "1/3",
+            "2/3",
+            "3/4"
+          ],
+          "correct_answer": "3/1",
+          "answer_explanation": "A whole number n can be written as n/1.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q21"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q22"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q23"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q24"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q25"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Mass & Liquid Volume",
+          "standard": "3.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which unit is most appropriate for measuring the amount of water in a large bottle?",
+          "options": [
+            "liters",
+            "grams",
+            "kilograms",
+            "minutes"
+          ],
+          "correct_answer": "liters",
+          "answer_explanation": "Liters are used to measure liquid volume.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q26"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Area Concepts",
+          "standard": "3.MD.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is covered by 4 rows of 5 unit squares. What is its area?",
+          "options": [
+            "20 square units",
+            "9 square units",
+            "18 square units",
+            "25 square units"
+          ],
+          "correct_answer": "20 square units",
+          "answer_explanation": "Area is the number of unit squares: 4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q27"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Area & Multiplication",
+          "standard": "3.MD.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 6 units long and 3 units wide. What is its area?",
+          "options": [
+            "18 square units",
+            "9 square units",
+            "12 square units",
+            "20 square units"
+          ],
+          "correct_answer": "18 square units",
+          "answer_explanation": "Area = length × width = 6 × 3 = 18 square units.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q28"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Perimeter",
+          "standard": "3.MD.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 5 units long and 3 units wide. What is its perimeter?",
+          "options": [
+            "16 units",
+            "15 units",
+            "8 units",
+            "10 units"
+          ],
+          "correct_answer": "16 units",
+          "answer_explanation": "Perimeter = 5 + 3 + 5 + 3 = 16 units.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q29"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Bar Graphs & Pictographs",
+          "standard": "3.MD.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pictograph shows 1 picture = 2 books. If there are 5 pictures, how many books are shown?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Each picture represents 2 books, so 5 × 2 = 10.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q30"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Line Plots",
+          "standard": "3.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 students at 4 inches and 2 students at 5 inches. How many students are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "2"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 students.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q31"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q32"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "30 apples are shared equally among 5 children. How many apples does each child get?",
+          "options": [
+            "6",
+            "7",
+            "5",
+            "25"
+          ],
+          "correct_answer": "6",
+          "answer_explanation": "30 ÷ 5 = 6.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q33"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 593 − 151?",
+          "options": [
+            "442",
+            "452",
+            "432",
+            "744"
+          ],
+          "correct_answer": "442",
+          "answer_explanation": "Subtracting 151 from 593 gives 442.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q34"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q35"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q36"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "20 apples are shared equally among 4 children. How many apples does each child get?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "16"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "20 ÷ 4 = 5.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q37"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 562 − 134?",
+          "options": [
+            "428",
+            "438",
+            "418",
+            "696"
+          ],
+          "correct_answer": "428",
+          "answer_explanation": "Subtracting 134 from 562 gives 428.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q38"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q39"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-MOCK-1-Q40"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-MATHEMATICS-MOCK-2",
+      "course": "Grade 3 Mathematics",
+      "grade": 3,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Patterns in Arithmetic",
+          "standard": "3.OA.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What number comes next in the pattern 7, 12, 17, 22, ...?",
+          "options": [
+            "27",
+            "28",
+            "17",
+            "32"
+          ],
+          "correct_answer": "27",
+          "answer_explanation": "The pattern adds 5 each time.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q1"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Word Problems",
+          "standard": "3.OA.3/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A teacher has 6 boxes with 7 pencils in each box. How many pencils are there?",
+          "options": [
+            "42",
+            "13",
+            "49",
+            "36"
+          ],
+          "correct_answer": "42",
+          "answer_explanation": "6 groups of 7 pencils gives 6 × 7 = 42.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q2"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Division Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 42 ÷ 6?",
+          "options": [
+            "7",
+            "6",
+            "36",
+            "8"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "6 × 7 = 42, so 42 ÷ 6 = 7.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q3"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication Facts & Strategies",
+          "standard": "3.OA.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 6 × 2?",
+          "options": [
+            "12",
+            "17",
+            "10",
+            "8"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "Multiplying 6 groups of 2 gives 12.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q4"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Properties of Multiplication",
+          "standard": "3.OA.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression shows the commutative property for 3 × 6?",
+          "options": [
+            "6 × 3",
+            "3+6",
+            "3×7",
+            "3-6"
+          ],
+          "correct_answer": "6 × 3",
+          "answer_explanation": "The commutative property says factors can switch places: 3 × 6 = 6 × 3.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q5"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 6 × 5 = 30?",
+          "options": [
+            "30 ÷ 6 = 5",
+            "30 ÷ 6 = 6",
+            "11 ÷ 6 = 5",
+            "30 ÷ 11 = 5"
+          ],
+          "correct_answer": "30 ÷ 6 = 5",
+          "answer_explanation": "Multiplication and division are inverse operations: 30 ÷ 6 = 5.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q6"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Understanding Division",
+          "standard": "3.OA.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "42 apples are shared equally among 6 children. How many apples does each child get?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "36"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "42 ÷ 6 = 7.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q7"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Multiplication",
+          "standard": "3.OA.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "There are 7 equal groups with 4 objects in each group. How many objects are there in all?",
+          "options": [
+            "28",
+            "29",
+            "24",
+            "35"
+          ],
+          "correct_answer": "28",
+          "answer_explanation": "7 × 4 = 28.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q8"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Fluency & Review",
+          "standard": "3.NBT",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 44 + 30?",
+          "options": [
+            "74",
+            "84",
+            "64",
+            "1320"
+          ],
+          "correct_answer": "74",
+          "answer_explanation": "44 + 30 = 74.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q9"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Multi-Step Problems",
+          "standard": "3.OA.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 7 boxes with 6 books in each box. Then 2 more books arrive. How many books are there?",
+          "options": [
+            "44",
+            "42",
+            "46",
+            "15"
+          ],
+          "correct_answer": "44",
+          "answer_explanation": "First 7 × 6 = 42; then add 2 to get 44.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q10"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Estimation",
+          "standard": "3.NBT.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "About how much is 176 + 271? Round each number to the nearest 10 first.",
+          "options": [
+            "450",
+            "447",
+            "550",
+            "350"
+          ],
+          "correct_answer": "450",
+          "answer_explanation": "176 rounds to 180 and 271 to 270; the estimate is 450.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q11"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2 × 20?",
+          "options": [
+            "40",
+            "4",
+            "50",
+            "22"
+          ],
+          "correct_answer": "40",
+          "answer_explanation": "2 × 20 = 40.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q12"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Subtracting within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 531 − 117?",
+          "options": [
+            "414",
+            "424",
+            "404",
+            "648"
+          ],
+          "correct_answer": "414",
+          "answer_explanation": "Subtracting 117 from 531 gives 414.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q13"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Adding within 1000",
+          "standard": "3.NBT.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 274 + 158?",
+          "options": [
+            "432",
+            "442",
+            "422",
+            "532"
+          ],
+          "correct_answer": "432",
+          "answer_explanation": "Adding the two numbers gives 432.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q14"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Rounding",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 159 to the nearest 10.",
+          "options": [
+            "160",
+            "170",
+            "150",
+            "200"
+          ],
+          "correct_answer": "160",
+          "answer_explanation": "The ones digit is 9; therefore 159 rounds to 160.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q15"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Place Value to Thousands",
+          "standard": "3.NBT.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 1444?",
+          "options": [
+            "400",
+            "40",
+            "4",
+            "1000"
+          ],
+          "correct_answer": "400",
+          "answer_explanation": "The hundreds digit represents 400.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q16"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q17"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q18"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Fractions in Context",
+          "standard": "3.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A pizza is cut into 8 equal slices. Mia eats 3 slices. What fraction of the pizza did she eat?",
+          "options": [
+            "3/8",
+            "5/8",
+            "3/5",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Three of eight equal slices were eaten, so the fraction is 3/8.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q19"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Whole Numbers as Fractions",
+          "standard": "3.NF.3c",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equal to the whole number 3?",
+          "options": [
+            "3/1",
+            "1/3",
+            "2/3",
+            "3/4"
+          ],
+          "correct_answer": "3/1",
+          "answer_explanation": "A whole number n can be written as n/1.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q20"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Comparing Fractions",
+          "standard": "3.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "3/4",
+            "1/4",
+            "2/4",
+            "1/2"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "With the same denominator, the larger numerator represents more.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q21"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Equivalent Fractions",
+          "standard": "3.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 1/2?",
+          "options": [
+            "2/4",
+            "1/3",
+            "3/5",
+            "2/3"
+          ],
+          "correct_answer": "2/4",
+          "answer_explanation": "Two fourths covers the same amount as one half.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q22"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions on a Number Line",
+          "standard": "3.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction represents the 4th equal part out of 7 on a number line from 0 to 1?",
+          "options": [
+            "4/7",
+            "1/7",
+            "7/4",
+            "5/7"
+          ],
+          "correct_answer": "4/7",
+          "answer_explanation": "After 4 equal steps of size 1/7, the point is 4/7.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q23"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Understanding Fractions",
+          "standard": "3.NF.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A whole is divided into 6 equal parts. What fraction names one of those parts?",
+          "options": [
+            "1/6",
+            "5/6",
+            "6/1",
+            "1/7"
+          ],
+          "correct_answer": "1/6",
+          "answer_explanation": "One equal part out of 6 is the unit fraction 1/6.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q24"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Shapes & Attributes",
+          "standard": "3.G.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which shape has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "triangle",
+            "circle",
+            "pentagon"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q25"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Line Plots",
+          "standard": "3.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 students at 4 inches and 2 students at 5 inches. How many students are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "2"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 students.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q26"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Bar Graphs & Pictographs",
+          "standard": "3.MD.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pictograph shows 1 picture = 2 books. If there are 5 pictures, how many books are shown?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Each picture represents 2 books, so 5 × 2 = 10.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q27"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Perimeter",
+          "standard": "3.MD.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 5 units long and 3 units wide. What is its perimeter?",
+          "options": [
+            "16 units",
+            "15 units",
+            "8 units",
+            "10 units"
+          ],
+          "correct_answer": "16 units",
+          "answer_explanation": "Perimeter = 5 + 3 + 5 + 3 = 16 units.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q28"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Area & Multiplication",
+          "standard": "3.MD.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 6 units long and 3 units wide. What is its area?",
+          "options": [
+            "18 square units",
+            "9 square units",
+            "12 square units",
+            "20 square units"
+          ],
+          "correct_answer": "18 square units",
+          "answer_explanation": "Area = length × width = 6 × 3 = 18 square units.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q29"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Area Concepts",
+          "standard": "3.MD.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is covered by 4 rows of 5 unit squares. What is its area?",
+          "options": [
+            "20 square units",
+            "9 square units",
+            "18 square units",
+            "25 square units"
+          ],
+          "correct_answer": "20 square units",
+          "answer_explanation": "Area is the number of unit squares: 4 × 5 = 20.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q30"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Mass & Liquid Volume",
+          "standard": "3.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which unit is most appropriate for measuring the amount of water in a large bottle?",
+          "options": [
+            "liters",
+            "grams",
+            "kilograms",
+            "minutes"
+          ],
+          "correct_answer": "liters",
+          "answer_explanation": "Liters are used to measure liquid volume.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q31"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q32"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 6 × 5 = 30?",
+          "options": [
+            "30 ÷ 6 = 5",
+            "30 ÷ 6 = 6",
+            "11 ÷ 6 = 5",
+            "30 ÷ 11 = 5"
+          ],
+          "correct_answer": "30 ÷ 6 = 5",
+          "answer_explanation": "Multiplication and division are inverse operations: 30 ÷ 6 = 5.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q33"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5 × 50?",
+          "options": [
+            "250",
+            "25",
+            "260",
+            "55"
+          ],
+          "correct_answer": "250",
+          "answer_explanation": "5 × 50 = 250.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q34"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q35"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q36"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Multiplication–Division Relationship",
+          "standard": "3.OA.4/6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which division fact belongs to the same fact family as 5 × 4 = 20?",
+          "options": [
+            "20 ÷ 5 = 4",
+            "20 ÷ 5 = 5",
+            "9 ÷ 5 = 4",
+            "20 ÷ 9 = 4"
+          ],
+          "correct_answer": "20 ÷ 5 = 4",
+          "answer_explanation": "Multiplication and division are inverse operations: 20 ÷ 5 = 4.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q37"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying by Multiples of 10",
+          "standard": "3.NBT.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4 × 40?",
+          "options": [
+            "160",
+            "16",
+            "170",
+            "44"
+          ],
+          "correct_answer": "160",
+          "answer_explanation": "4 × 40 = 160.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q38"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Fractions & Measurement",
+          "standard": "3.MD.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ruler is divided into 4 equal parts from 0 to 1 inch. What fraction marks the second division?",
+          "options": [
+            "1/2",
+            "1/4",
+            "2/4 and 1/2",
+            "3/4"
+          ],
+          "correct_answer": "2/4 and 1/2",
+          "answer_explanation": "Two fourths is the same location as one half.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q39"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Time",
+          "standard": "3.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:00 and lasts 1 hour. When does it end?",
+          "options": [
+            "3:00",
+            "2:30",
+            "3:30",
+            "4:00"
+          ],
+          "correct_answer": "3:00",
+          "answer_explanation": "One hour after 2:00 is 3:00.",
+          "question_id": "G3-MATHEMATICS-MOCK-2-Q40"
+        }
+      ]
+    }
+  ]
+}

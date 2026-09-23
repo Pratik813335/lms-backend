@@ -1,0 +1,4369 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 5 Mathematics",
+  "grade": 5,
+  "standard_family": "Common Core",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G5-MATHEMATICS-MODULE-1",
+      "course": "Grade 5 Mathematics",
+      "grade": 5,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Place Value & Decimal Operations",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G5-MATHEMATICS-M1-W1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value & Powers of 10",
+          "standard": "5.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 4.7 × 10?",
+          "options": [
+            "47",
+            "4.7",
+            "a number 10 times larger than the answer",
+            "5"
+          ],
+          "correct_answer": "47",
+          "answer_explanation": "Multiplying by 10 moves each digit one place to the left."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W1-Q2",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value & Powers of 10",
+          "standard": "5.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 3.25 × 100?",
+          "options": [
+            "325",
+            "4.7",
+            "a number 10 times larger than the answer",
+            "5"
+          ],
+          "correct_answer": "325",
+          "answer_explanation": "Multiplying by 100 moves each digit two places to the left."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W1-Q3",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value & Powers of 10",
+          "standard": "5.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 6,000 ÷ 10?",
+          "options": [
+            "600",
+            "4.7",
+            "a number 10 times larger than the answer",
+            "5"
+          ],
+          "correct_answer": "600",
+          "answer_explanation": "Dividing by 10 moves each digit one place to the right."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W1-Q4",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value & Powers of 10",
+          "standard": "5.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 0.82 × 1000?",
+          "options": [
+            "820",
+            "4.7",
+            "a number 10 times larger than the answer",
+            "0.082"
+          ],
+          "correct_answer": "820",
+          "answer_explanation": "Multiplying by 1000 moves the digits three places."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W1-Q5",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value & Powers of 10",
+          "standard": "5.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 50 ÷ 100?",
+          "options": [
+            "0.5",
+            "4.7",
+            "a number 10 times larger than the answer",
+            "5"
+          ],
+          "correct_answer": "0.5",
+          "answer_explanation": "Dividing by 100 moves the decimal two places left."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W2-Q1",
+          "module": 1,
+          "week": 2,
+          "topic": "Reading & Writing Decimals",
+          "standard": "5.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How is 0.406 written in words?",
+          "options": [
+            "four hundred six thousandths",
+            "four and six hundredths",
+            "three and five hundredths",
+            "twelve and eight tenths"
+          ],
+          "correct_answer": "four hundred six thousandths",
+          "answer_explanation": "The digits after the decimal represent tenths, hundredths, and thousandths."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Reading & Writing Decimals",
+          "standard": "5.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How is 3.052 written in words?",
+          "options": [
+            "three and fifty-two thousandths",
+            "four and six hundredths",
+            "three and five hundredths",
+            "twelve and eight tenths"
+          ],
+          "correct_answer": "three and fifty-two thousandths",
+          "answer_explanation": "The digits after the decimal represent tenths, hundredths, and thousandths."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W2-Q3",
+          "module": 1,
+          "week": 2,
+          "topic": "Reading & Writing Decimals",
+          "standard": "5.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How is 0.75 written in words?",
+          "options": [
+            "seventy-five hundredths",
+            "four and six hundredths",
+            "three and five hundredths",
+            "twelve and eight tenths"
+          ],
+          "correct_answer": "seventy-five hundredths",
+          "answer_explanation": "The digits after the decimal represent tenths, hundredths, and thousandths."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W2-Q4",
+          "module": 1,
+          "week": 2,
+          "topic": "Reading & Writing Decimals",
+          "standard": "5.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How is 12.008 written in words?",
+          "options": [
+            "twelve and eight thousandths",
+            "four and six hundredths",
+            "three and five hundredths",
+            "twelve and eight tenths"
+          ],
+          "correct_answer": "twelve and eight thousandths",
+          "answer_explanation": "The digits after the decimal represent tenths, hundredths, and thousandths."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W2-Q5",
+          "module": 1,
+          "week": 2,
+          "topic": "Reading & Writing Decimals",
+          "standard": "5.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How is 4.321 written in words?",
+          "options": [
+            "four and three hundred twenty-one thousandths",
+            "four and six hundredths",
+            "three and five hundredths",
+            "twelve and eight tenths"
+          ],
+          "correct_answer": "four and three hundred twenty-one thousandths",
+          "answer_explanation": "The digits after the decimal represent tenths, hundredths, and thousandths."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W3-Q1",
+          "module": 1,
+          "week": 3,
+          "topic": "Rounding Decimals",
+          "standard": "5.NBT.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Round 4.67 to the place indicated by the answer.",
+          "options": [
+            "4.7",
+            "the number one place lower",
+            "the number one place higher",
+            "0"
+          ],
+          "correct_answer": "4.7",
+          "answer_explanation": "Look at the digit immediately to the right of the rounding place."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W3-Q2",
+          "module": 1,
+          "week": 3,
+          "topic": "Rounding Decimals",
+          "standard": "5.NBT.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Round 8.243 to the place indicated by the answer.",
+          "options": [
+            "8.24",
+            "the number one place lower",
+            "the number one place higher",
+            "0"
+          ],
+          "correct_answer": "8.24",
+          "answer_explanation": "Look at the digit immediately to the right of the rounding place."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W3-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Rounding Decimals",
+          "standard": "5.NBT.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Round 5.995 to the place indicated by the answer.",
+          "options": [
+            "6.00",
+            "the number one place lower",
+            "the number one place higher",
+            "0"
+          ],
+          "correct_answer": "6.00",
+          "answer_explanation": "Look at the digit immediately to the right of the rounding place."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W3-Q4",
+          "module": 1,
+          "week": 3,
+          "topic": "Rounding Decimals",
+          "standard": "5.NBT.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Round 12.346 to the place indicated by the answer.",
+          "options": [
+            "12.35",
+            "the number one place lower",
+            "the number one place higher",
+            "0"
+          ],
+          "correct_answer": "12.35",
+          "answer_explanation": "Look at the digit immediately to the right of the rounding place."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W3-Q5",
+          "module": 1,
+          "week": 3,
+          "topic": "Rounding Decimals",
+          "standard": "5.NBT.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Round 0.784 to the place indicated by the answer.",
+          "options": [
+            "0.8",
+            "the number one place lower",
+            "the number one place higher",
+            "0"
+          ],
+          "correct_answer": "0.8",
+          "answer_explanation": "Look at the digit immediately to the right of the rounding place."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W4-Q1",
+          "module": 1,
+          "week": 4,
+          "topic": "Multi-Digit Multiplication",
+          "standard": "5.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 124 × 23?",
+          "options": [
+            "2852",
+            "2862",
+            "2752",
+            "147"
+          ],
+          "correct_answer": "2852",
+          "answer_explanation": "Using the standard algorithm, 124 × 23 = 2852."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W4-Q2",
+          "module": 1,
+          "week": 4,
+          "topic": "Multi-Digit Multiplication",
+          "standard": "5.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 161 × 27?",
+          "options": [
+            "4347",
+            "4357",
+            "4247",
+            "188"
+          ],
+          "correct_answer": "4347",
+          "answer_explanation": "Using the standard algorithm, 161 × 27 = 4347."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W4-Q3",
+          "module": 1,
+          "week": 4,
+          "topic": "Multi-Digit Multiplication",
+          "standard": "5.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 198 × 31?",
+          "options": [
+            "6138",
+            "6148",
+            "6038",
+            "229"
+          ],
+          "correct_answer": "6138",
+          "answer_explanation": "Using the standard algorithm, 198 × 31 = 6138."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W4-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Multi-Digit Multiplication",
+          "standard": "5.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 235 × 35?",
+          "options": [
+            "8225",
+            "8235",
+            "8125",
+            "270"
+          ],
+          "correct_answer": "8225",
+          "answer_explanation": "Using the standard algorithm, 235 × 35 = 8225."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W4-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Multi-Digit Multiplication",
+          "standard": "5.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 272 × 39?",
+          "options": [
+            "10608",
+            "10618",
+            "10508",
+            "311"
+          ],
+          "correct_answer": "10608",
+          "answer_explanation": "Using the standard algorithm, 272 × 39 = 10608."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W5-Q1",
+          "module": 1,
+          "week": 5,
+          "topic": "Multi-Digit Division",
+          "standard": "5.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 288 ÷ 12?",
+          "options": [
+            "24 R0",
+            "25 R0",
+            "24 R1",
+            "24"
+          ],
+          "correct_answer": "24 R0",
+          "answer_explanation": "12 × 24 = 288, leaving remainder 0."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W5-Q2",
+          "module": 1,
+          "week": 5,
+          "topic": "Multi-Digit Division",
+          "standard": "5.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 352 ÷ 13?",
+          "options": [
+            "27 R1",
+            "28 R1",
+            "27 R2",
+            "27"
+          ],
+          "correct_answer": "27 R1",
+          "answer_explanation": "13 × 27 = 351, leaving remainder 1."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W5-Q3",
+          "module": 1,
+          "week": 5,
+          "topic": "Multi-Digit Division",
+          "standard": "5.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 422 ÷ 14?",
+          "options": [
+            "30 R2",
+            "31 R2",
+            "30 R3",
+            "30"
+          ],
+          "correct_answer": "30 R2",
+          "answer_explanation": "14 × 30 = 420, leaving remainder 2."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W5-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "Multi-Digit Division",
+          "standard": "5.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 495 ÷ 15?",
+          "options": [
+            "33 R0",
+            "34 R0",
+            "33 R1",
+            "33"
+          ],
+          "correct_answer": "33 R0",
+          "answer_explanation": "15 × 33 = 495, leaving remainder 0."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W5-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Multi-Digit Division",
+          "standard": "5.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 577 ÷ 16?",
+          "options": [
+            "36 R1",
+            "37 R1",
+            "36 R2",
+            "36"
+          ],
+          "correct_answer": "36 R1",
+          "answer_explanation": "16 × 36 = 576, leaving remainder 1."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W6-Q1",
+          "module": 1,
+          "week": 6,
+          "topic": "Adding & Subtracting Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4.75 − 2.38?",
+          "options": [
+            "7.13",
+            "8.129999999999999",
+            "6.13",
+            "7.13"
+          ],
+          "correct_answer": "7.13",
+          "answer_explanation": "Align decimal places and subtract: 4.75 − 2.38 = 7.13."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W6-Q2",
+          "module": 1,
+          "week": 6,
+          "topic": "Adding & Subtracting Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 12.50 − 3.76?",
+          "options": [
+            "8.74",
+            "9.74",
+            "7.74",
+            "16.26"
+          ],
+          "correct_answer": "8.74",
+          "answer_explanation": "Align decimal places and subtract: 12.50 − 3.76 = 8.74."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W6-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Adding & Subtracting Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 6.205 − 1.37?",
+          "options": [
+            "4.835",
+            "5.835",
+            "3.835",
+            "7.575"
+          ],
+          "correct_answer": "4.835",
+          "answer_explanation": "Align decimal places and subtract: 6.205 − 1.37 = 4.835."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W6-Q4",
+          "module": 1,
+          "week": 6,
+          "topic": "Adding & Subtracting Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 20.4 − 7.85?",
+          "options": [
+            "12.55",
+            "13.55",
+            "11.55",
+            "28.25"
+          ],
+          "correct_answer": "12.55",
+          "answer_explanation": "Align decimal places and subtract: 20.4 − 7.85 = 12.55."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W6-Q5",
+          "module": 1,
+          "week": 6,
+          "topic": "Adding & Subtracting Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 9.99 − 4.205?",
+          "options": [
+            "5.785",
+            "6.785",
+            "4.785",
+            "14.195"
+          ],
+          "correct_answer": "5.785",
+          "answer_explanation": "Align decimal places and subtract: 9.99 − 4.205 = 5.785."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W7-Q1",
+          "module": 1,
+          "week": 7,
+          "topic": "Multiplying & Dividing Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2.4 × 3?",
+          "options": [
+            "7.2",
+            "0.072",
+            "72",
+            "4.5"
+          ],
+          "correct_answer": "7.2",
+          "answer_explanation": "Use place-value patterns and decimal operations to get 7.2."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W7-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Multiplying & Dividing Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4.5 ÷ 10?",
+          "options": [
+            "0.45",
+            "0.072",
+            "72",
+            "4.5"
+          ],
+          "correct_answer": "0.45",
+          "answer_explanation": "Use place-value patterns and decimal operations to get 0.45."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W7-Q3",
+          "module": 1,
+          "week": 7,
+          "topic": "Multiplying & Dividing Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 0.36 × 100?",
+          "options": [
+            "36",
+            "0.072",
+            "72",
+            "4.5"
+          ],
+          "correct_answer": "36",
+          "answer_explanation": "Use place-value patterns and decimal operations to get 36."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W7-Q4",
+          "module": 1,
+          "week": 7,
+          "topic": "Multiplying & Dividing Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 8.4 ÷ 10?",
+          "options": [
+            "0.84",
+            "0.072",
+            "72",
+            "4.5"
+          ],
+          "correct_answer": "0.84",
+          "answer_explanation": "Use place-value patterns and decimal operations to get 0.84."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W7-Q5",
+          "module": 1,
+          "week": 7,
+          "topic": "Multiplying & Dividing Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1.25 × 4?",
+          "options": [
+            "5",
+            "0.072",
+            "72",
+            "4.5"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "Use place-value patterns and decimal operations to get 5."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W8-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Expressions & Order of Operations",
+          "standard": "5.OA.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 6 + 4 × 3.",
+          "options": [
+            "18",
+            "20",
+            "16",
+            "12"
+          ],
+          "correct_answer": "18",
+          "answer_explanation": "Apply grouping symbols first, then multiplication/division, then addition/subtraction."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W8-Q2",
+          "module": 1,
+          "week": 8,
+          "topic": "Expressions & Order of Operations",
+          "standard": "5.OA.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate (6 + 4) × 3.",
+          "options": [
+            "30",
+            "32",
+            "28",
+            "12"
+          ],
+          "correct_answer": "30",
+          "answer_explanation": "Apply grouping symbols first, then multiplication/division, then addition/subtraction."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W8-Q3",
+          "module": 1,
+          "week": 8,
+          "topic": "Expressions & Order of Operations",
+          "standard": "5.OA.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 20 − 8 ÷ 2.",
+          "options": [
+            "16",
+            "18",
+            "14",
+            "12"
+          ],
+          "correct_answer": "16",
+          "answer_explanation": "Apply grouping symbols first, then multiplication/division, then addition/subtraction."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W8-Q4",
+          "module": 1,
+          "week": 8,
+          "topic": "Expressions & Order of Operations",
+          "standard": "5.OA.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 5 × (3 + 2).",
+          "options": [
+            "25",
+            "27",
+            "23",
+            "12"
+          ],
+          "correct_answer": "25",
+          "answer_explanation": "Apply grouping symbols first, then multiplication/division, then addition/subtraction."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M1-W8-Q5",
+          "module": 1,
+          "week": 8,
+          "topic": "Expressions & Order of Operations",
+          "standard": "5.OA.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 18 ÷ 3 + 4.",
+          "options": [
+            "10",
+            "12",
+            "8",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Apply grouping symbols first, then multiplication/division, then addition/subtraction."
+        }
+      ]
+    },
+    {
+      "paper_id": "G5-MATHEMATICS-MODULE-2",
+      "course": "Grade 5 Mathematics",
+      "grade": 5,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "Fraction Operations",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G5-MATHEMATICS-M2-W1-Q1",
+          "module": 2,
+          "week": 1,
+          "topic": "Adding Fractions (Unlike Denominators)",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/2 + 1/3?",
+          "options": [
+            "5/6",
+            "2/5",
+            "4/6",
+            "1"
+          ],
+          "correct_answer": "5/6",
+          "answer_explanation": "Rewrite the fractions with a common denominator, then add."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W1-Q2",
+          "module": 2,
+          "week": 1,
+          "topic": "Adding Fractions (Unlike Denominators)",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/4 + 1/2?",
+          "options": [
+            "3/4",
+            "2/5",
+            "4/6",
+            "1"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "Rewrite the fractions with a common denominator, then add."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W1-Q3",
+          "module": 2,
+          "week": 1,
+          "topic": "Adding Fractions (Unlike Denominators)",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/3 + 1/6?",
+          "options": [
+            "5/6",
+            "2/5",
+            "4/6",
+            "1"
+          ],
+          "correct_answer": "5/6",
+          "answer_explanation": "Rewrite the fractions with a common denominator, then add."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W1-Q4",
+          "module": 2,
+          "week": 1,
+          "topic": "Adding Fractions (Unlike Denominators)",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3/5 + 1/10?",
+          "options": [
+            "7/10",
+            "2/5",
+            "4/6",
+            "1"
+          ],
+          "correct_answer": "7/10",
+          "answer_explanation": "Rewrite the fractions with a common denominator, then add."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W1-Q5",
+          "module": 2,
+          "week": 1,
+          "topic": "Adding Fractions (Unlike Denominators)",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/2 + 1/4?",
+          "options": [
+            "3/4",
+            "2/5",
+            "4/6",
+            "1"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "Rewrite the fractions with a common denominator, then add."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W2-Q1",
+          "module": 2,
+          "week": 2,
+          "topic": "Subtracting Fractions",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3/4 − 1/2?",
+          "options": [
+            "1/4",
+            "1/3",
+            "3/4",
+            "2/5"
+          ],
+          "correct_answer": "1/4",
+          "answer_explanation": "Rewrite with a common denominator and subtract the numerators."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W2-Q2",
+          "module": 2,
+          "week": 2,
+          "topic": "Subtracting Fractions",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5/6 − 1/3?",
+          "options": [
+            "1/2",
+            "1/3",
+            "3/4",
+            "2/5"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Rewrite with a common denominator and subtract the numerators."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W2-Q3",
+          "module": 2,
+          "week": 2,
+          "topic": "Subtracting Fractions",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 7/8 − 1/4?",
+          "options": [
+            "5/8",
+            "1/3",
+            "3/4",
+            "2/5"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "Rewrite with a common denominator and subtract the numerators."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W2-Q4",
+          "module": 2,
+          "week": 2,
+          "topic": "Subtracting Fractions",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4/5 − 1/10?",
+          "options": [
+            "7/10",
+            "1/3",
+            "3/4",
+            "2/5"
+          ],
+          "correct_answer": "7/10",
+          "answer_explanation": "Rewrite with a common denominator and subtract the numerators."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W2-Q5",
+          "module": 2,
+          "week": 2,
+          "topic": "Subtracting Fractions",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/3 − 1/6?",
+          "options": [
+            "1/2",
+            "1/3",
+            "3/4",
+            "2/5"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Rewrite with a common denominator and subtract the numerators."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W3-Q1",
+          "module": 2,
+          "week": 3,
+          "topic": "Fraction Word Problems",
+          "standard": "5.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A recipe needs 1/2 cup of milk and 1/3 cup of water. How much liquid is that?",
+          "options": [
+            "5/6 cup",
+            "1/3",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "5/6 cup",
+          "answer_explanation": "Convert to common denominators and solve the fraction operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W3-Q2",
+          "module": 2,
+          "week": 3,
+          "topic": "Fraction Word Problems",
+          "standard": "5.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ribbon is 3/4 meter long. 1/2 meter is used. How much remains?",
+          "options": [
+            "1/4 meter",
+            "1/3",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/4 meter",
+          "answer_explanation": "Convert to common denominators and solve the fraction operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W3-Q3",
+          "module": 2,
+          "week": 3,
+          "topic": "Fraction Word Problems",
+          "standard": "5.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A hiker walks 2/3 mile in the morning and 1/6 mile later. How far total?",
+          "options": [
+            "5/6 mile",
+            "1/3",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "5/6 mile",
+          "answer_explanation": "Convert to common denominators and solve the fraction operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W3-Q4",
+          "module": 2,
+          "week": 3,
+          "topic": "Fraction Word Problems",
+          "standard": "5.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A tank is 7/8 full. 1/4 of the tank is emptied. How much remains?",
+          "options": [
+            "5/8 full",
+            "1/3",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "5/8 full",
+          "answer_explanation": "Convert to common denominators and solve the fraction operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W3-Q5",
+          "module": 2,
+          "week": 3,
+          "topic": "Fraction Word Problems",
+          "standard": "5.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A class reads 2/5 of a book Monday and 1/10 Tuesday. How much is read?",
+          "options": [
+            "1/2 of the book",
+            "1/3",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2 of the book",
+          "answer_explanation": "Convert to common denominators and solve the fraction operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W4-Q1",
+          "module": 2,
+          "week": 4,
+          "topic": "Fractions as Division",
+          "standard": "5.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which division expression is equivalent to 3/4?",
+          "options": [
+            "3 ÷ 4",
+            "4 ÷ 3",
+            "x + 1",
+            "x − 1"
+          ],
+          "correct_answer": "3 ÷ 4",
+          "answer_explanation": "A fraction a/b can be interpreted as a divided by b."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W4-Q2",
+          "module": 2,
+          "week": 4,
+          "topic": "Fractions as Division",
+          "standard": "5.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which division expression is equivalent to 5/2?",
+          "options": [
+            "5 ÷ 2",
+            "4 ÷ 3",
+            "x + 1",
+            "x − 1"
+          ],
+          "correct_answer": "5 ÷ 2",
+          "answer_explanation": "A fraction a/b can be interpreted as a divided by b."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W4-Q3",
+          "module": 2,
+          "week": 4,
+          "topic": "Fractions as Division",
+          "standard": "5.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which division expression is equivalent to 7/3?",
+          "options": [
+            "7 ÷ 3",
+            "4 ÷ 3",
+            "x + 1",
+            "x − 1"
+          ],
+          "correct_answer": "7 ÷ 3",
+          "answer_explanation": "A fraction a/b can be interpreted as a divided by b."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W4-Q4",
+          "module": 2,
+          "week": 4,
+          "topic": "Fractions as Division",
+          "standard": "5.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which division expression is equivalent to 2/5?",
+          "options": [
+            "2 ÷ 5",
+            "4 ÷ 3",
+            "x + 1",
+            "x − 1"
+          ],
+          "correct_answer": "2 ÷ 5",
+          "answer_explanation": "A fraction a/b can be interpreted as a divided by b."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W4-Q5",
+          "module": 2,
+          "week": 4,
+          "topic": "Fractions as Division",
+          "standard": "5.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which division expression is equivalent to 9/4?",
+          "options": [
+            "9 ÷ 4",
+            "4 ÷ 3",
+            "x + 1",
+            "x − 1"
+          ],
+          "correct_answer": "9 ÷ 4",
+          "answer_explanation": "A fraction a/b can be interpreted as a divided by b."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W5-Q1",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions",
+          "standard": "5.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/3 × 3/4?",
+          "options": [
+            "1/2",
+            "2/3",
+            "3/4",
+            "5/6"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Multiply numerators and denominators, then simplify."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W5-Q2",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions",
+          "standard": "5.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/2 × 2/5?",
+          "options": [
+            "1/5",
+            "2/3",
+            "3/4",
+            "5/6"
+          ],
+          "correct_answer": "1/5",
+          "answer_explanation": "Multiply numerators and denominators, then simplify."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W5-Q3",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions",
+          "standard": "5.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3/4 × 2/3?",
+          "options": [
+            "1/2",
+            "2/3",
+            "3/4",
+            "5/6"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Multiply numerators and denominators, then simplify."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W5-Q4",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions",
+          "standard": "5.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/5 × 5/6?",
+          "options": [
+            "1/3",
+            "2/3",
+            "3/4",
+            "5/6"
+          ],
+          "correct_answer": "1/3",
+          "answer_explanation": "Multiply numerators and denominators, then simplify."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W5-Q5",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions",
+          "standard": "5.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3/8 × 4/9?",
+          "options": [
+            "1/6",
+            "2/3",
+            "3/4",
+            "5/6"
+          ],
+          "correct_answer": "1/6",
+          "answer_explanation": "Multiply numerators and denominators, then simplify."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W6-Q1",
+          "module": 2,
+          "week": 6,
+          "topic": "Area with Fractions",
+          "standard": "5.NF.4b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 1/2 unit by 3/4 unit. What is its area?",
+          "options": [
+            "3/8 square unit",
+            "1/2 square unit",
+            "3/4 square unit",
+            "2 square units"
+          ],
+          "correct_answer": "3/8 square unit",
+          "answer_explanation": "Area = length × width."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W6-Q2",
+          "module": 2,
+          "week": 6,
+          "topic": "Area with Fractions",
+          "standard": "5.NF.4b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 2/3 by 3/5. Area?",
+          "options": [
+            "2/5 square unit",
+            "1/2 square unit",
+            "3/4 square unit",
+            "2 square units"
+          ],
+          "correct_answer": "2/5 square unit",
+          "answer_explanation": "Area = length × width."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W6-Q3",
+          "module": 2,
+          "week": 6,
+          "topic": "Area with Fractions",
+          "standard": "5.NF.4b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 1/4 by 2/3. Area?",
+          "options": [
+            "1/6 square unit",
+            "1/2 square unit",
+            "3/4 square unit",
+            "2 square units"
+          ],
+          "correct_answer": "1/6 square unit",
+          "answer_explanation": "Area = length × width."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W6-Q4",
+          "module": 2,
+          "week": 6,
+          "topic": "Area with Fractions",
+          "standard": "5.NF.4b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 3/5 by 5/6. Area?",
+          "options": [
+            "1/2 square unit",
+            "1/2 square unit",
+            "3/4 square unit",
+            "2 square units"
+          ],
+          "correct_answer": "1/2 square unit",
+          "answer_explanation": "Area = length × width."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W6-Q5",
+          "module": 2,
+          "week": 6,
+          "topic": "Area with Fractions",
+          "standard": "5.NF.4b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 2/7 by 7/8. Area?",
+          "options": [
+            "1/4 square unit",
+            "1/2 square unit",
+            "3/4 square unit",
+            "2 square units"
+          ],
+          "correct_answer": "1/4 square unit",
+          "answer_explanation": "Area = length × width."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W7-Q1",
+          "module": 2,
+          "week": 7,
+          "topic": "Dividing with Unit Fractions",
+          "standard": "5.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2 ÷ 1/4?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "2"
+          ],
+          "correct_answer": "8",
+          "answer_explanation": "Count how many unit fractions fit into the whole number."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W7-Q2",
+          "module": 2,
+          "week": 7,
+          "topic": "Dividing with Unit Fractions",
+          "standard": "5.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 ÷ 1/3?",
+          "options": [
+            "9",
+            "10",
+            "8",
+            "2"
+          ],
+          "correct_answer": "9",
+          "answer_explanation": "Count how many unit fractions fit into the whole number."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W7-Q3",
+          "module": 2,
+          "week": 7,
+          "topic": "Dividing with Unit Fractions",
+          "standard": "5.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4 ÷ 1/2?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "2"
+          ],
+          "correct_answer": "8",
+          "answer_explanation": "Count how many unit fractions fit into the whole number."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W7-Q4",
+          "module": 2,
+          "week": 7,
+          "topic": "Dividing with Unit Fractions",
+          "standard": "5.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5 ÷ 1/5?",
+          "options": [
+            "25",
+            "26",
+            "24",
+            "2"
+          ],
+          "correct_answer": "25",
+          "answer_explanation": "Count how many unit fractions fit into the whole number."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W7-Q5",
+          "module": 2,
+          "week": 7,
+          "topic": "Dividing with Unit Fractions",
+          "standard": "5.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 6 ÷ 1/3?",
+          "options": [
+            "18",
+            "19",
+            "17",
+            "2"
+          ],
+          "correct_answer": "18",
+          "answer_explanation": "Count how many unit fractions fit into the whole number."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W8-Q1",
+          "module": 2,
+          "week": 8,
+          "topic": "Scaling & Multiplication",
+          "standard": "5.NF.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2?",
+          "options": [
+            "6",
+            "the original number",
+            "one-half of the answer",
+            "twice the answer"
+          ],
+          "correct_answer": "6",
+          "answer_explanation": "Multiplication can describe scaling a quantity by a factor."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W8-Q2",
+          "module": 2,
+          "week": 8,
+          "topic": "Scaling & Multiplication",
+          "standard": "5.NF.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4 × 1/2?",
+          "options": [
+            "2",
+            "the original number",
+            "one-half of the answer",
+            "twice the answer"
+          ],
+          "correct_answer": "2",
+          "answer_explanation": "Multiplication can describe scaling a quantity by a factor."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W8-Q3",
+          "module": 2,
+          "week": 8,
+          "topic": "Scaling & Multiplication",
+          "standard": "5.NF.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5 × 3/2?",
+          "options": [
+            "7.5",
+            "the original number",
+            "one-half of the answer",
+            "twice the answer"
+          ],
+          "correct_answer": "7.5",
+          "answer_explanation": "Multiplication can describe scaling a quantity by a factor."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W8-Q4",
+          "module": 2,
+          "week": 8,
+          "topic": "Scaling & Multiplication",
+          "standard": "5.NF.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2 × 3/4?",
+          "options": [
+            "1.5",
+            "the original number",
+            "one-half of the answer",
+            "twice the answer"
+          ],
+          "correct_answer": "1.5",
+          "answer_explanation": "Multiplication can describe scaling a quantity by a factor."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M2-W8-Q5",
+          "module": 2,
+          "week": 8,
+          "topic": "Scaling & Multiplication",
+          "standard": "5.NF.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 10 × 0.2?",
+          "options": [
+            "2",
+            "the original number",
+            "one-half of the answer",
+            "twice the answer"
+          ],
+          "correct_answer": "2",
+          "answer_explanation": "Multiplication can describe scaling a quantity by a factor."
+        }
+      ]
+    },
+    {
+      "paper_id": "G5-MATHEMATICS-MODULE-3",
+      "course": "Grade 5 Mathematics",
+      "grade": 5,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Measurement & Volume",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G5-MATHEMATICS-M3-W1-Q1",
+          "module": 3,
+          "week": 1,
+          "topic": "Converting Units",
+          "standard": "5.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 3 meters.",
+          "options": [
+            "300 centimeters",
+            "30 centimeters",
+            "200 grams",
+            "20 inches"
+          ],
+          "correct_answer": "300 centimeters",
+          "answer_explanation": "Use the standard conversion relationship for the units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W1-Q2",
+          "module": 3,
+          "week": 1,
+          "topic": "Converting Units",
+          "standard": "5.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 2 kilograms.",
+          "options": [
+            "2,000 grams",
+            "30 centimeters",
+            "200 grams",
+            "20 inches"
+          ],
+          "correct_answer": "2,000 grams",
+          "answer_explanation": "Use the standard conversion relationship for the units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W1-Q3",
+          "module": 3,
+          "week": 1,
+          "topic": "Converting Units",
+          "standard": "5.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 5 feet.",
+          "options": [
+            "60 inches",
+            "30 centimeters",
+            "200 grams",
+            "20 inches"
+          ],
+          "correct_answer": "60 inches",
+          "answer_explanation": "Use the standard conversion relationship for the units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W1-Q4",
+          "module": 3,
+          "week": 1,
+          "topic": "Converting Units",
+          "standard": "5.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 4 quarts.",
+          "options": [
+            "16 cups",
+            "30 centimeters",
+            "200 grams",
+            "20 inches"
+          ],
+          "correct_answer": "16 cups",
+          "answer_explanation": "Use the standard conversion relationship for the units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W1-Q5",
+          "module": 3,
+          "week": 1,
+          "topic": "Converting Units",
+          "standard": "5.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 2 miles.",
+          "options": [
+            "10,560 feet",
+            "30 centimeters",
+            "200 grams",
+            "20 inches"
+          ],
+          "correct_answer": "10,560 feet",
+          "answer_explanation": "Use the standard conversion relationship for the units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W2-Q1",
+          "module": 3,
+          "week": 2,
+          "topic": "Line Plots with Fractions",
+          "standard": "5.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 3 points at 1/4 and 2 points at 3/4. How many measurements?",
+          "options": [
+            "5",
+            "4",
+            "6",
+            "8"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "Count or calculate using the fractional data shown."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W2-Q2",
+          "module": 3,
+          "week": 2,
+          "topic": "Line Plots with Fractions",
+          "standard": "5.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 points at 1/2 and 3 at 1. How many measurements?",
+          "options": [
+            "7",
+            "4",
+            "6",
+            "8"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "Count or calculate using the fractional data shown."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W2-Q3",
+          "module": 3,
+          "week": 2,
+          "topic": "Line Plots with Fractions",
+          "standard": "5.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Four measurements are 1/4, 1/4, 1/2, 3/4. What is the total?",
+          "options": [
+            "7/4",
+            "4",
+            "6",
+            "8"
+          ],
+          "correct_answer": "7/4",
+          "answer_explanation": "Count or calculate using the fractional data shown."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W2-Q4",
+          "module": 3,
+          "week": 2,
+          "topic": "Line Plots with Fractions",
+          "standard": "5.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A line plot has values 1/2, 1/2, 3/2. What is the difference between largest and smallest?",
+          "options": [
+            "1",
+            "4",
+            "6",
+            "8"
+          ],
+          "correct_answer": "1",
+          "answer_explanation": "Count or calculate using the fractional data shown."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W2-Q5",
+          "module": 3,
+          "week": 2,
+          "topic": "Line Plots with Fractions",
+          "standard": "5.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two values are 1/4 and three values are 3/4. How many data points?",
+          "options": [
+            "5",
+            "4",
+            "6",
+            "8"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "Count or calculate using the fractional data shown."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W3-Q1",
+          "module": 3,
+          "week": 3,
+          "topic": "5.MD.3/4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangular prism is filled with 1-unit cubes. What does the number of cubes represent?",
+          "options": "The volume of the prism",
+          "correct_answer": "Volume measures the amount of space inside a solid, measured in cubic units.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W3-Q2",
+          "module": 3,
+          "week": 3,
+          "topic": "5.MD.3/4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangular prism is filled with 1-unit cubes. What does the number of cubes represent?",
+          "options": "The volume of the prism",
+          "correct_answer": "Volume measures the amount of space inside a solid, measured in cubic units.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W3-Q3",
+          "module": 3,
+          "week": 3,
+          "topic": "5.MD.3/4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangular prism is filled with 1-unit cubes. What does the number of cubes represent?",
+          "options": "The volume of the prism",
+          "correct_answer": "Volume measures the amount of space inside a solid, measured in cubic units.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W3-Q4",
+          "module": 3,
+          "week": 3,
+          "topic": "5.MD.3/4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangular prism is filled with 1-unit cubes. What does the number of cubes represent?",
+          "options": "The volume of the prism",
+          "correct_answer": "Volume measures the amount of space inside a solid, measured in cubic units.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W3-Q5",
+          "module": 3,
+          "week": 3,
+          "topic": "5.MD.3/4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangular prism is filled with 1-unit cubes. What does the number of cubes represent?",
+          "options": "The volume of the prism",
+          "correct_answer": "Volume measures the amount of space inside a solid, measured in cubic units.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W4-Q1",
+          "module": 3,
+          "week": 4,
+          "topic": "Volume Formulas",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the volume of a rectangular prism measuring 4 × 3 × 2 units?",
+          "options": [
+            "24 cubic units",
+            "30 cubic units",
+            "9 cubic units",
+            "12 cubic units"
+          ],
+          "correct_answer": "24 cubic units",
+          "answer_explanation": "Volume = length × width × height = 24 cubic units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W4-Q2",
+          "module": 3,
+          "week": 4,
+          "topic": "Volume Formulas",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the volume of a rectangular prism measuring 5 × 2 × 3 units?",
+          "options": [
+            "30 cubic units",
+            "36 cubic units",
+            "10 cubic units",
+            "10 cubic units"
+          ],
+          "correct_answer": "30 cubic units",
+          "answer_explanation": "Volume = length × width × height = 30 cubic units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W4-Q3",
+          "module": 3,
+          "week": 4,
+          "topic": "Volume Formulas",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the volume of a rectangular prism measuring 6 × 2 × 4 units?",
+          "options": [
+            "48 cubic units",
+            "54 cubic units",
+            "12 cubic units",
+            "12 cubic units"
+          ],
+          "correct_answer": "48 cubic units",
+          "answer_explanation": "Volume = length × width × height = 48 cubic units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W4-Q4",
+          "module": 3,
+          "week": 4,
+          "topic": "Volume Formulas",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the volume of a rectangular prism measuring 7 × 3 × 2 units?",
+          "options": [
+            "42 cubic units",
+            "48 cubic units",
+            "12 cubic units",
+            "21 cubic units"
+          ],
+          "correct_answer": "42 cubic units",
+          "answer_explanation": "Volume = length × width × height = 42 cubic units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W4-Q5",
+          "module": 3,
+          "week": 4,
+          "topic": "Volume Formulas",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the volume of a rectangular prism measuring 8 × 2 × 2 units?",
+          "options": [
+            "32 cubic units",
+            "38 cubic units",
+            "12 cubic units",
+            "16 cubic units"
+          ],
+          "correct_answer": "32 cubic units",
+          "answer_explanation": "Volume = length × width × height = 32 cubic units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W5-Q1",
+          "module": 3,
+          "week": 5,
+          "topic": "Volume of Composite Figures",
+          "standard": "5.MD.5c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A solid consists of prisms with volumes 24 and 18 cubic units. Total?",
+          "options": [
+            "42 cubic units",
+            "30 cubic units",
+            "60 cubic units",
+            "35 cubic units"
+          ],
+          "correct_answer": "42 cubic units",
+          "answer_explanation": "Add the volumes of the component solids."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W5-Q2",
+          "module": 3,
+          "week": 5,
+          "topic": "Volume of Composite Figures",
+          "standard": "5.MD.5c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two rectangular prisms have volumes 30 and 15. Total?",
+          "options": [
+            "45 cubic units",
+            "30 cubic units",
+            "60 cubic units",
+            "35 cubic units"
+          ],
+          "correct_answer": "45 cubic units",
+          "answer_explanation": "Add the volumes of the component solids."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W5-Q3",
+          "module": 3,
+          "week": 5,
+          "topic": "Volume of Composite Figures",
+          "standard": "5.MD.5c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Volumes are 40 and 12. Total?",
+          "options": [
+            "52 cubic units",
+            "30 cubic units",
+            "60 cubic units",
+            "35 cubic units"
+          ],
+          "correct_answer": "52 cubic units",
+          "answer_explanation": "Add the volumes of the component solids."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W5-Q4",
+          "module": 3,
+          "week": 5,
+          "topic": "Volume of Composite Figures",
+          "standard": "5.MD.5c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Volumes are 16, 20, and 8. Total?",
+          "options": [
+            "44 cubic units",
+            "30 cubic units",
+            "60 cubic units",
+            "35 cubic units"
+          ],
+          "correct_answer": "44 cubic units",
+          "answer_explanation": "Add the volumes of the component solids."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W5-Q5",
+          "module": 3,
+          "week": 5,
+          "topic": "Volume of Composite Figures",
+          "standard": "5.MD.5c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Volumes are 25 and 25. Total?",
+          "options": [
+            "50 cubic units",
+            "30 cubic units",
+            "60 cubic units",
+            "35 cubic units"
+          ],
+          "correct_answer": "50 cubic units",
+          "answer_explanation": "Add the volumes of the component solids."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W6-Q1",
+          "module": 3,
+          "week": 6,
+          "topic": "Real-World Volume",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A box is 5 ft long, 2 ft wide, and 3 ft high. What is its volume?",
+          "options": [
+            "30 cubic feet",
+            "20 cubic units",
+            "30 cubic units",
+            "50 cubic units"
+          ],
+          "correct_answer": "30 cubic feet",
+          "answer_explanation": "Multiply length, width, and height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W6-Q2",
+          "module": 3,
+          "week": 6,
+          "topic": "Real-World Volume",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A tank is 4 m by 3 m by 2 m. Volume?",
+          "options": [
+            "24 cubic meters",
+            "20 cubic units",
+            "30 cubic units",
+            "50 cubic units"
+          ],
+          "correct_answer": "24 cubic meters",
+          "answer_explanation": "Multiply length, width, and height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W6-Q3",
+          "module": 3,
+          "week": 6,
+          "topic": "Real-World Volume",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A crate is 6 in by 2 in by 2 in. Volume?",
+          "options": [
+            "24 cubic inches",
+            "20 cubic units",
+            "30 cubic units",
+            "50 cubic units"
+          ],
+          "correct_answer": "24 cubic inches",
+          "answer_explanation": "Multiply length, width, and height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W6-Q4",
+          "module": 3,
+          "week": 6,
+          "topic": "Real-World Volume",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A storage bin is 5 by 4 by 2. Volume?",
+          "options": [
+            "40 cubic units",
+            "20 cubic units",
+            "30 cubic units",
+            "50 cubic units"
+          ],
+          "correct_answer": "40 cubic units",
+          "answer_explanation": "Multiply length, width, and height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W6-Q5",
+          "module": 3,
+          "week": 6,
+          "topic": "Real-World Volume",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pool is 10 m by 3 m by 2 m. Volume?",
+          "options": [
+            "60 cubic meters",
+            "20 cubic units",
+            "30 cubic units",
+            "50 cubic units"
+          ],
+          "correct_answer": "60 cubic meters",
+          "answer_explanation": "Multiply length, width, and height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W7-Q1",
+          "module": 3,
+          "week": 7,
+          "topic": "Measurement Problems",
+          "standard": "5.MD.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 3-meter ribbon is cut into 4 equal pieces. How long is each?",
+          "options": [
+            "0.75 meter",
+            "2,750",
+            "3,000",
+            "4,500"
+          ],
+          "correct_answer": "0.75 meter",
+          "answer_explanation": "Convert units as needed, then perform the operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W7-Q2",
+          "module": 3,
+          "week": 7,
+          "topic": "Measurement Problems",
+          "standard": "5.MD.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 2-hour trip takes 45 minutes less than 2 hours. How long?",
+          "options": [
+            "1 hour 15 minutes",
+            "2,750",
+            "3,000",
+            "4,500"
+          ],
+          "correct_answer": "1 hour 15 minutes",
+          "answer_explanation": "Convert units as needed, then perform the operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W7-Q3",
+          "module": 3,
+          "week": 7,
+          "topic": "Measurement Problems",
+          "standard": "5.MD.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A recipe needs 750 mL and another needs 250 mL. Total?",
+          "options": [
+            "1,000 mL",
+            "2,750",
+            "3,000",
+            "4,500"
+          ],
+          "correct_answer": "1,000 mL",
+          "answer_explanation": "Convert units as needed, then perform the operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W7-Q4",
+          "module": 3,
+          "week": 7,
+          "topic": "Measurement Problems",
+          "standard": "5.MD.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A runner travels 2 km then 1,500 m. Total in meters?",
+          "options": [
+            "3,500 m",
+            "2,750",
+            "3,000",
+            "4,500"
+          ],
+          "correct_answer": "3,500 m",
+          "answer_explanation": "Convert units as needed, then perform the operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W7-Q5",
+          "module": 3,
+          "week": 7,
+          "topic": "Measurement Problems",
+          "standard": "5.MD.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A box weighs 3 kg and another 750 g. Total in grams?",
+          "options": [
+            "3,750 g",
+            "2,750",
+            "3,000",
+            "4,500"
+          ],
+          "correct_answer": "3,750 g",
+          "answer_explanation": "Convert units as needed, then perform the operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W8-Q1",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "5.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W8-Q2",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "5.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W8-Q3",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "5.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W8-Q4",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "5.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M3-W8-Q5",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "5.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        }
+      ]
+    },
+    {
+      "paper_id": "G5-MATHEMATICS-MODULE-4",
+      "course": "Grade 5 Mathematics",
+      "grade": 5,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Coordinate Plane & Geometry",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G5-MATHEMATICS-M4-W1-Q1",
+          "module": 4,
+          "week": 1,
+          "topic": "The Coordinate Plane",
+          "standard": "5.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the coordinate of the origin?",
+          "options": [
+            "(0,0)",
+            "(1,1)",
+            "(0,1)",
+            "(1,0)"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "The origin is where the x- and y-axes intersect."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W1-Q2",
+          "module": 4,
+          "week": 1,
+          "topic": "The Coordinate Plane",
+          "standard": "5.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the coordinate of the origin?",
+          "options": [
+            "(0,0)",
+            "(1,1)",
+            "(0,1)",
+            "(1,0)"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "The origin is where the x- and y-axes intersect."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W1-Q3",
+          "module": 4,
+          "week": 1,
+          "topic": "The Coordinate Plane",
+          "standard": "5.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the coordinate of the origin?",
+          "options": [
+            "(0,0)",
+            "(1,1)",
+            "(0,1)",
+            "(1,0)"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "The origin is where the x- and y-axes intersect."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W1-Q4",
+          "module": 4,
+          "week": 1,
+          "topic": "The Coordinate Plane",
+          "standard": "5.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the coordinate of the origin?",
+          "options": [
+            "(0,0)",
+            "(1,1)",
+            "(0,1)",
+            "(1,0)"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "The origin is where the x- and y-axes intersect."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W1-Q5",
+          "module": 4,
+          "week": 1,
+          "topic": "The Coordinate Plane",
+          "standard": "5.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the coordinate of the origin?",
+          "options": [
+            "(0,0)",
+            "(1,1)",
+            "(0,1)",
+            "(1,0)"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "The origin is where the x- and y-axes intersect."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W2-Q1",
+          "module": 4,
+          "week": 2,
+          "topic": "Plotting Points",
+          "standard": "5.G.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the point (3,2) mean on the coordinate plane?",
+          "options": [
+            "3 units right and 2 units up",
+            "the reverse order",
+            "the same as (0,0)",
+            "5 units in every direction"
+          ],
+          "correct_answer": "3 units right and 2 units up",
+          "answer_explanation": "The first coordinate gives horizontal position and the second gives vertical position."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W2-Q2",
+          "module": 4,
+          "week": 2,
+          "topic": "Plotting Points",
+          "standard": "5.G.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the point (1,4) mean on the coordinate plane?",
+          "options": [
+            "1 unit right and 4 units up",
+            "the reverse order",
+            "the same as (0,0)",
+            "5 units in every direction"
+          ],
+          "correct_answer": "1 unit right and 4 units up",
+          "answer_explanation": "The first coordinate gives horizontal position and the second gives vertical position."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W2-Q3",
+          "module": 4,
+          "week": 2,
+          "topic": "Plotting Points",
+          "standard": "5.G.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the point (5,0) mean on the coordinate plane?",
+          "options": [
+            "5 units right and 0 units up",
+            "the reverse order",
+            "the same as (0,0)",
+            "5 units in every direction"
+          ],
+          "correct_answer": "5 units right and 0 units up",
+          "answer_explanation": "The first coordinate gives horizontal position and the second gives vertical position."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W2-Q4",
+          "module": 4,
+          "week": 2,
+          "topic": "Plotting Points",
+          "standard": "5.G.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the point (2,3) mean on the coordinate plane?",
+          "options": [
+            "2 units right and 3 units up",
+            "the reverse order",
+            "the same as (0,0)",
+            "5 units in every direction"
+          ],
+          "correct_answer": "2 units right and 3 units up",
+          "answer_explanation": "The first coordinate gives horizontal position and the second gives vertical position."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W2-Q5",
+          "module": 4,
+          "week": 2,
+          "topic": "Plotting Points",
+          "standard": "5.G.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the point (0,6) mean on the coordinate plane?",
+          "options": [
+            "0 units right and 6 units up",
+            "the reverse order",
+            "the same as (0,0)",
+            "5 units in every direction"
+          ],
+          "correct_answer": "0 units right and 6 units up",
+          "answer_explanation": "The first coordinate gives horizontal position and the second gives vertical position."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W3-Q1",
+          "module": 4,
+          "week": 3,
+          "topic": "Graphing Real-World Problems",
+          "standard": "5.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graph shows a point at (4,6) representing 4 books read in week 6. What does the point tell you?",
+          "options": [
+            "Four books were read in week 6.",
+            "A different result",
+            "An unrelated value",
+            "An unsupported statement"
+          ],
+          "correct_answer": "Four books were read in week 6.",
+          "answer_explanation": "The coordinates represent the two quantities in the problem."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W3-Q2",
+          "module": 4,
+          "week": 3,
+          "topic": "Graphing Real-World Problems",
+          "standard": "5.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graph shows a point at (4,6) representing 4 books read in week 6. What does the point tell you?",
+          "options": [
+            "Four books were read in week 6.",
+            "A different result",
+            "An unrelated value",
+            "An unsupported statement"
+          ],
+          "correct_answer": "Four books were read in week 6.",
+          "answer_explanation": "The coordinates represent the two quantities in the problem."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W3-Q3",
+          "module": 4,
+          "week": 3,
+          "topic": "Graphing Real-World Problems",
+          "standard": "5.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graph shows a point at (4,6) representing 4 books read in week 6. What does the point tell you?",
+          "options": [
+            "Four books were read in week 6.",
+            "A different result",
+            "An unrelated value",
+            "An unsupported statement"
+          ],
+          "correct_answer": "Four books were read in week 6.",
+          "answer_explanation": "The coordinates represent the two quantities in the problem."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W3-Q4",
+          "module": 4,
+          "week": 3,
+          "topic": "Graphing Real-World Problems",
+          "standard": "5.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graph shows a point at (4,6) representing 4 books read in week 6. What does the point tell you?",
+          "options": [
+            "Four books were read in week 6.",
+            "A different result",
+            "An unrelated value",
+            "An unsupported statement"
+          ],
+          "correct_answer": "Four books were read in week 6.",
+          "answer_explanation": "The coordinates represent the two quantities in the problem."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W3-Q5",
+          "module": 4,
+          "week": 3,
+          "topic": "Graphing Real-World Problems",
+          "standard": "5.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graph shows a point at (4,6) representing 4 books read in week 6. What does the point tell you?",
+          "options": [
+            "Four books were read in week 6.",
+            "A different result",
+            "An unrelated value",
+            "An unsupported statement"
+          ],
+          "correct_answer": "Four books were read in week 6.",
+          "answer_explanation": "The coordinates represent the two quantities in the problem."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W4-Q1",
+          "module": 4,
+          "week": 4,
+          "topic": "Patterns & Graphing",
+          "standard": "5.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pattern is 2, 4, 6, 8. Which ordered pair could represent the fourth term when x is the term number?",
+          "options": [
+            "(4,8)",
+            "(8,4)",
+            "(2,8)",
+            "(4,6)"
+          ],
+          "correct_answer": "(4,8)",
+          "answer_explanation": "The fourth term is 8, so the ordered pair is (4,8)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W4-Q2",
+          "module": 4,
+          "week": 4,
+          "topic": "Patterns & Graphing",
+          "standard": "5.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pattern is 2, 4, 6, 8. Which ordered pair could represent the fourth term when x is the term number?",
+          "options": [
+            "(4,8)",
+            "(8,4)",
+            "(2,8)",
+            "(4,6)"
+          ],
+          "correct_answer": "(4,8)",
+          "answer_explanation": "The fourth term is 8, so the ordered pair is (4,8)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W4-Q3",
+          "module": 4,
+          "week": 4,
+          "topic": "Patterns & Graphing",
+          "standard": "5.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pattern is 2, 4, 6, 8. Which ordered pair could represent the fourth term when x is the term number?",
+          "options": [
+            "(4,8)",
+            "(8,4)",
+            "(2,8)",
+            "(4,6)"
+          ],
+          "correct_answer": "(4,8)",
+          "answer_explanation": "The fourth term is 8, so the ordered pair is (4,8)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W4-Q4",
+          "module": 4,
+          "week": 4,
+          "topic": "Patterns & Graphing",
+          "standard": "5.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pattern is 2, 4, 6, 8. Which ordered pair could represent the fourth term when x is the term number?",
+          "options": [
+            "(4,8)",
+            "(8,4)",
+            "(2,8)",
+            "(4,6)"
+          ],
+          "correct_answer": "(4,8)",
+          "answer_explanation": "The fourth term is 8, so the ordered pair is (4,8)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W4-Q5",
+          "module": 4,
+          "week": 4,
+          "topic": "Patterns & Graphing",
+          "standard": "5.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pattern is 2, 4, 6, 8. Which ordered pair could represent the fourth term when x is the term number?",
+          "options": [
+            "(4,8)",
+            "(8,4)",
+            "(2,8)",
+            "(4,6)"
+          ],
+          "correct_answer": "(4,8)",
+          "answer_explanation": "The fourth term is 8, so the ordered pair is (4,8)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W5-Q1",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying 2D Figures",
+          "standard": "5.G.3/4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about a rectangle?",
+          "options": [
+            "It has four right angles.",
+            "It has exactly three sides.",
+            "All four sides must be equal.",
+            "It has no parallel sides."
+          ],
+          "correct_answer": "It has four right angles.",
+          "answer_explanation": "A rectangle is a quadrilateral with four right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W5-Q2",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying 2D Figures",
+          "standard": "5.G.3/4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about a rectangle?",
+          "options": [
+            "It has four right angles.",
+            "It has exactly three sides.",
+            "All four sides must be equal.",
+            "It has no parallel sides."
+          ],
+          "correct_answer": "It has four right angles.",
+          "answer_explanation": "A rectangle is a quadrilateral with four right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W5-Q3",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying 2D Figures",
+          "standard": "5.G.3/4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about a rectangle?",
+          "options": [
+            "It has four right angles.",
+            "It has exactly three sides.",
+            "All four sides must be equal.",
+            "It has no parallel sides."
+          ],
+          "correct_answer": "It has four right angles.",
+          "answer_explanation": "A rectangle is a quadrilateral with four right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W5-Q4",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying 2D Figures",
+          "standard": "5.G.3/4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about a rectangle?",
+          "options": [
+            "It has four right angles.",
+            "It has exactly three sides.",
+            "All four sides must be equal.",
+            "It has no parallel sides."
+          ],
+          "correct_answer": "It has four right angles.",
+          "answer_explanation": "A rectangle is a quadrilateral with four right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W5-Q5",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying 2D Figures",
+          "standard": "5.G.3/4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about a rectangle?",
+          "options": [
+            "It has four right angles.",
+            "It has exactly three sides.",
+            "All four sides must be equal.",
+            "It has no parallel sides."
+          ],
+          "correct_answer": "It has four right angles.",
+          "answer_explanation": "A rectangle is a quadrilateral with four right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W6-Q1",
+          "module": 4,
+          "week": 6,
+          "topic": "Properties of Shapes",
+          "standard": "5.G.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which property is true of a square?",
+          "options": [
+            "It has four equal sides and four right angles.",
+            "It has three sides.",
+            "It has only one pair of parallel sides.",
+            "It has no right angles."
+          ],
+          "correct_answer": "It has four equal sides and four right angles.",
+          "answer_explanation": "A square has both equal sides and right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W6-Q2",
+          "module": 4,
+          "week": 6,
+          "topic": "Properties of Shapes",
+          "standard": "5.G.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which property is true of a square?",
+          "options": [
+            "It has four equal sides and four right angles.",
+            "It has three sides.",
+            "It has only one pair of parallel sides.",
+            "It has no right angles."
+          ],
+          "correct_answer": "It has four equal sides and four right angles.",
+          "answer_explanation": "A square has both equal sides and right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W6-Q3",
+          "module": 4,
+          "week": 6,
+          "topic": "Properties of Shapes",
+          "standard": "5.G.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which property is true of a square?",
+          "options": [
+            "It has four equal sides and four right angles.",
+            "It has three sides.",
+            "It has only one pair of parallel sides.",
+            "It has no right angles."
+          ],
+          "correct_answer": "It has four equal sides and four right angles.",
+          "answer_explanation": "A square has both equal sides and right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W6-Q4",
+          "module": 4,
+          "week": 6,
+          "topic": "Properties of Shapes",
+          "standard": "5.G.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which property is true of a square?",
+          "options": [
+            "It has four equal sides and four right angles.",
+            "It has three sides.",
+            "It has only one pair of parallel sides.",
+            "It has no right angles."
+          ],
+          "correct_answer": "It has four equal sides and four right angles.",
+          "answer_explanation": "A square has both equal sides and right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W6-Q5",
+          "module": 4,
+          "week": 6,
+          "topic": "Properties of Shapes",
+          "standard": "5.G.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which property is true of a square?",
+          "options": [
+            "It has four equal sides and four right angles.",
+            "It has three sides.",
+            "It has only one pair of parallel sides.",
+            "It has no right angles."
+          ],
+          "correct_answer": "It has four equal sides and four right angles.",
+          "answer_explanation": "A square has both equal sides and right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W7-Q1",
+          "module": 4,
+          "week": 7,
+          "topic": "Review",
+          "standard": "5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W7-Q2",
+          "module": 4,
+          "week": 7,
+          "topic": "Review",
+          "standard": "5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W7-Q3",
+          "module": 4,
+          "week": 7,
+          "topic": "Review",
+          "standard": "5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W7-Q4",
+          "module": 4,
+          "week": 7,
+          "topic": "Review",
+          "standard": "5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W7-Q5",
+          "module": 4,
+          "week": 7,
+          "topic": "Review",
+          "standard": "5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W8-Q1",
+          "module": 4,
+          "week": 8,
+          "topic": "Cumulative Review",
+          "standard": "5.OA–5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "The origin is (0,0).",
+            "A volume is measured in square units.",
+            "A fraction can never be divided.",
+            "A decimal has no place value."
+          ],
+          "correct_answer": "The origin is (0,0).",
+          "answer_explanation": "The coordinate plane's origin is at (0,0)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W8-Q2",
+          "module": 4,
+          "week": 8,
+          "topic": "Cumulative Review",
+          "standard": "5.OA–5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "The origin is (0,0).",
+            "A volume is measured in square units.",
+            "A fraction can never be divided.",
+            "A decimal has no place value."
+          ],
+          "correct_answer": "The origin is (0,0).",
+          "answer_explanation": "The coordinate plane's origin is at (0,0)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W8-Q3",
+          "module": 4,
+          "week": 8,
+          "topic": "Cumulative Review",
+          "standard": "5.OA–5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "The origin is (0,0).",
+            "A volume is measured in square units.",
+            "A fraction can never be divided.",
+            "A decimal has no place value."
+          ],
+          "correct_answer": "The origin is (0,0).",
+          "answer_explanation": "The coordinate plane's origin is at (0,0)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W8-Q4",
+          "module": 4,
+          "week": 8,
+          "topic": "Cumulative Review",
+          "standard": "5.OA–5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "The origin is (0,0).",
+            "A volume is measured in square units.",
+            "A fraction can never be divided.",
+            "A decimal has no place value."
+          ],
+          "correct_answer": "The origin is (0,0).",
+          "answer_explanation": "The coordinate plane's origin is at (0,0)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-M4-W8-Q5",
+          "module": 4,
+          "week": 8,
+          "topic": "Cumulative Review",
+          "standard": "5.OA–5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "The origin is (0,0).",
+            "A volume is measured in square units.",
+            "A fraction can never be divided.",
+            "A decimal has no place value."
+          ],
+          "correct_answer": "The origin is (0,0).",
+          "answer_explanation": "The coordinate plane's origin is at (0,0)."
+        }
+      ]
+    },
+    {
+      "paper_id": "G5-MATHEMATICS-MOCK-1",
+      "course": "Grade 5 Mathematics",
+      "grade": 5,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value & Powers of 10",
+          "standard": "5.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 3.25 × 100?",
+          "options": [
+            "325",
+            "4.7",
+            "a number 10 times larger than the answer",
+            "5"
+          ],
+          "correct_answer": "325",
+          "answer_explanation": "Multiplying by 100 moves each digit two places to the left."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Reading & Writing Decimals",
+          "standard": "5.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How is 0.75 written in words?",
+          "options": [
+            "seventy-five hundredths",
+            "four and six hundredths",
+            "three and five hundredths",
+            "twelve and eight tenths"
+          ],
+          "correct_answer": "seventy-five hundredths",
+          "answer_explanation": "The digits after the decimal represent tenths, hundredths, and thousandths."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Rounding Decimals",
+          "standard": "5.NBT.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Round 12.346 to the place indicated by the answer.",
+          "options": [
+            "12.35",
+            "the number one place lower",
+            "the number one place higher",
+            "0"
+          ],
+          "correct_answer": "12.35",
+          "answer_explanation": "Look at the digit immediately to the right of the rounding place."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Multi-Digit Multiplication",
+          "standard": "5.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 272 × 39?",
+          "options": [
+            "10608",
+            "10618",
+            "10508",
+            "311"
+          ],
+          "correct_answer": "10608",
+          "answer_explanation": "Using the standard algorithm, 272 × 39 = 10608."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Multi-Digit Division",
+          "standard": "5.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 288 ÷ 12?",
+          "options": [
+            "24 R0",
+            "25 R0",
+            "24 R1",
+            "24"
+          ],
+          "correct_answer": "24 R0",
+          "answer_explanation": "12 × 24 = 288, leaving remainder 0."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Adding & Subtracting Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 12.50 − 3.76?",
+          "options": [
+            "8.74",
+            "9.74",
+            "7.74",
+            "16.26"
+          ],
+          "correct_answer": "8.74",
+          "answer_explanation": "Align decimal places and subtract: 12.50 − 3.76 = 8.74."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Multiplying & Dividing Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 0.36 × 100?",
+          "options": [
+            "36",
+            "0.072",
+            "72",
+            "4.5"
+          ],
+          "correct_answer": "36",
+          "answer_explanation": "Use place-value patterns and decimal operations to get 36."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Expressions & Order of Operations",
+          "standard": "5.OA.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 5 × (3 + 2).",
+          "options": [
+            "25",
+            "27",
+            "23",
+            "12"
+          ],
+          "correct_answer": "25",
+          "answer_explanation": "Apply grouping symbols first, then multiplication/division, then addition/subtraction."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Adding Fractions (Unlike Denominators)",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/4 + 1/2?",
+          "options": [
+            "3/4",
+            "2/5",
+            "4/6",
+            "1"
+          ],
+          "correct_answer": "3/4",
+          "answer_explanation": "Rewrite the fractions with a common denominator, then add."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Subtracting Fractions",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 7/8 − 1/4?",
+          "options": [
+            "5/8",
+            "1/3",
+            "3/4",
+            "2/5"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "Rewrite with a common denominator and subtract the numerators."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Fraction Word Problems",
+          "standard": "5.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A tank is 7/8 full. 1/4 of the tank is emptied. How much remains?",
+          "options": [
+            "5/8 full",
+            "1/3",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "5/8 full",
+          "answer_explanation": "Convert to common denominators and solve the fraction operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "Fractions as Division",
+          "standard": "5.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which division expression is equivalent to 9/4?",
+          "options": [
+            "9 ÷ 4",
+            "4 ÷ 3",
+            "x + 1",
+            "x − 1"
+          ],
+          "correct_answer": "9 ÷ 4",
+          "answer_explanation": "A fraction a/b can be interpreted as a divided by b."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions",
+          "standard": "5.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/3 × 3/4?",
+          "options": [
+            "1/2",
+            "2/3",
+            "3/4",
+            "5/6"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Multiply numerators and denominators, then simplify."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Area with Fractions",
+          "standard": "5.NF.4b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 2/3 by 3/5. Area?",
+          "options": [
+            "2/5 square unit",
+            "1/2 square unit",
+            "3/4 square unit",
+            "2 square units"
+          ],
+          "correct_answer": "2/5 square unit",
+          "answer_explanation": "Area = length × width."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Dividing with Unit Fractions",
+          "standard": "5.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4 ÷ 1/2?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "2"
+          ],
+          "correct_answer": "8",
+          "answer_explanation": "Count how many unit fractions fit into the whole number."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Scaling & Multiplication",
+          "standard": "5.NF.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2 × 3/4?",
+          "options": [
+            "1.5",
+            "the original number",
+            "one-half of the answer",
+            "twice the answer"
+          ],
+          "correct_answer": "1.5",
+          "answer_explanation": "Multiplication can describe scaling a quantity by a factor."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "Converting Units",
+          "standard": "5.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 2 kilograms.",
+          "options": [
+            "2,000 grams",
+            "30 centimeters",
+            "200 grams",
+            "20 inches"
+          ],
+          "correct_answer": "2,000 grams",
+          "answer_explanation": "Use the standard conversion relationship for the units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Line Plots with Fractions",
+          "standard": "5.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Four measurements are 1/4, 1/4, 1/2, 3/4. What is the total?",
+          "options": [
+            "7/4",
+            "4",
+            "6",
+            "8"
+          ],
+          "correct_answer": "7/4",
+          "answer_explanation": "Count or calculate using the fractional data shown."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "5.MD.3/4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangular prism is filled with 1-unit cubes. What does the number of cubes represent?",
+          "options": "The volume of the prism",
+          "correct_answer": "Volume measures the amount of space inside a solid, measured in cubic units.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Volume Formulas",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the volume of a rectangular prism measuring 8 × 2 × 2 units?",
+          "options": [
+            "32 cubic units",
+            "38 cubic units",
+            "12 cubic units",
+            "16 cubic units"
+          ],
+          "correct_answer": "32 cubic units",
+          "answer_explanation": "Volume = length × width × height = 32 cubic units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "Volume of Composite Figures",
+          "standard": "5.MD.5c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A solid consists of prisms with volumes 24 and 18 cubic units. Total?",
+          "options": [
+            "42 cubic units",
+            "30 cubic units",
+            "60 cubic units",
+            "35 cubic units"
+          ],
+          "correct_answer": "42 cubic units",
+          "answer_explanation": "Add the volumes of the component solids."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "Real-World Volume",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A tank is 4 m by 3 m by 2 m. Volume?",
+          "options": [
+            "24 cubic meters",
+            "20 cubic units",
+            "30 cubic units",
+            "50 cubic units"
+          ],
+          "correct_answer": "24 cubic meters",
+          "answer_explanation": "Multiply length, width, and height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "Measurement Problems",
+          "standard": "5.MD.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A recipe needs 750 mL and another needs 250 mL. Total?",
+          "options": [
+            "1,000 mL",
+            "2,750",
+            "3,000",
+            "4,500"
+          ],
+          "correct_answer": "1,000 mL",
+          "answer_explanation": "Convert units as needed, then perform the operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "5.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "The Coordinate Plane",
+          "standard": "5.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the coordinate of the origin?",
+          "options": [
+            "(0,0)",
+            "(1,1)",
+            "(0,1)",
+            "(1,0)"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "The origin is where the x- and y-axes intersect."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Plotting Points",
+          "standard": "5.G.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the point (5,0) mean on the coordinate plane?",
+          "options": [
+            "5 units right and 0 units up",
+            "the reverse order",
+            "the same as (0,0)",
+            "5 units in every direction"
+          ],
+          "correct_answer": "5 units right and 0 units up",
+          "answer_explanation": "The first coordinate gives horizontal position and the second gives vertical position."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Graphing Real-World Problems",
+          "standard": "5.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graph shows a point at (4,6) representing 4 books read in week 6. What does the point tell you?",
+          "options": [
+            "Four books were read in week 6.",
+            "A different result",
+            "An unrelated value",
+            "An unsupported statement"
+          ],
+          "correct_answer": "Four books were read in week 6.",
+          "answer_explanation": "The coordinates represent the two quantities in the problem."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "Patterns & Graphing",
+          "standard": "5.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pattern is 2, 4, 6, 8. Which ordered pair could represent the fourth term when x is the term number?",
+          "options": [
+            "(4,8)",
+            "(8,4)",
+            "(2,8)",
+            "(4,6)"
+          ],
+          "correct_answer": "(4,8)",
+          "answer_explanation": "The fourth term is 8, so the ordered pair is (4,8)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying 2D Figures",
+          "standard": "5.G.3/4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about a rectangle?",
+          "options": [
+            "It has four right angles.",
+            "It has exactly three sides.",
+            "All four sides must be equal.",
+            "It has no parallel sides."
+          ],
+          "correct_answer": "It has four right angles.",
+          "answer_explanation": "A rectangle is a quadrilateral with four right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Properties of Shapes",
+          "standard": "5.G.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which property is true of a square?",
+          "options": [
+            "It has four equal sides and four right angles.",
+            "It has three sides.",
+            "It has only one pair of parallel sides.",
+            "It has no right angles."
+          ],
+          "correct_answer": "It has four equal sides and four right angles.",
+          "answer_explanation": "A square has both equal sides and right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "Review",
+          "standard": "5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Cumulative Review",
+          "standard": "5.OA–5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "The origin is (0,0).",
+            "A volume is measured in square units.",
+            "A fraction can never be divided.",
+            "A decimal has no place value."
+          ],
+          "correct_answer": "The origin is (0,0).",
+          "answer_explanation": "The coordinate plane's origin is at (0,0)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q33",
+          "module": 1,
+          "week": 2,
+          "topic": "Reading & Writing Decimals",
+          "standard": "5.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How is 0.75 written in words?",
+          "options": [
+            "seventy-five hundredths",
+            "four and six hundredths",
+            "three and five hundredths",
+            "twelve and eight tenths"
+          ],
+          "correct_answer": "seventy-five hundredths",
+          "answer_explanation": "The digits after the decimal represent tenths, hundredths, and thousandths."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q34",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions",
+          "standard": "5.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/5 × 5/6?",
+          "options": [
+            "1/3",
+            "2/3",
+            "3/4",
+            "5/6"
+          ],
+          "correct_answer": "1/3",
+          "answer_explanation": "Multiply numerators and denominators, then simplify."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q35",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "5.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q36",
+          "module": 4,
+          "week": 3,
+          "topic": "Graphing Real-World Problems",
+          "standard": "5.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graph shows a point at (4,6) representing 4 books read in week 6. What does the point tell you?",
+          "options": [
+            "Four books were read in week 6.",
+            "A different result",
+            "An unrelated value",
+            "An unsupported statement"
+          ],
+          "correct_answer": "Four books were read in week 6.",
+          "answer_explanation": "The coordinates represent the two quantities in the problem."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q37",
+          "module": 1,
+          "week": 6,
+          "topic": "Adding & Subtracting Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 12.50 − 3.76?",
+          "options": [
+            "8.74",
+            "9.74",
+            "7.74",
+            "16.26"
+          ],
+          "correct_answer": "8.74",
+          "answer_explanation": "Align decimal places and subtract: 12.50 − 3.76 = 8.74."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q38",
+          "module": 2,
+          "week": 1,
+          "topic": "Adding Fractions (Unlike Denominators)",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/3 + 1/6?",
+          "options": [
+            "5/6",
+            "2/5",
+            "4/6",
+            "1"
+          ],
+          "correct_answer": "5/6",
+          "answer_explanation": "Rewrite the fractions with a common denominator, then add."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q39",
+          "module": 3,
+          "week": 4,
+          "topic": "Volume Formulas",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the volume of a rectangular prism measuring 7 × 3 × 2 units?",
+          "options": [
+            "42 cubic units",
+            "48 cubic units",
+            "12 cubic units",
+            "21 cubic units"
+          ],
+          "correct_answer": "42 cubic units",
+          "answer_explanation": "Volume = length × width × height = 42 cubic units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-1-Q40",
+          "module": 4,
+          "week": 7,
+          "topic": "Review",
+          "standard": "5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        }
+      ]
+    },
+    {
+      "paper_id": "G5-MATHEMATICS-MOCK-2",
+      "course": "Grade 5 Mathematics",
+      "grade": 5,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value & Powers of 10",
+          "standard": "5.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 6,000 ÷ 10?",
+          "options": [
+            "600",
+            "4.7",
+            "a number 10 times larger than the answer",
+            "5"
+          ],
+          "correct_answer": "600",
+          "answer_explanation": "Dividing by 10 moves each digit one place to the right."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Reading & Writing Decimals",
+          "standard": "5.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How is 12.008 written in words?",
+          "options": [
+            "twelve and eight thousandths",
+            "four and six hundredths",
+            "three and five hundredths",
+            "twelve and eight tenths"
+          ],
+          "correct_answer": "twelve and eight thousandths",
+          "answer_explanation": "The digits after the decimal represent tenths, hundredths, and thousandths."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Rounding Decimals",
+          "standard": "5.NBT.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Round 0.784 to the place indicated by the answer.",
+          "options": [
+            "0.8",
+            "the number one place lower",
+            "the number one place higher",
+            "0"
+          ],
+          "correct_answer": "0.8",
+          "answer_explanation": "Look at the digit immediately to the right of the rounding place."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Multi-Digit Multiplication",
+          "standard": "5.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 124 × 23?",
+          "options": [
+            "2852",
+            "2862",
+            "2752",
+            "147"
+          ],
+          "correct_answer": "2852",
+          "answer_explanation": "Using the standard algorithm, 124 × 23 = 2852."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Multi-Digit Division",
+          "standard": "5.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 352 ÷ 13?",
+          "options": [
+            "27 R1",
+            "28 R1",
+            "27 R2",
+            "27"
+          ],
+          "correct_answer": "27 R1",
+          "answer_explanation": "13 × 27 = 351, leaving remainder 1."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Adding & Subtracting Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 6.205 − 1.37?",
+          "options": [
+            "4.835",
+            "5.835",
+            "3.835",
+            "7.575"
+          ],
+          "correct_answer": "4.835",
+          "answer_explanation": "Align decimal places and subtract: 6.205 − 1.37 = 4.835."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Multiplying & Dividing Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 8.4 ÷ 10?",
+          "options": [
+            "0.84",
+            "0.072",
+            "72",
+            "4.5"
+          ],
+          "correct_answer": "0.84",
+          "answer_explanation": "Use place-value patterns and decimal operations to get 0.84."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Expressions & Order of Operations",
+          "standard": "5.OA.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 18 ÷ 3 + 4.",
+          "options": [
+            "10",
+            "12",
+            "8",
+            "12"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Apply grouping symbols first, then multiplication/division, then addition/subtraction."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Adding Fractions (Unlike Denominators)",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/3 + 1/6?",
+          "options": [
+            "5/6",
+            "2/5",
+            "4/6",
+            "1"
+          ],
+          "correct_answer": "5/6",
+          "answer_explanation": "Rewrite the fractions with a common denominator, then add."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Subtracting Fractions",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4/5 − 1/10?",
+          "options": [
+            "7/10",
+            "1/3",
+            "3/4",
+            "2/5"
+          ],
+          "correct_answer": "7/10",
+          "answer_explanation": "Rewrite with a common denominator and subtract the numerators."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Fraction Word Problems",
+          "standard": "5.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A class reads 2/5 of a book Monday and 1/10 Tuesday. How much is read?",
+          "options": [
+            "1/2 of the book",
+            "1/3",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2 of the book",
+          "answer_explanation": "Convert to common denominators and solve the fraction operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "Fractions as Division",
+          "standard": "5.NF.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which division expression is equivalent to 3/4?",
+          "options": [
+            "3 ÷ 4",
+            "4 ÷ 3",
+            "x + 1",
+            "x − 1"
+          ],
+          "correct_answer": "3 ÷ 4",
+          "answer_explanation": "A fraction a/b can be interpreted as a divided by b."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions",
+          "standard": "5.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/2 × 2/5?",
+          "options": [
+            "1/5",
+            "2/3",
+            "3/4",
+            "5/6"
+          ],
+          "correct_answer": "1/5",
+          "answer_explanation": "Multiply numerators and denominators, then simplify."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Area with Fractions",
+          "standard": "5.NF.4b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 1/4 by 2/3. Area?",
+          "options": [
+            "1/6 square unit",
+            "1/2 square unit",
+            "3/4 square unit",
+            "2 square units"
+          ],
+          "correct_answer": "1/6 square unit",
+          "answer_explanation": "Area = length × width."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Dividing with Unit Fractions",
+          "standard": "5.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5 ÷ 1/5?",
+          "options": [
+            "25",
+            "26",
+            "24",
+            "2"
+          ],
+          "correct_answer": "25",
+          "answer_explanation": "Count how many unit fractions fit into the whole number."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Scaling & Multiplication",
+          "standard": "5.NF.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 10 × 0.2?",
+          "options": [
+            "2",
+            "the original number",
+            "one-half of the answer",
+            "twice the answer"
+          ],
+          "correct_answer": "2",
+          "answer_explanation": "Multiplication can describe scaling a quantity by a factor."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "Converting Units",
+          "standard": "5.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 5 feet.",
+          "options": [
+            "60 inches",
+            "30 centimeters",
+            "200 grams",
+            "20 inches"
+          ],
+          "correct_answer": "60 inches",
+          "answer_explanation": "Use the standard conversion relationship for the units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Line Plots with Fractions",
+          "standard": "5.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A line plot has values 1/2, 1/2, 3/2. What is the difference between largest and smallest?",
+          "options": [
+            "1",
+            "4",
+            "6",
+            "8"
+          ],
+          "correct_answer": "1",
+          "answer_explanation": "Count or calculate using the fractional data shown."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "5.MD.3/4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangular prism is filled with 1-unit cubes. What does the number of cubes represent?",
+          "options": "The volume of the prism",
+          "correct_answer": "Volume measures the amount of space inside a solid, measured in cubic units.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Volume Formulas",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the volume of a rectangular prism measuring 4 × 3 × 2 units?",
+          "options": [
+            "24 cubic units",
+            "30 cubic units",
+            "9 cubic units",
+            "12 cubic units"
+          ],
+          "correct_answer": "24 cubic units",
+          "answer_explanation": "Volume = length × width × height = 24 cubic units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "Volume of Composite Figures",
+          "standard": "5.MD.5c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two rectangular prisms have volumes 30 and 15. Total?",
+          "options": [
+            "45 cubic units",
+            "30 cubic units",
+            "60 cubic units",
+            "35 cubic units"
+          ],
+          "correct_answer": "45 cubic units",
+          "answer_explanation": "Add the volumes of the component solids."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "Real-World Volume",
+          "standard": "5.MD.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A crate is 6 in by 2 in by 2 in. Volume?",
+          "options": [
+            "24 cubic inches",
+            "20 cubic units",
+            "30 cubic units",
+            "50 cubic units"
+          ],
+          "correct_answer": "24 cubic inches",
+          "answer_explanation": "Multiply length, width, and height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "Measurement Problems",
+          "standard": "5.MD.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A runner travels 2 km then 1,500 m. Total in meters?",
+          "options": [
+            "3,500 m",
+            "2,750",
+            "3,000",
+            "4,500"
+          ],
+          "correct_answer": "3,500 m",
+          "answer_explanation": "Convert units as needed, then perform the operation."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "5.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "The Coordinate Plane",
+          "standard": "5.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the coordinate of the origin?",
+          "options": [
+            "(0,0)",
+            "(1,1)",
+            "(0,1)",
+            "(1,0)"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "The origin is where the x- and y-axes intersect."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Plotting Points",
+          "standard": "5.G.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the point (2,3) mean on the coordinate plane?",
+          "options": [
+            "2 units right and 3 units up",
+            "the reverse order",
+            "the same as (0,0)",
+            "5 units in every direction"
+          ],
+          "correct_answer": "2 units right and 3 units up",
+          "answer_explanation": "The first coordinate gives horizontal position and the second gives vertical position."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Graphing Real-World Problems",
+          "standard": "5.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graph shows a point at (4,6) representing 4 books read in week 6. What does the point tell you?",
+          "options": [
+            "Four books were read in week 6.",
+            "A different result",
+            "An unrelated value",
+            "An unsupported statement"
+          ],
+          "correct_answer": "Four books were read in week 6.",
+          "answer_explanation": "The coordinates represent the two quantities in the problem."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "Patterns & Graphing",
+          "standard": "5.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pattern is 2, 4, 6, 8. Which ordered pair could represent the fourth term when x is the term number?",
+          "options": [
+            "(4,8)",
+            "(8,4)",
+            "(2,8)",
+            "(4,6)"
+          ],
+          "correct_answer": "(4,8)",
+          "answer_explanation": "The fourth term is 8, so the ordered pair is (4,8)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying 2D Figures",
+          "standard": "5.G.3/4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about a rectangle?",
+          "options": [
+            "It has four right angles.",
+            "It has exactly three sides.",
+            "All four sides must be equal.",
+            "It has no parallel sides."
+          ],
+          "correct_answer": "It has four right angles.",
+          "answer_explanation": "A rectangle is a quadrilateral with four right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Properties of Shapes",
+          "standard": "5.G.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which property is true of a square?",
+          "options": [
+            "It has four equal sides and four right angles.",
+            "It has three sides.",
+            "It has only one pair of parallel sides.",
+            "It has no right angles."
+          ],
+          "correct_answer": "It has four equal sides and four right angles.",
+          "answer_explanation": "A square has both equal sides and right angles."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "Review",
+          "standard": "5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which expression correctly represents the volume of a prism with length 5, width 2, and height 3?",
+          "options": [
+            "5 × 2 × 3",
+            "5 + 2 + 3",
+            "5 × 2 + 3",
+            "5 × 3 + 2"
+          ],
+          "correct_answer": "5 × 2 × 3",
+          "answer_explanation": "Volume uses length × width × height."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Cumulative Review",
+          "standard": "5.OA–5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "The origin is (0,0).",
+            "A volume is measured in square units.",
+            "A fraction can never be divided.",
+            "A decimal has no place value."
+          ],
+          "correct_answer": "The origin is (0,0).",
+          "answer_explanation": "The coordinate plane's origin is at (0,0)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q33",
+          "module": 1,
+          "week": 3,
+          "topic": "Rounding Decimals",
+          "standard": "5.NBT.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Round 5.995 to the place indicated by the answer.",
+          "options": [
+            "6.00",
+            "the number one place lower",
+            "the number one place higher",
+            "0"
+          ],
+          "correct_answer": "6.00",
+          "answer_explanation": "Look at the digit immediately to the right of the rounding place."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q34",
+          "module": 2,
+          "week": 6,
+          "topic": "Area with Fractions",
+          "standard": "5.NF.4b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 3/5 by 5/6. Area?",
+          "options": [
+            "1/2 square unit",
+            "1/2 square unit",
+            "3/4 square unit",
+            "2 square units"
+          ],
+          "correct_answer": "1/2 square unit",
+          "answer_explanation": "Area = length × width."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q35",
+          "module": 3,
+          "week": 1,
+          "topic": "Converting Units",
+          "standard": "5.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 2 miles.",
+          "options": [
+            "10,560 feet",
+            "30 centimeters",
+            "200 grams",
+            "20 inches"
+          ],
+          "correct_answer": "10,560 feet",
+          "answer_explanation": "Use the standard conversion relationship for the units."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q36",
+          "module": 4,
+          "week": 4,
+          "topic": "Patterns & Graphing",
+          "standard": "5.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pattern is 2, 4, 6, 8. Which ordered pair could represent the fourth term when x is the term number?",
+          "options": [
+            "(4,8)",
+            "(8,4)",
+            "(2,8)",
+            "(4,6)"
+          ],
+          "correct_answer": "(4,8)",
+          "answer_explanation": "The fourth term is 8, so the ordered pair is (4,8)."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q37",
+          "module": 1,
+          "week": 7,
+          "topic": "Multiplying & Dividing Decimals",
+          "standard": "5.NBT.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4.5 ÷ 10?",
+          "options": [
+            "0.45",
+            "0.072",
+            "72",
+            "4.5"
+          ],
+          "correct_answer": "0.45",
+          "answer_explanation": "Use place-value patterns and decimal operations to get 0.45."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q38",
+          "module": 2,
+          "week": 2,
+          "topic": "Subtracting Fractions",
+          "standard": "5.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 7/8 − 1/4?",
+          "options": [
+            "5/8",
+            "1/3",
+            "3/4",
+            "2/5"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "Rewrite with a common denominator and subtract the numerators."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q39",
+          "module": 3,
+          "week": 5,
+          "topic": "Volume of Composite Figures",
+          "standard": "5.MD.5c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Volumes are 16, 20, and 8. Total?",
+          "options": [
+            "44 cubic units",
+            "30 cubic units",
+            "60 cubic units",
+            "35 cubic units"
+          ],
+          "correct_answer": "44 cubic units",
+          "answer_explanation": "Add the volumes of the component solids."
+        },
+        {
+          "question_id": "G5-MATHEMATICS-MOCK-2-Q40",
+          "module": 4,
+          "week": 8,
+          "topic": "Cumulative Review",
+          "standard": "5.OA–5.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "The origin is (0,0).",
+            "A volume is measured in square units.",
+            "A fraction can never be divided.",
+            "A decimal has no place value."
+          ],
+          "correct_answer": "The origin is (0,0).",
+          "answer_explanation": "The coordinate plane's origin is at (0,0)."
+        }
+      ]
+    }
+  ]
+}

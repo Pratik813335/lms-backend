@@ -1,0 +1,4404 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 3 Science",
+  "grade": 3,
+  "standard_family": "Next Generation Science Standards Grade 3",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G3-SCIENCE-MODULE-1",
+      "course": "Grade 3 Science",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Forces & Motion",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Pushes & Pulls",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child pushes a toy car. What happens to the car because of the push?",
+          "options": [
+            "It can change the car's motion",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "It can change the car's motion",
+          "answer_explanation": "A push is a force that can change an object's motion.",
+          "question_id": "G3-SCIENCE-M1-W1-Q1"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Pushes & Pulls",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child pushes a toy car. What happens to the car because of the push?",
+          "options": [
+            "It can change the car's motion",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "It can change the car's motion",
+          "answer_explanation": "A push is a force that can change an object's motion.",
+          "question_id": "G3-SCIENCE-M1-W1-Q2"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Pushes & Pulls",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child pushes a toy car. What happens to the car because of the push?",
+          "options": [
+            "It can change the car's motion",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "It can change the car's motion",
+          "answer_explanation": "A push is a force that can change an object's motion.",
+          "question_id": "G3-SCIENCE-M1-W1-Q3"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Pushes & Pulls",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child pushes a toy car. What happens to the car because of the push?",
+          "options": [
+            "It can change the car's motion",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "It can change the car's motion",
+          "answer_explanation": "A push is a force that can change an object's motion.",
+          "question_id": "G3-SCIENCE-M1-W1-Q4"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Pushes & Pulls",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child pushes a toy car. What happens to the car because of the push?",
+          "options": [
+            "It can change the car's motion",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "It can change the car's motion",
+          "answer_explanation": "A push is a force that can change an object's motion.",
+          "question_id": "G3-SCIENCE-M1-W1-Q5"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-M1-W2-Q1"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-M1-W2-Q2"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-M1-W2-Q3"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-M1-W2-Q4"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-M1-W2-Q5"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-M1-W3-Q1"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-M1-W3-Q2"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-M1-W3-Q3"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-M1-W3-Q4"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-M1-W3-Q5"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Non-Contact Forces",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A magnet pulls a paper clip without touching it. What does this show?",
+          "options": [
+            "A force can act at a distance",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A force can act at a distance",
+          "answer_explanation": "Magnetic force can act without direct contact.",
+          "question_id": "G3-SCIENCE-M1-W4-Q1"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Non-Contact Forces",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A magnet pulls a paper clip without touching it. What does this show?",
+          "options": [
+            "A force can act at a distance",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A force can act at a distance",
+          "answer_explanation": "Magnetic force can act without direct contact.",
+          "question_id": "G3-SCIENCE-M1-W4-Q2"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Non-Contact Forces",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A magnet pulls a paper clip without touching it. What does this show?",
+          "options": [
+            "A force can act at a distance",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A force can act at a distance",
+          "answer_explanation": "Magnetic force can act without direct contact.",
+          "question_id": "G3-SCIENCE-M1-W4-Q3"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Non-Contact Forces",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A magnet pulls a paper clip without touching it. What does this show?",
+          "options": [
+            "A force can act at a distance",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A force can act at a distance",
+          "answer_explanation": "Magnetic force can act without direct contact.",
+          "question_id": "G3-SCIENCE-M1-W4-Q4"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Non-Contact Forces",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A magnet pulls a paper clip without touching it. What does this show?",
+          "options": [
+            "A force can act at a distance",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A force can act at a distance",
+          "answer_explanation": "Magnetic force can act without direct contact.",
+          "question_id": "G3-SCIENCE-M1-W4-Q5"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Designing with Magnets",
+          "standard": "3-PS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student needs to pick up metal objects without touching them. What could help solve the problem?",
+          "options": [
+            "A magnetic tool",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A magnetic tool",
+          "answer_explanation": "A magnet can attract certain metal objects from a distance.",
+          "question_id": "G3-SCIENCE-M1-W5-Q1"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Designing with Magnets",
+          "standard": "3-PS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student needs to pick up metal objects without touching them. What could help solve the problem?",
+          "options": [
+            "A magnetic tool",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A magnetic tool",
+          "answer_explanation": "A magnet can attract certain metal objects from a distance.",
+          "question_id": "G3-SCIENCE-M1-W5-Q2"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Designing with Magnets",
+          "standard": "3-PS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student needs to pick up metal objects without touching them. What could help solve the problem?",
+          "options": [
+            "A magnetic tool",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A magnetic tool",
+          "answer_explanation": "A magnet can attract certain metal objects from a distance.",
+          "question_id": "G3-SCIENCE-M1-W5-Q3"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Designing with Magnets",
+          "standard": "3-PS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student needs to pick up metal objects without touching them. What could help solve the problem?",
+          "options": [
+            "A magnetic tool",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A magnetic tool",
+          "answer_explanation": "A magnet can attract certain metal objects from a distance.",
+          "question_id": "G3-SCIENCE-M1-W5-Q4"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Designing with Magnets",
+          "standard": "3-PS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student needs to pick up metal objects without touching them. What could help solve the problem?",
+          "options": [
+            "A magnetic tool",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A magnetic tool",
+          "answer_explanation": "A magnet can attract certain metal objects from a distance.",
+          "question_id": "G3-SCIENCE-M1-W5-Q5"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Measuring Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which observation best describes motion?",
+          "options": [
+            "The toy car moved 2 meters in 4 seconds",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The toy car moved 2 meters in 4 seconds",
+          "answer_explanation": "Motion can be described using changes in position over time.",
+          "question_id": "G3-SCIENCE-M1-W6-Q1"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Measuring Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which observation best describes motion?",
+          "options": [
+            "The toy car moved 2 meters in 4 seconds",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The toy car moved 2 meters in 4 seconds",
+          "answer_explanation": "Motion can be described using changes in position over time.",
+          "question_id": "G3-SCIENCE-M1-W6-Q2"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Measuring Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which observation best describes motion?",
+          "options": [
+            "The toy car moved 2 meters in 4 seconds",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The toy car moved 2 meters in 4 seconds",
+          "answer_explanation": "Motion can be described using changes in position over time.",
+          "question_id": "G3-SCIENCE-M1-W6-Q3"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Measuring Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which observation best describes motion?",
+          "options": [
+            "The toy car moved 2 meters in 4 seconds",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The toy car moved 2 meters in 4 seconds",
+          "answer_explanation": "Motion can be described using changes in position over time.",
+          "question_id": "G3-SCIENCE-M1-W6-Q4"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Measuring Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which observation best describes motion?",
+          "options": [
+            "The toy car moved 2 meters in 4 seconds",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The toy car moved 2 meters in 4 seconds",
+          "answer_explanation": "Motion can be described using changes in position over time.",
+          "question_id": "G3-SCIENCE-M1-W6-Q5"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Friction & Surfaces",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car rolls farther on smooth tile than on carpet. What likely causes the difference?",
+          "options": [
+            "More friction on the carpet",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "More friction on the carpet",
+          "answer_explanation": "Rougher surfaces generally create more friction.",
+          "question_id": "G3-SCIENCE-M1-W7-Q1"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Friction & Surfaces",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car rolls farther on smooth tile than on carpet. What likely causes the difference?",
+          "options": [
+            "More friction on the carpet",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "More friction on the carpet",
+          "answer_explanation": "Rougher surfaces generally create more friction.",
+          "question_id": "G3-SCIENCE-M1-W7-Q2"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Friction & Surfaces",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car rolls farther on smooth tile than on carpet. What likely causes the difference?",
+          "options": [
+            "More friction on the carpet",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "More friction on the carpet",
+          "answer_explanation": "Rougher surfaces generally create more friction.",
+          "question_id": "G3-SCIENCE-M1-W7-Q3"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Friction & Surfaces",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car rolls farther on smooth tile than on carpet. What likely causes the difference?",
+          "options": [
+            "More friction on the carpet",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "More friction on the carpet",
+          "answer_explanation": "Rougher surfaces generally create more friction.",
+          "question_id": "G3-SCIENCE-M1-W7-Q4"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Friction & Surfaces",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car rolls farther on smooth tile than on carpet. What likely causes the difference?",
+          "options": [
+            "More friction on the carpet",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "More friction on the carpet",
+          "answer_explanation": "Rougher surfaces generally create more friction.",
+          "question_id": "G3-SCIENCE-M1-W7-Q5"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Forces Review",
+          "standard": "3-PS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an example of a force changing motion?",
+          "options": [
+            "Kicking a still ball makes it move",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Kicking a still ball makes it move",
+          "answer_explanation": "A kick applies a force that changes the ball's motion.",
+          "question_id": "G3-SCIENCE-M1-W8-Q1"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Forces Review",
+          "standard": "3-PS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an example of a force changing motion?",
+          "options": [
+            "Kicking a still ball makes it move",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Kicking a still ball makes it move",
+          "answer_explanation": "A kick applies a force that changes the ball's motion.",
+          "question_id": "G3-SCIENCE-M1-W8-Q2"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Forces Review",
+          "standard": "3-PS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an example of a force changing motion?",
+          "options": [
+            "Kicking a still ball makes it move",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Kicking a still ball makes it move",
+          "answer_explanation": "A kick applies a force that changes the ball's motion.",
+          "question_id": "G3-SCIENCE-M1-W8-Q3"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Forces Review",
+          "standard": "3-PS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an example of a force changing motion?",
+          "options": [
+            "Kicking a still ball makes it move",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Kicking a still ball makes it move",
+          "answer_explanation": "A kick applies a force that changes the ball's motion.",
+          "question_id": "G3-SCIENCE-M1-W8-Q4"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Forces Review",
+          "standard": "3-PS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an example of a force changing motion?",
+          "options": [
+            "Kicking a still ball makes it move",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Kicking a still ball makes it move",
+          "answer_explanation": "A kick applies a force that changes the ball's motion.",
+          "question_id": "G3-SCIENCE-M1-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-SCIENCE-MODULE-2",
+      "course": "Grade 3 Science",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "Life Cycles & Traits",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sequence is part of a typical plant life cycle?",
+          "options": [
+            "seed → seedling → mature plant",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "seed → seedling → mature plant",
+          "answer_explanation": "Plants grow through stages in a life cycle.",
+          "question_id": "G3-SCIENCE-M2-W1-Q1"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sequence is part of a typical plant life cycle?",
+          "options": [
+            "seed → seedling → mature plant",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "seed → seedling → mature plant",
+          "answer_explanation": "Plants grow through stages in a life cycle.",
+          "question_id": "G3-SCIENCE-M2-W1-Q2"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sequence is part of a typical plant life cycle?",
+          "options": [
+            "seed → seedling → mature plant",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "seed → seedling → mature plant",
+          "answer_explanation": "Plants grow through stages in a life cycle.",
+          "question_id": "G3-SCIENCE-M2-W1-Q3"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sequence is part of a typical plant life cycle?",
+          "options": [
+            "seed → seedling → mature plant",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "seed → seedling → mature plant",
+          "answer_explanation": "Plants grow through stages in a life cycle.",
+          "question_id": "G3-SCIENCE-M2-W1-Q4"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sequence is part of a typical plant life cycle?",
+          "options": [
+            "seed → seedling → mature plant",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "seed → seedling → mature plant",
+          "answer_explanation": "Plants grow through stages in a life cycle.",
+          "question_id": "G3-SCIENCE-M2-W1-Q5"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is one way plant and animal life cycles can be similar?",
+          "options": [
+            "Both include growth and development",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Both include growth and development",
+          "answer_explanation": "Both plants and animals pass through life-cycle stages.",
+          "question_id": "G3-SCIENCE-M2-W2-Q1"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is one way plant and animal life cycles can be similar?",
+          "options": [
+            "Both include growth and development",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Both include growth and development",
+          "answer_explanation": "Both plants and animals pass through life-cycle stages.",
+          "question_id": "G3-SCIENCE-M2-W2-Q2"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is one way plant and animal life cycles can be similar?",
+          "options": [
+            "Both include growth and development",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Both include growth and development",
+          "answer_explanation": "Both plants and animals pass through life-cycle stages.",
+          "question_id": "G3-SCIENCE-M2-W2-Q3"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is one way plant and animal life cycles can be similar?",
+          "options": [
+            "Both include growth and development",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Both include growth and development",
+          "answer_explanation": "Both plants and animals pass through life-cycle stages.",
+          "question_id": "G3-SCIENCE-M2-W2-Q4"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is one way plant and animal life cycles can be similar?",
+          "options": [
+            "Both include growth and development",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Both include growth and development",
+          "answer_explanation": "Both plants and animals pass through life-cycle stages.",
+          "question_id": "G3-SCIENCE-M2-W2-Q5"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Inherited Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which trait can be inherited from parents?",
+          "options": [
+            "eye color",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "eye color",
+          "answer_explanation": "Inherited traits are passed from parents to offspring.",
+          "question_id": "G3-SCIENCE-M2-W3-Q1"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Inherited Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which trait can be inherited from parents?",
+          "options": [
+            "eye color",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "eye color",
+          "answer_explanation": "Inherited traits are passed from parents to offspring.",
+          "question_id": "G3-SCIENCE-M2-W3-Q2"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Inherited Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which trait can be inherited from parents?",
+          "options": [
+            "eye color",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "eye color",
+          "answer_explanation": "Inherited traits are passed from parents to offspring.",
+          "question_id": "G3-SCIENCE-M2-W3-Q3"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Inherited Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which trait can be inherited from parents?",
+          "options": [
+            "eye color",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "eye color",
+          "answer_explanation": "Inherited traits are passed from parents to offspring.",
+          "question_id": "G3-SCIENCE-M2-W3-Q4"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Inherited Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which trait can be inherited from parents?",
+          "options": [
+            "eye color",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "eye color",
+          "answer_explanation": "Inherited traits are passed from parents to offspring.",
+          "question_id": "G3-SCIENCE-M2-W3-Q5"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-M2-W4-Q1"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-M2-W4-Q2"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-M2-W4-Q3"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-M2-W4-Q4"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-M2-W4-Q5"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-M2-W5-Q1"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-M2-W5-Q2"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-M2-W5-Q3"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-M2-W5-Q4"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-M2-W5-Q5"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Plant Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a trait of a plant?",
+          "options": [
+            "leaf shape",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "leaf shape",
+          "answer_explanation": "Leaf shape is a physical characteristic of a plant.",
+          "question_id": "G3-SCIENCE-M2-W6-Q1"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Plant Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a trait of a plant?",
+          "options": [
+            "leaf shape",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "leaf shape",
+          "answer_explanation": "Leaf shape is a physical characteristic of a plant.",
+          "question_id": "G3-SCIENCE-M2-W6-Q2"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Plant Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a trait of a plant?",
+          "options": [
+            "leaf shape",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "leaf shape",
+          "answer_explanation": "Leaf shape is a physical characteristic of a plant.",
+          "question_id": "G3-SCIENCE-M2-W6-Q3"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Plant Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a trait of a plant?",
+          "options": [
+            "leaf shape",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "leaf shape",
+          "answer_explanation": "Leaf shape is a physical characteristic of a plant.",
+          "question_id": "G3-SCIENCE-M2-W6-Q4"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Plant Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a trait of a plant?",
+          "options": [
+            "leaf shape",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "leaf shape",
+          "answer_explanation": "Leaf shape is a physical characteristic of a plant.",
+          "question_id": "G3-SCIENCE-M2-W6-Q5"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Animal Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird learns to fly after practicing. What kind of trait is this?",
+          "options": [
+            "a learned behavior",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a learned behavior",
+          "answer_explanation": "The bird develops the behavior through experience.",
+          "question_id": "G3-SCIENCE-M2-W7-Q1"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Animal Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird learns to fly after practicing. What kind of trait is this?",
+          "options": [
+            "a learned behavior",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a learned behavior",
+          "answer_explanation": "The bird develops the behavior through experience.",
+          "question_id": "G3-SCIENCE-M2-W7-Q2"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Animal Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird learns to fly after practicing. What kind of trait is this?",
+          "options": [
+            "a learned behavior",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a learned behavior",
+          "answer_explanation": "The bird develops the behavior through experience.",
+          "question_id": "G3-SCIENCE-M2-W7-Q3"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Animal Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird learns to fly after practicing. What kind of trait is this?",
+          "options": [
+            "a learned behavior",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a learned behavior",
+          "answer_explanation": "The bird develops the behavior through experience.",
+          "question_id": "G3-SCIENCE-M2-W7-Q4"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Animal Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird learns to fly after practicing. What kind of trait is this?",
+          "options": [
+            "a learned behavior",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a learned behavior",
+          "answer_explanation": "The bird develops the behavior through experience.",
+          "question_id": "G3-SCIENCE-M2-W7-Q5"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Traits Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about traits?",
+          "options": [
+            "Some traits are inherited and some behaviors are learned",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Some traits are inherited and some behaviors are learned",
+          "answer_explanation": "Traits and behaviors can have different causes.",
+          "question_id": "G3-SCIENCE-M2-W8-Q1"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Traits Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about traits?",
+          "options": [
+            "Some traits are inherited and some behaviors are learned",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Some traits are inherited and some behaviors are learned",
+          "answer_explanation": "Traits and behaviors can have different causes.",
+          "question_id": "G3-SCIENCE-M2-W8-Q2"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Traits Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about traits?",
+          "options": [
+            "Some traits are inherited and some behaviors are learned",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Some traits are inherited and some behaviors are learned",
+          "answer_explanation": "Traits and behaviors can have different causes.",
+          "question_id": "G3-SCIENCE-M2-W8-Q3"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Traits Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about traits?",
+          "options": [
+            "Some traits are inherited and some behaviors are learned",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Some traits are inherited and some behaviors are learned",
+          "answer_explanation": "Traits and behaviors can have different causes.",
+          "question_id": "G3-SCIENCE-M2-W8-Q4"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Traits Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about traits?",
+          "options": [
+            "Some traits are inherited and some behaviors are learned",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Some traits are inherited and some behaviors are learned",
+          "answer_explanation": "Traits and behaviors can have different causes.",
+          "question_id": "G3-SCIENCE-M2-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-SCIENCE-MODULE-3",
+      "course": "Grade 3 Science",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Ecosystems & Survival",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Living in Groups",
+          "standard": "3-LS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might animals live in groups?",
+          "options": [
+            "Groups can help animals find food or stay safe",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Groups can help animals find food or stay safe",
+          "answer_explanation": "Group behavior can provide survival benefits.",
+          "question_id": "G3-SCIENCE-M3-W1-Q1"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Living in Groups",
+          "standard": "3-LS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might animals live in groups?",
+          "options": [
+            "Groups can help animals find food or stay safe",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Groups can help animals find food or stay safe",
+          "answer_explanation": "Group behavior can provide survival benefits.",
+          "question_id": "G3-SCIENCE-M3-W1-Q2"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Living in Groups",
+          "standard": "3-LS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might animals live in groups?",
+          "options": [
+            "Groups can help animals find food or stay safe",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Groups can help animals find food or stay safe",
+          "answer_explanation": "Group behavior can provide survival benefits.",
+          "question_id": "G3-SCIENCE-M3-W1-Q3"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Living in Groups",
+          "standard": "3-LS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might animals live in groups?",
+          "options": [
+            "Groups can help animals find food or stay safe",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Groups can help animals find food or stay safe",
+          "answer_explanation": "Group behavior can provide survival benefits.",
+          "question_id": "G3-SCIENCE-M3-W1-Q4"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Living in Groups",
+          "standard": "3-LS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might animals live in groups?",
+          "options": [
+            "Groups can help animals find food or stay safe",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Groups can help animals find food or stay safe",
+          "answer_explanation": "Group behavior can provide survival benefits.",
+          "question_id": "G3-SCIENCE-M3-W1-Q5"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Habitats",
+          "standard": "3-LS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a habitat provide for an organism?",
+          "options": [
+            "food, water, shelter, and space",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "food, water, shelter, and space",
+          "answer_explanation": "Organisms need resources from their habitats.",
+          "question_id": "G3-SCIENCE-M3-W2-Q1"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Habitats",
+          "standard": "3-LS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a habitat provide for an organism?",
+          "options": [
+            "food, water, shelter, and space",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "food, water, shelter, and space",
+          "answer_explanation": "Organisms need resources from their habitats.",
+          "question_id": "G3-SCIENCE-M3-W2-Q2"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Habitats",
+          "standard": "3-LS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a habitat provide for an organism?",
+          "options": [
+            "food, water, shelter, and space",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "food, water, shelter, and space",
+          "answer_explanation": "Organisms need resources from their habitats.",
+          "question_id": "G3-SCIENCE-M3-W2-Q3"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Habitats",
+          "standard": "3-LS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a habitat provide for an organism?",
+          "options": [
+            "food, water, shelter, and space",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "food, water, shelter, and space",
+          "answer_explanation": "Organisms need resources from their habitats.",
+          "question_id": "G3-SCIENCE-M3-W2-Q4"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Habitats",
+          "standard": "3-LS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a habitat provide for an organism?",
+          "options": [
+            "food, water, shelter, and space",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "food, water, shelter, and space",
+          "answer_explanation": "Organisms need resources from their habitats.",
+          "question_id": "G3-SCIENCE-M3-W2-Q5"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Fossils & the Past",
+          "standard": "3-LS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a fossil tell scientists?",
+          "options": [
+            "about organisms or environments from the past",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "about organisms or environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments.",
+          "question_id": "G3-SCIENCE-M3-W3-Q1"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Fossils & the Past",
+          "standard": "3-LS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a fossil tell scientists?",
+          "options": [
+            "about organisms or environments from the past",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "about organisms or environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments.",
+          "question_id": "G3-SCIENCE-M3-W3-Q2"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Fossils & the Past",
+          "standard": "3-LS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a fossil tell scientists?",
+          "options": [
+            "about organisms or environments from the past",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "about organisms or environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments.",
+          "question_id": "G3-SCIENCE-M3-W3-Q3"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Fossils & the Past",
+          "standard": "3-LS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a fossil tell scientists?",
+          "options": [
+            "about organisms or environments from the past",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "about organisms or environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments.",
+          "question_id": "G3-SCIENCE-M3-W3-Q4"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Fossils & the Past",
+          "standard": "3-LS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a fossil tell scientists?",
+          "options": [
+            "about organisms or environments from the past",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "about organisms or environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments.",
+          "question_id": "G3-SCIENCE-M3-W3-Q5"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Adaptations",
+          "standard": "3-LS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A turtle's hard shell can help protect it. What is this an example of?",
+          "options": [
+            "an adaptation",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "An adaptation is a trait that helps an organism survive.",
+          "question_id": "G3-SCIENCE-M3-W4-Q1"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Adaptations",
+          "standard": "3-LS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A turtle's hard shell can help protect it. What is this an example of?",
+          "options": [
+            "an adaptation",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "An adaptation is a trait that helps an organism survive.",
+          "question_id": "G3-SCIENCE-M3-W4-Q2"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Adaptations",
+          "standard": "3-LS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A turtle's hard shell can help protect it. What is this an example of?",
+          "options": [
+            "an adaptation",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "An adaptation is a trait that helps an organism survive.",
+          "question_id": "G3-SCIENCE-M3-W4-Q3"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Adaptations",
+          "standard": "3-LS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A turtle's hard shell can help protect it. What is this an example of?",
+          "options": [
+            "an adaptation",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "An adaptation is a trait that helps an organism survive.",
+          "question_id": "G3-SCIENCE-M3-W4-Q4"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Adaptations",
+          "standard": "3-LS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A turtle's hard shell can help protect it. What is this an example of?",
+          "options": [
+            "an adaptation",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "An adaptation is a trait that helps an organism survive.",
+          "question_id": "G3-SCIENCE-M3-W4-Q5"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Environmental Change",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A forest is cleared and animals lose places to live. What happened?",
+          "options": [
+            "The habitat changed",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The habitat changed",
+          "answer_explanation": "Changing a habitat can affect the organisms that live there.",
+          "question_id": "G3-SCIENCE-M3-W5-Q1"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Environmental Change",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A forest is cleared and animals lose places to live. What happened?",
+          "options": [
+            "The habitat changed",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The habitat changed",
+          "answer_explanation": "Changing a habitat can affect the organisms that live there.",
+          "question_id": "G3-SCIENCE-M3-W5-Q2"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Environmental Change",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A forest is cleared and animals lose places to live. What happened?",
+          "options": [
+            "The habitat changed",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The habitat changed",
+          "answer_explanation": "Changing a habitat can affect the organisms that live there.",
+          "question_id": "G3-SCIENCE-M3-W5-Q3"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Environmental Change",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A forest is cleared and animals lose places to live. What happened?",
+          "options": [
+            "The habitat changed",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The habitat changed",
+          "answer_explanation": "Changing a habitat can affect the organisms that live there.",
+          "question_id": "G3-SCIENCE-M3-W5-Q4"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Environmental Change",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A forest is cleared and animals lose places to live. What happened?",
+          "options": [
+            "The habitat changed",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The habitat changed",
+          "answer_explanation": "Changing a habitat can affect the organisms that live there.",
+          "question_id": "G3-SCIENCE-M3-W5-Q5"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-M3-W6-Q1"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-M3-W6-Q2"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-M3-W6-Q3"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-M3-W6-Q4"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-M3-W6-Q5"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-M3-W7-Q1"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-M3-W7-Q2"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-M3-W7-Q3"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-M3-W7-Q4"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-M3-W7-Q5"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Ecosystems Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do organisms need from their environment?",
+          "options": [
+            "resources such as food, water, and shelter",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "resources such as food, water, and shelter",
+          "answer_explanation": "Organisms depend on their environments for resources.",
+          "question_id": "G3-SCIENCE-M3-W8-Q1"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Ecosystems Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do organisms need from their environment?",
+          "options": [
+            "resources such as food, water, and shelter",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "resources such as food, water, and shelter",
+          "answer_explanation": "Organisms depend on their environments for resources.",
+          "question_id": "G3-SCIENCE-M3-W8-Q2"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Ecosystems Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do organisms need from their environment?",
+          "options": [
+            "resources such as food, water, and shelter",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "resources such as food, water, and shelter",
+          "answer_explanation": "Organisms depend on their environments for resources.",
+          "question_id": "G3-SCIENCE-M3-W8-Q3"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Ecosystems Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do organisms need from their environment?",
+          "options": [
+            "resources such as food, water, and shelter",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "resources such as food, water, and shelter",
+          "answer_explanation": "Organisms depend on their environments for resources.",
+          "question_id": "G3-SCIENCE-M3-W8-Q4"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Ecosystems Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do organisms need from their environment?",
+          "options": [
+            "resources such as food, water, and shelter",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "resources such as food, water, and shelter",
+          "answer_explanation": "Organisms depend on their environments for resources.",
+          "question_id": "G3-SCIENCE-M3-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-SCIENCE-MODULE-4",
+      "course": "Grade 3 Science",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Weather & Climate",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-M4-W1-Q1"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-M4-W1-Q2"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-M4-W1-Q3"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-M4-W1-Q4"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-M4-W1-Q5"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Weather Patterns",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart shows cooler temperatures every winter. What does it show?",
+          "options": [
+            "a seasonal weather pattern",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a seasonal weather pattern",
+          "answer_explanation": "Repeated observations can reveal patterns.",
+          "question_id": "G3-SCIENCE-M4-W2-Q1"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Weather Patterns",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart shows cooler temperatures every winter. What does it show?",
+          "options": [
+            "a seasonal weather pattern",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a seasonal weather pattern",
+          "answer_explanation": "Repeated observations can reveal patterns.",
+          "question_id": "G3-SCIENCE-M4-W2-Q2"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Weather Patterns",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart shows cooler temperatures every winter. What does it show?",
+          "options": [
+            "a seasonal weather pattern",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a seasonal weather pattern",
+          "answer_explanation": "Repeated observations can reveal patterns.",
+          "question_id": "G3-SCIENCE-M4-W2-Q3"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Weather Patterns",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart shows cooler temperatures every winter. What does it show?",
+          "options": [
+            "a seasonal weather pattern",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a seasonal weather pattern",
+          "answer_explanation": "Repeated observations can reveal patterns.",
+          "question_id": "G3-SCIENCE-M4-W2-Q4"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Weather Patterns",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart shows cooler temperatures every winter. What does it show?",
+          "options": [
+            "a seasonal weather pattern",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a seasonal weather pattern",
+          "answer_explanation": "Repeated observations can reveal patterns.",
+          "question_id": "G3-SCIENCE-M4-W2-Q5"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement best describes climate?",
+          "options": [
+            "The usual weather of a place over a long time",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The usual weather of a place over a long time",
+          "answer_explanation": "Climate describes long-term patterns.",
+          "question_id": "G3-SCIENCE-M4-W3-Q1"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement best describes climate?",
+          "options": [
+            "The usual weather of a place over a long time",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The usual weather of a place over a long time",
+          "answer_explanation": "Climate describes long-term patterns.",
+          "question_id": "G3-SCIENCE-M4-W3-Q2"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement best describes climate?",
+          "options": [
+            "The usual weather of a place over a long time",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The usual weather of a place over a long time",
+          "answer_explanation": "Climate describes long-term patterns.",
+          "question_id": "G3-SCIENCE-M4-W3-Q3"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement best describes climate?",
+          "options": [
+            "The usual weather of a place over a long time",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The usual weather of a place over a long time",
+          "answer_explanation": "Climate describes long-term patterns.",
+          "question_id": "G3-SCIENCE-M4-W3-Q4"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement best describes climate?",
+          "options": [
+            "The usual weather of a place over a long time",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The usual weather of a place over a long time",
+          "answer_explanation": "Climate describes long-term patterns.",
+          "question_id": "G3-SCIENCE-M4-W3-Q5"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Weather vs Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A thunderstorm this afternoon is an example of what?",
+          "options": [
+            "weather",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "weather",
+          "answer_explanation": "Weather describes short-term atmospheric conditions.",
+          "question_id": "G3-SCIENCE-M4-W4-Q1"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Weather vs Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A thunderstorm this afternoon is an example of what?",
+          "options": [
+            "weather",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "weather",
+          "answer_explanation": "Weather describes short-term atmospheric conditions.",
+          "question_id": "G3-SCIENCE-M4-W4-Q2"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Weather vs Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A thunderstorm this afternoon is an example of what?",
+          "options": [
+            "weather",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "weather",
+          "answer_explanation": "Weather describes short-term atmospheric conditions.",
+          "question_id": "G3-SCIENCE-M4-W4-Q3"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Weather vs Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A thunderstorm this afternoon is an example of what?",
+          "options": [
+            "weather",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "weather",
+          "answer_explanation": "Weather describes short-term atmospheric conditions.",
+          "question_id": "G3-SCIENCE-M4-W4-Q4"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Weather vs Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A thunderstorm this afternoon is an example of what?",
+          "options": [
+            "weather",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "weather",
+          "answer_explanation": "Weather describes short-term atmospheric conditions.",
+          "question_id": "G3-SCIENCE-M4-W4-Q5"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Weather Hazards",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather-related hazard?",
+          "options": [
+            "flood",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "flood",
+          "answer_explanation": "Floods can be caused by heavy rainfall and can be dangerous.",
+          "question_id": "G3-SCIENCE-M4-W5-Q1"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Weather Hazards",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather-related hazard?",
+          "options": [
+            "flood",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "flood",
+          "answer_explanation": "Floods can be caused by heavy rainfall and can be dangerous.",
+          "question_id": "G3-SCIENCE-M4-W5-Q2"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Weather Hazards",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather-related hazard?",
+          "options": [
+            "flood",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "flood",
+          "answer_explanation": "Floods can be caused by heavy rainfall and can be dangerous.",
+          "question_id": "G3-SCIENCE-M4-W5-Q3"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Weather Hazards",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather-related hazard?",
+          "options": [
+            "flood",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "flood",
+          "answer_explanation": "Floods can be caused by heavy rainfall and can be dangerous.",
+          "question_id": "G3-SCIENCE-M4-W5-Q4"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Weather Hazards",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather-related hazard?",
+          "options": [
+            "flood",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "flood",
+          "answer_explanation": "Floods can be caused by heavy rainfall and can be dangerous.",
+          "question_id": "G3-SCIENCE-M4-W5-Q5"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce flood damage?",
+          "options": [
+            "building barriers or improving drainage",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "building barriers or improving drainage",
+          "answer_explanation": "Preparedness and protective structures can reduce impacts.",
+          "question_id": "G3-SCIENCE-M4-W6-Q1"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce flood damage?",
+          "options": [
+            "building barriers or improving drainage",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "building barriers or improving drainage",
+          "answer_explanation": "Preparedness and protective structures can reduce impacts.",
+          "question_id": "G3-SCIENCE-M4-W6-Q2"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce flood damage?",
+          "options": [
+            "building barriers or improving drainage",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "building barriers or improving drainage",
+          "answer_explanation": "Preparedness and protective structures can reduce impacts.",
+          "question_id": "G3-SCIENCE-M4-W6-Q3"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce flood damage?",
+          "options": [
+            "building barriers or improving drainage",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "building barriers or improving drainage",
+          "answer_explanation": "Preparedness and protective structures can reduce impacts.",
+          "question_id": "G3-SCIENCE-M4-W6-Q4"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce flood damage?",
+          "options": [
+            "building barriers or improving drainage",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "building barriers or improving drainage",
+          "answer_explanation": "Preparedness and protective structures can reduce impacts.",
+          "question_id": "G3-SCIENCE-M4-W6-Q5"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Predicting Weather",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If a pattern shows dark clouds followed by rain many times, what might you predict?",
+          "options": [
+            "Rain may happen again when the pattern repeats",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Rain may happen again when the pattern repeats",
+          "answer_explanation": "Patterns can help scientists make predictions.",
+          "question_id": "G3-SCIENCE-M4-W7-Q1"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Predicting Weather",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If a pattern shows dark clouds followed by rain many times, what might you predict?",
+          "options": [
+            "Rain may happen again when the pattern repeats",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Rain may happen again when the pattern repeats",
+          "answer_explanation": "Patterns can help scientists make predictions.",
+          "question_id": "G3-SCIENCE-M4-W7-Q2"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Predicting Weather",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If a pattern shows dark clouds followed by rain many times, what might you predict?",
+          "options": [
+            "Rain may happen again when the pattern repeats",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Rain may happen again when the pattern repeats",
+          "answer_explanation": "Patterns can help scientists make predictions.",
+          "question_id": "G3-SCIENCE-M4-W7-Q3"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Predicting Weather",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If a pattern shows dark clouds followed by rain many times, what might you predict?",
+          "options": [
+            "Rain may happen again when the pattern repeats",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Rain may happen again when the pattern repeats",
+          "answer_explanation": "Patterns can help scientists make predictions.",
+          "question_id": "G3-SCIENCE-M4-W7-Q4"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Predicting Weather",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If a pattern shows dark clouds followed by rain many times, what might you predict?",
+          "options": [
+            "Rain may happen again when the pattern repeats",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Rain may happen again when the pattern repeats",
+          "answer_explanation": "Patterns can help scientists make predictions.",
+          "question_id": "G3-SCIENCE-M4-W7-Q5"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-M4-W8-Q1"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-M4-W8-Q2"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-M4-W8-Q3"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-M4-W8-Q4"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-M4-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-SCIENCE-MOCK-1",
+      "course": "Grade 3 Science",
+      "grade": 3,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Pushes & Pulls",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child pushes a toy car. What happens to the car because of the push?",
+          "options": [
+            "It can change the car's motion",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "It can change the car's motion",
+          "answer_explanation": "A push is a force that can change an object's motion.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q1"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q2"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q3"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Non-Contact Forces",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A magnet pulls a paper clip without touching it. What does this show?",
+          "options": [
+            "A force can act at a distance",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A force can act at a distance",
+          "answer_explanation": "Magnetic force can act without direct contact.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q4"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Designing with Magnets",
+          "standard": "3-PS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student needs to pick up metal objects without touching them. What could help solve the problem?",
+          "options": [
+            "A magnetic tool",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A magnetic tool",
+          "answer_explanation": "A magnet can attract certain metal objects from a distance.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q5"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Measuring Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which observation best describes motion?",
+          "options": [
+            "The toy car moved 2 meters in 4 seconds",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The toy car moved 2 meters in 4 seconds",
+          "answer_explanation": "Motion can be described using changes in position over time.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q6"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Friction & Surfaces",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car rolls farther on smooth tile than on carpet. What likely causes the difference?",
+          "options": [
+            "More friction on the carpet",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "More friction on the carpet",
+          "answer_explanation": "Rougher surfaces generally create more friction.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q7"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Forces Review",
+          "standard": "3-PS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an example of a force changing motion?",
+          "options": [
+            "Kicking a still ball makes it move",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Kicking a still ball makes it move",
+          "answer_explanation": "A kick applies a force that changes the ball's motion.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q8"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sequence is part of a typical plant life cycle?",
+          "options": [
+            "seed → seedling → mature plant",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "seed → seedling → mature plant",
+          "answer_explanation": "Plants grow through stages in a life cycle.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q9"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is one way plant and animal life cycles can be similar?",
+          "options": [
+            "Both include growth and development",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Both include growth and development",
+          "answer_explanation": "Both plants and animals pass through life-cycle stages.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q10"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Inherited Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which trait can be inherited from parents?",
+          "options": [
+            "eye color",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "eye color",
+          "answer_explanation": "Inherited traits are passed from parents to offspring.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q11"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q12"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q13"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Plant Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a trait of a plant?",
+          "options": [
+            "leaf shape",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "leaf shape",
+          "answer_explanation": "Leaf shape is a physical characteristic of a plant.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q14"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Animal Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird learns to fly after practicing. What kind of trait is this?",
+          "options": [
+            "a learned behavior",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a learned behavior",
+          "answer_explanation": "The bird develops the behavior through experience.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q15"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Traits Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about traits?",
+          "options": [
+            "Some traits are inherited and some behaviors are learned",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Some traits are inherited and some behaviors are learned",
+          "answer_explanation": "Traits and behaviors can have different causes.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q16"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Living in Groups",
+          "standard": "3-LS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might animals live in groups?",
+          "options": [
+            "Groups can help animals find food or stay safe",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Groups can help animals find food or stay safe",
+          "answer_explanation": "Group behavior can provide survival benefits.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q17"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Habitats",
+          "standard": "3-LS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a habitat provide for an organism?",
+          "options": [
+            "food, water, shelter, and space",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "food, water, shelter, and space",
+          "answer_explanation": "Organisms need resources from their habitats.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q18"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Fossils & the Past",
+          "standard": "3-LS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a fossil tell scientists?",
+          "options": [
+            "about organisms or environments from the past",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "about organisms or environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q19"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Adaptations",
+          "standard": "3-LS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A turtle's hard shell can help protect it. What is this an example of?",
+          "options": [
+            "an adaptation",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "An adaptation is a trait that helps an organism survive.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q20"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Environmental Change",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A forest is cleared and animals lose places to live. What happened?",
+          "options": [
+            "The habitat changed",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The habitat changed",
+          "answer_explanation": "Changing a habitat can affect the organisms that live there.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q21"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q22"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q23"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Ecosystems Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do organisms need from their environment?",
+          "options": [
+            "resources such as food, water, and shelter",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "resources such as food, water, and shelter",
+          "answer_explanation": "Organisms depend on their environments for resources.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q24"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q25"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Weather Patterns",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart shows cooler temperatures every winter. What does it show?",
+          "options": [
+            "a seasonal weather pattern",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a seasonal weather pattern",
+          "answer_explanation": "Repeated observations can reveal patterns.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q26"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement best describes climate?",
+          "options": [
+            "The usual weather of a place over a long time",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The usual weather of a place over a long time",
+          "answer_explanation": "Climate describes long-term patterns.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q27"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Weather vs Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A thunderstorm this afternoon is an example of what?",
+          "options": [
+            "weather",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "weather",
+          "answer_explanation": "Weather describes short-term atmospheric conditions.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q28"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Weather Hazards",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather-related hazard?",
+          "options": [
+            "flood",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "flood",
+          "answer_explanation": "Floods can be caused by heavy rainfall and can be dangerous.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q29"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce flood damage?",
+          "options": [
+            "building barriers or improving drainage",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "building barriers or improving drainage",
+          "answer_explanation": "Preparedness and protective structures can reduce impacts.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q30"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Predicting Weather",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If a pattern shows dark clouds followed by rain many times, what might you predict?",
+          "options": [
+            "Rain may happen again when the pattern repeats",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Rain may happen again when the pattern repeats",
+          "answer_explanation": "Patterns can help scientists make predictions.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q31"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q32"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q33"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q34"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q35"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q36"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q37"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q38"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q39"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-MOCK-1-Q40"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-SCIENCE-MOCK-2",
+      "course": "Grade 3 Science",
+      "grade": 3,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Forces Review",
+          "standard": "3-PS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an example of a force changing motion?",
+          "options": [
+            "Kicking a still ball makes it move",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Kicking a still ball makes it move",
+          "answer_explanation": "A kick applies a force that changes the ball's motion.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q1"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Friction & Surfaces",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car rolls farther on smooth tile than on carpet. What likely causes the difference?",
+          "options": [
+            "More friction on the carpet",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "More friction on the carpet",
+          "answer_explanation": "Rougher surfaces generally create more friction.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q2"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Measuring Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which observation best describes motion?",
+          "options": [
+            "The toy car moved 2 meters in 4 seconds",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The toy car moved 2 meters in 4 seconds",
+          "answer_explanation": "Motion can be described using changes in position over time.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q3"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Designing with Magnets",
+          "standard": "3-PS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student needs to pick up metal objects without touching them. What could help solve the problem?",
+          "options": [
+            "A magnetic tool",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A magnetic tool",
+          "answer_explanation": "A magnet can attract certain metal objects from a distance.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q4"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Non-Contact Forces",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A magnet pulls a paper clip without touching it. What does this show?",
+          "options": [
+            "A force can act at a distance",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A force can act at a distance",
+          "answer_explanation": "Magnetic force can act without direct contact.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q5"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q6"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Patterns of Motion",
+          "standard": "3-PS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ball rolls farther each time it is pushed harder. What pattern can the student use to predict?",
+          "options": [
+            "A harder push can make the ball move farther",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "A harder push can make the ball move farther",
+          "answer_explanation": "The observations show a pattern between push strength and motion.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q7"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Pushes & Pulls",
+          "standard": "3-PS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child pushes a toy car. What happens to the car because of the push?",
+          "options": [
+            "It can change the car's motion",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "It can change the car's motion",
+          "answer_explanation": "A push is a force that can change an object's motion.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q8"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Traits Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true about traits?",
+          "options": [
+            "Some traits are inherited and some behaviors are learned",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Some traits are inherited and some behaviors are learned",
+          "answer_explanation": "Traits and behaviors can have different causes.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q9"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Animal Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird learns to fly after practicing. What kind of trait is this?",
+          "options": [
+            "a learned behavior",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a learned behavior",
+          "answer_explanation": "The bird develops the behavior through experience.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q10"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Plant Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a trait of a plant?",
+          "options": [
+            "leaf shape",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "leaf shape",
+          "answer_explanation": "Leaf shape is a physical characteristic of a plant.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q11"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q12"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Variation of Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two puppies have different fur colors. What does this show?",
+          "options": [
+            "Individuals can have different traits",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Individuals can have different traits",
+          "answer_explanation": "Members of the same species can vary in traits.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q13"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Inherited Traits",
+          "standard": "3-LS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which trait can be inherited from parents?",
+          "options": [
+            "eye color",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "eye color",
+          "answer_explanation": "Inherited traits are passed from parents to offspring.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q14"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is one way plant and animal life cycles can be similar?",
+          "options": [
+            "Both include growth and development",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Both include growth and development",
+          "answer_explanation": "Both plants and animals pass through life-cycle stages.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q15"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Life Cycles",
+          "standard": "3-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sequence is part of a typical plant life cycle?",
+          "options": [
+            "seed → seedling → mature plant",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "seed → seedling → mature plant",
+          "answer_explanation": "Plants grow through stages in a life cycle.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q16"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Ecosystems Review",
+          "standard": "3-LS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do organisms need from their environment?",
+          "options": [
+            "resources such as food, water, and shelter",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "resources such as food, water, and shelter",
+          "answer_explanation": "Organisms depend on their environments for resources.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q17"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q18"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Survival & Extinction",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What may happen if an organism can no longer survive in its environment?",
+          "options": [
+            "Its population may decrease or disappear",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Its population may decrease or disappear",
+          "answer_explanation": "Severe environmental changes can threaten survival.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q19"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Environmental Change",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A forest is cleared and animals lose places to live. What happened?",
+          "options": [
+            "The habitat changed",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The habitat changed",
+          "answer_explanation": "Changing a habitat can affect the organisms that live there.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q20"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Adaptations",
+          "standard": "3-LS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A turtle's hard shell can help protect it. What is this an example of?",
+          "options": [
+            "an adaptation",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "An adaptation is a trait that helps an organism survive.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q21"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Fossils & the Past",
+          "standard": "3-LS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a fossil tell scientists?",
+          "options": [
+            "about organisms or environments from the past",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "about organisms or environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q22"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Habitats",
+          "standard": "3-LS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a habitat provide for an organism?",
+          "options": [
+            "food, water, shelter, and space",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "food, water, shelter, and space",
+          "answer_explanation": "Organisms need resources from their habitats.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q23"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Living in Groups",
+          "standard": "3-LS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might animals live in groups?",
+          "options": [
+            "Groups can help animals find food or stay safe",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Groups can help animals find food or stay safe",
+          "answer_explanation": "Group behavior can provide survival benefits.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q24"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "3-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Weather can change quickly, while climate describes long-term patterns",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Weather can change quickly, while climate describes long-term patterns",
+          "answer_explanation": "Weather and climate describe different time scales.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q25"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Predicting Weather",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If a pattern shows dark clouds followed by rain many times, what might you predict?",
+          "options": [
+            "Rain may happen again when the pattern repeats",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Rain may happen again when the pattern repeats",
+          "answer_explanation": "Patterns can help scientists make predictions.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q26"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce flood damage?",
+          "options": [
+            "building barriers or improving drainage",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "building barriers or improving drainage",
+          "answer_explanation": "Preparedness and protective structures can reduce impacts.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q27"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Weather Hazards",
+          "standard": "3-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather-related hazard?",
+          "options": [
+            "flood",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "flood",
+          "answer_explanation": "Floods can be caused by heavy rainfall and can be dangerous.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q28"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Weather vs Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A thunderstorm this afternoon is an example of what?",
+          "options": [
+            "weather",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "weather",
+          "answer_explanation": "Weather describes short-term atmospheric conditions.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q29"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Climate",
+          "standard": "3-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement best describes climate?",
+          "options": [
+            "The usual weather of a place over a long time",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The usual weather of a place over a long time",
+          "answer_explanation": "Climate describes long-term patterns.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q30"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Weather Patterns",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart shows cooler temperatures every winter. What does it show?",
+          "options": [
+            "a seasonal weather pattern",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "a seasonal weather pattern",
+          "answer_explanation": "Repeated observations can reveal patterns.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q31"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q32"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q33"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q34"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q35"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q36"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Magnets",
+          "standard": "3-PS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is most likely to be attracted to a magnet?",
+          "options": [
+            "an iron paper clip",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "an iron paper clip",
+          "answer_explanation": "Magnets attract certain magnetic materials such as iron.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q37"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Environment & Traits",
+          "standard": "3-LS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A plant grows taller when it receives enough sunlight. What does this show?",
+          "options": [
+            "The environment can affect how a trait develops",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The environment can affect how a trait develops",
+          "answer_explanation": "Environmental conditions can influence traits.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q38"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Solving Habitat Problems",
+          "standard": "3-LS4-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A wetland is shrinking. Which action could help organisms there?",
+          "options": [
+            "Restore and protect the wetland",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "Restore and protect the wetland",
+          "answer_explanation": "Protecting habitat can reduce harm to organisms.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q39"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Weather Observations",
+          "standard": "3-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a weather observation?",
+          "options": [
+            "The temperature is 75°F today",
+            "A statement that does not match the observation",
+            "A random guess",
+            "An unrelated example"
+          ],
+          "correct_answer": "The temperature is 75°F today",
+          "answer_explanation": "Weather describes conditions at a particular time and place.",
+          "question_id": "G3-SCIENCE-MOCK-2-Q40"
+        }
+      ]
+    }
+  ]
+}

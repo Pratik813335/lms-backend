@@ -1,0 +1,4254 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 6 Mathematics",
+  "grade": 6,
+  "standard_family": "Common Core",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G6-MATHEMATICS-MODULE-1",
+      "course": "Grade 6 Mathematics",
+      "grade": 6,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Ratios & Rates",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-MATHEMATICS-M1-W1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Ratios",
+          "standard": "6.RP.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What does the ratio 3:4 mean?",
+          "options": [
+            "3 to 4",
+            "the sum of the two numbers",
+            "the difference of the two numbers",
+            "the product of the two numbers"
+          ],
+          "correct_answer": "3 to 4",
+          "answer_explanation": "A ratio compares two quantities in a specified order."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W1-Q2",
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Ratios",
+          "standard": "6.RP.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What does the ratio 5:2 mean?",
+          "options": [
+            "5 to 2",
+            "the sum of the two numbers",
+            "the difference of the two numbers",
+            "the product of the two numbers"
+          ],
+          "correct_answer": "5 to 2",
+          "answer_explanation": "A ratio compares two quantities in a specified order."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W1-Q3",
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Ratios",
+          "standard": "6.RP.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What does the ratio 7:9 mean?",
+          "options": [
+            "7 to 9",
+            "the sum of the two numbers",
+            "the difference of the two numbers",
+            "the product of the two numbers"
+          ],
+          "correct_answer": "7 to 9",
+          "answer_explanation": "A ratio compares two quantities in a specified order."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W1-Q4",
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Ratios",
+          "standard": "6.RP.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What does the ratio 2:5 mean?",
+          "options": [
+            "2 to 5",
+            "the sum of the two numbers",
+            "the difference of the two numbers",
+            "the product of the two numbers"
+          ],
+          "correct_answer": "2 to 5",
+          "answer_explanation": "A ratio compares two quantities in a specified order."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W1-Q5",
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Ratios",
+          "standard": "6.RP.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What does the ratio 8:3 mean?",
+          "options": [
+            "8 to 3",
+            "the sum of the two numbers",
+            "the difference of the two numbers",
+            "the product of the two numbers"
+          ],
+          "correct_answer": "8 to 3",
+          "answer_explanation": "A ratio compares two quantities in a specified order."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W2-Q1",
+          "module": 1,
+          "week": 2,
+          "topic": "Unit Rates",
+          "standard": "6.RP.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the unit rate for 120 miles in 3 hours?",
+          "options": [
+            "40 miles per hour",
+            "the total of the quantities",
+            "the product of the quantities",
+            "twice the larger quantity"
+          ],
+          "correct_answer": "40 miles per hour",
+          "answer_explanation": "A unit rate gives the amount for one unit of the second quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Unit Rates",
+          "standard": "6.RP.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the unit rate for 15 dollars for 5 notebooks?",
+          "options": [
+            "3 dollars per notebook",
+            "the total of the quantities",
+            "the product of the quantities",
+            "twice the larger quantity"
+          ],
+          "correct_answer": "3 dollars per notebook",
+          "answer_explanation": "A unit rate gives the amount for one unit of the second quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W2-Q3",
+          "module": 1,
+          "week": 2,
+          "topic": "Unit Rates",
+          "standard": "6.RP.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the unit rate for 84 pages in 4 days?",
+          "options": [
+            "21 pages per day",
+            "the total of the quantities",
+            "the product of the quantities",
+            "twice the larger quantity"
+          ],
+          "correct_answer": "21 pages per day",
+          "answer_explanation": "A unit rate gives the amount for one unit of the second quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W2-Q4",
+          "module": 1,
+          "week": 2,
+          "topic": "Unit Rates",
+          "standard": "6.RP.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the unit rate for 30 apples in 5 bags?",
+          "options": [
+            "6 apples per bag",
+            "the total of the quantities",
+            "the product of the quantities",
+            "twice the larger quantity"
+          ],
+          "correct_answer": "6 apples per bag",
+          "answer_explanation": "A unit rate gives the amount for one unit of the second quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W2-Q5",
+          "module": 1,
+          "week": 2,
+          "topic": "Unit Rates",
+          "standard": "6.RP.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the unit rate for 90 miles in 2 hours?",
+          "options": [
+            "45 miles per hour",
+            "the total of the quantities",
+            "the product of the quantities",
+            "twice the larger quantity"
+          ],
+          "correct_answer": "45 miles per hour",
+          "answer_explanation": "A unit rate gives the amount for one unit of the second quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W3-Q1",
+          "module": 1,
+          "week": 3,
+          "topic": "Ratio Tables",
+          "standard": "6.RP.3a",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Complete the ratio table: 2:3, 4:6, 6:?",
+          "options": [
+            "9",
+            "8",
+            "12",
+            "18"
+          ],
+          "correct_answer": "9",
+          "answer_explanation": "Equivalent ratios are found by multiplying both terms by the same factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W3-Q2",
+          "module": 1,
+          "week": 3,
+          "topic": "Ratio Tables",
+          "standard": "6.RP.3a",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Complete the ratio table: 3:5, 6:10, 9:?",
+          "options": [
+            "15",
+            "8",
+            "12",
+            "18"
+          ],
+          "correct_answer": "15",
+          "answer_explanation": "Equivalent ratios are found by multiplying both terms by the same factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W3-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Ratio Tables",
+          "standard": "6.RP.3a",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Complete the ratio table: 4:7, 8:14, 12:?",
+          "options": [
+            "21",
+            "8",
+            "12",
+            "18"
+          ],
+          "correct_answer": "21",
+          "answer_explanation": "Equivalent ratios are found by multiplying both terms by the same factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W3-Q4",
+          "module": 1,
+          "week": 3,
+          "topic": "Ratio Tables",
+          "standard": "6.RP.3a",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Complete the ratio table: 5:2, 10:4, 15:?",
+          "options": [
+            "6",
+            "8",
+            "12",
+            "18"
+          ],
+          "correct_answer": "6",
+          "answer_explanation": "Equivalent ratios are found by multiplying both terms by the same factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W3-Q5",
+          "module": 1,
+          "week": 3,
+          "topic": "Ratio Tables",
+          "standard": "6.RP.3a",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Complete the ratio table: 2:9, 4:18, 6:?",
+          "options": [
+            "27",
+            "8",
+            "12",
+            "18"
+          ],
+          "correct_answer": "27",
+          "answer_explanation": "Equivalent ratios are found by multiplying both terms by the same factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W4-Q1",
+          "module": 1,
+          "week": 4,
+          "topic": "Graphing Ratios",
+          "standard": "6.RP.3a",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A graph of a proportional relationship passes through which point?",
+          "options": [
+            "(0,0)",
+            "(1,0) only",
+            "(0,1) only",
+            "(2,3) only"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "A proportional relationship has a graph through the origin."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W4-Q2",
+          "module": 1,
+          "week": 4,
+          "topic": "Graphing Ratios",
+          "standard": "6.RP.3a",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A graph of a proportional relationship passes through which point?",
+          "options": [
+            "(0,0)",
+            "(1,0) only",
+            "(0,1) only",
+            "(2,3) only"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "A proportional relationship has a graph through the origin."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W4-Q3",
+          "module": 1,
+          "week": 4,
+          "topic": "Graphing Ratios",
+          "standard": "6.RP.3a",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A graph of a proportional relationship passes through which point?",
+          "options": [
+            "(0,0)",
+            "(1,0) only",
+            "(0,1) only",
+            "(2,3) only"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "A proportional relationship has a graph through the origin."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W4-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Graphing Ratios",
+          "standard": "6.RP.3a",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A graph of a proportional relationship passes through which point?",
+          "options": [
+            "(0,0)",
+            "(1,0) only",
+            "(0,1) only",
+            "(2,3) only"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "A proportional relationship has a graph through the origin."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W4-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Graphing Ratios",
+          "standard": "6.RP.3a",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A graph of a proportional relationship passes through which point?",
+          "options": [
+            "(0,0)",
+            "(1,0) only",
+            "(0,1) only",
+            "(2,3) only"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "A proportional relationship has a graph through the origin."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W5-Q1",
+          "module": 1,
+          "week": 5,
+          "topic": "Solving Rate Problems",
+          "standard": "6.RP.3b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A car travels 180 miles in 3 hours. How far in 5 hours at the same rate?",
+          "options": [
+            "300 miles",
+            "the same amount as one hour",
+            "the original amount",
+            "twice the original amount"
+          ],
+          "correct_answer": "300 miles",
+          "answer_explanation": "Find the unit rate, then multiply by the new amount of time."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W5-Q2",
+          "module": 1,
+          "week": 5,
+          "topic": "Solving Rate Problems",
+          "standard": "6.RP.3b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A printer makes 40 pages in 5 minutes. How many in 8 minutes?",
+          "options": [
+            "64 pages",
+            "the same amount as one hour",
+            "the original amount",
+            "twice the original amount"
+          ],
+          "correct_answer": "64 pages",
+          "answer_explanation": "Find the unit rate, then multiply by the new amount of time."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W5-Q3",
+          "module": 1,
+          "week": 5,
+          "topic": "Solving Rate Problems",
+          "standard": "6.RP.3b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A runner travels 12 miles in 2 hours. How far in 5 hours?",
+          "options": [
+            "30 miles",
+            "the same amount as one hour",
+            "the original amount",
+            "twice the original amount"
+          ],
+          "correct_answer": "30 miles",
+          "answer_explanation": "Find the unit rate, then multiply by the new amount of time."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W5-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "Solving Rate Problems",
+          "standard": "6.RP.3b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A machine makes 72 parts in 6 hours. How many in 9 hours?",
+          "options": [
+            "108 parts",
+            "the same amount as one hour",
+            "the original amount",
+            "twice the original amount"
+          ],
+          "correct_answer": "108 parts",
+          "answer_explanation": "Find the unit rate, then multiply by the new amount of time."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W5-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Solving Rate Problems",
+          "standard": "6.RP.3b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A cyclist travels 45 miles in 3 hours. How far in 4 hours?",
+          "options": [
+            "60 miles",
+            "the same amount as one hour",
+            "the original amount",
+            "twice the original amount"
+          ],
+          "correct_answer": "60 miles",
+          "answer_explanation": "Find the unit rate, then multiply by the new amount of time."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W6-Q1",
+          "module": 1,
+          "week": 6,
+          "topic": "Percents",
+          "standard": "6.RP.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 25% of 80?",
+          "options": [
+            "20",
+            "10",
+            "40",
+            "80"
+          ],
+          "correct_answer": "20",
+          "answer_explanation": "A percent is a rate per 100; multiply the decimal form by the quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W6-Q2",
+          "module": 1,
+          "week": 6,
+          "topic": "Percents",
+          "standard": "6.RP.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 10% of 250?",
+          "options": [
+            "25",
+            "10",
+            "40",
+            "80"
+          ],
+          "correct_answer": "25",
+          "answer_explanation": "A percent is a rate per 100; multiply the decimal form by the quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W6-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Percents",
+          "standard": "6.RP.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 50% of 36?",
+          "options": [
+            "18",
+            "10",
+            "40",
+            "80"
+          ],
+          "correct_answer": "18",
+          "answer_explanation": "A percent is a rate per 100; multiply the decimal form by the quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W6-Q4",
+          "module": 1,
+          "week": 6,
+          "topic": "Percents",
+          "standard": "6.RP.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 20% of 150?",
+          "options": [
+            "30",
+            "10",
+            "40",
+            "80"
+          ],
+          "correct_answer": "30",
+          "answer_explanation": "A percent is a rate per 100; multiply the decimal form by the quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W6-Q5",
+          "module": 1,
+          "week": 6,
+          "topic": "Percents",
+          "standard": "6.RP.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 75% of 40?",
+          "options": [
+            "30",
+            "10",
+            "40",
+            "80"
+          ],
+          "correct_answer": "30",
+          "answer_explanation": "A percent is a rate per 100; multiply the decimal form by the quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W7-Q1",
+          "module": 1,
+          "week": 7,
+          "topic": "Measurement Conversions",
+          "standard": "6.RP.3d",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 2 meters.",
+          "options": [
+            "200 centimeters",
+            "20 centimeters",
+            "300 grams",
+            "24 inches"
+          ],
+          "correct_answer": "200 centimeters",
+          "answer_explanation": "Use a ratio or standard conversion factor between the units."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W7-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Measurement Conversions",
+          "standard": "6.RP.3d",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 3 kilograms.",
+          "options": [
+            "3,000 grams",
+            "20 centimeters",
+            "300 grams",
+            "24 inches"
+          ],
+          "correct_answer": "3,000 grams",
+          "answer_explanation": "Use a ratio or standard conversion factor between the units."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W7-Q3",
+          "module": 1,
+          "week": 7,
+          "topic": "Measurement Conversions",
+          "standard": "6.RP.3d",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 4 feet.",
+          "options": [
+            "48 inches",
+            "20 centimeters",
+            "300 grams",
+            "24 inches"
+          ],
+          "correct_answer": "48 inches",
+          "answer_explanation": "Use a ratio or standard conversion factor between the units."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W7-Q4",
+          "module": 1,
+          "week": 7,
+          "topic": "Measurement Conversions",
+          "standard": "6.RP.3d",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 5 yards.",
+          "options": [
+            "15 feet",
+            "20 centimeters",
+            "300 grams",
+            "24 inches"
+          ],
+          "correct_answer": "15 feet",
+          "answer_explanation": "Use a ratio or standard conversion factor between the units."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W7-Q5",
+          "module": 1,
+          "week": 7,
+          "topic": "Measurement Conversions",
+          "standard": "6.RP.3d",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 2 miles.",
+          "options": [
+            "10,560 feet",
+            "20 centimeters",
+            "300 grams",
+            "24 inches"
+          ],
+          "correct_answer": "10,560 feet",
+          "answer_explanation": "Use a ratio or standard conversion factor between the units."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W8-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.RP",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W8-Q2",
+          "module": 1,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.RP",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W8-Q3",
+          "module": 1,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.RP",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W8-Q4",
+          "module": 1,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.RP",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M1-W8-Q5",
+          "module": 1,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.RP",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-MATHEMATICS-MODULE-2",
+      "course": "Grade 6 Mathematics",
+      "grade": 6,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "The Number System",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-MATHEMATICS-M2-W1-Q1",
+          "module": 2,
+          "week": 1,
+          "topic": "Dividing Fractions",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3/4 ÷ 1/2?",
+          "options": [
+            "3/2",
+            "1/2",
+            "2/3",
+            "3"
+          ],
+          "correct_answer": "3/2",
+          "answer_explanation": "Divide by multiplying by the reciprocal of the divisor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W1-Q2",
+          "module": 2,
+          "week": 1,
+          "topic": "Dividing Fractions",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/3 ÷ 1/6?",
+          "options": [
+            "4",
+            "1/2",
+            "2/3",
+            "3"
+          ],
+          "correct_answer": "4",
+          "answer_explanation": "Divide by multiplying by the reciprocal of the divisor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W1-Q3",
+          "module": 2,
+          "week": 1,
+          "topic": "Dividing Fractions",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5/6 ÷ 1/3?",
+          "options": [
+            "5/2",
+            "1/2",
+            "2/3",
+            "3"
+          ],
+          "correct_answer": "5/2",
+          "answer_explanation": "Divide by multiplying by the reciprocal of the divisor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W1-Q4",
+          "module": 2,
+          "week": 1,
+          "topic": "Dividing Fractions",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3/5 ÷ 1/5?",
+          "options": [
+            "3",
+            "1/2",
+            "2/3",
+            "3"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "Divide by multiplying by the reciprocal of the divisor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W1-Q5",
+          "module": 2,
+          "week": 1,
+          "topic": "Dividing Fractions",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 7/8 ÷ 1/4?",
+          "options": [
+            "7/2",
+            "1/2",
+            "2/3",
+            "3"
+          ],
+          "correct_answer": "7/2",
+          "answer_explanation": "Divide by multiplying by the reciprocal of the divisor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W2-Q1",
+          "module": 2,
+          "week": 2,
+          "topic": "Fraction Word Problems",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 3/4-meter ribbon is cut into 1/4-meter pieces. How many pieces?",
+          "options": [
+            "3",
+            "1/2",
+            "2",
+            "5"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "Represent the context with fraction division and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W2-Q2",
+          "module": 2,
+          "week": 2,
+          "topic": "Fraction Word Problems",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 2/3-gallon container is poured into 1/6-gallon cups. How many cups?",
+          "options": [
+            "4",
+            "1/2",
+            "2",
+            "5"
+          ],
+          "correct_answer": "4",
+          "answer_explanation": "Represent the context with fraction division and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W2-Q3",
+          "module": 2,
+          "week": 2,
+          "topic": "Fraction Word Problems",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 5/6-mile path is divided into 1/3-mile sections. How many sections?",
+          "options": [
+            "5/2",
+            "1/2",
+            "2",
+            "5"
+          ],
+          "correct_answer": "5/2",
+          "answer_explanation": "Represent the context with fraction division and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W2-Q4",
+          "module": 2,
+          "week": 2,
+          "topic": "Fraction Word Problems",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 3/5-pound bag is divided into 1/5-pound portions. How many portions?",
+          "options": [
+            "3",
+            "1/2",
+            "2",
+            "5"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "Represent the context with fraction division and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W2-Q5",
+          "module": 2,
+          "week": 2,
+          "topic": "Fraction Word Problems",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 7/8-cup amount is divided into 1/4-cup servings. How many servings?",
+          "options": [
+            "7/2",
+            "1/2",
+            "2",
+            "5"
+          ],
+          "correct_answer": "7/2",
+          "answer_explanation": "Represent the context with fraction division and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W3-Q1",
+          "module": 2,
+          "week": 3,
+          "topic": "Multi-Digit Operations",
+          "standard": "6.NS.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Compute 2,345 × 12.",
+          "options": [
+            "28,140",
+            "the number before it",
+            "the number after it",
+            "10 times the answer"
+          ],
+          "correct_answer": "28,140",
+          "answer_explanation": "Use the standard algorithm and check the result for reasonableness."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W3-Q2",
+          "module": 2,
+          "week": 3,
+          "topic": "Multi-Digit Operations",
+          "standard": "6.NS.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Compute 8,640 ÷ 24.",
+          "options": [
+            "360",
+            "the number before it",
+            "the number after it",
+            "10 times the answer"
+          ],
+          "correct_answer": "360",
+          "answer_explanation": "Use the standard algorithm and check the result for reasonableness."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W3-Q3",
+          "module": 2,
+          "week": 3,
+          "topic": "Multi-Digit Operations",
+          "standard": "6.NS.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Compute 1,275 × 16.",
+          "options": [
+            "20,400",
+            "the number before it",
+            "the number after it",
+            "10 times the answer"
+          ],
+          "correct_answer": "20,400",
+          "answer_explanation": "Use the standard algorithm and check the result for reasonableness."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W3-Q4",
+          "module": 2,
+          "week": 3,
+          "topic": "Multi-Digit Operations",
+          "standard": "6.NS.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Compute 9,450 ÷ 35.",
+          "options": [
+            "270",
+            "the number before it",
+            "the number after it",
+            "10 times the answer"
+          ],
+          "correct_answer": "270",
+          "answer_explanation": "Use the standard algorithm and check the result for reasonableness."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W3-Q5",
+          "module": 2,
+          "week": 3,
+          "topic": "Multi-Digit Operations",
+          "standard": "6.NS.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Compute 3,206 × 15.",
+          "options": [
+            "48,090",
+            "the number before it",
+            "the number after it",
+            "10 times the answer"
+          ],
+          "correct_answer": "48,090",
+          "answer_explanation": "Use the standard algorithm and check the result for reasonableness."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W4-Q1",
+          "module": 2,
+          "week": 4,
+          "topic": "GCF & LCM",
+          "standard": "6.NS.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Find the GCF of 18 and 24.",
+          "options": [
+            "6",
+            "2",
+            "12",
+            "18"
+          ],
+          "correct_answer": "6",
+          "answer_explanation": "Use factors or multiples to find the requested value."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W4-Q2",
+          "module": 2,
+          "week": 4,
+          "topic": "GCF & LCM",
+          "standard": "6.NS.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Find the LCM of 6 and 8.",
+          "options": [
+            "24",
+            "2",
+            "12",
+            "18"
+          ],
+          "correct_answer": "24",
+          "answer_explanation": "Use factors or multiples to find the requested value."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W4-Q3",
+          "module": 2,
+          "week": 4,
+          "topic": "GCF & LCM",
+          "standard": "6.NS.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Find the GCF of 20 and 30.",
+          "options": [
+            "10",
+            "2",
+            "12",
+            "18"
+          ],
+          "correct_answer": "10",
+          "answer_explanation": "Use factors or multiples to find the requested value."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W4-Q4",
+          "module": 2,
+          "week": 4,
+          "topic": "GCF & LCM",
+          "standard": "6.NS.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Find the LCM of 9 and 12.",
+          "options": [
+            "36",
+            "2",
+            "12",
+            "18"
+          ],
+          "correct_answer": "36",
+          "answer_explanation": "Use factors or multiples to find the requested value."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W4-Q5",
+          "module": 2,
+          "week": 4,
+          "topic": "GCF & LCM",
+          "standard": "6.NS.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Find the GCF of 28 and 42.",
+          "options": [
+            "14",
+            "2",
+            "12",
+            "18"
+          ],
+          "correct_answer": "14",
+          "answer_explanation": "Use factors or multiples to find the requested value."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W5-Q1",
+          "module": 2,
+          "week": 5,
+          "topic": "Introduction to Integers",
+          "standard": "6.NS.5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Is the integer -5 positive, negative, or neither?",
+          "options": [
+            "negative",
+            "positive",
+            "negative",
+            "both"
+          ],
+          "correct_answer": "negative",
+          "answer_explanation": "Integers greater than zero are positive; those less than zero are negative."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W5-Q2",
+          "module": 2,
+          "week": 5,
+          "topic": "Introduction to Integers",
+          "standard": "6.NS.5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Is the integer 7 positive, negative, or neither?",
+          "options": [
+            "positive",
+            "positive",
+            "negative",
+            "both"
+          ],
+          "correct_answer": "positive",
+          "answer_explanation": "Integers greater than zero are positive; those less than zero are negative."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W5-Q3",
+          "module": 2,
+          "week": 5,
+          "topic": "Introduction to Integers",
+          "standard": "6.NS.5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Is the integer 0 positive, negative, or neither?",
+          "options": [
+            "neither positive nor negative",
+            "positive",
+            "negative",
+            "both"
+          ],
+          "correct_answer": "neither positive nor negative",
+          "answer_explanation": "Integers greater than zero are positive; those less than zero are negative."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W5-Q4",
+          "module": 2,
+          "week": 5,
+          "topic": "Introduction to Integers",
+          "standard": "6.NS.5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Is the integer -12 positive, negative, or neither?",
+          "options": [
+            "negative",
+            "positive",
+            "negative",
+            "both"
+          ],
+          "correct_answer": "negative",
+          "answer_explanation": "Integers greater than zero are positive; those less than zero are negative."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W5-Q5",
+          "module": 2,
+          "week": 5,
+          "topic": "Introduction to Integers",
+          "standard": "6.NS.5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Is the integer 15 positive, negative, or neither?",
+          "options": [
+            "positive",
+            "positive",
+            "negative",
+            "both"
+          ],
+          "correct_answer": "positive",
+          "answer_explanation": "Integers greater than zero are positive; those less than zero are negative."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W6-Q1",
+          "module": 2,
+          "week": 6,
+          "topic": "Number Line & Opposites",
+          "standard": "6.NS.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the opposite of -7?",
+          "options": [
+            "7",
+            "0",
+            "the same number",
+            "1"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "Opposites are the same distance from zero on opposite sides."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W6-Q2",
+          "module": 2,
+          "week": 6,
+          "topic": "Number Line & Opposites",
+          "standard": "6.NS.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the opposite of 4?",
+          "options": [
+            "-4",
+            "0",
+            "the same number",
+            "1"
+          ],
+          "correct_answer": "-4",
+          "answer_explanation": "Opposites are the same distance from zero on opposite sides."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W6-Q3",
+          "module": 2,
+          "week": 6,
+          "topic": "Number Line & Opposites",
+          "standard": "6.NS.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the opposite of -12?",
+          "options": [
+            "12",
+            "0",
+            "the same number",
+            "1"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "Opposites are the same distance from zero on opposite sides."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W6-Q4",
+          "module": 2,
+          "week": 6,
+          "topic": "Number Line & Opposites",
+          "standard": "6.NS.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the opposite of 9?",
+          "options": [
+            "-9",
+            "0",
+            "the same number",
+            "1"
+          ],
+          "correct_answer": "-9",
+          "answer_explanation": "Opposites are the same distance from zero on opposite sides."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W6-Q5",
+          "module": 2,
+          "week": 6,
+          "topic": "Number Line & Opposites",
+          "standard": "6.NS.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the opposite of -3?",
+          "options": [
+            "3",
+            "0",
+            "the same number",
+            "1"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "Opposites are the same distance from zero on opposite sides."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W7-Q1",
+          "module": 2,
+          "week": 7,
+          "topic": "Absolute Value",
+          "standard": "6.NS.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is |-8|?",
+          "options": [
+            "8",
+            "-8",
+            "0",
+            "1"
+          ],
+          "correct_answer": "8",
+          "answer_explanation": "Absolute value is distance from zero."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W7-Q2",
+          "module": 2,
+          "week": 7,
+          "topic": "Absolute Value",
+          "standard": "6.NS.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is |5|?",
+          "options": [
+            "5",
+            "-8",
+            "0",
+            "1"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "Absolute value is distance from zero."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W7-Q3",
+          "module": 2,
+          "week": 7,
+          "topic": "Absolute Value",
+          "standard": "6.NS.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is |-12|?",
+          "options": [
+            "12",
+            "-8",
+            "0",
+            "1"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "Absolute value is distance from zero."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W7-Q4",
+          "module": 2,
+          "week": 7,
+          "topic": "Absolute Value",
+          "standard": "6.NS.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is |0|?",
+          "options": [
+            "0",
+            "-8",
+            "0",
+            "1"
+          ],
+          "correct_answer": "0",
+          "answer_explanation": "Absolute value is distance from zero."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W7-Q5",
+          "module": 2,
+          "week": 7,
+          "topic": "Absolute Value",
+          "standard": "6.NS.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is |-3|?",
+          "options": [
+            "3",
+            "-8",
+            "0",
+            "1"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "Absolute value is distance from zero."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W8-Q1",
+          "module": 2,
+          "week": 8,
+          "topic": "Coordinate Plane (Four Quadrants)",
+          "standard": "6.NS.6/8",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "In which quadrant is the point (-3,2)?",
+          "options": [
+            "Quadrant II",
+            "Quadrant I",
+            "Quadrant II",
+            "Quadrant III"
+          ],
+          "correct_answer": "Quadrant II",
+          "answer_explanation": "The signs of the x- and y-coordinates determine the quadrant."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W8-Q2",
+          "module": 2,
+          "week": 8,
+          "topic": "Coordinate Plane (Four Quadrants)",
+          "standard": "6.NS.6/8",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "In which quadrant is the point (4,-2)?",
+          "options": [
+            "Quadrant IV",
+            "Quadrant I",
+            "Quadrant II",
+            "Quadrant III"
+          ],
+          "correct_answer": "Quadrant IV",
+          "answer_explanation": "The signs of the x- and y-coordinates determine the quadrant."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W8-Q3",
+          "module": 2,
+          "week": 8,
+          "topic": "Coordinate Plane (Four Quadrants)",
+          "standard": "6.NS.6/8",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "In which quadrant is the point (-5,-1)?",
+          "options": [
+            "Quadrant III",
+            "Quadrant I",
+            "Quadrant II",
+            "Quadrant III"
+          ],
+          "correct_answer": "Quadrant III",
+          "answer_explanation": "The signs of the x- and y-coordinates determine the quadrant."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W8-Q4",
+          "module": 2,
+          "week": 8,
+          "topic": "Coordinate Plane (Four Quadrants)",
+          "standard": "6.NS.6/8",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "In which quadrant is the point (2,6)?",
+          "options": [
+            "Quadrant I",
+            "Quadrant I",
+            "Quadrant II",
+            "Quadrant III"
+          ],
+          "correct_answer": "Quadrant I",
+          "answer_explanation": "The signs of the x- and y-coordinates determine the quadrant."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M2-W8-Q5",
+          "module": 2,
+          "week": 8,
+          "topic": "Coordinate Plane (Four Quadrants)",
+          "standard": "6.NS.6/8",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "In which quadrant is the point (-1,4)?",
+          "options": [
+            "Quadrant II",
+            "Quadrant I",
+            "Quadrant II",
+            "Quadrant III"
+          ],
+          "correct_answer": "Quadrant II",
+          "answer_explanation": "The signs of the x- and y-coordinates determine the quadrant."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-MATHEMATICS-MODULE-3",
+      "course": "Grade 6 Mathematics",
+      "grade": 6,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Expressions & Equations",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-MATHEMATICS-M3-W1-Q1",
+          "module": 3,
+          "week": 1,
+          "topic": "Exponents",
+          "standard": "6.EE.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 2^4.",
+          "options": [
+            "16",
+            "8",
+            "12",
+            "20"
+          ],
+          "correct_answer": "16",
+          "answer_explanation": "An exponent shows how many times the base is used as a factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W1-Q2",
+          "module": 3,
+          "week": 1,
+          "topic": "Exponents",
+          "standard": "6.EE.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 3^3.",
+          "options": [
+            "27",
+            "8",
+            "12",
+            "20"
+          ],
+          "correct_answer": "27",
+          "answer_explanation": "An exponent shows how many times the base is used as a factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W1-Q3",
+          "module": 3,
+          "week": 1,
+          "topic": "Exponents",
+          "standard": "6.EE.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 5^2.",
+          "options": [
+            "25",
+            "8",
+            "12",
+            "20"
+          ],
+          "correct_answer": "25",
+          "answer_explanation": "An exponent shows how many times the base is used as a factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W1-Q4",
+          "module": 3,
+          "week": 1,
+          "topic": "Exponents",
+          "standard": "6.EE.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 10^3.",
+          "options": [
+            "1000",
+            "8",
+            "12",
+            "20"
+          ],
+          "correct_answer": "1000",
+          "answer_explanation": "An exponent shows how many times the base is used as a factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W1-Q5",
+          "module": 3,
+          "week": 1,
+          "topic": "Exponents",
+          "standard": "6.EE.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 4^3.",
+          "options": [
+            "64",
+            "8",
+            "12",
+            "20"
+          ],
+          "correct_answer": "64",
+          "answer_explanation": "An exponent shows how many times the base is used as a factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W2-Q1",
+          "module": 3,
+          "week": 2,
+          "topic": "Algebraic Expressions",
+          "standard": "6.EE.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression represents 3 more than x?",
+          "options": [
+            "x + 3",
+            "x - 3",
+            "3x",
+            "x/3"
+          ],
+          "correct_answer": "x + 3",
+          "answer_explanation": "Translate the words into mathematical symbols."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W2-Q2",
+          "module": 3,
+          "week": 2,
+          "topic": "Algebraic Expressions",
+          "standard": "6.EE.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression represents 5 times n?",
+          "options": [
+            "5n",
+            "x - 3",
+            "3x",
+            "x/3"
+          ],
+          "correct_answer": "5n",
+          "answer_explanation": "Translate the words into mathematical symbols."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W2-Q3",
+          "module": 3,
+          "week": 2,
+          "topic": "Algebraic Expressions",
+          "standard": "6.EE.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression represents y decreased by 4?",
+          "options": [
+            "y - 4",
+            "x - 3",
+            "3x",
+            "x/3"
+          ],
+          "correct_answer": "y - 4",
+          "answer_explanation": "Translate the words into mathematical symbols."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W2-Q4",
+          "module": 3,
+          "week": 2,
+          "topic": "Algebraic Expressions",
+          "standard": "6.EE.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression represents twice a number p?",
+          "options": [
+            "2p",
+            "x - 3",
+            "3x",
+            "x/3"
+          ],
+          "correct_answer": "2p",
+          "answer_explanation": "Translate the words into mathematical symbols."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W2-Q5",
+          "module": 3,
+          "week": 2,
+          "topic": "Algebraic Expressions",
+          "standard": "6.EE.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression represents 7 less than a?",
+          "options": [
+            "a - 7",
+            "x - 3",
+            "3x",
+            "x/3"
+          ],
+          "correct_answer": "a - 7",
+          "answer_explanation": "Translate the words into mathematical symbols."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W3-Q1",
+          "module": 3,
+          "week": 3,
+          "topic": "Evaluating Expressions",
+          "standard": "6.EE.2c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 3x + 2 when x=4.",
+          "options": [
+            "14",
+            "10",
+            "12",
+            "20"
+          ],
+          "correct_answer": "14",
+          "answer_explanation": "Substitute the given value for the variable and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W3-Q2",
+          "module": 3,
+          "week": 3,
+          "topic": "Evaluating Expressions",
+          "standard": "6.EE.2c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 2n + 5 when n=6.",
+          "options": [
+            "17",
+            "10",
+            "12",
+            "20"
+          ],
+          "correct_answer": "17",
+          "answer_explanation": "Substitute the given value for the variable and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W3-Q3",
+          "module": 3,
+          "week": 3,
+          "topic": "Evaluating Expressions",
+          "standard": "6.EE.2c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 5a - 1 when a=3.",
+          "options": [
+            "14",
+            "10",
+            "12",
+            "20"
+          ],
+          "correct_answer": "14",
+          "answer_explanation": "Substitute the given value for the variable and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W3-Q4",
+          "module": 3,
+          "week": 3,
+          "topic": "Evaluating Expressions",
+          "standard": "6.EE.2c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 4p + 7 when p=2.",
+          "options": [
+            "15",
+            "10",
+            "12",
+            "20"
+          ],
+          "correct_answer": "15",
+          "answer_explanation": "Substitute the given value for the variable and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W3-Q5",
+          "module": 3,
+          "week": 3,
+          "topic": "Evaluating Expressions",
+          "standard": "6.EE.2c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 6m - 2 when m=5.",
+          "options": [
+            "28",
+            "10",
+            "12",
+            "20"
+          ],
+          "correct_answer": "28",
+          "answer_explanation": "Substitute the given value for the variable and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W4-Q1",
+          "module": 3,
+          "week": 4,
+          "topic": "Equivalent Expressions",
+          "standard": "6.EE.3/4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is equivalent to 3x + 2x?",
+          "options": [
+            "5x",
+            "x + 5",
+            "5",
+            "2x"
+          ],
+          "correct_answer": "5x",
+          "answer_explanation": "Use the distributive property or combine like terms."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W4-Q2",
+          "module": 3,
+          "week": 4,
+          "topic": "Equivalent Expressions",
+          "standard": "6.EE.3/4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is equivalent to 4a + 3 + 2a?",
+          "options": [
+            "6a + 3",
+            "x + 5",
+            "5",
+            "2x"
+          ],
+          "correct_answer": "6a + 3",
+          "answer_explanation": "Use the distributive property or combine like terms."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W4-Q3",
+          "module": 3,
+          "week": 4,
+          "topic": "Equivalent Expressions",
+          "standard": "6.EE.3/4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is equivalent to 2(n + 4)?",
+          "options": [
+            "2n + 8",
+            "x + 5",
+            "5",
+            "2x"
+          ],
+          "correct_answer": "2n + 8",
+          "answer_explanation": "Use the distributive property or combine like terms."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W4-Q4",
+          "module": 3,
+          "week": 4,
+          "topic": "Equivalent Expressions",
+          "standard": "6.EE.3/4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is equivalent to 5y - 2y?",
+          "options": [
+            "3y",
+            "x + 5",
+            "5",
+            "2x"
+          ],
+          "correct_answer": "3y",
+          "answer_explanation": "Use the distributive property or combine like terms."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W4-Q5",
+          "module": 3,
+          "week": 4,
+          "topic": "Equivalent Expressions",
+          "standard": "6.EE.3/4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is equivalent to 3(p + 2)?",
+          "options": [
+            "3p + 6",
+            "x + 5",
+            "5",
+            "2x"
+          ],
+          "correct_answer": "3p + 6",
+          "answer_explanation": "Use the distributive property or combine like terms."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W5-Q1",
+          "module": 3,
+          "week": 5,
+          "topic": "One-Variable Equations",
+          "standard": "6.EE.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve x + 7 = 12.",
+          "options": [
+            "x = 5",
+            "x = 3",
+            "x = 9",
+            "x = 12"
+          ],
+          "correct_answer": "x = 5",
+          "answer_explanation": "Use inverse operations to isolate the variable."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W5-Q2",
+          "module": 3,
+          "week": 5,
+          "topic": "One-Variable Equations",
+          "standard": "6.EE.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve 3x = 21.",
+          "options": [
+            "x = 7",
+            "x = 3",
+            "x = 9",
+            "x = 12"
+          ],
+          "correct_answer": "x = 7",
+          "answer_explanation": "Use inverse operations to isolate the variable."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W5-Q3",
+          "module": 3,
+          "week": 5,
+          "topic": "One-Variable Equations",
+          "standard": "6.EE.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve y - 4 = 9.",
+          "options": [
+            "y = 13",
+            "x = 3",
+            "x = 9",
+            "x = 12"
+          ],
+          "correct_answer": "y = 13",
+          "answer_explanation": "Use inverse operations to isolate the variable."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W5-Q4",
+          "module": 3,
+          "week": 5,
+          "topic": "One-Variable Equations",
+          "standard": "6.EE.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve 2n + 1 = 11.",
+          "options": [
+            "n = 5",
+            "x = 3",
+            "x = 9",
+            "x = 12"
+          ],
+          "correct_answer": "n = 5",
+          "answer_explanation": "Use inverse operations to isolate the variable."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W5-Q5",
+          "module": 3,
+          "week": 5,
+          "topic": "One-Variable Equations",
+          "standard": "6.EE.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve p/4 = 6.",
+          "options": [
+            "p = 24",
+            "x = 3",
+            "x = 9",
+            "x = 12"
+          ],
+          "correct_answer": "p = 24",
+          "answer_explanation": "Use inverse operations to isolate the variable."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W6-Q1",
+          "module": 3,
+          "week": 6,
+          "topic": "One-Variable Inequalities",
+          "standard": "6.EE.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve x + 3 > 7.",
+          "options": [
+            "x > 4",
+            "x < 4",
+            "x = 4",
+            "x ≥ 4"
+          ],
+          "correct_answer": "x > 4",
+          "answer_explanation": "Use inverse operations and preserve the inequality direction."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W6-Q2",
+          "module": 3,
+          "week": 6,
+          "topic": "One-Variable Inequalities",
+          "standard": "6.EE.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve 2x ≤ 10.",
+          "options": [
+            "x ≤ 5",
+            "x < 4",
+            "x = 4",
+            "x ≥ 4"
+          ],
+          "correct_answer": "x ≤ 5",
+          "answer_explanation": "Use inverse operations and preserve the inequality direction."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W6-Q3",
+          "module": 3,
+          "week": 6,
+          "topic": "One-Variable Inequalities",
+          "standard": "6.EE.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve y - 2 < 6.",
+          "options": [
+            "y < 8",
+            "x < 4",
+            "x = 4",
+            "x ≥ 4"
+          ],
+          "correct_answer": "y < 8",
+          "answer_explanation": "Use inverse operations and preserve the inequality direction."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W6-Q4",
+          "module": 3,
+          "week": 6,
+          "topic": "One-Variable Inequalities",
+          "standard": "6.EE.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve 3n ≥ 12.",
+          "options": [
+            "n ≥ 4",
+            "x < 4",
+            "x = 4",
+            "x ≥ 4"
+          ],
+          "correct_answer": "n ≥ 4",
+          "answer_explanation": "Use inverse operations and preserve the inequality direction."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W6-Q5",
+          "module": 3,
+          "week": 6,
+          "topic": "One-Variable Inequalities",
+          "standard": "6.EE.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve p + 5 ≤ 9.",
+          "options": [
+            "p ≤ 4",
+            "x < 4",
+            "x = 4",
+            "x ≥ 4"
+          ],
+          "correct_answer": "p ≤ 4",
+          "answer_explanation": "Use inverse operations and preserve the inequality direction."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W7-Q1",
+          "module": 3,
+          "week": 7,
+          "topic": "6.EE.9",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In the relationship “total cost depends on number of notebooks,” which is the independent variable?",
+          "options": "Number of notebooks",
+          "correct_answer": "The independent variable is the input that determines the dependent quantity.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W7-Q2",
+          "module": 3,
+          "week": 7,
+          "topic": "6.EE.9",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In the relationship “total cost depends on number of notebooks,” which is the independent variable?",
+          "options": "Number of notebooks",
+          "correct_answer": "The independent variable is the input that determines the dependent quantity.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W7-Q3",
+          "module": 3,
+          "week": 7,
+          "topic": "6.EE.9",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In the relationship “total cost depends on number of notebooks,” which is the independent variable?",
+          "options": "Number of notebooks",
+          "correct_answer": "The independent variable is the input that determines the dependent quantity.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W7-Q4",
+          "module": 3,
+          "week": 7,
+          "topic": "6.EE.9",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In the relationship “total cost depends on number of notebooks,” which is the independent variable?",
+          "options": "Number of notebooks",
+          "correct_answer": "The independent variable is the input that determines the dependent quantity.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W7-Q5",
+          "module": 3,
+          "week": 7,
+          "topic": "6.EE.9",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In the relationship “total cost depends on number of notebooks,” which is the independent variable?",
+          "options": "Number of notebooks",
+          "correct_answer": "The independent variable is the input that determines the dependent quantity.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W8-Q1",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.EE",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W8-Q2",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.EE",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W8-Q3",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.EE",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W8-Q4",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.EE",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M3-W8-Q5",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.EE",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-MATHEMATICS-MODULE-4",
+      "course": "Grade 6 Mathematics",
+      "grade": 6,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Geometry & Statistics",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-MATHEMATICS-M4-W1-Q1",
+          "module": 4,
+          "week": 1,
+          "topic": "Area of Triangles & Quadrilaterals",
+          "standard": "6.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the area of a triangle with base 8 and height 5.",
+          "options": [
+            "20 square units",
+            "the perimeter",
+            "twice the area",
+            "10 square units"
+          ],
+          "correct_answer": "20 square units",
+          "answer_explanation": "Use the appropriate area formula for the figure."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W1-Q2",
+          "module": 4,
+          "week": 1,
+          "topic": "Area of Triangles & Quadrilaterals",
+          "standard": "6.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the area of a rectangle 6 by 4.",
+          "options": [
+            "24 square units",
+            "the perimeter",
+            "twice the area",
+            "10 square units"
+          ],
+          "correct_answer": "24 square units",
+          "answer_explanation": "Use the appropriate area formula for the figure."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W1-Q3",
+          "module": 4,
+          "week": 1,
+          "topic": "Area of Triangles & Quadrilaterals",
+          "standard": "6.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the area of a parallelogram base 7 height 3.",
+          "options": [
+            "21 square units",
+            "the perimeter",
+            "twice the area",
+            "10 square units"
+          ],
+          "correct_answer": "21 square units",
+          "answer_explanation": "Use the appropriate area formula for the figure."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W1-Q4",
+          "module": 4,
+          "week": 1,
+          "topic": "Area of Triangles & Quadrilaterals",
+          "standard": "6.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the area of a triangle base 10 height 6.",
+          "options": [
+            "30 square units",
+            "the perimeter",
+            "twice the area",
+            "10 square units"
+          ],
+          "correct_answer": "30 square units",
+          "answer_explanation": "Use the appropriate area formula for the figure."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W1-Q5",
+          "module": 4,
+          "week": 1,
+          "topic": "Area of Triangles & Quadrilaterals",
+          "standard": "6.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the area of a rectangle 9 by 5.",
+          "options": [
+            "45 square units",
+            "the perimeter",
+            "twice the area",
+            "10 square units"
+          ],
+          "correct_answer": "45 square units",
+          "answer_explanation": "Use the appropriate area formula for the figure."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W2-Q1",
+          "module": 4,
+          "week": 2,
+          "topic": "Volume with Fractional Edges",
+          "standard": "6.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the volume for dimensions 1/2 × 2 × 4.",
+          "options": [
+            "4 cubic units",
+            "2 cubic units",
+            "8 cubic units",
+            "10 cubic units"
+          ],
+          "correct_answer": "4 cubic units",
+          "answer_explanation": "Volume = length × width × height."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W2-Q2",
+          "module": 4,
+          "week": 2,
+          "topic": "Volume with Fractional Edges",
+          "standard": "6.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the volume for dimensions 1/2 × 3 × 2.",
+          "options": [
+            "3 cubic units",
+            "2 cubic units",
+            "8 cubic units",
+            "10 cubic units"
+          ],
+          "correct_answer": "3 cubic units",
+          "answer_explanation": "Volume = length × width × height."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W2-Q3",
+          "module": 4,
+          "week": 2,
+          "topic": "Volume with Fractional Edges",
+          "standard": "6.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the volume for dimensions 1/4 × 4 × 2.",
+          "options": [
+            "2 cubic units",
+            "2 cubic units",
+            "8 cubic units",
+            "10 cubic units"
+          ],
+          "correct_answer": "2 cubic units",
+          "answer_explanation": "Volume = length × width × height."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W2-Q4",
+          "module": 4,
+          "week": 2,
+          "topic": "Volume with Fractional Edges",
+          "standard": "6.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the volume for dimensions 3/2 × 2 × 2.",
+          "options": [
+            "6 cubic units",
+            "2 cubic units",
+            "8 cubic units",
+            "10 cubic units"
+          ],
+          "correct_answer": "6 cubic units",
+          "answer_explanation": "Volume = length × width × height."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W2-Q5",
+          "module": 4,
+          "week": 2,
+          "topic": "Volume with Fractional Edges",
+          "standard": "6.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the volume for dimensions 1/2 × 5 × 2.",
+          "options": [
+            "5 cubic units",
+            "2 cubic units",
+            "8 cubic units",
+            "10 cubic units"
+          ],
+          "correct_answer": "5 cubic units",
+          "answer_explanation": "Volume = length × width × height."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W3-Q1",
+          "module": 4,
+          "week": 3,
+          "topic": "Polygons on the Coordinate Plane",
+          "standard": "6.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which coordinates can be used as vertices of a polygon on the coordinate plane?",
+          "options": [
+            "(1,1), (4,1), (4,3), (1,3)",
+            "Only (0,0)",
+            "Only positive y-values",
+            "A single point"
+          ],
+          "correct_answer": "(1,1), (4,1), (4,3), (1,3)",
+          "answer_explanation": "A polygon is formed by connecting multiple vertices."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W3-Q2",
+          "module": 4,
+          "week": 3,
+          "topic": "Polygons on the Coordinate Plane",
+          "standard": "6.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which coordinates can be used as vertices of a polygon on the coordinate plane?",
+          "options": [
+            "(1,1), (4,1), (4,3), (1,3)",
+            "Only (0,0)",
+            "Only positive y-values",
+            "A single point"
+          ],
+          "correct_answer": "(1,1), (4,1), (4,3), (1,3)",
+          "answer_explanation": "A polygon is formed by connecting multiple vertices."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W3-Q3",
+          "module": 4,
+          "week": 3,
+          "topic": "Polygons on the Coordinate Plane",
+          "standard": "6.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which coordinates can be used as vertices of a polygon on the coordinate plane?",
+          "options": [
+            "(1,1), (4,1), (4,3), (1,3)",
+            "Only (0,0)",
+            "Only positive y-values",
+            "A single point"
+          ],
+          "correct_answer": "(1,1), (4,1), (4,3), (1,3)",
+          "answer_explanation": "A polygon is formed by connecting multiple vertices."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W3-Q4",
+          "module": 4,
+          "week": 3,
+          "topic": "Polygons on the Coordinate Plane",
+          "standard": "6.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which coordinates can be used as vertices of a polygon on the coordinate plane?",
+          "options": [
+            "(1,1), (4,1), (4,3), (1,3)",
+            "Only (0,0)",
+            "Only positive y-values",
+            "A single point"
+          ],
+          "correct_answer": "(1,1), (4,1), (4,3), (1,3)",
+          "answer_explanation": "A polygon is formed by connecting multiple vertices."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W3-Q5",
+          "module": 4,
+          "week": 3,
+          "topic": "Polygons on the Coordinate Plane",
+          "standard": "6.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which coordinates can be used as vertices of a polygon on the coordinate plane?",
+          "options": [
+            "(1,1), (4,1), (4,3), (1,3)",
+            "Only (0,0)",
+            "Only positive y-values",
+            "A single point"
+          ],
+          "correct_answer": "(1,1), (4,1), (4,3), (1,3)",
+          "answer_explanation": "A polygon is formed by connecting multiple vertices."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W4-Q1",
+          "module": 4,
+          "week": 4,
+          "topic": "6.G.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a net of a rectangular prism show?",
+          "options": "The faces unfolded into a flat pattern",
+          "correct_answer": "A net represents the faces of a solid laid out flat.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W4-Q2",
+          "module": 4,
+          "week": 4,
+          "topic": "6.G.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a net of a rectangular prism show?",
+          "options": "The faces unfolded into a flat pattern",
+          "correct_answer": "A net represents the faces of a solid laid out flat.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W4-Q3",
+          "module": 4,
+          "week": 4,
+          "topic": "6.G.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a net of a rectangular prism show?",
+          "options": "The faces unfolded into a flat pattern",
+          "correct_answer": "A net represents the faces of a solid laid out flat.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W4-Q4",
+          "module": 4,
+          "week": 4,
+          "topic": "6.G.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a net of a rectangular prism show?",
+          "options": "The faces unfolded into a flat pattern",
+          "correct_answer": "A net represents the faces of a solid laid out flat.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W4-Q5",
+          "module": 4,
+          "week": 4,
+          "topic": "6.G.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a net of a rectangular prism show?",
+          "options": "The faces unfolded into a flat pattern",
+          "correct_answer": "A net represents the faces of a solid laid out flat.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W5-Q1",
+          "module": 4,
+          "week": 5,
+          "topic": "6.SP.1",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a statistical question?",
+          "options": "How many minutes do students in our class read each day?",
+          "correct_answer": "It anticipates variability in the answers.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W5-Q2",
+          "module": 4,
+          "week": 5,
+          "topic": "6.SP.1",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a statistical question?",
+          "options": "How many minutes do students in our class read each day?",
+          "correct_answer": "It anticipates variability in the answers.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W5-Q3",
+          "module": 4,
+          "week": 5,
+          "topic": "6.SP.1",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a statistical question?",
+          "options": "How many minutes do students in our class read each day?",
+          "correct_answer": "It anticipates variability in the answers.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W5-Q4",
+          "module": 4,
+          "week": 5,
+          "topic": "6.SP.1",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a statistical question?",
+          "options": "How many minutes do students in our class read each day?",
+          "correct_answer": "It anticipates variability in the answers.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W5-Q5",
+          "module": 4,
+          "week": 5,
+          "topic": "6.SP.1",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a statistical question?",
+          "options": "How many minutes do students in our class read each day?",
+          "correct_answer": "It anticipates variability in the answers.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W6-Q1",
+          "module": 4,
+          "week": 6,
+          "topic": "Measures of Center",
+          "standard": "6.SP.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the mean of 2,4,6?",
+          "options": [
+            "4",
+            "2",
+            "6",
+            "8"
+          ],
+          "correct_answer": "4",
+          "answer_explanation": "Apply the definition of the requested measure of center."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W6-Q2",
+          "module": 4,
+          "week": 6,
+          "topic": "Measures of Center",
+          "standard": "6.SP.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the median of 3,5,9?",
+          "options": [
+            "5",
+            "2",
+            "6",
+            "8"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "Apply the definition of the requested measure of center."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W6-Q3",
+          "module": 4,
+          "week": 6,
+          "topic": "Measures of Center",
+          "standard": "6.SP.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the mode of 2,2,3,4?",
+          "options": [
+            "2",
+            "2",
+            "6",
+            "8"
+          ],
+          "correct_answer": "2",
+          "answer_explanation": "Apply the definition of the requested measure of center."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W6-Q4",
+          "module": 4,
+          "week": 6,
+          "topic": "Measures of Center",
+          "standard": "6.SP.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the mean of 5,7,8?",
+          "options": [
+            "20/3",
+            "2",
+            "6",
+            "8"
+          ],
+          "correct_answer": "20/3",
+          "answer_explanation": "Apply the definition of the requested measure of center."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W6-Q5",
+          "module": 4,
+          "week": 6,
+          "topic": "Measures of Center",
+          "standard": "6.SP.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the median of 1,4,7,10?",
+          "options": [
+            "5.5",
+            "2",
+            "6",
+            "8"
+          ],
+          "correct_answer": "5.5",
+          "answer_explanation": "Apply the definition of the requested measure of center."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W7-Q1",
+          "module": 4,
+          "week": 7,
+          "topic": "6.SP.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which display is especially useful for showing the distribution of numerical data and identifying clusters or gaps?",
+          "options": "A histogram",
+          "correct_answer": "Histograms group numerical data into intervals.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W7-Q2",
+          "module": 4,
+          "week": 7,
+          "topic": "6.SP.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which display is especially useful for showing the distribution of numerical data and identifying clusters or gaps?",
+          "options": "A histogram",
+          "correct_answer": "Histograms group numerical data into intervals.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W7-Q3",
+          "module": 4,
+          "week": 7,
+          "topic": "6.SP.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which display is especially useful for showing the distribution of numerical data and identifying clusters or gaps?",
+          "options": "A histogram",
+          "correct_answer": "Histograms group numerical data into intervals.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W7-Q4",
+          "module": 4,
+          "week": 7,
+          "topic": "6.SP.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which display is especially useful for showing the distribution of numerical data and identifying clusters or gaps?",
+          "options": "A histogram",
+          "correct_answer": "Histograms group numerical data into intervals.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W7-Q5",
+          "module": 4,
+          "week": 7,
+          "topic": "6.SP.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which display is especially useful for showing the distribution of numerical data and identifying clusters or gaps?",
+          "options": "A histogram",
+          "correct_answer": "Histograms group numerical data into intervals.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W8-Q1",
+          "module": 4,
+          "week": 8,
+          "topic": "Analyzing Data",
+          "standard": "6.SP.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two data sets have the same median but one has a much larger spread, what differs?",
+          "options": [
+            "Their variability",
+            "Their median",
+            "Their number of variables",
+            "Their coordinate system"
+          ],
+          "correct_answer": "Their variability",
+          "answer_explanation": "Spread describes how much the data values differ."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W8-Q2",
+          "module": 4,
+          "week": 8,
+          "topic": "Analyzing Data",
+          "standard": "6.SP.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two data sets have the same median but one has a much larger spread, what differs?",
+          "options": [
+            "Their variability",
+            "Their median",
+            "Their number of variables",
+            "Their coordinate system"
+          ],
+          "correct_answer": "Their variability",
+          "answer_explanation": "Spread describes how much the data values differ."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W8-Q3",
+          "module": 4,
+          "week": 8,
+          "topic": "Analyzing Data",
+          "standard": "6.SP.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two data sets have the same median but one has a much larger spread, what differs?",
+          "options": [
+            "Their variability",
+            "Their median",
+            "Their number of variables",
+            "Their coordinate system"
+          ],
+          "correct_answer": "Their variability",
+          "answer_explanation": "Spread describes how much the data values differ."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W8-Q4",
+          "module": 4,
+          "week": 8,
+          "topic": "Analyzing Data",
+          "standard": "6.SP.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two data sets have the same median but one has a much larger spread, what differs?",
+          "options": [
+            "Their variability",
+            "Their median",
+            "Their number of variables",
+            "Their coordinate system"
+          ],
+          "correct_answer": "Their variability",
+          "answer_explanation": "Spread describes how much the data values differ."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-M4-W8-Q5",
+          "module": 4,
+          "week": 8,
+          "topic": "Analyzing Data",
+          "standard": "6.SP.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two data sets have the same median but one has a much larger spread, what differs?",
+          "options": [
+            "Their variability",
+            "Their median",
+            "Their number of variables",
+            "Their coordinate system"
+          ],
+          "correct_answer": "Their variability",
+          "answer_explanation": "Spread describes how much the data values differ."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-MATHEMATICS-MOCK-1",
+      "course": "Grade 6 Mathematics",
+      "grade": 6,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Ratios",
+          "standard": "6.RP.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What does the ratio 7:9 mean?",
+          "options": [
+            "7 to 9",
+            "the sum of the two numbers",
+            "the difference of the two numbers",
+            "the product of the two numbers"
+          ],
+          "correct_answer": "7 to 9",
+          "answer_explanation": "A ratio compares two quantities in a specified order."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Unit Rates",
+          "standard": "6.RP.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the unit rate for 30 apples in 5 bags?",
+          "options": [
+            "6 apples per bag",
+            "the total of the quantities",
+            "the product of the quantities",
+            "twice the larger quantity"
+          ],
+          "correct_answer": "6 apples per bag",
+          "answer_explanation": "A unit rate gives the amount for one unit of the second quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Ratio Tables",
+          "standard": "6.RP.3a",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Complete the ratio table: 2:9, 4:18, 6:?",
+          "options": [
+            "27",
+            "8",
+            "12",
+            "18"
+          ],
+          "correct_answer": "27",
+          "answer_explanation": "Equivalent ratios are found by multiplying both terms by the same factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Graphing Ratios",
+          "standard": "6.RP.3a",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A graph of a proportional relationship passes through which point?",
+          "options": [
+            "(0,0)",
+            "(1,0) only",
+            "(0,1) only",
+            "(2,3) only"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "A proportional relationship has a graph through the origin."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Solving Rate Problems",
+          "standard": "6.RP.3b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A printer makes 40 pages in 5 minutes. How many in 8 minutes?",
+          "options": [
+            "64 pages",
+            "the same amount as one hour",
+            "the original amount",
+            "twice the original amount"
+          ],
+          "correct_answer": "64 pages",
+          "answer_explanation": "Find the unit rate, then multiply by the new amount of time."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Percents",
+          "standard": "6.RP.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 50% of 36?",
+          "options": [
+            "18",
+            "10",
+            "40",
+            "80"
+          ],
+          "correct_answer": "18",
+          "answer_explanation": "A percent is a rate per 100; multiply the decimal form by the quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Measurement Conversions",
+          "standard": "6.RP.3d",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 5 yards.",
+          "options": [
+            "15 feet",
+            "20 centimeters",
+            "300 grams",
+            "24 inches"
+          ],
+          "correct_answer": "15 feet",
+          "answer_explanation": "Use a ratio or standard conversion factor between the units."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.RP",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Dividing Fractions",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5/6 ÷ 1/3?",
+          "options": [
+            "5/2",
+            "1/2",
+            "2/3",
+            "3"
+          ],
+          "correct_answer": "5/2",
+          "answer_explanation": "Divide by multiplying by the reciprocal of the divisor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Fraction Word Problems",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 3/5-pound bag is divided into 1/5-pound portions. How many portions?",
+          "options": [
+            "3",
+            "1/2",
+            "2",
+            "5"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "Represent the context with fraction division and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Multi-Digit Operations",
+          "standard": "6.NS.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Compute 3,206 × 15.",
+          "options": [
+            "48,090",
+            "the number before it",
+            "the number after it",
+            "10 times the answer"
+          ],
+          "correct_answer": "48,090",
+          "answer_explanation": "Use the standard algorithm and check the result for reasonableness."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "GCF & LCM",
+          "standard": "6.NS.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Find the GCF of 18 and 24.",
+          "options": [
+            "6",
+            "2",
+            "12",
+            "18"
+          ],
+          "correct_answer": "6",
+          "answer_explanation": "Use factors or multiples to find the requested value."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Introduction to Integers",
+          "standard": "6.NS.5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Is the integer 7 positive, negative, or neither?",
+          "options": [
+            "positive",
+            "positive",
+            "negative",
+            "both"
+          ],
+          "correct_answer": "positive",
+          "answer_explanation": "Integers greater than zero are positive; those less than zero are negative."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Number Line & Opposites",
+          "standard": "6.NS.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the opposite of -12?",
+          "options": [
+            "12",
+            "0",
+            "the same number",
+            "1"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "Opposites are the same distance from zero on opposite sides."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Absolute Value",
+          "standard": "6.NS.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is |0|?",
+          "options": [
+            "0",
+            "-8",
+            "0",
+            "1"
+          ],
+          "correct_answer": "0",
+          "answer_explanation": "Absolute value is distance from zero."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Coordinate Plane (Four Quadrants)",
+          "standard": "6.NS.6/8",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "In which quadrant is the point (-1,4)?",
+          "options": [
+            "Quadrant II",
+            "Quadrant I",
+            "Quadrant II",
+            "Quadrant III"
+          ],
+          "correct_answer": "Quadrant II",
+          "answer_explanation": "The signs of the x- and y-coordinates determine the quadrant."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "Exponents",
+          "standard": "6.EE.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 5^2.",
+          "options": [
+            "25",
+            "8",
+            "12",
+            "20"
+          ],
+          "correct_answer": "25",
+          "answer_explanation": "An exponent shows how many times the base is used as a factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Algebraic Expressions",
+          "standard": "6.EE.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression represents twice a number p?",
+          "options": [
+            "2p",
+            "x - 3",
+            "3x",
+            "x/3"
+          ],
+          "correct_answer": "2p",
+          "answer_explanation": "Translate the words into mathematical symbols."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "Evaluating Expressions",
+          "standard": "6.EE.2c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 6m - 2 when m=5.",
+          "options": [
+            "28",
+            "10",
+            "12",
+            "20"
+          ],
+          "correct_answer": "28",
+          "answer_explanation": "Substitute the given value for the variable and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Equivalent Expressions",
+          "standard": "6.EE.3/4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is equivalent to 3x + 2x?",
+          "options": [
+            "5x",
+            "x + 5",
+            "5",
+            "2x"
+          ],
+          "correct_answer": "5x",
+          "answer_explanation": "Use the distributive property or combine like terms."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "One-Variable Equations",
+          "standard": "6.EE.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve 3x = 21.",
+          "options": [
+            "x = 7",
+            "x = 3",
+            "x = 9",
+            "x = 12"
+          ],
+          "correct_answer": "x = 7",
+          "answer_explanation": "Use inverse operations to isolate the variable."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "One-Variable Inequalities",
+          "standard": "6.EE.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve y - 2 < 6.",
+          "options": [
+            "y < 8",
+            "x < 4",
+            "x = 4",
+            "x ≥ 4"
+          ],
+          "correct_answer": "y < 8",
+          "answer_explanation": "Use inverse operations and preserve the inequality direction."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "6.EE.9",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In the relationship “total cost depends on number of notebooks,” which is the independent variable?",
+          "options": "Number of notebooks",
+          "correct_answer": "The independent variable is the input that determines the dependent quantity.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.EE",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "Area of Triangles & Quadrilaterals",
+          "standard": "6.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the area of a parallelogram base 7 height 3.",
+          "options": [
+            "21 square units",
+            "the perimeter",
+            "twice the area",
+            "10 square units"
+          ],
+          "correct_answer": "21 square units",
+          "answer_explanation": "Use the appropriate area formula for the figure."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Volume with Fractional Edges",
+          "standard": "6.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the volume for dimensions 3/2 × 2 × 2.",
+          "options": [
+            "6 cubic units",
+            "2 cubic units",
+            "8 cubic units",
+            "10 cubic units"
+          ],
+          "correct_answer": "6 cubic units",
+          "answer_explanation": "Volume = length × width × height."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Polygons on the Coordinate Plane",
+          "standard": "6.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which coordinates can be used as vertices of a polygon on the coordinate plane?",
+          "options": [
+            "(1,1), (4,1), (4,3), (1,3)",
+            "Only (0,0)",
+            "Only positive y-values",
+            "A single point"
+          ],
+          "correct_answer": "(1,1), (4,1), (4,3), (1,3)",
+          "answer_explanation": "A polygon is formed by connecting multiple vertices."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "6.G.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a net of a rectangular prism show?",
+          "options": "The faces unfolded into a flat pattern",
+          "correct_answer": "A net represents the faces of a solid laid out flat.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "6.SP.1",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a statistical question?",
+          "options": "How many minutes do students in our class read each day?",
+          "correct_answer": "It anticipates variability in the answers.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Measures of Center",
+          "standard": "6.SP.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the mode of 2,2,3,4?",
+          "options": [
+            "2",
+            "2",
+            "6",
+            "8"
+          ],
+          "correct_answer": "2",
+          "answer_explanation": "Apply the definition of the requested measure of center."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "6.SP.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which display is especially useful for showing the distribution of numerical data and identifying clusters or gaps?",
+          "options": "A histogram",
+          "correct_answer": "Histograms group numerical data into intervals.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Analyzing Data",
+          "standard": "6.SP.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two data sets have the same median but one has a much larger spread, what differs?",
+          "options": [
+            "Their variability",
+            "Their median",
+            "Their number of variables",
+            "Their coordinate system"
+          ],
+          "correct_answer": "Their variability",
+          "answer_explanation": "Spread describes how much the data values differ."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q33",
+          "module": 1,
+          "week": 2,
+          "topic": "Unit Rates",
+          "standard": "6.RP.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the unit rate for 84 pages in 4 days?",
+          "options": [
+            "21 pages per day",
+            "the total of the quantities",
+            "the product of the quantities",
+            "twice the larger quantity"
+          ],
+          "correct_answer": "21 pages per day",
+          "answer_explanation": "A unit rate gives the amount for one unit of the second quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q34",
+          "module": 2,
+          "week": 5,
+          "topic": "Introduction to Integers",
+          "standard": "6.NS.5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Is the integer -12 positive, negative, or neither?",
+          "options": [
+            "negative",
+            "positive",
+            "negative",
+            "both"
+          ],
+          "correct_answer": "negative",
+          "answer_explanation": "Integers greater than zero are positive; those less than zero are negative."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q35",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.EE",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q36",
+          "module": 4,
+          "week": 3,
+          "topic": "Polygons on the Coordinate Plane",
+          "standard": "6.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which coordinates can be used as vertices of a polygon on the coordinate plane?",
+          "options": [
+            "(1,1), (4,1), (4,3), (1,3)",
+            "Only (0,0)",
+            "Only positive y-values",
+            "A single point"
+          ],
+          "correct_answer": "(1,1), (4,1), (4,3), (1,3)",
+          "answer_explanation": "A polygon is formed by connecting multiple vertices."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q37",
+          "module": 1,
+          "week": 6,
+          "topic": "Percents",
+          "standard": "6.RP.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 10% of 250?",
+          "options": [
+            "25",
+            "10",
+            "40",
+            "80"
+          ],
+          "correct_answer": "25",
+          "answer_explanation": "A percent is a rate per 100; multiply the decimal form by the quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q38",
+          "module": 2,
+          "week": 1,
+          "topic": "Dividing Fractions",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 5/6 ÷ 1/3?",
+          "options": [
+            "5/2",
+            "1/2",
+            "2/3",
+            "3"
+          ],
+          "correct_answer": "5/2",
+          "answer_explanation": "Divide by multiplying by the reciprocal of the divisor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q39",
+          "module": 3,
+          "week": 4,
+          "topic": "Equivalent Expressions",
+          "standard": "6.EE.3/4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is equivalent to 5y - 2y?",
+          "options": [
+            "3y",
+            "x + 5",
+            "5",
+            "2x"
+          ],
+          "correct_answer": "3y",
+          "answer_explanation": "Use the distributive property or combine like terms."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-1-Q40",
+          "module": 4,
+          "week": 7,
+          "topic": "6.SP.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which display is especially useful for showing the distribution of numerical data and identifying clusters or gaps?",
+          "options": "A histogram",
+          "correct_answer": "Histograms group numerical data into intervals.",
+          "answer_explanation": null
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-MATHEMATICS-MOCK-2",
+      "course": "Grade 6 Mathematics",
+      "grade": 6,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Understanding Ratios",
+          "standard": "6.RP.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What does the ratio 2:5 mean?",
+          "options": [
+            "2 to 5",
+            "the sum of the two numbers",
+            "the difference of the two numbers",
+            "the product of the two numbers"
+          ],
+          "correct_answer": "2 to 5",
+          "answer_explanation": "A ratio compares two quantities in a specified order."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Unit Rates",
+          "standard": "6.RP.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the unit rate for 90 miles in 2 hours?",
+          "options": [
+            "45 miles per hour",
+            "the total of the quantities",
+            "the product of the quantities",
+            "twice the larger quantity"
+          ],
+          "correct_answer": "45 miles per hour",
+          "answer_explanation": "A unit rate gives the amount for one unit of the second quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Ratio Tables",
+          "standard": "6.RP.3a",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Complete the ratio table: 2:3, 4:6, 6:?",
+          "options": [
+            "9",
+            "8",
+            "12",
+            "18"
+          ],
+          "correct_answer": "9",
+          "answer_explanation": "Equivalent ratios are found by multiplying both terms by the same factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Graphing Ratios",
+          "standard": "6.RP.3a",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A graph of a proportional relationship passes through which point?",
+          "options": [
+            "(0,0)",
+            "(1,0) only",
+            "(0,1) only",
+            "(2,3) only"
+          ],
+          "correct_answer": "(0,0)",
+          "answer_explanation": "A proportional relationship has a graph through the origin."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Solving Rate Problems",
+          "standard": "6.RP.3b",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A runner travels 12 miles in 2 hours. How far in 5 hours?",
+          "options": [
+            "30 miles",
+            "the same amount as one hour",
+            "the original amount",
+            "twice the original amount"
+          ],
+          "correct_answer": "30 miles",
+          "answer_explanation": "Find the unit rate, then multiply by the new amount of time."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Percents",
+          "standard": "6.RP.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 20% of 150?",
+          "options": [
+            "30",
+            "10",
+            "40",
+            "80"
+          ],
+          "correct_answer": "30",
+          "answer_explanation": "A percent is a rate per 100; multiply the decimal form by the quantity."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Measurement Conversions",
+          "standard": "6.RP.3d",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 2 miles.",
+          "options": [
+            "10,560 feet",
+            "20 centimeters",
+            "300 grams",
+            "24 inches"
+          ],
+          "correct_answer": "10,560 feet",
+          "answer_explanation": "Use a ratio or standard conversion factor between the units."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.RP",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Dividing Fractions",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3/5 ÷ 1/5?",
+          "options": [
+            "3",
+            "1/2",
+            "2/3",
+            "3"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "Divide by multiplying by the reciprocal of the divisor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Fraction Word Problems",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 7/8-cup amount is divided into 1/4-cup servings. How many servings?",
+          "options": [
+            "7/2",
+            "1/2",
+            "2",
+            "5"
+          ],
+          "correct_answer": "7/2",
+          "answer_explanation": "Represent the context with fraction division and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Multi-Digit Operations",
+          "standard": "6.NS.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Compute 2,345 × 12.",
+          "options": [
+            "28,140",
+            "the number before it",
+            "the number after it",
+            "10 times the answer"
+          ],
+          "correct_answer": "28,140",
+          "answer_explanation": "Use the standard algorithm and check the result for reasonableness."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "GCF & LCM",
+          "standard": "6.NS.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Find the LCM of 6 and 8.",
+          "options": [
+            "24",
+            "2",
+            "12",
+            "18"
+          ],
+          "correct_answer": "24",
+          "answer_explanation": "Use factors or multiples to find the requested value."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Introduction to Integers",
+          "standard": "6.NS.5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Is the integer 0 positive, negative, or neither?",
+          "options": [
+            "neither positive nor negative",
+            "positive",
+            "negative",
+            "both"
+          ],
+          "correct_answer": "neither positive nor negative",
+          "answer_explanation": "Integers greater than zero are positive; those less than zero are negative."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Number Line & Opposites",
+          "standard": "6.NS.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the opposite of 9?",
+          "options": [
+            "-9",
+            "0",
+            "the same number",
+            "1"
+          ],
+          "correct_answer": "-9",
+          "answer_explanation": "Opposites are the same distance from zero on opposite sides."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Absolute Value",
+          "standard": "6.NS.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is |-3|?",
+          "options": [
+            "3",
+            "-8",
+            "0",
+            "1"
+          ],
+          "correct_answer": "3",
+          "answer_explanation": "Absolute value is distance from zero."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Coordinate Plane (Four Quadrants)",
+          "standard": "6.NS.6/8",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "In which quadrant is the point (-3,2)?",
+          "options": [
+            "Quadrant II",
+            "Quadrant I",
+            "Quadrant II",
+            "Quadrant III"
+          ],
+          "correct_answer": "Quadrant II",
+          "answer_explanation": "The signs of the x- and y-coordinates determine the quadrant."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "Exponents",
+          "standard": "6.EE.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 10^3.",
+          "options": [
+            "1000",
+            "8",
+            "12",
+            "20"
+          ],
+          "correct_answer": "1000",
+          "answer_explanation": "An exponent shows how many times the base is used as a factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Algebraic Expressions",
+          "standard": "6.EE.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which expression represents 7 less than a?",
+          "options": [
+            "a - 7",
+            "x - 3",
+            "3x",
+            "x/3"
+          ],
+          "correct_answer": "a - 7",
+          "answer_explanation": "Translate the words into mathematical symbols."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "Evaluating Expressions",
+          "standard": "6.EE.2c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 3x + 2 when x=4.",
+          "options": [
+            "14",
+            "10",
+            "12",
+            "20"
+          ],
+          "correct_answer": "14",
+          "answer_explanation": "Substitute the given value for the variable and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Equivalent Expressions",
+          "standard": "6.EE.3/4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is equivalent to 4a + 3 + 2a?",
+          "options": [
+            "6a + 3",
+            "x + 5",
+            "5",
+            "2x"
+          ],
+          "correct_answer": "6a + 3",
+          "answer_explanation": "Use the distributive property or combine like terms."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "One-Variable Equations",
+          "standard": "6.EE.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve y - 4 = 9.",
+          "options": [
+            "y = 13",
+            "x = 3",
+            "x = 9",
+            "x = 12"
+          ],
+          "correct_answer": "y = 13",
+          "answer_explanation": "Use inverse operations to isolate the variable."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "One-Variable Inequalities",
+          "standard": "6.EE.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve 3n ≥ 12.",
+          "options": [
+            "n ≥ 4",
+            "x < 4",
+            "x = 4",
+            "x ≥ 4"
+          ],
+          "correct_answer": "n ≥ 4",
+          "answer_explanation": "Use inverse operations and preserve the inequality direction."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "6.EE.9",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In the relationship “total cost depends on number of notebooks,” which is the independent variable?",
+          "options": "Number of notebooks",
+          "correct_answer": "The independent variable is the input that determines the dependent quantity.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "6.EE",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly applies the Grade 6 mathematics skill?",
+          "options": [
+            "The mathematically correct result",
+            "An unrelated result",
+            "A random value",
+            "An unsupported claim"
+          ],
+          "correct_answer": "The mathematically correct result",
+          "answer_explanation": "The correct response follows the stated Grade 6 skill."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "Area of Triangles & Quadrilaterals",
+          "standard": "6.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the area of a triangle base 10 height 6.",
+          "options": [
+            "30 square units",
+            "the perimeter",
+            "twice the area",
+            "10 square units"
+          ],
+          "correct_answer": "30 square units",
+          "answer_explanation": "Use the appropriate area formula for the figure."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Volume with Fractional Edges",
+          "standard": "6.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Find the volume for dimensions 1/2 × 5 × 2.",
+          "options": [
+            "5 cubic units",
+            "2 cubic units",
+            "8 cubic units",
+            "10 cubic units"
+          ],
+          "correct_answer": "5 cubic units",
+          "answer_explanation": "Volume = length × width × height."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Polygons on the Coordinate Plane",
+          "standard": "6.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which coordinates can be used as vertices of a polygon on the coordinate plane?",
+          "options": [
+            "(1,1), (4,1), (4,3), (1,3)",
+            "Only (0,0)",
+            "Only positive y-values",
+            "A single point"
+          ],
+          "correct_answer": "(1,1), (4,1), (4,3), (1,3)",
+          "answer_explanation": "A polygon is formed by connecting multiple vertices."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "6.G.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a net of a rectangular prism show?",
+          "options": "The faces unfolded into a flat pattern",
+          "correct_answer": "A net represents the faces of a solid laid out flat.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "6.SP.1",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a statistical question?",
+          "options": "How many minutes do students in our class read each day?",
+          "correct_answer": "It anticipates variability in the answers.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Measures of Center",
+          "standard": "6.SP.2/3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the mean of 5,7,8?",
+          "options": [
+            "20/3",
+            "2",
+            "6",
+            "8"
+          ],
+          "correct_answer": "20/3",
+          "answer_explanation": "Apply the definition of the requested measure of center."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "6.SP.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which display is especially useful for showing the distribution of numerical data and identifying clusters or gaps?",
+          "options": "A histogram",
+          "correct_answer": "Histograms group numerical data into intervals.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Analyzing Data",
+          "standard": "6.SP.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two data sets have the same median but one has a much larger spread, what differs?",
+          "options": [
+            "Their variability",
+            "Their median",
+            "Their number of variables",
+            "Their coordinate system"
+          ],
+          "correct_answer": "Their variability",
+          "answer_explanation": "Spread describes how much the data values differ."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q33",
+          "module": 1,
+          "week": 3,
+          "topic": "Ratio Tables",
+          "standard": "6.RP.3a",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Complete the ratio table: 4:7, 8:14, 12:?",
+          "options": [
+            "21",
+            "8",
+            "12",
+            "18"
+          ],
+          "correct_answer": "21",
+          "answer_explanation": "Equivalent ratios are found by multiplying both terms by the same factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q34",
+          "module": 2,
+          "week": 6,
+          "topic": "Number Line & Opposites",
+          "standard": "6.NS.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the opposite of 9?",
+          "options": [
+            "-9",
+            "0",
+            "the same number",
+            "1"
+          ],
+          "correct_answer": "-9",
+          "answer_explanation": "Opposites are the same distance from zero on opposite sides."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q35",
+          "module": 3,
+          "week": 1,
+          "topic": "Exponents",
+          "standard": "6.EE.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Evaluate 4^3.",
+          "options": [
+            "64",
+            "8",
+            "12",
+            "20"
+          ],
+          "correct_answer": "64",
+          "answer_explanation": "An exponent shows how many times the base is used as a factor."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q36",
+          "module": 4,
+          "week": 4,
+          "topic": "6.G.4",
+          "standard": "easy",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a net of a rectangular prism show?",
+          "options": "The faces unfolded into a flat pattern",
+          "correct_answer": "A net represents the faces of a solid laid out flat.",
+          "answer_explanation": null
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q37",
+          "module": 1,
+          "week": 7,
+          "topic": "Measurement Conversions",
+          "standard": "6.RP.3d",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Convert 3 kilograms.",
+          "options": [
+            "3,000 grams",
+            "20 centimeters",
+            "300 grams",
+            "24 inches"
+          ],
+          "correct_answer": "3,000 grams",
+          "answer_explanation": "Use a ratio or standard conversion factor between the units."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q38",
+          "module": 2,
+          "week": 2,
+          "topic": "Fraction Word Problems",
+          "standard": "6.NS.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A 5/6-mile path is divided into 1/3-mile sections. How many sections?",
+          "options": [
+            "5/2",
+            "1/2",
+            "2",
+            "5"
+          ],
+          "correct_answer": "5/2",
+          "answer_explanation": "Represent the context with fraction division and simplify."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q39",
+          "module": 3,
+          "week": 5,
+          "topic": "One-Variable Equations",
+          "standard": "6.EE.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Solve 2n + 1 = 11.",
+          "options": [
+            "n = 5",
+            "x = 3",
+            "x = 9",
+            "x = 12"
+          ],
+          "correct_answer": "n = 5",
+          "answer_explanation": "Use inverse operations to isolate the variable."
+        },
+        {
+          "question_id": "G6-MATHEMATICS-MOCK-2-Q40",
+          "module": 4,
+          "week": 8,
+          "topic": "Analyzing Data",
+          "standard": "6.SP.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two data sets have the same median but one has a much larger spread, what differs?",
+          "options": [
+            "Their variability",
+            "Their median",
+            "Their number of variables",
+            "Their coordinate system"
+          ],
+          "correct_answer": "Their variability",
+          "answer_explanation": "Spread describes how much the data values differ."
+        }
+      ]
+    }
+  ]
+}

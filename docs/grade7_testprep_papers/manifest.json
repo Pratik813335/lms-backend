@@ -1,0 +1,25 @@
+{
+  "grade": 7,
+  "courses": [
+    {
+      "course_id": "grade-7-ela",
+      "file": "grade-7-ela.json",
+      "papers": 6,
+      "questions": 240
+    },
+    {
+      "course_id": "grade-7-mathematics",
+      "file": "grade-7-mathematics.json",
+      "papers": 6,
+      "questions": 240
+    },
+    {
+      "course_id": "grade-7-life-science",
+      "file": "grade-7-life-science.json",
+      "papers": 6,
+      "questions": 240
+    }
+  ],
+  "total_papers": 18,
+  "total_questions": 720
+}

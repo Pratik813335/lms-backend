@@ -1,0 +1,2481 @@
+{
+  "schema_version": "1.0",
+  "content_type": "course_content",
+  "course": {
+    "code": "HEALTH",
+    "slug": "health",
+    "name": "Health",
+    "subject": "health_pe",
+    "recommended_grade_min": 7,
+    "recommended_grade_max": 12,
+    "duration_weeks": 36,
+    "module_count": 4,
+    "weeks_per_module": 9,
+    "credit_value": 1,
+    "prerequisite_policy": "Configured by course manager; recommended grade range is not a hard restriction.",
+    "early_progression": true
+  },
+  "course_learning_outcomes": [
+    "Demonstrate mastery of the course's core knowledge and skills.",
+    "Apply concepts through structured practice and authentic tasks.",
+    "Use academic vocabulary accurately.",
+    "Demonstrate mastery through weekly, module, and final assessments."
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Personal Health",
+      "weeks": [
+        {
+          "week_number": 1,
+          "title": "Personal Health: Personal wellness foundations",
+          "focus": "Personal wellness foundations",
+          "instructor_overview": "Introduce and develop personal wellness foundations within the context of Personal Health. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to personal wellness foundations.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to personal wellness foundations.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Personal wellness foundations",
+            "Teacher modeling and guided examples for personal wellness foundations",
+            "Collaborative practice involving personal wellness foundations",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            }
+          ],
+          "practice": [
+            "Guided practice: Personal wellness foundations",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for personal wellness foundations.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Personal wellness foundations"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 2,
+          "title": "Personal Health: Nutrition and physical activity",
+          "focus": "Nutrition and physical activity",
+          "instructor_overview": "Introduce and develop nutrition and physical activity within the context of Personal Health. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to nutrition and physical activity.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to nutrition and physical activity.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Nutrition and physical activity",
+            "Teacher modeling and guided examples for nutrition and physical activity",
+            "Collaborative practice involving nutrition and physical activity",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            }
+          ],
+          "practice": [
+            "Guided practice: Nutrition and physical activity",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for nutrition and physical activity.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Nutrition and physical activity"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 3,
+          "title": "Personal Health: Mental and social wellbeing",
+          "focus": "Mental and social wellbeing",
+          "instructor_overview": "Introduce and develop mental and social wellbeing within the context of Personal Health. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to mental and social wellbeing.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to mental and social wellbeing.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Mental and social wellbeing",
+            "Teacher modeling and guided examples for mental and social wellbeing",
+            "Collaborative practice involving mental and social wellbeing",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            }
+          ],
+          "practice": [
+            "Guided practice: Mental and social wellbeing",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for mental and social wellbeing.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Mental and social wellbeing"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 4,
+          "title": "Personal Health: Safety and risk reduction",
+          "focus": "Safety and risk reduction",
+          "instructor_overview": "Introduce and develop safety and risk reduction within the context of Personal Health. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to safety and risk reduction.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to safety and risk reduction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Safety and risk reduction",
+            "Teacher modeling and guided examples for safety and risk reduction",
+            "Collaborative practice involving safety and risk reduction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Safety and risk reduction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for safety and risk reduction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Safety and risk reduction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 5,
+          "title": "Personal Health: Healthy decision-making",
+          "focus": "Healthy decision-making",
+          "instructor_overview": "Introduce and develop healthy decision-making within the context of Personal Health. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to healthy decision-making.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to healthy decision-making.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Healthy decision-making",
+            "Teacher modeling and guided examples for healthy decision-making",
+            "Collaborative practice involving healthy decision-making",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            }
+          ],
+          "practice": [
+            "Guided practice: Healthy decision-making",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for healthy decision-making.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Healthy decision-making"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 6,
+          "title": "Personal Health: Communication and relationships",
+          "focus": "Communication and relationships",
+          "instructor_overview": "Introduce and develop communication and relationships within the context of Personal Health. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to communication and relationships.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to communication and relationships.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Communication and relationships",
+            "Teacher modeling and guided examples for communication and relationships",
+            "Collaborative practice involving communication and relationships",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to communication and relationships."
+            }
+          ],
+          "practice": [
+            "Guided practice: Communication and relationships",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for communication and relationships.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Communication and relationships"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 7,
+          "title": "Personal Health: Fitness planning",
+          "focus": "Fitness planning",
+          "instructor_overview": "Introduce and develop fitness planning within the context of Personal Health. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to fitness planning.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to fitness planning.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Fitness planning",
+            "Teacher modeling and guided examples for fitness planning",
+            "Collaborative practice involving fitness planning",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to fitness planning."
+            }
+          ],
+          "practice": [
+            "Guided practice: Fitness planning",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for fitness planning.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Fitness planning"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 8,
+          "title": "Personal Health: Healthy habits",
+          "focus": "Healthy habits",
+          "instructor_overview": "Introduce and develop healthy habits within the context of Personal Health. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to healthy habits.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to healthy habits.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Healthy habits",
+            "Teacher modeling and guided examples for healthy habits",
+            "Collaborative practice involving healthy habits",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to healthy habits."
+            }
+          ],
+          "practice": [
+            "Guided practice: Healthy habits",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for healthy habits.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Healthy habits"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 9,
+          "title": "Personal Health — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Personal Health, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Personal Health.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "fitness",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "stress",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "safety",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "habit",
+              "definition": "Key health pe vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 2,
+      "title": "Nutrition & Fitness",
+      "weeks": [
+        {
+          "week_number": 10,
+          "title": "Nutrition & Fitness: Personal wellness foundations",
+          "focus": "Personal wellness foundations",
+          "instructor_overview": "Introduce and develop personal wellness foundations within the context of Nutrition & Fitness. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to personal wellness foundations.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to personal wellness foundations.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Personal wellness foundations",
+            "Teacher modeling and guided examples for personal wellness foundations",
+            "Collaborative practice involving personal wellness foundations",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            }
+          ],
+          "practice": [
+            "Guided practice: Personal wellness foundations",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for personal wellness foundations.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Personal wellness foundations"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 11,
+          "title": "Nutrition & Fitness: Nutrition and physical activity",
+          "focus": "Nutrition and physical activity",
+          "instructor_overview": "Introduce and develop nutrition and physical activity within the context of Nutrition & Fitness. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to nutrition and physical activity.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to nutrition and physical activity.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Nutrition and physical activity",
+            "Teacher modeling and guided examples for nutrition and physical activity",
+            "Collaborative practice involving nutrition and physical activity",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            }
+          ],
+          "practice": [
+            "Guided practice: Nutrition and physical activity",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for nutrition and physical activity.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Nutrition and physical activity"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 12,
+          "title": "Nutrition & Fitness: Mental and social wellbeing",
+          "focus": "Mental and social wellbeing",
+          "instructor_overview": "Introduce and develop mental and social wellbeing within the context of Nutrition & Fitness. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to mental and social wellbeing.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to mental and social wellbeing.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Mental and social wellbeing",
+            "Teacher modeling and guided examples for mental and social wellbeing",
+            "Collaborative practice involving mental and social wellbeing",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            }
+          ],
+          "practice": [
+            "Guided practice: Mental and social wellbeing",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for mental and social wellbeing.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Mental and social wellbeing"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 13,
+          "title": "Nutrition & Fitness: Safety and risk reduction",
+          "focus": "Safety and risk reduction",
+          "instructor_overview": "Introduce and develop safety and risk reduction within the context of Nutrition & Fitness. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to safety and risk reduction.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to safety and risk reduction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Safety and risk reduction",
+            "Teacher modeling and guided examples for safety and risk reduction",
+            "Collaborative practice involving safety and risk reduction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Safety and risk reduction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for safety and risk reduction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Safety and risk reduction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 14,
+          "title": "Nutrition & Fitness: Healthy decision-making",
+          "focus": "Healthy decision-making",
+          "instructor_overview": "Introduce and develop healthy decision-making within the context of Nutrition & Fitness. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to healthy decision-making.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to healthy decision-making.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Healthy decision-making",
+            "Teacher modeling and guided examples for healthy decision-making",
+            "Collaborative practice involving healthy decision-making",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            }
+          ],
+          "practice": [
+            "Guided practice: Healthy decision-making",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for healthy decision-making.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Healthy decision-making"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 15,
+          "title": "Nutrition & Fitness: Communication and relationships",
+          "focus": "Communication and relationships",
+          "instructor_overview": "Introduce and develop communication and relationships within the context of Nutrition & Fitness. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to communication and relationships.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to communication and relationships.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Communication and relationships",
+            "Teacher modeling and guided examples for communication and relationships",
+            "Collaborative practice involving communication and relationships",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to communication and relationships."
+            }
+          ],
+          "practice": [
+            "Guided practice: Communication and relationships",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for communication and relationships.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Communication and relationships"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 16,
+          "title": "Nutrition & Fitness: Fitness planning",
+          "focus": "Fitness planning",
+          "instructor_overview": "Introduce and develop fitness planning within the context of Nutrition & Fitness. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to fitness planning.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to fitness planning.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Fitness planning",
+            "Teacher modeling and guided examples for fitness planning",
+            "Collaborative practice involving fitness planning",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to fitness planning."
+            }
+          ],
+          "practice": [
+            "Guided practice: Fitness planning",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for fitness planning.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Fitness planning"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 17,
+          "title": "Nutrition & Fitness: Healthy habits",
+          "focus": "Healthy habits",
+          "instructor_overview": "Introduce and develop healthy habits within the context of Nutrition & Fitness. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to healthy habits.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to healthy habits.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Healthy habits",
+            "Teacher modeling and guided examples for healthy habits",
+            "Collaborative practice involving healthy habits",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to healthy habits."
+            }
+          ],
+          "practice": [
+            "Guided practice: Healthy habits",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for healthy habits.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Healthy habits"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 18,
+          "title": "Nutrition & Fitness — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Nutrition & Fitness, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Nutrition & Fitness.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "fitness",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "stress",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "safety",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "habit",
+              "definition": "Key health pe vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 3,
+      "title": "Mental & Social Wellbeing",
+      "weeks": [
+        {
+          "week_number": 19,
+          "title": "Mental & Social Wellbeing: Personal wellness foundations",
+          "focus": "Personal wellness foundations",
+          "instructor_overview": "Introduce and develop personal wellness foundations within the context of Mental & Social Wellbeing. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to personal wellness foundations.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to personal wellness foundations.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Personal wellness foundations",
+            "Teacher modeling and guided examples for personal wellness foundations",
+            "Collaborative practice involving personal wellness foundations",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            }
+          ],
+          "practice": [
+            "Guided practice: Personal wellness foundations",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for personal wellness foundations.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Personal wellness foundations"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 20,
+          "title": "Mental & Social Wellbeing: Nutrition and physical activity",
+          "focus": "Nutrition and physical activity",
+          "instructor_overview": "Introduce and develop nutrition and physical activity within the context of Mental & Social Wellbeing. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to nutrition and physical activity.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to nutrition and physical activity.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Nutrition and physical activity",
+            "Teacher modeling and guided examples for nutrition and physical activity",
+            "Collaborative practice involving nutrition and physical activity",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            }
+          ],
+          "practice": [
+            "Guided practice: Nutrition and physical activity",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for nutrition and physical activity.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Nutrition and physical activity"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 21,
+          "title": "Mental & Social Wellbeing: Mental and social wellbeing",
+          "focus": "Mental and social wellbeing",
+          "instructor_overview": "Introduce and develop mental and social wellbeing within the context of Mental & Social Wellbeing. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to mental and social wellbeing.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to mental and social wellbeing.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Mental and social wellbeing",
+            "Teacher modeling and guided examples for mental and social wellbeing",
+            "Collaborative practice involving mental and social wellbeing",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            }
+          ],
+          "practice": [
+            "Guided practice: Mental and social wellbeing",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for mental and social wellbeing.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Mental and social wellbeing"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 22,
+          "title": "Mental & Social Wellbeing: Safety and risk reduction",
+          "focus": "Safety and risk reduction",
+          "instructor_overview": "Introduce and develop safety and risk reduction within the context of Mental & Social Wellbeing. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to safety and risk reduction.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to safety and risk reduction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Safety and risk reduction",
+            "Teacher modeling and guided examples for safety and risk reduction",
+            "Collaborative practice involving safety and risk reduction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Safety and risk reduction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for safety and risk reduction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Safety and risk reduction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 23,
+          "title": "Mental & Social Wellbeing: Healthy decision-making",
+          "focus": "Healthy decision-making",
+          "instructor_overview": "Introduce and develop healthy decision-making within the context of Mental & Social Wellbeing. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to healthy decision-making.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to healthy decision-making.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Healthy decision-making",
+            "Teacher modeling and guided examples for healthy decision-making",
+            "Collaborative practice involving healthy decision-making",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            }
+          ],
+          "practice": [
+            "Guided practice: Healthy decision-making",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for healthy decision-making.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Healthy decision-making"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 24,
+          "title": "Mental & Social Wellbeing: Communication and relationships",
+          "focus": "Communication and relationships",
+          "instructor_overview": "Introduce and develop communication and relationships within the context of Mental & Social Wellbeing. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to communication and relationships.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to communication and relationships.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Communication and relationships",
+            "Teacher modeling and guided examples for communication and relationships",
+            "Collaborative practice involving communication and relationships",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to communication and relationships."
+            }
+          ],
+          "practice": [
+            "Guided practice: Communication and relationships",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for communication and relationships.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Communication and relationships"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 25,
+          "title": "Mental & Social Wellbeing: Fitness planning",
+          "focus": "Fitness planning",
+          "instructor_overview": "Introduce and develop fitness planning within the context of Mental & Social Wellbeing. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to fitness planning.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to fitness planning.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Fitness planning",
+            "Teacher modeling and guided examples for fitness planning",
+            "Collaborative practice involving fitness planning",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to fitness planning."
+            }
+          ],
+          "practice": [
+            "Guided practice: Fitness planning",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for fitness planning.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Fitness planning"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 26,
+          "title": "Mental & Social Wellbeing: Healthy habits",
+          "focus": "Healthy habits",
+          "instructor_overview": "Introduce and develop healthy habits within the context of Mental & Social Wellbeing. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to healthy habits.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to healthy habits.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Healthy habits",
+            "Teacher modeling and guided examples for healthy habits",
+            "Collaborative practice involving healthy habits",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to healthy habits."
+            }
+          ],
+          "practice": [
+            "Guided practice: Healthy habits",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for healthy habits.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Healthy habits"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 27,
+          "title": "Mental & Social Wellbeing — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Mental & Social Wellbeing, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Mental & Social Wellbeing.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "fitness",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "stress",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "safety",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "habit",
+              "definition": "Key health pe vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 4,
+      "title": "Safety & Healthy Decisions",
+      "weeks": [
+        {
+          "week_number": 28,
+          "title": "Safety & Healthy Decisions: Personal wellness foundations",
+          "focus": "Personal wellness foundations",
+          "instructor_overview": "Introduce and develop personal wellness foundations within the context of Safety & Healthy Decisions. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to personal wellness foundations.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to personal wellness foundations.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Personal wellness foundations",
+            "Teacher modeling and guided examples for personal wellness foundations",
+            "Collaborative practice involving personal wellness foundations",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to personal wellness foundations."
+            }
+          ],
+          "practice": [
+            "Guided practice: Personal wellness foundations",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for personal wellness foundations.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Personal wellness foundations"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 29,
+          "title": "Safety & Healthy Decisions: Nutrition and physical activity",
+          "focus": "Nutrition and physical activity",
+          "instructor_overview": "Introduce and develop nutrition and physical activity within the context of Safety & Healthy Decisions. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to nutrition and physical activity.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to nutrition and physical activity.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Nutrition and physical activity",
+            "Teacher modeling and guided examples for nutrition and physical activity",
+            "Collaborative practice involving nutrition and physical activity",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to nutrition and physical activity."
+            }
+          ],
+          "practice": [
+            "Guided practice: Nutrition and physical activity",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for nutrition and physical activity.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Nutrition and physical activity"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 30,
+          "title": "Safety & Healthy Decisions: Mental and social wellbeing",
+          "focus": "Mental and social wellbeing",
+          "instructor_overview": "Introduce and develop mental and social wellbeing within the context of Safety & Healthy Decisions. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to mental and social wellbeing.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to mental and social wellbeing.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Mental and social wellbeing",
+            "Teacher modeling and guided examples for mental and social wellbeing",
+            "Collaborative practice involving mental and social wellbeing",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to mental and social wellbeing."
+            }
+          ],
+          "practice": [
+            "Guided practice: Mental and social wellbeing",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for mental and social wellbeing.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Mental and social wellbeing"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 31,
+          "title": "Safety & Healthy Decisions: Safety and risk reduction",
+          "focus": "Safety and risk reduction",
+          "instructor_overview": "Introduce and develop safety and risk reduction within the context of Safety & Healthy Decisions. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to safety and risk reduction.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to safety and risk reduction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Safety and risk reduction",
+            "Teacher modeling and guided examples for safety and risk reduction",
+            "Collaborative practice involving safety and risk reduction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to safety and risk reduction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Safety and risk reduction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for safety and risk reduction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Safety and risk reduction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 32,
+          "title": "Safety & Healthy Decisions: Healthy decision-making",
+          "focus": "Healthy decision-making",
+          "instructor_overview": "Introduce and develop healthy decision-making within the context of Safety & Healthy Decisions. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to healthy decision-making.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to healthy decision-making.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Healthy decision-making",
+            "Teacher modeling and guided examples for healthy decision-making",
+            "Collaborative practice involving healthy decision-making",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to healthy decision-making."
+            }
+          ],
+          "practice": [
+            "Guided practice: Healthy decision-making",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for healthy decision-making.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Healthy decision-making"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 33,
+          "title": "Safety & Healthy Decisions: Communication and relationships",
+          "focus": "Communication and relationships",
+          "instructor_overview": "Introduce and develop communication and relationships within the context of Safety & Healthy Decisions. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to communication and relationships.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to communication and relationships.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Communication and relationships",
+            "Teacher modeling and guided examples for communication and relationships",
+            "Collaborative practice involving communication and relationships",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to communication and relationships."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to communication and relationships."
+            }
+          ],
+          "practice": [
+            "Guided practice: Communication and relationships",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for communication and relationships.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Communication and relationships"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 34,
+          "title": "Safety & Healthy Decisions: Fitness planning",
+          "focus": "Fitness planning",
+          "instructor_overview": "Introduce and develop fitness planning within the context of Safety & Healthy Decisions. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to fitness planning.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to fitness planning.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Fitness planning",
+            "Teacher modeling and guided examples for fitness planning",
+            "Collaborative practice involving fitness planning",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to fitness planning."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to fitness planning."
+            }
+          ],
+          "practice": [
+            "Guided practice: Fitness planning",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for fitness planning.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Fitness planning"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 35,
+          "title": "Safety & Healthy Decisions: Healthy habits",
+          "focus": "Healthy habits",
+          "instructor_overview": "Introduce and develop healthy habits within the context of Safety & Healthy Decisions. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain principles related to healthy habits.",
+            "Apply the principles to realistic health or fitness decisions.",
+            "Develop and reflect on an actionable personal or team strategy."
+          ],
+          "warm_up": [
+            "Recall one idea related to healthy habits.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Healthy habits",
+            "Teacher modeling and guided examples for healthy habits",
+            "Collaborative practice involving healthy habits",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "fitness",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "stress",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "safety",
+              "definition": "Course vocabulary connected to healthy habits."
+            },
+            {
+              "term": "habit",
+              "definition": "Course vocabulary connected to healthy habits."
+            }
+          ],
+          "practice": [
+            "Guided practice: Healthy habits",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for healthy habits.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Healthy habits"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 36,
+          "title": "Safety & Healthy Decisions — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Safety & Healthy Decisions, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Safety & Healthy Decisions.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "nutrition",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "fitness",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "stress",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "safety",
+              "definition": "Key health pe vocabulary used in the module."
+            },
+            {
+              "term": "habit",
+              "definition": "Key health pe vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    }
+  ],
+  "final_assessment": {
+    "assessment_type": "comprehensive_course_assessment",
+    "coverage": "All four modules",
+    "question_count": "Configured by assessment manager",
+    "answer_explanations": true,
+    "mastery_required": true
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "course_count": 44,
+  "files": [
+    {
+      "course": "ninth_grade_literature_and_composition",
+      "path": "ninth_grade_literature_and_composition.json"
+    },
+    {
+      "course": "american_literature_and_composition",
+      "path": "american_literature_and_composition.json"
+    },
+    {
+      "course": "british_literature_and_composition",
+      "path": "british_literature_and_composition.json"
+    },
+    {
+      "course": "12th_grade_literature_and_composition",
+      "path": "12th_grade_literature_and_composition.json"
+    },
+    {
+      "course": "journalism",
+      "path": "journalism.json"
+    },
+    {
+      "course": "algebra_1",
+      "path": "algebra_1.json"
+    },
+    {
+      "course": "algebra_2",
+      "path": "algebra_2.json"
+    },
+    {
+      "course": "geometry",
+      "path": "geometry.json"
+    },
+    {
+      "course": "pre_calculus",
+      "path": "pre_calculus.json"
+    },
+    {
+      "course": "calculus",
+      "path": "calculus.json"
+    },
+    {
+      "course": "statistics",
+      "path": "statistics.json"
+    },
+    {
+      "course": "biology",
+      "path": "biology.json"
+    },
+    {
+      "course": "chemistry",
+      "path": "chemistry.json"
+    },
+    {
+      "course": "engineering",
+      "path": "engineering.json"
+    },
+    {
+      "course": "environmental_science",
+      "path": "environmental_science.json"
+    },
+    {
+      "course": "astronomy",
+      "path": "astronomy.json"
+    },
+    {
+      "course": "physics",
+      "path": "physics.json"
+    },
+    {
+      "course": "american_history",
+      "path": "american_history.json"
+    },
+    {
+      "course": "american_government_civics",
+      "path": "american_government_civics.json"
+    },
+    {
+      "course": "world_history",
+      "path": "world_history.json"
+    },
+    {
+      "course": "economics",
+      "path": "economics.json"
+    },
+    {
+      "course": "geography",
+      "path": "geography.json"
+    },
+    {
+      "course": "health",
+      "path": "health.json"
+    },
+    {
+      "course": "physical_education",
+      "path": "physical_education.json"
+    },
+    {
+      "course": "computer_science",
+      "path": "computer_science.json"
+    },
+    {
+      "course": "financial_literacy",
+      "path": "financial_literacy.json"
+    },
+    {
+      "course": "visual_arts_drawing",
+      "path": "visual_arts_drawing.json"
+    },
+    {
+      "course": "visual_arts_painting",
+      "path": "visual_arts_painting.json"
+    },
+    {
+      "course": "visual_arts_sculpture",
+      "path": "visual_arts_sculpture.json"
+    },
+    {
+      "course": "visual_arts_photography",
+      "path": "visual_arts_photography.json"
+    },
+    {
+      "course": "visual_arts_digital_design",
+      "path": "visual_arts_digital_design.json"
+    },
+    {
+      "course": "art_history_and_appreciation",
+      "path": "art_history_and_appreciation.json"
+    },
+    {
+      "course": "performing_arts_drama",
+      "path": "performing_arts_drama.json"
+    },
+    {
+      "course": "spanish_i",
+      "path": "spanish_i.json"
+    },
+    {
+      "course": "spanish_ii",
+      "path": "spanish_ii.json"
+    },
+    {
+      "course": "spanish_iii",
+      "path": "spanish_iii.json"
+    },
+    {
+      "course": "french_i",
+      "path": "french_i.json"
+    },
+    {
+      "course": "french_ii",
+      "path": "french_ii.json"
+    },
+    {
+      "course": "latin_i",
+      "path": "latin_i.json"
+    },
+    {
+      "course": "latin_ii",
+      "path": "latin_ii.json"
+    },
+    {
+      "course": "german_i",
+      "path": "german_i.json"
+    },
+    {
+      "course": "german_ii",
+      "path": "german_ii.json"
+    },
+    {
+      "course": "mandarin_chinese_i",
+      "path": "mandarin_chinese_i.json"
+    },
+    {
+      "course": "mandarin_chinese_ii",
+      "path": "mandarin_chinese_ii.json"
+    }
+  ],
+  "import_order": [
+    "courses",
+    "modules",
+    "weeks",
+    "content",
+    "assessments"
+  ],
+  "note": "These files are course-content seeds. Assessment question banks can be populated or generated from each week's coverage fields."
+}

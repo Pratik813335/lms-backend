@@ -1,0 +1,4404 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 6 Earth & Space Science · NGSS",
+  "grade": 6,
+  "standard_family": "NGSS",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G6-SCIENCE-MODULE-1",
+      "course": "Grade 6 Earth & Space Science · NGSS",
+      "grade": 6,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Space Systems",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-SCIENCE-M1-W1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Earth, Moon & Sun",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which model best explains the Earth-Moon-Sun system?",
+          "options": [
+            "Earth orbits the Sun while the Moon orbits Earth",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth orbits the Sun while the Moon orbits Earth",
+          "answer_explanation": "The motions of these bodies explain many observable patterns."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W1-Q2",
+          "module": 1,
+          "week": 1,
+          "topic": "Earth, Moon & Sun",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which model best explains the Earth-Moon-Sun system?",
+          "options": [
+            "Earth orbits the Sun while the Moon orbits Earth",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth orbits the Sun while the Moon orbits Earth",
+          "answer_explanation": "The motions of these bodies explain many observable patterns."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W1-Q3",
+          "module": 1,
+          "week": 1,
+          "topic": "Earth, Moon & Sun",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which model best explains the Earth-Moon-Sun system?",
+          "options": [
+            "Earth orbits the Sun while the Moon orbits Earth",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth orbits the Sun while the Moon orbits Earth",
+          "answer_explanation": "The motions of these bodies explain many observable patterns."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W1-Q4",
+          "module": 1,
+          "week": 1,
+          "topic": "Earth, Moon & Sun",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which model best explains the Earth-Moon-Sun system?",
+          "options": [
+            "Earth orbits the Sun while the Moon orbits Earth",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth orbits the Sun while the Moon orbits Earth",
+          "answer_explanation": "The motions of these bodies explain many observable patterns."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W1-Q5",
+          "module": 1,
+          "week": 1,
+          "topic": "Earth, Moon & Sun",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which model best explains the Earth-Moon-Sun system?",
+          "options": [
+            "Earth orbits the Sun while the Moon orbits Earth",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth orbits the Sun while the Moon orbits Earth",
+          "answer_explanation": "The motions of these bodies explain many observable patterns."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W2-Q1",
+          "module": 1,
+          "week": 2,
+          "topic": "Seasons & Day/Night",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What causes day and night?",
+          "options": [
+            "Earth's rotation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's rotation",
+          "answer_explanation": "Different parts of Earth face toward or away from the Sun as Earth rotates."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Seasons & Day/Night",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What causes day and night?",
+          "options": [
+            "Earth's rotation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's rotation",
+          "answer_explanation": "Different parts of Earth face toward or away from the Sun as Earth rotates."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W2-Q3",
+          "module": 1,
+          "week": 2,
+          "topic": "Seasons & Day/Night",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What causes day and night?",
+          "options": [
+            "Earth's rotation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's rotation",
+          "answer_explanation": "Different parts of Earth face toward or away from the Sun as Earth rotates."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W2-Q4",
+          "module": 1,
+          "week": 2,
+          "topic": "Seasons & Day/Night",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What causes day and night?",
+          "options": [
+            "Earth's rotation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's rotation",
+          "answer_explanation": "Different parts of Earth face toward or away from the Sun as Earth rotates."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W2-Q5",
+          "module": 1,
+          "week": 2,
+          "topic": "Seasons & Day/Night",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What causes day and night?",
+          "options": [
+            "Earth's rotation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's rotation",
+          "answer_explanation": "Different parts of Earth face toward or away from the Sun as Earth rotates."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W3-Q1",
+          "module": 1,
+          "week": 3,
+          "topic": "Moon Phases & Eclipses",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does the Moon appear to have different phases?",
+          "options": [
+            "We see different portions of its sunlit half",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "We see different portions of its sunlit half",
+          "answer_explanation": "The visible illuminated portion changes as the Moon moves around Earth."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W3-Q2",
+          "module": 1,
+          "week": 3,
+          "topic": "Moon Phases & Eclipses",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does the Moon appear to have different phases?",
+          "options": [
+            "We see different portions of its sunlit half",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "We see different portions of its sunlit half",
+          "answer_explanation": "The visible illuminated portion changes as the Moon moves around Earth."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W3-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Moon Phases & Eclipses",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does the Moon appear to have different phases?",
+          "options": [
+            "We see different portions of its sunlit half",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "We see different portions of its sunlit half",
+          "answer_explanation": "The visible illuminated portion changes as the Moon moves around Earth."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W3-Q4",
+          "module": 1,
+          "week": 3,
+          "topic": "Moon Phases & Eclipses",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does the Moon appear to have different phases?",
+          "options": [
+            "We see different portions of its sunlit half",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "We see different portions of its sunlit half",
+          "answer_explanation": "The visible illuminated portion changes as the Moon moves around Earth."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W3-Q5",
+          "module": 1,
+          "week": 3,
+          "topic": "Moon Phases & Eclipses",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does the Moon appear to have different phases?",
+          "options": [
+            "We see different portions of its sunlit half",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "We see different portions of its sunlit half",
+          "answer_explanation": "The visible illuminated portion changes as the Moon moves around Earth."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W4-Q1",
+          "module": 1,
+          "week": 4,
+          "topic": "Gravity & Orbits",
+          "standard": "MS-ESS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What role does gravity play in an orbit?",
+          "options": [
+            "It provides the force that keeps an object moving around another body",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "It provides the force that keeps an object moving around another body",
+          "answer_explanation": "Gravity changes the motion of orbiting objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W4-Q2",
+          "module": 1,
+          "week": 4,
+          "topic": "Gravity & Orbits",
+          "standard": "MS-ESS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What role does gravity play in an orbit?",
+          "options": [
+            "It provides the force that keeps an object moving around another body",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "It provides the force that keeps an object moving around another body",
+          "answer_explanation": "Gravity changes the motion of orbiting objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W4-Q3",
+          "module": 1,
+          "week": 4,
+          "topic": "Gravity & Orbits",
+          "standard": "MS-ESS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What role does gravity play in an orbit?",
+          "options": [
+            "It provides the force that keeps an object moving around another body",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "It provides the force that keeps an object moving around another body",
+          "answer_explanation": "Gravity changes the motion of orbiting objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W4-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Gravity & Orbits",
+          "standard": "MS-ESS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What role does gravity play in an orbit?",
+          "options": [
+            "It provides the force that keeps an object moving around another body",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "It provides the force that keeps an object moving around another body",
+          "answer_explanation": "Gravity changes the motion of orbiting objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W4-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Gravity & Orbits",
+          "standard": "MS-ESS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What role does gravity play in an orbit?",
+          "options": [
+            "It provides the force that keeps an object moving around another body",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "It provides the force that keeps an object moving around another body",
+          "answer_explanation": "Gravity changes the motion of orbiting objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W5-Q1",
+          "module": 1,
+          "week": 5,
+          "topic": "The Solar System",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is a star?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "The Sun produces its own light and energy."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W5-Q2",
+          "module": 1,
+          "week": 5,
+          "topic": "The Solar System",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is a star?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "The Sun produces its own light and energy."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W5-Q3",
+          "module": 1,
+          "week": 5,
+          "topic": "The Solar System",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is a star?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "The Sun produces its own light and energy."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W5-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "The Solar System",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is a star?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "The Sun produces its own light and energy."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W5-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "The Solar System",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is a star?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "The Sun produces its own light and energy."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W6-Q1",
+          "module": 1,
+          "week": 6,
+          "topic": "Scale of the Universe",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use scale models for space?",
+          "options": [
+            "Space distances and sizes are too large to represent directly",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Space distances and sizes are too large to represent directly",
+          "answer_explanation": "Models help compare very large distances and objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W6-Q2",
+          "module": 1,
+          "week": 6,
+          "topic": "Scale of the Universe",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use scale models for space?",
+          "options": [
+            "Space distances and sizes are too large to represent directly",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Space distances and sizes are too large to represent directly",
+          "answer_explanation": "Models help compare very large distances and objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W6-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Scale of the Universe",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use scale models for space?",
+          "options": [
+            "Space distances and sizes are too large to represent directly",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Space distances and sizes are too large to represent directly",
+          "answer_explanation": "Models help compare very large distances and objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W6-Q4",
+          "module": 1,
+          "week": 6,
+          "topic": "Scale of the Universe",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use scale models for space?",
+          "options": [
+            "Space distances and sizes are too large to represent directly",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Space distances and sizes are too large to represent directly",
+          "answer_explanation": "Models help compare very large distances and objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W6-Q5",
+          "module": 1,
+          "week": 6,
+          "topic": "Scale of the Universe",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use scale models for space?",
+          "options": [
+            "Space distances and sizes are too large to represent directly",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Space distances and sizes are too large to represent directly",
+          "answer_explanation": "Models help compare very large distances and objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W7-Q1",
+          "module": 1,
+          "week": 7,
+          "topic": "Earth's History in Rock",
+          "standard": "MS-ESS1-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rock layers provide evidence about?",
+          "options": [
+            "Changes that occurred over Earth's history",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Changes that occurred over Earth's history",
+          "answer_explanation": "Rock strata preserve evidence of past events."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W7-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Earth's History in Rock",
+          "standard": "MS-ESS1-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rock layers provide evidence about?",
+          "options": [
+            "Changes that occurred over Earth's history",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Changes that occurred over Earth's history",
+          "answer_explanation": "Rock strata preserve evidence of past events."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W7-Q3",
+          "module": 1,
+          "week": 7,
+          "topic": "Earth's History in Rock",
+          "standard": "MS-ESS1-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rock layers provide evidence about?",
+          "options": [
+            "Changes that occurred over Earth's history",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Changes that occurred over Earth's history",
+          "answer_explanation": "Rock strata preserve evidence of past events."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W7-Q4",
+          "module": 1,
+          "week": 7,
+          "topic": "Earth's History in Rock",
+          "standard": "MS-ESS1-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rock layers provide evidence about?",
+          "options": [
+            "Changes that occurred over Earth's history",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Changes that occurred over Earth's history",
+          "answer_explanation": "Rock strata preserve evidence of past events."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W7-Q5",
+          "module": 1,
+          "week": 7,
+          "topic": "Earth's History in Rock",
+          "standard": "MS-ESS1-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rock layers provide evidence about?",
+          "options": [
+            "Changes that occurred over Earth's history",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Changes that occurred over Earth's history",
+          "answer_explanation": "Rock strata preserve evidence of past events."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W8-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Space Systems Review",
+          "standard": "MS-ESS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Earth's motions and the positions of space objects create predictable patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's motions and the positions of space objects create predictable patterns",
+          "answer_explanation": "Models help explain observable space phenomena."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W8-Q2",
+          "module": 1,
+          "week": 8,
+          "topic": "Space Systems Review",
+          "standard": "MS-ESS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Earth's motions and the positions of space objects create predictable patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's motions and the positions of space objects create predictable patterns",
+          "answer_explanation": "Models help explain observable space phenomena."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W8-Q3",
+          "module": 1,
+          "week": 8,
+          "topic": "Space Systems Review",
+          "standard": "MS-ESS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Earth's motions and the positions of space objects create predictable patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's motions and the positions of space objects create predictable patterns",
+          "answer_explanation": "Models help explain observable space phenomena."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W8-Q4",
+          "module": 1,
+          "week": 8,
+          "topic": "Space Systems Review",
+          "standard": "MS-ESS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Earth's motions and the positions of space objects create predictable patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's motions and the positions of space objects create predictable patterns",
+          "answer_explanation": "Models help explain observable space phenomena."
+        },
+        {
+          "question_id": "G6-SCIENCE-M1-W8-Q5",
+          "module": 1,
+          "week": 8,
+          "topic": "Space Systems Review",
+          "standard": "MS-ESS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Earth's motions and the positions of space objects create predictable patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's motions and the positions of space objects create predictable patterns",
+          "answer_explanation": "Models help explain observable space phenomena."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-SCIENCE-MODULE-2",
+      "course": "Grade 6 Earth & Space Science · NGSS",
+      "grade": 6,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "Earth's Materials & Systems",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-SCIENCE-M2-W1-Q1",
+          "module": 2,
+          "week": 1,
+          "topic": "Earth's Layers",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which layer is Earth's outermost solid layer?",
+          "options": [
+            "Crust",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Crust",
+          "answer_explanation": "The crust is the thin outer solid layer."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W1-Q2",
+          "module": 2,
+          "week": 1,
+          "topic": "Earth's Layers",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which layer is Earth's outermost solid layer?",
+          "options": [
+            "Crust",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Crust",
+          "answer_explanation": "The crust is the thin outer solid layer."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W1-Q3",
+          "module": 2,
+          "week": 1,
+          "topic": "Earth's Layers",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which layer is Earth's outermost solid layer?",
+          "options": [
+            "Crust",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Crust",
+          "answer_explanation": "The crust is the thin outer solid layer."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W1-Q4",
+          "module": 2,
+          "week": 1,
+          "topic": "Earth's Layers",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which layer is Earth's outermost solid layer?",
+          "options": [
+            "Crust",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Crust",
+          "answer_explanation": "The crust is the thin outer solid layer."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W1-Q5",
+          "module": 2,
+          "week": 1,
+          "topic": "Earth's Layers",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which layer is Earth's outermost solid layer?",
+          "options": [
+            "Crust",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Crust",
+          "answer_explanation": "The crust is the thin outer solid layer."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W2-Q1",
+          "module": 2,
+          "week": 2,
+          "topic": "Plate Tectonics",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a tectonic plate?",
+          "options": [
+            "A large moving piece of Earth's lithosphere",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A large moving piece of Earth's lithosphere",
+          "answer_explanation": "Plates move and interact over geologic time."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W2-Q2",
+          "module": 2,
+          "week": 2,
+          "topic": "Plate Tectonics",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a tectonic plate?",
+          "options": [
+            "A large moving piece of Earth's lithosphere",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A large moving piece of Earth's lithosphere",
+          "answer_explanation": "Plates move and interact over geologic time."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W2-Q3",
+          "module": 2,
+          "week": 2,
+          "topic": "Plate Tectonics",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a tectonic plate?",
+          "options": [
+            "A large moving piece of Earth's lithosphere",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A large moving piece of Earth's lithosphere",
+          "answer_explanation": "Plates move and interact over geologic time."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W2-Q4",
+          "module": 2,
+          "week": 2,
+          "topic": "Plate Tectonics",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a tectonic plate?",
+          "options": [
+            "A large moving piece of Earth's lithosphere",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A large moving piece of Earth's lithosphere",
+          "answer_explanation": "Plates move and interact over geologic time."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W2-Q5",
+          "module": 2,
+          "week": 2,
+          "topic": "Plate Tectonics",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a tectonic plate?",
+          "options": [
+            "A large moving piece of Earth's lithosphere",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A large moving piece of Earth's lithosphere",
+          "answer_explanation": "Plates move and interact over geologic time."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W3-Q1",
+          "module": 2,
+          "week": 3,
+          "topic": "Earthquakes & Volcanoes",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why are earthquakes common near some plate boundaries?",
+          "options": [
+            "Moving plates can build and release stress",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Moving plates can build and release stress",
+          "answer_explanation": "Plate interactions can cause earthquakes."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W3-Q2",
+          "module": 2,
+          "week": 3,
+          "topic": "Earthquakes & Volcanoes",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why are earthquakes common near some plate boundaries?",
+          "options": [
+            "Moving plates can build and release stress",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Moving plates can build and release stress",
+          "answer_explanation": "Plate interactions can cause earthquakes."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W3-Q3",
+          "module": 2,
+          "week": 3,
+          "topic": "Earthquakes & Volcanoes",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why are earthquakes common near some plate boundaries?",
+          "options": [
+            "Moving plates can build and release stress",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Moving plates can build and release stress",
+          "answer_explanation": "Plate interactions can cause earthquakes."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W3-Q4",
+          "module": 2,
+          "week": 3,
+          "topic": "Earthquakes & Volcanoes",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why are earthquakes common near some plate boundaries?",
+          "options": [
+            "Moving plates can build and release stress",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Moving plates can build and release stress",
+          "answer_explanation": "Plate interactions can cause earthquakes."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W3-Q5",
+          "module": 2,
+          "week": 3,
+          "topic": "Earthquakes & Volcanoes",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why are earthquakes common near some plate boundaries?",
+          "options": [
+            "Moving plates can build and release stress",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Moving plates can build and release stress",
+          "answer_explanation": "Plate interactions can cause earthquakes."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W4-Q1",
+          "module": 2,
+          "week": 4,
+          "topic": "The Rock Cycle",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can one rock type change into another?",
+          "options": [
+            "Through processes such as melting, cooling, weathering, and pressure",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Through processes such as melting, cooling, weathering, and pressure",
+          "answer_explanation": "The rock cycle describes ongoing rock transformations."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W4-Q2",
+          "module": 2,
+          "week": 4,
+          "topic": "The Rock Cycle",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can one rock type change into another?",
+          "options": [
+            "Through processes such as melting, cooling, weathering, and pressure",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Through processes such as melting, cooling, weathering, and pressure",
+          "answer_explanation": "The rock cycle describes ongoing rock transformations."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W4-Q3",
+          "module": 2,
+          "week": 4,
+          "topic": "The Rock Cycle",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can one rock type change into another?",
+          "options": [
+            "Through processes such as melting, cooling, weathering, and pressure",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Through processes such as melting, cooling, weathering, and pressure",
+          "answer_explanation": "The rock cycle describes ongoing rock transformations."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W4-Q4",
+          "module": 2,
+          "week": 4,
+          "topic": "The Rock Cycle",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can one rock type change into another?",
+          "options": [
+            "Through processes such as melting, cooling, weathering, and pressure",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Through processes such as melting, cooling, weathering, and pressure",
+          "answer_explanation": "The rock cycle describes ongoing rock transformations."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W4-Q5",
+          "module": 2,
+          "week": 4,
+          "topic": "The Rock Cycle",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can one rock type change into another?",
+          "options": [
+            "Through processes such as melting, cooling, weathering, and pressure",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Through processes such as melting, cooling, weathering, and pressure",
+          "answer_explanation": "The rock cycle describes ongoing rock transformations."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W5-Q1",
+          "module": 2,
+          "week": 5,
+          "topic": "Weathering & Erosion",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is erosion?",
+          "options": [
+            "The movement of weathered material from one place to another",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The movement of weathered material from one place to another",
+          "answer_explanation": "Erosion transports sediment."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W5-Q2",
+          "module": 2,
+          "week": 5,
+          "topic": "Weathering & Erosion",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is erosion?",
+          "options": [
+            "The movement of weathered material from one place to another",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The movement of weathered material from one place to another",
+          "answer_explanation": "Erosion transports sediment."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W5-Q3",
+          "module": 2,
+          "week": 5,
+          "topic": "Weathering & Erosion",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is erosion?",
+          "options": [
+            "The movement of weathered material from one place to another",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The movement of weathered material from one place to another",
+          "answer_explanation": "Erosion transports sediment."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W5-Q4",
+          "module": 2,
+          "week": 5,
+          "topic": "Weathering & Erosion",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is erosion?",
+          "options": [
+            "The movement of weathered material from one place to another",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The movement of weathered material from one place to another",
+          "answer_explanation": "Erosion transports sediment."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W5-Q5",
+          "module": 2,
+          "week": 5,
+          "topic": "Weathering & Erosion",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is erosion?",
+          "options": [
+            "The movement of weathered material from one place to another",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The movement of weathered material from one place to another",
+          "answer_explanation": "Erosion transports sediment."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W6-Q1",
+          "module": 2,
+          "week": 6,
+          "topic": "Deposition & Landforms",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is deposition?",
+          "options": [
+            "The settling of transported sediment",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The settling of transported sediment",
+          "answer_explanation": "Deposition can build landforms."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W6-Q2",
+          "module": 2,
+          "week": 6,
+          "topic": "Deposition & Landforms",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is deposition?",
+          "options": [
+            "The settling of transported sediment",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The settling of transported sediment",
+          "answer_explanation": "Deposition can build landforms."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W6-Q3",
+          "module": 2,
+          "week": 6,
+          "topic": "Deposition & Landforms",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is deposition?",
+          "options": [
+            "The settling of transported sediment",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The settling of transported sediment",
+          "answer_explanation": "Deposition can build landforms."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W6-Q4",
+          "module": 2,
+          "week": 6,
+          "topic": "Deposition & Landforms",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is deposition?",
+          "options": [
+            "The settling of transported sediment",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The settling of transported sediment",
+          "answer_explanation": "Deposition can build landforms."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W6-Q5",
+          "module": 2,
+          "week": 6,
+          "topic": "Deposition & Landforms",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is deposition?",
+          "options": [
+            "The settling of transported sediment",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The settling of transported sediment",
+          "answer_explanation": "Deposition can build landforms."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W7-Q1",
+          "module": 2,
+          "week": 7,
+          "topic": "Evidence of Change",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils help scientists determine?",
+          "options": [
+            "Information about organisms and environments from the past",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Information about organisms and environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W7-Q2",
+          "module": 2,
+          "week": 7,
+          "topic": "Evidence of Change",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils help scientists determine?",
+          "options": [
+            "Information about organisms and environments from the past",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Information about organisms and environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W7-Q3",
+          "module": 2,
+          "week": 7,
+          "topic": "Evidence of Change",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils help scientists determine?",
+          "options": [
+            "Information about organisms and environments from the past",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Information about organisms and environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W7-Q4",
+          "module": 2,
+          "week": 7,
+          "topic": "Evidence of Change",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils help scientists determine?",
+          "options": [
+            "Information about organisms and environments from the past",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Information about organisms and environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W7-Q5",
+          "module": 2,
+          "week": 7,
+          "topic": "Evidence of Change",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils help scientists determine?",
+          "options": [
+            "Information about organisms and environments from the past",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Information about organisms and environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W8-Q1",
+          "module": 2,
+          "week": 8,
+          "topic": "Earth Materials Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can change Earth's surface?",
+          "options": [
+            "Weathering and erosion",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weathering and erosion",
+          "answer_explanation": "Surface processes continuously reshape land."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W8-Q2",
+          "module": 2,
+          "week": 8,
+          "topic": "Earth Materials Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can change Earth's surface?",
+          "options": [
+            "Weathering and erosion",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weathering and erosion",
+          "answer_explanation": "Surface processes continuously reshape land."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W8-Q3",
+          "module": 2,
+          "week": 8,
+          "topic": "Earth Materials Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can change Earth's surface?",
+          "options": [
+            "Weathering and erosion",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weathering and erosion",
+          "answer_explanation": "Surface processes continuously reshape land."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W8-Q4",
+          "module": 2,
+          "week": 8,
+          "topic": "Earth Materials Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can change Earth's surface?",
+          "options": [
+            "Weathering and erosion",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weathering and erosion",
+          "answer_explanation": "Surface processes continuously reshape land."
+        },
+        {
+          "question_id": "G6-SCIENCE-M2-W8-Q5",
+          "module": 2,
+          "week": 8,
+          "topic": "Earth Materials Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can change Earth's surface?",
+          "options": [
+            "Weathering and erosion",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weathering and erosion",
+          "answer_explanation": "Surface processes continuously reshape land."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-SCIENCE-MODULE-3",
+      "course": "Grade 6 Earth & Space Science · NGSS",
+      "grade": 6,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Weather, Water & Climate",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-SCIENCE-M3-W1-Q1",
+          "module": 3,
+          "week": 1,
+          "topic": "The Water Cycle",
+          "standard": "MS-ESS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What process changes liquid water into water vapor?",
+          "options": [
+            "Evaporation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Evaporation",
+          "answer_explanation": "Evaporation moves water from liquid to gas."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W1-Q2",
+          "module": 3,
+          "week": 1,
+          "topic": "The Water Cycle",
+          "standard": "MS-ESS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What process changes liquid water into water vapor?",
+          "options": [
+            "Evaporation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Evaporation",
+          "answer_explanation": "Evaporation moves water from liquid to gas."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W1-Q3",
+          "module": 3,
+          "week": 1,
+          "topic": "The Water Cycle",
+          "standard": "MS-ESS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What process changes liquid water into water vapor?",
+          "options": [
+            "Evaporation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Evaporation",
+          "answer_explanation": "Evaporation moves water from liquid to gas."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W1-Q4",
+          "module": 3,
+          "week": 1,
+          "topic": "The Water Cycle",
+          "standard": "MS-ESS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What process changes liquid water into water vapor?",
+          "options": [
+            "Evaporation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Evaporation",
+          "answer_explanation": "Evaporation moves water from liquid to gas."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W1-Q5",
+          "module": 3,
+          "week": 1,
+          "topic": "The Water Cycle",
+          "standard": "MS-ESS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What process changes liquid water into water vapor?",
+          "options": [
+            "Evaporation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Evaporation",
+          "answer_explanation": "Evaporation moves water from liquid to gas."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W2-Q1",
+          "module": 3,
+          "week": 2,
+          "topic": "Energy & the Atmosphere",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the main source of energy driving Earth's weather system?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "Solar energy heats Earth's surface and atmosphere."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W2-Q2",
+          "module": 3,
+          "week": 2,
+          "topic": "Energy & the Atmosphere",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the main source of energy driving Earth's weather system?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "Solar energy heats Earth's surface and atmosphere."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W2-Q3",
+          "module": 3,
+          "week": 2,
+          "topic": "Energy & the Atmosphere",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the main source of energy driving Earth's weather system?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "Solar energy heats Earth's surface and atmosphere."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W2-Q4",
+          "module": 3,
+          "week": 2,
+          "topic": "Energy & the Atmosphere",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the main source of energy driving Earth's weather system?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "Solar energy heats Earth's surface and atmosphere."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W2-Q5",
+          "module": 3,
+          "week": 2,
+          "topic": "Energy & the Atmosphere",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the main source of energy driving Earth's weather system?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "Solar energy heats Earth's surface and atmosphere."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W3-Q1",
+          "module": 3,
+          "week": 3,
+          "topic": "Weather Patterns",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens when two different air masses meet?",
+          "options": [
+            "A front can form",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A front can form",
+          "answer_explanation": "Boundaries between air masses are fronts."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W3-Q2",
+          "module": 3,
+          "week": 3,
+          "topic": "Weather Patterns",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens when two different air masses meet?",
+          "options": [
+            "A front can form",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A front can form",
+          "answer_explanation": "Boundaries between air masses are fronts."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W3-Q3",
+          "module": 3,
+          "week": 3,
+          "topic": "Weather Patterns",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens when two different air masses meet?",
+          "options": [
+            "A front can form",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A front can form",
+          "answer_explanation": "Boundaries between air masses are fronts."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W3-Q4",
+          "module": 3,
+          "week": 3,
+          "topic": "Weather Patterns",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens when two different air masses meet?",
+          "options": [
+            "A front can form",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A front can form",
+          "answer_explanation": "Boundaries between air masses are fronts."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W3-Q5",
+          "module": 3,
+          "week": 3,
+          "topic": "Weather Patterns",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens when two different air masses meet?",
+          "options": [
+            "A front can form",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A front can form",
+          "answer_explanation": "Boundaries between air masses are fronts."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W4-Q1",
+          "module": 3,
+          "week": 4,
+          "topic": "Predicting Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use weather maps?",
+          "options": [
+            "To interpret patterns such as fronts, pressure, and precipitation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To interpret patterns such as fronts, pressure, and precipitation",
+          "answer_explanation": "Maps organize data for prediction."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W4-Q2",
+          "module": 3,
+          "week": 4,
+          "topic": "Predicting Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use weather maps?",
+          "options": [
+            "To interpret patterns such as fronts, pressure, and precipitation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To interpret patterns such as fronts, pressure, and precipitation",
+          "answer_explanation": "Maps organize data for prediction."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W4-Q3",
+          "module": 3,
+          "week": 4,
+          "topic": "Predicting Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use weather maps?",
+          "options": [
+            "To interpret patterns such as fronts, pressure, and precipitation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To interpret patterns such as fronts, pressure, and precipitation",
+          "answer_explanation": "Maps organize data for prediction."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W4-Q4",
+          "module": 3,
+          "week": 4,
+          "topic": "Predicting Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use weather maps?",
+          "options": [
+            "To interpret patterns such as fronts, pressure, and precipitation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To interpret patterns such as fronts, pressure, and precipitation",
+          "answer_explanation": "Maps organize data for prediction."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W4-Q5",
+          "module": 3,
+          "week": 4,
+          "topic": "Predicting Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use weather maps?",
+          "options": [
+            "To interpret patterns such as fronts, pressure, and precipitation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To interpret patterns such as fronts, pressure, and precipitation",
+          "answer_explanation": "Maps organize data for prediction."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W5-Q1",
+          "module": 3,
+          "week": 5,
+          "topic": "Ocean Currents",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can drive ocean currents?",
+          "options": [
+            "Differences in temperature, density, and wind",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Differences in temperature, density, and wind",
+          "answer_explanation": "Multiple factors influence ocean circulation."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W5-Q2",
+          "module": 3,
+          "week": 5,
+          "topic": "Ocean Currents",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can drive ocean currents?",
+          "options": [
+            "Differences in temperature, density, and wind",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Differences in temperature, density, and wind",
+          "answer_explanation": "Multiple factors influence ocean circulation."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W5-Q3",
+          "module": 3,
+          "week": 5,
+          "topic": "Ocean Currents",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can drive ocean currents?",
+          "options": [
+            "Differences in temperature, density, and wind",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Differences in temperature, density, and wind",
+          "answer_explanation": "Multiple factors influence ocean circulation."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W5-Q4",
+          "module": 3,
+          "week": 5,
+          "topic": "Ocean Currents",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can drive ocean currents?",
+          "options": [
+            "Differences in temperature, density, and wind",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Differences in temperature, density, and wind",
+          "answer_explanation": "Multiple factors influence ocean circulation."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W5-Q5",
+          "module": 3,
+          "week": 5,
+          "topic": "Ocean Currents",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can drive ocean currents?",
+          "options": [
+            "Differences in temperature, density, and wind",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Differences in temperature, density, and wind",
+          "answer_explanation": "Multiple factors influence ocean circulation."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W6-Q1",
+          "module": 3,
+          "week": 6,
+          "topic": "Climate",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is climate?",
+          "options": [
+            "The long-term pattern of weather in a region",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The long-term pattern of weather in a region",
+          "answer_explanation": "Climate describes long-term conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W6-Q2",
+          "module": 3,
+          "week": 6,
+          "topic": "Climate",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is climate?",
+          "options": [
+            "The long-term pattern of weather in a region",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The long-term pattern of weather in a region",
+          "answer_explanation": "Climate describes long-term conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W6-Q3",
+          "module": 3,
+          "week": 6,
+          "topic": "Climate",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is climate?",
+          "options": [
+            "The long-term pattern of weather in a region",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The long-term pattern of weather in a region",
+          "answer_explanation": "Climate describes long-term conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W6-Q4",
+          "module": 3,
+          "week": 6,
+          "topic": "Climate",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is climate?",
+          "options": [
+            "The long-term pattern of weather in a region",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The long-term pattern of weather in a region",
+          "answer_explanation": "Climate describes long-term conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W6-Q5",
+          "module": 3,
+          "week": 6,
+          "topic": "Climate",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is climate?",
+          "options": [
+            "The long-term pattern of weather in a region",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The long-term pattern of weather in a region",
+          "answer_explanation": "Climate describes long-term conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W7-Q1",
+          "module": 3,
+          "week": 7,
+          "topic": "Climate vs Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly distinguishes weather from climate?",
+          "options": [
+            "Weather describes short-term conditions; climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather describes short-term conditions; climate describes long-term patterns",
+          "answer_explanation": "The time scale is the key difference."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W7-Q2",
+          "module": 3,
+          "week": 7,
+          "topic": "Climate vs Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly distinguishes weather from climate?",
+          "options": [
+            "Weather describes short-term conditions; climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather describes short-term conditions; climate describes long-term patterns",
+          "answer_explanation": "The time scale is the key difference."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W7-Q3",
+          "module": 3,
+          "week": 7,
+          "topic": "Climate vs Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly distinguishes weather from climate?",
+          "options": [
+            "Weather describes short-term conditions; climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather describes short-term conditions; climate describes long-term patterns",
+          "answer_explanation": "The time scale is the key difference."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W7-Q4",
+          "module": 3,
+          "week": 7,
+          "topic": "Climate vs Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly distinguishes weather from climate?",
+          "options": [
+            "Weather describes short-term conditions; climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather describes short-term conditions; climate describes long-term patterns",
+          "answer_explanation": "The time scale is the key difference."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W7-Q5",
+          "module": 3,
+          "week": 7,
+          "topic": "Climate vs Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly distinguishes weather from climate?",
+          "options": [
+            "Weather describes short-term conditions; climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather describes short-term conditions; climate describes long-term patterns",
+          "answer_explanation": "The time scale is the key difference."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W8-Q1",
+          "module": 3,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Weather changes over short periods while climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather changes over short periods while climate describes long-term patterns",
+          "answer_explanation": "Both are related but use different time scales."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W8-Q2",
+          "module": 3,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Weather changes over short periods while climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather changes over short periods while climate describes long-term patterns",
+          "answer_explanation": "Both are related but use different time scales."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W8-Q3",
+          "module": 3,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Weather changes over short periods while climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather changes over short periods while climate describes long-term patterns",
+          "answer_explanation": "Both are related but use different time scales."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W8-Q4",
+          "module": 3,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Weather changes over short periods while climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather changes over short periods while climate describes long-term patterns",
+          "answer_explanation": "Both are related but use different time scales."
+        },
+        {
+          "question_id": "G6-SCIENCE-M3-W8-Q5",
+          "module": 3,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Weather changes over short periods while climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather changes over short periods while climate describes long-term patterns",
+          "answer_explanation": "Both are related but use different time scales."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-SCIENCE-MODULE-4",
+      "course": "Grade 6 Earth & Space Science · NGSS",
+      "grade": 6,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Earth & Human Activity",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-SCIENCE-M4-W1-Q1",
+          "module": 4,
+          "week": 1,
+          "topic": "Natural Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a natural resource?",
+          "options": [
+            "A material or feature from nature that people use",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A material or feature from nature that people use",
+          "answer_explanation": "Examples include water, minerals, and forests."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W1-Q2",
+          "module": 4,
+          "week": 1,
+          "topic": "Natural Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a natural resource?",
+          "options": [
+            "A material or feature from nature that people use",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A material or feature from nature that people use",
+          "answer_explanation": "Examples include water, minerals, and forests."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W1-Q3",
+          "module": 4,
+          "week": 1,
+          "topic": "Natural Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a natural resource?",
+          "options": [
+            "A material or feature from nature that people use",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A material or feature from nature that people use",
+          "answer_explanation": "Examples include water, minerals, and forests."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W1-Q4",
+          "module": 4,
+          "week": 1,
+          "topic": "Natural Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a natural resource?",
+          "options": [
+            "A material or feature from nature that people use",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A material or feature from nature that people use",
+          "answer_explanation": "Examples include water, minerals, and forests."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W1-Q5",
+          "module": 4,
+          "week": 1,
+          "topic": "Natural Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a natural resource?",
+          "options": [
+            "A material or feature from nature that people use",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A material or feature from nature that people use",
+          "answer_explanation": "Examples include water, minerals, and forests."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W2-Q1",
+          "module": 4,
+          "week": 2,
+          "topic": "Energy Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy resource?",
+          "options": [
+            "Solar energy",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Solar energy",
+          "answer_explanation": "Solar energy is naturally replenished."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W2-Q2",
+          "module": 4,
+          "week": 2,
+          "topic": "Energy Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy resource?",
+          "options": [
+            "Solar energy",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Solar energy",
+          "answer_explanation": "Solar energy is naturally replenished."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W2-Q3",
+          "module": 4,
+          "week": 2,
+          "topic": "Energy Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy resource?",
+          "options": [
+            "Solar energy",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Solar energy",
+          "answer_explanation": "Solar energy is naturally replenished."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W2-Q4",
+          "module": 4,
+          "week": 2,
+          "topic": "Energy Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy resource?",
+          "options": [
+            "Solar energy",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Solar energy",
+          "answer_explanation": "Solar energy is naturally replenished."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W2-Q5",
+          "module": 4,
+          "week": 2,
+          "topic": "Energy Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy resource?",
+          "options": [
+            "Solar energy",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Solar energy",
+          "answer_explanation": "Solar energy is naturally replenished."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W3-Q1",
+          "module": 4,
+          "week": 3,
+          "topic": "Natural Hazards",
+          "standard": "MS-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce risk from a natural hazard?",
+          "options": [
+            "Using hazard maps and preparing evacuation plans",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using hazard maps and preparing evacuation plans",
+          "answer_explanation": "Planning and forecasting can reduce harm."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W3-Q2",
+          "module": 4,
+          "week": 3,
+          "topic": "Natural Hazards",
+          "standard": "MS-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce risk from a natural hazard?",
+          "options": [
+            "Using hazard maps and preparing evacuation plans",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using hazard maps and preparing evacuation plans",
+          "answer_explanation": "Planning and forecasting can reduce harm."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W3-Q3",
+          "module": 4,
+          "week": 3,
+          "topic": "Natural Hazards",
+          "standard": "MS-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce risk from a natural hazard?",
+          "options": [
+            "Using hazard maps and preparing evacuation plans",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using hazard maps and preparing evacuation plans",
+          "answer_explanation": "Planning and forecasting can reduce harm."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W3-Q4",
+          "module": 4,
+          "week": 3,
+          "topic": "Natural Hazards",
+          "standard": "MS-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce risk from a natural hazard?",
+          "options": [
+            "Using hazard maps and preparing evacuation plans",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using hazard maps and preparing evacuation plans",
+          "answer_explanation": "Planning and forecasting can reduce harm."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W3-Q5",
+          "module": 4,
+          "week": 3,
+          "topic": "Natural Hazards",
+          "standard": "MS-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce risk from a natural hazard?",
+          "options": [
+            "Using hazard maps and preparing evacuation plans",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using hazard maps and preparing evacuation plans",
+          "answer_explanation": "Planning and forecasting can reduce harm."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W4-Q1",
+          "module": 4,
+          "week": 4,
+          "topic": "Human Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which activity can negatively affect ecosystems?",
+          "options": [
+            "Increasing pollution",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Increasing pollution",
+          "answer_explanation": "Human activities can change environmental conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W4-Q2",
+          "module": 4,
+          "week": 4,
+          "topic": "Human Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which activity can negatively affect ecosystems?",
+          "options": [
+            "Increasing pollution",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Increasing pollution",
+          "answer_explanation": "Human activities can change environmental conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W4-Q3",
+          "module": 4,
+          "week": 4,
+          "topic": "Human Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which activity can negatively affect ecosystems?",
+          "options": [
+            "Increasing pollution",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Increasing pollution",
+          "answer_explanation": "Human activities can change environmental conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W4-Q4",
+          "module": 4,
+          "week": 4,
+          "topic": "Human Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which activity can negatively affect ecosystems?",
+          "options": [
+            "Increasing pollution",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Increasing pollution",
+          "answer_explanation": "Human activities can change environmental conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W4-Q5",
+          "module": 4,
+          "week": 4,
+          "topic": "Human Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which activity can negatively affect ecosystems?",
+          "options": [
+            "Increasing pollution",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Increasing pollution",
+          "answer_explanation": "Human activities can change environmental conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W5-Q1",
+          "module": 4,
+          "week": 5,
+          "topic": "Managing Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why monitor environmental conditions?",
+          "options": [
+            "To identify changes and evaluate whether solutions work",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To identify changes and evaluate whether solutions work",
+          "answer_explanation": "Monitoring provides evidence for decisions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W5-Q2",
+          "module": 4,
+          "week": 5,
+          "topic": "Managing Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why monitor environmental conditions?",
+          "options": [
+            "To identify changes and evaluate whether solutions work",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To identify changes and evaluate whether solutions work",
+          "answer_explanation": "Monitoring provides evidence for decisions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W5-Q3",
+          "module": 4,
+          "week": 5,
+          "topic": "Managing Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why monitor environmental conditions?",
+          "options": [
+            "To identify changes and evaluate whether solutions work",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To identify changes and evaluate whether solutions work",
+          "answer_explanation": "Monitoring provides evidence for decisions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W5-Q4",
+          "module": 4,
+          "week": 5,
+          "topic": "Managing Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why monitor environmental conditions?",
+          "options": [
+            "To identify changes and evaluate whether solutions work",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To identify changes and evaluate whether solutions work",
+          "answer_explanation": "Monitoring provides evidence for decisions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W5-Q5",
+          "module": 4,
+          "week": 5,
+          "topic": "Managing Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why monitor environmental conditions?",
+          "options": [
+            "To identify changes and evaluate whether solutions work",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To identify changes and evaluate whether solutions work",
+          "answer_explanation": "Monitoring provides evidence for decisions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W6-Q1",
+          "module": 4,
+          "week": 6,
+          "topic": "Global Climate Change",
+          "standard": "MS-ESS3-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence can help scientists study climate change?",
+          "options": [
+            "Long-term measurements of temperature and atmospheric gases",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Long-term measurements of temperature and atmospheric gases",
+          "answer_explanation": "Long-term data reveal patterns and trends."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W6-Q2",
+          "module": 4,
+          "week": 6,
+          "topic": "Global Climate Change",
+          "standard": "MS-ESS3-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence can help scientists study climate change?",
+          "options": [
+            "Long-term measurements of temperature and atmospheric gases",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Long-term measurements of temperature and atmospheric gases",
+          "answer_explanation": "Long-term data reveal patterns and trends."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W6-Q3",
+          "module": 4,
+          "week": 6,
+          "topic": "Global Climate Change",
+          "standard": "MS-ESS3-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence can help scientists study climate change?",
+          "options": [
+            "Long-term measurements of temperature and atmospheric gases",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Long-term measurements of temperature and atmospheric gases",
+          "answer_explanation": "Long-term data reveal patterns and trends."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W6-Q4",
+          "module": 4,
+          "week": 6,
+          "topic": "Global Climate Change",
+          "standard": "MS-ESS3-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence can help scientists study climate change?",
+          "options": [
+            "Long-term measurements of temperature and atmospheric gases",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Long-term measurements of temperature and atmospheric gases",
+          "answer_explanation": "Long-term data reveal patterns and trends."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W6-Q5",
+          "module": 4,
+          "week": 6,
+          "topic": "Global Climate Change",
+          "standard": "MS-ESS3-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence can help scientists study climate change?",
+          "options": [
+            "Long-term measurements of temperature and atmospheric gases",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Long-term measurements of temperature and atmospheric gases",
+          "answer_explanation": "Long-term data reveal patterns and trends."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W7-Q1",
+          "module": 4,
+          "week": 7,
+          "topic": "Environmental Solutions",
+          "standard": "MS-ESS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a sustainability strategy?",
+          "options": [
+            "Using resources in ways that can continue over time",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using resources in ways that can continue over time",
+          "answer_explanation": "Sustainability balances human needs with environmental limits."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W7-Q2",
+          "module": 4,
+          "week": 7,
+          "topic": "Environmental Solutions",
+          "standard": "MS-ESS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a sustainability strategy?",
+          "options": [
+            "Using resources in ways that can continue over time",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using resources in ways that can continue over time",
+          "answer_explanation": "Sustainability balances human needs with environmental limits."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W7-Q3",
+          "module": 4,
+          "week": 7,
+          "topic": "Environmental Solutions",
+          "standard": "MS-ESS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a sustainability strategy?",
+          "options": [
+            "Using resources in ways that can continue over time",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using resources in ways that can continue over time",
+          "answer_explanation": "Sustainability balances human needs with environmental limits."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W7-Q4",
+          "module": 4,
+          "week": 7,
+          "topic": "Environmental Solutions",
+          "standard": "MS-ESS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a sustainability strategy?",
+          "options": [
+            "Using resources in ways that can continue over time",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using resources in ways that can continue over time",
+          "answer_explanation": "Sustainability balances human needs with environmental limits."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W7-Q5",
+          "module": 4,
+          "week": 7,
+          "topic": "Environmental Solutions",
+          "standard": "MS-ESS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a sustainability strategy?",
+          "options": [
+            "Using resources in ways that can continue over time",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using resources in ways that can continue over time",
+          "answer_explanation": "Sustainability balances human needs with environmental limits."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W8-Q1",
+          "module": 4,
+          "week": 8,
+          "topic": "Inquiry & Review",
+          "standard": "MS-ESS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which approach is most scientific when evaluating an environmental solution?",
+          "options": [
+            "Use evidence and data to compare its effects",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Use evidence and data to compare its effects",
+          "answer_explanation": "Evidence supports evaluation of solutions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W8-Q2",
+          "module": 4,
+          "week": 8,
+          "topic": "Inquiry & Review",
+          "standard": "MS-ESS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which approach is most scientific when evaluating an environmental solution?",
+          "options": [
+            "Use evidence and data to compare its effects",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Use evidence and data to compare its effects",
+          "answer_explanation": "Evidence supports evaluation of solutions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W8-Q3",
+          "module": 4,
+          "week": 8,
+          "topic": "Inquiry & Review",
+          "standard": "MS-ESS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which approach is most scientific when evaluating an environmental solution?",
+          "options": [
+            "Use evidence and data to compare its effects",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Use evidence and data to compare its effects",
+          "answer_explanation": "Evidence supports evaluation of solutions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W8-Q4",
+          "module": 4,
+          "week": 8,
+          "topic": "Inquiry & Review",
+          "standard": "MS-ESS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which approach is most scientific when evaluating an environmental solution?",
+          "options": [
+            "Use evidence and data to compare its effects",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Use evidence and data to compare its effects",
+          "answer_explanation": "Evidence supports evaluation of solutions."
+        },
+        {
+          "question_id": "G6-SCIENCE-M4-W8-Q5",
+          "module": 4,
+          "week": 8,
+          "topic": "Inquiry & Review",
+          "standard": "MS-ESS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which approach is most scientific when evaluating an environmental solution?",
+          "options": [
+            "Use evidence and data to compare its effects",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Use evidence and data to compare its effects",
+          "answer_explanation": "Evidence supports evaluation of solutions."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-SCIENCE-MOCK-1",
+      "course": "Grade 6 Earth & Space Science · NGSS",
+      "grade": 6,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Earth, Moon & Sun",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which model best explains the Earth-Moon-Sun system?",
+          "options": [
+            "Earth orbits the Sun while the Moon orbits Earth",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth orbits the Sun while the Moon orbits Earth",
+          "answer_explanation": "The motions of these bodies explain many observable patterns."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Seasons & Day/Night",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What causes day and night?",
+          "options": [
+            "Earth's rotation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's rotation",
+          "answer_explanation": "Different parts of Earth face toward or away from the Sun as Earth rotates."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Moon Phases & Eclipses",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does the Moon appear to have different phases?",
+          "options": [
+            "We see different portions of its sunlit half",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "We see different portions of its sunlit half",
+          "answer_explanation": "The visible illuminated portion changes as the Moon moves around Earth."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Gravity & Orbits",
+          "standard": "MS-ESS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What role does gravity play in an orbit?",
+          "options": [
+            "It provides the force that keeps an object moving around another body",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "It provides the force that keeps an object moving around another body",
+          "answer_explanation": "Gravity changes the motion of orbiting objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "The Solar System",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is a star?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "The Sun produces its own light and energy."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Scale of the Universe",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use scale models for space?",
+          "options": [
+            "Space distances and sizes are too large to represent directly",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Space distances and sizes are too large to represent directly",
+          "answer_explanation": "Models help compare very large distances and objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Earth's History in Rock",
+          "standard": "MS-ESS1-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rock layers provide evidence about?",
+          "options": [
+            "Changes that occurred over Earth's history",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Changes that occurred over Earth's history",
+          "answer_explanation": "Rock strata preserve evidence of past events."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Space Systems Review",
+          "standard": "MS-ESS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Earth's motions and the positions of space objects create predictable patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's motions and the positions of space objects create predictable patterns",
+          "answer_explanation": "Models help explain observable space phenomena."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Earth's Layers",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which layer is Earth's outermost solid layer?",
+          "options": [
+            "Crust",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Crust",
+          "answer_explanation": "The crust is the thin outer solid layer."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Plate Tectonics",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a tectonic plate?",
+          "options": [
+            "A large moving piece of Earth's lithosphere",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A large moving piece of Earth's lithosphere",
+          "answer_explanation": "Plates move and interact over geologic time."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Earthquakes & Volcanoes",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why are earthquakes common near some plate boundaries?",
+          "options": [
+            "Moving plates can build and release stress",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Moving plates can build and release stress",
+          "answer_explanation": "Plate interactions can cause earthquakes."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "The Rock Cycle",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can one rock type change into another?",
+          "options": [
+            "Through processes such as melting, cooling, weathering, and pressure",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Through processes such as melting, cooling, weathering, and pressure",
+          "answer_explanation": "The rock cycle describes ongoing rock transformations."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Weathering & Erosion",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is erosion?",
+          "options": [
+            "The movement of weathered material from one place to another",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The movement of weathered material from one place to another",
+          "answer_explanation": "Erosion transports sediment."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Deposition & Landforms",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is deposition?",
+          "options": [
+            "The settling of transported sediment",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The settling of transported sediment",
+          "answer_explanation": "Deposition can build landforms."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Evidence of Change",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils help scientists determine?",
+          "options": [
+            "Information about organisms and environments from the past",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Information about organisms and environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Earth Materials Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can change Earth's surface?",
+          "options": [
+            "Weathering and erosion",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weathering and erosion",
+          "answer_explanation": "Surface processes continuously reshape land."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "The Water Cycle",
+          "standard": "MS-ESS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What process changes liquid water into water vapor?",
+          "options": [
+            "Evaporation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Evaporation",
+          "answer_explanation": "Evaporation moves water from liquid to gas."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Energy & the Atmosphere",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the main source of energy driving Earth's weather system?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "Solar energy heats Earth's surface and atmosphere."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "Weather Patterns",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens when two different air masses meet?",
+          "options": [
+            "A front can form",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A front can form",
+          "answer_explanation": "Boundaries between air masses are fronts."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Predicting Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use weather maps?",
+          "options": [
+            "To interpret patterns such as fronts, pressure, and precipitation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To interpret patterns such as fronts, pressure, and precipitation",
+          "answer_explanation": "Maps organize data for prediction."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "Ocean Currents",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can drive ocean currents?",
+          "options": [
+            "Differences in temperature, density, and wind",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Differences in temperature, density, and wind",
+          "answer_explanation": "Multiple factors influence ocean circulation."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "Climate",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is climate?",
+          "options": [
+            "The long-term pattern of weather in a region",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The long-term pattern of weather in a region",
+          "answer_explanation": "Climate describes long-term conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "Climate vs Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly distinguishes weather from climate?",
+          "options": [
+            "Weather describes short-term conditions; climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather describes short-term conditions; climate describes long-term patterns",
+          "answer_explanation": "The time scale is the key difference."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Weather changes over short periods while climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather changes over short periods while climate describes long-term patterns",
+          "answer_explanation": "Both are related but use different time scales."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "Natural Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a natural resource?",
+          "options": [
+            "A material or feature from nature that people use",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A material or feature from nature that people use",
+          "answer_explanation": "Examples include water, minerals, and forests."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Energy Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy resource?",
+          "options": [
+            "Solar energy",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Solar energy",
+          "answer_explanation": "Solar energy is naturally replenished."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Natural Hazards",
+          "standard": "MS-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce risk from a natural hazard?",
+          "options": [
+            "Using hazard maps and preparing evacuation plans",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using hazard maps and preparing evacuation plans",
+          "answer_explanation": "Planning and forecasting can reduce harm."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "Human Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which activity can negatively affect ecosystems?",
+          "options": [
+            "Increasing pollution",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Increasing pollution",
+          "answer_explanation": "Human activities can change environmental conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "Managing Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why monitor environmental conditions?",
+          "options": [
+            "To identify changes and evaluate whether solutions work",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To identify changes and evaluate whether solutions work",
+          "answer_explanation": "Monitoring provides evidence for decisions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Global Climate Change",
+          "standard": "MS-ESS3-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence can help scientists study climate change?",
+          "options": [
+            "Long-term measurements of temperature and atmospheric gases",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Long-term measurements of temperature and atmospheric gases",
+          "answer_explanation": "Long-term data reveal patterns and trends."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "Environmental Solutions",
+          "standard": "MS-ESS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a sustainability strategy?",
+          "options": [
+            "Using resources in ways that can continue over time",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using resources in ways that can continue over time",
+          "answer_explanation": "Sustainability balances human needs with environmental limits."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Inquiry & Review",
+          "standard": "MS-ESS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which approach is most scientific when evaluating an environmental solution?",
+          "options": [
+            "Use evidence and data to compare its effects",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Use evidence and data to compare its effects",
+          "answer_explanation": "Evidence supports evaluation of solutions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q33",
+          "module": 1,
+          "week": 2,
+          "topic": "Seasons & Day/Night",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What causes day and night?",
+          "options": [
+            "Earth's rotation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's rotation",
+          "answer_explanation": "Different parts of Earth face toward or away from the Sun as Earth rotates."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q34",
+          "module": 2,
+          "week": 5,
+          "topic": "Weathering & Erosion",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is erosion?",
+          "options": [
+            "The movement of weathered material from one place to another",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The movement of weathered material from one place to another",
+          "answer_explanation": "Erosion transports sediment."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q35",
+          "module": 3,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Weather changes over short periods while climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather changes over short periods while climate describes long-term patterns",
+          "answer_explanation": "Both are related but use different time scales."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q36",
+          "module": 4,
+          "week": 3,
+          "topic": "Natural Hazards",
+          "standard": "MS-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce risk from a natural hazard?",
+          "options": [
+            "Using hazard maps and preparing evacuation plans",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using hazard maps and preparing evacuation plans",
+          "answer_explanation": "Planning and forecasting can reduce harm."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q37",
+          "module": 1,
+          "week": 6,
+          "topic": "Scale of the Universe",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use scale models for space?",
+          "options": [
+            "Space distances and sizes are too large to represent directly",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Space distances and sizes are too large to represent directly",
+          "answer_explanation": "Models help compare very large distances and objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q38",
+          "module": 2,
+          "week": 1,
+          "topic": "Earth's Layers",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which layer is Earth's outermost solid layer?",
+          "options": [
+            "Crust",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Crust",
+          "answer_explanation": "The crust is the thin outer solid layer."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q39",
+          "module": 3,
+          "week": 4,
+          "topic": "Predicting Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use weather maps?",
+          "options": [
+            "To interpret patterns such as fronts, pressure, and precipitation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To interpret patterns such as fronts, pressure, and precipitation",
+          "answer_explanation": "Maps organize data for prediction."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-1-Q40",
+          "module": 4,
+          "week": 7,
+          "topic": "Environmental Solutions",
+          "standard": "MS-ESS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a sustainability strategy?",
+          "options": [
+            "Using resources in ways that can continue over time",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using resources in ways that can continue over time",
+          "answer_explanation": "Sustainability balances human needs with environmental limits."
+        }
+      ]
+    },
+    {
+      "paper_id": "G6-SCIENCE-MOCK-2",
+      "course": "Grade 6 Earth & Space Science · NGSS",
+      "grade": 6,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Earth, Moon & Sun",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which model best explains the Earth-Moon-Sun system?",
+          "options": [
+            "Earth orbits the Sun while the Moon orbits Earth",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth orbits the Sun while the Moon orbits Earth",
+          "answer_explanation": "The motions of these bodies explain many observable patterns."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Seasons & Day/Night",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What causes day and night?",
+          "options": [
+            "Earth's rotation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's rotation",
+          "answer_explanation": "Different parts of Earth face toward or away from the Sun as Earth rotates."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Moon Phases & Eclipses",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does the Moon appear to have different phases?",
+          "options": [
+            "We see different portions of its sunlit half",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "We see different portions of its sunlit half",
+          "answer_explanation": "The visible illuminated portion changes as the Moon moves around Earth."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Gravity & Orbits",
+          "standard": "MS-ESS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What role does gravity play in an orbit?",
+          "options": [
+            "It provides the force that keeps an object moving around another body",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "It provides the force that keeps an object moving around another body",
+          "answer_explanation": "Gravity changes the motion of orbiting objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "The Solar System",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object is a star?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "The Sun produces its own light and energy."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Scale of the Universe",
+          "standard": "MS-ESS1-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use scale models for space?",
+          "options": [
+            "Space distances and sizes are too large to represent directly",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Space distances and sizes are too large to represent directly",
+          "answer_explanation": "Models help compare very large distances and objects."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Earth's History in Rock",
+          "standard": "MS-ESS1-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rock layers provide evidence about?",
+          "options": [
+            "Changes that occurred over Earth's history",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Changes that occurred over Earth's history",
+          "answer_explanation": "Rock strata preserve evidence of past events."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Space Systems Review",
+          "standard": "MS-ESS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Earth's motions and the positions of space objects create predictable patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Earth's motions and the positions of space objects create predictable patterns",
+          "answer_explanation": "Models help explain observable space phenomena."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Earth's Layers",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which layer is Earth's outermost solid layer?",
+          "options": [
+            "Crust",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Crust",
+          "answer_explanation": "The crust is the thin outer solid layer."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Plate Tectonics",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a tectonic plate?",
+          "options": [
+            "A large moving piece of Earth's lithosphere",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A large moving piece of Earth's lithosphere",
+          "answer_explanation": "Plates move and interact over geologic time."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Earthquakes & Volcanoes",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why are earthquakes common near some plate boundaries?",
+          "options": [
+            "Moving plates can build and release stress",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Moving plates can build and release stress",
+          "answer_explanation": "Plate interactions can cause earthquakes."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "The Rock Cycle",
+          "standard": "MS-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can one rock type change into another?",
+          "options": [
+            "Through processes such as melting, cooling, weathering, and pressure",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Through processes such as melting, cooling, weathering, and pressure",
+          "answer_explanation": "The rock cycle describes ongoing rock transformations."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Weathering & Erosion",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is erosion?",
+          "options": [
+            "The movement of weathered material from one place to another",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The movement of weathered material from one place to another",
+          "answer_explanation": "Erosion transports sediment."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Deposition & Landforms",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is deposition?",
+          "options": [
+            "The settling of transported sediment",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The settling of transported sediment",
+          "answer_explanation": "Deposition can build landforms."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Evidence of Change",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils help scientists determine?",
+          "options": [
+            "Information about organisms and environments from the past",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Information about organisms and environments from the past",
+          "answer_explanation": "Fossils provide evidence of past life and environments."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Earth Materials Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can change Earth's surface?",
+          "options": [
+            "Weathering and erosion",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weathering and erosion",
+          "answer_explanation": "Surface processes continuously reshape land."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "The Water Cycle",
+          "standard": "MS-ESS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What process changes liquid water into water vapor?",
+          "options": [
+            "Evaporation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Evaporation",
+          "answer_explanation": "Evaporation moves water from liquid to gas."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Energy & the Atmosphere",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the main source of energy driving Earth's weather system?",
+          "options": [
+            "The Sun",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The Sun",
+          "answer_explanation": "Solar energy heats Earth's surface and atmosphere."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "Weather Patterns",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens when two different air masses meet?",
+          "options": [
+            "A front can form",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A front can form",
+          "answer_explanation": "Boundaries between air masses are fronts."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Predicting Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do scientists use weather maps?",
+          "options": [
+            "To interpret patterns such as fronts, pressure, and precipitation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To interpret patterns such as fronts, pressure, and precipitation",
+          "answer_explanation": "Maps organize data for prediction."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "Ocean Currents",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can drive ocean currents?",
+          "options": [
+            "Differences in temperature, density, and wind",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Differences in temperature, density, and wind",
+          "answer_explanation": "Multiple factors influence ocean circulation."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "Climate",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is climate?",
+          "options": [
+            "The long-term pattern of weather in a region",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The long-term pattern of weather in a region",
+          "answer_explanation": "Climate describes long-term conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "Climate vs Weather",
+          "standard": "MS-ESS2-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement correctly distinguishes weather from climate?",
+          "options": [
+            "Weather describes short-term conditions; climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather describes short-term conditions; climate describes long-term patterns",
+          "answer_explanation": "The time scale is the key difference."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Weather & Climate Review",
+          "standard": "MS-ESS2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Weather changes over short periods while climate describes long-term patterns",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Weather changes over short periods while climate describes long-term patterns",
+          "answer_explanation": "Both are related but use different time scales."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "Natural Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a natural resource?",
+          "options": [
+            "A material or feature from nature that people use",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A material or feature from nature that people use",
+          "answer_explanation": "Examples include water, minerals, and forests."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Energy Resources",
+          "standard": "MS-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy resource?",
+          "options": [
+            "Solar energy",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Solar energy",
+          "answer_explanation": "Solar energy is naturally replenished."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Natural Hazards",
+          "standard": "MS-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action can reduce risk from a natural hazard?",
+          "options": [
+            "Using hazard maps and preparing evacuation plans",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using hazard maps and preparing evacuation plans",
+          "answer_explanation": "Planning and forecasting can reduce harm."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "Human Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which activity can negatively affect ecosystems?",
+          "options": [
+            "Increasing pollution",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Increasing pollution",
+          "answer_explanation": "Human activities can change environmental conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "Managing Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why monitor environmental conditions?",
+          "options": [
+            "To identify changes and evaluate whether solutions work",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "To identify changes and evaluate whether solutions work",
+          "answer_explanation": "Monitoring provides evidence for decisions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Global Climate Change",
+          "standard": "MS-ESS3-5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence can help scientists study climate change?",
+          "options": [
+            "Long-term measurements of temperature and atmospheric gases",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Long-term measurements of temperature and atmospheric gases",
+          "answer_explanation": "Long-term data reveal patterns and trends."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "Environmental Solutions",
+          "standard": "MS-ESS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a sustainability strategy?",
+          "options": [
+            "Using resources in ways that can continue over time",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Using resources in ways that can continue over time",
+          "answer_explanation": "Sustainability balances human needs with environmental limits."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Inquiry & Review",
+          "standard": "MS-ESS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which approach is most scientific when evaluating an environmental solution?",
+          "options": [
+            "Use evidence and data to compare its effects",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Use evidence and data to compare its effects",
+          "answer_explanation": "Evidence supports evaluation of solutions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q33",
+          "module": 1,
+          "week": 3,
+          "topic": "Moon Phases & Eclipses",
+          "standard": "MS-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does the Moon appear to have different phases?",
+          "options": [
+            "We see different portions of its sunlit half",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "We see different portions of its sunlit half",
+          "answer_explanation": "The visible illuminated portion changes as the Moon moves around Earth."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q34",
+          "module": 2,
+          "week": 6,
+          "topic": "Deposition & Landforms",
+          "standard": "MS-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is deposition?",
+          "options": [
+            "The settling of transported sediment",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "The settling of transported sediment",
+          "answer_explanation": "Deposition can build landforms."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q35",
+          "module": 3,
+          "week": 1,
+          "topic": "The Water Cycle",
+          "standard": "MS-ESS2-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What process changes liquid water into water vapor?",
+          "options": [
+            "Evaporation",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Evaporation",
+          "answer_explanation": "Evaporation moves water from liquid to gas."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q36",
+          "module": 4,
+          "week": 4,
+          "topic": "Human Impact",
+          "standard": "MS-ESS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which activity can negatively affect ecosystems?",
+          "options": [
+            "Increasing pollution",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Increasing pollution",
+          "answer_explanation": "Human activities can change environmental conditions."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q37",
+          "module": 1,
+          "week": 7,
+          "topic": "Earth's History in Rock",
+          "standard": "MS-ESS1-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rock layers provide evidence about?",
+          "options": [
+            "Changes that occurred over Earth's history",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Changes that occurred over Earth's history",
+          "answer_explanation": "Rock strata preserve evidence of past events."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q38",
+          "module": 2,
+          "week": 2,
+          "topic": "Plate Tectonics",
+          "standard": "MS-ESS2-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a tectonic plate?",
+          "options": [
+            "A large moving piece of Earth's lithosphere",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "A large moving piece of Earth's lithosphere",
+          "answer_explanation": "Plates move and interact over geologic time."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q39",
+          "module": 3,
+          "week": 5,
+          "topic": "Ocean Currents",
+          "standard": "MS-ESS2-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can drive ocean currents?",
+          "options": [
+            "Differences in temperature, density, and wind",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Differences in temperature, density, and wind",
+          "answer_explanation": "Multiple factors influence ocean circulation."
+        },
+        {
+          "question_id": "G6-SCIENCE-MOCK-2-Q40",
+          "module": 4,
+          "week": 8,
+          "topic": "Inquiry & Review",
+          "standard": "MS-ESS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which approach is most scientific when evaluating an environmental solution?",
+          "options": [
+            "Use evidence and data to compare its effects",
+            "A process unrelated to the topic",
+            "The opposite process",
+            "A random observation"
+          ],
+          "correct_answer": "Use evidence and data to compare its effects",
+          "answer_explanation": "Evidence supports evaluation of solutions."
+        }
+      ]
+    }
+  ]
+}

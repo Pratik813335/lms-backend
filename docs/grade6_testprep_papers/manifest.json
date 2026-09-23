@@ -1,0 +1,27 @@
+{
+  "grade": 6,
+  "package": "LucidPrep Grade 6 TestPrep Papers",
+  "assessment_model": {
+    "questions_per_paper": 40,
+    "mastery_threshold_percent": 70,
+    "module_tests": 4,
+    "full_course_mocks": 2
+  },
+  "courses": {
+    "Grade 6 English Language Arts": {
+      "file": "grade-6-ela.json",
+      "papers": 6,
+      "questions": 240
+    },
+    "Grade 6 Mathematics": {
+      "file": "grade-6-mathematics.json",
+      "papers": 6,
+      "questions": 240
+    },
+    "Grade 6 Earth & Space Science · NGSS": {
+      "file": "grade-6-science.json",
+      "papers": 6,
+      "questions": 240
+    }
+  }
+}

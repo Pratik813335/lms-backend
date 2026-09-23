@@ -1,0 +1,4404 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 4 English Language Arts",
+  "grade": 4,
+  "standard_family": "Common Core ELA/Literacy Grade 4",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G4-ELA-MODULE-1",
+      "course": "Grade 4 English Language Arts",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Reading Literature",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-ELA-M1-W1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Referring to Details",
+          "standard": "RL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Lena packed an umbrella before leaving because dark clouds covered the sky. Which detail explains why she packed it?",
+          "options": [
+            "Dark clouds covered the sky.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Dark clouds covered the sky.",
+          "answer_explanation": "The dark clouds are the text detail that suggests rain may come."
+        },
+        {
+          "question_id": "G4-ELA-M1-W1-Q2",
+          "module": 1,
+          "week": 1,
+          "topic": "Referring to Details",
+          "standard": "RL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "The puppy hid under the bed when thunder began. Where did the puppy hide?",
+          "options": [
+            "Under the bed",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Under the bed",
+          "answer_explanation": "The passage directly states where the puppy hid."
+        },
+        {
+          "question_id": "G4-ELA-M1-W1-Q3",
+          "module": 1,
+          "week": 1,
+          "topic": "Referring to Details",
+          "standard": "RL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Marcus practiced his speech every night and finally presented it confidently. Which detail supports the idea that practice helped him?",
+          "options": [
+            "He practiced every night.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "He practiced every night.",
+          "answer_explanation": "The repeated practice is evidence for his improvement."
+        },
+        {
+          "question_id": "G4-ELA-M1-W1-Q4",
+          "module": 1,
+          "week": 1,
+          "topic": "Referring to Details",
+          "standard": "RL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story says the garden was dry, so Ava watered the plants. Why did Ava water them?",
+          "options": [
+            "The garden was dry.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The garden was dry.",
+          "answer_explanation": "The reason is stated directly in the text."
+        },
+        {
+          "question_id": "G4-ELA-M1-W1-Q5",
+          "module": 1,
+          "week": 1,
+          "topic": "Referring to Details",
+          "standard": "RL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which answer is an inference?",
+          "options": [
+            "The character is nervous because she keeps looking at the clock.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The character is nervous because she keeps looking at the clock.",
+          "answer_explanation": "An inference combines clues from the text with reasoning."
+        },
+        {
+          "question_id": "G4-ELA-M1-W2-Q1",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A character keeps trying to repair a broken bicycle and eventually succeeds. What theme is supported?",
+          "options": [
+            "Persistence can help solve difficult problems.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Persistence can help solve difficult problems.",
+          "answer_explanation": "The character's continued effort leads to success."
+        },
+        {
+          "question_id": "G4-ELA-M1-W2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story shows two neighbors helping each other after a storm. What theme fits?",
+          "options": [
+            "Helping others strengthens a community.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Helping others strengthens a community.",
+          "answer_explanation": "The events show cooperation and support."
+        },
+        {
+          "question_id": "G4-ELA-M1-W2-Q3",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is the best summary of a story?",
+          "options": [
+            "It states the main events and leaves out minor details.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It states the main events and leaves out minor details.",
+          "answer_explanation": "A summary focuses on important events rather than every detail."
+        },
+        {
+          "question_id": "G4-ELA-M1-W2-Q4",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A character learns that telling the truth fixes a problem. What is a likely theme?",
+          "options": [
+            "Honesty is important.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Honesty is important.",
+          "answer_explanation": "The character learns a lesson about honesty."
+        },
+        {
+          "question_id": "G4-ELA-M1-W2-Q5",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail belongs in a summary?",
+          "options": [
+            "The important problem and how it is resolved",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The important problem and how it is resolved",
+          "answer_explanation": "A summary should include central events."
+        },
+        {
+          "question_id": "G4-ELA-M1-W3-Q1",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Nora returns a lost wallet even though no one saw her find it. What trait does she show?",
+          "options": [
+            "Honest",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Honest",
+          "answer_explanation": "Returning the wallet demonstrates honesty."
+        },
+        {
+          "question_id": "G4-ELA-M1-W3-Q2",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Jay asks questions, studies maps, and explores a new trail. What trait fits?",
+          "options": [
+            "Curious",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Curious",
+          "answer_explanation": "His actions show a desire to learn and explore."
+        },
+        {
+          "question_id": "G4-ELA-M1-W3-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Mina practices the piano after making mistakes. What trait fits?",
+          "options": [
+            "Determined",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Determined",
+          "answer_explanation": "She keeps working despite mistakes."
+        },
+        {
+          "question_id": "G4-ELA-M1-W3-Q4",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A character quietly helps a younger student carry books. What trait does this show?",
+          "options": [
+            "Helpful",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Helpful",
+          "answer_explanation": "The character assists another person."
+        },
+        {
+          "question_id": "G4-ELA-M1-W3-Q5",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence best shows that a character is brave?",
+          "options": [
+            "She enters the dark room to help her friend.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "She enters the dark room to help her friend.",
+          "answer_explanation": "The action provides evidence of bravery."
+        },
+        {
+          "question_id": "G4-ELA-M1-W4-Q1",
+          "module": 1,
+          "week": 4,
+          "topic": "Words & Phrases",
+          "standard": "RL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In 'The wind whispered through the trees,' what does 'whispered' suggest?",
+          "options": [
+            "A soft, quiet sound",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A soft, quiet sound",
+          "answer_explanation": "The phrase uses figurative language to describe the wind's sound."
+        },
+        {
+          "question_id": "G4-ELA-M1-W4-Q2",
+          "module": 1,
+          "week": 4,
+          "topic": "Words & Phrases",
+          "standard": "RL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'He was as busy as a bee.' What does this simile mean?",
+          "options": [
+            "He was very busy.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "He was very busy.",
+          "answer_explanation": "The comparison emphasizes how active he was."
+        },
+        {
+          "question_id": "G4-ELA-M1-W4-Q3",
+          "module": 1,
+          "week": 4,
+          "topic": "Words & Phrases",
+          "standard": "RL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the phrase 'break the ice' usually mean?",
+          "options": [
+            "To make people feel more comfortable",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To make people feel more comfortable",
+          "answer_explanation": "It is an idiom, not a literal instruction."
+        },
+        {
+          "question_id": "G4-ELA-M1-W4-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Words & Phrases",
+          "standard": "RL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The classroom was a zoo' is an example of what?",
+          "options": [
+            "A metaphor",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A metaphor",
+          "answer_explanation": "It compares the classroom to a zoo without using 'like' or 'as.'"
+        },
+        {
+          "question_id": "G4-ELA-M1-W4-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Words & Phrases",
+          "standard": "RL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do authors use figurative language?",
+          "options": [
+            "To create vivid images or ideas",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To create vivid images or ideas",
+          "answer_explanation": "Nonliteral language can make writing more expressive."
+        },
+        {
+          "question_id": "G4-ELA-M1-W5-Q1",
+          "module": 1,
+          "week": 5,
+          "topic": "Story Structure",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which feature is most typical of a drama?",
+          "options": [
+            "Scenes and dialogue",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Scenes and dialogue",
+          "answer_explanation": "Dramas are commonly organized into scenes and include dialogue."
+        },
+        {
+          "question_id": "G4-ELA-M1-W5-Q2",
+          "module": 1,
+          "week": 5,
+          "topic": "Story Structure",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is often the main purpose of a story's ending?",
+          "options": [
+            "To resolve or conclude the events",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To resolve or conclude the events",
+          "answer_explanation": "The ending brings the plot to a close."
+        },
+        {
+          "question_id": "G4-ELA-M1-W5-Q3",
+          "module": 1,
+          "week": 5,
+          "topic": "Story Structure",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A poem has repeated lines throughout it. What does this reveal about its structure?",
+          "options": [
+            "It uses repetition as a structural pattern.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It uses repetition as a structural pattern.",
+          "answer_explanation": "Repeated lines are part of the poem's structure."
+        },
+        {
+          "question_id": "G4-ELA-M1-W5-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "Story Structure",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sequence best describes a narrative?",
+          "options": [
+            "Beginning, developing events, resolution",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Beginning, developing events, resolution",
+          "answer_explanation": "Narratives generally develop a problem and then resolve it."
+        },
+        {
+          "question_id": "G4-ELA-M1-W5-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Story Structure",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might an author divide a story into chapters?",
+          "options": [
+            "To organize events and sections of the story",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To organize events and sections of the story",
+          "answer_explanation": "Chapters help structure longer narratives."
+        },
+        {
+          "question_id": "G4-ELA-M1-W6-Q1",
+          "module": 1,
+          "week": 6,
+          "topic": "Point of View",
+          "standard": "RL.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "The narrator says, 'I opened the door and stepped inside.' What point of view is used?",
+          "options": [
+            "First person",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "First person",
+          "answer_explanation": "The narrator uses 'I.'"
+        },
+        {
+          "question_id": "G4-ELA-M1-W6-Q2",
+          "module": 1,
+          "week": 6,
+          "topic": "Point of View",
+          "standard": "RL.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "The narrator says, 'Maya opened the door and stepped inside.' What point of view is used?",
+          "options": [
+            "Third person",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Third person",
+          "answer_explanation": "The narrator refers to Maya rather than using 'I.'"
+        },
+        {
+          "question_id": "G4-ELA-M1-W6-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Point of View",
+          "standard": "RL.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might two narrators describe the same event differently?",
+          "options": [
+            "They may have different experiences or perspectives.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They may have different experiences or perspectives.",
+          "answer_explanation": "Point of view affects what the reader learns."
+        },
+        {
+          "question_id": "G4-ELA-M1-W6-Q4",
+          "module": 1,
+          "week": 6,
+          "topic": "Point of View",
+          "standard": "RL.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which pronoun most clearly signals first-person narration?",
+          "options": [
+            "I",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I",
+          "answer_explanation": "First-person narrators commonly use 'I.'"
+        },
+        {
+          "question_id": "G4-ELA-M1-W6-Q5",
+          "module": 1,
+          "week": 6,
+          "topic": "Point of View",
+          "standard": "RL.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A narrator describes what several characters do without being a character. What point of view is likely?",
+          "options": [
+            "Third person",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Third person",
+          "answer_explanation": "The narrator is outside the story."
+        },
+        {
+          "question_id": "G4-ELA-M1-W7-Q1",
+          "module": 1,
+          "week": 7,
+          "topic": "Text & Its Presentation",
+          "standard": "RL.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story is shown as a stage play with dialogue and stage directions. What changed?",
+          "options": [
+            "The way the text is presented",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The way the text is presented",
+          "answer_explanation": "The same story can be presented in a different format."
+        },
+        {
+          "question_id": "G4-ELA-M1-W7-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Text & Its Presentation",
+          "standard": "RL.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might a picture help a reader understand a story?",
+          "options": [
+            "It can show setting or character details.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It can show setting or character details.",
+          "answer_explanation": "Visual presentation can add information."
+        },
+        {
+          "question_id": "G4-ELA-M1-W7-Q3",
+          "module": 1,
+          "week": 7,
+          "topic": "Text & Its Presentation",
+          "standard": "RL.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story and its illustrated version show the same event. What should a reader compare?",
+          "options": [
+            "How each version presents the event",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How each version presents the event",
+          "answer_explanation": "Different presentations may emphasize different details."
+        },
+        {
+          "question_id": "G4-ELA-M1-W7-Q4",
+          "module": 1,
+          "week": 7,
+          "topic": "Text & Its Presentation",
+          "standard": "RL.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do stage directions usually tell actors?",
+          "options": [
+            "How or where to perform an action",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How or where to perform an action",
+          "answer_explanation": "Stage directions guide performance."
+        },
+        {
+          "question_id": "G4-ELA-M1-W7-Q5",
+          "module": 1,
+          "week": 7,
+          "topic": "Text & Its Presentation",
+          "standard": "RL.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A graphic version uses panels and speech bubbles. What does this format add?",
+          "options": [
+            "Visual information about events and dialogue",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Visual information about events and dialogue",
+          "answer_explanation": "Graphics combine words and images."
+        },
+        {
+          "question_id": "G4-ELA-M1-W8-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail makes a narrative more vivid?",
+          "options": [
+            "Rain tapped against the window as Maya opened the letter.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Rain tapped against the window as Maya opened the letter.",
+          "answer_explanation": "Specific sensory description strengthens a narrative."
+        },
+        {
+          "question_id": "G4-ELA-M1-W8-Q2",
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which transition best signals the next event?",
+          "options": [
+            "A few minutes later",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A few minutes later",
+          "answer_explanation": "It clearly shows sequence."
+        },
+        {
+          "question_id": "G4-ELA-M1-W8-Q3",
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why include dialogue in a narrative?",
+          "options": [
+            "To show what characters say and reveal their interactions.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To show what characters say and reveal their interactions.",
+          "answer_explanation": "Dialogue can develop characters and events."
+        },
+        {
+          "question_id": "G4-ELA-M1-W8-Q4",
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which opening is strongest for a narrative?",
+          "options": [
+            "When the lights went out, Carlos heard a strange noise upstairs.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "When the lights went out, Carlos heard a strange noise upstairs.",
+          "answer_explanation": "It immediately introduces a situation and creates interest."
+        },
+        {
+          "question_id": "G4-ELA-M1-W8-Q5",
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a narrative conclusion do?",
+          "options": [
+            "Bring the events to a satisfying close.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Bring the events to a satisfying close.",
+          "answer_explanation": "A conclusion resolves the narrative."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-ELA-MODULE-2",
+      "course": "Grade 4 English Language Arts",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "Reading Informational Text",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-ELA-M2-W1-Q1",
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Summary",
+          "standard": "RI.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A paragraph explains how trees provide shade, homes for animals, and cleaner air. What is the main idea?",
+          "options": [
+            "Trees provide several important benefits.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Trees provide several important benefits.",
+          "answer_explanation": "The listed details support this main idea."
+        },
+        {
+          "question_id": "G4-ELA-M2-W1-Q2",
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Summary",
+          "standard": "RI.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail best supports the idea that exercise is useful?",
+          "options": [
+            "Regular activity can strengthen the heart.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Regular activity can strengthen the heart.",
+          "answer_explanation": "It is a specific benefit of exercise."
+        },
+        {
+          "question_id": "G4-ELA-M2-W1-Q3",
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Summary",
+          "standard": "RI.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a good summary include?",
+          "options": [
+            "The main idea and important supporting points",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The main idea and important supporting points",
+          "answer_explanation": "A summary leaves out minor details."
+        },
+        {
+          "question_id": "G4-ELA-M2-W1-Q4",
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Summary",
+          "standard": "RI.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text explains that bees help plants reproduce. What is the central idea?",
+          "options": [
+            "Bees play an important role in plant reproduction.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Bees play an important role in plant reproduction.",
+          "answer_explanation": "The details would support this idea."
+        },
+        {
+          "question_id": "G4-ELA-M2-W1-Q5",
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Summary",
+          "standard": "RI.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is most important when summarizing?",
+          "options": [
+            "Selecting the most important information",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Selecting the most important information",
+          "answer_explanation": "A summary should focus on central ideas."
+        },
+        {
+          "question_id": "G4-ELA-M2-W2-Q1",
+          "module": 2,
+          "week": 2,
+          "topic": "Explaining Events & Ideas",
+          "standard": "RI.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A heavy storm causes a river to rise. What relationship is shown?",
+          "options": [
+            "Cause and effect",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Cause and effect",
+          "answer_explanation": "The storm is the cause and the rising river is the effect."
+        },
+        {
+          "question_id": "G4-ELA-M2-W2-Q2",
+          "module": 2,
+          "week": 2,
+          "topic": "Explaining Events & Ideas",
+          "standard": "RI.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text explains how to plant a seed in five steps. What structure is used?",
+          "options": [
+            "Procedure or sequence",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Procedure or sequence",
+          "answer_explanation": "The steps are presented in order."
+        },
+        {
+          "question_id": "G4-ELA-M2-W2-Q3",
+          "module": 2,
+          "week": 2,
+          "topic": "Explaining Events & Ideas",
+          "standard": "RI.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word often signals a cause?",
+          "options": [
+            "because",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "because",
+          "answer_explanation": "'Because' introduces a reason."
+        },
+        {
+          "question_id": "G4-ELA-M2-W2-Q4",
+          "module": 2,
+          "week": 2,
+          "topic": "Explaining Events & Ideas",
+          "standard": "RI.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word signals an effect?",
+          "options": [
+            "therefore",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "therefore",
+          "answer_explanation": "'Therefore' can introduce a result."
+        },
+        {
+          "question_id": "G4-ELA-M2-W2-Q5",
+          "module": 2,
+          "week": 2,
+          "topic": "Explaining Events & Ideas",
+          "standard": "RI.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why are steps numbered in a procedure?",
+          "options": [
+            "To show the order in which actions should occur",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To show the order in which actions should occur",
+          "answer_explanation": "Numbering makes sequence clear."
+        },
+        {
+          "question_id": "G4-ELA-M2-W3-Q1",
+          "module": 2,
+          "week": 3,
+          "topic": "Text Structure",
+          "standard": "RI.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text explains events from 1900 to 1950 to 2000. What structure is used?",
+          "options": [
+            "Chronological order",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Chronological order",
+          "answer_explanation": "The information is organized by time."
+        },
+        {
+          "question_id": "G4-ELA-M2-W3-Q2",
+          "module": 2,
+          "week": 3,
+          "topic": "Text Structure",
+          "standard": "RI.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text explains how two animals are alike and different. What structure is used?",
+          "options": [
+            "Compare and contrast",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Compare and contrast",
+          "answer_explanation": "The author focuses on similarities and differences."
+        },
+        {
+          "question_id": "G4-ELA-M2-W3-Q3",
+          "module": 2,
+          "week": 3,
+          "topic": "Text Structure",
+          "standard": "RI.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text explains a problem and then gives several solutions. What structure is used?",
+          "options": [
+            "Problem and solution",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Problem and solution",
+          "answer_explanation": "The organization moves from a problem to possible solutions."
+        },
+        {
+          "question_id": "G4-ELA-M2-W3-Q4",
+          "module": 2,
+          "week": 3,
+          "topic": "Text Structure",
+          "standard": "RI.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which clue suggests chronological structure?",
+          "options": [
+            "First, next, then, finally",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "First, next, then, finally",
+          "answer_explanation": "These words signal time order."
+        },
+        {
+          "question_id": "G4-ELA-M2-W3-Q5",
+          "module": 2,
+          "week": 3,
+          "topic": "Text Structure",
+          "standard": "RI.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does recognizing text structure help readers?",
+          "options": [
+            "It helps them organize and understand information.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It helps them organize and understand information.",
+          "answer_explanation": "Structure shows how ideas are connected."
+        },
+        {
+          "question_id": "G4-ELA-M2-W4-Q1",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A person who saw an event describes it from memory. What type of account is this?",
+          "options": [
+            "Firsthand",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Firsthand",
+          "answer_explanation": "The person experienced the event directly."
+        },
+        {
+          "question_id": "G4-ELA-M2-W4-Q2",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A historian writes about an event using reports from people who saw it. What type of account is this?",
+          "options": [
+            "Secondhand",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Secondhand",
+          "answer_explanation": "The historian did not directly experience the event."
+        },
+        {
+          "question_id": "G4-ELA-M2-W4-Q3",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might two firsthand accounts differ?",
+          "options": [
+            "People may notice or remember different details.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "People may notice or remember different details.",
+          "answer_explanation": "Perspective affects an account."
+        },
+        {
+          "question_id": "G4-ELA-M2-W4-Q4",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should readers compare between two accounts?",
+          "options": [
+            "Details, perspectives, and information included",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Details, perspectives, and information included",
+          "answer_explanation": "Comparing accounts reveals similarities and differences."
+        },
+        {
+          "question_id": "G4-ELA-M2-W4-Q5",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which account is firsthand?",
+          "options": [
+            "A firefighter describing the fire she fought",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A firefighter describing the fire she fought",
+          "answer_explanation": "She directly experienced the event."
+        },
+        {
+          "question_id": "G4-ELA-M2-W5-Q1",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bar graph shows 20 books read in June and 30 in July. Which month had more?",
+          "options": [
+            "July",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "July",
+          "answer_explanation": "The graph shows a larger value for July."
+        },
+        {
+          "question_id": "G4-ELA-M2-W5-Q2",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a timeline help a reader understand?",
+          "options": [
+            "When events happened and their order",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "When events happened and their order",
+          "answer_explanation": "Timelines organize events by time."
+        },
+        {
+          "question_id": "G4-ELA-M2-W5-Q3",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart has a heading 'Rainfall by Month.' What does the heading tell you?",
+          "options": [
+            "What the data are about",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What the data are about",
+          "answer_explanation": "The heading identifies the chart's topic."
+        },
+        {
+          "question_id": "G4-ELA-M2-W5-Q4",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should you read labels on a graph?",
+          "options": [
+            "They explain what the numbers or categories represent.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They explain what the numbers or categories represent.",
+          "answer_explanation": "Labels help interpret data correctly."
+        },
+        {
+          "question_id": "G4-ELA-M2-W5-Q5",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A pictograph uses one symbol for 5 students. Four symbols represent how many students?",
+          "options": [
+            "20",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "20",
+          "answer_explanation": "Four groups of five equal 20."
+        },
+        {
+          "question_id": "G4-ELA-M2-W6-Q1",
+          "module": 2,
+          "week": 6,
+          "topic": "Reasons & Evidence",
+          "standard": "RI.4.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "An author says school gardens are useful because students can observe plants growing. What supports the author's point?",
+          "options": [
+            "Students can observe plants growing.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Students can observe plants growing.",
+          "answer_explanation": "This is a reason that directly supports the point."
+        },
+        {
+          "question_id": "G4-ELA-M2-W6-Q2",
+          "module": 2,
+          "week": 6,
+          "topic": "Reasons & Evidence",
+          "standard": "RI.4.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is evidence?",
+          "options": [
+            "Information that supports a claim or idea",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Information that supports a claim or idea",
+          "answer_explanation": "Evidence gives support for a point."
+        },
+        {
+          "question_id": "G4-ELA-M2-W6-Q3",
+          "module": 2,
+          "week": 6,
+          "topic": "Reasons & Evidence",
+          "standard": "RI.4.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should an author give reasons for a point?",
+          "options": [
+            "To explain why the point is supported",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To explain why the point is supported",
+          "answer_explanation": "Reasons strengthen an explanation or argument."
+        },
+        {
+          "question_id": "G4-ELA-M2-W6-Q4",
+          "module": 2,
+          "week": 6,
+          "topic": "Reasons & Evidence",
+          "standard": "RI.4.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is strongest evidence for 'exercise is healthy'?",
+          "options": [
+            "Exercise can improve heart and muscle health.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Exercise can improve heart and muscle health.",
+          "answer_explanation": "It gives a specific, relevant fact."
+        },
+        {
+          "question_id": "G4-ELA-M2-W6-Q5",
+          "module": 2,
+          "week": 6,
+          "topic": "Reasons & Evidence",
+          "standard": "RI.4.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should readers ask when evaluating an author's support?",
+          "options": [
+            "Does the evidence actually support the point?",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Does the evidence actually support the point?",
+          "answer_explanation": "Relevant evidence should connect to the claim."
+        },
+        {
+          "question_id": "G4-ELA-M2-W7-Q1",
+          "module": 2,
+          "week": 7,
+          "topic": "Integrating Information",
+          "standard": "RI.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two texts explain bees. One describes pollination and the other describes honey production. What can a reader learn by combining them?",
+          "options": [
+            "Bees have several important roles.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Bees have several important roles.",
+          "answer_explanation": "Integrating information creates a broader understanding."
+        },
+        {
+          "question_id": "G4-ELA-M2-W7-Q2",
+          "module": 2,
+          "week": 7,
+          "topic": "Integrating Information",
+          "standard": "RI.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use information from two texts?",
+          "options": [
+            "To build a more complete understanding of a topic",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To build a more complete understanding of a topic",
+          "answer_explanation": "Multiple sources can add different details."
+        },
+        {
+          "question_id": "G4-ELA-M2-W7-Q3",
+          "module": 2,
+          "week": 7,
+          "topic": "Integrating Information",
+          "standard": "RI.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If both texts explain that trees need water, what is this?",
+          "options": [
+            "A shared idea",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A shared idea",
+          "answer_explanation": "The same information appears in both."
+        },
+        {
+          "question_id": "G4-ELA-M2-W7-Q4",
+          "module": 2,
+          "week": 7,
+          "topic": "Integrating Information",
+          "standard": "RI.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "One text has a diagram and another has written explanations. What can readers do?",
+          "options": [
+            "Combine the visual and written information",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Combine the visual and written information",
+          "answer_explanation": "Different formats can complement each other."
+        },
+        {
+          "question_id": "G4-ELA-M2-W7-Q5",
+          "module": 2,
+          "week": 7,
+          "topic": "Integrating Information",
+          "standard": "RI.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a reader do before combining information?",
+          "options": [
+            "Understand the relevant information in each text",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Understand the relevant information in each text",
+          "answer_explanation": "Accurate integration depends on understanding both sources."
+        },
+        {
+          "question_id": "G4-ELA-M2-W8-Q1",
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which topic sentence best introduces a paragraph about recycling?",
+          "options": [
+            "Recycling can help reduce the amount of waste sent to landfills.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Recycling can help reduce the amount of waste sent to landfills.",
+          "answer_explanation": "It clearly introduces the topic and main idea."
+        },
+        {
+          "question_id": "G4-ELA-M2-W8-Q2",
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should informative writing mainly use?",
+          "options": [
+            "Facts, details, and clear explanations",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Facts, details, and clear explanations",
+          "answer_explanation": "Informative writing explains a topic."
+        },
+        {
+          "question_id": "G4-ELA-M2-W8-Q3",
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which transition adds another related idea?",
+          "options": [
+            "Also",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Also",
+          "answer_explanation": "'Also' connects another supporting point."
+        },
+        {
+          "question_id": "G4-ELA-M2-W8-Q4",
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why group related information together?",
+          "options": [
+            "To make the explanation easier to follow",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To make the explanation easier to follow",
+          "answer_explanation": "Logical organization helps readers."
+        },
+        {
+          "question_id": "G4-ELA-M2-W8-Q5",
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which ending works well for an informative piece?",
+          "options": [
+            "It restates the main idea and leaves the reader with a clear understanding.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It restates the main idea and leaves the reader with a clear understanding.",
+          "answer_explanation": "A conclusion should wrap up the explanation."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-ELA-MODULE-3",
+      "course": "Grade 4 English Language Arts",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Language, Vocabulary & Opinion Writing",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-ELA-M3-W1-Q1",
+          "module": 3,
+          "week": 1,
+          "topic": "Grammar & Usage",
+          "standard": "L.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence uses the correct pronoun?",
+          "options": [
+            "Maya and I went to the library.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Maya and I went to the library.",
+          "answer_explanation": "'Maya and I' is the correct subject pronoun combination."
+        },
+        {
+          "question_id": "G4-ELA-M3-W1-Q2",
+          "module": 3,
+          "week": 1,
+          "topic": "Grammar & Usage",
+          "standard": "L.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence uses past tense correctly?",
+          "options": [
+            "Yesterday, we visited the museum.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Yesterday, we visited the museum.",
+          "answer_explanation": "'Visited' correctly indicates past tense."
+        },
+        {
+          "question_id": "G4-ELA-M3-W1-Q3",
+          "module": 3,
+          "week": 1,
+          "topic": "Grammar & Usage",
+          "standard": "L.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which pronoun can replace 'the students'?",
+          "options": [
+            "they",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "they",
+          "answer_explanation": "'They' is a plural pronoun."
+        },
+        {
+          "question_id": "G4-ELA-M3-W1-Q4",
+          "module": 3,
+          "week": 1,
+          "topic": "Grammar & Usage",
+          "standard": "L.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence uses future tense?",
+          "options": [
+            "We will visit the museum tomorrow.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "We will visit the museum tomorrow.",
+          "answer_explanation": "'Will visit' shows future tense."
+        },
+        {
+          "question_id": "G4-ELA-M3-W1-Q5",
+          "module": 3,
+          "week": 1,
+          "topic": "Grammar & Usage",
+          "standard": "L.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is grammatically correct?",
+          "options": [
+            "He plays soccer every Saturday.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "He plays soccer every Saturday.",
+          "answer_explanation": "The subject and verb agree."
+        },
+        {
+          "question_id": "G4-ELA-M3-W2-Q1",
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences & Punctuation",
+          "standard": "L.4.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a complete sentence?",
+          "options": [
+            "The birds flew over the lake.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The birds flew over the lake.",
+          "answer_explanation": "It contains a subject, verb, and complete thought."
+        },
+        {
+          "question_id": "G4-ELA-M3-W2-Q2",
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences & Punctuation",
+          "standard": "L.4.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is correctly punctuated?",
+          "options": [
+            "After lunch, we went outside.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "After lunch, we went outside.",
+          "answer_explanation": "The introductory phrase is followed by a comma."
+        },
+        {
+          "question_id": "G4-ELA-M3-W2-Q3",
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences & Punctuation",
+          "standard": "L.4.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a compound sentence?",
+          "options": [
+            "I read a book, and my brother drew a picture.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I read a book, and my brother drew a picture.",
+          "answer_explanation": "It joins two complete thoughts with 'and.'"
+        },
+        {
+          "question_id": "G4-ELA-M3-W2-Q4",
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences & Punctuation",
+          "standard": "L.4.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a fragment?",
+          "options": [
+            "Because the rain stopped.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Because the rain stopped.",
+          "answer_explanation": "It does not express a complete thought."
+        },
+        {
+          "question_id": "G4-ELA-M3-W2-Q5",
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences & Punctuation",
+          "standard": "L.4.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use a comma after an introductory phrase?",
+          "options": [
+            "To separate it from the main part of the sentence",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To separate it from the main part of the sentence",
+          "answer_explanation": "The comma clarifies sentence structure."
+        },
+        {
+          "question_id": "G4-ELA-M3-W3-Q1",
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues & Word Parts",
+          "standard": "L.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In 'The trail was slippery, so we walked carefully,' what does slippery mean?",
+          "options": [
+            "hard to walk on without sliding",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "hard to walk on without sliding",
+          "answer_explanation": "The result—walking carefully—helps define slippery."
+        },
+        {
+          "question_id": "G4-ELA-M3-W3-Q2",
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues & Word Parts",
+          "standard": "L.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the prefix 'un-' usually mean?",
+          "options": [
+            "not",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "not",
+          "answer_explanation": "For example, unhappy means not happy."
+        },
+        {
+          "question_id": "G4-ELA-M3-W3-Q3",
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues & Word Parts",
+          "standard": "L.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the suffix '-less' mean in 'fearless'?",
+          "options": [
+            "without",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "without",
+          "answer_explanation": "Fearless means without fear."
+        },
+        {
+          "question_id": "G4-ELA-M3-W3-Q4",
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues & Word Parts",
+          "standard": "L.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the base word in 'helpful'?",
+          "options": [
+            "help",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "help",
+          "answer_explanation": "'-ful' is added to the base word help."
+        },
+        {
+          "question_id": "G4-ELA-M3-W3-Q5",
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues & Word Parts",
+          "standard": "L.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In 'The enormous elephant was huge,' what does enormous mean?",
+          "options": [
+            "very large",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "very large",
+          "answer_explanation": "The word 'huge' is a context clue."
+        },
+        {
+          "question_id": "G4-ELA-M3-W4-Q1",
+          "module": 3,
+          "week": 4,
+          "topic": "Figurative Language & Idioms",
+          "standard": "L.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The snow was a blanket over the town.' What does the metaphor suggest?",
+          "options": [
+            "Snow covered the town like a blanket.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Snow covered the town like a blanket.",
+          "answer_explanation": "The phrase compares snow to a blanket."
+        },
+        {
+          "question_id": "G4-ELA-M3-W4-Q2",
+          "module": 3,
+          "week": 4,
+          "topic": "Figurative Language & Idioms",
+          "standard": "L.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'She ran as fast as a cheetah.' What kind of figurative language is this?",
+          "options": [
+            "Simile",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Simile",
+          "answer_explanation": "It uses 'as' to compare two things."
+        },
+        {
+          "question_id": "G4-ELA-M3-W4-Q3",
+          "module": 3,
+          "week": 4,
+          "topic": "Figurative Language & Idioms",
+          "standard": "L.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does 'hit the books' mean?",
+          "options": [
+            "Study",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Study",
+          "answer_explanation": "It is an idiom meaning to study."
+        },
+        {
+          "question_id": "G4-ELA-M3-W4-Q4",
+          "module": 3,
+          "week": 4,
+          "topic": "Figurative Language & Idioms",
+          "standard": "L.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The thunder grumbled.' What does this personification suggest?",
+          "options": [
+            "The thunder made a deep, rumbling sound.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The thunder made a deep, rumbling sound.",
+          "answer_explanation": "Thunder is given a human-like action."
+        },
+        {
+          "question_id": "G4-ELA-M3-W4-Q5",
+          "module": 3,
+          "week": 4,
+          "topic": "Figurative Language & Idioms",
+          "standard": "L.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use idioms?",
+          "options": [
+            "They express ideas in familiar, nonliteral ways.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They express ideas in familiar, nonliteral ways.",
+          "answer_explanation": "Idioms have meanings beyond their literal words."
+        },
+        {
+          "question_id": "G4-ELA-M3-W5-Q1",
+          "module": 3,
+          "week": 5,
+          "topic": "Academic Vocabulary",
+          "standard": "L.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is most appropriate in a science report?",
+          "options": [
+            "observe",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "observe",
+          "answer_explanation": "'Observe' is a useful academic/scientific word."
+        },
+        {
+          "question_id": "G4-ELA-M3-W5-Q2",
+          "module": 3,
+          "week": 5,
+          "topic": "Academic Vocabulary",
+          "standard": "L.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does 'analyze' mean?",
+          "options": [
+            "Study something carefully to understand it",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Study something carefully to understand it",
+          "answer_explanation": "Analyze is an academic word for careful examination."
+        },
+        {
+          "question_id": "G4-ELA-M3-W5-Q3",
+          "module": 3,
+          "week": 5,
+          "topic": "Academic Vocabulary",
+          "standard": "L.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word best completes: 'The experiment produced ___ results.'",
+          "options": [
+            "consistent",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "consistent",
+          "answer_explanation": "It is appropriate academic vocabulary for results."
+        },
+        {
+          "question_id": "G4-ELA-M3-W5-Q4",
+          "module": 3,
+          "week": 5,
+          "topic": "Academic Vocabulary",
+          "standard": "L.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does 'evidence' mean?",
+          "options": [
+            "Information used to support an idea",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Information used to support an idea",
+          "answer_explanation": "Evidence supports a claim or conclusion."
+        },
+        {
+          "question_id": "G4-ELA-M3-W5-Q5",
+          "module": 3,
+          "week": 5,
+          "topic": "Academic Vocabulary",
+          "standard": "L.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word best describes information about a specific school subject?",
+          "options": [
+            "domain-specific",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "domain-specific",
+          "answer_explanation": "Domain-specific words belong to a particular field."
+        },
+        {
+          "question_id": "G4-ELA-M3-W6-Q1",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an opinion?",
+          "options": [
+            "Our school should have more outdoor reading time.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Our school should have more outdoor reading time.",
+          "answer_explanation": "It states a position that can be supported with reasons."
+        },
+        {
+          "question_id": "G4-ELA-M3-W6-Q2",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reason supports the opinion that recess is important?",
+          "options": [
+            "Recess gives students time to move and refresh their minds.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Recess gives students time to move and refresh their minds.",
+          "answer_explanation": "It directly supports the opinion."
+        },
+        {
+          "question_id": "G4-ELA-M3-W6-Q3",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should an opinion writer include?",
+          "options": [
+            "A clear opinion and supporting reasons",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A clear opinion and supporting reasons",
+          "answer_explanation": "Reasons explain and support the position."
+        },
+        {
+          "question_id": "G4-ELA-M3-W6-Q4",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a fact?",
+          "options": [
+            "A week has seven days.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A week has seven days.",
+          "answer_explanation": "It can be verified and is not a personal belief."
+        },
+        {
+          "question_id": "G4-ELA-M3-W6-Q5",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why organize reasons?",
+          "options": [
+            "So readers can follow the writer's thinking",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So readers can follow the writer's thinking",
+          "answer_explanation": "Organization strengthens the argument."
+        },
+        {
+          "question_id": "G4-ELA-M3-W7-Q1",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence clearly states a position?",
+          "options": [
+            "I believe students should have a longer library period.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I believe students should have a longer library period.",
+          "answer_explanation": "It directly states the writer's opinion."
+        },
+        {
+          "question_id": "G4-ELA-M3-W7-Q2",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which linking word can introduce another reason?",
+          "options": [
+            "Furthermore",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Furthermore",
+          "answer_explanation": "It adds another supporting idea."
+        },
+        {
+          "question_id": "G4-ELA-M3-W7-Q3",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a conclusion do?",
+          "options": [
+            "Restate the opinion and summarize the main reasons",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Restate the opinion and summarize the main reasons",
+          "answer_explanation": "A conclusion wraps up the argument."
+        },
+        {
+          "question_id": "G4-ELA-M3-W7-Q4",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reason best supports school gardens?",
+          "options": [
+            "Students can learn about plants through direct observation.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Students can learn about plants through direct observation.",
+          "answer_explanation": "It is relevant and specific."
+        },
+        {
+          "question_id": "G4-ELA-M3-W7-Q5",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use linking words?",
+          "options": [
+            "To connect ideas and reasons clearly",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To connect ideas and reasons clearly",
+          "answer_explanation": "Linking words make the argument easier to follow."
+        },
+        {
+          "question_id": "G4-ELA-M3-W8-Q1",
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is revising mainly for?",
+          "options": [
+            "Improving ideas, organization, and details",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Improving ideas, organization, and details",
+          "answer_explanation": "Revision focuses on making writing stronger."
+        },
+        {
+          "question_id": "G4-ELA-M3-W8-Q2",
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is editing mainly for?",
+          "options": [
+            "Correcting grammar, spelling, punctuation, and capitalization",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Correcting grammar, spelling, punctuation, and capitalization",
+          "answer_explanation": "Editing corrects conventions."
+        },
+        {
+          "question_id": "G4-ELA-M3-W8-Q3",
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is clearer?",
+          "options": [
+            "Because it was raining, Maya brought an umbrella.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Because it was raining, Maya brought an umbrella.",
+          "answer_explanation": "The sentence clearly shows the reason and action."
+        },
+        {
+          "question_id": "G4-ELA-M3-W8-Q4",
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why read a draft aloud?",
+          "options": [
+            "It can help the writer notice awkward or unclear sentences",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It can help the writer notice awkward or unclear sentences",
+          "answer_explanation": "Hearing writing can reveal problems."
+        },
+        {
+          "question_id": "G4-ELA-M3-W8-Q5",
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which should a writer check before publishing?",
+          "options": [
+            "Clarity, organization, and conventions",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Clarity, organization, and conventions",
+          "answer_explanation": "A final review checks both content and correctness."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-ELA-MODULE-4",
+      "course": "Grade 4 English Language Arts",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Poetry, Research & Communication",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-ELA-M4-W1-Q1",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can repeated sounds create in a poem?",
+          "options": [
+            "Rhythm",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Rhythm",
+          "answer_explanation": "Sound patterns can create rhythm."
+        },
+        {
+          "question_id": "G4-ELA-M4-W1-Q2",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is imagery?",
+          "options": [
+            "Language that helps readers form mental pictures",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Language that helps readers form mental pictures",
+          "answer_explanation": "Imagery appeals to the senses."
+        },
+        {
+          "question_id": "G4-ELA-M4-W1-Q3",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might a poet repeat a line?",
+          "options": [
+            "To emphasize an idea or create a pattern",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To emphasize an idea or create a pattern",
+          "answer_explanation": "Repetition can strengthen meaning and structure."
+        },
+        {
+          "question_id": "G4-ELA-M4-W1-Q4",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rhyme contribute to a poem?",
+          "options": [
+            "A pattern of sound",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A pattern of sound",
+          "answer_explanation": "Rhyming words can create musical effects."
+        },
+        {
+          "question_id": "G4-ELA-M4-W1-Q5",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail is imagery?",
+          "options": [
+            "The golden leaves crackled under our feet.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The golden leaves crackled under our feet.",
+          "answer_explanation": "It creates a sensory picture."
+        },
+        {
+          "question_id": "G4-ELA-M4-W2-Q1",
+          "module": 4,
+          "week": 2,
+          "topic": "Themes Across Cultures",
+          "standard": "RL.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two stories from different countries both show characters helping their communities. What do they share?",
+          "options": [
+            "A similar theme",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A similar theme",
+          "answer_explanation": "Both stories communicate a related lesson."
+        },
+        {
+          "question_id": "G4-ELA-M4-W2-Q2",
+          "module": 4,
+          "week": 2,
+          "topic": "Themes Across Cultures",
+          "standard": "RL.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why compare themes across cultures?",
+          "options": [
+            "To identify shared ideas and different perspectives",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To identify shared ideas and different perspectives",
+          "answer_explanation": "Comparison reveals both similarities and differences."
+        },
+        {
+          "question_id": "G4-ELA-M4-W2-Q3",
+          "module": 4,
+          "week": 2,
+          "topic": "Themes Across Cultures",
+          "standard": "RL.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two stories have different settings but both value courage. What is similar?",
+          "options": [
+            "Their theme",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Their theme",
+          "answer_explanation": "The lesson about courage is shared."
+        },
+        {
+          "question_id": "G4-ELA-M4-W2-Q4",
+          "module": 4,
+          "week": 2,
+          "topic": "Themes Across Cultures",
+          "standard": "RL.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should readers consider when comparing stories from different cultures?",
+          "options": [
+            "Characters, events, themes, and perspectives",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Characters, events, themes, and perspectives",
+          "answer_explanation": "These elements help make meaningful comparisons."
+        },
+        {
+          "question_id": "G4-ELA-M4-W2-Q5",
+          "module": 4,
+          "week": 2,
+          "topic": "Themes Across Cultures",
+          "standard": "RL.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might the same theme appear in different cultures?",
+          "options": [
+            "People can face similar human experiences",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "People can face similar human experiences",
+          "answer_explanation": "Shared experiences can lead to shared themes."
+        },
+        {
+          "question_id": "G4-ELA-M4-W3-Q1",
+          "module": 4,
+          "week": 3,
+          "topic": "Research Skills",
+          "standard": "W.4.7/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a reliable source for information about planets?",
+          "options": [
+            "A science reference book",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A science reference book",
+          "answer_explanation": "Reference sources are designed to provide factual information."
+        },
+        {
+          "question_id": "G4-ELA-M4-W3-Q2",
+          "module": 4,
+          "week": 3,
+          "topic": "Research Skills",
+          "standard": "W.4.7/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why take notes while researching?",
+          "options": [
+            "To record useful information and source details",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To record useful information and source details",
+          "answer_explanation": "Notes help organize research."
+        },
+        {
+          "question_id": "G4-ELA-M4-W3-Q3",
+          "module": 4,
+          "week": 3,
+          "topic": "Research Skills",
+          "standard": "W.4.7/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a research question be?",
+          "options": [
+            "Focused and answerable",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Focused and answerable",
+          "answer_explanation": "A focused question guides research."
+        },
+        {
+          "question_id": "G4-ELA-M4-W3-Q4",
+          "module": 4,
+          "week": 3,
+          "topic": "Research Skills",
+          "standard": "W.4.7/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why record the source of a fact?",
+          "options": [
+            "So the information can be traced back to where it came from",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So the information can be traced back to where it came from",
+          "answer_explanation": "Source tracking supports responsible research."
+        },
+        {
+          "question_id": "G4-ELA-M4-W3-Q5",
+          "module": 4,
+          "week": 3,
+          "topic": "Research Skills",
+          "standard": "W.4.7/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two sources disagree, what should you do?",
+          "options": [
+            "Compare the evidence and evaluate the sources",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Compare the evidence and evaluate the sources",
+          "answer_explanation": "Checking evidence helps resolve differences."
+        },
+        {
+          "question_id": "G4-ELA-M4-W4-Q1",
+          "module": 4,
+          "week": 4,
+          "topic": "Research Project",
+          "standard": "W.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a good first step in a research project?",
+          "options": [
+            "Choose a clear topic or question",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Choose a clear topic or question",
+          "answer_explanation": "A focused topic gives the project direction."
+        },
+        {
+          "question_id": "G4-ELA-M4-W4-Q2",
+          "module": 4,
+          "week": 4,
+          "topic": "Research Project",
+          "standard": "W.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does synthesizing information mean?",
+          "options": [
+            "Combining useful ideas from sources to build understanding",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Combining useful ideas from sources to build understanding",
+          "answer_explanation": "Synthesis connects information across sources."
+        },
+        {
+          "question_id": "G4-ELA-M4-W4-Q3",
+          "module": 4,
+          "week": 4,
+          "topic": "Research Project",
+          "standard": "W.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How should research notes be organized?",
+          "options": [
+            "By related ideas or categories",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "By related ideas or categories",
+          "answer_explanation": "Organization makes writing easier."
+        },
+        {
+          "question_id": "G4-ELA-M4-W4-Q4",
+          "module": 4,
+          "week": 4,
+          "topic": "Research Project",
+          "standard": "W.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a research report include?",
+          "options": [
+            "Information gathered and organized from sources",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Information gathered and organized from sources",
+          "answer_explanation": "Research reports present evidence-based information."
+        },
+        {
+          "question_id": "G4-ELA-M4-W4-Q5",
+          "module": 4,
+          "week": 4,
+          "topic": "Research Project",
+          "standard": "W.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should a researcher avoid copying a source word for word?",
+          "options": [
+            "To use information responsibly in their own work",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To use information responsibly in their own work",
+          "answer_explanation": "Research should be expressed appropriately and attributed."
+        },
+        {
+          "question_id": "G4-ELA-M4-W5-Q1",
+          "module": 4,
+          "week": 5,
+          "topic": "Speaking & Listening",
+          "standard": "SL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a good discussion participant do?",
+          "options": [
+            "Listen and respond to others' ideas",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Listen and respond to others' ideas",
+          "answer_explanation": "Discussion requires active listening and participation."
+        },
+        {
+          "question_id": "G4-ELA-M4-W5-Q2",
+          "module": 4,
+          "week": 5,
+          "topic": "Speaking & Listening",
+          "standard": "SL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which question encourages someone to explain an idea?",
+          "options": [
+            "What makes you think that?",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What makes you think that?",
+          "answer_explanation": "It asks for reasoning or evidence."
+        },
+        {
+          "question_id": "G4-ELA-M4-W5-Q3",
+          "module": 4,
+          "week": 5,
+          "topic": "Speaking & Listening",
+          "standard": "SL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a respectful way to disagree?",
+          "options": [
+            "I understand your idea, but I think differently because...",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I understand your idea, but I think differently because...",
+          "answer_explanation": "It acknowledges the speaker and gives a reason."
+        },
+        {
+          "question_id": "G4-ELA-M4-W5-Q4",
+          "module": 4,
+          "week": 5,
+          "topic": "Speaking & Listening",
+          "standard": "SL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why take turns in a discussion?",
+          "options": [
+            "So everyone has an opportunity to participate",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So everyone has an opportunity to participate",
+          "answer_explanation": "Turn-taking supports productive discussion."
+        },
+        {
+          "question_id": "G4-ELA-M4-W5-Q5",
+          "module": 4,
+          "week": 5,
+          "topic": "Speaking & Listening",
+          "standard": "SL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can you show active listening?",
+          "options": [
+            "Refer to a speaker's idea when responding",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Refer to a speaker's idea when responding",
+          "answer_explanation": "A relevant response shows attention."
+        },
+        {
+          "question_id": "G4-ELA-M4-W6-Q1",
+          "module": 4,
+          "week": 6,
+          "topic": "Presenting Findings",
+          "standard": "SL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What makes a presentation easier to follow?",
+          "options": [
+            "Clear organization of main points",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Clear organization of main points",
+          "answer_explanation": "Organization helps the audience understand."
+        },
+        {
+          "question_id": "G4-ELA-M4-W6-Q2",
+          "module": 4,
+          "week": 6,
+          "topic": "Presenting Findings",
+          "standard": "SL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use examples in a presentation?",
+          "options": [
+            "They make ideas more specific and understandable",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They make ideas more specific and understandable",
+          "answer_explanation": "Examples clarify information."
+        },
+        {
+          "question_id": "G4-ELA-M4-W6-Q3",
+          "module": 4,
+          "week": 6,
+          "topic": "Presenting Findings",
+          "standard": "SL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use an appropriate speaking volume?",
+          "options": [
+            "So the audience can hear the information",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So the audience can hear the information",
+          "answer_explanation": "Volume affects communication."
+        },
+        {
+          "question_id": "G4-ELA-M4-W6-Q4",
+          "module": 4,
+          "week": 6,
+          "topic": "Presenting Findings",
+          "standard": "SL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a speaker do before presenting?",
+          "options": [
+            "Practice the main points",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Practice the main points",
+          "answer_explanation": "Practice supports clear delivery."
+        },
+        {
+          "question_id": "G4-ELA-M4-W6-Q5",
+          "module": 4,
+          "week": 6,
+          "topic": "Presenting Findings",
+          "standard": "SL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which opening is effective for a presentation?",
+          "options": [
+            "Today I will explain three ways plants survive.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Today I will explain three ways plants survive.",
+          "answer_explanation": "It clearly states the topic and plan."
+        },
+        {
+          "question_id": "G4-ELA-M4-W7-Q1",
+          "module": 4,
+          "week": 7,
+          "topic": "Multimedia",
+          "standard": "SL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can a chart improve a presentation?",
+          "options": [
+            "It can make numerical information easier to understand.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It can make numerical information easier to understand.",
+          "answer_explanation": "Visuals can clarify data."
+        },
+        {
+          "question_id": "G4-ELA-M4-W7-Q2",
+          "module": 4,
+          "week": 7,
+          "topic": "Multimedia",
+          "standard": "SL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might a speaker use an image?",
+          "options": [
+            "To help the audience understand an idea",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To help the audience understand an idea",
+          "answer_explanation": "Images can support spoken information."
+        },
+        {
+          "question_id": "G4-ELA-M4-W7-Q3",
+          "module": 4,
+          "week": 7,
+          "topic": "Multimedia",
+          "standard": "SL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should multimedia add to a presentation?",
+          "options": [
+            "Useful information that supports the main idea",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Useful information that supports the main idea",
+          "answer_explanation": "Media should support rather than distract."
+        },
+        {
+          "question_id": "G4-ELA-M4-W7-Q4",
+          "module": 4,
+          "week": 7,
+          "topic": "Multimedia",
+          "standard": "SL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a multimedia element?",
+          "options": [
+            "A recorded audio clip",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A recorded audio clip",
+          "answer_explanation": "Audio is a form of multimedia."
+        },
+        {
+          "question_id": "G4-ELA-M4-W7-Q5",
+          "module": 4,
+          "week": 7,
+          "topic": "Multimedia",
+          "standard": "SL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should a presenter explain a visual?",
+          "options": [
+            "So the audience understands how it supports the topic",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So the audience understands how it supports the topic",
+          "answer_explanation": "Explanation connects the visual to the message."
+        },
+        {
+          "question_id": "G4-ELA-M4-W8-Q1",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adjective?",
+          "options": [
+            "careful",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "careful",
+          "answer_explanation": "It describes a noun."
+        },
+        {
+          "question_id": "G4-ELA-M4-W8-Q2",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence uses correct punctuation?",
+          "options": [
+            "Where are you going?",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Where are you going?",
+          "answer_explanation": "A question ends with a question mark."
+        },
+        {
+          "question_id": "G4-ELA-M4-W8-Q3",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a synonym for 'large'?",
+          "options": [
+            "enormous",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "enormous",
+          "answer_explanation": "Both words have similar meanings."
+        },
+        {
+          "question_id": "G4-ELA-M4-W8-Q4",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is compound?",
+          "options": [
+            "I read, and my sister wrote.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I read, and my sister wrote.",
+          "answer_explanation": "It joins two complete thoughts."
+        },
+        {
+          "question_id": "G4-ELA-M4-W8-Q5",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adverb?",
+          "options": [
+            "quickly",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "quickly",
+          "answer_explanation": "It describes how an action happens."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-ELA-MOCK-1",
+      "course": "Grade 4 English Language Arts",
+      "grade": 4,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-ELA-MOCK-1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Referring to Details",
+          "standard": "RL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "The puppy hid under the bed when thunder began. Where did the puppy hide?",
+          "options": [
+            "Under the bed",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Under the bed",
+          "answer_explanation": "The passage directly states where the puppy hid."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is the best summary of a story?",
+          "options": [
+            "It states the main events and leaves out minor details.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It states the main events and leaves out minor details.",
+          "answer_explanation": "A summary focuses on important events rather than every detail."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A character quietly helps a younger student carry books. What trait does this show?",
+          "options": [
+            "Helpful",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Helpful",
+          "answer_explanation": "The character assists another person."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Words & Phrases",
+          "standard": "RL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do authors use figurative language?",
+          "options": [
+            "To create vivid images or ideas",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To create vivid images or ideas",
+          "answer_explanation": "Nonliteral language can make writing more expressive."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Story Structure",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which feature is most typical of a drama?",
+          "options": [
+            "Scenes and dialogue",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Scenes and dialogue",
+          "answer_explanation": "Dramas are commonly organized into scenes and include dialogue."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Point of View",
+          "standard": "RL.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "The narrator says, 'Maya opened the door and stepped inside.' What point of view is used?",
+          "options": [
+            "Third person",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Third person",
+          "answer_explanation": "The narrator refers to Maya rather than using 'I.'"
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Text & Its Presentation",
+          "standard": "RL.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story and its illustrated version show the same event. What should a reader compare?",
+          "options": [
+            "How each version presents the event",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How each version presents the event",
+          "answer_explanation": "Different presentations may emphasize different details."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which opening is strongest for a narrative?",
+          "options": [
+            "When the lights went out, Carlos heard a strange noise upstairs.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "When the lights went out, Carlos heard a strange noise upstairs.",
+          "answer_explanation": "It immediately introduces a situation and creates interest."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Summary",
+          "standard": "RI.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail best supports the idea that exercise is useful?",
+          "options": [
+            "Regular activity can strengthen the heart.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Regular activity can strengthen the heart.",
+          "answer_explanation": "It is a specific benefit of exercise."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Explaining Events & Ideas",
+          "standard": "RI.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word often signals a cause?",
+          "options": [
+            "because",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "because",
+          "answer_explanation": "'Because' introduces a reason."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Text Structure",
+          "standard": "RI.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which clue suggests chronological structure?",
+          "options": [
+            "First, next, then, finally",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "First, next, then, finally",
+          "answer_explanation": "These words signal time order."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which account is firsthand?",
+          "options": [
+            "A firefighter describing the fire she fought",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A firefighter describing the fire she fought",
+          "answer_explanation": "She directly experienced the event."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bar graph shows 20 books read in June and 30 in July. Which month had more?",
+          "options": [
+            "July",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "July",
+          "answer_explanation": "The graph shows a larger value for July."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Reasons & Evidence",
+          "standard": "RI.4.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is evidence?",
+          "options": [
+            "Information that supports a claim or idea",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Information that supports a claim or idea",
+          "answer_explanation": "Evidence gives support for a point."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Integrating Information",
+          "standard": "RI.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If both texts explain that trees need water, what is this?",
+          "options": [
+            "A shared idea",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A shared idea",
+          "answer_explanation": "The same information appears in both."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why group related information together?",
+          "options": [
+            "To make the explanation easier to follow",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To make the explanation easier to follow",
+          "answer_explanation": "Logical organization helps readers."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "Grammar & Usage",
+          "standard": "L.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence uses past tense correctly?",
+          "options": [
+            "Yesterday, we visited the museum.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Yesterday, we visited the museum.",
+          "answer_explanation": "'Visited' correctly indicates past tense."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences & Punctuation",
+          "standard": "L.4.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a compound sentence?",
+          "options": [
+            "I read a book, and my brother drew a picture.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I read a book, and my brother drew a picture.",
+          "answer_explanation": "It joins two complete thoughts with 'and.'"
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues & Word Parts",
+          "standard": "L.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the base word in 'helpful'?",
+          "options": [
+            "help",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "help",
+          "answer_explanation": "'-ful' is added to the base word help."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Figurative Language & Idioms",
+          "standard": "L.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use idioms?",
+          "options": [
+            "They express ideas in familiar, nonliteral ways.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They express ideas in familiar, nonliteral ways.",
+          "answer_explanation": "Idioms have meanings beyond their literal words."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "Academic Vocabulary",
+          "standard": "L.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is most appropriate in a science report?",
+          "options": [
+            "observe",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "observe",
+          "answer_explanation": "'Observe' is a useful academic/scientific word."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reason supports the opinion that recess is important?",
+          "options": [
+            "Recess gives students time to move and refresh their minds.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Recess gives students time to move and refresh their minds.",
+          "answer_explanation": "It directly supports the opinion."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a conclusion do?",
+          "options": [
+            "Restate the opinion and summarize the main reasons",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Restate the opinion and summarize the main reasons",
+          "answer_explanation": "A conclusion wraps up the argument."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why read a draft aloud?",
+          "options": [
+            "It can help the writer notice awkward or unclear sentences",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It can help the writer notice awkward or unclear sentences",
+          "answer_explanation": "Hearing writing can reveal problems."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is imagery?",
+          "options": [
+            "Language that helps readers form mental pictures",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Language that helps readers form mental pictures",
+          "answer_explanation": "Imagery appeals to the senses."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Themes Across Cultures",
+          "standard": "RL.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two stories have different settings but both value courage. What is similar?",
+          "options": [
+            "Their theme",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Their theme",
+          "answer_explanation": "The lesson about courage is shared."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Research Skills",
+          "standard": "W.4.7/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why record the source of a fact?",
+          "options": [
+            "So the information can be traced back to where it came from",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So the information can be traced back to where it came from",
+          "answer_explanation": "Source tracking supports responsible research."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "Research Project",
+          "standard": "W.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should a researcher avoid copying a source word for word?",
+          "options": [
+            "To use information responsibly in their own work",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To use information responsibly in their own work",
+          "answer_explanation": "Research should be expressed appropriately and attributed."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "Speaking & Listening",
+          "standard": "SL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a good discussion participant do?",
+          "options": [
+            "Listen and respond to others' ideas",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Listen and respond to others' ideas",
+          "answer_explanation": "Discussion requires active listening and participation."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Presenting Findings",
+          "standard": "SL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use examples in a presentation?",
+          "options": [
+            "They make ideas more specific and understandable",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They make ideas more specific and understandable",
+          "answer_explanation": "Examples clarify information."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "Multimedia",
+          "standard": "SL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should multimedia add to a presentation?",
+          "options": [
+            "Useful information that supports the main idea",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Useful information that supports the main idea",
+          "answer_explanation": "Media should support rather than distract."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is compound?",
+          "options": [
+            "I read, and my sister wrote.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I read, and my sister wrote.",
+          "answer_explanation": "It joins two complete thoughts."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q33",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is the best summary of a story?",
+          "options": [
+            "It states the main events and leaves out minor details.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It states the main events and leaves out minor details.",
+          "answer_explanation": "A summary focuses on important events rather than every detail."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q34",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should readers compare between two accounts?",
+          "options": [
+            "Details, perspectives, and information included",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Details, perspectives, and information included",
+          "answer_explanation": "Comparing accounts reveals similarities and differences."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q35",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why organize reasons?",
+          "options": [
+            "So readers can follow the writer's thinking",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So readers can follow the writer's thinking",
+          "answer_explanation": "Organization strengthens the argument."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q36",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adjective?",
+          "options": [
+            "careful",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "careful",
+          "answer_explanation": "It describes a noun."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q37",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story shows two neighbors helping each other after a storm. What theme fits?",
+          "options": [
+            "Helping others strengthens a community.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Helping others strengthens a community.",
+          "answer_explanation": "The events show cooperation and support."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q38",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might two firsthand accounts differ?",
+          "options": [
+            "People may notice or remember different details.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "People may notice or remember different details.",
+          "answer_explanation": "Perspective affects an account."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q39",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a fact?",
+          "options": [
+            "A week has seven days.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A week has seven days.",
+          "answer_explanation": "It can be verified and is not a personal belief."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-1-Q40",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adverb?",
+          "options": [
+            "quickly",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "quickly",
+          "answer_explanation": "It describes how an action happens."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-ELA-MOCK-2",
+      "course": "Grade 4 English Language Arts",
+      "grade": 4,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-ELA-MOCK-2-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a narrative conclusion do?",
+          "options": [
+            "Bring the events to a satisfying close.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Bring the events to a satisfying close.",
+          "answer_explanation": "A conclusion resolves the narrative."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Text & Its Presentation",
+          "standard": "RL.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What do stage directions usually tell actors?",
+          "options": [
+            "How or where to perform an action",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How or where to perform an action",
+          "answer_explanation": "Stage directions guide performance."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Point of View",
+          "standard": "RL.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might two narrators describe the same event differently?",
+          "options": [
+            "They may have different experiences or perspectives.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They may have different experiences or perspectives.",
+          "answer_explanation": "Point of view affects what the reader learns."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "Story Structure",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is often the main purpose of a story's ending?",
+          "options": [
+            "To resolve or conclude the events",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To resolve or conclude the events",
+          "answer_explanation": "The ending brings the plot to a close."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Words & Phrases",
+          "standard": "RL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In 'The wind whispered through the trees,' what does 'whispered' suggest?",
+          "options": [
+            "A soft, quiet sound",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A soft, quiet sound",
+          "answer_explanation": "The phrase uses figurative language to describe the wind's sound."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q6",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which evidence best shows that a character is brave?",
+          "options": [
+            "She enters the dark room to help her friend.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "She enters the dark room to help her friend.",
+          "answer_explanation": "The action provides evidence of bravery."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q7",
+          "module": 1,
+          "week": 2,
+          "topic": "Theme & Summary",
+          "standard": "RL.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A character learns that telling the truth fixes a problem. What is a likely theme?",
+          "options": [
+            "Honesty is important.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Honesty is important.",
+          "answer_explanation": "The character learns a lesson about honesty."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q8",
+          "module": 1,
+          "week": 1,
+          "topic": "Referring to Details",
+          "standard": "RL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Marcus practiced his speech every night and finally presented it confidently. Which detail supports the idea that practice helped him?",
+          "options": [
+            "He practiced every night.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "He practiced every night.",
+          "answer_explanation": "The repeated practice is evidence for his improvement."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q9",
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which ending works well for an informative piece?",
+          "options": [
+            "It restates the main idea and leaves the reader with a clear understanding.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It restates the main idea and leaves the reader with a clear understanding.",
+          "answer_explanation": "A conclusion should wrap up the explanation."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q10",
+          "module": 2,
+          "week": 7,
+          "topic": "Integrating Information",
+          "standard": "RI.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "One text has a diagram and another has written explanations. What can readers do?",
+          "options": [
+            "Combine the visual and written information",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Combine the visual and written information",
+          "answer_explanation": "Different formats can complement each other."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q11",
+          "module": 2,
+          "week": 6,
+          "topic": "Reasons & Evidence",
+          "standard": "RI.4.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should an author give reasons for a point?",
+          "options": [
+            "To explain why the point is supported",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To explain why the point is supported",
+          "answer_explanation": "Reasons strengthen an explanation or argument."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q12",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a timeline help a reader understand?",
+          "options": [
+            "When events happened and their order",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "When events happened and their order",
+          "answer_explanation": "Timelines organize events by time."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q13",
+          "module": 2,
+          "week": 4,
+          "topic": "Comparing Accounts",
+          "standard": "RI.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A person who saw an event describes it from memory. What type of account is this?",
+          "options": [
+            "Firsthand",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Firsthand",
+          "answer_explanation": "The person experienced the event directly."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q14",
+          "module": 2,
+          "week": 3,
+          "topic": "Text Structure",
+          "standard": "RI.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why does recognizing text structure help readers?",
+          "options": [
+            "It helps them organize and understand information.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "It helps them organize and understand information.",
+          "answer_explanation": "Structure shows how ideas are connected."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q15",
+          "module": 2,
+          "week": 2,
+          "topic": "Explaining Events & Ideas",
+          "standard": "RI.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word signals an effect?",
+          "options": [
+            "therefore",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "therefore",
+          "answer_explanation": "'Therefore' can introduce a result."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q16",
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Summary",
+          "standard": "RI.4.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a good summary include?",
+          "options": [
+            "The main idea and important supporting points",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The main idea and important supporting points",
+          "answer_explanation": "A summary leaves out minor details."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q17",
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which should a writer check before publishing?",
+          "options": [
+            "Clarity, organization, and conventions",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Clarity, organization, and conventions",
+          "answer_explanation": "A final review checks both content and correctness."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q18",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reason best supports school gardens?",
+          "options": [
+            "Students can learn about plants through direct observation.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Students can learn about plants through direct observation.",
+          "answer_explanation": "It is relevant and specific."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q19",
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should an opinion writer include?",
+          "options": [
+            "A clear opinion and supporting reasons",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A clear opinion and supporting reasons",
+          "answer_explanation": "Reasons explain and support the position."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q20",
+          "module": 3,
+          "week": 5,
+          "topic": "Academic Vocabulary",
+          "standard": "L.4.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does 'analyze' mean?",
+          "options": [
+            "Study something carefully to understand it",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Study something carefully to understand it",
+          "answer_explanation": "Analyze is an academic word for careful examination."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q21",
+          "module": 3,
+          "week": 4,
+          "topic": "Figurative Language & Idioms",
+          "standard": "L.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The snow was a blanket over the town.' What does the metaphor suggest?",
+          "options": [
+            "Snow covered the town like a blanket.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Snow covered the town like a blanket.",
+          "answer_explanation": "The phrase compares snow to a blanket."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q22",
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues & Word Parts",
+          "standard": "L.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In 'The enormous elephant was huge,' what does enormous mean?",
+          "options": [
+            "very large",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "very large",
+          "answer_explanation": "The word 'huge' is a context clue."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q23",
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences & Punctuation",
+          "standard": "L.4.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a fragment?",
+          "options": [
+            "Because the rain stopped.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Because the rain stopped.",
+          "answer_explanation": "It does not express a complete thought."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q24",
+          "module": 3,
+          "week": 1,
+          "topic": "Grammar & Usage",
+          "standard": "L.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which pronoun can replace 'the students'?",
+          "options": [
+            "they",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "they",
+          "answer_explanation": "'They' is a plural pronoun."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q25",
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.4.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adverb?",
+          "options": [
+            "quickly",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "quickly",
+          "answer_explanation": "It describes how an action happens."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q26",
+          "module": 4,
+          "week": 7,
+          "topic": "Multimedia",
+          "standard": "SL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a multimedia element?",
+          "options": [
+            "A recorded audio clip",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A recorded audio clip",
+          "answer_explanation": "Audio is a form of multimedia."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q27",
+          "module": 4,
+          "week": 6,
+          "topic": "Presenting Findings",
+          "standard": "SL.4.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use an appropriate speaking volume?",
+          "options": [
+            "So the audience can hear the information",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So the audience can hear the information",
+          "answer_explanation": "Volume affects communication."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q28",
+          "module": 4,
+          "week": 5,
+          "topic": "Speaking & Listening",
+          "standard": "SL.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which question encourages someone to explain an idea?",
+          "options": [
+            "What makes you think that?",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What makes you think that?",
+          "answer_explanation": "It asks for reasoning or evidence."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q29",
+          "module": 4,
+          "week": 4,
+          "topic": "Research Project",
+          "standard": "W.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a good first step in a research project?",
+          "options": [
+            "Choose a clear topic or question",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Choose a clear topic or question",
+          "answer_explanation": "A focused topic gives the project direction."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q30",
+          "module": 4,
+          "week": 3,
+          "topic": "Research Skills",
+          "standard": "W.4.7/8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If two sources disagree, what should you do?",
+          "options": [
+            "Compare the evidence and evaluate the sources",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Compare the evidence and evaluate the sources",
+          "answer_explanation": "Checking evidence helps resolve differences."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q31",
+          "module": 4,
+          "week": 2,
+          "topic": "Themes Across Cultures",
+          "standard": "RL.4.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should readers consider when comparing stories from different cultures?",
+          "options": [
+            "Characters, events, themes, and perspectives",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Characters, events, themes, and perspectives",
+          "answer_explanation": "These elements help make meaningful comparisons."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q32",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might a poet repeat a line?",
+          "options": [
+            "To emphasize an idea or create a pattern",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To emphasize an idea or create a pattern",
+          "answer_explanation": "Repetition can strengthen meaning and structure."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q33",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Mina practices the piano after making mistakes. What trait fits?",
+          "options": [
+            "Determined",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Determined",
+          "answer_explanation": "She keeps working despite mistakes."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q34",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should you read labels on a graph?",
+          "options": [
+            "They explain what the numbers or categories represent.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They explain what the numbers or categories represent.",
+          "answer_explanation": "Labels help interpret data correctly."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q35",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use linking words?",
+          "options": [
+            "To connect ideas and reasons clearly",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To connect ideas and reasons clearly",
+          "answer_explanation": "Linking words make the argument easier to follow."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q36",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can repeated sounds create in a poem?",
+          "options": [
+            "Rhythm",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Rhythm",
+          "answer_explanation": "Sound patterns can create rhythm."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q37",
+          "module": 1,
+          "week": 3,
+          "topic": "Describing Characters",
+          "standard": "RL.4.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Jay asks questions, studies maps, and explores a new trail. What trait fits?",
+          "options": [
+            "Curious",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Curious",
+          "answer_explanation": "His actions show a desire to learn and explore."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q38",
+          "module": 2,
+          "week": 5,
+          "topic": "Interpreting Information",
+          "standard": "RI.4.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart has a heading 'Rainfall by Month.' What does the heading tell you?",
+          "options": [
+            "What the data are about",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What the data are about",
+          "answer_explanation": "The heading identifies the chart's topic."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q39",
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Essay",
+          "standard": "W.4.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reason best supports school gardens?",
+          "options": [
+            "Students can learn about plants through direct observation.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Students can learn about plants through direct observation.",
+          "answer_explanation": "It is relevant and specific."
+        },
+        {
+          "question_id": "G4-ELA-MOCK-2-Q40",
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.4.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail is imagery?",
+          "options": [
+            "The golden leaves crackled under our feet.",
+            "A different idea not supported by the passage",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The golden leaves crackled under our feet.",
+          "answer_explanation": "It creates a sensory picture."
+        }
+      ]
+    }
+  ]
+}

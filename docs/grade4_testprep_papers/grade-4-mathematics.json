@@ -1,0 +1,4404 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 4 Mathematics",
+  "grade": 4,
+  "standard_family": "Common Core Mathematics Grade 4",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G4-MATHEMATICS-MODULE-1",
+      "course": "Grade 4 Mathematics",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Place Value & Multi-Digit Operations",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-MATHEMATICS-M1-W1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value to Millions",
+          "standard": "4.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the tens place in 3,200,000?",
+          "options": [
+            "0",
+            "0",
+            "0",
+            "3200000"
+          ],
+          "correct_answer": "0",
+          "answer_explanation": "The digit in the tens place represents 0."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W1-Q2",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value to Millions",
+          "standard": "4.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 3,311,111?",
+          "options": [
+            "100",
+            "1000",
+            "10",
+            "3311111"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "The digit in the hundreds place represents 100."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W1-Q3",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value to Millions",
+          "standard": "4.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the thousands place in 3,422,222?",
+          "options": [
+            "2000",
+            "20000",
+            "200",
+            "3422222"
+          ],
+          "correct_answer": "2000",
+          "answer_explanation": "The digit in the thousands place represents 2,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W1-Q4",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value to Millions",
+          "standard": "4.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the ten-thousands place in 3,533,333?",
+          "options": [
+            "30000",
+            "300000",
+            "3000",
+            "3533333"
+          ],
+          "correct_answer": "30000",
+          "answer_explanation": "The digit in the ten-thousands place represents 30,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W1-Q5",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value to Millions",
+          "standard": "4.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundred-thousands place in 3,644,444?",
+          "options": [
+            "600000",
+            "6000000",
+            "60000",
+            "3644444"
+          ],
+          "correct_answer": "600000",
+          "answer_explanation": "The digit in the hundred-thousands place represents 600,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W2-Q1",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 123,456 to the nearest thousand.",
+          "options": [
+            "123,000",
+            "124,000",
+            "122,000",
+            "123,500"
+          ],
+          "correct_answer": "123,000",
+          "answer_explanation": "The hundreds digit is 4; 123,456 rounds to 123,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 123,593 to the nearest thousand.",
+          "options": [
+            "124,000",
+            "125,000",
+            "123,000",
+            "123,600"
+          ],
+          "correct_answer": "124,000",
+          "answer_explanation": "The hundreds digit is 5; 123,593 rounds to 124,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W2-Q3",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 123,730 to the nearest thousand.",
+          "options": [
+            "124,000",
+            "125,000",
+            "123,000",
+            "123,700"
+          ],
+          "correct_answer": "124,000",
+          "answer_explanation": "The hundreds digit is 7; 123,730 rounds to 124,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W2-Q4",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 123,867 to the nearest thousand.",
+          "options": [
+            "124,000",
+            "125,000",
+            "123,000",
+            "123,900"
+          ],
+          "correct_answer": "124,000",
+          "answer_explanation": "The hundreds digit is 8; 123,867 rounds to 124,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W2-Q5",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 124,004 to the nearest thousand.",
+          "options": [
+            "124,000",
+            "125,000",
+            "123,000",
+            "124,000"
+          ],
+          "correct_answer": "124,000",
+          "answer_explanation": "The hundreds digit is 0; 124,004 rounds to 124,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W3-Q1",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,245 + 632?",
+          "options": [
+            "1,877",
+            "1,977",
+            "613",
+            "1,877"
+          ],
+          "correct_answer": "1,877",
+          "answer_explanation": "Using the standard algorithm gives 1,877."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W3-Q2",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,362 − 715?",
+          "options": [
+            "647",
+            "747",
+            "647",
+            "2,077"
+          ],
+          "correct_answer": "647",
+          "answer_explanation": "Using the standard algorithm gives 647."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W3-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,479 + 798?",
+          "options": [
+            "2,277",
+            "2,377",
+            "681",
+            "2,277"
+          ],
+          "correct_answer": "2,277",
+          "answer_explanation": "Using the standard algorithm gives 2,277."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W3-Q4",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,596 − 881?",
+          "options": [
+            "715",
+            "815",
+            "715",
+            "2,477"
+          ],
+          "correct_answer": "715",
+          "answer_explanation": "Using the standard algorithm gives 715."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W3-Q5",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,713 + 964?",
+          "options": [
+            "2,677",
+            "2,777",
+            "749",
+            "2,677"
+          ],
+          "correct_answer": "2,677",
+          "answer_explanation": "Using the standard algorithm gives 2,677."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W4-Q1",
+          "module": 1,
+          "week": 4,
+          "topic": "Multiplication by One Digit",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 123 × 3?",
+          "options": [
+            "369",
+            "372",
+            "246",
+            "126"
+          ],
+          "correct_answer": "369",
+          "answer_explanation": "Multiplying 123 by 3 gives 369."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W4-Q2",
+          "module": 1,
+          "week": 4,
+          "topic": "Multiplication by One Digit",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 140 × 4?",
+          "options": [
+            "560",
+            "564",
+            "420",
+            "144"
+          ],
+          "correct_answer": "560",
+          "answer_explanation": "Multiplying 140 by 4 gives 560."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W4-Q3",
+          "module": 1,
+          "week": 4,
+          "topic": "Multiplication by One Digit",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 157 × 5?",
+          "options": [
+            "785",
+            "790",
+            "628",
+            "162"
+          ],
+          "correct_answer": "785",
+          "answer_explanation": "Multiplying 157 by 5 gives 785."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W4-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Multiplication by One Digit",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 174 × 6?",
+          "options": [
+            "1044",
+            "1050",
+            "870",
+            "180"
+          ],
+          "correct_answer": "1044",
+          "answer_explanation": "Multiplying 174 by 6 gives 1044."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W4-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Multiplication by One Digit",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 191 × 7?",
+          "options": [
+            "1337",
+            "1344",
+            "1146",
+            "198"
+          ],
+          "correct_answer": "1337",
+          "answer_explanation": "Multiplying 191 by 7 gives 1337."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W5-Q1",
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication by Two Digits",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 20 × 12?",
+          "options": [
+            "240",
+            "250",
+            "230",
+            "32"
+          ],
+          "correct_answer": "240",
+          "answer_explanation": "20 × 12 = 240."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W5-Q2",
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication by Two Digits",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 23 × 13?",
+          "options": [
+            "299",
+            "309",
+            "289",
+            "36"
+          ],
+          "correct_answer": "299",
+          "answer_explanation": "23 × 13 = 299."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W5-Q3",
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication by Two Digits",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 26 × 14?",
+          "options": [
+            "364",
+            "374",
+            "354",
+            "40"
+          ],
+          "correct_answer": "364",
+          "answer_explanation": "26 × 14 = 364."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W5-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication by Two Digits",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 29 × 15?",
+          "options": [
+            "435",
+            "445",
+            "425",
+            "44"
+          ],
+          "correct_answer": "435",
+          "answer_explanation": "29 × 15 = 435."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W5-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication by Two Digits",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 32 × 16?",
+          "options": [
+            "512",
+            "522",
+            "502",
+            "48"
+          ],
+          "correct_answer": "512",
+          "answer_explanation": "32 × 16 = 512."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W6-Q1",
+          "module": 1,
+          "week": 6,
+          "topic": "Division with Remainders",
+          "standard": "4.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 60 ÷ 3?",
+          "options": [
+            "20 R0",
+            "21 R0",
+            "20 R1",
+            "3 R20"
+          ],
+          "correct_answer": "20 R0",
+          "answer_explanation": "3 × 20 = 60, with 0 left over."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W6-Q2",
+          "module": 1,
+          "week": 6,
+          "topic": "Division with Remainders",
+          "standard": "4.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 89 ÷ 4?",
+          "options": [
+            "22 R1",
+            "23 R1",
+            "22 R2",
+            "4 R22"
+          ],
+          "correct_answer": "22 R1",
+          "answer_explanation": "4 × 22 = 88, with 1 left over."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W6-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Division with Remainders",
+          "standard": "4.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 122 ÷ 5?",
+          "options": [
+            "24 R2",
+            "25 R2",
+            "24 R3",
+            "5 R24"
+          ],
+          "correct_answer": "24 R2",
+          "answer_explanation": "5 × 24 = 120, with 2 left over."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W6-Q4",
+          "module": 1,
+          "week": 6,
+          "topic": "Division with Remainders",
+          "standard": "4.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 156 ÷ 6?",
+          "options": [
+            "26 R0",
+            "27 R0",
+            "26 R1",
+            "6 R26"
+          ],
+          "correct_answer": "26 R0",
+          "answer_explanation": "6 × 26 = 156, with 0 left over."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W6-Q5",
+          "module": 1,
+          "week": 6,
+          "topic": "Division with Remainders",
+          "standard": "4.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 197 ÷ 7?",
+          "options": [
+            "28 R1",
+            "29 R1",
+            "28 R2",
+            "7 R28"
+          ],
+          "correct_answer": "28 R1",
+          "answer_explanation": "7 × 28 = 196, with 1 left over."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W7-Q1",
+          "module": 1,
+          "week": 7,
+          "topic": "Multi-Step Word Problems",
+          "standard": "4.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 12 boxes with 4 pencils in each box. It sells 7 pencils. How many pencils remain?",
+          "options": [
+            "41",
+            "48",
+            "48",
+            "9"
+          ],
+          "correct_answer": "41",
+          "answer_explanation": "First 12 × 4 = 48; then 48 − 7 = 41."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W7-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Multi-Step Word Problems",
+          "standard": "4.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 13 boxes with 5 pencils in each box. It sells 8 pencils. How many pencils remain?",
+          "options": [
+            "57",
+            "65",
+            "65",
+            "10"
+          ],
+          "correct_answer": "57",
+          "answer_explanation": "First 13 × 5 = 65; then 65 − 8 = 57."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W7-Q3",
+          "module": 1,
+          "week": 7,
+          "topic": "Multi-Step Word Problems",
+          "standard": "4.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 14 boxes with 6 pencils in each box. It sells 9 pencils. How many pencils remain?",
+          "options": [
+            "75",
+            "84",
+            "84",
+            "11"
+          ],
+          "correct_answer": "75",
+          "answer_explanation": "First 14 × 6 = 84; then 84 − 9 = 75."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W7-Q4",
+          "module": 1,
+          "week": 7,
+          "topic": "Multi-Step Word Problems",
+          "standard": "4.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 15 boxes with 7 pencils in each box. It sells 10 pencils. How many pencils remain?",
+          "options": [
+            "95",
+            "105",
+            "105",
+            "12"
+          ],
+          "correct_answer": "95",
+          "answer_explanation": "First 15 × 7 = 105; then 105 − 10 = 95."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W7-Q5",
+          "module": 1,
+          "week": 7,
+          "topic": "Multi-Step Word Problems",
+          "standard": "4.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 16 boxes with 8 pencils in each box. It sells 7 pencils. How many pencils remain?",
+          "options": [
+            "121",
+            "128",
+            "128",
+            "17"
+          ],
+          "correct_answer": "121",
+          "answer_explanation": "First 16 × 8 = 128; then 128 − 7 = 121."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W8-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Factors, Multiples & Patterns",
+          "standard": "4.OA.4/5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which number is a factor of 12?",
+          "options": [
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "correct_answer": "12",
+          "answer_explanation": "12 divides 12 evenly, so it is a factor."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W8-Q2",
+          "module": 1,
+          "week": 8,
+          "topic": "Factors, Multiples & Patterns",
+          "standard": "4.OA.4/5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which number is a factor of 13?",
+          "options": [
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "correct_answer": "13",
+          "answer_explanation": "13 divides 13 evenly, so it is a factor."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W8-Q3",
+          "module": 1,
+          "week": 8,
+          "topic": "Factors, Multiples & Patterns",
+          "standard": "4.OA.4/5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which number is a factor of 14?",
+          "options": [
+            "14",
+            "15",
+            "16",
+            "17"
+          ],
+          "correct_answer": "14",
+          "answer_explanation": "14 divides 14 evenly, so it is a factor."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W8-Q4",
+          "module": 1,
+          "week": 8,
+          "topic": "Factors, Multiples & Patterns",
+          "standard": "4.OA.4/5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which number is a factor of 15?",
+          "options": [
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
+          "correct_answer": "15",
+          "answer_explanation": "15 divides 15 evenly, so it is a factor."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M1-W8-Q5",
+          "module": 1,
+          "week": 8,
+          "topic": "Factors, Multiples & Patterns",
+          "standard": "4.OA.4/5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which number is a factor of 16?",
+          "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+          ],
+          "correct_answer": "16",
+          "answer_explanation": "16 divides 16 evenly, so it is a factor."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-MATHEMATICS-MODULE-2",
+      "course": "Grade 4 Mathematics",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "Fractions: Equivalence & Operations",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-MATHEMATICS-M2-W1-Q1",
+          "module": 2,
+          "week": 1,
+          "topic": "Equivalent Fractions",
+          "standard": "4.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 1/3?",
+          "options": [
+            "2/6",
+            "2/3",
+            "1/4",
+            "3/1"
+          ],
+          "correct_answer": "2/6",
+          "answer_explanation": "Multiplying numerator and denominator by 2 gives 2/6."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W1-Q2",
+          "module": 2,
+          "week": 1,
+          "topic": "Equivalent Fractions",
+          "standard": "4.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "6/12",
+            "3/4",
+            "2/5",
+            "4/2"
+          ],
+          "correct_answer": "6/12",
+          "answer_explanation": "Multiplying numerator and denominator by 3 gives 6/12."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W1-Q3",
+          "module": 2,
+          "week": 1,
+          "topic": "Equivalent Fractions",
+          "standard": "4.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 3/5?",
+          "options": [
+            "12/20",
+            "4/5",
+            "3/6",
+            "5/3"
+          ],
+          "correct_answer": "12/20",
+          "answer_explanation": "Multiplying numerator and denominator by 4 gives 12/20."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W1-Q4",
+          "module": 2,
+          "week": 1,
+          "topic": "Equivalent Fractions",
+          "standard": "4.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 4/6?",
+          "options": [
+            "8/12",
+            "5/6",
+            "4/7",
+            "6/4"
+          ],
+          "correct_answer": "8/12",
+          "answer_explanation": "Multiplying numerator and denominator by 2 gives 8/12."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W1-Q5",
+          "module": 2,
+          "week": 1,
+          "topic": "Equivalent Fractions",
+          "standard": "4.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 5/7?",
+          "options": [
+            "15/21",
+            "6/7",
+            "5/8",
+            "7/5"
+          ],
+          "correct_answer": "15/21",
+          "answer_explanation": "Multiplying numerator and denominator by 3 gives 15/21."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W2-Q1",
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Fractions",
+          "standard": "4.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "5/8",
+            "3/8",
+            "1/8",
+            "4/8"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "With the same denominator, the larger numerator represents the greater fraction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W2-Q2",
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Fractions",
+          "standard": "4.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "5/8",
+            "3/8",
+            "1/8",
+            "4/8"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "With the same denominator, the larger numerator represents the greater fraction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W2-Q3",
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Fractions",
+          "standard": "4.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "5/8",
+            "3/8",
+            "1/8",
+            "4/8"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "With the same denominator, the larger numerator represents the greater fraction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W2-Q4",
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Fractions",
+          "standard": "4.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "5/8",
+            "3/8",
+            "1/8",
+            "4/8"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "With the same denominator, the larger numerator represents the greater fraction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W2-Q5",
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Fractions",
+          "standard": "4.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "5/8",
+            "3/8",
+            "1/8",
+            "4/8"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "With the same denominator, the larger numerator represents the greater fraction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W3-Q1",
+          "module": 2,
+          "week": 3,
+          "topic": "Adding & Subtracting Fractions",
+          "standard": "4.NF.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/8 + 1/8?",
+          "options": [
+            "2/8",
+            "2/9",
+            "1/8",
+            "8/2"
+          ],
+          "correct_answer": "2/8",
+          "answer_explanation": "Add the numerators and keep the common denominator: 1+1=2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W3-Q2",
+          "module": 2,
+          "week": 3,
+          "topic": "Adding & Subtracting Fractions",
+          "standard": "4.NF.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 2/8 + 2/8?",
+          "options": [
+            "4/8",
+            "4/9",
+            "4/8",
+            "8/4"
+          ],
+          "correct_answer": "4/8",
+          "answer_explanation": "Add the numerators and keep the common denominator: 2+2=4."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W3-Q3",
+          "module": 2,
+          "week": 3,
+          "topic": "Adding & Subtracting Fractions",
+          "standard": "4.NF.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3/8 + 3/8?",
+          "options": [
+            "6/8",
+            "6/9",
+            "9/8",
+            "8/6"
+          ],
+          "correct_answer": "6/8",
+          "answer_explanation": "Add the numerators and keep the common denominator: 3+3=6."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W3-Q4",
+          "module": 2,
+          "week": 3,
+          "topic": "Adding & Subtracting Fractions",
+          "standard": "4.NF.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4/8 + 1/8?",
+          "options": [
+            "5/8",
+            "5/9",
+            "4/8",
+            "8/5"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "Add the numerators and keep the common denominator: 4+1=5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W3-Q5",
+          "module": 2,
+          "week": 3,
+          "topic": "Adding & Subtracting Fractions",
+          "standard": "4.NF.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/8 + 2/8?",
+          "options": [
+            "3/8",
+            "3/9",
+            "2/8",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Add the numerators and keep the common denominator: 1+2=3."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W4-Q1",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W4-Q2",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W4-Q3",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W4-Q4",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W4-Q5",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W5-Q1",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W5-Q2",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W5-Q3",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W5-Q4",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W5-Q5",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W6-Q1",
+          "module": 2,
+          "week": 6,
+          "topic": "Fraction Word Problems",
+          "standard": "4.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ribbon is 3/4 meter long. Mia uses 1/4 meter. How much ribbon remains?",
+          "options": [
+            "1/2 meter",
+            "2/4 meter",
+            "3/4 meter",
+            "1/4 meter"
+          ],
+          "correct_answer": "1/2 meter",
+          "answer_explanation": "3/4 − 1/4 = 2/4 = 1/2 meter."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W6-Q2",
+          "module": 2,
+          "week": 6,
+          "topic": "Fraction Word Problems",
+          "standard": "4.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ribbon is 3/4 meter long. Mia uses 1/4 meter. How much ribbon remains?",
+          "options": [
+            "1/2 meter",
+            "2/4 meter",
+            "3/4 meter",
+            "1/4 meter"
+          ],
+          "correct_answer": "1/2 meter",
+          "answer_explanation": "3/4 − 1/4 = 2/4 = 1/2 meter."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W6-Q3",
+          "module": 2,
+          "week": 6,
+          "topic": "Fraction Word Problems",
+          "standard": "4.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ribbon is 3/4 meter long. Mia uses 1/4 meter. How much ribbon remains?",
+          "options": [
+            "1/2 meter",
+            "2/4 meter",
+            "3/4 meter",
+            "1/4 meter"
+          ],
+          "correct_answer": "1/2 meter",
+          "answer_explanation": "3/4 − 1/4 = 2/4 = 1/2 meter."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W6-Q4",
+          "module": 2,
+          "week": 6,
+          "topic": "Fraction Word Problems",
+          "standard": "4.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ribbon is 3/4 meter long. Mia uses 1/4 meter. How much ribbon remains?",
+          "options": [
+            "1/2 meter",
+            "2/4 meter",
+            "3/4 meter",
+            "1/4 meter"
+          ],
+          "correct_answer": "1/2 meter",
+          "answer_explanation": "3/4 − 1/4 = 2/4 = 1/2 meter."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W6-Q5",
+          "module": 2,
+          "week": 6,
+          "topic": "Fraction Word Problems",
+          "standard": "4.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ribbon is 3/4 meter long. Mia uses 1/4 meter. How much ribbon remains?",
+          "options": [
+            "1/2 meter",
+            "2/4 meter",
+            "3/4 meter",
+            "1/4 meter"
+          ],
+          "correct_answer": "1/2 meter",
+          "answer_explanation": "3/4 − 1/4 = 2/4 = 1/2 meter."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W7-Q1",
+          "module": 2,
+          "week": 7,
+          "topic": "Line Plots with Fractions",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 measurements at 1/4 inch and 2 measurements at 3/4 inch. How many measurements are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 measurements."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W7-Q2",
+          "module": 2,
+          "week": 7,
+          "topic": "Line Plots with Fractions",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 measurements at 1/4 inch and 2 measurements at 3/4 inch. How many measurements are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 measurements."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W7-Q3",
+          "module": 2,
+          "week": 7,
+          "topic": "Line Plots with Fractions",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 measurements at 1/4 inch and 2 measurements at 3/4 inch. How many measurements are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 measurements."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W7-Q4",
+          "module": 2,
+          "week": 7,
+          "topic": "Line Plots with Fractions",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 measurements at 1/4 inch and 2 measurements at 3/4 inch. How many measurements are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 measurements."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W7-Q5",
+          "module": 2,
+          "week": 7,
+          "topic": "Line Plots with Fractions",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 measurements at 1/4 inch and 2 measurements at 3/4 inch. How many measurements are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 measurements."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W8-Q1",
+          "module": 2,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W8-Q2",
+          "module": 2,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W8-Q3",
+          "module": 2,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W8-Q4",
+          "module": 2,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M2-W8-Q5",
+          "module": 2,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-MATHEMATICS-MODULE-3",
+      "course": "Grade 4 Mathematics",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Decimals & Measurement",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-MATHEMATICS-M3-W1-Q1",
+          "module": 3,
+          "week": 1,
+          "topic": "Decimal Notation",
+          "standard": "4.NF.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal represents 7/10?",
+          "options": [
+            "0.7",
+            "0.07",
+            "7.0",
+            "0.17"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "Seven tenths is written as 0.7."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W1-Q2",
+          "module": 3,
+          "week": 1,
+          "topic": "Decimal Notation",
+          "standard": "4.NF.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal represents 7/10?",
+          "options": [
+            "0.7",
+            "0.07",
+            "7.0",
+            "0.17"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "Seven tenths is written as 0.7."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W1-Q3",
+          "module": 3,
+          "week": 1,
+          "topic": "Decimal Notation",
+          "standard": "4.NF.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal represents 7/10?",
+          "options": [
+            "0.7",
+            "0.07",
+            "7.0",
+            "0.17"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "Seven tenths is written as 0.7."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W1-Q4",
+          "module": 3,
+          "week": 1,
+          "topic": "Decimal Notation",
+          "standard": "4.NF.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal represents 7/10?",
+          "options": [
+            "0.7",
+            "0.07",
+            "7.0",
+            "0.17"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "Seven tenths is written as 0.7."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W1-Q5",
+          "module": 3,
+          "week": 1,
+          "topic": "Decimal Notation",
+          "standard": "4.NF.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal represents 7/10?",
+          "options": [
+            "0.7",
+            "0.07",
+            "7.0",
+            "0.17"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "Seven tenths is written as 0.7."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W2-Q1",
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions & Decimals",
+          "standard": "4.NF.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal is equal to 25/100?",
+          "options": [
+            "0.25",
+            "2.5",
+            "0.025",
+            "0.205"
+          ],
+          "correct_answer": "0.25",
+          "answer_explanation": "Twenty-five hundredths is 0.25."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W2-Q2",
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions & Decimals",
+          "standard": "4.NF.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal is equal to 25/100?",
+          "options": [
+            "0.25",
+            "2.5",
+            "0.025",
+            "0.205"
+          ],
+          "correct_answer": "0.25",
+          "answer_explanation": "Twenty-five hundredths is 0.25."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W2-Q3",
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions & Decimals",
+          "standard": "4.NF.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal is equal to 25/100?",
+          "options": [
+            "0.25",
+            "2.5",
+            "0.025",
+            "0.205"
+          ],
+          "correct_answer": "0.25",
+          "answer_explanation": "Twenty-five hundredths is 0.25."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W2-Q4",
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions & Decimals",
+          "standard": "4.NF.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal is equal to 25/100?",
+          "options": [
+            "0.25",
+            "2.5",
+            "0.025",
+            "0.205"
+          ],
+          "correct_answer": "0.25",
+          "answer_explanation": "Twenty-five hundredths is 0.25."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W2-Q5",
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions & Decimals",
+          "standard": "4.NF.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal is equal to 25/100?",
+          "options": [
+            "0.25",
+            "2.5",
+            "0.025",
+            "0.205"
+          ],
+          "correct_answer": "0.25",
+          "answer_explanation": "Twenty-five hundredths is 0.25."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W3-Q1",
+          "module": 3,
+          "week": 3,
+          "topic": "Comparing Decimals",
+          "standard": "4.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which number is greater?",
+          "options": [
+            "0.7",
+            "0.65",
+            "0.67",
+            "0.69"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "0.70 is greater than 0.69, 0.67, and 0.65."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W3-Q2",
+          "module": 3,
+          "week": 3,
+          "topic": "Comparing Decimals",
+          "standard": "4.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which number is greater?",
+          "options": [
+            "0.7",
+            "0.65",
+            "0.67",
+            "0.69"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "0.70 is greater than 0.69, 0.67, and 0.65."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W3-Q3",
+          "module": 3,
+          "week": 3,
+          "topic": "Comparing Decimals",
+          "standard": "4.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which number is greater?",
+          "options": [
+            "0.7",
+            "0.65",
+            "0.67",
+            "0.69"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "0.70 is greater than 0.69, 0.67, and 0.65."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W3-Q4",
+          "module": 3,
+          "week": 3,
+          "topic": "Comparing Decimals",
+          "standard": "4.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which number is greater?",
+          "options": [
+            "0.7",
+            "0.65",
+            "0.67",
+            "0.69"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "0.70 is greater than 0.69, 0.67, and 0.65."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W3-Q5",
+          "module": 3,
+          "week": 3,
+          "topic": "Comparing Decimals",
+          "standard": "4.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which number is greater?",
+          "options": [
+            "0.7",
+            "0.65",
+            "0.67",
+            "0.69"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "0.70 is greater than 0.69, 0.67, and 0.65."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W4-Q1",
+          "module": 3,
+          "week": 4,
+          "topic": "Measurement Units",
+          "standard": "4.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How many centimeters are in 1 meter?",
+          "options": [
+            "100",
+            "10",
+            "1,000",
+            "50"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "One meter equals 100 centimeters."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W4-Q2",
+          "module": 3,
+          "week": 4,
+          "topic": "Measurement Units",
+          "standard": "4.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How many centimeters are in 1 meter?",
+          "options": [
+            "100",
+            "10",
+            "1,000",
+            "50"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "One meter equals 100 centimeters."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W4-Q3",
+          "module": 3,
+          "week": 4,
+          "topic": "Measurement Units",
+          "standard": "4.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How many centimeters are in 1 meter?",
+          "options": [
+            "100",
+            "10",
+            "1,000",
+            "50"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "One meter equals 100 centimeters."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W4-Q4",
+          "module": 3,
+          "week": 4,
+          "topic": "Measurement Units",
+          "standard": "4.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How many centimeters are in 1 meter?",
+          "options": [
+            "100",
+            "10",
+            "1,000",
+            "50"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "One meter equals 100 centimeters."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W4-Q5",
+          "module": 3,
+          "week": 4,
+          "topic": "Measurement Units",
+          "standard": "4.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How many centimeters are in 1 meter?",
+          "options": [
+            "100",
+            "10",
+            "1,000",
+            "50"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "One meter equals 100 centimeters."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W5-Q1",
+          "module": 3,
+          "week": 5,
+          "topic": "Measurement Problems",
+          "standard": "4.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:15 and lasts 1 hour 30 minutes. When does it end?",
+          "options": [
+            "3:45",
+            "3:15",
+            "4:00",
+            "2:45"
+          ],
+          "correct_answer": "3:45",
+          "answer_explanation": "Adding 1 hour gives 3:15; adding 30 minutes gives 3:45."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W5-Q2",
+          "module": 3,
+          "week": 5,
+          "topic": "Measurement Problems",
+          "standard": "4.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:15 and lasts 1 hour 30 minutes. When does it end?",
+          "options": [
+            "3:45",
+            "3:15",
+            "4:00",
+            "2:45"
+          ],
+          "correct_answer": "3:45",
+          "answer_explanation": "Adding 1 hour gives 3:15; adding 30 minutes gives 3:45."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W5-Q3",
+          "module": 3,
+          "week": 5,
+          "topic": "Measurement Problems",
+          "standard": "4.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:15 and lasts 1 hour 30 minutes. When does it end?",
+          "options": [
+            "3:45",
+            "3:15",
+            "4:00",
+            "2:45"
+          ],
+          "correct_answer": "3:45",
+          "answer_explanation": "Adding 1 hour gives 3:15; adding 30 minutes gives 3:45."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W5-Q4",
+          "module": 3,
+          "week": 5,
+          "topic": "Measurement Problems",
+          "standard": "4.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:15 and lasts 1 hour 30 minutes. When does it end?",
+          "options": [
+            "3:45",
+            "3:15",
+            "4:00",
+            "2:45"
+          ],
+          "correct_answer": "3:45",
+          "answer_explanation": "Adding 1 hour gives 3:15; adding 30 minutes gives 3:45."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W5-Q5",
+          "module": 3,
+          "week": 5,
+          "topic": "Measurement Problems",
+          "standard": "4.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:15 and lasts 1 hour 30 minutes. When does it end?",
+          "options": [
+            "3:45",
+            "3:15",
+            "4:00",
+            "2:45"
+          ],
+          "correct_answer": "3:45",
+          "answer_explanation": "Adding 1 hour gives 3:15; adding 30 minutes gives 3:45."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W6-Q1",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W6-Q2",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W6-Q3",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W6-Q4",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W6-Q5",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W7-Q1",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W7-Q2",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W7-Q3",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W7-Q4",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W7-Q5",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W8-Q1",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W8-Q2",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W8-Q3",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W8-Q4",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M3-W8-Q5",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-MATHEMATICS-MODULE-4",
+      "course": "Grade 4 Mathematics",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Geometry & Angles",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-MATHEMATICS-M4-W1-Q1",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W1-Q2",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W1-Q3",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W1-Q4",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W1-Q5",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W2-Q1",
+          "module": 4,
+          "week": 2,
+          "topic": "Angles",
+          "standard": "4.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "An angle measuring 90° is what type of angle?",
+          "options": [
+            "right",
+            "acute",
+            "obtuse",
+            "straight"
+          ],
+          "correct_answer": "right",
+          "answer_explanation": "A right angle measures exactly 90°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W2-Q2",
+          "module": 4,
+          "week": 2,
+          "topic": "Angles",
+          "standard": "4.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "An angle measuring 90° is what type of angle?",
+          "options": [
+            "right",
+            "acute",
+            "obtuse",
+            "straight"
+          ],
+          "correct_answer": "right",
+          "answer_explanation": "A right angle measures exactly 90°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W2-Q3",
+          "module": 4,
+          "week": 2,
+          "topic": "Angles",
+          "standard": "4.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "An angle measuring 90° is what type of angle?",
+          "options": [
+            "right",
+            "acute",
+            "obtuse",
+            "straight"
+          ],
+          "correct_answer": "right",
+          "answer_explanation": "A right angle measures exactly 90°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W2-Q4",
+          "module": 4,
+          "week": 2,
+          "topic": "Angles",
+          "standard": "4.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "An angle measuring 90° is what type of angle?",
+          "options": [
+            "right",
+            "acute",
+            "obtuse",
+            "straight"
+          ],
+          "correct_answer": "right",
+          "answer_explanation": "A right angle measures exactly 90°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W2-Q5",
+          "module": 4,
+          "week": 2,
+          "topic": "Angles",
+          "standard": "4.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "An angle measuring 90° is what type of angle?",
+          "options": [
+            "right",
+            "acute",
+            "obtuse",
+            "straight"
+          ],
+          "correct_answer": "right",
+          "answer_explanation": "A right angle measures exactly 90°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W3-Q1",
+          "module": 4,
+          "week": 3,
+          "topic": "Measuring Angles",
+          "standard": "4.MD.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What tool is used to measure an angle in degrees?",
+          "options": [
+            "protractor",
+            "ruler",
+            "scale",
+            "compass"
+          ],
+          "correct_answer": "protractor",
+          "answer_explanation": "A protractor is used to measure angles in degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W3-Q2",
+          "module": 4,
+          "week": 3,
+          "topic": "Measuring Angles",
+          "standard": "4.MD.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What tool is used to measure an angle in degrees?",
+          "options": [
+            "protractor",
+            "ruler",
+            "scale",
+            "compass"
+          ],
+          "correct_answer": "protractor",
+          "answer_explanation": "A protractor is used to measure angles in degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W3-Q3",
+          "module": 4,
+          "week": 3,
+          "topic": "Measuring Angles",
+          "standard": "4.MD.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What tool is used to measure an angle in degrees?",
+          "options": [
+            "protractor",
+            "ruler",
+            "scale",
+            "compass"
+          ],
+          "correct_answer": "protractor",
+          "answer_explanation": "A protractor is used to measure angles in degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W3-Q4",
+          "module": 4,
+          "week": 3,
+          "topic": "Measuring Angles",
+          "standard": "4.MD.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What tool is used to measure an angle in degrees?",
+          "options": [
+            "protractor",
+            "ruler",
+            "scale",
+            "compass"
+          ],
+          "correct_answer": "protractor",
+          "answer_explanation": "A protractor is used to measure angles in degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W3-Q5",
+          "module": 4,
+          "week": 3,
+          "topic": "Measuring Angles",
+          "standard": "4.MD.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What tool is used to measure an angle in degrees?",
+          "options": [
+            "protractor",
+            "ruler",
+            "scale",
+            "compass"
+          ],
+          "correct_answer": "protractor",
+          "answer_explanation": "A protractor is used to measure angles in degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W4-Q1",
+          "module": 4,
+          "week": 4,
+          "topic": "Angle Addition",
+          "standard": "4.MD.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Two adjacent angles measure 35° and 45°. What is their total measure?",
+          "options": [
+            "80°",
+            "70°",
+            "90°",
+            "75°"
+          ],
+          "correct_answer": "80°",
+          "answer_explanation": "35° + 45° = 80°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W4-Q2",
+          "module": 4,
+          "week": 4,
+          "topic": "Angle Addition",
+          "standard": "4.MD.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Two adjacent angles measure 35° and 45°. What is their total measure?",
+          "options": [
+            "80°",
+            "70°",
+            "90°",
+            "75°"
+          ],
+          "correct_answer": "80°",
+          "answer_explanation": "35° + 45° = 80°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W4-Q3",
+          "module": 4,
+          "week": 4,
+          "topic": "Angle Addition",
+          "standard": "4.MD.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Two adjacent angles measure 35° and 45°. What is their total measure?",
+          "options": [
+            "80°",
+            "70°",
+            "90°",
+            "75°"
+          ],
+          "correct_answer": "80°",
+          "answer_explanation": "35° + 45° = 80°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W4-Q4",
+          "module": 4,
+          "week": 4,
+          "topic": "Angle Addition",
+          "standard": "4.MD.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Two adjacent angles measure 35° and 45°. What is their total measure?",
+          "options": [
+            "80°",
+            "70°",
+            "90°",
+            "75°"
+          ],
+          "correct_answer": "80°",
+          "answer_explanation": "35° + 45° = 80°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W4-Q5",
+          "module": 4,
+          "week": 4,
+          "topic": "Angle Addition",
+          "standard": "4.MD.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Two adjacent angles measure 35° and 45°. What is their total measure?",
+          "options": [
+            "80°",
+            "70°",
+            "90°",
+            "75°"
+          ],
+          "correct_answer": "80°",
+          "answer_explanation": "35° + 45° = 80°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W5-Q1",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying Triangles",
+          "standard": "4.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which triangle has three equal sides?",
+          "options": [
+            "equilateral",
+            "isosceles",
+            "scalene",
+            "right"
+          ],
+          "correct_answer": "equilateral",
+          "answer_explanation": "An equilateral triangle has three equal sides."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W5-Q2",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying Triangles",
+          "standard": "4.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which triangle has three equal sides?",
+          "options": [
+            "equilateral",
+            "isosceles",
+            "scalene",
+            "right"
+          ],
+          "correct_answer": "equilateral",
+          "answer_explanation": "An equilateral triangle has three equal sides."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W5-Q3",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying Triangles",
+          "standard": "4.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which triangle has three equal sides?",
+          "options": [
+            "equilateral",
+            "isosceles",
+            "scalene",
+            "right"
+          ],
+          "correct_answer": "equilateral",
+          "answer_explanation": "An equilateral triangle has three equal sides."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W5-Q4",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying Triangles",
+          "standard": "4.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which triangle has three equal sides?",
+          "options": [
+            "equilateral",
+            "isosceles",
+            "scalene",
+            "right"
+          ],
+          "correct_answer": "equilateral",
+          "answer_explanation": "An equilateral triangle has three equal sides."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W5-Q5",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying Triangles",
+          "standard": "4.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which triangle has three equal sides?",
+          "options": [
+            "equilateral",
+            "isosceles",
+            "scalene",
+            "right"
+          ],
+          "correct_answer": "equilateral",
+          "answer_explanation": "An equilateral triangle has three equal sides."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W6-Q1",
+          "module": 4,
+          "week": 6,
+          "topic": "Classifying Quadrilaterals",
+          "standard": "4.G.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which quadrilateral has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "rectangle",
+            "trapezoid",
+            "parallelogram"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W6-Q2",
+          "module": 4,
+          "week": 6,
+          "topic": "Classifying Quadrilaterals",
+          "standard": "4.G.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which quadrilateral has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "rectangle",
+            "trapezoid",
+            "parallelogram"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W6-Q3",
+          "module": 4,
+          "week": 6,
+          "topic": "Classifying Quadrilaterals",
+          "standard": "4.G.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which quadrilateral has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "rectangle",
+            "trapezoid",
+            "parallelogram"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W6-Q4",
+          "module": 4,
+          "week": 6,
+          "topic": "Classifying Quadrilaterals",
+          "standard": "4.G.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which quadrilateral has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "rectangle",
+            "trapezoid",
+            "parallelogram"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W6-Q5",
+          "module": 4,
+          "week": 6,
+          "topic": "Classifying Quadrilaterals",
+          "standard": "4.G.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which quadrilateral has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "rectangle",
+            "trapezoid",
+            "parallelogram"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W7-Q1",
+          "module": 4,
+          "week": 7,
+          "topic": "Symmetry",
+          "standard": "4.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A shape has two halves that match exactly across a vertical line. What does it have?",
+          "options": [
+            "a line of symmetry",
+            "a right angle",
+            "a parallel line",
+            "a perimeter"
+          ],
+          "correct_answer": "a line of symmetry",
+          "answer_explanation": "A line of symmetry divides a shape into matching halves."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W7-Q2",
+          "module": 4,
+          "week": 7,
+          "topic": "Symmetry",
+          "standard": "4.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A shape has two halves that match exactly across a vertical line. What does it have?",
+          "options": [
+            "a line of symmetry",
+            "a right angle",
+            "a parallel line",
+            "a perimeter"
+          ],
+          "correct_answer": "a line of symmetry",
+          "answer_explanation": "A line of symmetry divides a shape into matching halves."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W7-Q3",
+          "module": 4,
+          "week": 7,
+          "topic": "Symmetry",
+          "standard": "4.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A shape has two halves that match exactly across a vertical line. What does it have?",
+          "options": [
+            "a line of symmetry",
+            "a right angle",
+            "a parallel line",
+            "a perimeter"
+          ],
+          "correct_answer": "a line of symmetry",
+          "answer_explanation": "A line of symmetry divides a shape into matching halves."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W7-Q4",
+          "module": 4,
+          "week": 7,
+          "topic": "Symmetry",
+          "standard": "4.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A shape has two halves that match exactly across a vertical line. What does it have?",
+          "options": [
+            "a line of symmetry",
+            "a right angle",
+            "a parallel line",
+            "a perimeter"
+          ],
+          "correct_answer": "a line of symmetry",
+          "answer_explanation": "A line of symmetry divides a shape into matching halves."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W7-Q5",
+          "module": 4,
+          "week": 7,
+          "topic": "Symmetry",
+          "standard": "4.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A shape has two halves that match exactly across a vertical line. What does it have?",
+          "options": [
+            "a line of symmetry",
+            "a right angle",
+            "a parallel line",
+            "a perimeter"
+          ],
+          "correct_answer": "a line of symmetry",
+          "answer_explanation": "A line of symmetry divides a shape into matching halves."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W8-Q1",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W8-Q2",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W8-Q3",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W8-Q4",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-M4-W8-Q5",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-MATHEMATICS-MOCK-1",
+      "course": "Grade 4 Mathematics",
+      "grade": 4,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value to Millions",
+          "standard": "4.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the hundreds place in 3,311,111?",
+          "options": [
+            "100",
+            "1000",
+            "10",
+            "3311111"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "The digit in the hundreds place represents 100."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 123,730 to the nearest thousand.",
+          "options": [
+            "124,000",
+            "125,000",
+            "123,000",
+            "123,700"
+          ],
+          "correct_answer": "124,000",
+          "answer_explanation": "The hundreds digit is 7; 123,730 rounds to 124,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,596 − 881?",
+          "options": [
+            "715",
+            "815",
+            "715",
+            "2,477"
+          ],
+          "correct_answer": "715",
+          "answer_explanation": "Using the standard algorithm gives 715."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Multiplication by One Digit",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 191 × 7?",
+          "options": [
+            "1337",
+            "1344",
+            "1146",
+            "198"
+          ],
+          "correct_answer": "1337",
+          "answer_explanation": "Multiplying 191 by 7 gives 1337."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication by Two Digits",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 20 × 12?",
+          "options": [
+            "240",
+            "250",
+            "230",
+            "32"
+          ],
+          "correct_answer": "240",
+          "answer_explanation": "20 × 12 = 240."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Division with Remainders",
+          "standard": "4.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 89 ÷ 4?",
+          "options": [
+            "22 R1",
+            "23 R1",
+            "22 R2",
+            "4 R22"
+          ],
+          "correct_answer": "22 R1",
+          "answer_explanation": "4 × 22 = 88, with 1 left over."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Multi-Step Word Problems",
+          "standard": "4.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 14 boxes with 6 pencils in each box. It sells 9 pencils. How many pencils remain?",
+          "options": [
+            "75",
+            "84",
+            "84",
+            "11"
+          ],
+          "correct_answer": "75",
+          "answer_explanation": "First 14 × 6 = 84; then 84 − 9 = 75."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Factors, Multiples & Patterns",
+          "standard": "4.OA.4/5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which number is a factor of 15?",
+          "options": [
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
+          "correct_answer": "15",
+          "answer_explanation": "15 divides 15 evenly, so it is a factor."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Equivalent Fractions",
+          "standard": "4.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "6/12",
+            "3/4",
+            "2/5",
+            "4/2"
+          ],
+          "correct_answer": "6/12",
+          "answer_explanation": "Multiplying numerator and denominator by 3 gives 6/12."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Fractions",
+          "standard": "4.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "5/8",
+            "3/8",
+            "1/8",
+            "4/8"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "With the same denominator, the larger numerator represents the greater fraction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Adding & Subtracting Fractions",
+          "standard": "4.NF.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 4/8 + 1/8?",
+          "options": [
+            "5/8",
+            "5/9",
+            "4/8",
+            "8/5"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "Add the numerators and keep the common denominator: 4+1=5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Fraction Word Problems",
+          "standard": "4.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ribbon is 3/4 meter long. Mia uses 1/4 meter. How much ribbon remains?",
+          "options": [
+            "1/2 meter",
+            "2/4 meter",
+            "3/4 meter",
+            "1/4 meter"
+          ],
+          "correct_answer": "1/2 meter",
+          "answer_explanation": "3/4 − 1/4 = 2/4 = 1/2 meter."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Line Plots with Fractions",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 measurements at 1/4 inch and 2 measurements at 3/4 inch. How many measurements are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 measurements."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "Decimal Notation",
+          "standard": "4.NF.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal represents 7/10?",
+          "options": [
+            "0.7",
+            "0.07",
+            "7.0",
+            "0.17"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "Seven tenths is written as 0.7."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions & Decimals",
+          "standard": "4.NF.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal is equal to 25/100?",
+          "options": [
+            "0.25",
+            "2.5",
+            "0.025",
+            "0.205"
+          ],
+          "correct_answer": "0.25",
+          "answer_explanation": "Twenty-five hundredths is 0.25."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "Comparing Decimals",
+          "standard": "4.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which number is greater?",
+          "options": [
+            "0.7",
+            "0.65",
+            "0.67",
+            "0.69"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "0.70 is greater than 0.69, 0.67, and 0.65."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Measurement Units",
+          "standard": "4.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How many centimeters are in 1 meter?",
+          "options": [
+            "100",
+            "10",
+            "1,000",
+            "50"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "One meter equals 100 centimeters."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "Measurement Problems",
+          "standard": "4.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:15 and lasts 1 hour 30 minutes. When does it end?",
+          "options": [
+            "3:45",
+            "3:15",
+            "4:00",
+            "2:45"
+          ],
+          "correct_answer": "3:45",
+          "answer_explanation": "Adding 1 hour gives 3:15; adding 30 minutes gives 3:45."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Angles",
+          "standard": "4.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "An angle measuring 90° is what type of angle?",
+          "options": [
+            "right",
+            "acute",
+            "obtuse",
+            "straight"
+          ],
+          "correct_answer": "right",
+          "answer_explanation": "A right angle measures exactly 90°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Measuring Angles",
+          "standard": "4.MD.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What tool is used to measure an angle in degrees?",
+          "options": [
+            "protractor",
+            "ruler",
+            "scale",
+            "compass"
+          ],
+          "correct_answer": "protractor",
+          "answer_explanation": "A protractor is used to measure angles in degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "Angle Addition",
+          "standard": "4.MD.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Two adjacent angles measure 35° and 45°. What is their total measure?",
+          "options": [
+            "80°",
+            "70°",
+            "90°",
+            "75°"
+          ],
+          "correct_answer": "80°",
+          "answer_explanation": "35° + 45° = 80°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying Triangles",
+          "standard": "4.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which triangle has three equal sides?",
+          "options": [
+            "equilateral",
+            "isosceles",
+            "scalene",
+            "right"
+          ],
+          "correct_answer": "equilateral",
+          "answer_explanation": "An equilateral triangle has three equal sides."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Classifying Quadrilaterals",
+          "standard": "4.G.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which quadrilateral has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "rectangle",
+            "trapezoid",
+            "parallelogram"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "Symmetry",
+          "standard": "4.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A shape has two halves that match exactly across a vertical line. What does it have?",
+          "options": [
+            "a line of symmetry",
+            "a right angle",
+            "a parallel line",
+            "a perimeter"
+          ],
+          "correct_answer": "a line of symmetry",
+          "answer_explanation": "A line of symmetry divides a shape into matching halves."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q33",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 123,730 to the nearest thousand.",
+          "options": [
+            "124,000",
+            "125,000",
+            "123,000",
+            "123,700"
+          ],
+          "correct_answer": "124,000",
+          "answer_explanation": "The hundreds digit is 7; 123,730 rounds to 124,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q34",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q35",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q36",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q37",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 123,593 to the nearest thousand.",
+          "options": [
+            "124,000",
+            "125,000",
+            "123,000",
+            "123,600"
+          ],
+          "correct_answer": "124,000",
+          "answer_explanation": "The hundreds digit is 5; 123,593 rounds to 124,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q38",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q39",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-1-Q40",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-MATHEMATICS-MOCK-2",
+      "course": "Grade 4 Mathematics",
+      "grade": 4,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Factors, Multiples & Patterns",
+          "standard": "4.OA.4/5",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which number is a factor of 16?",
+          "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+          ],
+          "correct_answer": "16",
+          "answer_explanation": "16 divides 16 evenly, so it is a factor."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Multi-Step Word Problems",
+          "standard": "4.OA.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A store has 15 boxes with 7 pencils in each box. It sells 10 pencils. How many pencils remain?",
+          "options": [
+            "95",
+            "105",
+            "105",
+            "12"
+          ],
+          "correct_answer": "95",
+          "answer_explanation": "First 15 × 7 = 105; then 105 − 10 = 95."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Division with Remainders",
+          "standard": "4.NBT.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 122 ÷ 5?",
+          "options": [
+            "24 R2",
+            "25 R2",
+            "24 R3",
+            "5 R24"
+          ],
+          "correct_answer": "24 R2",
+          "answer_explanation": "5 × 24 = 120, with 2 left over."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "Multiplication by Two Digits",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 23 × 13?",
+          "options": [
+            "299",
+            "309",
+            "289",
+            "36"
+          ],
+          "correct_answer": "299",
+          "answer_explanation": "23 × 13 = 299."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Multiplication by One Digit",
+          "standard": "4.NBT.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 123 × 3?",
+          "options": [
+            "369",
+            "372",
+            "246",
+            "126"
+          ],
+          "correct_answer": "369",
+          "answer_explanation": "Multiplying 123 by 3 gives 369."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q6",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,713 + 964?",
+          "options": [
+            "2,677",
+            "2,777",
+            "749",
+            "2,677"
+          ],
+          "correct_answer": "2,677",
+          "answer_explanation": "Using the standard algorithm gives 2,677."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q7",
+          "module": 1,
+          "week": 2,
+          "topic": "Rounding Multi-Digit Numbers",
+          "standard": "4.NBT.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Round 123,867 to the nearest thousand.",
+          "options": [
+            "124,000",
+            "125,000",
+            "123,000",
+            "123,900"
+          ],
+          "correct_answer": "124,000",
+          "answer_explanation": "The hundreds digit is 8; 123,867 rounds to 124,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q8",
+          "module": 1,
+          "week": 1,
+          "topic": "Place Value to Millions",
+          "standard": "4.NBT.1/2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is the value of the digit in the thousands place in 3,422,222?",
+          "options": [
+            "2000",
+            "20000",
+            "200",
+            "3422222"
+          ],
+          "correct_answer": "2000",
+          "answer_explanation": "The digit in the thousands place represents 2,000."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q9",
+          "module": 2,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.NF",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q10",
+          "module": 2,
+          "week": 7,
+          "topic": "Line Plots with Fractions",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot shows 3 measurements at 1/4 inch and 2 measurements at 3/4 inch. How many measurements are shown?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "correct_answer": "5",
+          "answer_explanation": "There are 3 + 2 = 5 measurements."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q11",
+          "module": 2,
+          "week": 6,
+          "topic": "Fraction Word Problems",
+          "standard": "4.NF.3d",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A ribbon is 3/4 meter long. Mia uses 1/4 meter. How much ribbon remains?",
+          "options": [
+            "1/2 meter",
+            "2/4 meter",
+            "3/4 meter",
+            "1/4 meter"
+          ],
+          "correct_answer": "1/2 meter",
+          "answer_explanation": "3/4 − 1/4 = 2/4 = 1/2 meter."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q12",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q13",
+          "module": 2,
+          "week": 4,
+          "topic": "Mixed Numbers",
+          "standard": "4.NF.3c",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1 2/5 + 2 1/5?",
+          "options": [
+            "3 3/5",
+            "3 2/5",
+            "2 3/5",
+            "4 3/5"
+          ],
+          "correct_answer": "3 3/5",
+          "answer_explanation": "Add whole numbers and like-denominator fractions: 1+2=3 and 2/5+1/5=3/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q14",
+          "module": 2,
+          "week": 3,
+          "topic": "Adding & Subtracting Fractions",
+          "standard": "4.NF.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 1/8 + 2/8?",
+          "options": [
+            "3/8",
+            "3/9",
+            "2/8",
+            "8/3"
+          ],
+          "correct_answer": "3/8",
+          "answer_explanation": "Add the numerators and keep the common denominator: 1+2=3."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q15",
+          "module": 2,
+          "week": 2,
+          "topic": "Comparing Fractions",
+          "standard": "4.NF.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is greater?",
+          "options": [
+            "5/8",
+            "3/8",
+            "1/8",
+            "4/8"
+          ],
+          "correct_answer": "5/8",
+          "answer_explanation": "With the same denominator, the larger numerator represents the greater fraction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q16",
+          "module": 2,
+          "week": 1,
+          "topic": "Equivalent Fractions",
+          "standard": "4.NF.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 3/5?",
+          "options": [
+            "12/20",
+            "4/5",
+            "3/6",
+            "5/3"
+          ],
+          "correct_answer": "12/20",
+          "answer_explanation": "Multiplying numerator and denominator by 4 gives 12/20."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q17",
+          "module": 3,
+          "week": 8,
+          "topic": "Review",
+          "standard": "4.MD",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which fraction is equivalent to 2/4?",
+          "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "2/3"
+          ],
+          "correct_answer": "1/2",
+          "answer_explanation": "Dividing numerator and denominator by 2 gives 1/2."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q18",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q19",
+          "module": 3,
+          "week": 6,
+          "topic": "Perimeter & Area",
+          "standard": "4.MD.3",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A rectangle is 8 units long and 5 units wide. What is its area?",
+          "options": [
+            "40 square units",
+            "26 square units",
+            "13 square units",
+            "35 square units"
+          ],
+          "correct_answer": "40 square units",
+          "answer_explanation": "Area = 8 × 5 = 40 square units."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q20",
+          "module": 3,
+          "week": 5,
+          "topic": "Measurement Problems",
+          "standard": "4.MD.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A movie starts at 2:15 and lasts 1 hour 30 minutes. When does it end?",
+          "options": [
+            "3:45",
+            "3:15",
+            "4:00",
+            "2:45"
+          ],
+          "correct_answer": "3:45",
+          "answer_explanation": "Adding 1 hour gives 3:15; adding 30 minutes gives 3:45."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q21",
+          "module": 3,
+          "week": 4,
+          "topic": "Measurement Units",
+          "standard": "4.MD.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "How many centimeters are in 1 meter?",
+          "options": [
+            "100",
+            "10",
+            "1,000",
+            "50"
+          ],
+          "correct_answer": "100",
+          "answer_explanation": "One meter equals 100 centimeters."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q22",
+          "module": 3,
+          "week": 3,
+          "topic": "Comparing Decimals",
+          "standard": "4.NF.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which number is greater?",
+          "options": [
+            "0.7",
+            "0.65",
+            "0.67",
+            "0.69"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "0.70 is greater than 0.69, 0.67, and 0.65."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q23",
+          "module": 3,
+          "week": 2,
+          "topic": "Fractions & Decimals",
+          "standard": "4.NF.5/6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal is equal to 25/100?",
+          "options": [
+            "0.25",
+            "2.5",
+            "0.025",
+            "0.205"
+          ],
+          "correct_answer": "0.25",
+          "answer_explanation": "Twenty-five hundredths is 0.25."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q24",
+          "module": 3,
+          "week": 1,
+          "topic": "Decimal Notation",
+          "standard": "4.NF.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which decimal represents 7/10?",
+          "options": [
+            "0.7",
+            "0.07",
+            "7.0",
+            "0.17"
+          ],
+          "correct_answer": "0.7",
+          "answer_explanation": "Seven tenths is written as 0.7."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q25",
+          "module": 4,
+          "week": 8,
+          "topic": "Geometry Review",
+          "standard": "4.G",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "A right angle measures 90°.",
+            "A straight angle measures 45°.",
+            "A ray has two endpoints.",
+            "A square has three sides."
+          ],
+          "correct_answer": "A right angle measures 90°.",
+          "answer_explanation": "A right angle is exactly 90 degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q26",
+          "module": 4,
+          "week": 7,
+          "topic": "Symmetry",
+          "standard": "4.G.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A shape has two halves that match exactly across a vertical line. What does it have?",
+          "options": [
+            "a line of symmetry",
+            "a right angle",
+            "a parallel line",
+            "a perimeter"
+          ],
+          "correct_answer": "a line of symmetry",
+          "answer_explanation": "A line of symmetry divides a shape into matching halves."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q27",
+          "module": 4,
+          "week": 6,
+          "topic": "Classifying Quadrilaterals",
+          "standard": "4.G.2",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Which quadrilateral has four equal sides and four right angles?",
+          "options": [
+            "square",
+            "rectangle",
+            "trapezoid",
+            "parallelogram"
+          ],
+          "correct_answer": "square",
+          "answer_explanation": "A square has four equal sides and four right angles."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q28",
+          "module": 4,
+          "week": 5,
+          "topic": "Classifying Triangles",
+          "standard": "4.G.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which triangle has three equal sides?",
+          "options": [
+            "equilateral",
+            "isosceles",
+            "scalene",
+            "right"
+          ],
+          "correct_answer": "equilateral",
+          "answer_explanation": "An equilateral triangle has three equal sides."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q29",
+          "module": 4,
+          "week": 4,
+          "topic": "Angle Addition",
+          "standard": "4.MD.7",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "Two adjacent angles measure 35° and 45°. What is their total measure?",
+          "options": [
+            "80°",
+            "70°",
+            "90°",
+            "75°"
+          ],
+          "correct_answer": "80°",
+          "answer_explanation": "35° + 45° = 80°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q30",
+          "module": 4,
+          "week": 3,
+          "topic": "Measuring Angles",
+          "standard": "4.MD.6",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What tool is used to measure an angle in degrees?",
+          "options": [
+            "protractor",
+            "ruler",
+            "scale",
+            "compass"
+          ],
+          "correct_answer": "protractor",
+          "answer_explanation": "A protractor is used to measure angles in degrees."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q31",
+          "module": 4,
+          "week": 2,
+          "topic": "Angles",
+          "standard": "4.G.1",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "An angle measuring 90° is what type of angle?",
+          "options": [
+            "right",
+            "acute",
+            "obtuse",
+            "straight"
+          ],
+          "correct_answer": "right",
+          "answer_explanation": "A right angle measures exactly 90°."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q32",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q33",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,479 + 798?",
+          "options": [
+            "2,277",
+            "2,377",
+            "681",
+            "2,277"
+          ],
+          "correct_answer": "2,277",
+          "answer_explanation": "Using the standard algorithm gives 2,277."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q34",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q35",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q36",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q37",
+          "module": 1,
+          "week": 3,
+          "topic": "Adding & Subtracting",
+          "standard": "4.NBT.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "What is 1,362 − 715?",
+          "options": [
+            "647",
+            "747",
+            "647",
+            "2,077"
+          ],
+          "correct_answer": "647",
+          "answer_explanation": "Using the standard algorithm gives 647."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q38",
+          "module": 2,
+          "week": 5,
+          "topic": "Multiplying Fractions by Whole Numbers",
+          "standard": "4.NF.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is 3 × 2/5?",
+          "options": [
+            "6/5",
+            "5/6",
+            "6/10",
+            "3/5"
+          ],
+          "correct_answer": "6/5",
+          "answer_explanation": "Three groups of 2/5 are 6/5."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q39",
+          "module": 3,
+          "week": 7,
+          "topic": "Data & Line Plots",
+          "standard": "4.MD.4",
+          "difficulty": "easy",
+          "question_type": "multiple_choice",
+          "question": "A line plot has 4 data points at 2 and 3 data points at 4. How many data points are there?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "4"
+          ],
+          "correct_answer": "7",
+          "answer_explanation": "There are 4 + 3 = 7 data points."
+        },
+        {
+          "question_id": "G4-MATHEMATICS-MOCK-2-Q40",
+          "module": 4,
+          "week": 1,
+          "topic": "Points, Lines & Rays",
+          "standard": "4.G.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which geometric figure has one endpoint and extends forever in one direction?",
+          "options": [
+            "ray",
+            "line segment",
+            "line",
+            "point"
+          ],
+          "correct_answer": "ray",
+          "answer_explanation": "A ray has one endpoint and extends infinitely in one direction."
+        }
+      ]
+    }
+  ]
+}

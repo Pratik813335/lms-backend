@@ -1,0 +1,4404 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 4 Science",
+  "grade": 4,
+  "standard_family": "NGSS Grade 4",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G4-SCIENCE-MODULE-1",
+      "course": "Grade 4 Science",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Energy",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-SCIENCE-M1-W1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "What Is Energy?",
+          "standard": "4-PS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has more energy of motion?",
+          "options": [
+            "A rolling ball moving quickly",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A rolling ball moving quickly",
+          "answer_explanation": "An object moving faster generally has more energy of motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W1-Q2",
+          "module": 1,
+          "week": 1,
+          "topic": "What Is Energy?",
+          "standard": "4-PS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has more energy of motion?",
+          "options": [
+            "A rolling ball moving quickly",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A rolling ball moving quickly",
+          "answer_explanation": "An object moving faster generally has more energy of motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W1-Q3",
+          "module": 1,
+          "week": 1,
+          "topic": "What Is Energy?",
+          "standard": "4-PS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has more energy of motion?",
+          "options": [
+            "A rolling ball moving quickly",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A rolling ball moving quickly",
+          "answer_explanation": "An object moving faster generally has more energy of motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W1-Q4",
+          "module": 1,
+          "week": 1,
+          "topic": "What Is Energy?",
+          "standard": "4-PS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has more energy of motion?",
+          "options": [
+            "A rolling ball moving quickly",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A rolling ball moving quickly",
+          "answer_explanation": "An object moving faster generally has more energy of motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W1-Q5",
+          "module": 1,
+          "week": 1,
+          "topic": "What Is Energy?",
+          "standard": "4-PS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has more energy of motion?",
+          "options": [
+            "A rolling ball moving quickly",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A rolling ball moving quickly",
+          "answer_explanation": "An object moving faster generally has more energy of motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W2-Q1",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W2-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W2-Q3",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W2-Q4",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W2-Q5",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W3-Q1",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W3-Q2",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W3-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W3-Q4",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W3-Q5",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W4-Q1",
+          "module": 1,
+          "week": 4,
+          "topic": "Stored Energy",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has stored energy because of its position?",
+          "options": [
+            "A book resting on a high shelf",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A book resting on a high shelf",
+          "answer_explanation": "An object's position can give it stored energy."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W4-Q2",
+          "module": 1,
+          "week": 4,
+          "topic": "Stored Energy",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has stored energy because of its position?",
+          "options": [
+            "A book resting on a high shelf",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A book resting on a high shelf",
+          "answer_explanation": "An object's position can give it stored energy."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W4-Q3",
+          "module": 1,
+          "week": 4,
+          "topic": "Stored Energy",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has stored energy because of its position?",
+          "options": [
+            "A book resting on a high shelf",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A book resting on a high shelf",
+          "answer_explanation": "An object's position can give it stored energy."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W4-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Stored Energy",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has stored energy because of its position?",
+          "options": [
+            "A book resting on a high shelf",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A book resting on a high shelf",
+          "answer_explanation": "An object's position can give it stored energy."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W4-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Stored Energy",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has stored energy because of its position?",
+          "options": [
+            "A book resting on a high shelf",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A book resting on a high shelf",
+          "answer_explanation": "An object's position can give it stored energy."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W5-Q1",
+          "module": 1,
+          "week": 5,
+          "topic": "Converting Energy",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashlight changes energy from a battery into what forms?",
+          "options": [
+            "Light and heat",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light and heat",
+          "answer_explanation": "A flashlight converts stored chemical energy into other forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W5-Q2",
+          "module": 1,
+          "week": 5,
+          "topic": "Converting Energy",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashlight changes energy from a battery into what forms?",
+          "options": [
+            "Light and heat",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light and heat",
+          "answer_explanation": "A flashlight converts stored chemical energy into other forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W5-Q3",
+          "module": 1,
+          "week": 5,
+          "topic": "Converting Energy",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashlight changes energy from a battery into what forms?",
+          "options": [
+            "Light and heat",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light and heat",
+          "answer_explanation": "A flashlight converts stored chemical energy into other forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W5-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "Converting Energy",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashlight changes energy from a battery into what forms?",
+          "options": [
+            "Light and heat",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light and heat",
+          "answer_explanation": "A flashlight converts stored chemical energy into other forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W5-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Converting Energy",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashlight changes energy from a battery into what forms?",
+          "options": [
+            "Light and heat",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light and heat",
+          "answer_explanation": "A flashlight converts stored chemical energy into other forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W6-Q1",
+          "module": 1,
+          "week": 6,
+          "topic": "Designing a Device",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student wants to build a device that changes electrical energy into motion. Which part could help?",
+          "options": [
+            "A motor",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A motor",
+          "answer_explanation": "A motor can convert electrical energy into mechanical motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W6-Q2",
+          "module": 1,
+          "week": 6,
+          "topic": "Designing a Device",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student wants to build a device that changes electrical energy into motion. Which part could help?",
+          "options": [
+            "A motor",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A motor",
+          "answer_explanation": "A motor can convert electrical energy into mechanical motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W6-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Designing a Device",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student wants to build a device that changes electrical energy into motion. Which part could help?",
+          "options": [
+            "A motor",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A motor",
+          "answer_explanation": "A motor can convert electrical energy into mechanical motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W6-Q4",
+          "module": 1,
+          "week": 6,
+          "topic": "Designing a Device",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student wants to build a device that changes electrical energy into motion. Which part could help?",
+          "options": [
+            "A motor",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A motor",
+          "answer_explanation": "A motor can convert electrical energy into mechanical motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W6-Q5",
+          "module": 1,
+          "week": 6,
+          "topic": "Designing a Device",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student wants to build a device that changes electrical energy into motion. Which part could help?",
+          "options": [
+            "A motor",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A motor",
+          "answer_explanation": "A motor can convert electrical energy into mechanical motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W7-Q1",
+          "module": 1,
+          "week": 7,
+          "topic": "Energy from Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy source?",
+          "options": [
+            "sunlight",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "sunlight",
+          "answer_explanation": "Sunlight is naturally replenished."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W7-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Energy from Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy source?",
+          "options": [
+            "sunlight",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "sunlight",
+          "answer_explanation": "Sunlight is naturally replenished."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W7-Q3",
+          "module": 1,
+          "week": 7,
+          "topic": "Energy from Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy source?",
+          "options": [
+            "sunlight",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "sunlight",
+          "answer_explanation": "Sunlight is naturally replenished."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W7-Q4",
+          "module": 1,
+          "week": 7,
+          "topic": "Energy from Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy source?",
+          "options": [
+            "sunlight",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "sunlight",
+          "answer_explanation": "Sunlight is naturally replenished."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W7-Q5",
+          "module": 1,
+          "week": 7,
+          "topic": "Energy from Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy source?",
+          "options": [
+            "sunlight",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "sunlight",
+          "answer_explanation": "Sunlight is naturally replenished."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W8-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Energy Review",
+          "standard": "4-PS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Energy can be transferred or changed from one form to another",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy can be transferred or changed from one form to another",
+          "answer_explanation": "Energy can move between objects and change forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W8-Q2",
+          "module": 1,
+          "week": 8,
+          "topic": "Energy Review",
+          "standard": "4-PS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Energy can be transferred or changed from one form to another",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy can be transferred or changed from one form to another",
+          "answer_explanation": "Energy can move between objects and change forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W8-Q3",
+          "module": 1,
+          "week": 8,
+          "topic": "Energy Review",
+          "standard": "4-PS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Energy can be transferred or changed from one form to another",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy can be transferred or changed from one form to another",
+          "answer_explanation": "Energy can move between objects and change forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W8-Q4",
+          "module": 1,
+          "week": 8,
+          "topic": "Energy Review",
+          "standard": "4-PS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Energy can be transferred or changed from one form to another",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy can be transferred or changed from one form to another",
+          "answer_explanation": "Energy can move between objects and change forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-M1-W8-Q5",
+          "module": 1,
+          "week": 8,
+          "topic": "Energy Review",
+          "standard": "4-PS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Energy can be transferred or changed from one form to another",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy can be transferred or changed from one form to another",
+          "answer_explanation": "Energy can move between objects and change forms."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-SCIENCE-MODULE-2",
+      "course": "Grade 4 Science",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "Waves & Information",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-SCIENCE-M2-W1-Q1",
+          "module": 2,
+          "week": 1,
+          "topic": "Wave Properties",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does wavelength describe?",
+          "options": [
+            "The distance between matching points on waves",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The distance between matching points on waves",
+          "answer_explanation": "Wavelength measures the distance between corresponding points."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W1-Q2",
+          "module": 2,
+          "week": 1,
+          "topic": "Wave Properties",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does wavelength describe?",
+          "options": [
+            "The distance between matching points on waves",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The distance between matching points on waves",
+          "answer_explanation": "Wavelength measures the distance between corresponding points."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W1-Q3",
+          "module": 2,
+          "week": 1,
+          "topic": "Wave Properties",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does wavelength describe?",
+          "options": [
+            "The distance between matching points on waves",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The distance between matching points on waves",
+          "answer_explanation": "Wavelength measures the distance between corresponding points."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W1-Q4",
+          "module": 2,
+          "week": 1,
+          "topic": "Wave Properties",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does wavelength describe?",
+          "options": [
+            "The distance between matching points on waves",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The distance between matching points on waves",
+          "answer_explanation": "Wavelength measures the distance between corresponding points."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W1-Q5",
+          "module": 2,
+          "week": 1,
+          "topic": "Wave Properties",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does wavelength describe?",
+          "options": [
+            "The distance between matching points on waves",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The distance between matching points on waves",
+          "answer_explanation": "Wavelength measures the distance between corresponding points."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W2-Q1",
+          "module": 2,
+          "week": 2,
+          "topic": "Waves & Motion",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "When a water wave moves across a pond, what pattern can be observed?",
+          "options": [
+            "The disturbance travels across the water",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The disturbance travels across the water",
+          "answer_explanation": "A wave carries a disturbance through a medium."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W2-Q2",
+          "module": 2,
+          "week": 2,
+          "topic": "Waves & Motion",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "When a water wave moves across a pond, what pattern can be observed?",
+          "options": [
+            "The disturbance travels across the water",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The disturbance travels across the water",
+          "answer_explanation": "A wave carries a disturbance through a medium."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W2-Q3",
+          "module": 2,
+          "week": 2,
+          "topic": "Waves & Motion",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "When a water wave moves across a pond, what pattern can be observed?",
+          "options": [
+            "The disturbance travels across the water",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The disturbance travels across the water",
+          "answer_explanation": "A wave carries a disturbance through a medium."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W2-Q4",
+          "module": 2,
+          "week": 2,
+          "topic": "Waves & Motion",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "When a water wave moves across a pond, what pattern can be observed?",
+          "options": [
+            "The disturbance travels across the water",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The disturbance travels across the water",
+          "answer_explanation": "A wave carries a disturbance through a medium."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W2-Q5",
+          "module": 2,
+          "week": 2,
+          "topic": "Waves & Motion",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "When a water wave moves across a pond, what pattern can be observed?",
+          "options": [
+            "The disturbance travels across the water",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The disturbance travels across the water",
+          "answer_explanation": "A wave carries a disturbance through a medium."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W3-Q1",
+          "module": 2,
+          "week": 3,
+          "topic": "Light & Seeing",
+          "standard": "4-PS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How do we see a book?",
+          "options": [
+            "Light reflects from the book into our eyes",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light reflects from the book into our eyes",
+          "answer_explanation": "Reflected light enters the eyes and allows us to see."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W3-Q2",
+          "module": 2,
+          "week": 3,
+          "topic": "Light & Seeing",
+          "standard": "4-PS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How do we see a book?",
+          "options": [
+            "Light reflects from the book into our eyes",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light reflects from the book into our eyes",
+          "answer_explanation": "Reflected light enters the eyes and allows us to see."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W3-Q3",
+          "module": 2,
+          "week": 3,
+          "topic": "Light & Seeing",
+          "standard": "4-PS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How do we see a book?",
+          "options": [
+            "Light reflects from the book into our eyes",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light reflects from the book into our eyes",
+          "answer_explanation": "Reflected light enters the eyes and allows us to see."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W3-Q4",
+          "module": 2,
+          "week": 3,
+          "topic": "Light & Seeing",
+          "standard": "4-PS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How do we see a book?",
+          "options": [
+            "Light reflects from the book into our eyes",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light reflects from the book into our eyes",
+          "answer_explanation": "Reflected light enters the eyes and allows us to see."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W3-Q5",
+          "module": 2,
+          "week": 3,
+          "topic": "Light & Seeing",
+          "standard": "4-PS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How do we see a book?",
+          "options": [
+            "Light reflects from the book into our eyes",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light reflects from the book into our eyes",
+          "answer_explanation": "Reflected light enters the eyes and allows us to see."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W4-Q1",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W4-Q2",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W4-Q3",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W4-Q4",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W4-Q5",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W5-Q1",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W5-Q2",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W5-Q3",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W5-Q4",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W5-Q5",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W6-Q1",
+          "module": 2,
+          "week": 6,
+          "topic": "Communication Devices",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which design could send information using light?",
+          "options": [
+            "A device that flashes coded light signals",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A device that flashes coded light signals",
+          "answer_explanation": "A coded signal can carry information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W6-Q2",
+          "module": 2,
+          "week": 6,
+          "topic": "Communication Devices",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which design could send information using light?",
+          "options": [
+            "A device that flashes coded light signals",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A device that flashes coded light signals",
+          "answer_explanation": "A coded signal can carry information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W6-Q3",
+          "module": 2,
+          "week": 6,
+          "topic": "Communication Devices",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which design could send information using light?",
+          "options": [
+            "A device that flashes coded light signals",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A device that flashes coded light signals",
+          "answer_explanation": "A coded signal can carry information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W6-Q4",
+          "module": 2,
+          "week": 6,
+          "topic": "Communication Devices",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which design could send information using light?",
+          "options": [
+            "A device that flashes coded light signals",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A device that flashes coded light signals",
+          "answer_explanation": "A coded signal can carry information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W6-Q5",
+          "module": 2,
+          "week": 6,
+          "topic": "Communication Devices",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which design could send information using light?",
+          "options": [
+            "A device that flashes coded light signals",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A device that flashes coded light signals",
+          "answer_explanation": "A coded signal can carry information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W7-Q1",
+          "module": 2,
+          "week": 7,
+          "topic": "Waves in Technology",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which technology uses waves to communicate information?",
+          "options": [
+            "radio",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "radio",
+          "answer_explanation": "Radio uses electromagnetic waves to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W7-Q2",
+          "module": 2,
+          "week": 7,
+          "topic": "Waves in Technology",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which technology uses waves to communicate information?",
+          "options": [
+            "radio",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "radio",
+          "answer_explanation": "Radio uses electromagnetic waves to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W7-Q3",
+          "module": 2,
+          "week": 7,
+          "topic": "Waves in Technology",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which technology uses waves to communicate information?",
+          "options": [
+            "radio",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "radio",
+          "answer_explanation": "Radio uses electromagnetic waves to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W7-Q4",
+          "module": 2,
+          "week": 7,
+          "topic": "Waves in Technology",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which technology uses waves to communicate information?",
+          "options": [
+            "radio",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "radio",
+          "answer_explanation": "Radio uses electromagnetic waves to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W7-Q5",
+          "module": 2,
+          "week": 7,
+          "topic": "Waves in Technology",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which technology uses waves to communicate information?",
+          "options": [
+            "radio",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "radio",
+          "answer_explanation": "Radio uses electromagnetic waves to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W8-Q1",
+          "module": 2,
+          "week": 8,
+          "topic": "Waves Review",
+          "standard": "4-PS4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Waves can carry information",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Waves can carry information",
+          "answer_explanation": "Wave patterns can be used to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W8-Q2",
+          "module": 2,
+          "week": 8,
+          "topic": "Waves Review",
+          "standard": "4-PS4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Waves can carry information",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Waves can carry information",
+          "answer_explanation": "Wave patterns can be used to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W8-Q3",
+          "module": 2,
+          "week": 8,
+          "topic": "Waves Review",
+          "standard": "4-PS4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Waves can carry information",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Waves can carry information",
+          "answer_explanation": "Wave patterns can be used to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W8-Q4",
+          "module": 2,
+          "week": 8,
+          "topic": "Waves Review",
+          "standard": "4-PS4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Waves can carry information",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Waves can carry information",
+          "answer_explanation": "Wave patterns can be used to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-M2-W8-Q5",
+          "module": 2,
+          "week": 8,
+          "topic": "Waves Review",
+          "standard": "4-PS4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Waves can carry information",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Waves can carry information",
+          "answer_explanation": "Wave patterns can be used to transmit information."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-SCIENCE-MODULE-3",
+      "course": "Grade 4 Science",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Structure, Function & Senses",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-SCIENCE-M3-W1-Q1",
+          "module": 3,
+          "week": 1,
+          "topic": "Plant Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which plant part absorbs water from the soil?",
+          "options": [
+            "roots",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "roots",
+          "answer_explanation": "Roots absorb water and help anchor the plant."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W1-Q2",
+          "module": 3,
+          "week": 1,
+          "topic": "Plant Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which plant part absorbs water from the soil?",
+          "options": [
+            "roots",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "roots",
+          "answer_explanation": "Roots absorb water and help anchor the plant."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W1-Q3",
+          "module": 3,
+          "week": 1,
+          "topic": "Plant Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which plant part absorbs water from the soil?",
+          "options": [
+            "roots",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "roots",
+          "answer_explanation": "Roots absorb water and help anchor the plant."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W1-Q4",
+          "module": 3,
+          "week": 1,
+          "topic": "Plant Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which plant part absorbs water from the soil?",
+          "options": [
+            "roots",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "roots",
+          "answer_explanation": "Roots absorb water and help anchor the plant."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W1-Q5",
+          "module": 3,
+          "week": 1,
+          "topic": "Plant Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which plant part absorbs water from the soil?",
+          "options": [
+            "roots",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "roots",
+          "answer_explanation": "Roots absorb water and help anchor the plant."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W2-Q1",
+          "module": 3,
+          "week": 2,
+          "topic": "Animal Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's beak can help it get food. What does this show?",
+          "options": [
+            "A structure can have a specific function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A structure can have a specific function",
+          "answer_explanation": "Body structures help organisms survive."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W2-Q2",
+          "module": 3,
+          "week": 2,
+          "topic": "Animal Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's beak can help it get food. What does this show?",
+          "options": [
+            "A structure can have a specific function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A structure can have a specific function",
+          "answer_explanation": "Body structures help organisms survive."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W2-Q3",
+          "module": 3,
+          "week": 2,
+          "topic": "Animal Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's beak can help it get food. What does this show?",
+          "options": [
+            "A structure can have a specific function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A structure can have a specific function",
+          "answer_explanation": "Body structures help organisms survive."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W2-Q4",
+          "module": 3,
+          "week": 2,
+          "topic": "Animal Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's beak can help it get food. What does this show?",
+          "options": [
+            "A structure can have a specific function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A structure can have a specific function",
+          "answer_explanation": "Body structures help organisms survive."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W2-Q5",
+          "module": 3,
+          "week": 2,
+          "topic": "Animal Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's beak can help it get food. What does this show?",
+          "options": [
+            "A structure can have a specific function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A structure can have a specific function",
+          "answer_explanation": "Body structures help organisms survive."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W3-Q1",
+          "module": 3,
+          "week": 3,
+          "topic": "Internal & External Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an internal structure?",
+          "options": [
+            "a stomach",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a stomach",
+          "answer_explanation": "The stomach is inside an animal's body."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W3-Q2",
+          "module": 3,
+          "week": 3,
+          "topic": "Internal & External Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an internal structure?",
+          "options": [
+            "a stomach",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a stomach",
+          "answer_explanation": "The stomach is inside an animal's body."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W3-Q3",
+          "module": 3,
+          "week": 3,
+          "topic": "Internal & External Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an internal structure?",
+          "options": [
+            "a stomach",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a stomach",
+          "answer_explanation": "The stomach is inside an animal's body."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W3-Q4",
+          "module": 3,
+          "week": 3,
+          "topic": "Internal & External Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an internal structure?",
+          "options": [
+            "a stomach",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a stomach",
+          "answer_explanation": "The stomach is inside an animal's body."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W3-Q5",
+          "module": 3,
+          "week": 3,
+          "topic": "Internal & External Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an internal structure?",
+          "options": [
+            "a stomach",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a stomach",
+          "answer_explanation": "The stomach is inside an animal's body."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W4-Q1",
+          "module": 3,
+          "week": 4,
+          "topic": "Senses & the Brain",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sense helps you detect a loud sound?",
+          "options": [
+            "hearing",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "hearing",
+          "answer_explanation": "The auditory system detects sound."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W4-Q2",
+          "module": 3,
+          "week": 4,
+          "topic": "Senses & the Brain",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sense helps you detect a loud sound?",
+          "options": [
+            "hearing",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "hearing",
+          "answer_explanation": "The auditory system detects sound."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W4-Q3",
+          "module": 3,
+          "week": 4,
+          "topic": "Senses & the Brain",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sense helps you detect a loud sound?",
+          "options": [
+            "hearing",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "hearing",
+          "answer_explanation": "The auditory system detects sound."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W4-Q4",
+          "module": 3,
+          "week": 4,
+          "topic": "Senses & the Brain",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sense helps you detect a loud sound?",
+          "options": [
+            "hearing",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "hearing",
+          "answer_explanation": "The auditory system detects sound."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W4-Q5",
+          "module": 3,
+          "week": 4,
+          "topic": "Senses & the Brain",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sense helps you detect a loud sound?",
+          "options": [
+            "hearing",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "hearing",
+          "answer_explanation": "The auditory system detects sound."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W5-Q1",
+          "module": 3,
+          "week": 5,
+          "topic": "Processing Information",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens after the brain receives information from the senses?",
+          "options": [
+            "It can process the information and help the body respond",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "It can process the information and help the body respond",
+          "answer_explanation": "The brain processes sensory information and coordinates responses."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W5-Q2",
+          "module": 3,
+          "week": 5,
+          "topic": "Processing Information",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens after the brain receives information from the senses?",
+          "options": [
+            "It can process the information and help the body respond",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "It can process the information and help the body respond",
+          "answer_explanation": "The brain processes sensory information and coordinates responses."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W5-Q3",
+          "module": 3,
+          "week": 5,
+          "topic": "Processing Information",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens after the brain receives information from the senses?",
+          "options": [
+            "It can process the information and help the body respond",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "It can process the information and help the body respond",
+          "answer_explanation": "The brain processes sensory information and coordinates responses."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W5-Q4",
+          "module": 3,
+          "week": 5,
+          "topic": "Processing Information",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens after the brain receives information from the senses?",
+          "options": [
+            "It can process the information and help the body respond",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "It can process the information and help the body respond",
+          "answer_explanation": "The brain processes sensory information and coordinates responses."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W5-Q5",
+          "module": 3,
+          "week": 5,
+          "topic": "Processing Information",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens after the brain receives information from the senses?",
+          "options": [
+            "It can process the information and help the body respond",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "It can process the information and help the body respond",
+          "answer_explanation": "The brain processes sensory information and coordinates responses."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W6-Q1",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W6-Q2",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W6-Q3",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W6-Q4",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W6-Q5",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W7-Q1",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W7-Q2",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W7-Q3",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W7-Q4",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W7-Q5",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W8-Q1",
+          "module": 3,
+          "week": 8,
+          "topic": "Structures Review",
+          "standard": "4-LS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Body structures can help organisms survive and function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Body structures can help organisms survive and function",
+          "answer_explanation": "Structure and function are closely related."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W8-Q2",
+          "module": 3,
+          "week": 8,
+          "topic": "Structures Review",
+          "standard": "4-LS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Body structures can help organisms survive and function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Body structures can help organisms survive and function",
+          "answer_explanation": "Structure and function are closely related."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W8-Q3",
+          "module": 3,
+          "week": 8,
+          "topic": "Structures Review",
+          "standard": "4-LS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Body structures can help organisms survive and function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Body structures can help organisms survive and function",
+          "answer_explanation": "Structure and function are closely related."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W8-Q4",
+          "module": 3,
+          "week": 8,
+          "topic": "Structures Review",
+          "standard": "4-LS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Body structures can help organisms survive and function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Body structures can help organisms survive and function",
+          "answer_explanation": "Structure and function are closely related."
+        },
+        {
+          "question_id": "G4-SCIENCE-M3-W8-Q5",
+          "module": 3,
+          "week": 8,
+          "topic": "Structures Review",
+          "standard": "4-LS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Body structures can help organisms survive and function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Body structures can help organisms survive and function",
+          "answer_explanation": "Structure and function are closely related."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-SCIENCE-MODULE-4",
+      "course": "Grade 4 Science",
+      "grade": 4,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Earth's Systems & Processes",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-SCIENCE-M4-W1-Q1",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W1-Q2",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W1-Q3",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W1-Q4",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W1-Q5",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W2-Q1",
+          "module": 4,
+          "week": 2,
+          "topic": "Weathering & Erosion",
+          "standard": "4-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can carry soil away with moving water?",
+          "options": [
+            "erosion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "erosion",
+          "answer_explanation": "Erosion moves weathered material from one place to another."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W2-Q2",
+          "module": 4,
+          "week": 2,
+          "topic": "Weathering & Erosion",
+          "standard": "4-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can carry soil away with moving water?",
+          "options": [
+            "erosion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "erosion",
+          "answer_explanation": "Erosion moves weathered material from one place to another."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W2-Q3",
+          "module": 4,
+          "week": 2,
+          "topic": "Weathering & Erosion",
+          "standard": "4-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can carry soil away with moving water?",
+          "options": [
+            "erosion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "erosion",
+          "answer_explanation": "Erosion moves weathered material from one place to another."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W2-Q4",
+          "module": 4,
+          "week": 2,
+          "topic": "Weathering & Erosion",
+          "standard": "4-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can carry soil away with moving water?",
+          "options": [
+            "erosion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "erosion",
+          "answer_explanation": "Erosion moves weathered material from one place to another."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W2-Q5",
+          "module": 4,
+          "week": 2,
+          "topic": "Weathering & Erosion",
+          "standard": "4-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can carry soil away with moving water?",
+          "options": [
+            "erosion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "erosion",
+          "answer_explanation": "Erosion moves weathered material from one place to another."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W3-Q1",
+          "module": 4,
+          "week": 3,
+          "topic": "Rock & Fossil Evidence",
+          "standard": "4-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils provide evidence about?",
+          "options": [
+            "Life and environments from the past",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Life and environments from the past",
+          "answer_explanation": "Fossils preserve evidence of earlier organisms and conditions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W3-Q2",
+          "module": 4,
+          "week": 3,
+          "topic": "Rock & Fossil Evidence",
+          "standard": "4-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils provide evidence about?",
+          "options": [
+            "Life and environments from the past",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Life and environments from the past",
+          "answer_explanation": "Fossils preserve evidence of earlier organisms and conditions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W3-Q3",
+          "module": 4,
+          "week": 3,
+          "topic": "Rock & Fossil Evidence",
+          "standard": "4-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils provide evidence about?",
+          "options": [
+            "Life and environments from the past",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Life and environments from the past",
+          "answer_explanation": "Fossils preserve evidence of earlier organisms and conditions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W3-Q4",
+          "module": 4,
+          "week": 3,
+          "topic": "Rock & Fossil Evidence",
+          "standard": "4-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils provide evidence about?",
+          "options": [
+            "Life and environments from the past",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Life and environments from the past",
+          "answer_explanation": "Fossils preserve evidence of earlier organisms and conditions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W3-Q5",
+          "module": 4,
+          "week": 3,
+          "topic": "Rock & Fossil Evidence",
+          "standard": "4-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils provide evidence about?",
+          "options": [
+            "Life and environments from the past",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Life and environments from the past",
+          "answer_explanation": "Fossils preserve evidence of earlier organisms and conditions."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W4-Q1",
+          "module": 4,
+          "week": 4,
+          "topic": "Landforms & Maps",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which tool can help locate a mountain range?",
+          "options": [
+            "a map",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a map",
+          "answer_explanation": "Maps show locations of Earth's features."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W4-Q2",
+          "module": 4,
+          "week": 4,
+          "topic": "Landforms & Maps",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which tool can help locate a mountain range?",
+          "options": [
+            "a map",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a map",
+          "answer_explanation": "Maps show locations of Earth's features."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W4-Q3",
+          "module": 4,
+          "week": 4,
+          "topic": "Landforms & Maps",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which tool can help locate a mountain range?",
+          "options": [
+            "a map",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a map",
+          "answer_explanation": "Maps show locations of Earth's features."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W4-Q4",
+          "module": 4,
+          "week": 4,
+          "topic": "Landforms & Maps",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which tool can help locate a mountain range?",
+          "options": [
+            "a map",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a map",
+          "answer_explanation": "Maps show locations of Earth's features."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W4-Q5",
+          "module": 4,
+          "week": 4,
+          "topic": "Landforms & Maps",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which tool can help locate a mountain range?",
+          "options": [
+            "a map",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a map",
+          "answer_explanation": "Maps show locations of Earth's features."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W5-Q1",
+          "module": 4,
+          "week": 5,
+          "topic": "Natural Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a nonrenewable resource?",
+          "options": [
+            "coal",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "coal",
+          "answer_explanation": "Coal forms very slowly and is not quickly replaced."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W5-Q2",
+          "module": 4,
+          "week": 5,
+          "topic": "Natural Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a nonrenewable resource?",
+          "options": [
+            "coal",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "coal",
+          "answer_explanation": "Coal forms very slowly and is not quickly replaced."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W5-Q3",
+          "module": 4,
+          "week": 5,
+          "topic": "Natural Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a nonrenewable resource?",
+          "options": [
+            "coal",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "coal",
+          "answer_explanation": "Coal forms very slowly and is not quickly replaced."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W5-Q4",
+          "module": 4,
+          "week": 5,
+          "topic": "Natural Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a nonrenewable resource?",
+          "options": [
+            "coal",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "coal",
+          "answer_explanation": "Coal forms very slowly and is not quickly replaced."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W5-Q5",
+          "module": 4,
+          "week": 5,
+          "topic": "Natural Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a nonrenewable resource?",
+          "options": [
+            "coal",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "coal",
+          "answer_explanation": "Coal forms very slowly and is not quickly replaced."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W6-Q1",
+          "module": 4,
+          "week": 6,
+          "topic": "Natural Hazards",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a natural hazard?",
+          "options": [
+            "earthquake",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "earthquake",
+          "answer_explanation": "Earthquakes can cause dangerous changes to Earth's surface."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W6-Q2",
+          "module": 4,
+          "week": 6,
+          "topic": "Natural Hazards",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a natural hazard?",
+          "options": [
+            "earthquake",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "earthquake",
+          "answer_explanation": "Earthquakes can cause dangerous changes to Earth's surface."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W6-Q3",
+          "module": 4,
+          "week": 6,
+          "topic": "Natural Hazards",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a natural hazard?",
+          "options": [
+            "earthquake",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "earthquake",
+          "answer_explanation": "Earthquakes can cause dangerous changes to Earth's surface."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W6-Q4",
+          "module": 4,
+          "week": 6,
+          "topic": "Natural Hazards",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a natural hazard?",
+          "options": [
+            "earthquake",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "earthquake",
+          "answer_explanation": "Earthquakes can cause dangerous changes to Earth's surface."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W6-Q5",
+          "module": 4,
+          "week": 6,
+          "topic": "Natural Hazards",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a natural hazard?",
+          "options": [
+            "earthquake",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "earthquake",
+          "answer_explanation": "Earthquakes can cause dangerous changes to Earth's surface."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W7-Q1",
+          "module": 4,
+          "week": 7,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action could reduce damage from flooding?",
+          "options": [
+            "building and maintaining effective drainage systems",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "building and maintaining effective drainage systems",
+          "answer_explanation": "Engineering solutions can reduce hazard impacts."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W7-Q2",
+          "module": 4,
+          "week": 7,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action could reduce damage from flooding?",
+          "options": [
+            "building and maintaining effective drainage systems",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "building and maintaining effective drainage systems",
+          "answer_explanation": "Engineering solutions can reduce hazard impacts."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W7-Q3",
+          "module": 4,
+          "week": 7,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action could reduce damage from flooding?",
+          "options": [
+            "building and maintaining effective drainage systems",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "building and maintaining effective drainage systems",
+          "answer_explanation": "Engineering solutions can reduce hazard impacts."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W7-Q4",
+          "module": 4,
+          "week": 7,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action could reduce damage from flooding?",
+          "options": [
+            "building and maintaining effective drainage systems",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "building and maintaining effective drainage systems",
+          "answer_explanation": "Engineering solutions can reduce hazard impacts."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W7-Q5",
+          "module": 4,
+          "week": 7,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action could reduce damage from flooding?",
+          "options": [
+            "building and maintaining effective drainage systems",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "building and maintaining effective drainage systems",
+          "answer_explanation": "Engineering solutions can reduce hazard impacts."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W8-Q1",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W8-Q2",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W8-Q3",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W8-Q4",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        },
+        {
+          "question_id": "G4-SCIENCE-M4-W8-Q5",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-SCIENCE-MOCK-1",
+      "course": "Grade 4 Science",
+      "grade": 4,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q1",
+          "module": 1,
+          "week": 1,
+          "topic": "What Is Energy?",
+          "standard": "4-PS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has more energy of motion?",
+          "options": [
+            "A rolling ball moving quickly",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A rolling ball moving quickly",
+          "answer_explanation": "An object moving faster generally has more energy of motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q2",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q3",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q4",
+          "module": 1,
+          "week": 4,
+          "topic": "Stored Energy",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has stored energy because of its position?",
+          "options": [
+            "A book resting on a high shelf",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A book resting on a high shelf",
+          "answer_explanation": "An object's position can give it stored energy."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q5",
+          "module": 1,
+          "week": 5,
+          "topic": "Converting Energy",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashlight changes energy from a battery into what forms?",
+          "options": [
+            "Light and heat",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light and heat",
+          "answer_explanation": "A flashlight converts stored chemical energy into other forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q6",
+          "module": 1,
+          "week": 6,
+          "topic": "Designing a Device",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student wants to build a device that changes electrical energy into motion. Which part could help?",
+          "options": [
+            "A motor",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A motor",
+          "answer_explanation": "A motor can convert electrical energy into mechanical motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q7",
+          "module": 1,
+          "week": 7,
+          "topic": "Energy from Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy source?",
+          "options": [
+            "sunlight",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "sunlight",
+          "answer_explanation": "Sunlight is naturally replenished."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q8",
+          "module": 1,
+          "week": 8,
+          "topic": "Energy Review",
+          "standard": "4-PS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Energy can be transferred or changed from one form to another",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy can be transferred or changed from one form to another",
+          "answer_explanation": "Energy can move between objects and change forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q9",
+          "module": 2,
+          "week": 1,
+          "topic": "Wave Properties",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does wavelength describe?",
+          "options": [
+            "The distance between matching points on waves",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The distance between matching points on waves",
+          "answer_explanation": "Wavelength measures the distance between corresponding points."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q10",
+          "module": 2,
+          "week": 2,
+          "topic": "Waves & Motion",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "When a water wave moves across a pond, what pattern can be observed?",
+          "options": [
+            "The disturbance travels across the water",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The disturbance travels across the water",
+          "answer_explanation": "A wave carries a disturbance through a medium."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q11",
+          "module": 2,
+          "week": 3,
+          "topic": "Light & Seeing",
+          "standard": "4-PS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How do we see a book?",
+          "options": [
+            "Light reflects from the book into our eyes",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light reflects from the book into our eyes",
+          "answer_explanation": "Reflected light enters the eyes and allows us to see."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q12",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q13",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q14",
+          "module": 2,
+          "week": 6,
+          "topic": "Communication Devices",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which design could send information using light?",
+          "options": [
+            "A device that flashes coded light signals",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A device that flashes coded light signals",
+          "answer_explanation": "A coded signal can carry information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q15",
+          "module": 2,
+          "week": 7,
+          "topic": "Waves in Technology",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which technology uses waves to communicate information?",
+          "options": [
+            "radio",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "radio",
+          "answer_explanation": "Radio uses electromagnetic waves to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q16",
+          "module": 2,
+          "week": 8,
+          "topic": "Waves Review",
+          "standard": "4-PS4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Waves can carry information",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Waves can carry information",
+          "answer_explanation": "Wave patterns can be used to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q17",
+          "module": 3,
+          "week": 1,
+          "topic": "Plant Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which plant part absorbs water from the soil?",
+          "options": [
+            "roots",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "roots",
+          "answer_explanation": "Roots absorb water and help anchor the plant."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q18",
+          "module": 3,
+          "week": 2,
+          "topic": "Animal Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's beak can help it get food. What does this show?",
+          "options": [
+            "A structure can have a specific function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A structure can have a specific function",
+          "answer_explanation": "Body structures help organisms survive."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q19",
+          "module": 3,
+          "week": 3,
+          "topic": "Internal & External Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an internal structure?",
+          "options": [
+            "a stomach",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a stomach",
+          "answer_explanation": "The stomach is inside an animal's body."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q20",
+          "module": 3,
+          "week": 4,
+          "topic": "Senses & the Brain",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sense helps you detect a loud sound?",
+          "options": [
+            "hearing",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "hearing",
+          "answer_explanation": "The auditory system detects sound."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q21",
+          "module": 3,
+          "week": 5,
+          "topic": "Processing Information",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens after the brain receives information from the senses?",
+          "options": [
+            "It can process the information and help the body respond",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "It can process the information and help the body respond",
+          "answer_explanation": "The brain processes sensory information and coordinates responses."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q22",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q23",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q24",
+          "module": 3,
+          "week": 8,
+          "topic": "Structures Review",
+          "standard": "4-LS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Body structures can help organisms survive and function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Body structures can help organisms survive and function",
+          "answer_explanation": "Structure and function are closely related."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q25",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q26",
+          "module": 4,
+          "week": 2,
+          "topic": "Weathering & Erosion",
+          "standard": "4-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can carry soil away with moving water?",
+          "options": [
+            "erosion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "erosion",
+          "answer_explanation": "Erosion moves weathered material from one place to another."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q27",
+          "module": 4,
+          "week": 3,
+          "topic": "Rock & Fossil Evidence",
+          "standard": "4-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils provide evidence about?",
+          "options": [
+            "Life and environments from the past",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Life and environments from the past",
+          "answer_explanation": "Fossils preserve evidence of earlier organisms and conditions."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q28",
+          "module": 4,
+          "week": 4,
+          "topic": "Landforms & Maps",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which tool can help locate a mountain range?",
+          "options": [
+            "a map",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a map",
+          "answer_explanation": "Maps show locations of Earth's features."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q29",
+          "module": 4,
+          "week": 5,
+          "topic": "Natural Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a nonrenewable resource?",
+          "options": [
+            "coal",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "coal",
+          "answer_explanation": "Coal forms very slowly and is not quickly replaced."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q30",
+          "module": 4,
+          "week": 6,
+          "topic": "Natural Hazards",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a natural hazard?",
+          "options": [
+            "earthquake",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "earthquake",
+          "answer_explanation": "Earthquakes can cause dangerous changes to Earth's surface."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q31",
+          "module": 4,
+          "week": 7,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action could reduce damage from flooding?",
+          "options": [
+            "building and maintaining effective drainage systems",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "building and maintaining effective drainage systems",
+          "answer_explanation": "Engineering solutions can reduce hazard impacts."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q32",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q33",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q34",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q35",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q36",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q37",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q38",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q39",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-1-Q40",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        }
+      ]
+    },
+    {
+      "paper_id": "G4-SCIENCE-MOCK-2",
+      "course": "Grade 4 Science",
+      "grade": 4,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q1",
+          "module": 1,
+          "week": 8,
+          "topic": "Energy Review",
+          "standard": "4-PS3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Energy can be transferred or changed from one form to another",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy can be transferred or changed from one form to another",
+          "answer_explanation": "Energy can move between objects and change forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q2",
+          "module": 1,
+          "week": 7,
+          "topic": "Energy from Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a renewable energy source?",
+          "options": [
+            "sunlight",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "sunlight",
+          "answer_explanation": "Sunlight is naturally replenished."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q3",
+          "module": 1,
+          "week": 6,
+          "topic": "Designing a Device",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student wants to build a device that changes electrical energy into motion. Which part could help?",
+          "options": [
+            "A motor",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A motor",
+          "answer_explanation": "A motor can convert electrical energy into mechanical motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q4",
+          "module": 1,
+          "week": 5,
+          "topic": "Converting Energy",
+          "standard": "4-PS3-4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashlight changes energy from a battery into what forms?",
+          "options": [
+            "Light and heat",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light and heat",
+          "answer_explanation": "A flashlight converts stored chemical energy into other forms."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q5",
+          "module": 1,
+          "week": 4,
+          "topic": "Stored Energy",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has stored energy because of its position?",
+          "options": [
+            "A book resting on a high shelf",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A book resting on a high shelf",
+          "answer_explanation": "An object's position can give it stored energy."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q6",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q7",
+          "module": 1,
+          "week": 2,
+          "topic": "Energy Transfer",
+          "standard": "4-PS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A moving ball hits a still ball and makes it move. What happened?",
+          "options": [
+            "Energy was transferred during the collision",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Energy was transferred during the collision",
+          "answer_explanation": "The moving ball transferred energy to the other ball."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q8",
+          "module": 1,
+          "week": 1,
+          "topic": "What Is Energy?",
+          "standard": "4-PS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which object has more energy of motion?",
+          "options": [
+            "A rolling ball moving quickly",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A rolling ball moving quickly",
+          "answer_explanation": "An object moving faster generally has more energy of motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q9",
+          "module": 2,
+          "week": 8,
+          "topic": "Waves Review",
+          "standard": "4-PS4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is correct?",
+          "options": [
+            "Waves can carry information",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Waves can carry information",
+          "answer_explanation": "Wave patterns can be used to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q10",
+          "module": 2,
+          "week": 7,
+          "topic": "Waves in Technology",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which technology uses waves to communicate information?",
+          "options": [
+            "radio",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "radio",
+          "answer_explanation": "Radio uses electromagnetic waves to transmit information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q11",
+          "module": 2,
+          "week": 6,
+          "topic": "Communication Devices",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which design could send information using light?",
+          "options": [
+            "A device that flashes coded light signals",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A device that flashes coded light signals",
+          "answer_explanation": "A coded signal can carry information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q12",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q13",
+          "module": 2,
+          "week": 4,
+          "topic": "Sound",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What produces sound?",
+          "options": [
+            "Vibrations",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Vibrations",
+          "answer_explanation": "Sound is produced by vibrating objects."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q14",
+          "module": 2,
+          "week": 3,
+          "topic": "Light & Seeing",
+          "standard": "4-PS4-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How do we see a book?",
+          "options": [
+            "Light reflects from the book into our eyes",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Light reflects from the book into our eyes",
+          "answer_explanation": "Reflected light enters the eyes and allows us to see."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q15",
+          "module": 2,
+          "week": 2,
+          "topic": "Waves & Motion",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "When a water wave moves across a pond, what pattern can be observed?",
+          "options": [
+            "The disturbance travels across the water",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The disturbance travels across the water",
+          "answer_explanation": "A wave carries a disturbance through a medium."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q16",
+          "module": 2,
+          "week": 1,
+          "topic": "Wave Properties",
+          "standard": "4-PS4-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does wavelength describe?",
+          "options": [
+            "The distance between matching points on waves",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The distance between matching points on waves",
+          "answer_explanation": "Wavelength measures the distance between corresponding points."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q17",
+          "module": 3,
+          "week": 8,
+          "topic": "Structures Review",
+          "standard": "4-LS1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Body structures can help organisms survive and function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Body structures can help organisms survive and function",
+          "answer_explanation": "Structure and function are closely related."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q18",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q19",
+          "module": 3,
+          "week": 6,
+          "topic": "Adapted Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A duck's webbed feet help it move through water. What is this?",
+          "options": [
+            "an adaptation",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "an adaptation",
+          "answer_explanation": "The structure helps the duck survive in its environment."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q20",
+          "module": 3,
+          "week": 5,
+          "topic": "Processing Information",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What happens after the brain receives information from the senses?",
+          "options": [
+            "It can process the information and help the body respond",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "It can process the information and help the body respond",
+          "answer_explanation": "The brain processes sensory information and coordinates responses."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q21",
+          "module": 3,
+          "week": 4,
+          "topic": "Senses & the Brain",
+          "standard": "4-LS1-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sense helps you detect a loud sound?",
+          "options": [
+            "hearing",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "hearing",
+          "answer_explanation": "The auditory system detects sound."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q22",
+          "module": 3,
+          "week": 3,
+          "topic": "Internal & External Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an internal structure?",
+          "options": [
+            "a stomach",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a stomach",
+          "answer_explanation": "The stomach is inside an animal's body."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q23",
+          "module": 3,
+          "week": 2,
+          "topic": "Animal Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's beak can help it get food. What does this show?",
+          "options": [
+            "A structure can have a specific function",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A structure can have a specific function",
+          "answer_explanation": "Body structures help organisms survive."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q24",
+          "module": 3,
+          "week": 1,
+          "topic": "Plant Structures",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which plant part absorbs water from the soil?",
+          "options": [
+            "roots",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "roots",
+          "answer_explanation": "Roots absorb water and help anchor the plant."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q25",
+          "module": 4,
+          "week": 8,
+          "topic": "Earth Systems Review",
+          "standard": "4-ESS",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which statement is true?",
+          "options": [
+            "Water, wind, and ice can change Earth's surface",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Water, wind, and ice can change Earth's surface",
+          "answer_explanation": "These agents can weather and erode Earth's materials."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q26",
+          "module": 4,
+          "week": 7,
+          "topic": "Reducing Hazard Impacts",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which action could reduce damage from flooding?",
+          "options": [
+            "building and maintaining effective drainage systems",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "building and maintaining effective drainage systems",
+          "answer_explanation": "Engineering solutions can reduce hazard impacts."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q27",
+          "module": 4,
+          "week": 6,
+          "topic": "Natural Hazards",
+          "standard": "4-ESS3-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a natural hazard?",
+          "options": [
+            "earthquake",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "earthquake",
+          "answer_explanation": "Earthquakes can cause dangerous changes to Earth's surface."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q28",
+          "module": 4,
+          "week": 5,
+          "topic": "Natural Resources",
+          "standard": "4-ESS3-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a nonrenewable resource?",
+          "options": [
+            "coal",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "coal",
+          "answer_explanation": "Coal forms very slowly and is not quickly replaced."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q29",
+          "module": 4,
+          "week": 4,
+          "topic": "Landforms & Maps",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which tool can help locate a mountain range?",
+          "options": [
+            "a map",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "a map",
+          "answer_explanation": "Maps show locations of Earth's features."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q30",
+          "module": 4,
+          "week": 3,
+          "topic": "Rock & Fossil Evidence",
+          "standard": "4-ESS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can fossils provide evidence about?",
+          "options": [
+            "Life and environments from the past",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Life and environments from the past",
+          "answer_explanation": "Fossils preserve evidence of earlier organisms and conditions."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q31",
+          "module": 4,
+          "week": 2,
+          "topic": "Weathering & Erosion",
+          "standard": "4-ESS2-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which process can carry soil away with moving water?",
+          "options": [
+            "erosion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "erosion",
+          "answer_explanation": "Erosion moves weathered material from one place to another."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q32",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q33",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q34",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q35",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q36",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q37",
+          "module": 1,
+          "week": 3,
+          "topic": "Energy in Collisions",
+          "standard": "4-PS3-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A toy car hits a block and the block moves. What does this show?",
+          "options": [
+            "The collision changed the block's motion",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "The collision changed the block's motion",
+          "answer_explanation": "A collision can transfer energy and change motion."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q38",
+          "module": 2,
+          "week": 5,
+          "topic": "Transferring Information",
+          "standard": "4-PS4-3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A flashing light sends a repeated pattern that represents a message. What is being used?",
+          "options": [
+            "A signal pattern",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "A signal pattern",
+          "answer_explanation": "Patterns can encode and transfer information."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q39",
+          "module": 3,
+          "week": 7,
+          "topic": "Comparing Organisms",
+          "standard": "4-LS1-1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A bird's wings and a fish's fins both help with movement. What can be compared?",
+          "options": [
+            "How different structures perform similar functions",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "How different structures perform similar functions",
+          "answer_explanation": "Structures can differ while serving related functions."
+        },
+        {
+          "question_id": "G4-SCIENCE-MOCK-2-Q40",
+          "module": 4,
+          "week": 1,
+          "topic": "Earth's Features",
+          "standard": "4-ESS2-2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can a map of landforms show?",
+          "options": [
+            "Patterns and locations of Earth's features",
+            "An unrelated observation",
+            "A statement not supported by the evidence",
+            "A random guess"
+          ],
+          "correct_answer": "Patterns and locations of Earth's features",
+          "answer_explanation": "Maps represent where features are located."
+        }
+      ]
+    }
+  ]
+}

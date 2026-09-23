@@ -1,0 +1,2481 @@
+{
+  "schema_version": "1.0",
+  "content_type": "course_content",
+  "course": {
+    "code": "PHYSICS",
+    "slug": "physics",
+    "name": "Physics",
+    "subject": "science",
+    "recommended_grade_min": 10,
+    "recommended_grade_max": 12,
+    "duration_weeks": 36,
+    "module_count": 4,
+    "weeks_per_module": 9,
+    "credit_value": 1,
+    "prerequisite_policy": "Configured by course manager; recommended grade range is not a hard restriction.",
+    "early_progression": true
+  },
+  "course_learning_outcomes": [
+    "Demonstrate mastery of the course's core knowledge and skills.",
+    "Apply concepts through structured practice and authentic tasks.",
+    "Use academic vocabulary accurately.",
+    "Demonstrate mastery through weekly, module, and final assessments."
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Motion & Forces",
+      "weeks": [
+        {
+          "week_number": 1,
+          "title": "Motion & Forces: Scientific inquiry and measurement",
+          "focus": "Scientific inquiry and measurement",
+          "instructor_overview": "Introduce and develop scientific inquiry and measurement within the context of Motion & Forces. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with scientific inquiry and measurement.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to scientific inquiry and measurement.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Scientific inquiry and measurement",
+            "Teacher modeling and guided examples for scientific inquiry and measurement",
+            "Collaborative practice involving scientific inquiry and measurement",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            }
+          ],
+          "practice": [
+            "Guided practice: Scientific inquiry and measurement",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for scientific inquiry and measurement.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Scientific inquiry and measurement"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 2,
+          "title": "Motion & Forces: Matter and systems",
+          "focus": "Matter and systems",
+          "instructor_overview": "Introduce and develop matter and systems within the context of Motion & Forces. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with matter and systems.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to matter and systems.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Matter and systems",
+            "Teacher modeling and guided examples for matter and systems",
+            "Collaborative practice involving matter and systems",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to matter and systems."
+            }
+          ],
+          "practice": [
+            "Guided practice: Matter and systems",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for matter and systems.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Matter and systems"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 3,
+          "title": "Motion & Forces: Energy and interactions",
+          "focus": "Energy and interactions",
+          "instructor_overview": "Introduce and develop energy and interactions within the context of Motion & Forces. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with energy and interactions.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to energy and interactions.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Energy and interactions",
+            "Teacher modeling and guided examples for energy and interactions",
+            "Collaborative practice involving energy and interactions",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to energy and interactions."
+            }
+          ],
+          "practice": [
+            "Guided practice: Energy and interactions",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for energy and interactions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Energy and interactions"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 4,
+          "title": "Motion & Forces: Structure and function",
+          "focus": "Structure and function",
+          "instructor_overview": "Introduce and develop structure and function within the context of Motion & Forces. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with structure and function.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to structure and function.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Structure and function",
+            "Teacher modeling and guided examples for structure and function",
+            "Collaborative practice involving structure and function",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to structure and function."
+            }
+          ],
+          "practice": [
+            "Guided practice: Structure and function",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for structure and function.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Structure and function"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 5,
+          "title": "Motion & Forces: Change over time",
+          "focus": "Change over time",
+          "instructor_overview": "Introduce and develop change over time within the context of Motion & Forces. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with change over time.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to change over time.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Change over time",
+            "Teacher modeling and guided examples for change over time",
+            "Collaborative practice involving change over time",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to change over time."
+            }
+          ],
+          "practice": [
+            "Guided practice: Change over time",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for change over time.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Change over time"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 6,
+          "title": "Motion & Forces: Cycles and patterns",
+          "focus": "Cycles and patterns",
+          "instructor_overview": "Introduce and develop cycles and patterns within the context of Motion & Forces. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with cycles and patterns.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to cycles and patterns.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Cycles and patterns",
+            "Teacher modeling and guided examples for cycles and patterns",
+            "Collaborative practice involving cycles and patterns",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            }
+          ],
+          "practice": [
+            "Guided practice: Cycles and patterns",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for cycles and patterns.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Cycles and patterns"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 7,
+          "title": "Motion & Forces: Models and evidence",
+          "focus": "Models and evidence",
+          "instructor_overview": "Introduce and develop models and evidence within the context of Motion & Forces. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with models and evidence.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to models and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Models and evidence",
+            "Teacher modeling and guided examples for models and evidence",
+            "Collaborative practice involving models and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to models and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Models and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for models and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Models and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 8,
+          "title": "Motion & Forces: Human impacts and applications",
+          "focus": "Human impacts and applications",
+          "instructor_overview": "Introduce and develop human impacts and applications within the context of Motion & Forces. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with human impacts and applications.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to human impacts and applications.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Human impacts and applications",
+            "Teacher modeling and guided examples for human impacts and applications",
+            "Collaborative practice involving human impacts and applications",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            }
+          ],
+          "practice": [
+            "Guided practice: Human impacts and applications",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for human impacts and applications.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Human impacts and applications"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 9,
+          "title": "Motion & Forces — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Motion & Forces, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Motion & Forces.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "variable",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "evidence",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "model",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "system",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "energy",
+              "definition": "Key science vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 2,
+      "title": "Energy & Momentum",
+      "weeks": [
+        {
+          "week_number": 10,
+          "title": "Energy & Momentum: Scientific inquiry and measurement",
+          "focus": "Scientific inquiry and measurement",
+          "instructor_overview": "Introduce and develop scientific inquiry and measurement within the context of Energy & Momentum. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with scientific inquiry and measurement.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to scientific inquiry and measurement.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Scientific inquiry and measurement",
+            "Teacher modeling and guided examples for scientific inquiry and measurement",
+            "Collaborative practice involving scientific inquiry and measurement",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            }
+          ],
+          "practice": [
+            "Guided practice: Scientific inquiry and measurement",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for scientific inquiry and measurement.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Scientific inquiry and measurement"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 11,
+          "title": "Energy & Momentum: Matter and systems",
+          "focus": "Matter and systems",
+          "instructor_overview": "Introduce and develop matter and systems within the context of Energy & Momentum. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with matter and systems.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to matter and systems.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Matter and systems",
+            "Teacher modeling and guided examples for matter and systems",
+            "Collaborative practice involving matter and systems",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to matter and systems."
+            }
+          ],
+          "practice": [
+            "Guided practice: Matter and systems",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for matter and systems.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Matter and systems"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 12,
+          "title": "Energy & Momentum: Energy and interactions",
+          "focus": "Energy and interactions",
+          "instructor_overview": "Introduce and develop energy and interactions within the context of Energy & Momentum. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with energy and interactions.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to energy and interactions.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Energy and interactions",
+            "Teacher modeling and guided examples for energy and interactions",
+            "Collaborative practice involving energy and interactions",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to energy and interactions."
+            }
+          ],
+          "practice": [
+            "Guided practice: Energy and interactions",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for energy and interactions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Energy and interactions"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 13,
+          "title": "Energy & Momentum: Structure and function",
+          "focus": "Structure and function",
+          "instructor_overview": "Introduce and develop structure and function within the context of Energy & Momentum. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with structure and function.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to structure and function.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Structure and function",
+            "Teacher modeling and guided examples for structure and function",
+            "Collaborative practice involving structure and function",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to structure and function."
+            }
+          ],
+          "practice": [
+            "Guided practice: Structure and function",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for structure and function.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Structure and function"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 14,
+          "title": "Energy & Momentum: Change over time",
+          "focus": "Change over time",
+          "instructor_overview": "Introduce and develop change over time within the context of Energy & Momentum. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with change over time.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to change over time.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Change over time",
+            "Teacher modeling and guided examples for change over time",
+            "Collaborative practice involving change over time",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to change over time."
+            }
+          ],
+          "practice": [
+            "Guided practice: Change over time",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for change over time.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Change over time"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 15,
+          "title": "Energy & Momentum: Cycles and patterns",
+          "focus": "Cycles and patterns",
+          "instructor_overview": "Introduce and develop cycles and patterns within the context of Energy & Momentum. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with cycles and patterns.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to cycles and patterns.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Cycles and patterns",
+            "Teacher modeling and guided examples for cycles and patterns",
+            "Collaborative practice involving cycles and patterns",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            }
+          ],
+          "practice": [
+            "Guided practice: Cycles and patterns",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for cycles and patterns.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Cycles and patterns"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 16,
+          "title": "Energy & Momentum: Models and evidence",
+          "focus": "Models and evidence",
+          "instructor_overview": "Introduce and develop models and evidence within the context of Energy & Momentum. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with models and evidence.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to models and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Models and evidence",
+            "Teacher modeling and guided examples for models and evidence",
+            "Collaborative practice involving models and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to models and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Models and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for models and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Models and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 17,
+          "title": "Energy & Momentum: Human impacts and applications",
+          "focus": "Human impacts and applications",
+          "instructor_overview": "Introduce and develop human impacts and applications within the context of Energy & Momentum. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with human impacts and applications.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to human impacts and applications.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Human impacts and applications",
+            "Teacher modeling and guided examples for human impacts and applications",
+            "Collaborative practice involving human impacts and applications",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            }
+          ],
+          "practice": [
+            "Guided practice: Human impacts and applications",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for human impacts and applications.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Human impacts and applications"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 18,
+          "title": "Energy & Momentum — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Energy & Momentum, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Energy & Momentum.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "variable",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "evidence",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "model",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "system",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "energy",
+              "definition": "Key science vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 3,
+      "title": "Waves & Electricity",
+      "weeks": [
+        {
+          "week_number": 19,
+          "title": "Waves & Electricity: Scientific inquiry and measurement",
+          "focus": "Scientific inquiry and measurement",
+          "instructor_overview": "Introduce and develop scientific inquiry and measurement within the context of Waves & Electricity. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with scientific inquiry and measurement.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to scientific inquiry and measurement.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Scientific inquiry and measurement",
+            "Teacher modeling and guided examples for scientific inquiry and measurement",
+            "Collaborative practice involving scientific inquiry and measurement",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            }
+          ],
+          "practice": [
+            "Guided practice: Scientific inquiry and measurement",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for scientific inquiry and measurement.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Scientific inquiry and measurement"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 20,
+          "title": "Waves & Electricity: Matter and systems",
+          "focus": "Matter and systems",
+          "instructor_overview": "Introduce and develop matter and systems within the context of Waves & Electricity. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with matter and systems.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to matter and systems.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Matter and systems",
+            "Teacher modeling and guided examples for matter and systems",
+            "Collaborative practice involving matter and systems",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to matter and systems."
+            }
+          ],
+          "practice": [
+            "Guided practice: Matter and systems",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for matter and systems.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Matter and systems"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 21,
+          "title": "Waves & Electricity: Energy and interactions",
+          "focus": "Energy and interactions",
+          "instructor_overview": "Introduce and develop energy and interactions within the context of Waves & Electricity. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with energy and interactions.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to energy and interactions.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Energy and interactions",
+            "Teacher modeling and guided examples for energy and interactions",
+            "Collaborative practice involving energy and interactions",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to energy and interactions."
+            }
+          ],
+          "practice": [
+            "Guided practice: Energy and interactions",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for energy and interactions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Energy and interactions"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 22,
+          "title": "Waves & Electricity: Structure and function",
+          "focus": "Structure and function",
+          "instructor_overview": "Introduce and develop structure and function within the context of Waves & Electricity. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with structure and function.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to structure and function.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Structure and function",
+            "Teacher modeling and guided examples for structure and function",
+            "Collaborative practice involving structure and function",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to structure and function."
+            }
+          ],
+          "practice": [
+            "Guided practice: Structure and function",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for structure and function.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Structure and function"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 23,
+          "title": "Waves & Electricity: Change over time",
+          "focus": "Change over time",
+          "instructor_overview": "Introduce and develop change over time within the context of Waves & Electricity. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with change over time.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to change over time.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Change over time",
+            "Teacher modeling and guided examples for change over time",
+            "Collaborative practice involving change over time",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to change over time."
+            }
+          ],
+          "practice": [
+            "Guided practice: Change over time",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for change over time.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Change over time"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 24,
+          "title": "Waves & Electricity: Cycles and patterns",
+          "focus": "Cycles and patterns",
+          "instructor_overview": "Introduce and develop cycles and patterns within the context of Waves & Electricity. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with cycles and patterns.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to cycles and patterns.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Cycles and patterns",
+            "Teacher modeling and guided examples for cycles and patterns",
+            "Collaborative practice involving cycles and patterns",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            }
+          ],
+          "practice": [
+            "Guided practice: Cycles and patterns",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for cycles and patterns.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Cycles and patterns"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 25,
+          "title": "Waves & Electricity: Models and evidence",
+          "focus": "Models and evidence",
+          "instructor_overview": "Introduce and develop models and evidence within the context of Waves & Electricity. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with models and evidence.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to models and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Models and evidence",
+            "Teacher modeling and guided examples for models and evidence",
+            "Collaborative practice involving models and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to models and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Models and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for models and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Models and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 26,
+          "title": "Waves & Electricity: Human impacts and applications",
+          "focus": "Human impacts and applications",
+          "instructor_overview": "Introduce and develop human impacts and applications within the context of Waves & Electricity. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with human impacts and applications.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to human impacts and applications.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Human impacts and applications",
+            "Teacher modeling and guided examples for human impacts and applications",
+            "Collaborative practice involving human impacts and applications",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            }
+          ],
+          "practice": [
+            "Guided practice: Human impacts and applications",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for human impacts and applications.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Human impacts and applications"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 27,
+          "title": "Waves & Electricity — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Waves & Electricity, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Waves & Electricity.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "variable",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "evidence",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "model",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "system",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "energy",
+              "definition": "Key science vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 4,
+      "title": "Modern Physics",
+      "weeks": [
+        {
+          "week_number": 28,
+          "title": "Modern Physics: Scientific inquiry and measurement",
+          "focus": "Scientific inquiry and measurement",
+          "instructor_overview": "Introduce and develop scientific inquiry and measurement within the context of Modern Physics. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with scientific inquiry and measurement.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to scientific inquiry and measurement.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Scientific inquiry and measurement",
+            "Teacher modeling and guided examples for scientific inquiry and measurement",
+            "Collaborative practice involving scientific inquiry and measurement",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to scientific inquiry and measurement."
+            }
+          ],
+          "practice": [
+            "Guided practice: Scientific inquiry and measurement",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for scientific inquiry and measurement.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Scientific inquiry and measurement"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 29,
+          "title": "Modern Physics: Matter and systems",
+          "focus": "Matter and systems",
+          "instructor_overview": "Introduce and develop matter and systems within the context of Modern Physics. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with matter and systems.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to matter and systems.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Matter and systems",
+            "Teacher modeling and guided examples for matter and systems",
+            "Collaborative practice involving matter and systems",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to matter and systems."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to matter and systems."
+            }
+          ],
+          "practice": [
+            "Guided practice: Matter and systems",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for matter and systems.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Matter and systems"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 30,
+          "title": "Modern Physics: Energy and interactions",
+          "focus": "Energy and interactions",
+          "instructor_overview": "Introduce and develop energy and interactions within the context of Modern Physics. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with energy and interactions.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to energy and interactions.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Energy and interactions",
+            "Teacher modeling and guided examples for energy and interactions",
+            "Collaborative practice involving energy and interactions",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to energy and interactions."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to energy and interactions."
+            }
+          ],
+          "practice": [
+            "Guided practice: Energy and interactions",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for energy and interactions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Energy and interactions"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 31,
+          "title": "Modern Physics: Structure and function",
+          "focus": "Structure and function",
+          "instructor_overview": "Introduce and develop structure and function within the context of Modern Physics. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with structure and function.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to structure and function.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Structure and function",
+            "Teacher modeling and guided examples for structure and function",
+            "Collaborative practice involving structure and function",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to structure and function."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to structure and function."
+            }
+          ],
+          "practice": [
+            "Guided practice: Structure and function",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for structure and function.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Structure and function"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 32,
+          "title": "Modern Physics: Change over time",
+          "focus": "Change over time",
+          "instructor_overview": "Introduce and develop change over time within the context of Modern Physics. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with change over time.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to change over time.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Change over time",
+            "Teacher modeling and guided examples for change over time",
+            "Collaborative practice involving change over time",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to change over time."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to change over time."
+            }
+          ],
+          "practice": [
+            "Guided practice: Change over time",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for change over time.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Change over time"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 33,
+          "title": "Modern Physics: Cycles and patterns",
+          "focus": "Cycles and patterns",
+          "instructor_overview": "Introduce and develop cycles and patterns within the context of Modern Physics. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with cycles and patterns.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to cycles and patterns.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Cycles and patterns",
+            "Teacher modeling and guided examples for cycles and patterns",
+            "Collaborative practice involving cycles and patterns",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to cycles and patterns."
+            }
+          ],
+          "practice": [
+            "Guided practice: Cycles and patterns",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for cycles and patterns.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Cycles and patterns"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 34,
+          "title": "Modern Physics: Models and evidence",
+          "focus": "Models and evidence",
+          "instructor_overview": "Introduce and develop models and evidence within the context of Modern Physics. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with models and evidence.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to models and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Models and evidence",
+            "Teacher modeling and guided examples for models and evidence",
+            "Collaborative practice involving models and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to models and evidence."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to models and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Models and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for models and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Models and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 35,
+          "title": "Modern Physics: Human impacts and applications",
+          "focus": "Human impacts and applications",
+          "instructor_overview": "Introduce and develop human impacts and applications within the context of Modern Physics. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the scientific concepts associated with human impacts and applications.",
+            "Use evidence, models, or observations to explain scientific relationships.",
+            "Apply the concepts to a real or simulated scientific situation."
+          ],
+          "warm_up": [
+            "Recall one idea related to human impacts and applications.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Human impacts and applications",
+            "Teacher modeling and guided examples for human impacts and applications",
+            "Collaborative practice involving human impacts and applications",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "model",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "system",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            },
+            {
+              "term": "energy",
+              "definition": "Course vocabulary connected to human impacts and applications."
+            }
+          ],
+          "practice": [
+            "Guided practice: Human impacts and applications",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for human impacts and applications.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Human impacts and applications"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 36,
+          "title": "Modern Physics — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Modern Physics, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Modern Physics.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "hypothesis",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "variable",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "evidence",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "model",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "system",
+              "definition": "Key science vocabulary used in the module."
+            },
+            {
+              "term": "energy",
+              "definition": "Key science vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    }
+  ],
+  "final_assessment": {
+    "assessment_type": "comprehensive_course_assessment",
+    "coverage": "All four modules",
+    "question_count": "Configured by assessment manager",
+    "answer_explanations": true,
+    "mastery_required": true
+  }
+}

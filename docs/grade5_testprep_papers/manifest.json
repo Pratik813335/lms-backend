@@ -1,0 +1,27 @@
+{
+  "grade": 5,
+  "package": "LucidPrep Grade 5 TestPrep Papers",
+  "assessment_model": {
+    "questions_per_paper": 40,
+    "mastery_threshold_percent": 70,
+    "module_tests": 4,
+    "full_course_mocks": 2
+  },
+  "courses": {
+    "Grade 5 English Language Arts": {
+      "file": "grade-5-ela.json",
+      "papers": 6,
+      "questions": 240
+    },
+    "Grade 5 Mathematics": {
+      "file": "grade-5-mathematics.json",
+      "papers": 6,
+      "questions": 240
+    },
+    "Grade 5 Science · NGSS": {
+      "file": "grade-5-science.json",
+      "papers": 6,
+      "questions": 240
+    }
+  }
+}

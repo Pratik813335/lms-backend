@@ -1,0 +1,2481 @@
+{
+  "schema_version": "1.0",
+  "content_type": "course_content",
+  "course": {
+    "code": "JOURNALISM",
+    "slug": "journalism",
+    "name": "Journalism",
+    "subject": "english",
+    "recommended_grade_min": 9,
+    "recommended_grade_max": 12,
+    "duration_weeks": 36,
+    "module_count": 4,
+    "weeks_per_module": 9,
+    "credit_value": 1,
+    "prerequisite_policy": "Configured by course manager; recommended grade range is not a hard restriction.",
+    "early_progression": true
+  },
+  "course_learning_outcomes": [
+    "Demonstrate mastery of the course's core knowledge and skills.",
+    "Apply concepts through structured practice and authentic tasks.",
+    "Use academic vocabulary accurately.",
+    "Demonstrate mastery through weekly, module, and final assessments."
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Journalism Foundations",
+      "weeks": [
+        {
+          "week_number": 1,
+          "title": "Journalism Foundations: Close reading and annotation",
+          "focus": "Close reading and annotation",
+          "instructor_overview": "Introduce and develop close reading and annotation within the context of Journalism Foundations. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of close reading and annotation.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to close reading and annotation.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Close reading and annotation",
+            "Teacher modeling and guided examples for close reading and annotation",
+            "Collaborative practice involving close reading and annotation",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            }
+          ],
+          "practice": [
+            "Guided practice: Close reading and annotation",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for close reading and annotation.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Close reading and annotation"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 2,
+          "title": "Journalism Foundations: Theme, central idea, and evidence",
+          "focus": "Theme, central idea, and evidence",
+          "instructor_overview": "Introduce and develop theme, central idea, and evidence within the context of Journalism Foundations. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of theme, central idea, and evidence.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to theme, central idea, and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Theme, central idea, and evidence",
+            "Teacher modeling and guided examples for theme, central idea, and evidence",
+            "Collaborative practice involving theme, central idea, and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Theme, central idea, and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for theme, central idea, and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Theme, central idea, and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 3,
+          "title": "Journalism Foundations: Characterization and point of view",
+          "focus": "Characterization and point of view",
+          "instructor_overview": "Introduce and develop characterization and point of view within the context of Journalism Foundations. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of characterization and point of view.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to characterization and point of view.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Characterization and point of view",
+            "Teacher modeling and guided examples for characterization and point of view",
+            "Collaborative practice involving characterization and point of view",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            }
+          ],
+          "practice": [
+            "Guided practice: Characterization and point of view",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for characterization and point of view.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Characterization and point of view"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 4,
+          "title": "Journalism Foundations: Setting, conflict, and structure",
+          "focus": "Setting, conflict, and structure",
+          "instructor_overview": "Introduce and develop setting, conflict, and structure within the context of Journalism Foundations. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of setting, conflict, and structure.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to setting, conflict, and structure.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Setting, conflict, and structure",
+            "Teacher modeling and guided examples for setting, conflict, and structure",
+            "Collaborative practice involving setting, conflict, and structure",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            }
+          ],
+          "practice": [
+            "Guided practice: Setting, conflict, and structure",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for setting, conflict, and structure.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Setting, conflict, and structure"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 5,
+          "title": "Journalism Foundations: Figurative language and imagery",
+          "focus": "Figurative language and imagery",
+          "instructor_overview": "Introduce and develop figurative language and imagery within the context of Journalism Foundations. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of figurative language and imagery.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to figurative language and imagery.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Figurative language and imagery",
+            "Teacher modeling and guided examples for figurative language and imagery",
+            "Collaborative practice involving figurative language and imagery",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            }
+          ],
+          "practice": [
+            "Guided practice: Figurative language and imagery",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for figurative language and imagery.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Figurative language and imagery"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 6,
+          "title": "Journalism Foundations: Tone, mood, and diction",
+          "focus": "Tone, mood, and diction",
+          "instructor_overview": "Introduce and develop tone, mood, and diction within the context of Journalism Foundations. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of tone, mood, and diction.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to tone, mood, and diction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Tone, mood, and diction",
+            "Teacher modeling and guided examples for tone, mood, and diction",
+            "Collaborative practice involving tone, mood, and diction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Tone, mood, and diction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for tone, mood, and diction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Tone, mood, and diction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 7,
+          "title": "Journalism Foundations: Comparing texts and perspectives",
+          "focus": "Comparing texts and perspectives",
+          "instructor_overview": "Introduce and develop comparing texts and perspectives within the context of Journalism Foundations. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of comparing texts and perspectives.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to comparing texts and perspectives.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Comparing texts and perspectives",
+            "Teacher modeling and guided examples for comparing texts and perspectives",
+            "Collaborative practice involving comparing texts and perspectives",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            }
+          ],
+          "practice": [
+            "Guided practice: Comparing texts and perspectives",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for comparing texts and perspectives.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Comparing texts and perspectives"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 8,
+          "title": "Journalism Foundations: Argument and evidence",
+          "focus": "Argument and evidence",
+          "instructor_overview": "Introduce and develop argument and evidence within the context of Journalism Foundations. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of argument and evidence.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to argument and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Argument and evidence",
+            "Teacher modeling and guided examples for argument and evidence",
+            "Collaborative practice involving argument and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to argument and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Argument and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for argument and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Argument and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 9,
+          "title": "Journalism Foundations — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Journalism Foundations, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Journalism Foundations.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "evidence",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "analysis",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "diction",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "syntax",
+              "definition": "Key english vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 2,
+      "title": "News Writing & Reporting",
+      "weeks": [
+        {
+          "week_number": 10,
+          "title": "News Writing & Reporting: Close reading and annotation",
+          "focus": "Close reading and annotation",
+          "instructor_overview": "Introduce and develop close reading and annotation within the context of News Writing & Reporting. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of close reading and annotation.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to close reading and annotation.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Close reading and annotation",
+            "Teacher modeling and guided examples for close reading and annotation",
+            "Collaborative practice involving close reading and annotation",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            }
+          ],
+          "practice": [
+            "Guided practice: Close reading and annotation",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for close reading and annotation.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Close reading and annotation"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 11,
+          "title": "News Writing & Reporting: Theme, central idea, and evidence",
+          "focus": "Theme, central idea, and evidence",
+          "instructor_overview": "Introduce and develop theme, central idea, and evidence within the context of News Writing & Reporting. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of theme, central idea, and evidence.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to theme, central idea, and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Theme, central idea, and evidence",
+            "Teacher modeling and guided examples for theme, central idea, and evidence",
+            "Collaborative practice involving theme, central idea, and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Theme, central idea, and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for theme, central idea, and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Theme, central idea, and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 12,
+          "title": "News Writing & Reporting: Characterization and point of view",
+          "focus": "Characterization and point of view",
+          "instructor_overview": "Introduce and develop characterization and point of view within the context of News Writing & Reporting. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of characterization and point of view.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to characterization and point of view.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Characterization and point of view",
+            "Teacher modeling and guided examples for characterization and point of view",
+            "Collaborative practice involving characterization and point of view",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            }
+          ],
+          "practice": [
+            "Guided practice: Characterization and point of view",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for characterization and point of view.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Characterization and point of view"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 13,
+          "title": "News Writing & Reporting: Setting, conflict, and structure",
+          "focus": "Setting, conflict, and structure",
+          "instructor_overview": "Introduce and develop setting, conflict, and structure within the context of News Writing & Reporting. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of setting, conflict, and structure.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to setting, conflict, and structure.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Setting, conflict, and structure",
+            "Teacher modeling and guided examples for setting, conflict, and structure",
+            "Collaborative practice involving setting, conflict, and structure",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            }
+          ],
+          "practice": [
+            "Guided practice: Setting, conflict, and structure",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for setting, conflict, and structure.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Setting, conflict, and structure"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 14,
+          "title": "News Writing & Reporting: Figurative language and imagery",
+          "focus": "Figurative language and imagery",
+          "instructor_overview": "Introduce and develop figurative language and imagery within the context of News Writing & Reporting. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of figurative language and imagery.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to figurative language and imagery.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Figurative language and imagery",
+            "Teacher modeling and guided examples for figurative language and imagery",
+            "Collaborative practice involving figurative language and imagery",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            }
+          ],
+          "practice": [
+            "Guided practice: Figurative language and imagery",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for figurative language and imagery.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Figurative language and imagery"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 15,
+          "title": "News Writing & Reporting: Tone, mood, and diction",
+          "focus": "Tone, mood, and diction",
+          "instructor_overview": "Introduce and develop tone, mood, and diction within the context of News Writing & Reporting. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of tone, mood, and diction.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to tone, mood, and diction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Tone, mood, and diction",
+            "Teacher modeling and guided examples for tone, mood, and diction",
+            "Collaborative practice involving tone, mood, and diction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Tone, mood, and diction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for tone, mood, and diction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Tone, mood, and diction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 16,
+          "title": "News Writing & Reporting: Comparing texts and perspectives",
+          "focus": "Comparing texts and perspectives",
+          "instructor_overview": "Introduce and develop comparing texts and perspectives within the context of News Writing & Reporting. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of comparing texts and perspectives.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to comparing texts and perspectives.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Comparing texts and perspectives",
+            "Teacher modeling and guided examples for comparing texts and perspectives",
+            "Collaborative practice involving comparing texts and perspectives",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            }
+          ],
+          "practice": [
+            "Guided practice: Comparing texts and perspectives",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for comparing texts and perspectives.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Comparing texts and perspectives"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 17,
+          "title": "News Writing & Reporting: Argument and evidence",
+          "focus": "Argument and evidence",
+          "instructor_overview": "Introduce and develop argument and evidence within the context of News Writing & Reporting. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of argument and evidence.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to argument and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Argument and evidence",
+            "Teacher modeling and guided examples for argument and evidence",
+            "Collaborative practice involving argument and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to argument and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Argument and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for argument and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Argument and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 18,
+          "title": "News Writing & Reporting — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from News Writing & Reporting, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from News Writing & Reporting.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "evidence",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "analysis",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "diction",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "syntax",
+              "definition": "Key english vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 3,
+      "title": "Investigative Journalism",
+      "weeks": [
+        {
+          "week_number": 19,
+          "title": "Investigative Journalism: Close reading and annotation",
+          "focus": "Close reading and annotation",
+          "instructor_overview": "Introduce and develop close reading and annotation within the context of Investigative Journalism. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of close reading and annotation.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to close reading and annotation.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Close reading and annotation",
+            "Teacher modeling and guided examples for close reading and annotation",
+            "Collaborative practice involving close reading and annotation",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            }
+          ],
+          "practice": [
+            "Guided practice: Close reading and annotation",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for close reading and annotation.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Close reading and annotation"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 20,
+          "title": "Investigative Journalism: Theme, central idea, and evidence",
+          "focus": "Theme, central idea, and evidence",
+          "instructor_overview": "Introduce and develop theme, central idea, and evidence within the context of Investigative Journalism. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of theme, central idea, and evidence.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to theme, central idea, and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Theme, central idea, and evidence",
+            "Teacher modeling and guided examples for theme, central idea, and evidence",
+            "Collaborative practice involving theme, central idea, and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Theme, central idea, and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for theme, central idea, and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Theme, central idea, and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 21,
+          "title": "Investigative Journalism: Characterization and point of view",
+          "focus": "Characterization and point of view",
+          "instructor_overview": "Introduce and develop characterization and point of view within the context of Investigative Journalism. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of characterization and point of view.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to characterization and point of view.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Characterization and point of view",
+            "Teacher modeling and guided examples for characterization and point of view",
+            "Collaborative practice involving characterization and point of view",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            }
+          ],
+          "practice": [
+            "Guided practice: Characterization and point of view",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for characterization and point of view.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Characterization and point of view"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 22,
+          "title": "Investigative Journalism: Setting, conflict, and structure",
+          "focus": "Setting, conflict, and structure",
+          "instructor_overview": "Introduce and develop setting, conflict, and structure within the context of Investigative Journalism. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of setting, conflict, and structure.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to setting, conflict, and structure.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Setting, conflict, and structure",
+            "Teacher modeling and guided examples for setting, conflict, and structure",
+            "Collaborative practice involving setting, conflict, and structure",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            }
+          ],
+          "practice": [
+            "Guided practice: Setting, conflict, and structure",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for setting, conflict, and structure.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Setting, conflict, and structure"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 23,
+          "title": "Investigative Journalism: Figurative language and imagery",
+          "focus": "Figurative language and imagery",
+          "instructor_overview": "Introduce and develop figurative language and imagery within the context of Investigative Journalism. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of figurative language and imagery.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to figurative language and imagery.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Figurative language and imagery",
+            "Teacher modeling and guided examples for figurative language and imagery",
+            "Collaborative practice involving figurative language and imagery",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            }
+          ],
+          "practice": [
+            "Guided practice: Figurative language and imagery",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for figurative language and imagery.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Figurative language and imagery"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 24,
+          "title": "Investigative Journalism: Tone, mood, and diction",
+          "focus": "Tone, mood, and diction",
+          "instructor_overview": "Introduce and develop tone, mood, and diction within the context of Investigative Journalism. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of tone, mood, and diction.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to tone, mood, and diction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Tone, mood, and diction",
+            "Teacher modeling and guided examples for tone, mood, and diction",
+            "Collaborative practice involving tone, mood, and diction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Tone, mood, and diction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for tone, mood, and diction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Tone, mood, and diction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 25,
+          "title": "Investigative Journalism: Comparing texts and perspectives",
+          "focus": "Comparing texts and perspectives",
+          "instructor_overview": "Introduce and develop comparing texts and perspectives within the context of Investigative Journalism. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of comparing texts and perspectives.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to comparing texts and perspectives.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Comparing texts and perspectives",
+            "Teacher modeling and guided examples for comparing texts and perspectives",
+            "Collaborative practice involving comparing texts and perspectives",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            }
+          ],
+          "practice": [
+            "Guided practice: Comparing texts and perspectives",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for comparing texts and perspectives.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Comparing texts and perspectives"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 26,
+          "title": "Investigative Journalism: Argument and evidence",
+          "focus": "Argument and evidence",
+          "instructor_overview": "Introduce and develop argument and evidence within the context of Investigative Journalism. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of argument and evidence.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to argument and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Argument and evidence",
+            "Teacher modeling and guided examples for argument and evidence",
+            "Collaborative practice involving argument and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to argument and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Argument and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for argument and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Argument and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 27,
+          "title": "Investigative Journalism — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Investigative Journalism, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Investigative Journalism.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "evidence",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "analysis",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "diction",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "syntax",
+              "definition": "Key english vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 4,
+      "title": "Digital Media & Publication",
+      "weeks": [
+        {
+          "week_number": 28,
+          "title": "Digital Media & Publication: Close reading and annotation",
+          "focus": "Close reading and annotation",
+          "instructor_overview": "Introduce and develop close reading and annotation within the context of Digital Media & Publication. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of close reading and annotation.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to close reading and annotation.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Close reading and annotation",
+            "Teacher modeling and guided examples for close reading and annotation",
+            "Collaborative practice involving close reading and annotation",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to close reading and annotation."
+            }
+          ],
+          "practice": [
+            "Guided practice: Close reading and annotation",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for close reading and annotation.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Close reading and annotation"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 29,
+          "title": "Digital Media & Publication: Theme, central idea, and evidence",
+          "focus": "Theme, central idea, and evidence",
+          "instructor_overview": "Introduce and develop theme, central idea, and evidence within the context of Digital Media & Publication. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of theme, central idea, and evidence.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to theme, central idea, and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Theme, central idea, and evidence",
+            "Teacher modeling and guided examples for theme, central idea, and evidence",
+            "Collaborative practice involving theme, central idea, and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to theme, central idea, and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Theme, central idea, and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for theme, central idea, and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Theme, central idea, and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 30,
+          "title": "Digital Media & Publication: Characterization and point of view",
+          "focus": "Characterization and point of view",
+          "instructor_overview": "Introduce and develop characterization and point of view within the context of Digital Media & Publication. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of characterization and point of view.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to characterization and point of view.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Characterization and point of view",
+            "Teacher modeling and guided examples for characterization and point of view",
+            "Collaborative practice involving characterization and point of view",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to characterization and point of view."
+            }
+          ],
+          "practice": [
+            "Guided practice: Characterization and point of view",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for characterization and point of view.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Characterization and point of view"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 31,
+          "title": "Digital Media & Publication: Setting, conflict, and structure",
+          "focus": "Setting, conflict, and structure",
+          "instructor_overview": "Introduce and develop setting, conflict, and structure within the context of Digital Media & Publication. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of setting, conflict, and structure.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to setting, conflict, and structure.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Setting, conflict, and structure",
+            "Teacher modeling and guided examples for setting, conflict, and structure",
+            "Collaborative practice involving setting, conflict, and structure",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to setting, conflict, and structure."
+            }
+          ],
+          "practice": [
+            "Guided practice: Setting, conflict, and structure",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for setting, conflict, and structure.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Setting, conflict, and structure"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 32,
+          "title": "Digital Media & Publication: Figurative language and imagery",
+          "focus": "Figurative language and imagery",
+          "instructor_overview": "Introduce and develop figurative language and imagery within the context of Digital Media & Publication. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of figurative language and imagery.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to figurative language and imagery.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Figurative language and imagery",
+            "Teacher modeling and guided examples for figurative language and imagery",
+            "Collaborative practice involving figurative language and imagery",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to figurative language and imagery."
+            }
+          ],
+          "practice": [
+            "Guided practice: Figurative language and imagery",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for figurative language and imagery.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Figurative language and imagery"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 33,
+          "title": "Digital Media & Publication: Tone, mood, and diction",
+          "focus": "Tone, mood, and diction",
+          "instructor_overview": "Introduce and develop tone, mood, and diction within the context of Digital Media & Publication. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of tone, mood, and diction.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to tone, mood, and diction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Tone, mood, and diction",
+            "Teacher modeling and guided examples for tone, mood, and diction",
+            "Collaborative practice involving tone, mood, and diction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to tone, mood, and diction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Tone, mood, and diction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for tone, mood, and diction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Tone, mood, and diction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 34,
+          "title": "Digital Media & Publication: Comparing texts and perspectives",
+          "focus": "Comparing texts and perspectives",
+          "instructor_overview": "Introduce and develop comparing texts and perspectives within the context of Digital Media & Publication. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of comparing texts and perspectives.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to comparing texts and perspectives.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Comparing texts and perspectives",
+            "Teacher modeling and guided examples for comparing texts and perspectives",
+            "Collaborative practice involving comparing texts and perspectives",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to comparing texts and perspectives."
+            }
+          ],
+          "practice": [
+            "Guided practice: Comparing texts and perspectives",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for comparing texts and perspectives.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Comparing texts and perspectives"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 35,
+          "title": "Digital Media & Publication: Argument and evidence",
+          "focus": "Argument and evidence",
+          "instructor_overview": "Introduce and develop argument and evidence within the context of Digital Media & Publication. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and explain important features of argument and evidence.",
+            "Support interpretations with specific textual evidence.",
+            "Communicate an organized analysis using appropriate academic language."
+          ],
+          "warm_up": [
+            "Recall one idea related to argument and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Argument and evidence",
+            "Teacher modeling and guided examples for argument and evidence",
+            "Collaborative practice involving argument and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "evidence",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "analysis",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "diction",
+              "definition": "Course vocabulary connected to argument and evidence."
+            },
+            {
+              "term": "syntax",
+              "definition": "Course vocabulary connected to argument and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Argument and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for argument and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Argument and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 36,
+          "title": "Digital Media & Publication — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Digital Media & Publication, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Digital Media & Publication.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "theme",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "evidence",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "analysis",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "rhetoric",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "diction",
+              "definition": "Key english vocabulary used in the module."
+            },
+            {
+              "term": "syntax",
+              "definition": "Key english vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    }
+  ],
+  "final_assessment": {
+    "assessment_type": "comprehensive_course_assessment",
+    "coverage": "All four modules",
+    "question_count": "Configured by assessment manager",
+    "answer_explanations": true,
+    "mastery_required": true
+  }
+}

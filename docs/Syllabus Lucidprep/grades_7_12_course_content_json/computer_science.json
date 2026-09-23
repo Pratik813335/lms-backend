@@ -1,0 +1,2481 @@
+{
+  "schema_version": "1.0",
+  "content_type": "course_content",
+  "course": {
+    "code": "COMPUTER_SCIENCE",
+    "slug": "computer_science",
+    "name": "Computer Science",
+    "subject": "computer_science",
+    "recommended_grade_min": 9,
+    "recommended_grade_max": 12,
+    "duration_weeks": 36,
+    "module_count": 4,
+    "weeks_per_module": 9,
+    "credit_value": 1,
+    "prerequisite_policy": "Configured by course manager; recommended grade range is not a hard restriction.",
+    "early_progression": true
+  },
+  "course_learning_outcomes": [
+    "Demonstrate mastery of the course's core knowledge and skills.",
+    "Apply concepts through structured practice and authentic tasks.",
+    "Use academic vocabulary accurately.",
+    "Demonstrate mastery through weekly, module, and final assessments."
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Programming Fundamentals",
+      "weeks": [
+        {
+          "week_number": 1,
+          "title": "Programming Fundamentals: Computational thinking",
+          "focus": "Computational thinking",
+          "instructor_overview": "Introduce and develop computational thinking within the context of Programming Fundamentals. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to computational thinking.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to computational thinking.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Computational thinking",
+            "Teacher modeling and guided examples for computational thinking",
+            "Collaborative practice involving computational thinking",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to computational thinking."
+            }
+          ],
+          "practice": [
+            "Guided practice: Computational thinking",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for computational thinking.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Computational thinking"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 2,
+          "title": "Programming Fundamentals: Data representation",
+          "focus": "Data representation",
+          "instructor_overview": "Introduce and develop data representation within the context of Programming Fundamentals. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to data representation.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to data representation.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Data representation",
+            "Teacher modeling and guided examples for data representation",
+            "Collaborative practice involving data representation",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to data representation."
+            }
+          ],
+          "practice": [
+            "Guided practice: Data representation",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for data representation.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Data representation"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 3,
+          "title": "Programming Fundamentals: Algorithms and decomposition",
+          "focus": "Algorithms and decomposition",
+          "instructor_overview": "Introduce and develop algorithms and decomposition within the context of Programming Fundamentals. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to algorithms and decomposition.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to algorithms and decomposition.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Algorithms and decomposition",
+            "Teacher modeling and guided examples for algorithms and decomposition",
+            "Collaborative practice involving algorithms and decomposition",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            }
+          ],
+          "practice": [
+            "Guided practice: Algorithms and decomposition",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for algorithms and decomposition.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Algorithms and decomposition"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 4,
+          "title": "Programming Fundamentals: Programming constructs",
+          "focus": "Programming constructs",
+          "instructor_overview": "Introduce and develop programming constructs within the context of Programming Fundamentals. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to programming constructs.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to programming constructs.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Programming constructs",
+            "Teacher modeling and guided examples for programming constructs",
+            "Collaborative practice involving programming constructs",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to programming constructs."
+            }
+          ],
+          "practice": [
+            "Guided practice: Programming constructs",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for programming constructs.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Programming constructs"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 5,
+          "title": "Programming Fundamentals: Functions and abstraction",
+          "focus": "Functions and abstraction",
+          "instructor_overview": "Introduce and develop functions and abstraction within the context of Programming Fundamentals. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to functions and abstraction.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to functions and abstraction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Functions and abstraction",
+            "Teacher modeling and guided examples for functions and abstraction",
+            "Collaborative practice involving functions and abstraction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Functions and abstraction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for functions and abstraction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Functions and abstraction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 6,
+          "title": "Programming Fundamentals: Data structures",
+          "focus": "Data structures",
+          "instructor_overview": "Introduce and develop data structures within the context of Programming Fundamentals. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to data structures.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to data structures.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Data structures",
+            "Teacher modeling and guided examples for data structures",
+            "Collaborative practice involving data structures",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to data structures."
+            }
+          ],
+          "practice": [
+            "Guided practice: Data structures",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for data structures.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Data structures"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 7,
+          "title": "Programming Fundamentals: Testing and debugging",
+          "focus": "Testing and debugging",
+          "instructor_overview": "Introduce and develop testing and debugging within the context of Programming Fundamentals. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to testing and debugging.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to testing and debugging.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Testing and debugging",
+            "Teacher modeling and guided examples for testing and debugging",
+            "Collaborative practice involving testing and debugging",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to testing and debugging."
+            }
+          ],
+          "practice": [
+            "Guided practice: Testing and debugging",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for testing and debugging.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Testing and debugging"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 8,
+          "title": "Programming Fundamentals: Systems and security",
+          "focus": "Systems and security",
+          "instructor_overview": "Introduce and develop systems and security within the context of Programming Fundamentals. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to systems and security.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to systems and security.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Systems and security",
+            "Teacher modeling and guided examples for systems and security",
+            "Collaborative practice involving systems and security",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to systems and security."
+            }
+          ],
+          "practice": [
+            "Guided practice: Systems and security",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for systems and security.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Systems and security"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 9,
+          "title": "Programming Fundamentals — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Programming Fundamentals, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Programming Fundamentals.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "variable",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "function",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "data",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "iteration",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Key computer science vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 2,
+      "title": "Data & Algorithms",
+      "weeks": [
+        {
+          "week_number": 10,
+          "title": "Data & Algorithms: Computational thinking",
+          "focus": "Computational thinking",
+          "instructor_overview": "Introduce and develop computational thinking within the context of Data & Algorithms. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to computational thinking.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to computational thinking.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Computational thinking",
+            "Teacher modeling and guided examples for computational thinking",
+            "Collaborative practice involving computational thinking",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to computational thinking."
+            }
+          ],
+          "practice": [
+            "Guided practice: Computational thinking",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for computational thinking.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Computational thinking"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 11,
+          "title": "Data & Algorithms: Data representation",
+          "focus": "Data representation",
+          "instructor_overview": "Introduce and develop data representation within the context of Data & Algorithms. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to data representation.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to data representation.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Data representation",
+            "Teacher modeling and guided examples for data representation",
+            "Collaborative practice involving data representation",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to data representation."
+            }
+          ],
+          "practice": [
+            "Guided practice: Data representation",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for data representation.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Data representation"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 12,
+          "title": "Data & Algorithms: Algorithms and decomposition",
+          "focus": "Algorithms and decomposition",
+          "instructor_overview": "Introduce and develop algorithms and decomposition within the context of Data & Algorithms. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to algorithms and decomposition.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to algorithms and decomposition.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Algorithms and decomposition",
+            "Teacher modeling and guided examples for algorithms and decomposition",
+            "Collaborative practice involving algorithms and decomposition",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            }
+          ],
+          "practice": [
+            "Guided practice: Algorithms and decomposition",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for algorithms and decomposition.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Algorithms and decomposition"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 13,
+          "title": "Data & Algorithms: Programming constructs",
+          "focus": "Programming constructs",
+          "instructor_overview": "Introduce and develop programming constructs within the context of Data & Algorithms. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to programming constructs.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to programming constructs.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Programming constructs",
+            "Teacher modeling and guided examples for programming constructs",
+            "Collaborative practice involving programming constructs",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to programming constructs."
+            }
+          ],
+          "practice": [
+            "Guided practice: Programming constructs",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for programming constructs.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Programming constructs"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 14,
+          "title": "Data & Algorithms: Functions and abstraction",
+          "focus": "Functions and abstraction",
+          "instructor_overview": "Introduce and develop functions and abstraction within the context of Data & Algorithms. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to functions and abstraction.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to functions and abstraction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Functions and abstraction",
+            "Teacher modeling and guided examples for functions and abstraction",
+            "Collaborative practice involving functions and abstraction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Functions and abstraction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for functions and abstraction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Functions and abstraction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 15,
+          "title": "Data & Algorithms: Data structures",
+          "focus": "Data structures",
+          "instructor_overview": "Introduce and develop data structures within the context of Data & Algorithms. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to data structures.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to data structures.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Data structures",
+            "Teacher modeling and guided examples for data structures",
+            "Collaborative practice involving data structures",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to data structures."
+            }
+          ],
+          "practice": [
+            "Guided practice: Data structures",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for data structures.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Data structures"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 16,
+          "title": "Data & Algorithms: Testing and debugging",
+          "focus": "Testing and debugging",
+          "instructor_overview": "Introduce and develop testing and debugging within the context of Data & Algorithms. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to testing and debugging.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to testing and debugging.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Testing and debugging",
+            "Teacher modeling and guided examples for testing and debugging",
+            "Collaborative practice involving testing and debugging",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to testing and debugging."
+            }
+          ],
+          "practice": [
+            "Guided practice: Testing and debugging",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for testing and debugging.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Testing and debugging"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 17,
+          "title": "Data & Algorithms: Systems and security",
+          "focus": "Systems and security",
+          "instructor_overview": "Introduce and develop systems and security within the context of Data & Algorithms. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to systems and security.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to systems and security.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Systems and security",
+            "Teacher modeling and guided examples for systems and security",
+            "Collaborative practice involving systems and security",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to systems and security."
+            }
+          ],
+          "practice": [
+            "Guided practice: Systems and security",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for systems and security.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Systems and security"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 18,
+          "title": "Data & Algorithms — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Data & Algorithms, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Data & Algorithms.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "variable",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "function",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "data",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "iteration",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Key computer science vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 3,
+      "title": "Software Development",
+      "weeks": [
+        {
+          "week_number": 19,
+          "title": "Software Development: Computational thinking",
+          "focus": "Computational thinking",
+          "instructor_overview": "Introduce and develop computational thinking within the context of Software Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to computational thinking.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to computational thinking.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Computational thinking",
+            "Teacher modeling and guided examples for computational thinking",
+            "Collaborative practice involving computational thinking",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to computational thinking."
+            }
+          ],
+          "practice": [
+            "Guided practice: Computational thinking",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for computational thinking.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Computational thinking"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 20,
+          "title": "Software Development: Data representation",
+          "focus": "Data representation",
+          "instructor_overview": "Introduce and develop data representation within the context of Software Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to data representation.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to data representation.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Data representation",
+            "Teacher modeling and guided examples for data representation",
+            "Collaborative practice involving data representation",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to data representation."
+            }
+          ],
+          "practice": [
+            "Guided practice: Data representation",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for data representation.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Data representation"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 21,
+          "title": "Software Development: Algorithms and decomposition",
+          "focus": "Algorithms and decomposition",
+          "instructor_overview": "Introduce and develop algorithms and decomposition within the context of Software Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to algorithms and decomposition.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to algorithms and decomposition.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Algorithms and decomposition",
+            "Teacher modeling and guided examples for algorithms and decomposition",
+            "Collaborative practice involving algorithms and decomposition",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            }
+          ],
+          "practice": [
+            "Guided practice: Algorithms and decomposition",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for algorithms and decomposition.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Algorithms and decomposition"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 22,
+          "title": "Software Development: Programming constructs",
+          "focus": "Programming constructs",
+          "instructor_overview": "Introduce and develop programming constructs within the context of Software Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to programming constructs.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to programming constructs.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Programming constructs",
+            "Teacher modeling and guided examples for programming constructs",
+            "Collaborative practice involving programming constructs",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to programming constructs."
+            }
+          ],
+          "practice": [
+            "Guided practice: Programming constructs",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for programming constructs.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Programming constructs"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 23,
+          "title": "Software Development: Functions and abstraction",
+          "focus": "Functions and abstraction",
+          "instructor_overview": "Introduce and develop functions and abstraction within the context of Software Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to functions and abstraction.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to functions and abstraction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Functions and abstraction",
+            "Teacher modeling and guided examples for functions and abstraction",
+            "Collaborative practice involving functions and abstraction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Functions and abstraction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for functions and abstraction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Functions and abstraction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 24,
+          "title": "Software Development: Data structures",
+          "focus": "Data structures",
+          "instructor_overview": "Introduce and develop data structures within the context of Software Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to data structures.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to data structures.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Data structures",
+            "Teacher modeling and guided examples for data structures",
+            "Collaborative practice involving data structures",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to data structures."
+            }
+          ],
+          "practice": [
+            "Guided practice: Data structures",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for data structures.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Data structures"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 25,
+          "title": "Software Development: Testing and debugging",
+          "focus": "Testing and debugging",
+          "instructor_overview": "Introduce and develop testing and debugging within the context of Software Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to testing and debugging.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to testing and debugging.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Testing and debugging",
+            "Teacher modeling and guided examples for testing and debugging",
+            "Collaborative practice involving testing and debugging",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to testing and debugging."
+            }
+          ],
+          "practice": [
+            "Guided practice: Testing and debugging",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for testing and debugging.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Testing and debugging"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 26,
+          "title": "Software Development: Systems and security",
+          "focus": "Systems and security",
+          "instructor_overview": "Introduce and develop systems and security within the context of Software Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to systems and security.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to systems and security.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Systems and security",
+            "Teacher modeling and guided examples for systems and security",
+            "Collaborative practice involving systems and security",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to systems and security."
+            }
+          ],
+          "practice": [
+            "Guided practice: Systems and security",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for systems and security.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Systems and security"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 27,
+          "title": "Software Development — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Software Development, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Software Development.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "variable",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "function",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "data",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "iteration",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Key computer science vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 4,
+      "title": "Applied Computing Project",
+      "weeks": [
+        {
+          "week_number": 28,
+          "title": "Applied Computing Project: Computational thinking",
+          "focus": "Computational thinking",
+          "instructor_overview": "Introduce and develop computational thinking within the context of Applied Computing Project. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to computational thinking.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to computational thinking.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Computational thinking",
+            "Teacher modeling and guided examples for computational thinking",
+            "Collaborative practice involving computational thinking",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to computational thinking."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to computational thinking."
+            }
+          ],
+          "practice": [
+            "Guided practice: Computational thinking",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for computational thinking.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Computational thinking"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 29,
+          "title": "Applied Computing Project: Data representation",
+          "focus": "Data representation",
+          "instructor_overview": "Introduce and develop data representation within the context of Applied Computing Project. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to data representation.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to data representation.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Data representation",
+            "Teacher modeling and guided examples for data representation",
+            "Collaborative practice involving data representation",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to data representation."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to data representation."
+            }
+          ],
+          "practice": [
+            "Guided practice: Data representation",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for data representation.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Data representation"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 30,
+          "title": "Applied Computing Project: Algorithms and decomposition",
+          "focus": "Algorithms and decomposition",
+          "instructor_overview": "Introduce and develop algorithms and decomposition within the context of Applied Computing Project. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to algorithms and decomposition.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to algorithms and decomposition.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Algorithms and decomposition",
+            "Teacher modeling and guided examples for algorithms and decomposition",
+            "Collaborative practice involving algorithms and decomposition",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to algorithms and decomposition."
+            }
+          ],
+          "practice": [
+            "Guided practice: Algorithms and decomposition",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for algorithms and decomposition.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Algorithms and decomposition"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 31,
+          "title": "Applied Computing Project: Programming constructs",
+          "focus": "Programming constructs",
+          "instructor_overview": "Introduce and develop programming constructs within the context of Applied Computing Project. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to programming constructs.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to programming constructs.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Programming constructs",
+            "Teacher modeling and guided examples for programming constructs",
+            "Collaborative practice involving programming constructs",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to programming constructs."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to programming constructs."
+            }
+          ],
+          "practice": [
+            "Guided practice: Programming constructs",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for programming constructs.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Programming constructs"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 32,
+          "title": "Applied Computing Project: Functions and abstraction",
+          "focus": "Functions and abstraction",
+          "instructor_overview": "Introduce and develop functions and abstraction within the context of Applied Computing Project. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to functions and abstraction.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to functions and abstraction.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Functions and abstraction",
+            "Teacher modeling and guided examples for functions and abstraction",
+            "Collaborative practice involving functions and abstraction",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to functions and abstraction."
+            }
+          ],
+          "practice": [
+            "Guided practice: Functions and abstraction",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for functions and abstraction.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Functions and abstraction"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 33,
+          "title": "Applied Computing Project: Data structures",
+          "focus": "Data structures",
+          "instructor_overview": "Introduce and develop data structures within the context of Applied Computing Project. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to data structures.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to data structures.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Data structures",
+            "Teacher modeling and guided examples for data structures",
+            "Collaborative practice involving data structures",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to data structures."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to data structures."
+            }
+          ],
+          "practice": [
+            "Guided practice: Data structures",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for data structures.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Data structures"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 34,
+          "title": "Applied Computing Project: Testing and debugging",
+          "focus": "Testing and debugging",
+          "instructor_overview": "Introduce and develop testing and debugging within the context of Applied Computing Project. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to testing and debugging.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to testing and debugging.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Testing and debugging",
+            "Teacher modeling and guided examples for testing and debugging",
+            "Collaborative practice involving testing and debugging",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to testing and debugging."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to testing and debugging."
+            }
+          ],
+          "practice": [
+            "Guided practice: Testing and debugging",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for testing and debugging.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Testing and debugging"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 35,
+          "title": "Applied Computing Project: Systems and security",
+          "focus": "Systems and security",
+          "instructor_overview": "Introduce and develop systems and security within the context of Applied Computing Project. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Explain core computing ideas related to systems and security.",
+            "Apply computational thinking to solve a structured problem.",
+            "Test, explain, or improve a solution using appropriate terminology."
+          ],
+          "warm_up": [
+            "Recall one idea related to systems and security.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Systems and security",
+            "Teacher modeling and guided examples for systems and security",
+            "Collaborative practice involving systems and security",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "variable",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "function",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "data",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "iteration",
+              "definition": "Course vocabulary connected to systems and security."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Course vocabulary connected to systems and security."
+            }
+          ],
+          "practice": [
+            "Guided practice: Systems and security",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for systems and security.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Systems and security"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 36,
+          "title": "Applied Computing Project — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Applied Computing Project, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Applied Computing Project.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "algorithm",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "variable",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "function",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "data",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "iteration",
+              "definition": "Key computer science vocabulary used in the module."
+            },
+            {
+              "term": "abstraction",
+              "definition": "Key computer science vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    }
+  ],
+  "final_assessment": {
+    "assessment_type": "comprehensive_course_assessment",
+    "coverage": "All four modules",
+    "question_count": "Configured by assessment manager",
+    "answer_explanations": true,
+    "mastery_required": true
+  }
+}

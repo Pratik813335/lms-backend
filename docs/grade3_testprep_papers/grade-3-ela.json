@@ -1,0 +1,4404 @@
+{
+  "schema_version": "1.0",
+  "course": "Grade 3 English Language Arts",
+  "grade": 3,
+  "standard_family": "Common Core ELA/Literacy Grade 3",
+  "duration_weeks": 36,
+  "structure": "4 modules × 9 weeks",
+  "weekly_assessment_questions": 40,
+  "mastery_threshold_percent": 70,
+  "papers": [
+    {
+      "paper_id": "G3-ELA-MODULE-1",
+      "course": "Grade 3 English Language Arts",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 1,
+      "module_title": "Reading Literature & Foundational Skills",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Asking & Answering Questions",
+          "standard": "RL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which question should a reader answer using details from an informational text?",
+          "options": [
+            "What evidence does the text give?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What evidence does the text give?",
+          "answer_explanation": "The question asks the reader to use information in the text.",
+          "question_id": "G3-ELA-M1-W1-Q1"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Asking & Answering Questions",
+          "standard": "RL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text says penguins use their wings to help them swim. What question can the text answer?",
+          "options": [
+            "How do penguins use their wings?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How do penguins use their wings?",
+          "answer_explanation": "The answer is directly supported by the sentence.",
+          "question_id": "G3-ELA-M1-W1-Q2"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Asking & Answering Questions",
+          "standard": "RL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should readers return to the text when answering a question?",
+          "options": [
+            "To check that their answer is supported",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To check that their answer is supported",
+          "answer_explanation": "Text evidence helps readers give accurate answers.",
+          "question_id": "G3-ELA-M1-W1-Q3"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Asking & Answering Questions",
+          "standard": "RL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a text-based question?",
+          "options": [
+            "What caused the plant to grow taller?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What caused the plant to grow taller?",
+          "answer_explanation": "The cause can be determined from information in the text.",
+          "question_id": "G3-ELA-M1-W1-Q4"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Asking & Answering Questions",
+          "standard": "RL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student answers a question but cannot point to any supporting detail. What should the student do?",
+          "options": [
+            "Reread the text for evidence",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Reread the text for evidence",
+          "answer_explanation": "Rereading helps locate support.",
+          "question_id": "G3-ELA-M1-W1-Q5"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A fable tells of an ant that saves food during summer while a grasshopper does not. What lesson is most likely?",
+          "options": [
+            "Planning ahead can help you later.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Planning ahead can help you later.",
+          "answer_explanation": "The events show that preparing early is useful.",
+          "question_id": "G3-ELA-M1-W2-Q1"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child keeps practicing a difficult song until she performs it well. What is a likely message?",
+          "options": [
+            "Practice can help you improve.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Practice can help you improve.",
+          "answer_explanation": "The character's repeated practice leads to improvement.",
+          "question_id": "G3-ELA-M1-W2-Q2"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story shows two friends solving a problem by sharing. What lesson does it suggest?",
+          "options": [
+            "Cooperation can solve problems.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Cooperation can solve problems.",
+          "answer_explanation": "Sharing and working together help the characters.",
+          "question_id": "G3-ELA-M1-W2-Q3"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A character admits a mistake and apologizes. What lesson is supported?",
+          "options": [
+            "Being honest about mistakes is important.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Being honest about mistakes is important.",
+          "answer_explanation": "The character takes responsibility and apologizes.",
+          "question_id": "G3-ELA-M1-W2-Q4"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A fox helps another animal even though there is nothing to gain. What message fits?",
+          "options": [
+            "Kindness can help others.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Kindness can help others.",
+          "answer_explanation": "The character helps simply because another animal needs help.",
+          "question_id": "G3-ELA-M1-W2-Q5"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Ava gives her lunch to a classmate who forgot theirs. Which trait best describes Ava?",
+          "options": [
+            "Generous",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Generous",
+          "answer_explanation": "Giving her lunch shows generosity.",
+          "question_id": "G3-ELA-M1-W3-Q1"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Ben checks his work twice before turning it in. Which trait does he show?",
+          "options": [
+            "Careful",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Careful",
+          "answer_explanation": "Checking his work shows care and attention.",
+          "question_id": "G3-ELA-M1-W3-Q2"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Lena keeps trying after her kite falls three times. Which trait fits?",
+          "options": [
+            "Persistent",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Persistent",
+          "answer_explanation": "She continues even after setbacks.",
+          "question_id": "G3-ELA-M1-W3-Q3"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Omar listens to both sides before choosing a team. Which trait fits?",
+          "options": [
+            "Fair",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Fair",
+          "answer_explanation": "He considers both sides before deciding.",
+          "question_id": "G3-ELA-M1-W3-Q4"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Tia comforts a friend who is worried. Which trait fits?",
+          "options": [
+            "Caring",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Caring",
+          "answer_explanation": "Comforting someone shows care and concern.",
+          "question_id": "G3-ELA-M1-W3-Q5"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Story Structure",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which part of a story usually introduces the characters and setting?",
+          "options": [
+            "Beginning",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Beginning",
+          "answer_explanation": "The beginning commonly introduces who and where.",
+          "question_id": "G3-ELA-M1-W4-Q1"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Story Structure",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "The main problem is solved near the end of a story. Which story part contains the solution?",
+          "options": [
+            "Ending",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Ending",
+          "answer_explanation": "The ending often shows how the problem is resolved.",
+          "question_id": "G3-ELA-M1-W4-Q2"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Story Structure",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story has events that happen after the main problem is introduced. What part is this?",
+          "options": [
+            "Middle",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Middle",
+          "answer_explanation": "The middle develops the problem and events.",
+          "question_id": "G3-ELA-M1-W4-Q3"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Story Structure",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chapter ends with a character discovering a hidden door. What is this likely to do?",
+          "options": [
+            "Set up the next event",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Set up the next event",
+          "answer_explanation": "It creates anticipation for what comes next.",
+          "question_id": "G3-ELA-M1-W4-Q4"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Story Structure",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which order is most typical for a simple story?",
+          "options": [
+            "Beginning, middle, end",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Beginning, middle, end",
+          "answer_explanation": "Stories are commonly organized in this sequence.",
+          "question_id": "G3-ELA-M1-W4-Q5"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Point of View",
+          "standard": "RL.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A narrator says, 'I ran to the bus.' What point of view is used?",
+          "options": [
+            "First person",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "First person",
+          "answer_explanation": "The narrator uses 'I,' showing first-person narration.",
+          "question_id": "G3-ELA-M1-W5-Q1"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Point of View",
+          "standard": "RL.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A narrator says, 'Jordan packed his bag and left.' Which point of view is this?",
+          "options": [
+            "Third person",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Third person",
+          "answer_explanation": "The narrator refers to Jordan as 'he' rather than 'I.'",
+          "question_id": "G3-ELA-M1-W5-Q2"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Point of View",
+          "standard": "RL.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word most clearly signals first person?",
+          "options": [
+            "I",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I",
+          "answer_explanation": "The pronoun 'I' is used by a first-person narrator.",
+          "question_id": "G3-ELA-M1-W5-Q3"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Point of View",
+          "standard": "RL.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "In a story told by Maya, the narrator says, 'I felt nervous.' Who is telling the story?",
+          "options": [
+            "Maya",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Maya",
+          "answer_explanation": "The narrator uses 'I' to describe Maya's experience.",
+          "question_id": "G3-ELA-M1-W5-Q4"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Point of View",
+          "standard": "RL.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A narrator tells about two children using their names instead of 'I.' What point of view is most likely?",
+          "options": [
+            "Third person",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Third person",
+          "answer_explanation": "The narrator describes characters from outside the story.",
+          "question_id": "G3-ELA-M1-W5-Q5"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Phonics & Word Recognition",
+          "standard": "RF.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word has a prefix?",
+          "options": [
+            "unhappy",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "unhappy",
+          "answer_explanation": "'Un-' is a prefix added to 'happy.'",
+          "question_id": "G3-ELA-M1-W6-Q1"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Phonics & Word Recognition",
+          "standard": "RF.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word contains a suffix?",
+          "options": [
+            "helpful",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "helpful",
+          "answer_explanation": "'-ful' is a suffix added to 'help.'",
+          "question_id": "G3-ELA-M1-W6-Q2"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Phonics & Word Recognition",
+          "standard": "RF.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word has three syllables?",
+          "options": [
+            "banana",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "banana",
+          "answer_explanation": "Ba-na-na has three syllables.",
+          "question_id": "G3-ELA-M1-W6-Q3"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Phonics & Word Recognition",
+          "standard": "RF.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the base word in 'replayed'?",
+          "options": [
+            "play",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "play",
+          "answer_explanation": "'Re-' and '-ed' are added to the base word 'play.'",
+          "question_id": "G3-ELA-M1-W6-Q4"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Phonics & Word Recognition",
+          "standard": "RF.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word can be divided into syllables as 'sun-shine'?",
+          "options": [
+            "sunshine",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "sunshine",
+          "answer_explanation": "'Sunshine' has two syllables: sun-shine.",
+          "question_id": "G3-ELA-M1-W6-Q5"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Fluency",
+          "standard": "RF.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reading sounds most fluent?",
+          "options": [
+            "Reading smoothly with expression and appropriate pauses",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Reading smoothly with expression and appropriate pauses",
+          "answer_explanation": "Fluent reading is accurate, smooth, and expressive.",
+          "question_id": "G3-ELA-M1-W7-Q1"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Fluency",
+          "standard": "RF.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do readers pause at punctuation?",
+          "options": [
+            "To make the meaning clear",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To make the meaning clear",
+          "answer_explanation": "Punctuation helps readers group words and understand meaning.",
+          "question_id": "G3-ELA-M1-W7-Q2"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Fluency",
+          "standard": "RF.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which practice can improve reading fluency?",
+          "options": [
+            "Repeatedly reading a familiar passage",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Repeatedly reading a familiar passage",
+          "answer_explanation": "Repeated reading builds accuracy and smoothness.",
+          "question_id": "G3-ELA-M1-W7-Q3"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Fluency",
+          "standard": "RF.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A reader stops at every word and reads very slowly. What skill needs practice?",
+          "options": [
+            "Fluency",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Fluency",
+          "answer_explanation": "The reader needs more smooth, accurate reading.",
+          "question_id": "G3-ELA-M1-W7-Q4"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Fluency",
+          "standard": "RF.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a fluent reader do when a sentence ends with a question mark?",
+          "options": [
+            "Use a questioning tone",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Use a questioning tone",
+          "answer_explanation": "Expression should match the punctuation.",
+          "question_id": "G3-ELA-M1-W7-Q5"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail makes a narrative more vivid?",
+          "options": [
+            "The warm wind brushed Maya's face.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The warm wind brushed Maya's face.",
+          "answer_explanation": "Specific sensory details make a story more vivid.",
+          "question_id": "G3-ELA-M1-W8-Q1"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a narrative usually include?",
+          "options": [
+            "Events in a logical sequence",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Events in a logical sequence",
+          "answer_explanation": "Narratives tell connected events in order.",
+          "question_id": "G3-ELA-M1-W8-Q2"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence best begins a story?",
+          "options": [
+            "On Saturday morning, Eli discovered a box in the attic.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "On Saturday morning, Eli discovered a box in the attic.",
+          "answer_explanation": "It introduces a time and a story event.",
+          "question_id": "G3-ELA-M1-W8-Q3"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which transition best shows what happened next?",
+          "options": [
+            "After that",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "After that",
+          "answer_explanation": "'After that' clearly signals the next event.",
+          "question_id": "G3-ELA-M1-W8-Q4"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which ending best completes a narrative about solving a lost-dog problem?",
+          "options": [
+            "We found the dog and brought him safely home.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "We found the dog and brought him safely home.",
+          "answer_explanation": "It resolves the problem introduced in the story.",
+          "question_id": "G3-ELA-M1-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-ELA-MODULE-2",
+      "course": "Grade 3 English Language Arts",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 2,
+      "module_title": "Reading Informational Text",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Details",
+          "standard": "RI.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Text: 'Bees visit flowers to collect nectar and pollen. They carry pollen between flowers.' What is the main idea?",
+          "options": [
+            "Bees collect and move materials between flowers.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Bees collect and move materials between flowers.",
+          "answer_explanation": "The details explain what bees do at flowers.",
+          "question_id": "G3-ELA-M2-W1-Q1"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Details",
+          "standard": "RI.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A paragraph lists ways trees help people: shade, fruit, and cleaner air. What is the main idea?",
+          "options": [
+            "Trees can help people in several ways.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Trees can help people in several ways.",
+          "answer_explanation": "The listed details support this broader idea.",
+          "question_id": "G3-ELA-M2-W1-Q2"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Details",
+          "standard": "RI.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text explains that sleep helps children learn and stay healthy. What is the main idea?",
+          "options": [
+            "Sleep is important for children.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Sleep is important for children.",
+          "answer_explanation": "The details explain benefits of sleep.",
+          "question_id": "G3-ELA-M2-W1-Q3"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Details",
+          "standard": "RI.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail best supports the idea that exercise is healthy?",
+          "options": [
+            "Running can strengthen the heart.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Running can strengthen the heart.",
+          "answer_explanation": "This is a specific health benefit of exercise.",
+          "question_id": "G3-ELA-M2-W1-Q4"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Details",
+          "standard": "RI.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A paragraph explains how rain helps plants grow. What is the main idea?",
+          "options": [
+            "Rain provides water that helps plants grow.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Rain provides water that helps plants grow.",
+          "answer_explanation": "The details connect rain to plant growth.",
+          "question_id": "G3-ELA-M2-W1-Q5"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Asking & Answering Questions",
+          "standard": "RI.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which question should a reader answer using details from an informational text?",
+          "options": [
+            "What evidence does the text give?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What evidence does the text give?",
+          "answer_explanation": "The question asks the reader to use information in the text.",
+          "question_id": "G3-ELA-M2-W2-Q1"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Asking & Answering Questions",
+          "standard": "RI.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text says penguins use their wings to help them swim. What question can the text answer?",
+          "options": [
+            "How do penguins use their wings?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How do penguins use their wings?",
+          "answer_explanation": "The answer is directly supported by the sentence.",
+          "question_id": "G3-ELA-M2-W2-Q2"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Asking & Answering Questions",
+          "standard": "RI.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should readers return to the text when answering a question?",
+          "options": [
+            "To check that their answer is supported",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To check that their answer is supported",
+          "answer_explanation": "Text evidence helps readers give accurate answers.",
+          "question_id": "G3-ELA-M2-W2-Q3"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Asking & Answering Questions",
+          "standard": "RI.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a text-based question?",
+          "options": [
+            "What caused the plant to grow taller?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What caused the plant to grow taller?",
+          "answer_explanation": "The cause can be determined from information in the text.",
+          "question_id": "G3-ELA-M2-W2-Q4"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Asking & Answering Questions",
+          "standard": "RI.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student answers a question but cannot point to any supporting detail. What should the student do?",
+          "options": [
+            "Reread the text for evidence",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Reread the text for evidence",
+          "answer_explanation": "Rereading helps locate support.",
+          "question_id": "G3-ELA-M2-W2-Q5"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Connecting Ideas",
+          "standard": "RI.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text explains that heavy rain fills a river, and the river may flood nearby land. What relationship is shown?",
+          "options": [
+            "Cause and effect",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Cause and effect",
+          "answer_explanation": "Heavy rain is the cause and flooding is the effect.",
+          "question_id": "G3-ELA-M2-W3-Q1"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Connecting Ideas",
+          "standard": "RI.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text says first the seed is planted, next it sprouts, and then leaves grow. What relationship is shown?",
+          "options": [
+            "Sequence",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Sequence",
+          "answer_explanation": "The events are presented in order.",
+          "question_id": "G3-ELA-M2-W3-Q2"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Connecting Ideas",
+          "standard": "RI.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A paragraph explains that bees pollinate flowers, which helps plants make seeds. What relationship is shown?",
+          "options": [
+            "Cause and effect",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Cause and effect",
+          "answer_explanation": "Pollination helps cause seed production.",
+          "question_id": "G3-ELA-M2-W3-Q3"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Connecting Ideas",
+          "standard": "RI.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word signals sequence?",
+          "options": [
+            "Finally",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Finally",
+          "answer_explanation": "'Finally' tells when the last event occurs.",
+          "question_id": "G3-ELA-M2-W3-Q4"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Connecting Ideas",
+          "standard": "RI.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word signals a cause?",
+          "options": [
+            "Because",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Because",
+          "answer_explanation": "'Because' often introduces a reason or cause.",
+          "question_id": "G3-ELA-M2-W3-Q5"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Where would you look to find the meaning of a difficult word in a book?",
+          "options": [
+            "Glossary",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Glossary",
+          "answer_explanation": "A glossary gives definitions of important words.",
+          "question_id": "G3-ELA-M2-W4-Q1"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which feature usually tells what a section is about?",
+          "options": [
+            "Heading",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Heading",
+          "answer_explanation": "A heading names or introduces a section.",
+          "question_id": "G3-ELA-M2-W4-Q2"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Where might you look to find a topic quickly?",
+          "options": [
+            "Table of contents",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Table of contents",
+          "answer_explanation": "A table of contents lists sections and their pages.",
+          "question_id": "G3-ELA-M2-W4-Q3"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a caption often explain?",
+          "options": [
+            "A picture or photograph",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A picture or photograph",
+          "answer_explanation": "Captions provide information about images.",
+          "question_id": "G3-ELA-M2-W4-Q4"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which feature helps you locate a specific page?",
+          "options": [
+            "Page number",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Page number",
+          "answer_explanation": "Page numbers help readers find locations in a text.",
+          "question_id": "G3-ELA-M2-W4-Q5"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "An article gives facts about how to care for a puppy. What is the author's main purpose?",
+          "options": [
+            "To inform",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To inform",
+          "answer_explanation": "The article provides information.",
+          "question_id": "G3-ELA-M2-W5-Q1"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A poster says, 'Please recycle your bottles!' What is the purpose?",
+          "options": [
+            "To persuade",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To persuade",
+          "answer_explanation": "The message encourages readers to act.",
+          "question_id": "G3-ELA-M2-W5-Q2"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A funny story about a clumsy cat is mainly written to do what?",
+          "options": [
+            "Entertain",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Entertain",
+          "answer_explanation": "The story is meant to amuse readers.",
+          "question_id": "G3-ELA-M2-W5-Q3"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A set of directions explains how to plant seeds. What is the purpose?",
+          "options": [
+            "To explain how to do something",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To explain how to do something",
+          "answer_explanation": "Directions teach a process.",
+          "question_id": "G3-ELA-M2-W5-Q4"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "An article lists facts about planets. What is its purpose?",
+          "options": [
+            "To inform",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To inform",
+          "answer_explanation": "Facts about planets provide information.",
+          "question_id": "G3-ELA-M2-W5-Q5"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Using Illustrations",
+          "standard": "RI.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A map shows a river running beside a town. What can the map help a reader understand?",
+          "options": [
+            "Where the river and town are located",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Where the river and town are located",
+          "answer_explanation": "Maps show location and spatial relationships.",
+          "question_id": "G3-ELA-M2-W6-Q1"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Using Illustrations",
+          "standard": "RI.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A diagram labels the parts of a flower. What does it help the reader do?",
+          "options": [
+            "Identify the flower's parts",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Identify the flower's parts",
+          "answer_explanation": "Labels connect names to parts.",
+          "question_id": "G3-ELA-M2-W6-Q2"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Using Illustrations",
+          "standard": "RI.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A photograph shows a bird's long beak. What can the image help you notice?",
+          "options": [
+            "A physical feature of the bird",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A physical feature of the bird",
+          "answer_explanation": "The photograph provides visual evidence.",
+          "question_id": "G3-ELA-M2-W6-Q3"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Using Illustrations",
+          "standard": "RI.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A chart shows the stages of a butterfly's life cycle. What can it help explain?",
+          "options": [
+            "The order of the stages",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The order of the stages",
+          "answer_explanation": "The chart visually shows sequence.",
+          "question_id": "G3-ELA-M2-W6-Q4"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Using Illustrations",
+          "standard": "RI.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why can illustrations be useful in informational texts?",
+          "options": [
+            "They can make information easier to understand",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They can make information easier to understand",
+          "answer_explanation": "Visuals can clarify ideas and details.",
+          "question_id": "G3-ELA-M2-W6-Q5"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Comparing Texts",
+          "standard": "RI.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two texts describe the same park. One focuses on plants and the other on animals. What can readers compare?",
+          "options": [
+            "The information each text gives about the park",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The information each text gives about the park",
+          "answer_explanation": "Readers can compare key points across texts.",
+          "question_id": "G3-ELA-M2-W7-Q1"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Comparing Texts",
+          "standard": "RI.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two texts explain rain. One uses a diagram and one uses a paragraph. What can be compared?",
+          "options": [
+            "How each text presents information",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How each text presents information",
+          "answer_explanation": "Different formats can present related ideas.",
+          "question_id": "G3-ELA-M2-W7-Q2"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Comparing Texts",
+          "standard": "RI.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a reader look for when comparing two texts on one topic?",
+          "options": [
+            "Important points and details in both texts",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Important points and details in both texts",
+          "answer_explanation": "Comparison requires evidence from both texts.",
+          "question_id": "G3-ELA-M2-W7-Q3"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Comparing Texts",
+          "standard": "RI.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If both texts say bees visit flowers, what do they share?",
+          "options": [
+            "A key point",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A key point",
+          "answer_explanation": "The same idea appears in both texts.",
+          "question_id": "G3-ELA-M2-W7-Q4"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Comparing Texts",
+          "standard": "RI.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "One text gives three facts about whales and another gives five. What can a reader compare?",
+          "options": [
+            "The facts and details included in each text",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The facts and details included in each text",
+          "answer_explanation": "Readers can compare the information provided.",
+          "question_id": "G3-ELA-M2-W7-Q5"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is best for an informative paragraph about frogs?",
+          "options": [
+            "Frogs begin life as eggs and later develop into tadpoles.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Frogs begin life as eggs and later develop into tadpoles.",
+          "answer_explanation": "It gives a factual detail.",
+          "question_id": "G3-ELA-M2-W8-Q1"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should informative writing use?",
+          "options": [
+            "Facts and clear explanations",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Facts and clear explanations",
+          "answer_explanation": "Informative writing explains a topic with information.",
+          "question_id": "G3-ELA-M2-W8-Q2"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which transition helps organize information?",
+          "options": [
+            "For example",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "For example",
+          "answer_explanation": "It introduces a supporting example.",
+          "question_id": "G3-ELA-M2-W8-Q3"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a good topic sentence for a paragraph about recycling?",
+          "options": [
+            "Recycling helps reduce the amount of waste we throw away.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Recycling helps reduce the amount of waste we throw away.",
+          "answer_explanation": "It clearly states the topic and main idea.",
+          "question_id": "G3-ELA-M2-W8-Q4"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should an informative writer organize facts?",
+          "options": [
+            "So readers can understand the topic easily",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So readers can understand the topic easily",
+          "answer_explanation": "Organization makes information clearer.",
+          "question_id": "G3-ELA-M2-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-ELA-MODULE-3",
+      "course": "Grade 3 English Language Arts",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 3,
+      "module_title": "Language, Vocabulary & Opinion Writing",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Parts of Speech",
+          "standard": "L.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a noun in 'The rabbit hopped quickly'?",
+          "options": [
+            "rabbit",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "rabbit",
+          "answer_explanation": "A rabbit is a person, place, thing, or animal name.",
+          "question_id": "G3-ELA-M3-W1-Q1"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Parts of Speech",
+          "standard": "L.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a verb in 'Mia painted a picture'?",
+          "options": [
+            "painted",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "painted",
+          "answer_explanation": "'Painted' names the action.",
+          "question_id": "G3-ELA-M3-W1-Q2"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Parts of Speech",
+          "standard": "L.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adjective in 'The bright sun warmed us'?",
+          "options": [
+            "bright",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "bright",
+          "answer_explanation": "'Bright' describes the sun.",
+          "question_id": "G3-ELA-M3-W1-Q3"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Parts of Speech",
+          "standard": "L.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adverb in 'The bird sang softly'?",
+          "options": [
+            "softly",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "softly",
+          "answer_explanation": "'Softly' tells how the bird sang.",
+          "question_id": "G3-ELA-M3-W1-Q4"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Parts of Speech",
+          "standard": "L.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a noun in 'The teacher opened the book'?",
+          "options": [
+            "teacher",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "teacher",
+          "answer_explanation": "'Teacher' names a person.",
+          "question_id": "G3-ELA-M3-W1-Q5"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences",
+          "standard": "L.3.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a complete sentence?",
+          "options": [
+            "The dog chased the ball.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The dog chased the ball.",
+          "answer_explanation": "It has a subject, a verb, and a complete thought.",
+          "question_id": "G3-ELA-M3-W2-Q1"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences",
+          "standard": "L.3.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence uses correct capitalization?",
+          "options": [
+            "My friend lives in Texas.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "My friend lives in Texas.",
+          "answer_explanation": "The sentence begins with a capital and uses the proper noun correctly.",
+          "question_id": "G3-ELA-M3-W2-Q2"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences",
+          "standard": "L.3.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is compound?",
+          "options": [
+            "I read a book, and my sister drew a picture.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I read a book, and my sister drew a picture.",
+          "answer_explanation": "It joins two complete thoughts with 'and.'",
+          "question_id": "G3-ELA-M3-W2-Q3"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences",
+          "standard": "L.3.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which punctuation mark belongs at the end of a question?",
+          "options": [
+            "?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "?",
+          "answer_explanation": "Questions end with a question mark.",
+          "question_id": "G3-ELA-M3-W2-Q4"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences",
+          "standard": "L.3.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which group of words is a complete sentence?",
+          "options": [
+            "Birds build nests.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Birds build nests.",
+          "answer_explanation": "It expresses a complete thought.",
+          "question_id": "G3-ELA-M3-W2-Q5"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The puppy was timid, so it hid behind the chair.' What does timid most likely mean?",
+          "options": [
+            "shy or afraid",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "shy or afraid",
+          "answer_explanation": "Hiding suggests the puppy was shy or afraid.",
+          "question_id": "G3-ELA-M3-W3-Q1"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The desert was arid; almost no rain fell.' What does arid mean?",
+          "options": [
+            "dry",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "dry",
+          "answer_explanation": "The lack of rain is a clue.",
+          "question_id": "G3-ELA-M3-W3-Q2"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The glass was fragile, so we carried it carefully.' What does fragile mean?",
+          "options": [
+            "easy to break",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "easy to break",
+          "answer_explanation": "Carrying it carefully suggests it can break easily.",
+          "question_id": "G3-ELA-M3-W3-Q3"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The path was narrow, so only one person could walk on it at a time.' What does narrow mean?",
+          "options": [
+            "not wide",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "not wide",
+          "answer_explanation": "The clue says only one person could fit.",
+          "question_id": "G3-ELA-M3-W3-Q4"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The room was enormous; it could hold hundreds of people.' What does enormous mean?",
+          "options": [
+            "very large",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "very large",
+          "answer_explanation": "The capacity of the room is the clue.",
+          "question_id": "G3-ELA-M3-W3-Q5"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Word Relationships",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which pair are synonyms?",
+          "options": [
+            "happy and joyful",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "happy and joyful",
+          "answer_explanation": "Both words have similar meanings.",
+          "question_id": "G3-ELA-M3-W4-Q1"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Word Relationships",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which pair are antonyms?",
+          "options": [
+            "hot and cold",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "hot and cold",
+          "answer_explanation": "They have opposite meanings.",
+          "question_id": "G3-ELA-M3-W4-Q2"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Word Relationships",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a stronger shade of 'walk'?",
+          "options": [
+            "stomp",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "stomp",
+          "answer_explanation": "'Stomp' describes a more forceful kind of walking.",
+          "question_id": "G3-ELA-M3-W4-Q3"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Word Relationships",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which pair are related because one is a type of the other?",
+          "options": [
+            "fruit and apple",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "fruit and apple",
+          "answer_explanation": "An apple is a kind of fruit.",
+          "question_id": "G3-ELA-M3-W4-Q4"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Word Relationships",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is closest in meaning to 'tiny'?",
+          "options": [
+            "small",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "small",
+          "answer_explanation": "Both describe something with little size.",
+          "question_id": "G3-ELA-M3-W4-Q5"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Prefixes, Suffixes & Roots",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the prefix 'un-' usually mean in 'unhappy'?",
+          "options": [
+            "not",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "not",
+          "answer_explanation": "'Un-' changes happy to mean not happy.",
+          "question_id": "G3-ELA-M3-W5-Q1"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Prefixes, Suffixes & Roots",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does '-ful' mean in 'helpful'?",
+          "options": [
+            "full of",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "full of",
+          "answer_explanation": "'Helpful' means full of help or providing help.",
+          "question_id": "G3-ELA-M3-W5-Q2"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Prefixes, Suffixes & Roots",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is the base word in 'careless'?",
+          "options": [
+            "care",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "care",
+          "answer_explanation": "'-less' is added to 'care.'",
+          "question_id": "G3-ELA-M3-W5-Q3"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Prefixes, Suffixes & Roots",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does 're-' mean in 'replay'?",
+          "options": [
+            "again",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "again",
+          "answer_explanation": "Replay means play again.",
+          "question_id": "G3-ELA-M3-W5-Q4"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Prefixes, Suffixes & Roots",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does '-er' mean in 'teacher'?",
+          "options": [
+            "a person who does something",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "a person who does something",
+          "answer_explanation": "A teacher is a person who teaches.",
+          "question_id": "G3-ELA-M3-W5-Q5"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is an opinion?",
+          "options": [
+            "Our school should have a garden.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Our school should have a garden.",
+          "answer_explanation": "It states a belief or position that can be supported with reasons.",
+          "question_id": "G3-ELA-M3-W6-Q1"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is the strongest support for the opinion that recess is important?",
+          "options": [
+            "Recess gives students time to move and refresh their minds.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Recess gives students time to move and refresh their minds.",
+          "answer_explanation": "It gives a relevant reason.",
+          "question_id": "G3-ELA-M3-W6-Q2"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should an opinion writer include?",
+          "options": [
+            "A clear opinion and supporting reasons",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A clear opinion and supporting reasons",
+          "answer_explanation": "Reasons support the writer's position.",
+          "question_id": "G3-ELA-M3-W6-Q3"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a fact rather than an opinion?",
+          "options": [
+            "A week has seven days.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A week has seven days.",
+          "answer_explanation": "This can be verified and is not a personal belief.",
+          "question_id": "G3-ELA-M3-W6-Q4"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reason supports the opinion 'Students should read every day'?",
+          "options": [
+            "Daily reading gives students practice with words and ideas.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Daily reading gives students practice with words and ideas.",
+          "answer_explanation": "It directly supports the opinion.",
+          "question_id": "G3-ELA-M3-W6-Q5"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence clearly states an opinion?",
+          "options": [
+            "I believe our class should have more outdoor reading time.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I believe our class should have more outdoor reading time.",
+          "answer_explanation": "It clearly expresses the writer's position.",
+          "question_id": "G3-ELA-M3-W7-Q1"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which transition can connect reasons?",
+          "options": [
+            "Also",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Also",
+          "answer_explanation": "'Also' adds another supporting point.",
+          "question_id": "G3-ELA-M3-W7-Q2"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should an opinion conclusion do?",
+          "options": [
+            "Restate the opinion and wrap up the reasons",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Restate the opinion and wrap up the reasons",
+          "answer_explanation": "A conclusion brings the argument to a close.",
+          "question_id": "G3-ELA-M3-W7-Q3"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail best supports the opinion that school gardens are useful?",
+          "options": [
+            "Students can observe plants growing.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Students can observe plants growing.",
+          "answer_explanation": "It gives a specific reason.",
+          "question_id": "G3-ELA-M3-W7-Q4"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should opinion writing include reasons?",
+          "options": [
+            "Reasons explain why the writer holds the opinion",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Reasons explain why the writer holds the opinion",
+          "answer_explanation": "They provide support.",
+          "question_id": "G3-ELA-M3-W7-Q5"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which change improves this sentence: 'the dog ran fast.'?",
+          "options": [
+            "The dog ran fast.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The dog ran fast.",
+          "answer_explanation": "It needs a capital letter at the beginning.",
+          "question_id": "G3-ELA-M3-W8-Q1"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is revising mainly for?",
+          "options": [
+            "Improving ideas, organization, and details",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Improving ideas, organization, and details",
+          "answer_explanation": "Revision improves the writing itself.",
+          "question_id": "G3-ELA-M3-W8-Q2"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is editing mainly for?",
+          "options": [
+            "Correcting grammar, spelling, punctuation, and capitalization",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Correcting grammar, spelling, punctuation, and capitalization",
+          "answer_explanation": "Editing fixes language conventions.",
+          "question_id": "G3-ELA-M3-W8-Q3"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence has correct punctuation?",
+          "options": [
+            "We went to the park, and we played soccer.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "We went to the park, and we played soccer.",
+          "answer_explanation": "The comma correctly separates the two joined clauses.",
+          "question_id": "G3-ELA-M3-W8-Q4"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a writer check after drafting?",
+          "options": [
+            "Whether the writing is clear and complete",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Whether the writing is clear and complete",
+          "answer_explanation": "Review helps improve the final piece.",
+          "question_id": "G3-ELA-M3-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-ELA-MODULE-4",
+      "course": "Grade 3 English Language Arts",
+      "grade": 3,
+      "assessment_type": "module_test",
+      "module": 4,
+      "module_title": "Poetry, Research & Communication",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A poem repeats the words 'swish, swish, swish.' What might this repetition create?",
+          "options": [
+            "A rhythm or sound effect",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A rhythm or sound effect",
+          "answer_explanation": "Repeated words can create rhythm and emphasize sound.",
+          "question_id": "G3-ELA-M4-W1-Q1"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which feature can help create rhythm in a poem?",
+          "options": [
+            "Repeated patterns of sounds or words",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Repeated patterns of sounds or words",
+          "answer_explanation": "Patterns contribute to rhythm.",
+          "question_id": "G3-ELA-M4-W1-Q2"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A poem describes the moon as 'a silver ball.' What is this image helping the reader do?",
+          "options": [
+            "Picture the moon",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Picture the moon",
+          "answer_explanation": "Imagery creates a mental picture.",
+          "question_id": "G3-ELA-M4-W1-Q3"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can rhyme do in a poem?",
+          "options": [
+            "Create a pattern of sounds",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Create a pattern of sounds",
+          "answer_explanation": "Rhyming words can make a sound pattern.",
+          "question_id": "G3-ELA-M4-W1-Q4"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might a poet repeat a word?",
+          "options": [
+            "To emphasize an idea or create rhythm",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To emphasize an idea or create rhythm",
+          "answer_explanation": "Repetition can serve both purposes.",
+          "question_id": "G3-ELA-M4-W1-Q5"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Figurative Language",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The classroom was a zoo.' Is this meant literally?",
+          "options": [
+            "No",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "No",
+          "answer_explanation": "It compares the noisy classroom to a zoo without meaning it was actually one.",
+          "question_id": "G3-ELA-M4-W2-Q1"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Figurative Language",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The wind whispered through the trees.' What does this mean?",
+          "options": [
+            "The wind made a soft sound through the trees.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The wind made a soft sound through the trees.",
+          "answer_explanation": "The wind cannot literally whisper; the phrase describes a soft sound.",
+          "question_id": "G3-ELA-M4-W2-Q2"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Figurative Language",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'Her smile was as bright as the sun.' What does this comparison show?",
+          "options": [
+            "Her smile was very bright or cheerful.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Her smile was very bright or cheerful.",
+          "answer_explanation": "The comparison emphasizes brightness.",
+          "question_id": "G3-ELA-M4-W2-Q3"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Figurative Language",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which phrase is nonliteral?",
+          "options": [
+            "The stars danced in the sky.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The stars danced in the sky.",
+          "answer_explanation": "Stars do not literally dance; the phrase creates an image.",
+          "question_id": "G3-ELA-M4-W2-Q4"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Figurative Language",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why do writers use figurative language?",
+          "options": [
+            "To create vivid images and ideas",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To create vivid images and ideas",
+          "answer_explanation": "Nonliteral comparisons can make writing more expressive.",
+          "question_id": "G3-ELA-M4-W2-Q5"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Comparing Stories",
+          "standard": "RL.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Two stories have different characters but the same lesson about kindness. What do they share?",
+          "options": [
+            "A theme",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A theme",
+          "answer_explanation": "The shared lesson is a theme.",
+          "question_id": "G3-ELA-M4-W3-Q1"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Comparing Stories",
+          "standard": "RL.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "When comparing two stories, what can readers examine?",
+          "options": [
+            "Characters, settings, plots, and themes",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Characters, settings, plots, and themes",
+          "answer_explanation": "These are important story elements.",
+          "question_id": "G3-ELA-M4-W3-Q2"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Comparing Stories",
+          "standard": "RL.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Story A and Story B both take place in a forest. What do they share?",
+          "options": [
+            "A setting",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A setting",
+          "answer_explanation": "The setting is where a story takes place.",
+          "question_id": "G3-ELA-M4-W3-Q3"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Comparing Stories",
+          "standard": "RL.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "One story has a problem solved by teamwork; another has a problem solved by honesty. What differs?",
+          "options": [
+            "The way the problems are solved",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The way the problems are solved",
+          "answer_explanation": "The resolution differs.",
+          "question_id": "G3-ELA-M4-W3-Q4"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Comparing Stories",
+          "standard": "RL.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why compare stories by the same author?",
+          "options": [
+            "To notice similarities and differences in how the author tells stories",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To notice similarities and differences in how the author tells stories",
+          "answer_explanation": "Comparison can reveal patterns in an author's work.",
+          "question_id": "G3-ELA-M4-W3-Q5"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Research Basics",
+          "standard": "W.3.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a source?",
+          "options": [
+            "A place where information can be found",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A place where information can be found",
+          "answer_explanation": "Books, websites, and interviews can provide information.",
+          "question_id": "G3-ELA-M4-W4-Q1"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Research Basics",
+          "standard": "W.3.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which source might provide facts about planets?",
+          "options": [
+            "A science encyclopedia",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A science encyclopedia",
+          "answer_explanation": "It is designed to provide factual information.",
+          "question_id": "G3-ELA-M4-W4-Q2"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Research Basics",
+          "standard": "W.3.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should researchers record where information came from?",
+          "options": [
+            "So they can identify their sources",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So they can identify their sources",
+          "answer_explanation": "Recording sources helps track information.",
+          "question_id": "G3-ELA-M4-W4-Q3"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Research Basics",
+          "standard": "W.3.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should you do if two sources give different facts?",
+          "options": [
+            "Check the sources and compare the evidence",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Check the sources and compare the evidence",
+          "answer_explanation": "Comparing evidence helps determine reliable information.",
+          "question_id": "G3-ELA-M4-W4-Q4"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Research Basics",
+          "standard": "W.3.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which question is useful before beginning research?",
+          "options": [
+            "What do I want to learn?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What do I want to learn?",
+          "answer_explanation": "A focused question guides research.",
+          "question_id": "G3-ELA-M4-W4-Q5"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Research Project",
+          "standard": "W.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a good first step in a short research project?",
+          "options": [
+            "Choose a topic or question",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Choose a topic or question",
+          "answer_explanation": "A clear topic gives the project direction.",
+          "question_id": "G3-ELA-M4-W5-Q1"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Research Project",
+          "standard": "W.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How should facts be organized in a research project?",
+          "options": [
+            "By related ideas or sections",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "By related ideas or sections",
+          "answer_explanation": "Organization helps readers follow the information.",
+          "question_id": "G3-ELA-M4-W5-Q2"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Research Project",
+          "standard": "W.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why take notes while researching?",
+          "options": [
+            "To remember useful information and sources",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To remember useful information and sources",
+          "answer_explanation": "Notes help collect and organize evidence.",
+          "question_id": "G3-ELA-M4-W5-Q3"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Research Project",
+          "standard": "W.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a useful research question about bees?",
+          "options": [
+            "How do bees help plants?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How do bees help plants?",
+          "answer_explanation": "It is focused and can be researched.",
+          "question_id": "G3-ELA-M4-W5-Q4"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Research Project",
+          "standard": "W.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a research report include?",
+          "options": [
+            "Information gathered from sources",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Information gathered from sources",
+          "answer_explanation": "Research writing presents evidence from sources.",
+          "question_id": "G3-ELA-M4-W5-Q5"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Speaking & Listening",
+          "standard": "SL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a good discussion participant do?",
+          "options": [
+            "Listen and respond to others' ideas",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Listen and respond to others' ideas",
+          "answer_explanation": "Discussion requires both speaking and listening.",
+          "question_id": "G3-ELA-M4-W6-Q1"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Speaking & Listening",
+          "standard": "SL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which question helps continue a discussion?",
+          "options": [
+            "What makes you think that?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What makes you think that?",
+          "answer_explanation": "It invites another speaker to explain an idea.",
+          "question_id": "G3-ELA-M4-W6-Q2"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Speaking & Listening",
+          "standard": "SL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How can you show that you are listening?",
+          "options": [
+            "Look at the speaker and respond to the idea",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Look at the speaker and respond to the idea",
+          "answer_explanation": "These behaviors show attention.",
+          "question_id": "G3-ELA-M4-W6-Q3"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Speaking & Listening",
+          "standard": "SL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If you disagree with a classmate, what is a respectful response?",
+          "options": [
+            "I see your idea, but I think differently because...",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I see your idea, but I think differently because...",
+          "answer_explanation": "It acknowledges the idea and gives a reason.",
+          "question_id": "G3-ELA-M4-W6-Q4"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Speaking & Listening",
+          "standard": "SL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should speakers take turns?",
+          "options": [
+            "So everyone has a chance to participate",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So everyone has a chance to participate",
+          "answer_explanation": "Turn-taking supports productive discussion.",
+          "question_id": "G3-ELA-M4-W6-Q5"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Presenting",
+          "standard": "SL.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What helps make a presentation clear?",
+          "options": [
+            "Speaking clearly and organizing ideas",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Speaking clearly and organizing ideas",
+          "answer_explanation": "Clear speech and organization help the audience.",
+          "question_id": "G3-ELA-M4-W7-Q1"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Presenting",
+          "standard": "SL.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a speaker do when presenting facts about an animal?",
+          "options": [
+            "Explain the facts in an organized way",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Explain the facts in an organized way",
+          "answer_explanation": "Organization helps the audience understand.",
+          "question_id": "G3-ELA-M4-W7-Q2"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Presenting",
+          "standard": "SL.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use appropriate volume?",
+          "options": [
+            "So the audience can hear you",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So the audience can hear you",
+          "answer_explanation": "Volume affects how well the audience can hear.",
+          "question_id": "G3-ELA-M4-W7-Q3"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Presenting",
+          "standard": "SL.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can visual aids do?",
+          "options": [
+            "Help explain information",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Help explain information",
+          "answer_explanation": "Charts and pictures can support a presentation.",
+          "question_id": "G3-ELA-M4-W7-Q4"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Presenting",
+          "standard": "SL.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "How should a speaker prepare?",
+          "options": [
+            "Practice and organize the main points",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Practice and organize the main points",
+          "answer_explanation": "Preparation improves clarity and confidence.",
+          "question_id": "G3-ELA-M4-W7-Q5"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is written correctly?",
+          "options": [
+            "The small bird flew quickly.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The small bird flew quickly.",
+          "answer_explanation": "Capitalization and word use are correct.",
+          "question_id": "G3-ELA-M4-W8-Q1"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adjective?",
+          "options": [
+            "bright",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "bright",
+          "answer_explanation": "It describes a noun.",
+          "question_id": "G3-ELA-M4-W8-Q2"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adverb?",
+          "options": [
+            "quickly",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "quickly",
+          "answer_explanation": "It describes how an action happens.",
+          "question_id": "G3-ELA-M4-W8-Q3"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence uses correct punctuation?",
+          "options": [
+            "Where are you going?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Where are you going?",
+          "answer_explanation": "A question needs a question mark.",
+          "question_id": "G3-ELA-M4-W8-Q4"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a synonym for 'large'?",
+          "options": [
+            "big",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "big",
+          "answer_explanation": "The words have similar meanings.",
+          "question_id": "G3-ELA-M4-W8-Q5"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-ELA-MOCK-1",
+      "course": "Grade 3 English Language Arts",
+      "grade": 3,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Asking & Answering Questions",
+          "standard": "RL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A text says penguins use their wings to help them swim. What question can the text answer?",
+          "options": [
+            "How do penguins use their wings?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "How do penguins use their wings?",
+          "answer_explanation": "The answer is directly supported by the sentence.",
+          "question_id": "G3-ELA-MOCK-1-Q1"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story shows two friends solving a problem by sharing. What lesson does it suggest?",
+          "options": [
+            "Cooperation can solve problems.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Cooperation can solve problems.",
+          "answer_explanation": "Sharing and working together help the characters.",
+          "question_id": "G3-ELA-MOCK-1-Q2"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Omar listens to both sides before choosing a team. Which trait fits?",
+          "options": [
+            "Fair",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Fair",
+          "answer_explanation": "He considers both sides before deciding.",
+          "question_id": "G3-ELA-MOCK-1-Q3"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Story Structure",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which order is most typical for a simple story?",
+          "options": [
+            "Beginning, middle, end",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Beginning, middle, end",
+          "answer_explanation": "Stories are commonly organized in this sequence.",
+          "question_id": "G3-ELA-MOCK-1-Q4"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Point of View",
+          "standard": "RL.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A narrator says, 'I ran to the bus.' What point of view is used?",
+          "options": [
+            "First person",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "First person",
+          "answer_explanation": "The narrator uses 'I,' showing first-person narration.",
+          "question_id": "G3-ELA-MOCK-1-Q5"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Phonics & Word Recognition",
+          "standard": "RF.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word contains a suffix?",
+          "options": [
+            "helpful",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "helpful",
+          "answer_explanation": "'-ful' is a suffix added to 'help.'",
+          "question_id": "G3-ELA-MOCK-1-Q6"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Fluency",
+          "standard": "RF.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which practice can improve reading fluency?",
+          "options": [
+            "Repeatedly reading a familiar passage",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Repeatedly reading a familiar passage",
+          "answer_explanation": "Repeated reading builds accuracy and smoothness.",
+          "question_id": "G3-ELA-MOCK-1-Q7"
+        },
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which transition best shows what happened next?",
+          "options": [
+            "After that",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "After that",
+          "answer_explanation": "'After that' clearly signals the next event.",
+          "question_id": "G3-ELA-MOCK-1-Q8"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Details",
+          "standard": "RI.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A paragraph lists ways trees help people: shade, fruit, and cleaner air. What is the main idea?",
+          "options": [
+            "Trees can help people in several ways.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Trees can help people in several ways.",
+          "answer_explanation": "The listed details support this broader idea.",
+          "question_id": "G3-ELA-MOCK-1-Q9"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Asking & Answering Questions",
+          "standard": "RI.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should readers return to the text when answering a question?",
+          "options": [
+            "To check that their answer is supported",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To check that their answer is supported",
+          "answer_explanation": "Text evidence helps readers give accurate answers.",
+          "question_id": "G3-ELA-MOCK-1-Q10"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Connecting Ideas",
+          "standard": "RI.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word signals sequence?",
+          "options": [
+            "Finally",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Finally",
+          "answer_explanation": "'Finally' tells when the last event occurs.",
+          "question_id": "G3-ELA-MOCK-1-Q11"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which feature helps you locate a specific page?",
+          "options": [
+            "Page number",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Page number",
+          "answer_explanation": "Page numbers help readers find locations in a text.",
+          "question_id": "G3-ELA-MOCK-1-Q12"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "An article gives facts about how to care for a puppy. What is the author's main purpose?",
+          "options": [
+            "To inform",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To inform",
+          "answer_explanation": "The article provides information.",
+          "question_id": "G3-ELA-MOCK-1-Q13"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Using Illustrations",
+          "standard": "RI.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A diagram labels the parts of a flower. What does it help the reader do?",
+          "options": [
+            "Identify the flower's parts",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Identify the flower's parts",
+          "answer_explanation": "Labels connect names to parts.",
+          "question_id": "G3-ELA-MOCK-1-Q14"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Comparing Texts",
+          "standard": "RI.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should a reader look for when comparing two texts on one topic?",
+          "options": [
+            "Important points and details in both texts",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Important points and details in both texts",
+          "answer_explanation": "Comparison requires evidence from both texts.",
+          "question_id": "G3-ELA-MOCK-1-Q15"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a good topic sentence for a paragraph about recycling?",
+          "options": [
+            "Recycling helps reduce the amount of waste we throw away.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Recycling helps reduce the amount of waste we throw away.",
+          "answer_explanation": "It clearly states the topic and main idea.",
+          "question_id": "G3-ELA-MOCK-1-Q16"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Parts of Speech",
+          "standard": "L.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a verb in 'Mia painted a picture'?",
+          "options": [
+            "painted",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "painted",
+          "answer_explanation": "'Painted' names the action.",
+          "question_id": "G3-ELA-MOCK-1-Q17"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences",
+          "standard": "L.3.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is compound?",
+          "options": [
+            "I read a book, and my sister drew a picture.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "I read a book, and my sister drew a picture.",
+          "answer_explanation": "It joins two complete thoughts with 'and.'",
+          "question_id": "G3-ELA-MOCK-1-Q18"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The path was narrow, so only one person could walk on it at a time.' What does narrow mean?",
+          "options": [
+            "not wide",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "not wide",
+          "answer_explanation": "The clue says only one person could fit.",
+          "question_id": "G3-ELA-MOCK-1-Q19"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Word Relationships",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is closest in meaning to 'tiny'?",
+          "options": [
+            "small",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "small",
+          "answer_explanation": "Both describe something with little size.",
+          "question_id": "G3-ELA-MOCK-1-Q20"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Prefixes, Suffixes & Roots",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the prefix 'un-' usually mean in 'unhappy'?",
+          "options": [
+            "not",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "not",
+          "answer_explanation": "'Un-' changes happy to mean not happy.",
+          "question_id": "G3-ELA-MOCK-1-Q21"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is the strongest support for the opinion that recess is important?",
+          "options": [
+            "Recess gives students time to move and refresh their minds.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Recess gives students time to move and refresh their minds.",
+          "answer_explanation": "It gives a relevant reason.",
+          "question_id": "G3-ELA-MOCK-1-Q22"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What should an opinion conclusion do?",
+          "options": [
+            "Restate the opinion and wrap up the reasons",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Restate the opinion and wrap up the reasons",
+          "answer_explanation": "A conclusion brings the argument to a close.",
+          "question_id": "G3-ELA-MOCK-1-Q23"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence has correct punctuation?",
+          "options": [
+            "We went to the park, and we played soccer.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "We went to the park, and we played soccer.",
+          "answer_explanation": "The comma correctly separates the two joined clauses.",
+          "question_id": "G3-ELA-MOCK-1-Q24"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which feature can help create rhythm in a poem?",
+          "options": [
+            "Repeated patterns of sounds or words",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Repeated patterns of sounds or words",
+          "answer_explanation": "Patterns contribute to rhythm.",
+          "question_id": "G3-ELA-MOCK-1-Q25"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Figurative Language",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'Her smile was as bright as the sun.' What does this comparison show?",
+          "options": [
+            "Her smile was very bright or cheerful.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Her smile was very bright or cheerful.",
+          "answer_explanation": "The comparison emphasizes brightness.",
+          "question_id": "G3-ELA-MOCK-1-Q26"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Comparing Stories",
+          "standard": "RL.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "One story has a problem solved by teamwork; another has a problem solved by honesty. What differs?",
+          "options": [
+            "The way the problems are solved",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The way the problems are solved",
+          "answer_explanation": "The resolution differs.",
+          "question_id": "G3-ELA-MOCK-1-Q27"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Research Basics",
+          "standard": "W.3.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which question is useful before beginning research?",
+          "options": [
+            "What do I want to learn?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What do I want to learn?",
+          "answer_explanation": "A focused question guides research.",
+          "question_id": "G3-ELA-MOCK-1-Q28"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Research Project",
+          "standard": "W.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a good first step in a short research project?",
+          "options": [
+            "Choose a topic or question",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Choose a topic or question",
+          "answer_explanation": "A clear topic gives the project direction.",
+          "question_id": "G3-ELA-MOCK-1-Q29"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Speaking & Listening",
+          "standard": "SL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which question helps continue a discussion?",
+          "options": [
+            "What makes you think that?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What makes you think that?",
+          "answer_explanation": "It invites another speaker to explain an idea.",
+          "question_id": "G3-ELA-MOCK-1-Q30"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Presenting",
+          "standard": "SL.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why use appropriate volume?",
+          "options": [
+            "So the audience can hear you",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So the audience can hear you",
+          "answer_explanation": "Volume affects how well the audience can hear.",
+          "question_id": "G3-ELA-MOCK-1-Q31"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence uses correct punctuation?",
+          "options": [
+            "Where are you going?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Where are you going?",
+          "answer_explanation": "A question needs a question mark.",
+          "question_id": "G3-ELA-MOCK-1-Q32"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A story shows two friends solving a problem by sharing. What lesson does it suggest?",
+          "options": [
+            "Cooperation can solve problems.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Cooperation can solve problems.",
+          "answer_explanation": "Sharing and working together help the characters.",
+          "question_id": "G3-ELA-MOCK-1-Q33"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does a caption often explain?",
+          "options": [
+            "A picture or photograph",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A picture or photograph",
+          "answer_explanation": "Captions provide information about images.",
+          "question_id": "G3-ELA-MOCK-1-Q34"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reason supports the opinion 'Students should read every day'?",
+          "options": [
+            "Daily reading gives students practice with words and ideas.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Daily reading gives students practice with words and ideas.",
+          "answer_explanation": "It directly supports the opinion.",
+          "question_id": "G3-ELA-MOCK-1-Q35"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence is written correctly?",
+          "options": [
+            "The small bird flew quickly.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The small bird flew quickly.",
+          "answer_explanation": "Capitalization and word use are correct.",
+          "question_id": "G3-ELA-MOCK-1-Q36"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A child keeps practicing a difficult song until she performs it well. What is a likely message?",
+          "options": [
+            "Practice can help you improve.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Practice can help you improve.",
+          "answer_explanation": "The character's repeated practice leads to improvement.",
+          "question_id": "G3-ELA-MOCK-1-Q37"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Where might you look to find a topic quickly?",
+          "options": [
+            "Table of contents",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Table of contents",
+          "answer_explanation": "A table of contents lists sections and their pages.",
+          "question_id": "G3-ELA-MOCK-1-Q38"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a fact rather than an opinion?",
+          "options": [
+            "A week has seven days.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A week has seven days.",
+          "answer_explanation": "This can be verified and is not a personal belief.",
+          "question_id": "G3-ELA-MOCK-1-Q39"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a synonym for 'large'?",
+          "options": [
+            "big",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "big",
+          "answer_explanation": "The words have similar meanings.",
+          "question_id": "G3-ELA-MOCK-1-Q40"
+        }
+      ]
+    },
+    {
+      "paper_id": "G3-ELA-MOCK-2",
+      "course": "Grade 3 English Language Arts",
+      "grade": 3,
+      "assessment_type": "full_course_mock",
+      "module": null,
+      "module_title": "Full Course",
+      "question_count": 40,
+      "mastery_threshold_percent": 70,
+      "questions": [
+        {
+          "module": 1,
+          "week": 8,
+          "topic": "Narrative Writing",
+          "standard": "W.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which sentence best begins a story?",
+          "options": [
+            "On Saturday morning, Eli discovered a box in the attic.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "On Saturday morning, Eli discovered a box in the attic.",
+          "answer_explanation": "It introduces a time and a story event.",
+          "question_id": "G3-ELA-MOCK-2-Q1"
+        },
+        {
+          "module": 1,
+          "week": 7,
+          "topic": "Fluency",
+          "standard": "RF.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A reader stops at every word and reads very slowly. What skill needs practice?",
+          "options": [
+            "Fluency",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Fluency",
+          "answer_explanation": "The reader needs more smooth, accurate reading.",
+          "question_id": "G3-ELA-MOCK-2-Q2"
+        },
+        {
+          "module": 1,
+          "week": 6,
+          "topic": "Phonics & Word Recognition",
+          "standard": "RF.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word can be divided into syllables as 'sun-shine'?",
+          "options": [
+            "sunshine",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "sunshine",
+          "answer_explanation": "'Sunshine' has two syllables: sun-shine.",
+          "question_id": "G3-ELA-MOCK-2-Q3"
+        },
+        {
+          "module": 1,
+          "week": 5,
+          "topic": "Point of View",
+          "standard": "RL.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A narrator says, 'I ran to the bus.' What point of view is used?",
+          "options": [
+            "First person",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "First person",
+          "answer_explanation": "The narrator uses 'I,' showing first-person narration.",
+          "question_id": "G3-ELA-MOCK-2-Q4"
+        },
+        {
+          "module": 1,
+          "week": 4,
+          "topic": "Story Structure",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "The main problem is solved near the end of a story. Which story part contains the solution?",
+          "options": [
+            "Ending",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Ending",
+          "answer_explanation": "The ending often shows how the problem is resolved.",
+          "question_id": "G3-ELA-MOCK-2-Q5"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Lena keeps trying after her kite falls three times. Which trait fits?",
+          "options": [
+            "Persistent",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Persistent",
+          "answer_explanation": "She continues even after setbacks.",
+          "question_id": "G3-ELA-MOCK-2-Q6"
+        },
+        {
+          "module": 1,
+          "week": 2,
+          "topic": "Central Message",
+          "standard": "RL.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A character admits a mistake and apologizes. What lesson is supported?",
+          "options": [
+            "Being honest about mistakes is important.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Being honest about mistakes is important.",
+          "answer_explanation": "The character takes responsibility and apologizes.",
+          "question_id": "G3-ELA-MOCK-2-Q7"
+        },
+        {
+          "module": 1,
+          "week": 1,
+          "topic": "Asking & Answering Questions",
+          "standard": "RL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A student answers a question but cannot point to any supporting detail. What should the student do?",
+          "options": [
+            "Reread the text for evidence",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Reread the text for evidence",
+          "answer_explanation": "Rereading helps locate support.",
+          "question_id": "G3-ELA-MOCK-2-Q8"
+        },
+        {
+          "module": 2,
+          "week": 8,
+          "topic": "Informative Writing",
+          "standard": "W.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which transition helps organize information?",
+          "options": [
+            "For example",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "For example",
+          "answer_explanation": "It introduces a supporting example.",
+          "question_id": "G3-ELA-MOCK-2-Q9"
+        },
+        {
+          "module": 2,
+          "week": 7,
+          "topic": "Comparing Texts",
+          "standard": "RI.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "If both texts say bees visit flowers, what do they share?",
+          "options": [
+            "A key point",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A key point",
+          "answer_explanation": "The same idea appears in both texts.",
+          "question_id": "G3-ELA-MOCK-2-Q10"
+        },
+        {
+          "module": 2,
+          "week": 6,
+          "topic": "Using Illustrations",
+          "standard": "RI.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why can illustrations be useful in informational texts?",
+          "options": [
+            "They can make information easier to understand",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "They can make information easier to understand",
+          "answer_explanation": "Visuals can clarify ideas and details.",
+          "question_id": "G3-ELA-MOCK-2-Q11"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "An article gives facts about how to care for a puppy. What is the author's main purpose?",
+          "options": [
+            "To inform",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To inform",
+          "answer_explanation": "The article provides information.",
+          "question_id": "G3-ELA-MOCK-2-Q12"
+        },
+        {
+          "module": 2,
+          "week": 4,
+          "topic": "Text Features",
+          "standard": "RI.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which feature usually tells what a section is about?",
+          "options": [
+            "Heading",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Heading",
+          "answer_explanation": "A heading names or introduces a section.",
+          "question_id": "G3-ELA-MOCK-2-Q13"
+        },
+        {
+          "module": 2,
+          "week": 3,
+          "topic": "Connecting Ideas",
+          "standard": "RI.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A paragraph explains that bees pollinate flowers, which helps plants make seeds. What relationship is shown?",
+          "options": [
+            "Cause and effect",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Cause and effect",
+          "answer_explanation": "Pollination helps cause seed production.",
+          "question_id": "G3-ELA-MOCK-2-Q14"
+        },
+        {
+          "module": 2,
+          "week": 2,
+          "topic": "Asking & Answering Questions",
+          "standard": "RI.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which is a text-based question?",
+          "options": [
+            "What caused the plant to grow taller?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "What caused the plant to grow taller?",
+          "answer_explanation": "The cause can be determined from information in the text.",
+          "question_id": "G3-ELA-MOCK-2-Q15"
+        },
+        {
+          "module": 2,
+          "week": 1,
+          "topic": "Main Idea & Details",
+          "standard": "RI.3.2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A paragraph explains how rain helps plants grow. What is the main idea?",
+          "options": [
+            "Rain provides water that helps plants grow.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Rain provides water that helps plants grow.",
+          "answer_explanation": "The details connect rain to plant growth.",
+          "question_id": "G3-ELA-MOCK-2-Q16"
+        },
+        {
+          "module": 3,
+          "week": 8,
+          "topic": "Revising & Editing",
+          "standard": "W.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is editing mainly for?",
+          "options": [
+            "Correcting grammar, spelling, punctuation, and capitalization",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Correcting grammar, spelling, punctuation, and capitalization",
+          "answer_explanation": "Editing fixes language conventions.",
+          "question_id": "G3-ELA-MOCK-2-Q17"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail best supports the opinion that school gardens are useful?",
+          "options": [
+            "Students can observe plants growing.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Students can observe plants growing.",
+          "answer_explanation": "It gives a specific reason.",
+          "question_id": "G3-ELA-MOCK-2-Q18"
+        },
+        {
+          "module": 3,
+          "week": 6,
+          "topic": "Building an Opinion",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which reason supports the opinion 'Students should read every day'?",
+          "options": [
+            "Daily reading gives students practice with words and ideas.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Daily reading gives students practice with words and ideas.",
+          "answer_explanation": "It directly supports the opinion.",
+          "question_id": "G3-ELA-MOCK-2-Q19"
+        },
+        {
+          "module": 3,
+          "week": 5,
+          "topic": "Prefixes, Suffixes & Roots",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What does the prefix 'un-' usually mean in 'unhappy'?",
+          "options": [
+            "not",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "not",
+          "answer_explanation": "'Un-' changes happy to mean not happy.",
+          "question_id": "G3-ELA-MOCK-2-Q20"
+        },
+        {
+          "module": 3,
+          "week": 4,
+          "topic": "Word Relationships",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which pair are antonyms?",
+          "options": [
+            "hot and cold",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "hot and cold",
+          "answer_explanation": "They have opposite meanings.",
+          "question_id": "G3-ELA-MOCK-2-Q21"
+        },
+        {
+          "module": 3,
+          "week": 3,
+          "topic": "Context Clues",
+          "standard": "L.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "'The glass was fragile, so we carried it carefully.' What does fragile mean?",
+          "options": [
+            "easy to break",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "easy to break",
+          "answer_explanation": "Carrying it carefully suggests it can break easily.",
+          "question_id": "G3-ELA-MOCK-2-Q22"
+        },
+        {
+          "module": 3,
+          "week": 2,
+          "topic": "Sentences",
+          "standard": "L.3.1/2",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which punctuation mark belongs at the end of a question?",
+          "options": [
+            "?",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "?",
+          "answer_explanation": "Questions end with a question mark.",
+          "question_id": "G3-ELA-MOCK-2-Q23"
+        },
+        {
+          "module": 3,
+          "week": 1,
+          "topic": "Parts of Speech",
+          "standard": "L.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is a noun in 'The teacher opened the book'?",
+          "options": [
+            "teacher",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "teacher",
+          "answer_explanation": "'Teacher' names a person.",
+          "question_id": "G3-ELA-MOCK-2-Q24"
+        },
+        {
+          "module": 4,
+          "week": 8,
+          "topic": "Language & Cumulative Review",
+          "standard": "L.3.1-6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which word is an adverb?",
+          "options": [
+            "quickly",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "quickly",
+          "answer_explanation": "It describes how an action happens.",
+          "question_id": "G3-ELA-MOCK-2-Q25"
+        },
+        {
+          "module": 4,
+          "week": 7,
+          "topic": "Presenting",
+          "standard": "SL.3.4",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What can visual aids do?",
+          "options": [
+            "Help explain information",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Help explain information",
+          "answer_explanation": "Charts and pictures can support a presentation.",
+          "question_id": "G3-ELA-MOCK-2-Q26"
+        },
+        {
+          "module": 4,
+          "week": 6,
+          "topic": "Speaking & Listening",
+          "standard": "SL.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should speakers take turns?",
+          "options": [
+            "So everyone has a chance to participate",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "So everyone has a chance to participate",
+          "answer_explanation": "Turn-taking supports productive discussion.",
+          "question_id": "G3-ELA-MOCK-2-Q27"
+        },
+        {
+          "module": 4,
+          "week": 5,
+          "topic": "Research Project",
+          "standard": "W.3.7",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "What is a good first step in a short research project?",
+          "options": [
+            "Choose a topic or question",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Choose a topic or question",
+          "answer_explanation": "A clear topic gives the project direction.",
+          "question_id": "G3-ELA-MOCK-2-Q28"
+        },
+        {
+          "module": 4,
+          "week": 4,
+          "topic": "Research Basics",
+          "standard": "W.3.8",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which source might provide facts about planets?",
+          "options": [
+            "A science encyclopedia",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A science encyclopedia",
+          "answer_explanation": "It is designed to provide factual information.",
+          "question_id": "G3-ELA-MOCK-2-Q29"
+        },
+        {
+          "module": 4,
+          "week": 3,
+          "topic": "Comparing Stories",
+          "standard": "RL.3.9",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Story A and Story B both take place in a forest. What do they share?",
+          "options": [
+            "A setting",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A setting",
+          "answer_explanation": "The setting is where a story takes place.",
+          "question_id": "G3-ELA-MOCK-2-Q30"
+        },
+        {
+          "module": 4,
+          "week": 2,
+          "topic": "Figurative Language",
+          "standard": "L.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which phrase is nonliteral?",
+          "options": [
+            "The stars danced in the sky.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "The stars danced in the sky.",
+          "answer_explanation": "Stars do not literally dance; the phrase creates an image.",
+          "question_id": "G3-ELA-MOCK-2-Q31"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might a poet repeat a word?",
+          "options": [
+            "To emphasize an idea or create rhythm",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To emphasize an idea or create rhythm",
+          "answer_explanation": "Repetition can serve both purposes.",
+          "question_id": "G3-ELA-MOCK-2-Q32"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Lena keeps trying after her kite falls three times. Which trait fits?",
+          "options": [
+            "Persistent",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Persistent",
+          "answer_explanation": "She continues even after setbacks.",
+          "question_id": "G3-ELA-MOCK-2-Q33"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A set of directions explains how to plant seeds. What is the purpose?",
+          "options": [
+            "To explain how to do something",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To explain how to do something",
+          "answer_explanation": "Directions teach a process.",
+          "question_id": "G3-ELA-MOCK-2-Q34"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why should opinion writing include reasons?",
+          "options": [
+            "Reasons explain why the writer holds the opinion",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Reasons explain why the writer holds the opinion",
+          "answer_explanation": "They provide support.",
+          "question_id": "G3-ELA-MOCK-2-Q35"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A poem repeats the words 'swish, swish, swish.' What might this repetition create?",
+          "options": [
+            "A rhythm or sound effect",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "A rhythm or sound effect",
+          "answer_explanation": "Repeated words can create rhythm and emphasize sound.",
+          "question_id": "G3-ELA-MOCK-2-Q36"
+        },
+        {
+          "module": 1,
+          "week": 3,
+          "topic": "Characters",
+          "standard": "RL.3.3",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Ben checks his work twice before turning it in. Which trait does he show?",
+          "options": [
+            "Careful",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Careful",
+          "answer_explanation": "Checking his work shows care and attention.",
+          "question_id": "G3-ELA-MOCK-2-Q37"
+        },
+        {
+          "module": 2,
+          "week": 5,
+          "topic": "Author's Purpose",
+          "standard": "RI.3.6",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "A funny story about a clumsy cat is mainly written to do what?",
+          "options": [
+            "Entertain",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Entertain",
+          "answer_explanation": "The story is meant to amuse readers.",
+          "question_id": "G3-ELA-MOCK-2-Q38"
+        },
+        {
+          "module": 3,
+          "week": 7,
+          "topic": "Writing an Opinion Piece",
+          "standard": "W.3.1",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Which detail best supports the opinion that school gardens are useful?",
+          "options": [
+            "Students can observe plants growing.",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "Students can observe plants growing.",
+          "answer_explanation": "It gives a specific reason.",
+          "question_id": "G3-ELA-MOCK-2-Q39"
+        },
+        {
+          "module": 4,
+          "week": 1,
+          "topic": "Reading Poetry",
+          "standard": "RL.3.5",
+          "difficulty": "medium",
+          "question_type": "multiple_choice",
+          "question": "Why might a poet repeat a word?",
+          "options": [
+            "To emphasize an idea or create rhythm",
+            "A different idea not supported by the text",
+            "An unrelated detail",
+            "A guess without evidence"
+          ],
+          "correct_answer": "To emphasize an idea or create rhythm",
+          "answer_explanation": "Repetition can serve both purposes.",
+          "question_id": "G3-ELA-MOCK-2-Q40"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2481 @@
+{
+  "schema_version": "1.0",
+  "content_type": "course_content",
+  "course": {
+    "code": "VISUAL_ARTS_SCULPTURE",
+    "slug": "visual_arts_sculpture",
+    "name": "Visual Arts Sculpture",
+    "subject": "fine_arts",
+    "recommended_grade_min": 7,
+    "recommended_grade_max": 12,
+    "duration_weeks": 36,
+    "module_count": 4,
+    "weeks_per_module": 9,
+    "credit_value": 1,
+    "prerequisite_policy": "Configured by course manager; recommended grade range is not a hard restriction.",
+    "early_progression": true
+  },
+  "course_learning_outcomes": [
+    "Demonstrate mastery of the course's core knowledge and skills.",
+    "Apply concepts through structured practice and authentic tasks.",
+    "Use academic vocabulary accurately.",
+    "Demonstrate mastery through weekly, module, and final assessments."
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Form & Design",
+      "weeks": [
+        {
+          "week_number": 1,
+          "title": "Form & Design: Elements and principles of art",
+          "focus": "Elements and principles of art",
+          "instructor_overview": "Introduce and develop elements and principles of art within the context of Form & Design. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to elements and principles of art.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to elements and principles of art.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Elements and principles of art",
+            "Teacher modeling and guided examples for elements and principles of art",
+            "Collaborative practice involving elements and principles of art",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            }
+          ],
+          "practice": [
+            "Guided practice: Elements and principles of art",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for elements and principles of art.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Elements and principles of art"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 2,
+          "title": "Form & Design: Technique and material control",
+          "focus": "Technique and material control",
+          "instructor_overview": "Introduce and develop technique and material control within the context of Form & Design. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to technique and material control.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to technique and material control.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Technique and material control",
+            "Teacher modeling and guided examples for technique and material control",
+            "Collaborative practice involving technique and material control",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to technique and material control."
+            }
+          ],
+          "practice": [
+            "Guided practice: Technique and material control",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for technique and material control.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Technique and material control"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 3,
+          "title": "Form & Design: Observation and visual analysis",
+          "focus": "Observation and visual analysis",
+          "instructor_overview": "Introduce and develop observation and visual analysis within the context of Form & Design. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to observation and visual analysis.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to observation and visual analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Observation and visual analysis",
+            "Teacher modeling and guided examples for observation and visual analysis",
+            "Collaborative practice involving observation and visual analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Observation and visual analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for observation and visual analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Observation and visual analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 4,
+          "title": "Form & Design: Composition and design",
+          "focus": "Composition and design",
+          "instructor_overview": "Introduce and develop composition and design within the context of Form & Design. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to composition and design.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to composition and design.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Composition and design",
+            "Teacher modeling and guided examples for composition and design",
+            "Collaborative practice involving composition and design",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to composition and design."
+            }
+          ],
+          "practice": [
+            "Guided practice: Composition and design",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for composition and design.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Composition and design"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 5,
+          "title": "Form & Design: Style and creative choices",
+          "focus": "Style and creative choices",
+          "instructor_overview": "Introduce and develop style and creative choices within the context of Form & Design. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to style and creative choices.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to style and creative choices.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Style and creative choices",
+            "Teacher modeling and guided examples for style and creative choices",
+            "Collaborative practice involving style and creative choices",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to style and creative choices."
+            }
+          ],
+          "practice": [
+            "Guided practice: Style and creative choices",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for style and creative choices.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Style and creative choices"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 6,
+          "title": "Form & Design: Historical/contextual analysis",
+          "focus": "Historical/contextual analysis",
+          "instructor_overview": "Introduce and develop historical/contextual analysis within the context of Form & Design. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to historical/contextual analysis.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to historical/contextual analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Historical/contextual analysis",
+            "Teacher modeling and guided examples for historical/contextual analysis",
+            "Collaborative practice involving historical/contextual analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Historical/contextual analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for historical/contextual analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Historical/contextual analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 7,
+          "title": "Form & Design: Revision and critique",
+          "focus": "Revision and critique",
+          "instructor_overview": "Introduce and develop revision and critique within the context of Form & Design. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to revision and critique.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to revision and critique.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Revision and critique",
+            "Teacher modeling and guided examples for revision and critique",
+            "Collaborative practice involving revision and critique",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to revision and critique."
+            }
+          ],
+          "practice": [
+            "Guided practice: Revision and critique",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for revision and critique.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Revision and critique"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 8,
+          "title": "Form & Design: Portfolio development",
+          "focus": "Portfolio development",
+          "instructor_overview": "Introduce and develop portfolio development within the context of Form & Design. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to portfolio development.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to portfolio development.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Portfolio development",
+            "Teacher modeling and guided examples for portfolio development",
+            "Collaborative practice involving portfolio development",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to portfolio development."
+            }
+          ],
+          "practice": [
+            "Guided practice: Portfolio development",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for portfolio development.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Portfolio development"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 9,
+          "title": "Form & Design — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Form & Design, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Form & Design.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "contrast",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "value",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "texture",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "form",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "perspective",
+              "definition": "Key fine arts vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 2,
+      "title": "Materials & Techniques",
+      "weeks": [
+        {
+          "week_number": 10,
+          "title": "Materials & Techniques: Elements and principles of art",
+          "focus": "Elements and principles of art",
+          "instructor_overview": "Introduce and develop elements and principles of art within the context of Materials & Techniques. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to elements and principles of art.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to elements and principles of art.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Elements and principles of art",
+            "Teacher modeling and guided examples for elements and principles of art",
+            "Collaborative practice involving elements and principles of art",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            }
+          ],
+          "practice": [
+            "Guided practice: Elements and principles of art",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for elements and principles of art.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Elements and principles of art"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 11,
+          "title": "Materials & Techniques: Technique and material control",
+          "focus": "Technique and material control",
+          "instructor_overview": "Introduce and develop technique and material control within the context of Materials & Techniques. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to technique and material control.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to technique and material control.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Technique and material control",
+            "Teacher modeling and guided examples for technique and material control",
+            "Collaborative practice involving technique and material control",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to technique and material control."
+            }
+          ],
+          "practice": [
+            "Guided practice: Technique and material control",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for technique and material control.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Technique and material control"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 12,
+          "title": "Materials & Techniques: Observation and visual analysis",
+          "focus": "Observation and visual analysis",
+          "instructor_overview": "Introduce and develop observation and visual analysis within the context of Materials & Techniques. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to observation and visual analysis.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to observation and visual analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Observation and visual analysis",
+            "Teacher modeling and guided examples for observation and visual analysis",
+            "Collaborative practice involving observation and visual analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Observation and visual analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for observation and visual analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Observation and visual analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 13,
+          "title": "Materials & Techniques: Composition and design",
+          "focus": "Composition and design",
+          "instructor_overview": "Introduce and develop composition and design within the context of Materials & Techniques. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to composition and design.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to composition and design.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Composition and design",
+            "Teacher modeling and guided examples for composition and design",
+            "Collaborative practice involving composition and design",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to composition and design."
+            }
+          ],
+          "practice": [
+            "Guided practice: Composition and design",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for composition and design.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Composition and design"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 14,
+          "title": "Materials & Techniques: Style and creative choices",
+          "focus": "Style and creative choices",
+          "instructor_overview": "Introduce and develop style and creative choices within the context of Materials & Techniques. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to style and creative choices.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to style and creative choices.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Style and creative choices",
+            "Teacher modeling and guided examples for style and creative choices",
+            "Collaborative practice involving style and creative choices",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to style and creative choices."
+            }
+          ],
+          "practice": [
+            "Guided practice: Style and creative choices",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for style and creative choices.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Style and creative choices"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 15,
+          "title": "Materials & Techniques: Historical/contextual analysis",
+          "focus": "Historical/contextual analysis",
+          "instructor_overview": "Introduce and develop historical/contextual analysis within the context of Materials & Techniques. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to historical/contextual analysis.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to historical/contextual analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Historical/contextual analysis",
+            "Teacher modeling and guided examples for historical/contextual analysis",
+            "Collaborative practice involving historical/contextual analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Historical/contextual analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for historical/contextual analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Historical/contextual analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 16,
+          "title": "Materials & Techniques: Revision and critique",
+          "focus": "Revision and critique",
+          "instructor_overview": "Introduce and develop revision and critique within the context of Materials & Techniques. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to revision and critique.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to revision and critique.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Revision and critique",
+            "Teacher modeling and guided examples for revision and critique",
+            "Collaborative practice involving revision and critique",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to revision and critique."
+            }
+          ],
+          "practice": [
+            "Guided practice: Revision and critique",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for revision and critique.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Revision and critique"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 17,
+          "title": "Materials & Techniques: Portfolio development",
+          "focus": "Portfolio development",
+          "instructor_overview": "Introduce and develop portfolio development within the context of Materials & Techniques. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to portfolio development.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to portfolio development.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Portfolio development",
+            "Teacher modeling and guided examples for portfolio development",
+            "Collaborative practice involving portfolio development",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to portfolio development."
+            }
+          ],
+          "practice": [
+            "Guided practice: Portfolio development",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for portfolio development.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Portfolio development"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 18,
+          "title": "Materials & Techniques — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Materials & Techniques, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Materials & Techniques.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "contrast",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "value",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "texture",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "form",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "perspective",
+              "definition": "Key fine arts vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 3,
+      "title": "Construction & Process",
+      "weeks": [
+        {
+          "week_number": 19,
+          "title": "Construction & Process: Elements and principles of art",
+          "focus": "Elements and principles of art",
+          "instructor_overview": "Introduce and develop elements and principles of art within the context of Construction & Process. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to elements and principles of art.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to elements and principles of art.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Elements and principles of art",
+            "Teacher modeling and guided examples for elements and principles of art",
+            "Collaborative practice involving elements and principles of art",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            }
+          ],
+          "practice": [
+            "Guided practice: Elements and principles of art",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for elements and principles of art.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Elements and principles of art"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 20,
+          "title": "Construction & Process: Technique and material control",
+          "focus": "Technique and material control",
+          "instructor_overview": "Introduce and develop technique and material control within the context of Construction & Process. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to technique and material control.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to technique and material control.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Technique and material control",
+            "Teacher modeling and guided examples for technique and material control",
+            "Collaborative practice involving technique and material control",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to technique and material control."
+            }
+          ],
+          "practice": [
+            "Guided practice: Technique and material control",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for technique and material control.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Technique and material control"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 21,
+          "title": "Construction & Process: Observation and visual analysis",
+          "focus": "Observation and visual analysis",
+          "instructor_overview": "Introduce and develop observation and visual analysis within the context of Construction & Process. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to observation and visual analysis.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to observation and visual analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Observation and visual analysis",
+            "Teacher modeling and guided examples for observation and visual analysis",
+            "Collaborative practice involving observation and visual analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Observation and visual analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for observation and visual analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Observation and visual analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 22,
+          "title": "Construction & Process: Composition and design",
+          "focus": "Composition and design",
+          "instructor_overview": "Introduce and develop composition and design within the context of Construction & Process. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to composition and design.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to composition and design.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Composition and design",
+            "Teacher modeling and guided examples for composition and design",
+            "Collaborative practice involving composition and design",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to composition and design."
+            }
+          ],
+          "practice": [
+            "Guided practice: Composition and design",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for composition and design.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Composition and design"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 23,
+          "title": "Construction & Process: Style and creative choices",
+          "focus": "Style and creative choices",
+          "instructor_overview": "Introduce and develop style and creative choices within the context of Construction & Process. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to style and creative choices.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to style and creative choices.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Style and creative choices",
+            "Teacher modeling and guided examples for style and creative choices",
+            "Collaborative practice involving style and creative choices",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to style and creative choices."
+            }
+          ],
+          "practice": [
+            "Guided practice: Style and creative choices",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for style and creative choices.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Style and creative choices"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 24,
+          "title": "Construction & Process: Historical/contextual analysis",
+          "focus": "Historical/contextual analysis",
+          "instructor_overview": "Introduce and develop historical/contextual analysis within the context of Construction & Process. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to historical/contextual analysis.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to historical/contextual analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Historical/contextual analysis",
+            "Teacher modeling and guided examples for historical/contextual analysis",
+            "Collaborative practice involving historical/contextual analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Historical/contextual analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for historical/contextual analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Historical/contextual analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 25,
+          "title": "Construction & Process: Revision and critique",
+          "focus": "Revision and critique",
+          "instructor_overview": "Introduce and develop revision and critique within the context of Construction & Process. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to revision and critique.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to revision and critique.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Revision and critique",
+            "Teacher modeling and guided examples for revision and critique",
+            "Collaborative practice involving revision and critique",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to revision and critique."
+            }
+          ],
+          "practice": [
+            "Guided practice: Revision and critique",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for revision and critique.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Revision and critique"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 26,
+          "title": "Construction & Process: Portfolio development",
+          "focus": "Portfolio development",
+          "instructor_overview": "Introduce and develop portfolio development within the context of Construction & Process. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to portfolio development.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to portfolio development.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Portfolio development",
+            "Teacher modeling and guided examples for portfolio development",
+            "Collaborative practice involving portfolio development",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to portfolio development."
+            }
+          ],
+          "practice": [
+            "Guided practice: Portfolio development",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for portfolio development.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Portfolio development"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 27,
+          "title": "Construction & Process — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Construction & Process, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Construction & Process.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "contrast",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "value",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "texture",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "form",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "perspective",
+              "definition": "Key fine arts vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 4,
+      "title": "Portfolio Development",
+      "weeks": [
+        {
+          "week_number": 28,
+          "title": "Portfolio Development: Elements and principles of art",
+          "focus": "Elements and principles of art",
+          "instructor_overview": "Introduce and develop elements and principles of art within the context of Portfolio Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to elements and principles of art.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to elements and principles of art.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Elements and principles of art",
+            "Teacher modeling and guided examples for elements and principles of art",
+            "Collaborative practice involving elements and principles of art",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to elements and principles of art."
+            }
+          ],
+          "practice": [
+            "Guided practice: Elements and principles of art",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for elements and principles of art.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Elements and principles of art"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 29,
+          "title": "Portfolio Development: Technique and material control",
+          "focus": "Technique and material control",
+          "instructor_overview": "Introduce and develop technique and material control within the context of Portfolio Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to technique and material control.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to technique and material control.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Technique and material control",
+            "Teacher modeling and guided examples for technique and material control",
+            "Collaborative practice involving technique and material control",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to technique and material control."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to technique and material control."
+            }
+          ],
+          "practice": [
+            "Guided practice: Technique and material control",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for technique and material control.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Technique and material control"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 30,
+          "title": "Portfolio Development: Observation and visual analysis",
+          "focus": "Observation and visual analysis",
+          "instructor_overview": "Introduce and develop observation and visual analysis within the context of Portfolio Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to observation and visual analysis.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to observation and visual analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Observation and visual analysis",
+            "Teacher modeling and guided examples for observation and visual analysis",
+            "Collaborative practice involving observation and visual analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to observation and visual analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Observation and visual analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for observation and visual analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Observation and visual analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 31,
+          "title": "Portfolio Development: Composition and design",
+          "focus": "Composition and design",
+          "instructor_overview": "Introduce and develop composition and design within the context of Portfolio Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to composition and design.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to composition and design.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Composition and design",
+            "Teacher modeling and guided examples for composition and design",
+            "Collaborative practice involving composition and design",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to composition and design."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to composition and design."
+            }
+          ],
+          "practice": [
+            "Guided practice: Composition and design",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for composition and design.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Composition and design"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 32,
+          "title": "Portfolio Development: Style and creative choices",
+          "focus": "Style and creative choices",
+          "instructor_overview": "Introduce and develop style and creative choices within the context of Portfolio Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to style and creative choices.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to style and creative choices.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Style and creative choices",
+            "Teacher modeling and guided examples for style and creative choices",
+            "Collaborative practice involving style and creative choices",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to style and creative choices."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to style and creative choices."
+            }
+          ],
+          "practice": [
+            "Guided practice: Style and creative choices",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for style and creative choices.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Style and creative choices"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 33,
+          "title": "Portfolio Development: Historical/contextual analysis",
+          "focus": "Historical/contextual analysis",
+          "instructor_overview": "Introduce and develop historical/contextual analysis within the context of Portfolio Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to historical/contextual analysis.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to historical/contextual analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Historical/contextual analysis",
+            "Teacher modeling and guided examples for historical/contextual analysis",
+            "Collaborative practice involving historical/contextual analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to historical/contextual analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Historical/contextual analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for historical/contextual analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Historical/contextual analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 34,
+          "title": "Portfolio Development: Revision and critique",
+          "focus": "Revision and critique",
+          "instructor_overview": "Introduce and develop revision and critique within the context of Portfolio Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to revision and critique.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to revision and critique.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Revision and critique",
+            "Teacher modeling and guided examples for revision and critique",
+            "Collaborative practice involving revision and critique",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to revision and critique."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to revision and critique."
+            }
+          ],
+          "practice": [
+            "Guided practice: Revision and critique",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for revision and critique.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Revision and critique"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 35,
+          "title": "Portfolio Development: Portfolio development",
+          "focus": "Portfolio development",
+          "instructor_overview": "Introduce and develop portfolio development within the context of Portfolio Development. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Identify and apply principles related to portfolio development.",
+            "Create or analyze work using intentional artistic choices.",
+            "Reflect on process, technique, and revision."
+          ],
+          "warm_up": [
+            "Recall one idea related to portfolio development.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Portfolio development",
+            "Teacher modeling and guided examples for portfolio development",
+            "Collaborative practice involving portfolio development",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "contrast",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "value",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "texture",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "form",
+              "definition": "Course vocabulary connected to portfolio development."
+            },
+            {
+              "term": "perspective",
+              "definition": "Course vocabulary connected to portfolio development."
+            }
+          ],
+          "practice": [
+            "Guided practice: Portfolio development",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for portfolio development.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Portfolio development"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 36,
+          "title": "Portfolio Development — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Portfolio Development, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Portfolio Development.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "composition",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "contrast",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "value",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "texture",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "form",
+              "definition": "Key fine arts vocabulary used in the module."
+            },
+            {
+              "term": "perspective",
+              "definition": "Key fine arts vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    }
+  ],
+  "final_assessment": {
+    "assessment_type": "comprehensive_course_assessment",
+    "coverage": "All four modules",
+    "question_count": "Configured by assessment manager",
+    "answer_explanations": true,
+    "mastery_required": true
+  }
+}

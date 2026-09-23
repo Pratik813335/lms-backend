@@ -1,0 +1,2481 @@
+{
+  "schema_version": "1.0",
+  "content_type": "course_content",
+  "course": {
+    "code": "WORLD_HISTORY",
+    "slug": "world_history",
+    "name": "World History",
+    "subject": "social_studies",
+    "recommended_grade_min": 9,
+    "recommended_grade_max": 12,
+    "duration_weeks": 36,
+    "module_count": 4,
+    "weeks_per_module": 9,
+    "credit_value": 1,
+    "prerequisite_policy": "Configured by course manager; recommended grade range is not a hard restriction.",
+    "early_progression": true
+  },
+  "course_learning_outcomes": [
+    "Demonstrate mastery of the course's core knowledge and skills.",
+    "Apply concepts through structured practice and authentic tasks.",
+    "Use academic vocabulary accurately.",
+    "Demonstrate mastery through weekly, module, and final assessments."
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Ancient & Classical World",
+      "weeks": [
+        {
+          "week_number": 1,
+          "title": "Ancient & Classical World: Historical/geographic inquiry",
+          "focus": "Historical/geographic inquiry",
+          "instructor_overview": "Introduce and develop historical/geographic inquiry within the context of Ancient & Classical World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with historical/geographic inquiry.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to historical/geographic inquiry.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Historical/geographic inquiry",
+            "Teacher modeling and guided examples for historical/geographic inquiry",
+            "Collaborative practice involving historical/geographic inquiry",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            }
+          ],
+          "practice": [
+            "Guided practice: Historical/geographic inquiry",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for historical/geographic inquiry.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Historical/geographic inquiry"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 2,
+          "title": "Ancient & Classical World: Sources and evidence",
+          "focus": "Sources and evidence",
+          "instructor_overview": "Introduce and develop sources and evidence within the context of Ancient & Classical World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with sources and evidence.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to sources and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Sources and evidence",
+            "Teacher modeling and guided examples for sources and evidence",
+            "Collaborative practice involving sources and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to sources and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Sources and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for sources and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Sources and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 3,
+          "title": "Ancient & Classical World: Institutions and societies",
+          "focus": "Institutions and societies",
+          "instructor_overview": "Introduce and develop institutions and societies within the context of Ancient & Classical World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with institutions and societies.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to institutions and societies.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Institutions and societies",
+            "Teacher modeling and guided examples for institutions and societies",
+            "Collaborative practice involving institutions and societies",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to institutions and societies."
+            }
+          ],
+          "practice": [
+            "Guided practice: Institutions and societies",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for institutions and societies.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Institutions and societies"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 4,
+          "title": "Ancient & Classical World: Cause and consequence",
+          "focus": "Cause and consequence",
+          "instructor_overview": "Introduce and develop cause and consequence within the context of Ancient & Classical World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with cause and consequence.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to cause and consequence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Cause and consequence",
+            "Teacher modeling and guided examples for cause and consequence",
+            "Collaborative practice involving cause and consequence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to cause and consequence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Cause and consequence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for cause and consequence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Cause and consequence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 5,
+          "title": "Ancient & Classical World: Change and continuity",
+          "focus": "Change and continuity",
+          "instructor_overview": "Introduce and develop change and continuity within the context of Ancient & Classical World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with change and continuity.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to change and continuity.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Change and continuity",
+            "Teacher modeling and guided examples for change and continuity",
+            "Collaborative practice involving change and continuity",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to change and continuity."
+            }
+          ],
+          "practice": [
+            "Guided practice: Change and continuity",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for change and continuity.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Change and continuity"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 6,
+          "title": "Ancient & Classical World: Economic and cultural systems",
+          "focus": "Economic and cultural systems",
+          "instructor_overview": "Introduce and develop economic and cultural systems within the context of Ancient & Classical World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with economic and cultural systems.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to economic and cultural systems.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Economic and cultural systems",
+            "Teacher modeling and guided examples for economic and cultural systems",
+            "Collaborative practice involving economic and cultural systems",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            }
+          ],
+          "practice": [
+            "Guided practice: Economic and cultural systems",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for economic and cultural systems.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Economic and cultural systems"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 7,
+          "title": "Ancient & Classical World: Rights and responsibilities",
+          "focus": "Rights and responsibilities",
+          "instructor_overview": "Introduce and develop rights and responsibilities within the context of Ancient & Classical World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with rights and responsibilities.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to rights and responsibilities.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Rights and responsibilities",
+            "Teacher modeling and guided examples for rights and responsibilities",
+            "Collaborative practice involving rights and responsibilities",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            }
+          ],
+          "practice": [
+            "Guided practice: Rights and responsibilities",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for rights and responsibilities.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Rights and responsibilities"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 8,
+          "title": "Ancient & Classical World: Comparative analysis",
+          "focus": "Comparative analysis",
+          "instructor_overview": "Introduce and develop comparative analysis within the context of Ancient & Classical World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with comparative analysis.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to comparative analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Comparative analysis",
+            "Teacher modeling and guided examples for comparative analysis",
+            "Collaborative practice involving comparative analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to comparative analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Comparative analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for comparative analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Comparative analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 9,
+          "title": "Ancient & Classical World — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Ancient & Classical World, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Ancient & Classical World.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "context",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "cause",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "consequence",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "institution",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Key social studies vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 2,
+      "title": "Medieval World",
+      "weeks": [
+        {
+          "week_number": 10,
+          "title": "Medieval World: Historical/geographic inquiry",
+          "focus": "Historical/geographic inquiry",
+          "instructor_overview": "Introduce and develop historical/geographic inquiry within the context of Medieval World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with historical/geographic inquiry.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to historical/geographic inquiry.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Historical/geographic inquiry",
+            "Teacher modeling and guided examples for historical/geographic inquiry",
+            "Collaborative practice involving historical/geographic inquiry",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            }
+          ],
+          "practice": [
+            "Guided practice: Historical/geographic inquiry",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for historical/geographic inquiry.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Historical/geographic inquiry"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 11,
+          "title": "Medieval World: Sources and evidence",
+          "focus": "Sources and evidence",
+          "instructor_overview": "Introduce and develop sources and evidence within the context of Medieval World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with sources and evidence.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to sources and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Sources and evidence",
+            "Teacher modeling and guided examples for sources and evidence",
+            "Collaborative practice involving sources and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to sources and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Sources and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for sources and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Sources and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 12,
+          "title": "Medieval World: Institutions and societies",
+          "focus": "Institutions and societies",
+          "instructor_overview": "Introduce and develop institutions and societies within the context of Medieval World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with institutions and societies.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to institutions and societies.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Institutions and societies",
+            "Teacher modeling and guided examples for institutions and societies",
+            "Collaborative practice involving institutions and societies",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to institutions and societies."
+            }
+          ],
+          "practice": [
+            "Guided practice: Institutions and societies",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for institutions and societies.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Institutions and societies"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 13,
+          "title": "Medieval World: Cause and consequence",
+          "focus": "Cause and consequence",
+          "instructor_overview": "Introduce and develop cause and consequence within the context of Medieval World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with cause and consequence.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to cause and consequence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Cause and consequence",
+            "Teacher modeling and guided examples for cause and consequence",
+            "Collaborative practice involving cause and consequence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to cause and consequence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Cause and consequence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for cause and consequence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Cause and consequence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 14,
+          "title": "Medieval World: Change and continuity",
+          "focus": "Change and continuity",
+          "instructor_overview": "Introduce and develop change and continuity within the context of Medieval World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with change and continuity.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to change and continuity.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Change and continuity",
+            "Teacher modeling and guided examples for change and continuity",
+            "Collaborative practice involving change and continuity",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to change and continuity."
+            }
+          ],
+          "practice": [
+            "Guided practice: Change and continuity",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for change and continuity.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Change and continuity"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 15,
+          "title": "Medieval World: Economic and cultural systems",
+          "focus": "Economic and cultural systems",
+          "instructor_overview": "Introduce and develop economic and cultural systems within the context of Medieval World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with economic and cultural systems.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to economic and cultural systems.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Economic and cultural systems",
+            "Teacher modeling and guided examples for economic and cultural systems",
+            "Collaborative practice involving economic and cultural systems",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            }
+          ],
+          "practice": [
+            "Guided practice: Economic and cultural systems",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for economic and cultural systems.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Economic and cultural systems"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 16,
+          "title": "Medieval World: Rights and responsibilities",
+          "focus": "Rights and responsibilities",
+          "instructor_overview": "Introduce and develop rights and responsibilities within the context of Medieval World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with rights and responsibilities.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to rights and responsibilities.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Rights and responsibilities",
+            "Teacher modeling and guided examples for rights and responsibilities",
+            "Collaborative practice involving rights and responsibilities",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            }
+          ],
+          "practice": [
+            "Guided practice: Rights and responsibilities",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for rights and responsibilities.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Rights and responsibilities"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 17,
+          "title": "Medieval World: Comparative analysis",
+          "focus": "Comparative analysis",
+          "instructor_overview": "Introduce and develop comparative analysis within the context of Medieval World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with comparative analysis.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to comparative analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Comparative analysis",
+            "Teacher modeling and guided examples for comparative analysis",
+            "Collaborative practice involving comparative analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to comparative analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Comparative analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for comparative analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Comparative analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 18,
+          "title": "Medieval World — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Medieval World, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Medieval World.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "context",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "cause",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "consequence",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "institution",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Key social studies vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 3,
+      "title": "Early Modern World",
+      "weeks": [
+        {
+          "week_number": 19,
+          "title": "Early Modern World: Historical/geographic inquiry",
+          "focus": "Historical/geographic inquiry",
+          "instructor_overview": "Introduce and develop historical/geographic inquiry within the context of Early Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with historical/geographic inquiry.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to historical/geographic inquiry.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Historical/geographic inquiry",
+            "Teacher modeling and guided examples for historical/geographic inquiry",
+            "Collaborative practice involving historical/geographic inquiry",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            }
+          ],
+          "practice": [
+            "Guided practice: Historical/geographic inquiry",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for historical/geographic inquiry.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Historical/geographic inquiry"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 20,
+          "title": "Early Modern World: Sources and evidence",
+          "focus": "Sources and evidence",
+          "instructor_overview": "Introduce and develop sources and evidence within the context of Early Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with sources and evidence.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to sources and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Sources and evidence",
+            "Teacher modeling and guided examples for sources and evidence",
+            "Collaborative practice involving sources and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to sources and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Sources and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for sources and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Sources and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 21,
+          "title": "Early Modern World: Institutions and societies",
+          "focus": "Institutions and societies",
+          "instructor_overview": "Introduce and develop institutions and societies within the context of Early Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with institutions and societies.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to institutions and societies.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Institutions and societies",
+            "Teacher modeling and guided examples for institutions and societies",
+            "Collaborative practice involving institutions and societies",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to institutions and societies."
+            }
+          ],
+          "practice": [
+            "Guided practice: Institutions and societies",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for institutions and societies.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Institutions and societies"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 22,
+          "title": "Early Modern World: Cause and consequence",
+          "focus": "Cause and consequence",
+          "instructor_overview": "Introduce and develop cause and consequence within the context of Early Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with cause and consequence.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to cause and consequence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Cause and consequence",
+            "Teacher modeling and guided examples for cause and consequence",
+            "Collaborative practice involving cause and consequence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to cause and consequence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Cause and consequence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for cause and consequence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Cause and consequence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 23,
+          "title": "Early Modern World: Change and continuity",
+          "focus": "Change and continuity",
+          "instructor_overview": "Introduce and develop change and continuity within the context of Early Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with change and continuity.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to change and continuity.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Change and continuity",
+            "Teacher modeling and guided examples for change and continuity",
+            "Collaborative practice involving change and continuity",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to change and continuity."
+            }
+          ],
+          "practice": [
+            "Guided practice: Change and continuity",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for change and continuity.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Change and continuity"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 24,
+          "title": "Early Modern World: Economic and cultural systems",
+          "focus": "Economic and cultural systems",
+          "instructor_overview": "Introduce and develop economic and cultural systems within the context of Early Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with economic and cultural systems.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to economic and cultural systems.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Economic and cultural systems",
+            "Teacher modeling and guided examples for economic and cultural systems",
+            "Collaborative practice involving economic and cultural systems",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            }
+          ],
+          "practice": [
+            "Guided practice: Economic and cultural systems",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for economic and cultural systems.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Economic and cultural systems"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 25,
+          "title": "Early Modern World: Rights and responsibilities",
+          "focus": "Rights and responsibilities",
+          "instructor_overview": "Introduce and develop rights and responsibilities within the context of Early Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with rights and responsibilities.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to rights and responsibilities.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Rights and responsibilities",
+            "Teacher modeling and guided examples for rights and responsibilities",
+            "Collaborative practice involving rights and responsibilities",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            }
+          ],
+          "practice": [
+            "Guided practice: Rights and responsibilities",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for rights and responsibilities.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Rights and responsibilities"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 26,
+          "title": "Early Modern World: Comparative analysis",
+          "focus": "Comparative analysis",
+          "instructor_overview": "Introduce and develop comparative analysis within the context of Early Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with comparative analysis.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to comparative analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Comparative analysis",
+            "Teacher modeling and guided examples for comparative analysis",
+            "Collaborative practice involving comparative analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to comparative analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Comparative analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for comparative analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Comparative analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 27,
+          "title": "Early Modern World — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Early Modern World, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Early Modern World.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "context",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "cause",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "consequence",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "institution",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Key social studies vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    },
+    {
+      "module_number": 4,
+      "title": "Modern World",
+      "weeks": [
+        {
+          "week_number": 28,
+          "title": "Modern World: Historical/geographic inquiry",
+          "focus": "Historical/geographic inquiry",
+          "instructor_overview": "Introduce and develop historical/geographic inquiry within the context of Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with historical/geographic inquiry.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to historical/geographic inquiry.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Historical/geographic inquiry",
+            "Teacher modeling and guided examples for historical/geographic inquiry",
+            "Collaborative practice involving historical/geographic inquiry",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to historical/geographic inquiry."
+            }
+          ],
+          "practice": [
+            "Guided practice: Historical/geographic inquiry",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for historical/geographic inquiry.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Historical/geographic inquiry"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 29,
+          "title": "Modern World: Sources and evidence",
+          "focus": "Sources and evidence",
+          "instructor_overview": "Introduce and develop sources and evidence within the context of Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with sources and evidence.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to sources and evidence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Sources and evidence",
+            "Teacher modeling and guided examples for sources and evidence",
+            "Collaborative practice involving sources and evidence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to sources and evidence."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to sources and evidence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Sources and evidence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for sources and evidence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Sources and evidence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 30,
+          "title": "Modern World: Institutions and societies",
+          "focus": "Institutions and societies",
+          "instructor_overview": "Introduce and develop institutions and societies within the context of Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with institutions and societies.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to institutions and societies.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Institutions and societies",
+            "Teacher modeling and guided examples for institutions and societies",
+            "Collaborative practice involving institutions and societies",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to institutions and societies."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to institutions and societies."
+            }
+          ],
+          "practice": [
+            "Guided practice: Institutions and societies",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for institutions and societies.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Institutions and societies"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 31,
+          "title": "Modern World: Cause and consequence",
+          "focus": "Cause and consequence",
+          "instructor_overview": "Introduce and develop cause and consequence within the context of Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with cause and consequence.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to cause and consequence.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Cause and consequence",
+            "Teacher modeling and guided examples for cause and consequence",
+            "Collaborative practice involving cause and consequence",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to cause and consequence."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to cause and consequence."
+            }
+          ],
+          "practice": [
+            "Guided practice: Cause and consequence",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for cause and consequence.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Cause and consequence"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 32,
+          "title": "Modern World: Change and continuity",
+          "focus": "Change and continuity",
+          "instructor_overview": "Introduce and develop change and continuity within the context of Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with change and continuity.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to change and continuity.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Change and continuity",
+            "Teacher modeling and guided examples for change and continuity",
+            "Collaborative practice involving change and continuity",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to change and continuity."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to change and continuity."
+            }
+          ],
+          "practice": [
+            "Guided practice: Change and continuity",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for change and continuity.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Change and continuity"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 33,
+          "title": "Modern World: Economic and cultural systems",
+          "focus": "Economic and cultural systems",
+          "instructor_overview": "Introduce and develop economic and cultural systems within the context of Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with economic and cultural systems.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to economic and cultural systems.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Economic and cultural systems",
+            "Teacher modeling and guided examples for economic and cultural systems",
+            "Collaborative practice involving economic and cultural systems",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to economic and cultural systems."
+            }
+          ],
+          "practice": [
+            "Guided practice: Economic and cultural systems",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for economic and cultural systems.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Economic and cultural systems"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 34,
+          "title": "Modern World: Rights and responsibilities",
+          "focus": "Rights and responsibilities",
+          "instructor_overview": "Introduce and develop rights and responsibilities within the context of Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with rights and responsibilities.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to rights and responsibilities.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Rights and responsibilities",
+            "Teacher modeling and guided examples for rights and responsibilities",
+            "Collaborative practice involving rights and responsibilities",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to rights and responsibilities."
+            }
+          ],
+          "practice": [
+            "Guided practice: Rights and responsibilities",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for rights and responsibilities.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Rights and responsibilities"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 35,
+          "title": "Modern World: Comparative analysis",
+          "focus": "Comparative analysis",
+          "instructor_overview": "Introduce and develop comparative analysis within the context of Modern World. Use explicit instruction, worked examples or models, guided practice, and independent application.",
+          "learning_objectives": [
+            "Describe the major concepts and evidence associated with comparative analysis.",
+            "Analyze relationships among people, institutions, events, or places.",
+            "Support conclusions using relevant evidence and context."
+          ],
+          "warm_up": [
+            "Recall one idea related to comparative analysis.",
+            "Answer a short retrieval question from the previous week.",
+            "Write one question you expect this week's lesson to answer."
+          ],
+          "lesson_content": [
+            "Introduction to Comparative analysis",
+            "Teacher modeling and guided examples for comparative analysis",
+            "Collaborative practice involving comparative analysis",
+            "Independent application and reflection"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "context",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "cause",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "consequence",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "institution",
+              "definition": "Course vocabulary connected to comparative analysis."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Course vocabulary connected to comparative analysis."
+            }
+          ],
+          "practice": [
+            "Guided practice: Comparative analysis",
+            "Partner or small-group application",
+            "Independent practice set",
+            "Error analysis or revision task"
+          ],
+          "assignment": "Complete an independent assignment demonstrating the week's objectives for comparative analysis.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "coverage": [
+              "Comparative analysis"
+            ],
+            "question_types": [
+              "multiple_choice",
+              "short_answer",
+              "application"
+            ],
+            "answer_explanations": true
+          }
+        },
+        {
+          "week_number": 36,
+          "title": "Modern World — Review & Module Assessment",
+          "focus": "Consolidation, remediation, and mastery assessment",
+          "instructor_overview": "Review the major concepts from Modern World, address misconceptions, and prepare students for the 30-question module assessment.",
+          "learning_objectives": [
+            "Summarize the major learning from Modern World.",
+            "Demonstrate mastery of the module's essential skills.",
+            "Use assessment feedback to identify areas for remediation."
+          ],
+          "warm_up": [
+            "List three ideas you can now explain confidently.",
+            "Identify one concept that still needs review.",
+            "Explain how two module concepts connect."
+          ],
+          "lesson_content": [
+            "Concept review and retrieval practice",
+            "Guided analysis of representative problems/texts/tasks",
+            "Correction of common misconceptions",
+            "Assessment preparation and strategy"
+          ],
+          "vocabulary": [
+            {
+              "term": "primary source",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "context",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "cause",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "consequence",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "institution",
+              "definition": "Key social studies vocabulary used in the module."
+            },
+            {
+              "term": "citizenship",
+              "definition": "Key social studies vocabulary used in the module."
+            }
+          ],
+          "practice": [
+            "Mixed review set covering all module objectives",
+            "Targeted remediation based on practice performance",
+            "Independent mastery check"
+          ],
+          "assignment": "Complete the module review and submit a short reflection identifying strengths and remaining questions.",
+          "weekly_quiz": {
+            "question_count": 10,
+            "purpose": "Module readiness check",
+            "answer_explanations": true
+          },
+          "module_assessment": {
+            "question_count": 30,
+            "answer_explanations": true
+          }
+        }
+      ],
+      "module_assessment": {
+        "assessment_type": "module_test",
+        "question_count": 30,
+        "answer_explanations": true,
+        "coverage": "All module objectives and weekly learning targets",
+        "mastery_required": true
+      }
+    }
+  ],
+  "final_assessment": {
+    "assessment_type": "comprehensive_course_assessment",
+    "coverage": "All four modules",
+    "question_count": "Configured by assessment manager",
+    "answer_explanations": true,
+    "mastery_required": true
+  }
+}

@@ -105,11 +105,14 @@ export async function runIngestion() {
 
   // 1. Locate Docs Directory
   const candidates = [
+    process.env.DOCS_DIR,
+    path.resolve(process.cwd(), 'docs'),
+    path.resolve(__dirname, '../../docs'),
+    path.resolve(__dirname, '../docs'),
     path.resolve(__dirname, '../../../lms-frontend-web/docs'),
     path.resolve(__dirname, '../../../../lms-frontend-web/docs'),
     path.resolve(process.cwd(), '../lms-frontend-web/docs'),
-    path.resolve(process.cwd(), 'docs'),
-  ];
+  ].filter(Boolean) as string[];
 
   let docsDir = '';
   for (const c of candidates) {
@@ -120,7 +123,7 @@ export async function runIngestion() {
   }
 
   if (!docsDir) {
-    throw new Error(`Could not find lms-frontend-web/docs directory in candidates: ${JSON.stringify(candidates)}`);
+    throw new Error(`Could not find docs directory in candidates: ${JSON.stringify(candidates)}`);
   }
   console.log(`📂 Using docs directory: ${docsDir}`);
 

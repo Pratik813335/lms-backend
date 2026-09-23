@@ -1,0 +1,27 @@
+{
+  "grade": 4,
+  "package": "LucidPrep Grade 4 TestPrep Papers",
+  "assessment_model": {
+    "questions_per_paper": 40,
+    "mastery_threshold_percent": 70,
+    "module_tests": 4,
+    "full_course_mocks": 2
+  },
+  "courses": {
+    "Grade 4 English Language Arts": {
+      "file": "grade-4-ela.json",
+      "papers": 6,
+      "questions": 240
+    },
+    "Grade 4 Mathematics": {
+      "file": "grade-4-mathematics.json",
+      "papers": 6,
+      "questions": 240
+    },
+    "Grade 4 Science": {
+      "file": "grade-4-science.json",
+      "papers": 6,
+      "questions": 240
+    }
+  }
+}
