@@ -48,18 +48,31 @@ export class CourseService {
    */
   private formatCourseWithRelations(course: any) {
     const plain = typeof course.toJSON === 'function' ? course.toJSON() : course;
-    const tier = plain.gradeLevel?.category || 'senior';
+    const courseType = plain.courseType || 'curriculum';
+    const tier =
+      courseType === 'open'
+        ? 'open'
+        : plain.gradeLevel?.category || 'senior';
     return {
       ...plain,
+      courseType,
       tier,
       subject: plain.subject?.label || plain.subject?.value || plain.subject || '',
-      gradeLevel: plain.gradeLevel?.label || plain.gradeLevel?.value || plain.gradeLevel || '',
+      gradeLevel:
+        plain.gradeLevel?.label ||
+        plain.gradeLevel?.value ||
+        plain.gradeLevel ||
+        (courseType === 'open' ? null : ''),
       instructor: plain.instructor?.fullName || plain.author?.fullName || '',
     };
   }
 
   /**
-   * Fetch paginated & filtered course catalog
+   * Fetch paginated & filtered course catalog.
+   * Default (no courseType): curriculum only — preserves existing grade-based UIs.
+   * courseType=open: open workforce courses only.
+   * courseType=all: both.
+   * tier / gradeLevelId imply curriculum and never return open courses.
    */
   async getCatalog(query: {
     tier?: string;
@@ -67,6 +80,7 @@ export class CourseService {
     subjectId?: string;
     gradeLevel?: string;
     gradeLevelId?: string;
+    courseType?: string;
     status?: string;
     search?: string;
     page?: number;
@@ -84,6 +98,19 @@ export class CourseService {
     // Filter by status if specified (e.g. 'draft', 'published', 'archived', or 'all')
     if (query.status && query.status.toLowerCase() !== 'all') {
       andClauses.push({status: query.status.toLowerCase()});
+    }
+
+    const requestedType = (query.courseType || '').toLowerCase().trim();
+    const gradeScoped = !!(query.tier || query.gradeLevelId || query.gradeLevel);
+
+    // Non-breaking default: curriculum-only catalog. Open courses only when explicitly requested.
+    // Grade/tier filters never return open courses.
+    if (requestedType === 'open' && !gradeScoped) {
+      andClauses.push({courseType: 'open'});
+    } else if (requestedType === 'all' && !gradeScoped) {
+      // no courseType filter
+    } else {
+      andClauses.push({courseType: 'curriculum'});
     }
 
     if (query.tier) {

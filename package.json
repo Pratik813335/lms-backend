@@ -31,6 +31,8 @@
     "migrate": "node ./dist/migrate",
     "preseed:content": "npm run build",
     "seed:content": "node ./dist/seed/import-content.js",
+    "preseed:open-courses": "npm run build",
+    "seed:open-courses": "node ./dist/seed/open-courses.js",
     "preopenapi-spec": "npm run build",
     "openapi-spec": "node ./dist/openapi-spec",
     "prestart": "npm run rebuild",

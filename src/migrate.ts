@@ -45,11 +45,45 @@ export async function migrate(args: string[]) {
     ],
   });
 
+  // Ensure open courses can omit grade_level_id without breaking existing curriculum rows
+  try {
+    const ds = await app.get('datasources.db');
+    await (ds as any).execute(`
+      ALTER TABLE courses
+        ADD COLUMN IF NOT EXISTS course_type text DEFAULT 'curriculum';
+    `);
+    await (ds as any).execute(`
+      ALTER TABLE courses
+        ADD COLUMN IF NOT EXISTS duration_weeks integer;
+    `);
+    await (ds as any).execute(`
+      ALTER TABLE courses
+        ADD COLUMN IF NOT EXISTS tagline text;
+    `);
+    await (ds as any).execute(`
+      ALTER TABLE courses
+        ADD COLUMN IF NOT EXISTS certifications jsonb;
+    `);
+    await (ds as any).execute(`
+      UPDATE courses
+      SET course_type = 'curriculum'
+      WHERE course_type IS NULL OR course_type = '';
+    `);
+    await (ds as any).execute(`
+      ALTER TABLE courses
+        ALTER COLUMN grade_level_id DROP NOT NULL;
+    `);
+    console.log('✅ Open-course columns applied (course_type, nullable grade_level_id).');
+  } catch (err) {
+    console.warn('Open-course SQL alter skipped or partially applied:', (err as Error).message);
+  }
+
   // Seed default system roles into PostgreSQL roles table
   const rolesRepo = await app.getRepository(RolesRepository);
   const defaultRoles = [
     {value: 'student_junior', label: 'Junior Student', description: 'Gamified junior student access'},
     {value: 'student_senior', label: 'Senior Student', description: 'Advanced high school senior student access'},
+    {value: 'open_learner', label: 'Open Learner', description: 'Workforce and certification open-course learner (no grade)'},
     {value: 'admin', label: 'System Administrator', description: 'Full system administration privileges'},
     {value: 'academic', label: 'Academic Coordinator', description: 'Academic performance and compliance monitoring'},
     {value: 'content', label: 'Content Creator / Curriculum Author', description: 'Course and curriculum authoring access'},
@@ -152,6 +186,17 @@ export async function migrate(args: string[]) {
     {value: 'social_studies', label: 'Social Studies', isTestPrep: false, description: 'History, Civics, and Geography'},
     {value: 'world_languages', label: 'World Languages', isTestPrep: false, description: 'Spanish, French, and Global Languages'},
     {value: 'electives', label: 'Electives & Arts', isTestPrep: false, description: 'Creative Arts, Music, and Computer Science'},
+    // Workforce / open-course subjects (additive; do not affect curriculum filters)
+    {value: 'cybersecurity', label: 'Cybersecurity', isTestPrep: false, description: 'Cybersecurity foundations and certification prep'},
+    {value: 'welding', label: 'Welding Technology', isTestPrep: false, description: 'Welding and metal fabrication'},
+    {value: 'hvac', label: 'HVAC Technology', isTestPrep: false, description: 'Heating, ventilation, and air conditioning'},
+    {value: 'electrical_technology', label: 'Electrical Technology', isTestPrep: false, description: 'Electrical systems and code'},
+    {value: 'plumbing', label: 'Plumbing Technology', isTestPrep: false, description: 'Plumbing systems and trade practice'},
+    {value: 'construction', label: 'Construction Technology', isTestPrep: false, description: 'Construction trades and building systems'},
+    {value: 'automotive_manufacturing', label: 'Automotive Manufacturing', isTestPrep: false, description: 'Automotive and advanced manufacturing'},
+    {value: 'industrial_automation', label: 'Industrial Automation', isTestPrep: false, description: 'PLCs, robotics, and mechatronics'},
+    {value: 'dental_assisting', label: 'Dental Assisting', isTestPrep: false, description: 'Dental assisting clinical and certification prep'},
+    {value: 'salon_spa', label: 'Salon & Spa Management', isTestPrep: false, description: 'Cosmetology, esthetics, and nail technology'},
   ];
 
   for (const s of defaultSubjects) {

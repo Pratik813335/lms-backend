@@ -238,6 +238,115 @@ export class AuthController {
     }
   }
 
+  /**
+   * Open-course learner signup — no grade level required.
+   * Existing /auth/student/signup is unchanged and still requires gradeLevelId.
+   */
+  @post('/auth/open/signup', {
+    responses: {
+      '200': {
+        description: 'Open learner registration for workforce / certification courses',
+        content: {
+          'application/json': {
+            schema: {
+              type: 'object',
+              properties: {
+                message: {type: 'string'},
+                token: {type: 'string'},
+                user: {type: 'object'},
+              },
+            },
+          },
+        },
+      },
+    },
+  })
+  async openLearnerSignup(
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            required: ['email', 'password'],
+            properties: {
+              email: {type: 'string'},
+              password: {type: 'string'},
+              fullName: {type: 'string'},
+            },
+          },
+        },
+      },
+    })
+    userData: {
+      email: string;
+      password: string;
+      fullName?: string;
+    },
+  ): Promise<{message: string; token: string; user: UserProfile}> {
+    try {
+      if (!userData.password || userData.password.length < 8) {
+        throw new HttpErrors.BadRequest('Password must be at least 8 characters long');
+      }
+
+      const targetRole = await this.rolesRepo.findOne({
+        where: {value: 'open_learner', isActive: true, isDeleted: false},
+      });
+      if (!targetRole) {
+        throw new HttpErrors.BadRequest(
+          "System role 'open_learner' not found. Run database migrate to seed roles.",
+        );
+      }
+
+      const existingUser = await this.usersRepo.findOne({
+        where: {email: userData.email},
+      });
+      if (existingUser) {
+        throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
+      }
+
+      const hashedPassword = await this.hasher.hashPassword(userData.password);
+      const savedUser = await this.usersRepo.create({
+        email: userData.email,
+        password: hashedPassword,
+        fullName: userData.fullName || userData.email.split('@')[0],
+        isActive: true,
+      });
+
+      await this.rbacService.assignUserRole(savedUser.id!, targetRole.id!);
+
+      await this.studentProfileRepo.create({
+        usersId: savedUser.id,
+        xp: 0,
+        level: 1,
+        streakDays: 0,
+        gpa: 0.0,
+        completedLessons: 0,
+        enrolledCoursesCount: 0,
+        aiInsights:
+          'Welcome to LucidPrep open courses! Enroll in a workforce program to get started.',
+      });
+
+      const userProfile: LmsUserProfile = {
+        [securityId]: savedUser.id!,
+        id: savedUser.id!,
+        email: savedUser.email,
+        roles: [targetRole.value as any],
+        fullName: savedUser.fullName,
+      };
+
+      const token = await this.jwtService.generateToken(userProfile);
+
+      return {
+        message: 'Open learner registered successfully',
+        token,
+        user: userProfile,
+      };
+    } catch (err) {
+      console.error('OPEN LEARNER SIGNUP ERROR:', err);
+      throw err;
+    }
+  }
+
   @post('/auth/signup', {
     responses: {
       '200': {
@@ -247,9 +356,9 @@ export class AuthController {
             schema: {
               type: 'object',
               properties: {
-                message: { type: 'string' },
-                token: { type: 'string' },
-                user: { type: 'object' },
+                message: {type: 'string'},
+                token: {type: 'string'},
+                user: {type: 'object'},
               },
             },
           },
@@ -302,10 +411,15 @@ export class AuthController {
         );
       }
 
-      // 3. Prevent student roles on staff signup endpoint
+      // 3. Prevent learner roles on staff signup endpoint
       if (targetRole.value.startsWith('student_')) {
         throw new HttpErrors.BadRequest(
           'Student registration must use the /auth/student/signup endpoint with gradeLevelId.',
+        );
+      }
+      if (targetRole.value === 'open_learner') {
+        throw new HttpErrors.BadRequest(
+          'Open learner registration must use the /auth/open/signup endpoint.',
         );
       }
 

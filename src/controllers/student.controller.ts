@@ -66,7 +66,12 @@ export class StudentController {
     @inject(SecurityBindings.USER)
     currentUser: LmsUserProfile,
   ) {
-    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    this.rbacService.validateRole(currentUser as any, [
+      'student_junior',
+      'student_senior',
+      'open_learner',
+      'admin',
+    ]);
 
     let profile = await this.studentProfileRepo.findOne({
       where: { usersId: currentUser.id },
@@ -78,17 +83,21 @@ export class StudentController {
       ],
     });
 
+    const isOpenLearner = currentUser.roles?.includes('open_learner');
+
     if (!profile) {
       const isJunior = currentUser.roles?.includes('student_junior');
       const gradeTarget = currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10');
-      const gradeMaster = await this.gradeLevelsRepo.findOne({
-        where: {
-          and: [
-            { or: [{ value: gradeTarget }, { label: gradeTarget }] },
-            { isDeleted: false },
-          ],
-        },
-      });
+      const gradeMaster = isOpenLearner
+        ? null
+        : await this.gradeLevelsRepo.findOne({
+            where: {
+              and: [
+                { or: [{ value: gradeTarget }, { label: gradeTarget }] },
+                { isDeleted: false },
+              ],
+            },
+          });
 
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
@@ -99,15 +108,29 @@ export class StudentController {
         gpa: 0.0,
         completedLessons: 0,
         enrolledCoursesCount: 0,
-        aiInsights: 'Welcome to LucidPrep! Complete your first lesson to unlock personalized AI learning insights.',
+        aiInsights: isOpenLearner
+          ? 'Welcome to LucidPrep open courses! Enroll in a workforce program to get started.'
+          : 'Welcome to LucidPrep! Complete your first lesson to unlock personalized AI learning insights.',
       });
     }
 
     const plainProfile: any = typeof profile.toJSON === 'function' ? profile.toJSON() : profile;
-    const gradeLevelDisplay = plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
-    const tierDisplay = plainProfile.gradeLevel?.category || (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
-    const hasTestPrep = plainProfile.gradeLevel?.hasTestPrep !== undefined ? plainProfile.gradeLevel.hasTestPrep : true;
-    const hasFullCurriculum = plainProfile.gradeLevel?.hasFullCurriculum !== undefined ? plainProfile.gradeLevel.hasFullCurriculum : (tierDisplay === 'senior');
+    const gradeLevelDisplay = isOpenLearner
+      ? null
+      : plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
+    const tierDisplay = isOpenLearner
+      ? 'open'
+      : plainProfile.gradeLevel?.category || (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
+    const hasTestPrep = isOpenLearner
+      ? false
+      : plainProfile.gradeLevel?.hasTestPrep !== undefined
+        ? plainProfile.gradeLevel.hasTestPrep
+        : true;
+    const hasFullCurriculum = isOpenLearner
+      ? false
+      : plainProfile.gradeLevel?.hasFullCurriculum !== undefined
+        ? plainProfile.gradeLevel.hasFullCurriculum
+        : tierDisplay === 'senior';
 
     const dashboardMetrics = {
       profile: {
@@ -115,7 +138,7 @@ export class StudentController {
         usersId: profile.usersId,
         fullName: currentUser.fullName || currentUser.email.split('@')[0],
         email: currentUser.email,
-        gradeLevelId: profile.gradeLevelId,
+        gradeLevelId: profile.gradeLevelId ?? null,
         gradeLevel: gradeLevelDisplay,
         tier: tierDisplay,
         hasTestPrep,
@@ -151,7 +174,12 @@ export class StudentController {
     @inject(SecurityBindings.USER)
     currentUser: LmsUserProfile,
   ) {
-    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    this.rbacService.validateRole(currentUser as any, [
+      'student_junior',
+      'student_senior',
+      'open_learner',
+      'admin',
+    ]);
 
     let profile = await this.studentProfileRepo.findOne({
       where: { usersId: currentUser.id },
@@ -163,17 +191,21 @@ export class StudentController {
       ],
     });
 
+    const isOpenLearner = currentUser.roles?.includes('open_learner');
+
     if (!profile) {
       const isJunior = currentUser.roles?.includes('student_junior');
       const gradeTarget = currentUser.gradeLevel || (isJunior ? 'Grade 6' : 'Grade 10');
-      const gradeMaster = await this.gradeLevelsRepo.findOne({
-        where: {
-          and: [
-            { or: [{ value: gradeTarget }, { label: gradeTarget }] },
-            { isDeleted: false },
-          ],
-        },
-      });
+      const gradeMaster = isOpenLearner
+        ? null
+        : await this.gradeLevelsRepo.findOne({
+            where: {
+              and: [
+                { or: [{ value: gradeTarget }, { label: gradeTarget }] },
+                { isDeleted: false },
+              ],
+            },
+          });
 
       profile = await this.studentProfileRepo.create({
         usersId: currentUser.id,
@@ -188,14 +220,26 @@ export class StudentController {
     }
 
     const plainProfile: any = typeof profile.toJSON === 'function' ? profile.toJSON() : profile;
-    const gradeLevelDisplay = plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
-    const tierDisplay = plainProfile.gradeLevel?.category || (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
-    const hasTestPrep = plainProfile.gradeLevel?.hasTestPrep !== undefined ? plainProfile.gradeLevel.hasTestPrep : true;
-    const hasFullCurriculum = plainProfile.gradeLevel?.hasFullCurriculum !== undefined ? plainProfile.gradeLevel.hasFullCurriculum : (tierDisplay === 'senior');
+    const gradeLevelDisplay = isOpenLearner
+      ? null
+      : plainProfile.gradeLevel?.label || plainProfile.gradeLevel?.value || plainProfile.gradeLevel || 'Grade 10';
+    const tierDisplay = isOpenLearner
+      ? 'open'
+      : plainProfile.gradeLevel?.category || (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
+    const hasTestPrep = isOpenLearner
+      ? false
+      : plainProfile.gradeLevel?.hasTestPrep !== undefined
+        ? plainProfile.gradeLevel.hasTestPrep
+        : true;
+    const hasFullCurriculum = isOpenLearner
+      ? false
+      : plainProfile.gradeLevel?.hasFullCurriculum !== undefined
+        ? plainProfile.gradeLevel.hasFullCurriculum
+        : tierDisplay === 'senior';
 
     const fullProfileData = {
       ...plainProfile,
-      gradeLevelId: profile.gradeLevelId,
+      gradeLevelId: profile.gradeLevelId ?? null,
       gradeLevel: gradeLevelDisplay,
       tier: tierDisplay,
       hasTestPrep,
@@ -234,7 +278,12 @@ export class StudentController {
       gradeLevelId?: string;
     },
   ) {
-    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    this.rbacService.validateRole(currentUser as any, [
+      'student_junior',
+      'student_senior',
+      'open_learner',
+      'admin',
+    ]);
 
     const profile = await this.studentProfileRepo.findOne({
       where: { usersId: currentUser.id },
@@ -242,6 +291,12 @@ export class StudentController {
 
     if (!profile) {
       throw new HttpErrors.NotFound('Student profile not found');
+    }
+
+    if (currentUser.roles?.includes('open_learner') && updateData.gradeLevelId) {
+      throw new HttpErrors.BadRequest(
+        'Open learners do not have a grade level. Use curriculum student signup for grade-based accounts.',
+      );
     }
 
     const updatePayload: any = {};
@@ -283,7 +338,18 @@ export class StudentController {
     @inject(SecurityBindings.USER)
     currentUser: LmsUserProfile,
   ) {
-    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    this.rbacService.validateRole(currentUser as any, [
+      'student_junior',
+      'student_senior',
+      'open_learner',
+      'admin',
+    ]);
+    if (currentUser.roles?.includes('open_learner')) {
+      return formatSuccessResponse(
+        {nodes: [], message: 'Learning map is for junior curriculum learners'},
+        'Junior learning map retrieved successfully',
+      );
+    }
     const result = await this.courseService.getJuniorLearningMap(currentUser.id);
     return formatSuccessResponse(result, 'Junior learning map retrieved successfully');
   }

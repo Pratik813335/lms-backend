@@ -44,8 +44,11 @@ export class Course extends Entity {
   @belongsTo(() => Subjects)
   subjectId: string;
 
+  /**
+   * Required for curriculum courses; null for open (workforce) courses.
+   */
   @belongsTo(() => GradeLevels)
-  gradeLevelId: string;
+  gradeLevelId?: string;
 
   @belongsTo(() => Users, { name: 'instructor' })
   instructorId?: string;
@@ -53,10 +56,46 @@ export class Course extends Entity {
   @belongsTo(() => Users, { name: 'author' })
   authorId?: string;
 
+  /**
+   * 'curriculum' = grade-based K-12 courses (default, existing behavior)
+   * 'open' = workforce / certification courses with no grade
+   */
+  @property({
+    type: 'string',
+    default: 'curriculum',
+    postgresql: {
+      columnName: 'course_type',
+      dataType: 'text',
+    },
+  })
+  courseType?: 'curriculum' | 'open';
+
   @property({
     type: 'string',
   })
   duration?: string;
+
+  @property({
+    type: 'number',
+    postgresql: {
+      columnName: 'duration_weeks',
+      dataType: 'integer',
+    },
+  })
+  durationWeeks?: number;
+
+  @property({
+    type: 'string',
+  })
+  tagline?: string;
+
+  @property({
+    type: 'object',
+    postgresql: {
+      dataType: 'jsonb',
+    },
+  })
+  certifications?: string[];
 
   @property({
     type: 'number',

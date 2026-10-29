@@ -15,6 +15,7 @@ export interface Credentials {
 export type LmsUserRole =
   | 'student_junior'
   | 'student_senior'
+  | 'open_learner'
   | 'admin'
   | 'academic'
   | 'content'

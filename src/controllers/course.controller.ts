@@ -66,6 +66,7 @@ export class CourseController {
     @param.query.string('tier') tier?: string,
     @param.query.string('subjectId') subjectId?: string,
     @param.query.string('gradeLevelId') gradeLevelId?: string,
+    @param.query.string('courseType') courseType?: string,
     @param.query.string('status') status?: string,
     @param.query.string('search') search?: string,
     @param.query.number('page') page?: number,
@@ -75,6 +76,7 @@ export class CourseController {
       tier,
       subjectId,
       gradeLevelId,
+      courseType,
       status,
       search,
       page,
@@ -99,16 +101,20 @@ export class CourseController {
         'application/json': {
           schema: {
             type: 'object',
-            required: ['title', 'subjectId', 'gradeLevelId'],
+            required: ['title', 'subjectId'],
             properties: {
               title: { type: 'string' },
               subtitle: { type: 'string' },
               description: { type: 'string' },
               subjectId: { type: 'string' },
               gradeLevelId: { type: 'string' },
+              courseType: { type: 'string', enum: ['curriculum', 'open'] },
               instructorId: { type: 'string' },
               tier: { type: 'string', enum: ['junior', 'senior'] },
               duration: { type: 'string' },
+              durationWeeks: { type: 'number' },
+              tagline: { type: 'string' },
+              certifications: { type: 'array', items: { type: 'string' } },
               credits: { type: 'number' },
               emoji: { type: 'string' },
               ncaaApproved: { type: 'boolean' },
@@ -121,11 +127,15 @@ export class CourseController {
     data: {
       title: string;
       subjectId: string;
-      gradeLevelId: string;
+      gradeLevelId?: string;
+      courseType?: 'curriculum' | 'open';
       instructorId?: string;
       subtitle?: string;
       description?: string;
       duration?: string;
+      durationWeeks?: number;
+      tagline?: string;
+      certifications?: string[];
       credits?: number;
       emoji?: string;
       ncaaApproved?: boolean;
@@ -138,6 +148,8 @@ export class CourseController {
       throw new HttpErrors.BadRequest('Title is required');
     }
 
+    const courseType = data.courseType === 'open' ? 'open' : 'curriculum';
+
     if (!data.subjectId) {
       throw new HttpErrors.BadRequest('subjectId is required');
     }
@@ -148,14 +160,23 @@ export class CourseController {
       throw new HttpErrors.BadRequest(`Invalid subjectId '${data.subjectId}'. Subject does not exist in master data.`);
     }
 
-    if (!data.gradeLevelId) {
-      throw new HttpErrors.BadRequest('gradeLevelId is required');
-    }
-    const validGrade = await this.gradeLevelsRepo.findOne({
-      where: { id: data.gradeLevelId, isActive: true, isDeleted: false },
-    });
-    if (!validGrade) {
-      throw new HttpErrors.BadRequest(`Invalid gradeLevelId '${data.gradeLevelId}'. Grade level does not exist in master data.`);
+    let validGrade: any = null;
+    if (courseType === 'open') {
+      if (data.gradeLevelId) {
+        throw new HttpErrors.BadRequest(
+          'Open courses must not include gradeLevelId. Omit gradeLevelId when courseType is "open".',
+        );
+      }
+    } else {
+      if (!data.gradeLevelId) {
+        throw new HttpErrors.BadRequest('gradeLevelId is required for curriculum courses');
+      }
+      validGrade = await this.gradeLevelsRepo.findOne({
+        where: { id: data.gradeLevelId, isActive: true, isDeleted: false },
+      });
+      if (!validGrade) {
+        throw new HttpErrors.BadRequest(`Invalid gradeLevelId '${data.gradeLevelId}'. Grade level does not exist in master data.`);
+      }
     }
 
     if (data.instructorId) {
@@ -167,20 +188,31 @@ export class CourseController {
       }
     }
 
-    const courseCredits = data.credits !== undefined ? data.credits : (validGrade.category === 'junior' ? 0.0 : 1.0);
+    const courseCredits =
+      data.credits !== undefined
+        ? data.credits
+        : courseType === 'open'
+          ? 0.0
+          : validGrade?.category === 'junior'
+            ? 0.0
+            : 1.0;
 
     const created = await this.courseRepo.create({
       title: data.title.trim(),
       subtitle: data.subtitle,
       description: data.description,
       subjectId: data.subjectId,
-      gradeLevelId: data.gradeLevelId,
+      gradeLevelId: courseType === 'open' ? undefined : data.gradeLevelId,
+      courseType,
       instructorId: data.instructorId,
       authorId: (currentUser as any).id || (currentUser as any).userId,
       duration: data.duration,
+      durationWeeks: data.durationWeeks,
+      tagline: data.tagline,
+      certifications: data.certifications,
       credits: courseCredits,
       emoji: data.emoji,
-      ncaaApproved: data.ncaaApproved || false,
+      ncaaApproved: courseType === 'open' ? false : data.ncaaApproved || false,
       status: data.status || 'published',
       isActive: true,
       isDeleted: false,
@@ -636,7 +668,12 @@ export class CourseController {
     @param.path.string('id') courseId: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
   ) {
-    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    this.rbacService.validateRole(currentUser as any, [
+      'student_junior',
+      'student_senior',
+      'open_learner',
+      'admin',
+    ]);
     const userId = (currentUser as any).id || (currentUser as any).userId;
     const result = await this.courseService.enrollStudent(userId, courseId);
     return formatSuccessResponse(result, 'Enrollment status updated');
@@ -663,7 +700,12 @@ export class CourseController {
     @param.path.string('id') courseId: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
   ) {
-    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    this.rbacService.validateRole(currentUser as any, [
+      'student_junior',
+      'student_senior',
+      'open_learner',
+      'admin',
+    ]);
     const userId = (currentUser as any).id || (currentUser as any).userId;
     const result = await this.courseService.unenrollStudent(userId, courseId);
     return formatSuccessResponse(result, 'Successfully dropped course');
@@ -675,7 +717,12 @@ export class CourseController {
     @param.path.string('id') lessonId: string,
     @inject(SecurityBindings.USER) currentUser: UserProfile,
   ) {
-    this.rbacService.validateRole(currentUser as any, ['student_junior', 'student_senior', 'admin']);
+    this.rbacService.validateRole(currentUser as any, [
+      'student_junior',
+      'student_senior',
+      'open_learner',
+      'admin',
+    ]);
     const userId = (currentUser as any).id || (currentUser as any).userId;
     const result = await this.courseService.completeLesson(userId, lessonId);
     return formatSuccessResponse(result, 'Lesson completed and progress updated');
