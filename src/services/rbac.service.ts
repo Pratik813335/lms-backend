@@ -75,6 +75,52 @@ export class RbacService {
   }
 
   /**
+   * Replace junior/senior student role to match a grade category (BUG-003, BUG-004).
+   * Leaves non-student roles untouched.
+   */
+  async syncStudentRoleForGradeCategory(
+    userId: string,
+    gradeCategory?: string | null,
+  ): Promise<'student_junior' | 'student_senior'> {
+    const roleValue =
+      gradeCategory === 'junior' ? 'student_junior' : 'student_senior';
+
+    const studentRoles = await this.rolesRepo.find({
+      where: {
+        value: {inq: ['student_junior', 'student_senior']},
+        isActive: true,
+        isDeleted: false,
+      },
+    });
+    const target = studentRoles.find(r => r.value === roleValue);
+    if (!target?.id) {
+      throw new HttpErrors.BadRequest(`System role '${roleValue}' not found.`);
+    }
+
+    const studentRoleIds = studentRoles.map(r => r.id!).filter(Boolean);
+    if (studentRoleIds.length > 0) {
+      const existingLinks = await this.userRolesRepo.find({
+        where: {
+          usersId: userId,
+          rolesId: {inq: studentRoleIds},
+          isDeleted: false,
+        },
+      });
+      for (const link of existingLinks) {
+        if (link.rolesId !== target.id) {
+          await this.userRolesRepo.updateById(link.id, {
+            isActive: false,
+            isDeleted: true,
+          });
+        }
+      }
+    }
+
+    await this.assignUserRole(userId, target.id);
+    return roleValue;
+  }
+
+  /**
    * Validate that the current user profile has at least one of the required roles
    */
   validateRole(userProfile: LmsUserProfile, allowedRoles: LmsUserRole[]): void {

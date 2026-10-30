@@ -13,7 +13,7 @@ import {
 } from '@loopback/rest';
 import { SecurityBindings, UserProfile, securityId } from '@loopback/security';
 import { formatSuccessResponse } from '../utils/response.util';
-import { validateStrongPassword } from '../utils/password.util';
+import { validatePersonName, validateStrongPassword } from '../utils/password.util';
 import {
   GradeLevelsRepository,
   RolesRepository,
@@ -22,6 +22,7 @@ import {
 } from '../repositories';
 import {
   BcryptHasher,
+  CourseService,
   JWTService,
   MyUserService,
   OtpService,
@@ -72,6 +73,8 @@ export class AuthController {
     public studentProfileRepo: StudentProfileRepository,
     @repository(GradeLevelsRepository)
     public gradeLevelsRepo: GradeLevelsRepository,
+    @inject('services.course')
+    public courseService: CourseService,
   ) { }
 
   @post('/auth/login', {
@@ -170,6 +173,7 @@ export class AuthController {
       }
 
       // 2. Automatically map to student_junior or student_senior role based on gradeLevel.category
+      // BUG-026: junior category (incl. Grade 3–8) → student_junior
       const roleKey = gradeMaster.category === 'junior' ? 'student_junior' : 'student_senior';
       const targetRole = await this.rolesRepo.findOne({
         where: { value: roleKey, isActive: true, isDeleted: false },
@@ -188,6 +192,10 @@ export class AuthController {
         throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
       }
 
+      const resolvedName = userData.fullName
+        ? validatePersonName(userData.fullName)
+        : userData.email.split('@')[0];
+
       // 4. Hash password with bcrypt
       const hashedPassword = await this.hasher.hashPassword(userData.password);
 
@@ -195,7 +203,7 @@ export class AuthController {
       const savedUser = await this.usersRepo.create({
         email: userData.email,
         password: hashedPassword,
-        fullName: userData.fullName || userData.email.split('@')[0],
+        fullName: resolvedName,
         isActive: true,
       });
 
@@ -206,6 +214,7 @@ export class AuthController {
       await this.studentProfileRepo.create({
         usersId: savedUser.id,
         gradeLevelId: gradeMaster.id,
+        tier: gradeMaster.category === 'junior' ? 'junior' : 'senior',
         xp: 0,
         level: 1,
         streakDays: 0,
@@ -215,6 +224,24 @@ export class AuthController {
         aiInsights: 'Welcome to LucidPrep LMS! Complete your first lesson to unlock personalized AI learning insights.',
       });
 
+      // BUG-007: auto-enroll published curriculum courses for this grade
+      const enrolledCourseIds = gradeMaster.id
+        ? await this.courseService.autoEnrollPublishedCoursesForGrade(
+            savedUser.id!,
+            gradeMaster.id,
+          )
+        : [];
+      if (enrolledCourseIds.length > 0) {
+        const profile = await this.studentProfileRepo.findOne({
+          where: {usersId: savedUser.id},
+        });
+        if (profile?.id) {
+          await this.studentProfileRepo.updateById(profile.id, {
+            enrolledCoursesCount: enrolledCourseIds.length,
+          });
+        }
+      }
+
       // 8. Build authenticated user profile & JWT token
       const userProfile: LmsUserProfile = {
         [securityId]: savedUser.id!,
@@ -222,7 +249,7 @@ export class AuthController {
         email: savedUser.email,
         roles: [targetRole.value as any],
         fullName: savedUser.fullName,
-        gradeLevel: gradeMaster.value || gradeMaster.label,
+        gradeLevel: gradeMaster.label || gradeMaster.value,
       };
 
       const token = await this.jwtService.generateToken(userProfile);
@@ -391,10 +418,8 @@ export class AuthController {
     },
   ): Promise<{ message: string; token: string; user: UserProfile }> {
     try {
-      // 1. Validate password minimum length
-      if (!userData.password || userData.password.length < 8) {
-        throw new HttpErrors.BadRequest('Password must be at least 8 characters long');
-      }
+      // BUG-012: staff passwords must meet strong policy at creation time
+      validateStrongPassword(userData.password);
 
       if (!userData.roleId) {
         throw new HttpErrors.BadRequest('roleId is required for staff registration');
@@ -432,14 +457,18 @@ export class AuthController {
         throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
       }
 
+      const resolvedName = userData.fullName
+        ? validatePersonName(userData.fullName)
+        : userData.email.split('@')[0];
+
       // 5. Hash password with bcrypt
       const hashedPassword = await this.hasher.hashPassword(userData.password);
 
       // 6. Create user in PostgreSQL users table
       const savedUser = await this.usersRepo.create({
-        email: userData.email,
+        email: userData.email.trim().toLowerCase(),
         password: hashedPassword,
-        fullName: userData.fullName || userData.email.split('@')[0],
+        fullName: resolvedName,
         isActive: true,
       });
 
@@ -831,9 +860,52 @@ export class AuthController {
       isDeleted: true,
       isActive: false,
       updatedAt: new Date(),
+      deletedAt: new Date(),
     });
 
     return formatSuccessResponse({id}, 'Staff user deactivated successfully');
+  }
+
+  /**
+   * Admin reset of a staff member password (BUG-009).
+   * Passwords are never returned; only reset is supported (BUG-010 is intentional).
+   */
+  @authenticate('jwt')
+  @post('/admin/users/{id}/reset-password')
+  async resetStaffPassword(
+    @param.path.string('id') id: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            required: ['newPassword'],
+            properties: {
+              newPassword: {type: 'string'},
+            },
+          },
+        },
+      },
+    })
+    body: {newPassword: string},
+  ) {
+    this.rbacService.validateRole(currentUser as any, ['admin']);
+    validateStrongPassword(body.newPassword);
+
+    const user = await this.usersRepo.findOne({where: {id, isDeleted: false}});
+    if (!user) {
+      throw new HttpErrors.NotFound(`User with ID '${id}' not found.`);
+    }
+
+    const hashed = await this.hasher.hashPassword(body.newPassword);
+    await this.usersRepo.updateById(id, {
+      password: hashed,
+      isOnboarding: false,
+      updatedAt: new Date(),
+    });
+
+    return formatSuccessResponse({id}, 'Staff password reset successfully');
   }
 }
 

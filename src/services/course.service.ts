@@ -322,6 +322,37 @@ export class CourseService {
   }
 
   /**
+   * Auto-enroll a student into all published curriculum courses for their grade (BUG-007).
+   * Skips courses already enrolled. Returns enrolled course ids.
+   */
+  async autoEnrollPublishedCoursesForGrade(
+    userId: string,
+    gradeLevelId: string,
+  ): Promise<string[]> {
+    const courses = await this.courseRepo.find({
+      where: {
+        and: [
+          {gradeLevelId},
+          {status: 'published'},
+          {isActive: true},
+          {isDeleted: false},
+          {courseType: {neq: 'open'}},
+        ],
+      },
+    });
+
+    const enrolledIds: string[] = [];
+    for (const course of courses) {
+      if (!course.id) continue;
+      const result = await this.enrollStudent(userId, course.id);
+      if (result?.enrollment?.courseId || course.id) {
+        enrolledIds.push(course.id);
+      }
+    }
+    return enrolledIds;
+  }
+
+  /**
    * Enroll authenticated student into a course
    */
   async enrollStudent(userId: string, courseId: string) {

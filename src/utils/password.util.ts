@@ -28,3 +28,26 @@ export function validateStrongPassword(password: string): void {
     );
   }
 }
+
+/**
+ * Person name validation (BUG-001): letters, spaces, hyphens, apostrophes, periods only.
+ */
+export function validatePersonName(name: string, fieldLabel = 'fullName'): string {
+  if (!name || typeof name !== 'string') {
+    throw new HttpErrors.BadRequest(`${fieldLabel} is required`);
+  }
+
+  const trimmed = name.trim().replace(/\s+/g, ' ');
+  if (trimmed.length < 2) {
+    throw new HttpErrors.BadRequest(`${fieldLabel} must be at least 2 characters`);
+  }
+  if (trimmed.length > 100) {
+    throw new HttpErrors.BadRequest(`${fieldLabel} must be at most 100 characters`);
+  }
+  if (!/^[\p{L}\s'.-]+$/u.test(trimmed)) {
+    throw new HttpErrors.BadRequest(
+      `${fieldLabel} may only contain letters, spaces, hyphens, apostrophes, and periods`,
+    );
+  }
+  return trimmed;
+}

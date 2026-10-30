@@ -23,7 +23,7 @@ import {
 import { BcryptHasher, CourseService, RbacService } from '../services';
 import { LmsUserProfile } from '../types';
 import { formatSuccessResponse } from '../utils';
-import { validateStrongPassword } from '../utils/password.util';
+import { validatePersonName, validateStrongPassword } from '../utils/password.util';
 
 export class StudentController {
   constructor(
@@ -308,6 +308,12 @@ export class StudentController {
         throw new HttpErrors.BadRequest(`Invalid gradeLevelId '${updateData.gradeLevelId}'. Grade level does not exist in master data.`);
       }
       updatePayload.gradeLevelId = gradeMaster.id;
+      updatePayload.tier = gradeMaster.category === 'junior' ? 'junior' : 'senior';
+      // BUG-004: sync student_junior / student_senior when switching grade tiers
+      await this.rbacService.syncStudentRoleForGradeCategory(
+        currentUser.id,
+        gradeMaster.category,
+      );
     }
 
     await this.studentProfileRepo.updateById(profile.id, {
@@ -399,21 +405,30 @@ export class StudentController {
     const pageNum = Math.max(Number(page) || 1, 1);
     const limitNum = Math.min(Math.max(Number(limit) || 10, 1), 100);
 
+    // BUG-005 / BUG-006: exclude soft-deleted profiles; keep gradeLevelId accurate for edit forms
     const profiles = await this.studentProfileRepo.find({
+      where: {isDeleted: false},
       include: [
         {
           relation: 'gradeLevel',
-          scope: { fields: { id: true, label: true, value: true, category: true } },
+          scope: {fields: {id: true, label: true, value: true, category: true}},
         },
       ],
       order: ['createdAt DESC'],
     });
 
     const userIds = profiles.map(p => p.usersId).filter(Boolean);
-    const users = userIds.length > 0 ? await this.usersRepo.find({ where: { id: { inq: userIds } } }) : [];
+    const users =
+      userIds.length > 0
+        ? await this.usersRepo.find({
+            where: {id: {inq: userIds}, isDeleted: false},
+          })
+        : [];
     const userMap = new Map<string, any>(users.map(u => [u.id!, u]));
 
-    const enrollments = await this.enrollmentRepo.find();
+    const enrollments = await this.enrollmentRepo.find({
+      where: {isDeleted: false},
+    });
     const enrollmentMap = new Map<string, string[]>();
     for (const e of enrollments) {
       if (e.usersId && e.courseId) {
@@ -423,21 +438,29 @@ export class StudentController {
       }
     }
 
-    let list = profiles.map(p => {
+    let list = profiles
+      .filter(p => userMap.has(p.usersId))
+      .map(p => {
       const plainProf: any = typeof p.toJSON === 'function' ? p.toJSON() : p;
       const user = userMap.get(p.usersId) || {};
       const grade = plainProf.gradeLevel || {};
       const enrolled = enrollmentMap.get(p.usersId) || [];
-      const studentTier = p.tier || grade.category || 'senior';
+      const studentTier = p.tier || grade.category || null;
 
       return {
         id: user.id || p.usersId,
         profileId: p.id,
         name: user.fullName || (user.email ? user.email.split('@')[0] : 'Student'),
         email: user.email || '',
-        role: studentTier === 'junior' ? 'student_junior' : 'student_senior',
-        gradeLevel: grade.label || grade.value || (studentTier === 'junior' ? 'Grade 6' : 'Grade 10'),
-        gradeLevelId: p.gradeLevelId || grade.id,
+        role:
+          studentTier === 'junior'
+            ? 'student_junior'
+            : studentTier === 'senior'
+              ? 'student_senior'
+              : null,
+        // BUG-006 / BUG-019: never invent a grade label when the relation is missing
+        gradeLevel: grade.label || grade.value || null,
+        gradeLevelId: p.gradeLevelId || grade.id || null,
         tier: studentTier,
         gpa: p.gpa ?? 0.0,
         completedLessons: p.completedLessons ?? 0,
@@ -538,13 +561,11 @@ export class StudentController {
       enrolledCourses?: string[];
     },
   ) {
-    if (!body.fullName || !body.fullName.trim()) {
-      throw new HttpErrors.BadRequest('fullName is required');
-    }
     if (!body.gradeLevelId) {
       throw new HttpErrors.BadRequest('gradeLevelId is required');
     }
-    const studentName = body.fullName.trim();
+    // BUG-001: reject numeric / special-character names
+    const studentName = validatePersonName(body.fullName);
     const studentEmail = body.email.trim();
     const rawPassword = body.password?.trim();
     const initialPassword = (!rawPassword || rawPassword === 'Student123' || rawPassword === 'Student@123')
@@ -631,7 +652,8 @@ export class StudentController {
       createdAt: body.joinDate ? new Date(body.joinDate) : new Date(),
     });
 
-    // 8. Auto-enroll courses if selected
+    // 8. Auto-enroll selected courses, or all published courses for the grade (BUG-007)
+    let finalEnrolled = enrolledCoursesList;
     if (enrolledCoursesList.length > 0) {
       for (const cId of enrolledCoursesList) {
         if (cId && typeof cId === 'string') {
@@ -646,6 +668,15 @@ export class StudentController {
           }
         }
       }
+    } else if (gradeMaster.id) {
+      finalEnrolled = await this.courseService.autoEnrollPublishedCoursesForGrade(
+        savedUser.id!,
+        gradeMaster.id,
+      );
+      await this.studentProfileRepo.updateById(
+        (await this.studentProfileRepo.findOne({where: {usersId: savedUser.id}}))!.id!,
+        {enrolledCoursesCount: finalEnrolled.length},
+      );
     }
 
     return formatSuccessResponse(
@@ -655,10 +686,11 @@ export class StudentController {
         email: studentEmail,
         role: roleKey,
         gradeLevel: gradeMaster.label || gradeMaster.value,
+        gradeLevelId: gradeMaster.id,
         tier: roleKey === 'student_junior' ? 'junior' : 'senior',
         gpa: gpaNum,
         completionRate: Number(body.completionRate) || 0,
-        enrolledCourses: enrolledCoursesList,
+        enrolledCourses: finalEnrolled,
         isOnboarding: true,
         createdAt: savedUser.createdAt,
       },
@@ -705,7 +737,9 @@ export class StudentController {
 
     if (body.fullName !== undefined || body.isActive !== undefined) {
       const userUpdate: any = {updatedAt: new Date()};
-      if (body.fullName !== undefined) userUpdate.fullName = body.fullName;
+      if (body.fullName !== undefined) {
+        userUpdate.fullName = validatePersonName(body.fullName);
+      }
       if (body.isActive !== undefined) userUpdate.isActive = body.isActive;
       await this.usersRepo.updateById(id, userUpdate);
     }
@@ -723,11 +757,15 @@ export class StudentController {
         }
         profileUpdate.gradeLevelId = body.gradeLevelId;
         profileUpdate.tier = gradeMaster.category === 'junior' ? 'junior' : 'senior';
+        // BUG-003: keep RBAC role in sync when admin changes junior/senior grade
+        await this.rbacService.syncStudentRoleForGradeCategory(id, gradeMaster.category);
       }
       await this.studentProfileRepo.updateById(profile.id, profileUpdate);
     }
 
-    const updatedUser = await this.usersRepo.findById(id);
+    const updatedUser = await this.usersRepo.findById(id, {
+      include: [{relation: 'roles'}],
+    });
     const updatedProfile = await this.studentProfileRepo.findOne({
       where: {usersId: id},
       include: [{relation: 'gradeLevel'}],
@@ -737,6 +775,12 @@ export class StudentController {
       {
         user: updatedUser,
         profile: updatedProfile,
+        gradeLevelId: updatedProfile?.gradeLevelId ?? null,
+        gradeLevel:
+          (updatedProfile as any)?.gradeLevel?.label ||
+          (updatedProfile as any)?.gradeLevel?.value ||
+          null,
+        tier: updatedProfile?.tier ?? null,
       },
       'Student updated successfully',
     );

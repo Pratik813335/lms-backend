@@ -43,11 +43,23 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
       throw new HttpErrors.BadRequest('Email and password are required');
     }
 
-    const userEntity = await this.usersRepo.findOne({
-      where: { email: credentials.email },
+    const email = credentials.email.trim();
+    // Prefer exact match, then case-insensitive (BUG-012 login mismatches)
+    let userEntity = await this.usersRepo.findOne({
+      where: {email},
     });
+    if (!userEntity) {
+      userEntity = await this.usersRepo.findOne({
+        where: {email: {ilike: email} as any},
+      });
+    }
 
     if (!userEntity) {
+      throw new HttpErrors.Unauthorized('User account not found');
+    }
+
+    // BUG-015: soft-deleted accounts must not authenticate
+    if (userEntity.isDeleted) {
       throw new HttpErrors.Unauthorized('User account not found');
     }
 
@@ -72,17 +84,28 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
     const userWithRoles = await this.usersRepo.findById(userEntity.id, {
       include: ['roles'],
     });
-    const roles = (userWithRoles.roles || []).map(r => r.value);
+    const roles = (userWithRoles.roles || [])
+      .filter(r => r.isActive !== false && r.isDeleted !== true)
+      .map(r => r.value);
 
-    // gradeLevel is ONLY for student roles; null for staff roles (admin, content, academic, operations)
+    // gradeLevel is ONLY for student roles; null for staff / open learners without a grade
     const isStudentRole = roles.some(r => r.startsWith('student_'));
     const profile = isStudentRole
-      ? await this.studentProfileRepo.findOne({ where: { usersId: userEntity.id }, include: ['gradeLevel'] })
+      ? await this.studentProfileRepo.findOne({
+          where: {usersId: userEntity.id, isDeleted: false},
+          include: ['gradeLevel'],
+        })
       : null;
-    const plainProf: any = profile ? (typeof profile.toJSON === 'function' ? profile.toJSON() : profile) : null;
-    const isJunior = roles.includes('student_junior');
-    const defaultGrade = isJunior ? 'Grade 6' : 'Grade 10';
-    const gradeLevelVal = plainProf?.gradeLevel?.value || plainProf?.gradeLevel?.label || defaultGrade;
+    const plainProf: any = profile
+      ? typeof profile.toJSON === 'function'
+        ? profile.toJSON()
+        : profile
+      : null;
+    // BUG-019: never invent "Grade 10" — return the stored grade or null
+    const gradeLevelVal =
+      plainProf?.gradeLevel?.label ||
+      plainProf?.gradeLevel?.value ||
+      null;
 
     return {
       id: userEntity.id!,
