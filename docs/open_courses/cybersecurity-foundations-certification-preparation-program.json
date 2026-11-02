@@ -1,0 +1,2227 @@
+{
+  "code": "CYBERSECURITY_FOUNDATIONS_CERTIFICATION_PREPARATION_PROGRAM",
+  "slug": "cybersecurity-foundations-certification-preparation-program",
+  "name": "Cybersecurity Foundations & Certification Preparation Program",
+  "duration_weeks": 24,
+  "module_count": 12,
+  "phase_count": 0,
+  "structure": {
+    "delivery": "100% Online",
+    "weekly_time_commitment": "5–8 Hours"
+  },
+  "program_overview": [
+    "Cybersecurity Foundations & Certification Preparation Program",
+    "24-Week Online Cybersecurity Bootcamp",
+    "Prepare. Protect. Pass. Succeed.",
+    "Program Overview",
+    "The Cybersecurity Foundations & Certification Preparation Program is a comprehensive 24-week online training program designed to prepare high school students, college students, career changers, and adult learners for entry-level cybersecurity careers and nationally recognized cybersecurity certification exams such as:",
+    "CompTIA Security+",
+    "CompTIA Network+",
+    "ISC2 Certified in Cybersecurity (CC)",
+    "Cisco Certified Support Technician (CCST) Cybersecurity",
+    "Microsoft Security Fundamentals (MS-900/SC-900)",
+    "Other entry-level cybersecurity credentialing exams",
+    "Throughout this 24-week program, students develop the technical knowledge, analytical thinking, and hands-on skills needed to identify cyber threats, protect digital assets, secure networks, respond to security incidents, and successfully pass a national cybersecurity certification exam.",
+    "Students engage in interactive lessons, virtual labs, realistic cyberattack simulations, quizzes, module exams, and AI-powered personalized tutoring that adapts instruction to each learner's strengths and growth areas.",
+    "Program Learning Outcomes",
+    "Upon successful completion, students will be able to:",
+    "Explain fundamental cybersecurity principles and terminology.",
+    "Identify common cyber threats, vulnerabilities, and attack vectors.",
+    "Apply security best practices to protect systems and networks.",
+    "Understand networking fundamentals and secure communication protocols.",
+    "Analyze malware, phishing, ransomware, and social engineering attacks.",
+    "Implement authentication, encryption, and access control measures.",
+    "Respond appropriately to cybersecurity incidents.",
+    "Demonstrate knowledge of governance, risk management, compliance, and cybersecurity ethics.",
+    "Successfully prepare for a national cybersecurity certification examination.",
+    "Course Structure",
+    "Duration: 24 Weeks",
+    "Delivery: 100% Online",
+    "Weekly Time Commitment: 5–8 Hours",
+    "Each Weekly Module Includes:",
+    "Instructor Overview (10–15 minutes)",
+    "Interactive Lessons",
+    "Cybersecurity Vocabulary Review",
+    "Short Instructional Videos",
+    "Virtual Cybersecurity Lab",
+    "Guided Practice Activities"
+  ],
+  "program_learning_outcomes": [
+    "Explain fundamental cybersecurity principles and terminology.",
+    "Identify common cyber threats, vulnerabilities, and attack vectors.",
+    "Apply security best practices to protect systems and networks.",
+    "Understand networking fundamentals and secure communication protocols.",
+    "Analyze malware, phishing, ransomware, and social engineering attacks.",
+    "Implement authentication, encryption, and access control measures.",
+    "Respond appropriately to cybersecurity incidents.",
+    "Demonstrate knowledge of governance, risk management, compliance, and cybersecurity ethics.",
+    "Successfully prepare for a national cybersecurity certification examination."
+  ],
+  "phases": [],
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to Cybersecurity",
+      "week_start": 1,
+      "week_end": 2,
+      "description": null,
+      "topics": [
+        "Introduction to Cybersecurity",
+        "What is Cybersecurity?",
+        "CIA Triad",
+        "Types of Cybercrime",
+        "Cybersecurity Careers",
+        "Threat Landscape",
+        "Ethical Hacking Overview",
+        "Identify Common Cyber Threats",
+        "10 Questions",
+        "25 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Lab"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 1 (Weeks 1–2)",
+        "Introduction to Cybersecurity",
+        "Topics",
+        "What is Cybersecurity?",
+        "CIA Triad",
+        "Types of Cybercrime",
+        "Cybersecurity Careers",
+        "Threat Landscape",
+        "Ethical Hacking Overview",
+        "Lab",
+        "Identify Common Cyber Threats",
+        "Quiz",
+        "10 Questions",
+        "Test",
+        "25 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 1,
+          "title": "Introduction to Cybersecurity — Week 1",
+          "module_number": 1,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 2,
+          "title": "Introduction to Cybersecurity — Week 2",
+          "module_number": 1,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 25,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 10
+        },
+        {
+          "type": "test",
+          "question_count": 25
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Computer Hardware & Operating Systems",
+      "week_start": 3,
+      "week_end": 4,
+      "description": null,
+      "topics": [
+        "Computer Hardware & Operating Systems",
+        "Computer Components",
+        "Windows",
+        "Linux",
+        "macOS",
+        "Mobile Operating Systems",
+        "Virtual Machines",
+        "Install a Virtual Machine",
+        "10 Questions",
+        "30 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Lab"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 2 (Weeks 3–4)",
+        "Computer Hardware & Operating Systems",
+        "Topics",
+        "Computer Components",
+        "Windows",
+        "Linux",
+        "macOS",
+        "Mobile Operating Systems",
+        "Virtual Machines",
+        "Lab",
+        "Install a Virtual Machine",
+        "Quiz",
+        "10 Questions",
+        "Test",
+        "30 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 3,
+          "title": "Computer Hardware & Operating Systems — Week 3",
+          "module_number": 2,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 4,
+          "title": "Computer Hardware & Operating Systems — Week 4",
+          "module_number": 2,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 30,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 10
+        },
+        {
+          "type": "test",
+          "question_count": 30
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Networking Fundamentals",
+      "week_start": 5,
+      "week_end": 6,
+      "description": null,
+      "topics": [
+        "Networking Fundamentals",
+        "TCP/IP",
+        "OSI Model",
+        "IP Addressing",
+        "Routers",
+        "Switches",
+        "Firewalls",
+        "DNS",
+        "DHCP",
+        "Build a Virtual Network",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Lab"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 3 (Weeks 5–6)",
+        "Networking Fundamentals",
+        "Topics",
+        "TCP/IP",
+        "OSI Model",
+        "IP Addressing",
+        "Routers",
+        "Switches",
+        "Firewalls",
+        "DNS",
+        "DHCP",
+        "Lab",
+        "Build a Virtual Network",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 5,
+          "title": "Networking Fundamentals — Week 5",
+          "module_number": 3,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 6,
+          "title": "Networking Fundamentals — Week 6",
+          "module_number": 3,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Cyber Threats & Malware",
+      "week_start": 7,
+      "week_end": 8,
+      "description": null,
+      "topics": [
+        "Cyber Threats & Malware",
+        "Viruses",
+        "Worms",
+        "Trojans",
+        "Spyware",
+        "Ransomware",
+        "Rootkits",
+        "Botnets",
+        "Malware Identification",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Lab"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 4 (Weeks 7–8)",
+        "Cyber Threats & Malware",
+        "Topics",
+        "Viruses",
+        "Worms",
+        "Trojans",
+        "Spyware",
+        "Ransomware",
+        "Rootkits",
+        "Botnets",
+        "Lab",
+        "Malware Identification",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 7,
+          "title": "Cyber Threats & Malware — Week 7",
+          "module_number": 4,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 8,
+          "title": "Cyber Threats & Malware — Week 8",
+          "module_number": 4,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Social Engineering",
+      "week_start": 9,
+      "week_end": 10,
+      "description": null,
+      "topics": [
+        "Social Engineering",
+        "Phishing",
+        "Spear Phishing",
+        "Whaling",
+        "Vishing",
+        "Smishing",
+        "Insider Threats",
+        "Human Error",
+        "Simulation",
+        "Phishing Detection Exercise",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Simulation"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 5 (Weeks 9–10)",
+        "Social Engineering",
+        "Topics",
+        "Phishing",
+        "Spear Phishing",
+        "Whaling",
+        "Vishing",
+        "Smishing",
+        "Insider Threats",
+        "Human Error",
+        "Simulation",
+        "Phishing Detection Exercise",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 9,
+          "title": "Social Engineering — Week 9",
+          "module_number": 5,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 10,
+          "title": "Social Engineering — Week 10",
+          "module_number": 5,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 6,
+      "title": "Identity & Access Management",
+      "week_start": 11,
+      "week_end": 12,
+      "description": null,
+      "topics": [
+        "Identity & Access Management",
+        "Password Security",
+        "Multi-Factor Authentication",
+        "Biometrics",
+        "Role-Based Access Control",
+        "Least Privilege",
+        "Single Sign-On",
+        "User Account Security",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Lab"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 6 (Weeks 11–12)",
+        "Identity & Access Management",
+        "Topics",
+        "Password Security",
+        "Multi-Factor Authentication",
+        "Biometrics",
+        "Role-Based Access Control",
+        "Least Privilege",
+        "Single Sign-On",
+        "Lab",
+        "User Account Security",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 11,
+          "title": "Identity & Access Management — Week 11",
+          "module_number": 6,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 12,
+          "title": "Identity & Access Management — Week 12",
+          "module_number": 6,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 7,
+      "title": "Cryptography",
+      "week_start": 13,
+      "week_end": 14,
+      "description": null,
+      "topics": [
+        "Cryptography",
+        "Encryption",
+        "Decryption",
+        "Hashing",
+        "Digital Certificates",
+        "Public Key Infrastructure",
+        "SSL/TLS",
+        "VPNs",
+        "Encryption Demonstration",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Lab"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 7 (Weeks 13–14)",
+        "Cryptography",
+        "Topics",
+        "Encryption",
+        "Decryption",
+        "Hashing",
+        "Digital Certificates",
+        "Public Key Infrastructure",
+        "SSL/TLS",
+        "VPNs",
+        "Lab",
+        "Encryption Demonstration",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 13,
+          "title": "Cryptography — Week 13",
+          "module_number": 7,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 14,
+          "title": "Cryptography — Week 14",
+          "module_number": 7,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 8,
+      "title": "Network Security",
+      "week_start": 15,
+      "week_end": 16,
+      "description": null,
+      "topics": [
+        "Network Security",
+        "Firewalls",
+        "IDS",
+        "IPS",
+        "Wireless Security",
+        "Secure Protocols",
+        "VPN Configuration",
+        "Firewall Configuration",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Lab"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 8 (Weeks 15–16)",
+        "Network Security",
+        "Topics",
+        "Firewalls",
+        "IDS",
+        "IPS",
+        "Wireless Security",
+        "Secure Protocols",
+        "VPN Configuration",
+        "Lab",
+        "Firewall Configuration",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 15,
+          "title": "Network Security — Week 15",
+          "module_number": 8,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 16,
+          "title": "Network Security — Week 16",
+          "module_number": 8,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 9,
+      "title": "Risk Management & Governance",
+      "week_start": 17,
+      "week_end": 18,
+      "description": null,
+      "topics": [
+        "Risk Management & Governance",
+        "Risk Assessment",
+        "Compliance",
+        "Security Policies",
+        "Disaster Recovery",
+        "Business Continuity",
+        "Incident Response",
+        "Scenario",
+        "Cybersecurity Incident Planning",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [],
+      "assessments": [
+        "Risk Assessment",
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 9 (Weeks 17–18)",
+        "Risk Management & Governance",
+        "Topics",
+        "Risk Assessment",
+        "Compliance",
+        "Security Policies",
+        "Disaster Recovery",
+        "Business Continuity",
+        "Incident Response",
+        "Scenario",
+        "Cybersecurity Incident Planning",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 17,
+          "title": "Risk Management & Governance — Week 17",
+          "module_number": 9,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 18,
+          "title": "Risk Management & Governance — Week 18",
+          "module_number": 9,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 10,
+      "title": "Cloud Security",
+      "week_start": 19,
+      "week_end": 20,
+      "description": null,
+      "topics": [
+        "Cloud Security",
+        "Cloud Computing",
+        "SaaS",
+        "PaaS",
+        "IaaS",
+        "Cloud Risks",
+        "Shared Responsibility",
+        "Cloud Security Assessment",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Lab"
+      ],
+      "assessments": [
+        "Cloud Security Assessment",
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 10 (Weeks 19–20)",
+        "Cloud Security",
+        "Topics",
+        "Cloud Computing",
+        "SaaS",
+        "PaaS",
+        "IaaS",
+        "Cloud Risks",
+        "Shared Responsibility",
+        "Lab",
+        "Cloud Security Assessment",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 19,
+          "title": "Cloud Security — Week 19",
+          "module_number": 10,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 20,
+          "title": "Cloud Security — Week 20",
+          "module_number": 10,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 11,
+      "title": "Security Operations",
+      "week_start": 21,
+      "week_end": 22,
+      "description": null,
+      "topics": [
+        "Security Operations",
+        "Security Monitoring",
+        "SIEM",
+        "Log Analysis",
+        "Threat Intelligence",
+        "Security Operations Center (SOC)",
+        "Simulation",
+        "Incident Response Exercise",
+        "15 Questions",
+        "35 Questions"
+      ],
+      "labs_and_practical_activities": [
+        "Simulation"
+      ],
+      "assessments": [
+        "Quiz",
+        "Test"
+      ],
+      "source_content": [
+        "Module 11 (Weeks 21–22)",
+        "Security Operations",
+        "Topics",
+        "Security Monitoring",
+        "SIEM",
+        "Log Analysis",
+        "Threat Intelligence",
+        "Security Operations Center (SOC)",
+        "Simulation",
+        "Incident Response Exercise",
+        "Quiz",
+        "15 Questions",
+        "Test",
+        "35 Questions"
+      ],
+      "weeks": [
+        {
+          "week_number": 21,
+          "title": "Security Operations — Week 21",
+          "module_number": 11,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 22,
+          "title": "Security Operations — Week 22",
+          "module_number": 11,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "quiz",
+          "question_count": 15
+        },
+        {
+          "type": "test",
+          "question_count": 35
+        }
+      ]
+    },
+    {
+      "module_number": 12,
+      "title": "Certification Review & Exam Preparation",
+      "week_start": 23,
+      "week_end": 24,
+      "description": null,
+      "topics": [
+        "Certification Review & Exam Preparation",
+        "Comprehensive Review",
+        "Practice Exams",
+        "Weak Area Remediation",
+        "Exam Strategies",
+        "Time Management",
+        "Certification Readiness",
+        "Activities",
+        "Full-Length Practice Exams",
+        "AI Review Sessions",
+        "Personalized Study Plans",
+        "Instructor Feedback",
+        "Virtual Cyber Labs",
+        "Password Cracking Demonstrations (ethical, controlled environment)",
+        "Secure Password Creation",
+        "Firewall Configuration",
+        "Network Mapping",
+        "Threat Detection",
+        "Phishing Identification",
+        "Encryption Exercises",
+        "Incident Response Scenarios",
+        "Risk Assessment Activities",
+        "Security Policy Development",
+        "Weekly Assessments",
+        "Knowledge Quiz",
+        "10–15 Questions",
+        "Immediate Feedback",
+        "Unlimited Attempts",
+        "25–35 Questions",
+        "Scenario-Based Questions",
+        "Must Score 80% to Unlock Next Module",
+        "Unlimited Retakes",
+        "100 Questions",
+        "Modules 1–6",
+        "Hands-On Lab Review",
+        "Performance Dashboard",
+        "80%",
+        "150 Questions",
+        "Multiple Choice",
+        "Performance-Based Simulations",
+        "Network Diagrams",
+        "Security Logs",
+        "Incident Analysis",
+        "85%",
+        "Student Resources",
+        "Cybersecurity Glossary (500+ Terms)",
+        "Practice Test Bank (1,500+ Questions)",
+        "Interactive Flashcards",
+        "Downloadable Study Guides",
+        "Instructor Notes",
+        "Video Library",
+        "AI Study Companion",
+        "Certification Exam Readiness Tracker",
+        "Career Exploration Resources",
+        "Career Pathways",
+        "Cybersecurity Technician",
+        "Information Security Analyst (Entry Level)",
+        "SOC Analyst (Tier 1)",
+        "IT Support Specialist",
+        "Network Support Technician",
+        "Security Operations Technician",
+        "Help Desk Analyst",
+        "Junior Systems Administrator",
+        "Compliance and Risk Assistant",
+        "Cybersecurity Apprentice",
+        "Program Success Formula",
+        "Learn → Practice → Simulate → Assess → Receive AI Feedback → Master → Certify"
+      ],
+      "labs_and_practical_activities": [
+        "Activities",
+        "Risk Assessment Activities",
+        "Hands-On Lab Review",
+        "Lab Manuals",
+        "By combining structured instruction, realistic labs, adaptive AI support, continuous assessment, and certification-focused review, this 24-week program equips students with the knowledge, practical experience, and confidence needed to pursue a career in cybersecurity and perform successfully on a national entry-level cybersecurity certification exam."
+      ],
+      "assessments": [
+        "Certification Review & Exam Preparation",
+        "Exam Strategies",
+        "Risk Assessment Activities",
+        "Knowledge Quiz",
+        "Module Test",
+        "Midterm Assessment (Week 12)",
+        "Final Certification Readiness Assessment (Week 24)",
+        "Upon successful completion, students receive a Course Completion Certificate and a personalized readiness report identifying strengths, areas for continued improvement, and recommendations for the national cybersecurity certification exam that best matches their career goals.",
+        "Practice Test Bank (1,500+ Questions)",
+        "Certification Exam Readiness Tracker",
+        "By combining structured instruction, realistic labs, adaptive AI support, continuous assessment, and certification-focused review, this 24-week program equips students with the knowledge, practical experience, and confidence needed to pursue a career in cybersecurity and perform successfully on a national entry-level cybersecurity certification exam."
+      ],
+      "source_content": [
+        "Module 12 (Weeks 23–24)",
+        "Certification Review & Exam Preparation",
+        "Topics",
+        "Comprehensive Review",
+        "Practice Exams",
+        "Weak Area Remediation",
+        "Exam Strategies",
+        "Time Management",
+        "Certification Readiness",
+        "Activities",
+        "Full-Length Practice Exams",
+        "AI Review Sessions",
+        "Personalized Study Plans",
+        "Instructor Feedback",
+        "Virtual Cyber Labs",
+        "Students complete hands-on exercises including:",
+        "Password Cracking Demonstrations (ethical, controlled environment)",
+        "Secure Password Creation",
+        "Firewall Configuration",
+        "Network Mapping",
+        "Threat Detection",
+        "Phishing Identification",
+        "Encryption Exercises",
+        "Incident Response Scenarios",
+        "Risk Assessment Activities",
+        "Security Policy Development",
+        "Weekly Assessments",
+        "Every Week Includes:",
+        "Knowledge Quiz",
+        "10–15 Questions",
+        "Immediate Feedback",
+        "Unlimited Attempts",
+        "Module Test",
+        "25–35 Questions",
+        "Scenario-Based Questions",
+        "Must Score 80% to Unlock Next Module",
+        "Unlimited Retakes",
+        "Midterm Assessment (Week 12)",
+        "100 Questions",
+        "Content Covers:",
+        "Modules 1–6",
+        "Hands-On Lab Review",
+        "Performance Dashboard",
+        "Passing Score:",
+        "80%",
+        "Unlimited Retakes",
+        "Final Certification Readiness Assessment (Week 24)",
+        "150 Questions",
+        "Includes:",
+        "Multiple Choice",
+        "Scenario-Based Questions",
+        "Performance-Based Simulations",
+        "Network Diagrams",
+        "Security Logs",
+        "Incident Analysis",
+        "Passing Score:",
+        "85%",
+        "Upon successful completion, students receive a Course Completion Certificate and a personalized readiness report identifying strengths, areas for continued improvement, and recommendations for the national cybersecurity certification exam that best matches their career goals.",
+        "Student Resources",
+        "Students receive access to:",
+        "Cybersecurity Glossary (500+ Terms)",
+        "Practice Test Bank (1,500+ Questions)",
+        "Interactive Flashcards",
+        "Downloadable Study Guides",
+        "Lab Manuals",
+        "Instructor Notes",
+        "Video Library",
+        "AI Study Companion",
+        "Certification Exam Readiness Tracker",
+        "Career Exploration Resources",
+        "Career Pathways",
+        "Successful completion of the program prepares students for entry-level roles such as:",
+        "Cybersecurity Technician",
+        "Information Security Analyst (Entry Level)",
+        "SOC Analyst (Tier 1)",
+        "IT Support Specialist",
+        "Network Support Technician",
+        "Security Operations Technician",
+        "Help Desk Analyst",
+        "Junior Systems Administrator",
+        "Compliance and Risk Assistant",
+        "Cybersecurity Apprentice",
+        "Program Success Formula",
+        "Learn → Practice → Simulate → Assess → Receive AI Feedback → Master → Certify",
+        "By combining structured instruction, realistic labs, adaptive AI support, continuous assessment, and certification-focused review, this 24-week program equips students with the knowledge, practical experience, and confidence needed to pursue a career in cybersecurity and perform successfully on a national entry-level cybersecurity certification exam."
+      ],
+      "weeks": [
+        {
+          "week_number": 23,
+          "title": "Certification Review & Exam Preparation — Week 23",
+          "module_number": 12,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 24,
+          "title": "Certification Review & Exam Preparation — Week 24",
+          "module_number": 12,
+          "weekly_focus_explicit": false,
+          "quiz_title": null,
+          "weekly_quiz": null,
+          "content_source": "module_level_only",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module Test",
+        "question_count": 35,
+        "answer_explanations": null,
+        "practical_component": false
+      },
+      "assessment_details": [
+        {
+          "type": "module_test",
+          "question_count": 35
+        }
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week_number": 1,
+      "title": "Introduction to Cybersecurity — Week 1",
+      "module_number": 1,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 2,
+      "title": "Introduction to Cybersecurity — Week 2",
+      "module_number": 1,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 3,
+      "title": "Computer Hardware & Operating Systems — Week 3",
+      "module_number": 2,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 4,
+      "title": "Computer Hardware & Operating Systems — Week 4",
+      "module_number": 2,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 5,
+      "title": "Networking Fundamentals — Week 5",
+      "module_number": 3,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 6,
+      "title": "Networking Fundamentals — Week 6",
+      "module_number": 3,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 7,
+      "title": "Cyber Threats & Malware — Week 7",
+      "module_number": 4,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 8,
+      "title": "Cyber Threats & Malware — Week 8",
+      "module_number": 4,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 9,
+      "title": "Social Engineering — Week 9",
+      "module_number": 5,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 10,
+      "title": "Social Engineering — Week 10",
+      "module_number": 5,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 11,
+      "title": "Identity & Access Management — Week 11",
+      "module_number": 6,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 12,
+      "title": "Identity & Access Management — Week 12",
+      "module_number": 6,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 13,
+      "title": "Cryptography — Week 13",
+      "module_number": 7,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 14,
+      "title": "Cryptography — Week 14",
+      "module_number": 7,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 15,
+      "title": "Network Security — Week 15",
+      "module_number": 8,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 16,
+      "title": "Network Security — Week 16",
+      "module_number": 8,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 17,
+      "title": "Risk Management & Governance — Week 17",
+      "module_number": 9,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 18,
+      "title": "Risk Management & Governance — Week 18",
+      "module_number": 9,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 19,
+      "title": "Cloud Security — Week 19",
+      "module_number": 10,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 20,
+      "title": "Cloud Security — Week 20",
+      "module_number": 10,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 21,
+      "title": "Security Operations — Week 21",
+      "module_number": 11,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 22,
+      "title": "Security Operations — Week 22",
+      "module_number": 11,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 23,
+      "title": "Certification Review & Exam Preparation — Week 23",
+      "module_number": 12,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    },
+    {
+      "week_number": 24,
+      "title": "Certification Review & Exam Preparation — Week 24",
+      "module_number": 12,
+      "weekly_focus_explicit": false,
+      "quiz_title": null,
+      "weekly_quiz": null,
+      "content_source": "module_level_only"
+    }
+  ],
+  "milestones": [
+    "Midterm Assessment (Week 12)",
+    "Final Certification Readiness Assessment (Week 24)"
+  ],
+  "assessment_policy_source_lines": [
+    "Weekly Module Test",
+    "Weekly Quiz",
+    "Weekly Module Test",
+    "Weekly Assessments",
+    "Module Test",
+    "Midterm Assessment (Week 12)",
+    "Passing Score:",
+    "Final Certification Readiness Assessment (Week 24)",
+    "Passing Score:"
+  ],
+  "source_file": "Cybersecurity Foundations Licensure - Certification Preperation Program 9-25-26.docx",
+  "source_document_text": [
+    "Cybersecurity Foundations & Certification Preparation Program",
+    "24-Week Online Cybersecurity Bootcamp",
+    "Prepare. Protect. Pass. Succeed.",
+    "Program Overview",
+    "The Cybersecurity Foundations & Certification Preparation Program is a comprehensive 24-week online training program designed to prepare high school students, college students, career changers, and adult learners for entry-level cybersecurity careers and nationally recognized cybersecurity certification exams such as:",
+    "CompTIA Security+",
+    "CompTIA Network+",
+    "ISC2 Certified in Cybersecurity (CC)",
+    "Cisco Certified Support Technician (CCST) Cybersecurity",
+    "Microsoft Security Fundamentals (MS-900/SC-900)",
+    "Other entry-level cybersecurity credentialing exams",
+    "Throughout this 24-week program, students develop the technical knowledge, analytical thinking, and hands-on skills needed to identify cyber threats, protect digital assets, secure networks, respond to security incidents, and successfully pass a national cybersecurity certification exam.",
+    "Students engage in interactive lessons, virtual labs, realistic cyberattack simulations, quizzes, module exams, and AI-powered personalized tutoring that adapts instruction to each learner's strengths and growth areas.",
+    "Program Learning Outcomes",
+    "Upon successful completion, students will be able to:",
+    "Explain fundamental cybersecurity principles and terminology.",
+    "Identify common cyber threats, vulnerabilities, and attack vectors.",
+    "Apply security best practices to protect systems and networks.",
+    "Understand networking fundamentals and secure communication protocols.",
+    "Analyze malware, phishing, ransomware, and social engineering attacks.",
+    "Implement authentication, encryption, and access control measures.",
+    "Respond appropriately to cybersecurity incidents.",
+    "Demonstrate knowledge of governance, risk management, compliance, and cybersecurity ethics.",
+    "Successfully prepare for a national cybersecurity certification examination.",
+    "Course Structure",
+    "Duration: 24 Weeks",
+    "Delivery: 100% Online",
+    "Weekly Time Commitment: 5–8 Hours",
+    "Each Weekly Module Includes:",
+    "Instructor Overview (10–15 minutes)",
+    "Interactive Lessons",
+    "Cybersecurity Vocabulary Review",
+    "Short Instructional Videos",
+    "Virtual Cybersecurity Lab",
+    "Guided Practice Activities",
+    "AI Instructor Support",
+    "AI Chatbot Assistance",
+    "Weekly Knowledge Check Quiz",
+    "Weekly Module Test",
+    "Weekly Learning Model",
+    "Monday",
+    "Instructor Introduction",
+    "Weekly Objectives",
+    "Vocabulary Preview",
+    "Tuesday",
+    "Interactive Lessons",
+    "Video Tutorials",
+    "Guided Notes",
+    "Wednesday",
+    "Virtual Lab Activities",
+    "Practice Exercises",
+    "Thursday",
+    "AI Tutor Review",
+    "Adaptive Practice",
+    "Cybersecurity Simulations",
+    "Friday",
+    "Weekly Quiz",
+    "Weekly Module Test",
+    "Reflection & Feedback",
+    "AI Learning Features",
+    "AI Instructor",
+    "The AI Instructor provides:",
+    "Personalized lesson explanations",
+    "Real-time concept clarification",
+    "Interactive demonstrations",
+    "Adaptive learning pathways",
+    "Study recommendations",
+    "Progress monitoring",
+    "AI Cyber Coach Bot",
+    "The AI Cyber Coach is available 24/7 to:",
+    "Answer cybersecurity questions",
+    "Explain technical concepts",
+    "Generate additional practice questions",
+    "Provide certification tips",
+    "Create custom flashcards",
+    "Review missed quiz questions",
+    "Recommend study resources",
+    "Module 1 (Weeks 1–2)",
+    "Introduction to Cybersecurity",
+    "Topics",
+    "What is Cybersecurity?",
+    "CIA Triad",
+    "Types of Cybercrime",
+    "Cybersecurity Careers",
+    "Threat Landscape",
+    "Ethical Hacking Overview",
+    "Lab",
+    "Identify Common Cyber Threats",
+    "Quiz",
+    "10 Questions",
+    "Test",
+    "25 Questions",
+    "Module 2 (Weeks 3–4)",
+    "Computer Hardware & Operating Systems",
+    "Topics",
+    "Computer Components",
+    "Windows",
+    "Linux",
+    "macOS",
+    "Mobile Operating Systems",
+    "Virtual Machines",
+    "Lab",
+    "Install a Virtual Machine",
+    "Quiz",
+    "10 Questions",
+    "Test",
+    "30 Questions",
+    "Module 3 (Weeks 5–6)",
+    "Networking Fundamentals",
+    "Topics",
+    "TCP/IP",
+    "OSI Model",
+    "IP Addressing",
+    "Routers",
+    "Switches",
+    "Firewalls",
+    "DNS",
+    "DHCP",
+    "Lab",
+    "Build a Virtual Network",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 4 (Weeks 7–8)",
+    "Cyber Threats & Malware",
+    "Topics",
+    "Viruses",
+    "Worms",
+    "Trojans",
+    "Spyware",
+    "Ransomware",
+    "Rootkits",
+    "Botnets",
+    "Lab",
+    "Malware Identification",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 5 (Weeks 9–10)",
+    "Social Engineering",
+    "Topics",
+    "Phishing",
+    "Spear Phishing",
+    "Whaling",
+    "Vishing",
+    "Smishing",
+    "Insider Threats",
+    "Human Error",
+    "Simulation",
+    "Phishing Detection Exercise",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 6 (Weeks 11–12)",
+    "Identity & Access Management",
+    "Topics",
+    "Password Security",
+    "Multi-Factor Authentication",
+    "Biometrics",
+    "Role-Based Access Control",
+    "Least Privilege",
+    "Single Sign-On",
+    "Lab",
+    "User Account Security",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 7 (Weeks 13–14)",
+    "Cryptography",
+    "Topics",
+    "Encryption",
+    "Decryption",
+    "Hashing",
+    "Digital Certificates",
+    "Public Key Infrastructure",
+    "SSL/TLS",
+    "VPNs",
+    "Lab",
+    "Encryption Demonstration",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 8 (Weeks 15–16)",
+    "Network Security",
+    "Topics",
+    "Firewalls",
+    "IDS",
+    "IPS",
+    "Wireless Security",
+    "Secure Protocols",
+    "VPN Configuration",
+    "Lab",
+    "Firewall Configuration",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 9 (Weeks 17–18)",
+    "Risk Management & Governance",
+    "Topics",
+    "Risk Assessment",
+    "Compliance",
+    "Security Policies",
+    "Disaster Recovery",
+    "Business Continuity",
+    "Incident Response",
+    "Scenario",
+    "Cybersecurity Incident Planning",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 10 (Weeks 19–20)",
+    "Cloud Security",
+    "Topics",
+    "Cloud Computing",
+    "SaaS",
+    "PaaS",
+    "IaaS",
+    "Cloud Risks",
+    "Shared Responsibility",
+    "Lab",
+    "Cloud Security Assessment",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 11 (Weeks 21–22)",
+    "Security Operations",
+    "Topics",
+    "Security Monitoring",
+    "SIEM",
+    "Log Analysis",
+    "Threat Intelligence",
+    "Security Operations Center (SOC)",
+    "Simulation",
+    "Incident Response Exercise",
+    "Quiz",
+    "15 Questions",
+    "Test",
+    "35 Questions",
+    "Module 12 (Weeks 23–24)",
+    "Certification Review & Exam Preparation",
+    "Topics",
+    "Comprehensive Review",
+    "Practice Exams",
+    "Weak Area Remediation",
+    "Exam Strategies",
+    "Time Management",
+    "Certification Readiness",
+    "Activities",
+    "Full-Length Practice Exams",
+    "AI Review Sessions",
+    "Personalized Study Plans",
+    "Instructor Feedback",
+    "Virtual Cyber Labs",
+    "Students complete hands-on exercises including:",
+    "Password Cracking Demonstrations (ethical, controlled environment)",
+    "Secure Password Creation",
+    "Firewall Configuration",
+    "Network Mapping",
+    "Threat Detection",
+    "Phishing Identification",
+    "Encryption Exercises",
+    "Incident Response Scenarios",
+    "Risk Assessment Activities",
+    "Security Policy Development",
+    "Weekly Assessments",
+    "Every Week Includes:",
+    "Knowledge Quiz",
+    "10–15 Questions",
+    "Immediate Feedback",
+    "Unlimited Attempts",
+    "Module Test",
+    "25–35 Questions",
+    "Scenario-Based Questions",
+    "Must Score 80% to Unlock Next Module",
+    "Unlimited Retakes",
+    "Midterm Assessment (Week 12)",
+    "100 Questions",
+    "Content Covers:",
+    "Modules 1–6",
+    "Hands-On Lab Review",
+    "Performance Dashboard",
+    "Passing Score:",
+    "80%",
+    "Unlimited Retakes",
+    "Final Certification Readiness Assessment (Week 24)",
+    "150 Questions",
+    "Includes:",
+    "Multiple Choice",
+    "Scenario-Based Questions",
+    "Performance-Based Simulations",
+    "Network Diagrams",
+    "Security Logs",
+    "Incident Analysis",
+    "Passing Score:",
+    "85%",
+    "Upon successful completion, students receive a Course Completion Certificate and a personalized readiness report identifying strengths, areas for continued improvement, and recommendations for the national cybersecurity certification exam that best matches their career goals.",
+    "Student Resources",
+    "Students receive access to:",
+    "Cybersecurity Glossary (500+ Terms)",
+    "Practice Test Bank (1,500+ Questions)",
+    "Interactive Flashcards",
+    "Downloadable Study Guides",
+    "Lab Manuals",
+    "Instructor Notes",
+    "Video Library",
+    "AI Study Companion",
+    "Certification Exam Readiness Tracker",
+    "Career Exploration Resources",
+    "Career Pathways",
+    "Successful completion of the program prepares students for entry-level roles such as:",
+    "Cybersecurity Technician",
+    "Information Security Analyst (Entry Level)",
+    "SOC Analyst (Tier 1)",
+    "IT Support Specialist",
+    "Network Support Technician",
+    "Security Operations Technician",
+    "Help Desk Analyst",
+    "Junior Systems Administrator",
+    "Compliance and Risk Assistant",
+    "Cybersecurity Apprentice",
+    "Program Success Formula",
+    "Learn → Practice → Simulate → Assess → Receive AI Feedback → Master → Certify",
+    "By combining structured instruction, realistic labs, adaptive AI support, continuous assessment, and certification-focused review, this 24-week program equips students with the knowledge, practical experience, and confidence needed to pursue a career in cybersecurity and perform successfully on a national entry-level cybersecurity certification exam."
+  ],
+  "source_tables": [],
+  "subject": "cybersecurity",
+  "recommended_grade_min": null,
+  "recommended_grade_max": null,
+  "final_assessment": {
+    "source_descriptions": [
+      "Midterm Assessment (Week 12)",
+      "Final Certification Readiness Assessment (Week 24)"
+    ],
+    "assessment_policy_source_lines": [
+      "Weekly Module Test",
+      "Weekly Quiz",
+      "Weekly Module Test",
+      "Weekly Assessments",
+      "Module Test",
+      "Midterm Assessment (Week 12)",
+      "Passing Score:",
+      "Final Certification Readiness Assessment (Week 24)",
+      "Passing Score:"
+    ]
+  },
+  "schema_version": "1.0.0"
+}

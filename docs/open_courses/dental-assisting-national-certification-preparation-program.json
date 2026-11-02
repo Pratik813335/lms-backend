@@ -1,0 +1,1639 @@
+{
+  "code": "DENTAL_ASSISTING_NATIONAL_CERTIFICATION_PREPARATION_PROGRAM",
+  "slug": "dental-assisting-national-certification-preparation-program",
+  "name": "Dental Assisting & National Certification Preparation Program",
+  "duration_weeks": 24,
+  "module_count": 12,
+  "phase_count": 0,
+  "structure": {
+    "recommended_instruction": "8–12 hours per week, plus required laboratory/clinical experiences",
+    "delivery": "Classroom; Hybrid; LMS-based instruction with supervised clinical laboratory; Career academy; High school CTE; Adult workforce development",
+    "mastery_standard": "80%",
+    "final_readiness_goal": "85%+"
+  },
+  "program_overview": [
+    "24-week workforce-development program for entry-level dental assisting employment and national certification preparation.",
+    "12 Modules × 2 Weeks = 24 Weeks."
+  ],
+  "program_learning_outcomes": [
+    "Develop academic knowledge and clinical competencies",
+    "Apply infection-control practices and workplace safety",
+    "Demonstrate chairside assisting and four-handed dentistry skills",
+    "Understand dental radiography and dental materials",
+    "Respond appropriately to dental and medical emergencies within training and scope",
+    "Apply patient-care, office-administration, ethics, and legal responsibilities",
+    "Prepare for national certification examinations"
+  ],
+  "phases": [],
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to Dental Assisting, Ethics & Professionalism",
+      "week_start": 1,
+      "week_end": 2,
+      "topics": [
+        "History of dentistry",
+        "Dental healthcare team",
+        "Role of the dental assistant",
+        "General dentistry",
+        "Dental specialties",
+        "Professional conduct",
+        "Ethics",
+        "Patient confidentiality",
+        "HIPAA awareness",
+        "Scope of practice",
+        "Professional boundaries",
+        "Communication",
+        "Cultural awareness",
+        "Patient-centered care",
+        "Dental-assisting career pathways",
+        "Certification and credentialing"
+      ],
+      "labs_and_practical_activities": [
+        "Professional introductions",
+        "Patient communication",
+        "Telephone etiquette",
+        "Patient confidentiality scenarios",
+        "Professional appearance",
+        "Dental-team communication"
+      ],
+      "assessments": [
+        "Week 1 Quiz: Dental Profession & Dental Team",
+        "Week 2 Quiz: Ethics, Professionalism & Patient Confidentiality",
+        "Module 1 Examination: 40 Questions + Professionalism Scenario"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 1,
+          "title": "Dental Profession & Dental Team",
+          "module_number": 1,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Dental Profession & Dental Team",
+          "weekly_quiz": {
+            "title": "Dental Profession & Dental Team"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 2,
+          "title": "Ethics, Professionalism & Patient Confidentiality",
+          "module_number": 1,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Ethics, Professionalism & Patient Confidentiality",
+          "weekly_quiz": {
+            "title": "Ethics, Professionalism & Patient Confidentiality"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 1 Examination: 40 Questions + Professionalism Scenario",
+        "question_count": 40,
+        "answer_explanations": null,
+        "practical_component": false
+      }
+    },
+    {
+      "module_number": 2,
+      "title": "Dental Anatomy, Oral Structures & Tooth Identification",
+      "week_start": 3,
+      "week_end": 4,
+      "topics": [
+        "Head and neck anatomy",
+        "Oral cavity",
+        "Maxilla",
+        "Mandible",
+        "Hard palate",
+        "Soft palate",
+        "Tongue",
+        "Salivary glands",
+        "Gingiva",
+        "Periodontium",
+        "Tooth anatomy",
+        "Tooth surfaces",
+        "Tooth morphology",
+        "Primary dentition",
+        "Permanent dentition",
+        "Tooth eruption",
+        "Occlusion",
+        "Universal tooth-numbering system"
+      ],
+      "labs_and_practical_activities": [
+        "Individual teeth",
+        "Tooth surfaces",
+        "Oral landmarks",
+        "Primary versus permanent teeth",
+        "Tooth numbers"
+      ],
+      "assessments": [
+        "Week 3 Quiz: Oral Anatomy",
+        "Week 4 Quiz: Tooth Identification & Numbering",
+        "Module 2 Examination: 50 Questions + Tooth Identification Practical"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 3,
+          "title": "Oral Anatomy",
+          "module_number": 2,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Oral Anatomy",
+          "weekly_quiz": {
+            "title": "Oral Anatomy"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 4,
+          "title": "Tooth Identification & Numbering",
+          "module_number": 2,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Tooth Identification & Numbering",
+          "weekly_quiz": {
+            "title": "Tooth Identification & Numbering"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 2 Examination: 50 Questions + Tooth Identification Practical",
+        "question_count": 50,
+        "answer_explanations": null,
+        "practical_component": true
+      }
+    },
+    {
+      "module_number": 3,
+      "title": "Microbiology, Infection Prevention & OSHA Safety",
+      "week_start": 5,
+      "week_end": 6,
+      "topics": [
+        "Microorganisms",
+        "Bacteria",
+        "Viruses",
+        "Fungi",
+        "Disease transmission",
+        "Chain of infection",
+        "Bloodborne pathogens",
+        "Standard precautions",
+        "Personal protective equipment",
+        "Hand hygiene",
+        "Surface disinfection",
+        "Instrument processing",
+        "Sterilization",
+        "Sterilization monitoring",
+        "Sharps safety",
+        "Exposure incidents",
+        "Hazard communication",
+        "Safety Data Sheets",
+        "Dental-unit infection control",
+        "Waste management",
+        "OSHA-related workplace practices"
+      ],
+      "labs_and_practical_activities": [
+        "Proper hand hygiene",
+        "PPE selection",
+        "PPE donning",
+        "PPE removal",
+        "Instrument transport",
+        "Cleaning",
+        "Packaging",
+        "Sterilization preparation",
+        "Surface disinfection",
+        "Operatory turnover"
+      ],
+      "assessments": [
+        "Week 5 Quiz: Microbiology & Disease Transmission",
+        "Week 6 Quiz: Infection Control & OSHA",
+        "Module 3 Examination: 60 Questions + Infection-Control Practical"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 5,
+          "title": "Microbiology & Disease Transmission",
+          "module_number": 3,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Microbiology & Disease Transmission",
+          "weekly_quiz": {
+            "title": "Microbiology & Disease Transmission"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 6,
+          "title": "Infection Control & OSHA",
+          "module_number": 3,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Infection Control & OSHA",
+          "weekly_quiz": {
+            "title": "Infection Control & OSHA"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 3 Examination: 60 Questions + Infection-Control Practical",
+        "question_count": 60,
+        "answer_explanations": null,
+        "practical_component": true
+      }
+    },
+    {
+      "module_number": 4,
+      "title": "Dental Instruments, Equipment & Operatory Preparation",
+      "week_start": 7,
+      "week_end": 8,
+      "topics": [
+        "Examination instruments",
+        "Restorative instruments",
+        "Surgical instruments",
+        "Periodontal instruments",
+        "Endodontic instruments",
+        "Orthodontic instruments",
+        "Laboratory instruments",
+        "Instrument identification",
+        "Instrument transfer",
+        "Tray setup",
+        "Dental-unit preparation",
+        "Handpiece identification",
+        "Bur identification",
+        "Suction equipment",
+        "Evacuation systems",
+        "Maintenance",
+        "Operatory breakdown"
+      ],
+      "labs_and_practical_activities": [
+        "Instrument identification by name, function, procedure, and transfer technique"
+      ],
+      "assessments": [
+        "Week 7 Quiz: Dental Instruments",
+        "Week 8 Quiz: Dental Equipment & Operatory Setup",
+        "Module 4 Examination: 50 Questions + Instrument Identification Practical"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 7,
+          "title": "Dental Instruments",
+          "module_number": 4,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Dental Instruments",
+          "weekly_quiz": {
+            "title": "Dental Instruments"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 8,
+          "title": "Dental Equipment & Operatory Setup",
+          "module_number": 4,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Dental Equipment & Operatory Setup",
+          "weekly_quiz": {
+            "title": "Dental Equipment & Operatory Setup"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 4 Examination: 50 Questions + Instrument Identification Practical",
+        "question_count": 50,
+        "answer_explanations": null,
+        "practical_component": true
+      }
+    },
+    {
+      "module_number": 5,
+      "title": "Chairside Assisting & Four-Handed Dentistry",
+      "week_start": 9,
+      "week_end": 10,
+      "topics": [
+        "Four-handed dentistry",
+        "Operator zones",
+        "Assistant zones",
+        "Patient positioning",
+        "Instrument transfer",
+        "Oral evacuation",
+        "High-volume evacuation",
+        "Saliva ejectors",
+        "Moisture control",
+        "Cotton-roll placement",
+        "Isolation",
+        "Dental dam concepts",
+        "Retraction",
+        "Patient comfort",
+        "Ergonomics",
+        "Procedure preparation",
+        "Postoperative instructions"
+      ],
+      "labs_and_practical_activities": [
+        "Proper seating",
+        "Operatory preparation",
+        "Instrument transfer",
+        "HVE positioning",
+        "Moisture control",
+        "Ergonomics",
+        "Operatory turnover"
+      ],
+      "assessments": [
+        "Week 9 Quiz: Chairside Assisting",
+        "Week 10 Quiz: Four-Handed Dentistry",
+        "Module 5 Examination: 60 Questions + Chairside Practical"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 9,
+          "title": "Chairside Assisting",
+          "module_number": 5,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Chairside Assisting",
+          "weekly_quiz": {
+            "title": "Chairside Assisting"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 10,
+          "title": "Four-Handed Dentistry",
+          "module_number": 5,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Four-Handed Dentistry",
+          "weekly_quiz": {
+            "title": "Four-Handed Dentistry"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 5 Examination: 60 Questions + Chairside Practical",
+        "question_count": 60,
+        "answer_explanations": null,
+        "practical_component": true
+      }
+    },
+    {
+      "module_number": 6,
+      "title": "Dental Materials & Restorative Procedures",
+      "week_start": 11,
+      "week_end": 12,
+      "topics": [
+        "Dental materials science",
+        "Amalgam concepts",
+        "Composite resin",
+        "Bonding systems",
+        "Etchants",
+        "Cements",
+        "Liners",
+        "Bases",
+        "Temporary materials",
+        "Impression materials",
+        "Gypsum products",
+        "Sealants",
+        "Matrix systems",
+        "Wedges",
+        "Material storage",
+        "Material safety"
+      ],
+      "labs_and_practical_activities": [
+        "Material identification",
+        "Mixing",
+        "Measuring",
+        "Manipulation",
+        "Impression preparation",
+        "Cement preparation",
+        "Matrix setup",
+        "Restorative tray setup"
+      ],
+      "assessments": [
+        "Week 11 Quiz: Dental Materials",
+        "Week 12 Quiz: Restorative Procedures",
+        "Module 6 Examination: 60 Questions + Materials Practical",
+        "Midterm Examination at conclusion of Week 12: 100 questions; recommended passing score 80%"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 11,
+          "title": "Dental Materials",
+          "module_number": 6,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Dental Materials",
+          "weekly_quiz": {
+            "title": "Dental Materials"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 12,
+          "title": "Restorative Procedures",
+          "module_number": 6,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Restorative Procedures",
+          "weekly_quiz": {
+            "title": "Restorative Procedures"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 6 Examination: 60 Questions + Materials Practical",
+        "question_count": 60,
+        "answer_explanations": null,
+        "practical_component": true
+      }
+    },
+    {
+      "module_number": 7,
+      "title": "Dental Radiography",
+      "week_start": 13,
+      "week_end": 14,
+      "topics": [
+        "Radiation fundamentals",
+        "Dental imaging terminology",
+        "Radiation safety",
+        "ALARA principles",
+        "Patient protection",
+        "Operator protection",
+        "Intraoral imaging",
+        "Bitewing images",
+        "Periapical images",
+        "Occlusal images",
+        "Extraoral imaging",
+        "Panoramic imaging",
+        "Digital radiography",
+        "Sensors",
+        "Image quality",
+        "Mounting",
+        "Common imaging errors",
+        "Infection control",
+        "Documentation"
+      ],
+      "labs_and_practical_activities": [
+        "Identify and correct cone cuts",
+        "Overlapping contacts",
+        "Elongation",
+        "Foreshortening",
+        "Incorrect horizontal angulation",
+        "Incorrect vertical angulation",
+        "Positioning errors"
+      ],
+      "assessments": [
+        "Week 13 Quiz: Radiation & Safety",
+        "Week 14 Quiz: Dental Imaging Techniques",
+        "Module 7 Examination: 75 Questions + Radiographic Error Analysis"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 13,
+          "title": "Radiation & Safety",
+          "module_number": 7,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Radiation & Safety",
+          "weekly_quiz": {
+            "title": "Radiation & Safety"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 14,
+          "title": "Dental Imaging Techniques",
+          "module_number": 7,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Dental Imaging Techniques",
+          "weekly_quiz": {
+            "title": "Dental Imaging Techniques"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 7 Examination: 75 Questions + Radiographic Error Analysis",
+        "question_count": 75,
+        "answer_explanations": null,
+        "practical_component": false
+      }
+    },
+    {
+      "module_number": 8,
+      "title": "Dental Procedures & Specialty Dentistry",
+      "week_start": 15,
+      "week_end": 16,
+      "topics": [
+        "Preventive dentistry",
+        "Restorative dentistry",
+        "Crown and bridge",
+        "Temporary restorations",
+        "Impressions",
+        "Sealants",
+        "Whitening concepts",
+        "Endodontics",
+        "Periodontics",
+        "Oral and maxillofacial surgery",
+        "Orthodontics",
+        "Pediatric dentistry",
+        "Prosthodontics"
+      ],
+      "labs_and_practical_activities": [
+        "Determine instruments",
+        "Determine materials",
+        "Determine equipment",
+        "Determine PPE",
+        "Patient preparation",
+        "Assistant responsibilities",
+        "Postoperative considerations"
+      ],
+      "assessments": [
+        "Week 15 Quiz: General Dental Procedures",
+        "Week 16 Quiz: Dental Specialties",
+        "Module 8 Examination: 60 Questions + Procedure Setup Practical"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 15,
+          "title": "General Dental Procedures",
+          "module_number": 8,
+          "weekly_focus_explicit": true,
+          "quiz_title": "General Dental Procedures",
+          "weekly_quiz": {
+            "title": "General Dental Procedures"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 16,
+          "title": "Dental Specialties",
+          "module_number": 8,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Dental Specialties",
+          "weekly_quiz": {
+            "title": "Dental Specialties"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 8 Examination: 60 Questions + Procedure Setup Practical",
+        "question_count": 60,
+        "answer_explanations": null,
+        "practical_component": true
+      }
+    },
+    {
+      "module_number": 9,
+      "title": "Medical Emergencies & Patient Safety",
+      "week_start": 17,
+      "week_end": 18,
+      "topics": [
+        "Medical history",
+        "Vital signs",
+        "Emergency prevention",
+        "Syncope",
+        "Hypoglycemia",
+        "Allergic reactions",
+        "Asthma",
+        "Seizures",
+        "Hyperventilation",
+        "Cardiac emergencies",
+        "Stroke recognition",
+        "Airway emergencies",
+        "Emergency oxygen concepts",
+        "Emergency equipment",
+        "Emergency medications awareness",
+        "CPR/BLS integration",
+        "EMS activation",
+        "Documentation"
+      ],
+      "labs_and_practical_activities": [
+        "Recognize",
+        "Alert",
+        "Respond",
+        "Assist",
+        "Document"
+      ],
+      "assessments": [
+        "Week 17 Quiz: Medical Emergencies",
+        "Week 18 Quiz: Emergency Response & Patient Safety",
+        "Module 9 Examination: 60 Questions + Emergency Simulation"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 17,
+          "title": "Medical Emergencies",
+          "module_number": 9,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Medical Emergencies",
+          "weekly_quiz": {
+            "title": "Medical Emergencies"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 18,
+          "title": "Emergency Response & Patient Safety",
+          "module_number": 9,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Emergency Response & Patient Safety",
+          "weekly_quiz": {
+            "title": "Emergency Response & Patient Safety"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 9 Examination: 60 Questions + Emergency Simulation",
+        "question_count": 60,
+        "answer_explanations": null,
+        "practical_component": true
+      }
+    },
+    {
+      "module_number": 10,
+      "title": "Dental Office Administration & Patient Management",
+      "week_start": 19,
+      "week_end": 20,
+      "topics": [
+        "Appointment scheduling",
+        "Patient records",
+        "Electronic health records",
+        "Treatment documentation",
+        "Recall systems",
+        "Telephone communication",
+        "Insurance terminology",
+        "Dental claims",
+        "CDT awareness",
+        "Financial arrangements",
+        "Inventory",
+        "Supply management",
+        "Consent",
+        "Record retention",
+        "HIPAA",
+        "Patient communication",
+        "Difficult patient situations"
+      ],
+      "labs_and_practical_activities": [
+        "Scheduling",
+        "Patient check-in",
+        "Documentation",
+        "Insurance information",
+        "Recall scheduling",
+        "Inventory",
+        "Patient checkout"
+      ],
+      "assessments": [
+        "Week 19 Quiz: Dental Office Administration",
+        "Week 20 Quiz: Patient Management & Records",
+        "Module 10 Examination: 50 Questions + Office Simulation"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 19,
+          "title": "Dental Office Administration",
+          "module_number": 10,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Dental Office Administration",
+          "weekly_quiz": {
+            "title": "Dental Office Administration"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 20,
+          "title": "Patient Management & Records",
+          "module_number": 10,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Patient Management & Records",
+          "weekly_quiz": {
+            "title": "Patient Management & Records"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 10 Examination: 50 Questions + Office Simulation",
+        "question_count": 50,
+        "answer_explanations": null,
+        "practical_component": true
+      }
+    },
+    {
+      "module_number": 11,
+      "title": "Career Readiness, Employability & Professional Development",
+      "week_start": 21,
+      "week_end": 22,
+      "topics": [
+        "Dental-assistant career pathways",
+        "State requirements",
+        "Credentialing",
+        "Professional organizations",
+        "Resume development",
+        "Job applications",
+        "Interview skills",
+        "Workplace communication",
+        "Professional appearance",
+        "Conflict resolution",
+        "Teamwork",
+        "Time management",
+        "Continuing education",
+        "Career advancement",
+        "Professional ethics"
+      ],
+      "labs_and_practical_activities": [
+        "Professional resume",
+        "Cover letter",
+        "Skills inventory",
+        "Certification plan",
+        "Professional references",
+        "Clinical competency record",
+        "Interview responses",
+        "Career pathway plan"
+      ],
+      "assessments": [
+        "Week 21 Quiz: Professional Development",
+        "Week 22 Quiz: Career & Credential Readiness",
+        "Module 11 Examination: 50 Questions + Mock Interview"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 21,
+          "title": "Professional Development",
+          "module_number": 11,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Professional Development",
+          "weekly_quiz": {
+            "title": "Professional Development"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 22,
+          "title": "Career & Credential Readiness",
+          "module_number": 11,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Career & Credential Readiness",
+          "weekly_quiz": {
+            "title": "Career & Credential Readiness"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": {
+        "title": "Module 11 Examination: 50 Questions + Mock Interview",
+        "question_count": 50,
+        "answer_explanations": null,
+        "practical_component": false
+      }
+    },
+    {
+      "module_number": 12,
+      "title": "National Dental Assistant Exam Preparation Boot Camp",
+      "week_start": 23,
+      "week_end": 24,
+      "topics": [
+        "Comprehensive diagnostic examination",
+        "Competency analysis",
+        "Personalized remediation",
+        "National certification domains",
+        "Applicable state requirements",
+        "Intensive review",
+        "Timed practice examinations",
+        "Exam strategies",
+        "Readiness reassessment"
+      ],
+      "labs_and_practical_activities": [
+        "Diagnostic examination",
+        "Personalized remediation plan",
+        "Practice Examination #1 (100 questions)",
+        "Practice Examination #2 (150 questions)",
+        "Final Dental Assisting Readiness Examination (200 questions)"
+      ],
+      "assessments": [
+        "Week 23 Quiz: Diagnostic Exam & Intensive Review",
+        "Week 24 Quiz: National Exam Simulation",
+        "Module 12: Diagnostic and final certification readiness assessment sequence"
+      ],
+      "source_content": [],
+      "weeks": [
+        {
+          "week_number": 23,
+          "title": "Diagnostic Exam & Intensive Review",
+          "module_number": 12,
+          "weekly_focus_explicit": true,
+          "quiz_title": "Diagnostic Exam & Intensive Review",
+          "weekly_quiz": {
+            "title": "Diagnostic Exam & Intensive Review"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        },
+        {
+          "week_number": 24,
+          "title": "National Exam Simulation",
+          "module_number": 12,
+          "weekly_focus_explicit": true,
+          "quiz_title": "National Exam Simulation",
+          "weekly_quiz": {
+            "title": "National Exam Simulation"
+          },
+          "content_source": "week_level_explicit",
+          "warm_up": null,
+          "instructor_overview": null,
+          "learning_objectives": [],
+          "lesson_content": {
+            "topics": [],
+            "lessons": []
+          },
+          "vocabulary": [],
+          "practice": [],
+          "assignment": null,
+          "components": [
+            "warm_up",
+            "instructor_overview",
+            "learning_objectives",
+            "lesson_content",
+            "vocabulary",
+            "practice",
+            "assignment",
+            "weekly_quiz"
+          ]
+        }
+      ],
+      "module_test": null
+    }
+  ],
+  "weeks": [
+    {
+      "week_number": 1,
+      "title": "Dental Profession & Dental Team",
+      "module_number": 1,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Dental Profession & Dental Team",
+      "weekly_quiz": {
+        "title": "Dental Profession & Dental Team"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 2,
+      "title": "Ethics, Professionalism & Patient Confidentiality",
+      "module_number": 1,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Ethics, Professionalism & Patient Confidentiality",
+      "weekly_quiz": {
+        "title": "Ethics, Professionalism & Patient Confidentiality"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 3,
+      "title": "Oral Anatomy",
+      "module_number": 2,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Oral Anatomy",
+      "weekly_quiz": {
+        "title": "Oral Anatomy"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 4,
+      "title": "Tooth Identification & Numbering",
+      "module_number": 2,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Tooth Identification & Numbering",
+      "weekly_quiz": {
+        "title": "Tooth Identification & Numbering"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 5,
+      "title": "Microbiology & Disease Transmission",
+      "module_number": 3,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Microbiology & Disease Transmission",
+      "weekly_quiz": {
+        "title": "Microbiology & Disease Transmission"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 6,
+      "title": "Infection Control & OSHA",
+      "module_number": 3,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Infection Control & OSHA",
+      "weekly_quiz": {
+        "title": "Infection Control & OSHA"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 7,
+      "title": "Dental Instruments",
+      "module_number": 4,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Dental Instruments",
+      "weekly_quiz": {
+        "title": "Dental Instruments"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 8,
+      "title": "Dental Equipment & Operatory Setup",
+      "module_number": 4,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Dental Equipment & Operatory Setup",
+      "weekly_quiz": {
+        "title": "Dental Equipment & Operatory Setup"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 9,
+      "title": "Chairside Assisting",
+      "module_number": 5,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Chairside Assisting",
+      "weekly_quiz": {
+        "title": "Chairside Assisting"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 10,
+      "title": "Four-Handed Dentistry",
+      "module_number": 5,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Four-Handed Dentistry",
+      "weekly_quiz": {
+        "title": "Four-Handed Dentistry"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 11,
+      "title": "Dental Materials",
+      "module_number": 6,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Dental Materials",
+      "weekly_quiz": {
+        "title": "Dental Materials"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 12,
+      "title": "Restorative Procedures",
+      "module_number": 6,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Restorative Procedures",
+      "weekly_quiz": {
+        "title": "Restorative Procedures"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 13,
+      "title": "Radiation & Safety",
+      "module_number": 7,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Radiation & Safety",
+      "weekly_quiz": {
+        "title": "Radiation & Safety"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 14,
+      "title": "Dental Imaging Techniques",
+      "module_number": 7,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Dental Imaging Techniques",
+      "weekly_quiz": {
+        "title": "Dental Imaging Techniques"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 15,
+      "title": "General Dental Procedures",
+      "module_number": 8,
+      "weekly_focus_explicit": true,
+      "quiz_title": "General Dental Procedures",
+      "weekly_quiz": {
+        "title": "General Dental Procedures"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 16,
+      "title": "Dental Specialties",
+      "module_number": 8,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Dental Specialties",
+      "weekly_quiz": {
+        "title": "Dental Specialties"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 17,
+      "title": "Medical Emergencies",
+      "module_number": 9,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Medical Emergencies",
+      "weekly_quiz": {
+        "title": "Medical Emergencies"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 18,
+      "title": "Emergency Response & Patient Safety",
+      "module_number": 9,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Emergency Response & Patient Safety",
+      "weekly_quiz": {
+        "title": "Emergency Response & Patient Safety"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 19,
+      "title": "Dental Office Administration",
+      "module_number": 10,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Dental Office Administration",
+      "weekly_quiz": {
+        "title": "Dental Office Administration"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 20,
+      "title": "Patient Management & Records",
+      "module_number": 10,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Patient Management & Records",
+      "weekly_quiz": {
+        "title": "Patient Management & Records"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 21,
+      "title": "Professional Development",
+      "module_number": 11,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Professional Development",
+      "weekly_quiz": {
+        "title": "Professional Development"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 22,
+      "title": "Career & Credential Readiness",
+      "module_number": 11,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Career & Credential Readiness",
+      "weekly_quiz": {
+        "title": "Career & Credential Readiness"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 23,
+      "title": "Diagnostic Exam & Intensive Review",
+      "module_number": 12,
+      "weekly_focus_explicit": true,
+      "quiz_title": "Diagnostic Exam & Intensive Review",
+      "weekly_quiz": {
+        "title": "Diagnostic Exam & Intensive Review"
+      },
+      "content_source": "week_level_explicit"
+    },
+    {
+      "week_number": 24,
+      "title": "National Exam Simulation",
+      "module_number": 12,
+      "weekly_focus_explicit": true,
+      "quiz_title": "National Exam Simulation",
+      "weekly_quiz": {
+        "title": "National Exam Simulation"
+      },
+      "content_source": "week_level_explicit"
+    }
+  ],
+  "milestones": [
+    "Midterm Examination at conclusion of Week 12: 100 questions; recommended passing score 80%",
+    "Week 23: Diagnostic examination and intensive review",
+    "Week 24: Practice Examination #1 (100 questions); Practice Examination #2 (150 questions); Final Dental Assisting Readiness Examination (200 questions); recommended readiness standard 85% or higher"
+  ],
+  "assessment_policy_source_lines": [
+    "24 weekly knowledge checks",
+    "24 weekly quizzes",
+    "12 module examinations",
+    "12 clinical/practical assessments",
+    "1 comprehensive midterm",
+    "1 diagnostic certification examination",
+    "2 certification-style practice examinations",
+    "1 final 200-question readiness examination",
+    "1 career portfolio",
+    "Multiple virtual-patient simulations"
+  ],
+  "source_file": "Dental Assisting License - Certification Preparation Program 9-25-26.docx",
+  "source_document_text": [],
+  "source_tables": [],
+  "subject": "dental_assisting",
+  "recommended_grade_min": null,
+  "recommended_grade_max": null,
+  "final_assessment": {
+    "source_descriptions": [
+      "Midterm Examination at conclusion of Week 12: 100 questions; recommended passing score 80%",
+      "Week 23: Diagnostic examination and intensive review",
+      "Week 24: Practice Examination #1 (100 questions); Practice Examination #2 (150 questions); Final Dental Assisting Readiness Examination (200 questions); recommended readiness standard 85% or higher"
+    ],
+    "assessment_policy_source_lines": [
+      "24 weekly knowledge checks",
+      "24 weekly quizzes",
+      "12 module examinations",
+      "12 clinical/practical assessments",
+      "1 comprehensive midterm",
+      "1 diagnostic certification examination",
+      "2 certification-style practice examinations",
+      "1 final 200-question readiness examination",
+      "1 career portfolio",
+      "Multiple virtual-patient simulations"
+    ]
+  },
+  "schema_version": "1.0.0"
+}

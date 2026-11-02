@@ -1,0 +1,107 @@
+{
+  "package": "Open Career & Technical Courses — DB Seed",
+  "schema_version": "1.0.0",
+  "hierarchy": "Subject → Course → Phase → Module → Week → Lesson/Activity/Assessment",
+  "source_policy": "Source-derived curriculum only. Week-level focus is marked explicit only where stated in the source; module-level topics are not arbitrarily split across weeks.",
+  "courses": [
+    {
+      "code": "AUTOMOTIVE_MANUFACTURING_TECHNOLOGY_PROGRAM",
+      "name": "Automotive Manufacturing Technology Program",
+      "file": "automotive-manufacturing-technology-program.json",
+      "duration_weeks": 36,
+      "modules": 18,
+      "phases": 4,
+      "week_records": 36
+    },
+    {
+      "code": "CONSTRUCTION_TECHNOLOGY_PROGRAM",
+      "name": "Construction Technology Program",
+      "file": "construction-technology-program.json",
+      "duration_weeks": 36,
+      "modules": 18,
+      "phases": 4,
+      "week_records": 36
+    },
+    {
+      "code": "CYBERSECURITY_FOUNDATIONS_CERTIFICATION_PREPARATION_PROGRAM",
+      "name": "Cybersecurity Foundations & Certification Preparation Program",
+      "file": "cybersecurity-foundations-certification-preparation-program.json",
+      "duration_weeks": 24,
+      "modules": 12,
+      "phases": 0,
+      "week_records": 24
+    },
+    {
+      "code": "DENTAL_ASSISTING_NATIONAL_CERTIFICATION_PREPARATION_PROGRAM",
+      "name": "Dental Assisting & National Certification Preparation Program",
+      "file": "dental-assisting-national-certification-preparation-program.json",
+      "duration_weeks": 24,
+      "modules": 12,
+      "phases": 0,
+      "week_records": 24,
+      "source_note": "Reconstructed from the uploaded document text extracted by Files; the original DOCX was not mounted in the local working directory."
+    },
+    {
+      "code": "ELECTRICAL_TECHNOLOGY_PROGRAM",
+      "name": "Electrical Technology Program",
+      "file": "electrical-technology-program.json",
+      "duration_weeks": 36,
+      "modules": 18,
+      "phases": 4,
+      "week_records": 36
+    },
+    {
+      "code": "HVAC_TECHNICIAN_CERTIFICATION_PREPARATION_PROGRAM",
+      "name": "HVAC Technician Certification Preparation Program",
+      "file": "hvac-technician-certification-preparation-program.json",
+      "duration_weeks": 24,
+      "modules": 12,
+      "phases": 0,
+      "week_records": 24
+    },
+    {
+      "code": "INDUSTRIAL_AUTOMATION_TECHNOLOGY_PROGRAM",
+      "name": "Industrial Automation Technology Program",
+      "file": "industrial-automation-technology-program.json",
+      "duration_weeks": 36,
+      "modules": 18,
+      "phases": 4,
+      "week_records": 36
+    },
+    {
+      "code": "PLUMBING_TECHNOLOGY_NATIONAL_EXAM_PREPARATION_PROGRAM",
+      "name": "Plumbing Technology & National Exam Preparation Program",
+      "file": "plumbing-technology-national-exam-preparation-program.json",
+      "duration_weeks": 24,
+      "modules": 12,
+      "phases": 0,
+      "week_records": 24
+    },
+    {
+      "code": "SALON_SPA_MANAGEMENT_WORKFORCE_DEVELOPMENT_PROGRAM",
+      "name": "Salon & Spa Management Workforce Development Program",
+      "file": "salon-spa-management-workforce-development-program.json",
+      "duration_weeks": 36,
+      "modules": 0,
+      "phases": 4,
+      "week_records": 36
+    },
+    {
+      "code": "WELDING_TECHNOLOGY_CERTIFICATION_PREPARATION_PROGRAM",
+      "name": "Welding Technology Certification Preparation Program",
+      "file": "welding-technology-certification-preparation-program.json",
+      "duration_weeks": 24,
+      "modules": 12,
+      "phases": 0,
+      "week_records": 24
+    }
+  ],
+  "notes": [
+    "Each course is a separate JSON seed file; manifest.json lists all courses and counts.",
+    "The structure follows the prior LucidPrep course seed hierarchy and adds vocational phases, module-level practicals, and course-specific assessment policies.",
+    "The source syllabi do not consistently provide weekly warm-ups, detailed weekly learning objectives, vocabulary definitions, or question-level quiz/test content. Those fields are present as empty/null placeholders rather than fabricated content.",
+    "Where a source only assigns topics to a two-week module, topics remain at module level and are not arbitrarily split between the two weeks.",
+    "Salon & Spa Management contains three separate career pathways; the source pathway details are preserved in the course source_document_text and the weekly sequence.",
+    "Dental Assisting was extracted from the uploaded document text through Files because the original DOCX was not present in the local working directory."
+  ]
+}

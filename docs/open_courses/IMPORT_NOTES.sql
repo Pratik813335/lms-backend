@@ -1,0 +1,6 @@
+-- Open Career & Technical Courses seed manifest
+-- Canonical source: manifest.json + one JSON file per course.
+-- Recommended import order: courses -> phases -> modules -> weeks -> assessments/activities.
+-- Preserve source module/week relationships and course-specific assessment counts.
+-- No question banks are fabricated by this package; assessment records retain source labels/counts.
+-- Week content_source indicates whether week-level focus was explicit in the source or module-level only.
