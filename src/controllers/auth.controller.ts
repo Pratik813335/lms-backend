@@ -702,6 +702,7 @@ export class AuthController {
     @param.query.string('search') search?: string,
     @param.query.boolean('isActive') isActive?: boolean,
   ) {
+    this.rbacService.validateRole(currentUser as any, ['admin', 'operations']);
     const pageNum = Math.max(1, Number(page) || 1);
     const limitNum = Math.min(100, Math.max(1, Number(limit) || 10));
 

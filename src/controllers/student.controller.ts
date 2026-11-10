@@ -237,6 +237,25 @@ export class StudentController {
         ? plainProfile.gradeLevel.hasFullCurriculum
         : tierDisplay === 'senior';
 
+    // BUG-033: expose enrolled course IDs so FE can start/resume courses
+    const enrollments = await this.enrollmentRepo.find({
+      where: {
+        and: [
+          {usersId: currentUser.id},
+          {isDeleted: false},
+          {status: {neq: 'dropped'}},
+        ],
+      },
+      fields: {courseId: true, status: true},
+    });
+    const enrolledCourses = [
+      ...new Set(
+        enrollments
+          .map(e => e.courseId)
+          .filter((id): id is string => typeof id === 'string' && id.length > 0),
+      ),
+    ];
+
     const fullProfileData = {
       ...plainProfile,
       gradeLevelId: profile.gradeLevelId ?? null,
@@ -244,6 +263,8 @@ export class StudentController {
       tier: tierDisplay,
       hasTestPrep,
       hasFullCurriculum,
+      enrolledCoursesCount: enrolledCourses.length,
+      enrolledCourses,
       fullName: currentUser.fullName || currentUser.email.split('@')[0],
       email: currentUser.email,
     };

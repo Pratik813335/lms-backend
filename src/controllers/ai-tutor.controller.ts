@@ -30,6 +30,8 @@ export class AiTutorController {
               courseId: {type: 'string'},
               lessonId: {type: 'string'},
               message: {type: 'string'},
+              topic: {type: 'string'},
+              subject: {type: 'string'},
               history: {
                 type: 'array',
                 items: {
