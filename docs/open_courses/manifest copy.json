@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "content_type": "open_course_curriculum_package",
+  "source_package": "open_courses_db_seed.zip",
+  "course_count": 10,
+  "module_count": 136,
+  "week_count": 327,
+  "courses": [
+    {
+      "code": "AUTOMOTIVE_MANUFACTURING_TECHNOLOGY_PROGRAM",
+      "slug": "automotive-manufacturing-technology-program",
+      "name": "Automotive Manufacturing Technology Program",
+      "duration_weeks": 36,
+      "module_count": 18,
+      "pathway_count": 0,
+      "week_content_records": 36,
+      "file": "automotive-manufacturing-technology-program.json"
+    },
+    {
+      "code": "CONSTRUCTION_TECHNOLOGY_PROGRAM",
+      "slug": "construction-technology-program",
+      "name": "Construction Technology Program",
+      "duration_weeks": 36,
+      "module_count": 18,
+      "pathway_count": 0,
+      "week_content_records": 36,
+      "file": "construction-technology-program.json"
+    },
+    {
+      "code": "CYBERSECURITY_FOUNDATIONS_CERTIFICATION_PREPARATION_PROGRAM",
+      "slug": "cybersecurity-foundations-certification-preparation-program",
+      "name": "Cybersecurity Foundations & Certification Preparation Program",
+      "duration_weeks": 24,
+      "module_count": 12,
+      "pathway_count": 0,
+      "week_content_records": 24,
+      "file": "cybersecurity-foundations-certification-preparation-program.json"
+    },
+    {
+      "code": "DENTAL_ASSISTING_NATIONAL_CERTIFICATION_PREPARATION_PROGRAM",
+      "slug": "dental-assisting-national-certification-preparation-program",
+      "name": "Dental Assisting & National Certification Preparation Program",
+      "duration_weeks": 24,
+      "module_count": 12,
+      "pathway_count": 0,
+      "week_content_records": 24,
+      "file": "dental-assisting-national-certification-preparation-program.json"
+    },
+    {
+      "code": "ELECTRICAL_TECHNOLOGY_PROGRAM",
+      "slug": "electrical-technology-program",
+      "name": "Electrical Technology Program",
+      "duration_weeks": 36,
+      "module_count": 18,
+      "pathway_count": 0,
+      "week_content_records": 36,
+      "file": "electrical-technology-program.json"
+    },
+    {
+      "code": "HVAC_TECHNICIAN_CERTIFICATION_PREPARATION_PROGRAM",
+      "slug": "hvac-technician-certification-preparation-program",
+      "name": "HVAC Technician Certification Preparation Program",
+      "duration_weeks": 24,
+      "module_count": 12,
+      "pathway_count": 0,
+      "week_content_records": 24,
+      "file": "hvac-technician-certification-preparation-program.json"
+    },
+    {
+      "code": "INDUSTRIAL_AUTOMATION_TECHNOLOGY_PROGRAM",
+      "slug": "industrial-automation-technology-program",
+      "name": "Industrial Automation Technology Program",
+      "duration_weeks": 36,
+      "module_count": 18,
+      "pathway_count": 0,
+      "week_content_records": 36,
+      "file": "industrial-automation-technology-program.json"
+    },
+    {
+      "code": "PLUMBING_TECHNOLOGY_NATIONAL_EXAM_PREPARATION_PROGRAM",
+      "slug": "plumbing-technology-national-exam-preparation-program",
+      "name": "Plumbing Technology & National Exam Preparation Program",
+      "duration_weeks": 24,
+      "module_count": 12,
+      "pathway_count": 0,
+      "week_content_records": 24,
+      "file": "plumbing-technology-national-exam-preparation-program.json"
+    },
+    {
+      "code": "SALON_SPA_MANAGEMENT_WORKFORCE_DEVELOPMENT_PROGRAM",
+      "slug": "salon-spa-management-workforce-development-program",
+      "name": "Salon & Spa Management Workforce Development Program",
+      "duration_weeks": 36,
+      "module_count": 4,
+      "pathway_count": 3,
+      "week_content_records": 63,
+      "file": "salon-spa-management-workforce-development-program.json"
+    },
+    {
+      "code": "WELDING_TECHNOLOGY_CERTIFICATION_PREPARATION_PROGRAM",
+      "slug": "welding-technology-certification-preparation-program",
+      "name": "Welding Technology Certification Preparation Program",
+      "duration_weeks": 24,
+      "module_count": 12,
+      "pathway_count": 0,
+      "week_content_records": 24,
+      "file": "welding-technology-certification-preparation-program.json"
+    }
+  ],
+  "content_generation_note": "Instructional expansions are generated curriculum content aligned to source-document topics and sequence. Jurisdiction-specific codes, licensure rules, clinical permissions, and safety procedures must be checked against current local requirements before delivery."
+}
