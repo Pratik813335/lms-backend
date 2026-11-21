@@ -148,13 +148,11 @@ describe('Open Courses (non-breaking additive track)', () => {
       .expect(400);
   });
 
-  it('GET /courses defaults to curriculum only (open courses hidden)', async () => {
-    const res = await client.get('/courses?status=published').expect(200);
+  it('GET /courses defaults to all course types (curriculum + open)', async () => {
+    const res = await client.get('/courses?status=published&limit=50').expect(200);
     const courses = res.body.data.courses || [];
-    const openInDefault = courses.filter((c: any) => c.courseType === 'open');
-    expect(openInDefault.length).to.equal(0);
-    const hasCurriculum = courses.some((c: any) => c.id === curriculumCourseId);
-    expect(hasCurriculum).to.be.true();
+    expect(courses.some((c: any) => c.id === curriculumCourseId)).to.be.true();
+    expect(courses.some((c: any) => c.id === openCourseId)).to.be.true();
   });
 
   it('GET /courses?courseType=open returns open courses only', async () => {
@@ -165,6 +163,14 @@ describe('Open Courses (non-breaking additive track)', () => {
       expect(c.courseType).to.equal('open');
     }
     expect(courses.some((c: any) => c.id === openCourseId)).to.be.true();
+  });
+
+  it('GET /courses?courseType=curriculum returns curriculum courses only', async () => {
+    const res = await client.get('/courses?courseType=curriculum&status=published&limit=50').expect(200);
+    const courses = res.body.data.courses || [];
+    expect(courses.some((c: any) => c.id === curriculumCourseId)).to.be.true();
+    expect(courses.every((c: any) => (c.courseType || 'curriculum') === 'curriculum')).to.be.true();
+    expect(courses.some((c: any) => c.id === openCourseId)).to.be.false();
   });
 
   it('open learner can enroll in an open course', async () => {

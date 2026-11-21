@@ -15,6 +15,7 @@ import {
   UsersRepository,
 } from '../repositories';
 import {Course, Lesson} from '../models';
+import {normalizeLessonContent} from '../utils/lesson-content.util';
 
 @injectable({scope: BindingScope.TRANSIENT})
 export class CourseService {
@@ -69,9 +70,9 @@ export class CourseService {
 
   /**
    * Fetch paginated & filtered course catalog.
-   * Default (no courseType): curriculum only — preserves existing grade-based UIs.
-   * courseType=open: open workforce courses only.
-   * courseType=all: both.
+   * Default (no courseType): all courses (curriculum + open).
+   * courseType=open | curriculum: filter to that type.
+   * courseType=all: same as default (both).
    * tier / gradeLevelId imply curriculum and never return open courses.
    */
   async getCatalog(query: {
@@ -103,15 +104,15 @@ export class CourseService {
     const requestedType = (query.courseType || '').toLowerCase().trim();
     const gradeScoped = !!(query.tier || query.gradeLevelId || query.gradeLevel);
 
-    // Non-breaking default: curriculum-only catalog. Open courses only when explicitly requested.
-    // Grade/tier filters never return open courses.
-    if (requestedType === 'open' && !gradeScoped) {
+    // Default: return all course types. Grade/tier filters force curriculum-only.
+    if (gradeScoped) {
+      andClauses.push({courseType: 'curriculum'});
+    } else if (requestedType === 'open') {
       andClauses.push({courseType: 'open'});
-    } else if (requestedType === 'all' && !gradeScoped) {
-      // no courseType filter
-    } else {
+    } else if (requestedType === 'curriculum') {
       andClauses.push({courseType: 'curriculum'});
     }
+    // else: no courseType filter (all / omitted)
 
     if (query.tier) {
       const matchingGrades = await this.gradeLevelsRepo.find({
@@ -271,6 +272,8 @@ export class CourseService {
             // keep as is
           }
         }
+
+        content = normalizeLessonContent(content);
 
         return {
           ...lesson,

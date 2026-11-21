@@ -24,6 +24,7 @@ import path from 'path';
 dotenv.config({path: path.join(__dirname, '../../.env')});
 
 import {LmsBackendApplication} from '../application';
+import {normalizeLessonContent} from '../utils/lesson-content.util';
 import {
   AssessmentRepository,
   CourseRepository,
@@ -562,7 +563,7 @@ export async function seedOpenCoursesFromJson() {
         },
       });
 
-      const content = {
+      const content = normalizeLessonContent({
         source: 'open_courses_json',
         courseCode: courseJson.code,
         weekNumber: week.week_number,
@@ -572,10 +573,11 @@ export async function seedOpenCoursesFromJson() {
           : null,
         contentSource: week.content_source || null,
         weeklyFocusExplicit: week.weekly_focus_explicit ?? null,
+        focus: week.title || parentModule?.title || null,
         overview: week.instructor_overview || null,
         learningObjectives: week.learning_objectives || [],
         warmUp: week.warm_up || null,
-        lessonContent: week.lesson_content || {topics: [], lessons: []},
+        lessonContent: week.lesson_content || [],
         vocabulary: week.vocabulary || [],
         practice: week.practice || null,
         assignment: week.assignment || null,
@@ -583,9 +585,10 @@ export async function seedOpenCoursesFromJson() {
         quizInfo: week.weekly_quiz || null,
         quizTitle: week.quiz_title || null,
         moduleTopics: parentModule?.topics || [],
+        sourceContent: parentModule?.source_content || [],
         moduleLabs: parentModule?.labs_and_practical_activities || [],
         pathways: courseJson.pathways || null,
-      };
+      });
 
       if (!existingLesson) {
         await lessonRepo.create({
@@ -655,9 +658,15 @@ export async function seedOpenCoursesFromJson() {
           isDeleted: false,
         },
       });
-      const overviewContent = {
+      const overviewContent = normalizeLessonContent({
         source: 'open_courses_json',
         courseCode: courseJson.code,
+        focus: courseJson.name,
+        overview: (courseJson.program_overview || []).slice(0, 8).join(' '),
+        learningObjectives: courseJson.program_learning_outcomes || [],
+        lessonContent: courseJson.program_overview || [],
+        moduleTopics: courseJson.program_learning_outcomes || [],
+        sourceContent: courseJson.program_overview || [],
         programOverview: courseJson.program_overview || [],
         learningOutcomes: courseJson.program_learning_outcomes || [],
         phases: courseJson.phases || [],
@@ -666,7 +675,7 @@ export async function seedOpenCoursesFromJson() {
         milestones: courseJson.milestones || [],
         finalAssessment: courseJson.final_assessment || null,
         structure: courseJson.structure || null,
-      };
+      });
       if (!existingOverview) {
         await lessonRepo.create({
           courseId: course.id!,
