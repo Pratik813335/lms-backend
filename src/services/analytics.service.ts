@@ -26,52 +26,127 @@ export class AnalyticsService {
     public submissionRepo: AssessmentSubmissionRepository,
   ) {}
 
+  private parseDateBoundary(value?: string, endOfDay = false): Date | undefined {
+    if (!value) return undefined;
+    const raw = value.trim();
+    if (!raw) return undefined;
+    const d = new Date(raw.includes('T') ? raw : `${raw}T${endOfDay ? '23:59:59.999' : '00:00:00.000'}Z`);
+    return Number.isNaN(d.getTime()) ? undefined : d;
+  }
+
+  private inRange(dateValue: Date | string | undefined, from?: Date, to?: Date): boolean {
+    if (!from && !to) return true;
+    if (!dateValue) return false;
+    const t = new Date(dateValue).getTime();
+    if (Number.isNaN(t)) return false;
+    if (from && t < from.getTime()) return false;
+    if (to && t > to.getTime()) return false;
+    return true;
+  }
+
   /**
    * Get Platform-wide Overview KPIs (Executive Analytics)
+   * Optional from/to (ISO or YYYY-MM-DD) scopes enrollments, students, and growth series.
    */
-  async getOverviewKpis() {
+  async getOverviewKpis(fromDate?: string, toDate?: string) {
+    const from = this.parseDateBoundary(fromDate, false);
+    const to = this.parseDateBoundary(toDate, true);
+
     const profiles = await this.studentProfileRepo.find({
       where: {isDeleted: false},
     });
+    const scopedProfiles = profiles.filter(p =>
+      this.inRange(p.createdAt, from, to),
+    );
 
     const activeCoursesCount = await this.courseRepo.count({
       isDeleted: false,
       isActive: true,
     });
 
-    const totalEnrollments = await this.enrollmentRepo.count({
-      isDeleted: false,
+    const enrollments = await this.enrollmentRepo.find({
+      where: {isDeleted: false},
+      fields: {
+        id: true,
+        status: true,
+        enrolledAt: true,
+        createdAt: true,
+        updatedAt: true,
+      },
     });
-
-    const completedEnrollments = await this.enrollmentRepo.count({
-      isDeleted: false,
-      status: 'completed',
-    });
+    const scopedEnrollments = enrollments.filter(e =>
+      this.inRange(e.enrolledAt || e.createdAt, from, to),
+    );
+    const completedEnrollments = scopedEnrollments.filter(
+      e => e.status === 'completed',
+    );
 
     const completionRate =
-      totalEnrollments.count > 0
-        ? Math.round((completedEnrollments.count / totalEnrollments.count) * 100)
-        : 78;
+      scopedEnrollments.length > 0
+        ? Math.round((completedEnrollments.length / scopedEnrollments.length) * 100)
+        : 0;
 
-    const gpaSum = profiles.reduce((acc, p) => acc + (p.gpa || 0), 0);
+    const gpaSum = scopedProfiles.reduce((acc, p) => acc + (p.gpa || 0), 0);
     const averageGpa =
-      profiles.length > 0
-        ? Number((gpaSum / profiles.length).toFixed(2))
-        : 3.45;
+      scopedProfiles.length > 0
+        ? Number((gpaSum / scopedProfiles.length).toFixed(2))
+        : 0;
 
-    const totalXpSum = profiles.reduce((acc, p) => acc + (p.xp || 0), 0);
+    const totalXpSum = scopedProfiles.reduce((acc, p) => acc + (p.xp || 0), 0);
+
+    const enrollmentGrowth = this.buildEnrollmentGrowth(
+      scopedEnrollments.map(e => e.enrolledAt || e.createdAt),
+      from,
+      to,
+    );
 
     return {
-      totalActiveStudents: Math.max(profiles.length, 1),
+      totalActiveStudents: scopedProfiles.length,
       totalActiveCourses: activeCoursesCount.count,
-      totalEnrollments: totalEnrollments.count,
+      totalEnrollments: scopedEnrollments.length,
       courseCompletionRate: completionRate,
       averageGpa,
       totalXpAwarded: totalXpSum,
       weeklyActiveHoursTarget: 6.0,
       studentRetentionRate: 94.2,
       ncaaComplianceRate: 98.0,
+      from: from?.toISOString() ?? null,
+      to: to?.toISOString() ?? null,
+      enrollmentGrowth,
     };
+  }
+
+  private buildEnrollmentGrowth(
+    dates: Array<Date | string | undefined>,
+    from?: Date,
+    to?: Date,
+  ): Array<{month: string; students: number}> {
+    const end = to ?? new Date();
+    const start =
+      from ??
+      new Date(Date.UTC(end.getUTCFullYear(), end.getUTCMonth() - 5, 1));
+
+    const buckets: Array<{key: string; label: string; students: number}> = [];
+    const cursor = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), 1));
+    const endMonth = new Date(Date.UTC(end.getUTCFullYear(), end.getUTCMonth(), 1));
+
+    while (cursor.getTime() <= endMonth.getTime()) {
+      const key = `${cursor.getUTCFullYear()}-${String(cursor.getUTCMonth() + 1).padStart(2, '0')}`;
+      const label = cursor.toLocaleString('en-US', {month: 'short', year: '2-digit', timeZone: 'UTC'});
+      buckets.push({key, label, students: 0});
+      cursor.setUTCMonth(cursor.getUTCMonth() + 1);
+    }
+
+    for (const value of dates) {
+      if (!value) continue;
+      const d = new Date(value);
+      if (Number.isNaN(d.getTime())) continue;
+      const key = `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+      const bucket = buckets.find(b => b.key === key);
+      if (bucket) bucket.students += 1;
+    }
+
+    return buckets.map(b => ({month: b.label, students: b.students}));
   }
 
   /**

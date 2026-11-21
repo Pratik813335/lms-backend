@@ -1,4 +1,4 @@
-import {BindingScope, injectable} from '@loopback/core';
+import {BindingScope, inject, injectable} from '@loopback/core';
 import {repository} from '@loopback/repository';
 import {HttpErrors} from '@loopback/rest';
 import {
@@ -15,6 +15,7 @@ import {
   UsersRepository,
 } from '../repositories';
 import {Course, Lesson} from '../models';
+import {CertificateService} from './certificate.service';
 
 @injectable({scope: BindingScope.TRANSIENT})
 export class CourseService {
@@ -41,6 +42,8 @@ export class CourseService {
     public rolesRepo: RolesRepository,
     @repository(UserRolesRepository)
     public userRolesRepo: UserRolesRepository,
+    @inject('services.certificate')
+    public certificateService: CertificateService,
   ) {}
 
   /**
@@ -241,6 +244,8 @@ export class CourseService {
 
     const syllabusModules = [];
     let isFirstUncompletedSet = false;
+    let completedLessonsTotal = 0;
+    let totalLessonsCount = 0;
 
     for (const mod of modules) {
       const lessons = await this.lessonRepo.find({
@@ -249,12 +254,16 @@ export class CourseService {
         order: ['orderIndex ASC'],
       });
 
+      let moduleCompletedCount = 0;
       const processedLessons = lessons.map(lesson => {
+        totalLessonsCount += 1;
         const isDone = completedLessonIds.has(lesson.id!);
         let status: 'done' | 'current' | 'locked' = 'locked';
 
         if (isDone) {
           status = 'done';
+          moduleCompletedCount += 1;
+          completedLessonsTotal += 1;
         } else if (!isFirstUncompletedSet) {
           status = 'current';
           isFirstUncompletedSet = true;
@@ -280,15 +289,98 @@ export class CourseService {
         };
       });
 
+      const moduleLessonCount = lessons.length || 0;
+      const moduleComplete =
+        moduleLessonCount > 0 && moduleCompletedCount === moduleLessonCount;
+      const moduleProgress =
+        moduleLessonCount === 0
+          ? 0
+          : Math.round((moduleCompletedCount / moduleLessonCount) * 100);
+
       syllabusModules.push({
         ...mod,
         lessons: processedLessons,
+        completedLessonsCount: moduleCompletedCount,
+        totalLessonsCount: moduleLessonCount,
+        progressRate: moduleProgress,
+        status: moduleComplete
+          ? 'completed'
+          : moduleCompletedCount > 0 ||
+              processedLessons.some(l => l.status === 'current')
+            ? 'in-progress'
+            : userId
+              ? 'locked'
+              : 'in-progress',
+        moduleComplete,
       });
+    }
+
+    // Unlock first incomplete module; keep prior modules unlocked for review
+    if (userId) {
+      let unlocked = false;
+      for (const mod of syllabusModules as any[]) {
+        if (mod.moduleComplete) {
+          mod.status = 'completed';
+          continue;
+        }
+        if (!unlocked) {
+          mod.status = 'in-progress';
+          unlocked = true;
+        } else if (mod.status !== 'completed') {
+          mod.status = 'locked';
+        }
+      }
+      if (!unlocked && syllabusModules.length > 0) {
+        // all complete
+        for (const mod of syllabusModules as any[]) {
+          mod.status = 'completed';
+        }
+      }
+    }
+
+    let enrollmentSummary: {
+      enrolled: boolean;
+      status?: string;
+      progressRate: number;
+      completedLessonsCount: number;
+      totalLessonsCount: number;
+    } = {
+      enrolled: false,
+      progressRate: 0,
+      completedLessonsCount: completedLessonsTotal,
+      totalLessonsCount,
+    };
+
+    if (userId) {
+      const enrollment = await this.enrollmentRepo.findOne({
+        where: {usersId: userId, courseId, isDeleted: false},
+      });
+      if (enrollment) {
+        const progressRate =
+          totalLessonsCount === 0
+            ? 0
+            : Math.min(
+                100,
+                Math.round((completedLessonsTotal / totalLessonsCount) * 100),
+              );
+        enrollmentSummary = {
+          enrolled: true,
+          status: enrollment.status,
+          progressRate:
+            enrollment.progressRate != null
+              ? Number(enrollment.progressRate)
+              : progressRate,
+          completedLessonsCount:
+            enrollment.completedLessonsCount ?? completedLessonsTotal,
+          totalLessonsCount: enrollment.totalLessonsCount ?? totalLessonsCount,
+        };
+      }
     }
 
     return {
       course: this.formatCourseWithRelations(course),
       modules: syllabusModules,
+      enrollment: enrollmentSummary,
     };
   }
 
@@ -414,7 +506,7 @@ export class CourseService {
   }
 
   /**
-   * Complete a lesson, update progress rate, and reward XP
+   * Complete a lesson, update progress rate, reward XP, and issue certificate at 100%.
    */
   async completeLesson(userId: string, lessonId: string) {
     const lesson = await this.lessonRepo.findOne({
@@ -423,6 +515,17 @@ export class CourseService {
 
     if (!lesson) {
       throw new HttpErrors.NotFound(`Lesson with ID '${lessonId}' not found`);
+    }
+
+    // Ensure enrollment exists so progress history is tracked from first lesson
+    let enrollment = await this.enrollmentRepo.findOne({
+      where: {usersId: userId, courseId: lesson.courseId},
+    });
+    if (!enrollment || enrollment.isDeleted || enrollment.status === 'dropped') {
+      await this.enrollStudent(userId, lesson.courseId!);
+      enrollment = await this.enrollmentRepo.findOne({
+        where: {usersId: userId, courseId: lesson.courseId, isDeleted: false},
+      });
     }
 
     let progressRecord = await this.lessonProgressRepo.findOne({
@@ -449,14 +552,13 @@ export class CourseService {
       isNewCompletion = true;
     }
 
-    // Recalculate enrollment progress rate
-    const enrollment = await this.enrollmentRepo.findOne({
-      where: {usersId: userId, courseId: lesson.courseId},
-    });
-
     let currentProgress = 0;
+    let isCourseCompleted = false;
+    let completedCount = 0;
+    let total = 0;
+
     if (enrollment) {
-      const completedCount = await this.lessonProgressRepo.count({
+      const completed = await this.lessonProgressRepo.count({
         usersId: userId,
         courseId: lesson.courseId,
         isCompleted: true,
@@ -468,13 +570,13 @@ export class CourseService {
         isActive: true,
       });
 
-      const total = totalLessons.count || 1;
-      currentProgress = Math.min(100, Math.round((completedCount.count / total) * 100));
-
-      const isCourseCompleted = currentProgress >= 100;
+      completedCount = completed.count;
+      total = totalLessons.count || 1;
+      currentProgress = Math.min(100, Math.round((completedCount / total) * 100));
+      isCourseCompleted = currentProgress >= 100;
 
       await this.enrollmentRepo.updateById(enrollment.id, {
-        completedLessonsCount: completedCount.count,
+        completedLessonsCount: completedCount,
         totalLessonsCount: total,
         progressRate: currentProgress,
         status: isCourseCompleted ? 'completed' : 'active',
@@ -490,23 +592,81 @@ export class CourseService {
       if (profile) {
         const newXp = (profile.xp || 0) + xpAwarded;
         const newLevel = Math.floor(newXp / 300) + 1; // 300 XP per level milestone
-        const completedCount = (profile.completedLessons || 0) + 1;
+        const profileCompletedCount = (profile.completedLessons || 0) + 1;
 
         await this.studentProfileRepo.updateById(profile.id, {
           xp: newXp,
           level: newLevel,
-          completedLessons: completedCount,
+          completedLessons: profileCompletedCount,
           updatedAt: new Date(),
         });
       }
     }
 
+    let certificate = null;
+    if (isCourseCompleted) {
+      try {
+        certificate = await this.certificateService.issueCertificateForCourse(
+          userId,
+          lesson.courseId!,
+        );
+      } catch {
+        // Non-fatal: certificate can still be issued via POST /courses/{id}/certificate
+        certificate = null;
+      }
+    }
+
     return {
-      message: 'Lesson completed successfully',
+      message: isCourseCompleted
+        ? 'Lesson completed — course finished and certificate issued'
+        : 'Lesson completed successfully',
       lessonId,
+      courseId: lesson.courseId,
       xpAwarded,
       progressRate: currentProgress,
+      completedLessonsCount: completedCount,
+      totalLessonsCount: total,
+      courseCompleted: isCourseCompleted,
+      certificate,
     };
+  }
+
+  /**
+   * Completed-lesson history for a course (module progress trail).
+   */
+  async getCourseCompletionHistory(userId: string, courseId: string) {
+    const progressRecords = await this.lessonProgressRepo.find({
+      where: {usersId: userId, courseId, isCompleted: true},
+      order: ['completedAt DESC'],
+    });
+
+    const lessonIds = progressRecords
+      .map(p => p.lessonId)
+      .filter((id): id is string => !!id);
+    if (lessonIds.length === 0) return [];
+
+    const lessons = await this.lessonRepo.find({
+      where: {id: {inq: lessonIds}, isDeleted: false},
+    });
+    const lessonMap = new Map(lessons.map(l => [l.id!, l]));
+
+    const modules = await this.moduleRepo.find({
+      where: {courseId, isDeleted: false},
+    });
+    const moduleMap = new Map(modules.map(m => [m.id!, m]));
+
+    return progressRecords.map(p => {
+      const lesson = lessonMap.get(p.lessonId);
+      const mod = lesson?.moduleId ? moduleMap.get(lesson.moduleId) : undefined;
+      return {
+        lessonId: p.lessonId,
+        lessonTitle: lesson?.title || 'Lesson',
+        moduleId: lesson?.moduleId,
+        moduleTitle: mod?.title || 'Module',
+        completedAt: p.completedAt,
+        xpReward: lesson?.xpReward || 0,
+      };
+    });
   }
 
   /**

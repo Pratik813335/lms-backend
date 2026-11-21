@@ -22,10 +22,40 @@ import {
 } from '../repositories';
 import { BcryptHasher, CourseService, RbacService } from '../services';
 import { LmsUserProfile } from '../types';
-import { formatSuccessResponse } from '../utils';
+import { formatSuccessResponse, gradeLabelOf, resolveGradeTier } from '../utils';
 import { validatePersonName, validateStrongPassword } from '../utils/password.util';
 
 export class StudentController {
+  private formatStudentProfileResponse(
+    profile: any,
+    currentUser: LmsUserProfile,
+  ) {
+    const plainProfile: any =
+      typeof profile?.toJSON === 'function' ? profile.toJSON() : profile;
+    const isOpenLearner = currentUser.roles?.includes('open_learner');
+    const grade = plainProfile?.gradeLevel || null;
+    const gradeLevelDisplay = isOpenLearner
+      ? null
+      : gradeLabelOf(grade) ||
+        (typeof plainProfile?.gradeLevel === 'string'
+          ? plainProfile.gradeLevel
+          : null);
+    const tierDisplay = isOpenLearner
+      ? 'open'
+      : plainProfile?.tier ||
+        resolveGradeTier(grade) ||
+        (currentUser.roles?.includes('student_junior') ? 'junior' : 'senior');
+
+    return {
+      ...plainProfile,
+      gradeLevelId: plainProfile?.gradeLevelId ?? grade?.id ?? null,
+      gradeLevel: gradeLevelDisplay,
+      tier: tierDisplay,
+      fullName: currentUser.fullName || currentUser.email?.split('@')[0],
+      email: currentUser.email,
+    };
+  }
+
   constructor(
     @repository(StudentProfileRepository)
     public studentProfileRepo: StudentProfileRepository,
@@ -237,7 +267,7 @@ export class StudentController {
         ? plainProfile.gradeLevel.hasFullCurriculum
         : tierDisplay === 'senior';
 
-    // BUG-033: expose enrolled course IDs so FE can start/resume courses
+    // BUG-033: expose enrolled course IDs + progress so FE can start/resume courses
     const enrollments = await this.enrollmentRepo.find({
       where: {
         and: [
@@ -246,7 +276,15 @@ export class StudentController {
           {status: {neq: 'dropped'}},
         ],
       },
-      fields: {courseId: true, status: true},
+      fields: {
+        courseId: true,
+        status: true,
+        progressRate: true,
+        completedLessonsCount: true,
+        totalLessonsCount: true,
+        enrolledAt: true,
+        updatedAt: true,
+      },
     });
     const enrolledCourses = [
       ...new Set(
@@ -255,6 +293,17 @@ export class StudentController {
           .filter((id): id is string => typeof id === 'string' && id.length > 0),
       ),
     ];
+    const enrollmentDetails = enrollments
+      .filter(e => typeof e.courseId === 'string' && e.courseId.length > 0)
+      .map(e => ({
+        courseId: e.courseId,
+        status: e.status || 'active',
+        progressRate: Number(e.progressRate ?? 0),
+        completedLessonsCount: e.completedLessonsCount ?? 0,
+        totalLessonsCount: e.totalLessonsCount ?? 0,
+        enrolledAt: e.enrolledAt,
+        updatedAt: e.updatedAt,
+      }));
 
     const fullProfileData = {
       ...plainProfile,
@@ -265,6 +314,7 @@ export class StudentController {
       hasFullCurriculum,
       enrolledCoursesCount: enrolledCourses.length,
       enrolledCourses,
+      enrollments: enrollmentDetails,
       fullName: currentUser.fullName || currentUser.email.split('@')[0],
       email: currentUser.email,
     };
@@ -328,12 +378,13 @@ export class StudentController {
       if (!gradeMaster) {
         throw new HttpErrors.BadRequest(`Invalid gradeLevelId '${updateData.gradeLevelId}'. Grade level does not exist in master data.`);
       }
+      const tier = resolveGradeTier(gradeMaster);
       updatePayload.gradeLevelId = gradeMaster.id;
-      updatePayload.tier = gradeMaster.category === 'junior' ? 'junior' : 'senior';
+      updatePayload.tier = tier;
       // BUG-004: sync student_junior / student_senior when switching grade tiers
       await this.rbacService.syncStudentRoleForGradeCategory(
         currentUser.id,
-        gradeMaster.category,
+        tier,
       );
     }
 
@@ -346,11 +397,27 @@ export class StudentController {
       include: [
         {
           relation: 'gradeLevel',
-          scope: { fields: { id: true, label: true, value: true, category: true } },
+          scope: {
+            fields: {
+              id: true,
+              label: true,
+              value: true,
+              category: true,
+              hasTestPrep: true,
+              hasFullCurriculum: true,
+            },
+          },
         },
       ],
     });
-    return formatSuccessResponse(updatedProfile, 'Student profile updated successfully');
+    const formatted = this.formatStudentProfileResponse(
+      updatedProfile,
+      currentUser,
+    );
+    return formatSuccessResponse(
+      formatted,
+      'Student profile updated successfully',
+    );
   }
 
   @authenticate('jwt')
@@ -587,7 +654,7 @@ export class StudentController {
     }
     // BUG-001: reject numeric / special-character names
     const studentName = validatePersonName(body.fullName);
-    const studentEmail = body.email.trim();
+    const studentEmail = body.email.trim().toLowerCase();
     const rawPassword = body.password?.trim();
     const initialPassword = (!rawPassword || rawPassword === 'Student123' || rawPassword === 'Student@123')
       ? 'Student@123'
@@ -609,7 +676,10 @@ export class StudentController {
     }
 
     // 2. Resolve & Validate Role consistency with Grade Level Tier
-    const expectedRole = gradeMaster.category === 'junior' ? 'student_junior' : 'student_senior';
+    const expectedRole =
+      resolveGradeTier(gradeMaster) === 'junior'
+        ? 'student_junior'
+        : 'student_senior';
     if (body.role && body.role !== expectedRole) {
       throw new HttpErrors.BadRequest(
         `Grade level '${gradeMaster.label || gradeMaster.value}' belongs to the ${gradeMaster.category} tier and cannot be assigned role senior. Expected junior.`,
@@ -765,7 +835,26 @@ export class StudentController {
       await this.usersRepo.updateById(id, userUpdate);
     }
 
-    const profile = await this.studentProfileRepo.findOne({where: {usersId: id}});
+    let profile = await this.studentProfileRepo.findOne({
+      where: {usersId: id, isDeleted: false},
+    });
+
+    // Ensure a profile exists so grade changes always persist
+    if (!profile && (body.gradeLevelId || body.gpa !== undefined)) {
+      profile = await this.studentProfileRepo.create({
+        usersId: id,
+        gradeLevelId: body.gradeLevelId,
+        gpa: body.gpa ?? 0,
+        tier: 'senior',
+        xp: 0,
+        level: 1,
+        streakDays: 0,
+        completedLessons: 0,
+        enrolledCoursesCount: 0,
+        isDeleted: false,
+      });
+    }
+
     if (profile) {
       const profileUpdate: any = {updatedAt: new Date()};
       if (body.gpa !== undefined) profileUpdate.gpa = body.gpa;
@@ -774,12 +863,15 @@ export class StudentController {
           where: {id: body.gradeLevelId, isActive: true, isDeleted: false},
         });
         if (!gradeMaster) {
-          throw new HttpErrors.BadRequest(`Grade level with ID '${body.gradeLevelId}' not found.`);
+          throw new HttpErrors.BadRequest(
+            `Grade level with ID '${body.gradeLevelId}' not found.`,
+          );
         }
-        profileUpdate.gradeLevelId = body.gradeLevelId;
-        profileUpdate.tier = gradeMaster.category === 'junior' ? 'junior' : 'senior';
+        const tier = resolveGradeTier(gradeMaster);
+        profileUpdate.gradeLevelId = gradeMaster.id;
+        profileUpdate.tier = tier;
         // BUG-003: keep RBAC role in sync when admin changes junior/senior grade
-        await this.rbacService.syncStudentRoleForGradeCategory(id, gradeMaster.category);
+        await this.rbacService.syncStudentRoleForGradeCategory(id, tier);
       }
       await this.studentProfileRepo.updateById(profile.id, profileUpdate);
     }
@@ -788,20 +880,37 @@ export class StudentController {
       include: [{relation: 'roles'}],
     });
     const updatedProfile = await this.studentProfileRepo.findOne({
-      where: {usersId: id},
-      include: [{relation: 'gradeLevel'}],
+      where: {usersId: id, isDeleted: false},
+      include: [
+        {
+          relation: 'gradeLevel',
+          scope: {
+            fields: {id: true, label: true, value: true, category: true},
+          },
+        },
+      ],
     });
+    const gradePlain: any =
+      typeof updatedProfile?.toJSON === 'function'
+        ? updatedProfile.toJSON()
+        : updatedProfile;
+    const grade = gradePlain?.gradeLevel || null;
 
     return formatSuccessResponse(
       {
+        id,
         user: updatedUser,
         profile: updatedProfile,
-        gradeLevelId: updatedProfile?.gradeLevelId ?? null,
-        gradeLevel:
-          (updatedProfile as any)?.gradeLevel?.label ||
-          (updatedProfile as any)?.gradeLevel?.value ||
-          null,
-        tier: updatedProfile?.tier ?? null,
+        gradeLevelId: updatedProfile?.gradeLevelId ?? grade?.id ?? null,
+        gradeLevel: gradeLabelOf(grade),
+        tier: updatedProfile?.tier ?? resolveGradeTier(grade),
+        name: updatedUser.fullName || updatedUser.email?.split('@')[0],
+        email: updatedUser.email,
+        gpa: updatedProfile?.gpa ?? 0,
+        role:
+          (updatedProfile?.tier || resolveGradeTier(grade)) === 'junior'
+            ? 'student_junior'
+            : 'student_senior',
       },
       'Student updated successfully',
     );

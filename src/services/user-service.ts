@@ -20,6 +20,7 @@ export interface UserAccount {
   permissions?: string[];
   fullName?: string;
   gradeLevel?: string | null;
+  gradeLevelId?: string | null;
   isActive?: boolean;
   isOnboarding?: boolean;
 }
@@ -43,8 +44,8 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
       throw new HttpErrors.BadRequest('Email and password are required');
     }
 
-    const email = credentials.email.trim();
-    // Prefer exact match, then case-insensitive (BUG-012 login mismatches)
+    const email = credentials.email.trim().toLowerCase();
+    // Prefer normalized email, then case-insensitive fallback (BUG-012)
     let userEntity = await this.usersRepo.findOne({
       where: {email},
     });
@@ -101,11 +102,14 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
         ? profile.toJSON()
         : profile
       : null;
-    // BUG-019: never invent "Grade 10" — return the stored grade or null
+    // BUG-019 / BUG-032: never invent a grade — return stored label/value + id
     const gradeLevelVal =
       plainProf?.gradeLevel?.label ||
       plainProf?.gradeLevel?.value ||
       null;
+    const gradeLevelId = isStudentRole
+      ? plainProf?.gradeLevelId || plainProf?.gradeLevel?.id || null
+      : null;
 
     return {
       id: userEntity.id!,
@@ -114,6 +118,7 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
       roles: roles.length ? roles : ['student_senior'],
       fullName: userEntity.fullName || userEntity.email.split('@')[0],
       gradeLevel: isStudentRole ? gradeLevelVal : null,
+      gradeLevelId,
       isActive: userEntity.isActive,
       isOnboarding: userEntity.isOnboarding ?? false,
     };
@@ -128,6 +133,7 @@ export class MyUserService implements UserService<UserAccount, Credentials> {
       permissions: user.permissions || [],
       fullName: user.fullName,
       gradeLevel: user.gradeLevel as any,
+      gradeLevelId: user.gradeLevelId || undefined,
       isOnboarding: user.isOnboarding ?? false,
     };
     return profile;

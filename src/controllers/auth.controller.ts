@@ -18,6 +18,7 @@ import {
   GradeLevelsRepository,
   RolesRepository,
   StudentProfileRepository,
+  UserRolesRepository,
   UsersRepository,
 } from '../repositories';
 import {
@@ -67,6 +68,8 @@ export class AuthController {
     public otpService: OtpService,
     @repository(UsersRepository)
     public usersRepo: UsersRepository,
+    @repository(UserRolesRepository)
+    public userRolesRepo: UserRolesRepository,
     @repository(RolesRepository)
     public rolesRepo: RolesRepository,
     @repository(StudentProfileRepository)
@@ -184,27 +187,29 @@ export class AuthController {
       }
 
       // 3. Check if user already exists
+      const normalizedEmail = userData.email.trim().toLowerCase();
       const existingUser = await this.usersRepo.findOne({
-        where: { email: userData.email },
+        where: {email: normalizedEmail},
       });
 
       if (existingUser) {
-        throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
+        throw new HttpErrors.Conflict(`User with email ${normalizedEmail} already exists`);
       }
 
       const resolvedName = userData.fullName
         ? validatePersonName(userData.fullName)
-        : userData.email.split('@')[0];
+        : normalizedEmail.split('@')[0];
 
       // 4. Hash password with bcrypt
       const hashedPassword = await this.hasher.hashPassword(userData.password);
 
-      // 5. Create user in PostgreSQL users table
+      // 5. Create user — same onboarding flag as admin-created students (BUG-024 parity)
       const savedUser = await this.usersRepo.create({
-        email: userData.email,
+        email: normalizedEmail,
         password: hashedPassword,
         fullName: resolvedName,
         isActive: true,
+        isOnboarding: true,
       });
 
       // 6. Assign student role in PostgreSQL user_roles table
@@ -448,28 +453,30 @@ export class AuthController {
         );
       }
 
-      // 4. Check if user already exists
+      // 4. Check if user already exists (normalize email like create/login)
+      const normalizedEmail = userData.email.trim().toLowerCase();
       const existingUser = await this.usersRepo.findOne({
-        where: { email: userData.email },
+        where: {email: normalizedEmail},
       });
 
       if (existingUser) {
-        throw new HttpErrors.Conflict(`User with email ${userData.email} already exists`);
+        throw new HttpErrors.Conflict(`User with email ${normalizedEmail} already exists`);
       }
 
       const resolvedName = userData.fullName
         ? validatePersonName(userData.fullName)
-        : userData.email.split('@')[0];
+        : normalizedEmail.split('@')[0];
 
       // 5. Hash password with bcrypt
       const hashedPassword = await this.hasher.hashPassword(userData.password);
 
       // 6. Create user in PostgreSQL users table
       const savedUser = await this.usersRepo.create({
-        email: userData.email.trim().toLowerCase(),
+        email: normalizedEmail,
         password: hashedPassword,
         fullName: resolvedName,
         isActive: true,
+        isOnboarding: true,
       });
 
       // 7. Assign staff role in PostgreSQL user_roles table
@@ -588,8 +595,101 @@ export class AuthController {
   async getCurrentUser(
     @inject(SecurityBindings.USER)
     currentUserProfile: UserProfile,
-  ): Promise<UserProfile> {
-    return currentUserProfile;
+  ) {
+    const userId =
+      (currentUserProfile as LmsUserProfile).id ||
+      currentUserProfile[securityId];
+    const user = await this.usersRepo.findOne({
+      where: {id: userId, isDeleted: false},
+      include: [{relation: 'roles'}],
+    });
+    if (!user) {
+      throw new HttpErrors.NotFound('User account not found');
+    }
+
+    const roles = ((user as any).roles || [])
+      .map((r: {value?: string; label?: string}) => r.value || r.label)
+      .filter(Boolean);
+
+    return formatSuccessResponse(
+      {
+        id: user.id,
+        email: user.email,
+        fullName: user.fullName || user.email.split('@')[0],
+        phone: user.phone || null,
+        roles,
+        isActive: user.isActive !== false,
+        isOnboarding: user.isOnboarding ?? false,
+        createdAt: user.createdAt,
+        updatedAt: user.updatedAt,
+      },
+      'Authenticated user profile retrieved successfully',
+    );
+  }
+
+  @authenticate('jwt')
+  @patch('/auth/me', {
+    responses: {
+      '200': {
+        description: 'Update own profile (name/phone)',
+      },
+    },
+  })
+  async updateCurrentUserProfile(
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+    @requestBody({
+      content: {
+        'application/json': {
+          schema: {
+            type: 'object',
+            properties: {
+              fullName: {type: 'string'},
+              phone: {type: 'string'},
+            },
+          },
+        },
+      },
+    })
+    body: {fullName?: string; phone?: string},
+  ) {
+    const userId = (currentUser as LmsUserProfile).id || currentUser[securityId];
+    const user = await this.usersRepo.findOne({
+      where: {id: userId, isDeleted: false},
+    });
+    if (!user) {
+      throw new HttpErrors.NotFound('User account not found');
+    }
+
+    const updatePayload: Record<string, unknown> = {updatedAt: new Date()};
+    if (body.fullName !== undefined) {
+      updatePayload.fullName = validatePersonName(body.fullName);
+    }
+    if (body.phone !== undefined) {
+      updatePayload.phone = String(body.phone || '').trim() || null;
+    }
+
+    await this.usersRepo.updateById(user.id, updatePayload);
+    const updated = await this.usersRepo.findById(user.id!, {
+      include: [{relation: 'roles'}],
+    });
+    const roles = ((updated as any).roles || [])
+      .map((r: {value?: string; label?: string}) => r.value || r.label)
+      .filter(Boolean);
+
+    return formatSuccessResponse(
+      {
+        id: updated.id,
+        email: updated.email,
+        fullName: updated.fullName || updated.email.split('@')[0],
+        phone: updated.phone || null,
+        roles,
+        isActive: updated.isActive !== false,
+        isOnboarding: updated.isOnboarding ?? false,
+        createdAt: updated.createdAt,
+        updatedAt: updated.updatedAt,
+      },
+      'Profile updated successfully',
+    );
   }
 
   @get('/auth/roles', {
@@ -706,73 +806,102 @@ export class AuthController {
     const pageNum = Math.max(1, Number(page) || 1);
     const limitNum = Math.min(100, Math.max(1, Number(limit) || 10));
 
-    // Fetch all active users with their associated roles
+    // BUG-031: resolve staff via user_roles join (include can miss through-links after reload)
+    const managedRoleValues = ['admin', 'content', 'academic', 'operations'];
+    const managedRoles = await this.rolesRepo.find({
+      where: {
+        value: {inq: managedRoleValues},
+        isActive: true,
+        isDeleted: false,
+      },
+    });
+    const managedRoleById = new Map(
+      managedRoles.filter(r => r.id).map(r => [r.id!, r]),
+    );
+    const managedRoleIds = [...managedRoleById.keys()];
+
+    if (managedRoleIds.length === 0) {
+      return formatSuccessResponse(
+        {total: 0, page: pageNum, limit: limitNum, totalPages: 0, users: []},
+        'Users directory retrieved successfully',
+      );
+    }
+
+    const roleLinks = await this.userRolesRepo.find({
+      where: {
+        rolesId: {inq: managedRoleIds},
+        isDeleted: false,
+        isActive: true,
+      },
+    });
+
+    const roleValuesByUserId = new Map<string, Array<{id: string; value: string; label?: string}>>();
+    for (const link of roleLinks) {
+      const roleRow = managedRoleById.get(link.rolesId);
+      if (!roleRow?.id || !link.usersId) continue;
+      const list = roleValuesByUserId.get(link.usersId) || [];
+      list.push({
+        id: roleRow.id,
+        value: roleRow.value,
+        label: roleRow.label,
+      });
+      roleValuesByUserId.set(link.usersId, list);
+    }
+
+    let staffUserIds = [...roleValuesByUserId.keys()];
+    if (role) {
+      staffUserIds = staffUserIds.filter(uid =>
+        (roleValuesByUserId.get(uid) || []).some(r => r.value === role),
+      );
+    }
+
+    if (staffUserIds.length === 0) {
+      return formatSuccessResponse(
+        {total: 0, page: pageNum, limit: limitNum, totalPages: 0, users: []},
+        'Users directory retrieved successfully',
+      );
+    }
+
     const allUsers = await this.usersRepo.find({
       where: {
+        id: {inq: staffUserIds},
         isDeleted: false,
-        ...(isActive !== undefined ? { isActive } : {}),
+        ...(isActive !== undefined ? {isActive} : {}),
       },
-      include: [
-        {
-          relation: 'roles',
-          scope: {
-            where: { isActive: true, isDeleted: false },
-            fields: { id: true, value: true, label: true },
-          },
-        },
-      ],
       order: ['createdAt DESC'],
     });
 
-    // Strict Staff Roles: Content Managers, Academic Coordinators, and Operations Staff (Excluding admin & students)
-    const staffRoles = ['content', 'academic', 'operations'];
-
-    // Apply filtering across staff roles
-    let filtered = allUsers.filter(u => {
-      const userRoleValues = (u.roles || []).map(r => r.value);
-
-      // Must have at least one staff role (content, academic, operations) and NOT admin or student
-      const isStaffUser = userRoleValues.some(r => staffRoles.includes(r)) && !userRoleValues.includes('admin');
-      if (!isStaffUser) {
-        return false;
-      }
-
-      // Optional specific role filter (e.g. ?role=content or ?role=academic)
-      if (role && !userRoleValues.includes(role)) {
-        return false;
-      }
-
-      // Search Filter (by full name or email)
-      if (search && search.trim()) {
-        const q = search.trim().toLowerCase();
+    let filtered = allUsers;
+    if (search && search.trim()) {
+      const q = search.trim().toLowerCase();
+      filtered = allUsers.filter(u => {
         const matchesEmail = u.email.toLowerCase().includes(q);
-        const matchesName = u.fullName ? u.fullName.toLowerCase().includes(q) : false;
-        if (!matchesEmail && !matchesName) return false;
-      }
-
-      return true;
-    });
+        const matchesName = u.fullName
+          ? u.fullName.toLowerCase().includes(q)
+          : false;
+        return matchesEmail || matchesName;
+      });
+    }
 
     const total = filtered.length;
     const totalPages = Math.ceil(total / limitNum) || 1;
     const startIndex = (pageNum - 1) * limitNum;
     const paginatedUsers = filtered.slice(startIndex, startIndex + limitNum);
 
-    const formatted = paginatedUsers.map(u => ({
-      id: u.id,
-      email: u.email,
-      fullName: u.fullName || u.email.split('@')[0],
-      phone: u.phone,
-      roles: (u.roles || []).map(r => ({
-        id: r.id,
-        value: r.value,
-        label: r.label,
-      })),
-      roleValues: (u.roles || []).map(r => r.value),
-      isActive: u.isActive,
-      createdAt: u.createdAt,
-      updatedAt: u.updatedAt,
-    }));
+    const formatted = paginatedUsers.map(u => {
+      const roles = roleValuesByUserId.get(u.id!) || [];
+      return {
+        id: u.id,
+        email: u.email,
+        fullName: u.fullName || u.email.split('@')[0],
+        phone: u.phone,
+        roles,
+        roleValues: roles.map(r => r.value),
+        isActive: u.isActive,
+        createdAt: u.createdAt,
+        updatedAt: u.updatedAt,
+      };
+    });
 
     return formatSuccessResponse(
       {

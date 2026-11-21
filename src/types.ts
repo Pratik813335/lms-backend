@@ -27,6 +27,8 @@ export interface LmsUserProfile extends UserProfile {
   roles: string[];
   permissions?: string[];
   gradeLevel?: string;
+  /** Grade master id — needed so FE can resolve class number after login (BUG-032) */
+  gradeLevelId?: string;
   fullName?: string;
   isOnboarding?: boolean;
 }
