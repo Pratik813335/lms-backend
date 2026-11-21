@@ -86,7 +86,13 @@ export class Users extends Entity {
   })
   deletedAt?: Date;
 
-  @hasMany(() => Roles, {through: {model: () => UserRoles}})
+  @hasMany(() => Roles, {
+    through: {
+      model: () => UserRoles,
+      keyFrom: 'usersId',
+      keyTo: 'rolesId',
+    },
+  })
   roles: Roles[];
 
   constructor(data?: Partial<Users>) {

@@ -1,6 +1,6 @@
 import {authenticate} from '@loopback/authentication';
 import {inject} from '@loopback/core';
-import {get} from '@loopback/rest';
+import {get, param} from '@loopback/rest';
 import {SecurityBindings} from '@loopback/security';
 import {AnalyticsService} from '../services/analytics.service';
 import {RbacService} from '../services/rbac.service';
@@ -17,14 +17,17 @@ export class AnalyticsController {
 
   /**
    * Get Platform-wide Overview KPIs (Executive Analytics)
+   * Optional query: from, to (YYYY-MM-DD or ISO datetime)
    */
   @authenticate('jwt')
   @get('/admin/analytics/overview')
   async getOverviewKpis(
     @inject(SecurityBindings.USER) currentUser: LmsUserProfile,
+    @param.query.string('from') from?: string,
+    @param.query.string('to') to?: string,
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin', 'academic', 'operations']);
-    const kpis = await this.analyticsService.getOverviewKpis();
+    const kpis = await this.analyticsService.getOverviewKpis(from, to);
     return formatSuccessResponse(kpis, 'Platform analytics overview retrieved successfully');
   }
 

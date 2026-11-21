@@ -292,4 +292,157 @@ describe('Bug fixes: auth, staff delete, grade/role sync, name validation', () =
       .send({email, password: 'NewStaffPassword123!'})
       .expect(200);
   });
+
+  it('BUG-033: student profile returns enrolledCourses after enroll', async () => {
+    const courseRes = await client
+      .post('/courses')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        title: `Start Course ${Date.now()}`,
+        subjectId,
+        gradeLevelId: seniorGradeId,
+        status: 'published',
+      })
+      .expect(200);
+    const courseId = courseRes.body.data.id;
+
+    const email = `startcourse_${Date.now()}@example.com`;
+    const signup = await client
+      .post('/auth/student/signup')
+      .send({
+        email,
+        password: 'StudentPassword123!',
+        fullName: 'Start Course Student',
+        gradeLevelId: seniorGradeId,
+      })
+      .expect(200);
+
+    await client
+      .post(`/courses/${courseId}/enroll`)
+      .set('Authorization', `Bearer ${signup.body.token}`)
+      .expect(200);
+
+    const profile = await client
+      .get('/student/me/profile')
+      .set('Authorization', `Bearer ${signup.body.token}`)
+      .expect(200);
+
+    expect(profile.body.data.enrolledCourses).to.be.Array();
+    expect(profile.body.data.enrolledCourses).to.containEql(courseId);
+    expect(profile.body.data.enrolledCoursesCount).to.be.greaterThan(0);
+    expect(profile.body.data.enrollments).to.be.Array();
+    expect(profile.body.data.enrollments[0].courseId).to.equal(courseId);
+    expect(profile.body.data.enrollments[0].progressRate).to.equal(0);
+  });
+
+  it('BUG-033: completing all lessons issues certificate and keeps module history', async () => {
+    const courseRes = await client
+      .post('/courses')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        title: `Cert Course ${Date.now()}`,
+        subjectId,
+        gradeLevelId: seniorGradeId,
+        status: 'published',
+      })
+      .expect(200);
+    const courseId = courseRes.body.data.id;
+
+    const moduleRes = await client
+      .post(`/courses/${courseId}/modules`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({title: 'Module 1', orderIndex: 1})
+      .expect(200);
+    const moduleId = moduleRes.body.data.id;
+
+    const lessonRes = await client
+      .post(`/modules/${moduleId}/lessons`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({title: 'Lesson 1', type: 'text', xpReward: 50})
+      .expect(200);
+    const lessonId = lessonRes.body.data.id;
+
+    const email = `certcourse_${Date.now()}@example.com`;
+    const signup = await client
+      .post('/auth/student/signup')
+      .send({
+        email,
+        password: 'StudentPassword123!',
+        fullName: 'Cert Course Student',
+        gradeLevelId: seniorGradeId,
+      })
+      .expect(200);
+    const token = signup.body.token;
+
+    await client
+      .post(`/courses/${courseId}/enroll`)
+      .set('Authorization', `Bearer ${token}`)
+      .expect(200);
+
+    const complete = await client
+      .post(`/lessons/${lessonId}/complete`)
+      .set('Authorization', `Bearer ${token}`)
+      .expect(200);
+
+    expect(complete.body.data.progressRate).to.equal(100);
+    expect(complete.body.data.courseCompleted).to.be.true();
+    expect(complete.body.data.certificate).to.be.ok();
+    expect(complete.body.data.certificate.certificateNumber).to.be.String();
+
+    const history = await client
+      .get(`/courses/${courseId}/progress-history`)
+      .set('Authorization', `Bearer ${token}`)
+      .expect(200);
+    expect(history.body.data).to.be.Array();
+    expect(history.body.data.length).to.be.greaterThan(0);
+    expect(history.body.data[0].lessonId).to.equal(lessonId);
+
+    const certs = await client
+      .get('/student/me/certificates')
+      .set('Authorization', `Bearer ${token}`)
+      .expect(200);
+    expect(certs.body.data.some((c: {courseId?: string}) => c.courseId === courseId)).to.be.true();
+  });
+
+  it('BUG-022: AI tutor reply uses topic/subject tags, not unrelated course title only', async () => {
+    const courseRes = await client
+      .post('/courses')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        title: `Mandarin Chinese 2 ${Date.now()}`,
+        subjectId,
+        gradeLevelId: seniorGradeId,
+        status: 'published',
+      })
+      .expect(200);
+    const courseId = courseRes.body.data.id;
+
+    const email = `aitutor_${Date.now()}@example.com`;
+    const signup = await client
+      .post('/auth/student/signup')
+      .send({
+        email,
+        password: 'StudentPassword123!',
+        fullName: 'Ai Tutor Student',
+        gradeLevelId: seniorGradeId,
+      })
+      .expect(200);
+
+    const chat = await client
+      .post('/ai/tutor/chat')
+      .set('Authorization', `Bearer ${signup.body.token}`)
+      .send({
+        courseId,
+        topic: 'linear equations',
+        subject: 'Mathematics',
+        message:
+          '[Grade 10] [Subject: Mathematics] [Topic: linear equations] Help me with Solving for x',
+      })
+      .expect(200);
+
+    const reply = chat.body.data.reply as string;
+    expect(reply.toLowerCase()).to.match(/mathematics|linear|slope|solving/);
+    expect(chat.body.data.courseContext.subject).to.equal('Mathematics');
+    expect(chat.body.data.courseContext.currentTopic).to.equal('linear equations');
+  });
 });

@@ -9,6 +9,8 @@ import {
   get,
   del,
   requestBody,
+  Request,
+  RestBindings,
 } from '@loopback/rest';
 import { SecurityBindings, UserProfile } from '@loopback/security';
 import { repository } from '@loopback/repository';
@@ -23,6 +25,7 @@ import { ModuleRepository } from '../repositories/module.repository';
 import { SubjectsRepository } from '../repositories/subjects.repository';
 import { UsersRepository } from '../repositories/users.repository';
 import { CourseService } from '../services/course.service';
+import { JWTService } from '../services/jwt-service';
 import { RbacService } from '../services/rbac.service';
 import { formatSuccessResponse } from '../utils/response.util';
 
@@ -32,6 +35,8 @@ export class CourseController {
     public courseService: CourseService,
     @inject('services.rbac')
     public rbacService: RbacService,
+    @inject('service.jwt.service')
+    public jwtService: JWTService,
     @repository(CourseRepository)
     public courseRepo: CourseRepository,
     @repository(ModuleRepository)
@@ -586,9 +591,44 @@ export class CourseController {
   async getSyllabus(
     @param.path.string('id') courseId: string,
     @param.query.string('userId') userId?: string,
+    @inject(RestBindings.Http.REQUEST) request?: Request,
   ) {
-    const syllabus = await this.courseService.getSyllabusTree(courseId, userId);
+    // Optional JWT: when present, attach per-user lesson/module completion status
+    let resolvedUserId = userId;
+    if (!resolvedUserId && request?.headers?.authorization?.startsWith('Bearer ')) {
+      try {
+        const token = request.headers.authorization.slice(7);
+        const profile = await this.jwtService.verifyToken(token);
+        resolvedUserId = (profile as any).id || undefined;
+      } catch {
+        // Anonymous catalog browse still allowed
+      }
+    }
+    const syllabus = await this.courseService.getSyllabusTree(
+      courseId,
+      resolvedUserId,
+    );
     return formatSuccessResponse(syllabus, 'Course syllabus tree retrieved successfully');
+  }
+
+  @authenticate('jwt')
+  @get('/courses/{id}/progress-history')
+  async getCourseProgressHistory(
+    @param.path.string('id') courseId: string,
+    @inject(SecurityBindings.USER) currentUser: UserProfile,
+  ) {
+    this.rbacService.validateRole(currentUser as any, [
+      'student_junior',
+      'student_senior',
+      'open_learner',
+      'admin',
+    ]);
+    const userId = (currentUser as any).id || (currentUser as any).userId;
+    const history = await this.courseService.getCourseCompletionHistory(
+      userId,
+      courseId,
+    );
+    return formatSuccessResponse(history, 'Course completion history retrieved');
   }
 
   // ── Allocation & Roster Engine ──────────────────────────────────────────
