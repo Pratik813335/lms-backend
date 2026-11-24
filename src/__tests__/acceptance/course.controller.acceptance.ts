@@ -28,7 +28,7 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
         email: adminEmail,
         password: 'AdminPassword123!',
         roleId: adminRoleId,
-        fullName: 'Week 2 Admin',
+        fullName: 'Week Two Admin',
       })
       .expect(200);
     adminToken = adminRes.body.token;
@@ -65,7 +65,7 @@ describe('Week 2 Course Catalog, Syllabus & Enrollment Engine (Acceptance)', () 
       .send({
         email: studentEmail,
         password: 'StudentPassword123!',
-        fullName: 'Week 2 Student',
+        fullName: 'Week Two Student',
         gradeLevelId: gradeLevelId,
       })
       .expect(200);

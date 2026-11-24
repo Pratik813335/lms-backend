@@ -244,7 +244,8 @@ describe('Bug fixes: auth, staff delete, grade/role sync, name validation', () =
       .get('/auth/me')
       .set('Authorization', `Bearer ${staffToken}`)
       .expect(200);
-    const id = me.body.id;
+    // /auth/me returns the standard { success, data } envelope
+    const id = (me.body.data ?? me.body).id;
 
     await client
       .del(`/admin/users/${id}`)
@@ -282,7 +283,7 @@ describe('Bug fixes: auth, staff delete, grade/role sync, name validation', () =
       .expect(200);
 
     await client
-      .post(`/admin/users/${me.body.id}/reset-password`)
+      .post(`/admin/users/${(me.body.data ?? me.body).id}/reset-password`)
       .set('Authorization', `Bearer ${adminToken}`)
       .send({newPassword: 'NewStaffPassword123!'})
       .expect(200);

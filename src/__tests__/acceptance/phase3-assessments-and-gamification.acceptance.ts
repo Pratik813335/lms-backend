@@ -26,7 +26,7 @@ describe('Phase 3: Assessments & Gamification Engine (Acceptance)', () => {
         email: adminEmail,
         password: 'AdminPassword123!',
         roleId: adminRoleId,
-        fullName: 'Phase 3 Admin',
+        fullName: 'Phase Three Admin',
       })
       .expect(200);
     adminToken = adminRes.body.token;
@@ -60,7 +60,7 @@ describe('Phase 3: Assessments & Gamification Engine (Acceptance)', () => {
       .send({
         email: studentEmail,
         password: 'StudentPassword123!',
-        fullName: 'Phase 3 Student',
+        fullName: 'Phase Three Student',
         gradeLevelId,
       })
       .expect(200);

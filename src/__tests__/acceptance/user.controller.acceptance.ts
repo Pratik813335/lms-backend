@@ -87,7 +87,8 @@ describe('User Controller - Staff Directory (Acceptance)', () => {
     await client.get('/users').expect(401);
   });
 
-  it('GET /users returns staff members only and strictly excludes admin and students', async () => {
+  // BUG-031: the staff directory now includes admins (admin Staff page lists "System Admins").
+  it('GET /users returns staff members (admin, content, academic, operations) and excludes students', async () => {
     const res = await client
       .get('/users?page=1&limit=10')
       .set('Authorization', `Bearer ${authToken}`)
@@ -100,13 +101,12 @@ describe('User Controller - Staff Directory (Acceptance)', () => {
     expect(res.body.data.users).to.be.an.Array();
     expect(res.body.data.users.length).to.be.greaterThan(0);
 
-    // Verify all returned users are staff (content, academic, operations) and NOT admin or student
+    // Verify all returned users are managed staff (admin, content, academic, operations) and NOT students
     for (const user of res.body.data.users) {
-      expect(user.roleValues).to.not.containEql('admin');
       expect(user.roleValues).to.not.containEql('student_junior');
       expect(user.roleValues).to.not.containEql('student_senior');
       const isStaff = user.roleValues.some((r: string) =>
-        ['content', 'academic', 'operations'].includes(r),
+        ['admin', 'content', 'academic', 'operations'].includes(r),
       );
       expect(isStaff).to.be.true();
     }

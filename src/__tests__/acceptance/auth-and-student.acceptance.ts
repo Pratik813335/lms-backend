@@ -1,6 +1,7 @@
 import { Client, expect } from '@loopback/testlab';
 import { LmsBackendApplication } from '../../application';
 import { GradeLevelsRepository, OtpRepository } from '../../repositories';
+import { resolveGradeTier } from '../../utils';
 import { setupApplication } from './test-helper';
 
 describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
@@ -29,7 +30,10 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     }
     seniorGradeId = seniorGrade.id!;
 
-    let juniorGrade = await gradeRepo.findOne({ where: { category: 'junior', isDeleted: false } });
+    // Seeded Grades 7–8 carry category 'junior' but resolveGradeTier() treats them as senior (junior band is 1–6),
+    // so an unordered findOne made the role-mismatch test flaky. Pick a grade the backend itself classifies as junior.
+    const juniorCandidates = await gradeRepo.find({ where: { category: 'junior', isDeleted: false, isActive: true } });
+    let juniorGrade = juniorCandidates.find(g => resolveGradeTier(g) === 'junior') ?? null;
     if (!juniorGrade) {
       juniorGrade = await gradeRepo.create({
         label: 'Grade 6 (Middle School)',

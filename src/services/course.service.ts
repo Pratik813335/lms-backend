@@ -14,6 +14,7 @@ import {
   UserRolesRepository,
   UsersRepository,
 } from '../repositories';
+import {normalizeLessonContent} from '../utils/lesson-content.util';
 import {CertificateService} from './certificate.service';
 
 @injectable({scope: BindingScope.TRANSIENT})

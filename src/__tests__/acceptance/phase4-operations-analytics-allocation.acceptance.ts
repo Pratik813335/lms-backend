@@ -31,7 +31,7 @@ describe('Phase 4: Operations, Billing, Analytics & Course Allocation (Acceptanc
         email: adminEmail,
         password: 'AdminPassword123!',
         roleId: adminRoleId,
-        fullName: 'Phase4 Admin',
+        fullName: 'Phase Four Admin',
       })
       .expect(200);
     adminToken = adminRes.body.token;
@@ -73,7 +73,7 @@ describe('Phase 4: Operations, Billing, Analytics & Course Allocation (Acceptanc
       .send({
         email: studentEmail,
         password: 'StudentPassword123!',
-        fullName: 'Phase4 Senior Student',
+        fullName: 'Phase Four Senior Student',
         gradeLevelId: grade11.id,
       })
       .expect(200);
