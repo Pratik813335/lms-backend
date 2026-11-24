@@ -1,5 +1,6 @@
 import {BindingScope, injectable} from '@loopback/core';
 import {repository} from '@loopback/repository';
+import {HttpErrors} from '@loopback/rest';
 import {
   AssessmentSubmissionRepository,
   CourseRepository,
@@ -26,12 +27,26 @@ export class AnalyticsService {
     public submissionRepo: AssessmentSubmissionRepository,
   ) {}
 
-  private parseDateBoundary(value?: string, endOfDay = false): Date | undefined {
+  private parseDateBoundary(value?: string, endOfDay = false, field = 'date'): Date | undefined {
     if (!value) return undefined;
     const raw = value.trim();
     if (!raw) return undefined;
     const d = new Date(raw.includes('T') ? raw : `${raw}T${endOfDay ? '23:59:59.999' : '00:00:00.000'}Z`);
-    return Number.isNaN(d.getTime()) ? undefined : d;
+    // BUG-052: fail fast instead of silently ignoring a bad filter (AGENTS.md rule #2)
+    if (Number.isNaN(d.getTime())) {
+      throw new HttpErrors.BadRequest(`Invalid '${field}' date '${value}'. Use YYYY-MM-DD or an ISO date-time.`);
+    }
+    return d;
+  }
+
+  /** Parse + validate an optional from/to pair (shared by all date-filtered analytics). */
+  private resolveRange(fromDate?: string, toDate?: string): {from?: Date; to?: Date} {
+    const from = this.parseDateBoundary(fromDate, false, 'from');
+    const to = this.parseDateBoundary(toDate, true, 'to');
+    if (from && to && from.getTime() > to.getTime()) {
+      throw new HttpErrors.BadRequest(`'from' (${fromDate}) must be on or before 'to' (${toDate}).`);
+    }
+    return {from, to};
   }
 
   private inRange(dateValue: Date | string | undefined, from?: Date, to?: Date): boolean {
@@ -49,8 +64,7 @@ export class AnalyticsService {
    * Optional from/to (ISO or YYYY-MM-DD) scopes enrollments, students, and growth series.
    */
   async getOverviewKpis(fromDate?: string, toDate?: string) {
-    const from = this.parseDateBoundary(fromDate, false);
-    const to = this.parseDateBoundary(toDate, true);
+    const {from, to} = this.resolveRange(fromDate, toDate);
 
     const profiles = await this.studentProfileRepo.find({
       where: {isDeleted: false},
@@ -152,10 +166,16 @@ export class AnalyticsService {
   /**
    * Get Letter Grade Distribution across student cohort (A, B, C, D, F)
    */
-  async getGradeDistribution() {
-    const submissions = await this.submissionRepo.find({
+  async getGradeDistribution(fromDate?: string, toDate?: string) {
+    const {from, to} = this.resolveRange(fromDate, toDate);
+    const hasRange = Boolean(from || to);
+    const allSubmissions = await this.submissionRepo.find({
       where: {isDeleted: false},
     });
+    // BUG-052: optional date filter on when the work was submitted
+    const submissions = hasRange
+      ? allSubmissions.filter(s => this.inRange(s.submittedAt || s.createdAt, from, to))
+      : allSubmissions;
 
     let gradeA = 0;
     let gradeB = 0;
@@ -172,8 +192,9 @@ export class AnalyticsService {
         else if (score >= 60) gradeD++;
         else gradeF++;
       }
-    } else {
-      // Benchmark platform seed distribution for clean chart rendering
+    } else if (!hasRange) {
+      // Benchmark platform seed distribution for clean chart rendering (unfiltered view only —
+      // a filtered range with no submissions must show real zeros, not placeholder numbers)
       gradeA = 42;
       gradeB = 35;
       gradeC = 15;
@@ -182,15 +203,18 @@ export class AnalyticsService {
     }
 
     const totalGraded = gradeA + gradeB + gradeC + gradeD + gradeF;
+    const pct = (n: number) => (totalGraded > 0 ? Math.round((n / totalGraded) * 100) : 0);
 
     return {
       totalEvaluations: totalGraded,
+      from: from?.toISOString() ?? null,
+      to: to?.toISOString() ?? null,
       distribution: [
-        {grade: 'A (90–100%)', count: gradeA, percentage: Math.round((gradeA / totalGraded) * 100)},
-        {grade: 'B (80–89%)', count: gradeB, percentage: Math.round((gradeB / totalGraded) * 100)},
-        {grade: 'C (70–79%)', count: gradeC, percentage: Math.round((gradeC / totalGraded) * 100)},
-        {grade: 'D (60–69%)', count: gradeD, percentage: Math.round((gradeD / totalGraded) * 100)},
-        {grade: 'F (<60%)', count: gradeF, percentage: Math.round((gradeF / totalGraded) * 100)},
+        {grade: 'A (90–100%)', count: gradeA, percentage: pct(gradeA)},
+        {grade: 'B (80–89%)', count: gradeB, percentage: pct(gradeB)},
+        {grade: 'C (70–79%)', count: gradeC, percentage: pct(gradeC)},
+        {grade: 'D (60–69%)', count: gradeD, percentage: pct(gradeD)},
+        {grade: 'F (<60%)', count: gradeF, percentage: pct(gradeF)},
       ],
     };
   }

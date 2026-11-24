@@ -33,14 +33,17 @@ export class AnalyticsController {
 
   /**
    * Get Letter Grade Distribution across student cohort (A, B, C, D, F)
+   * Optional query: from, to (YYYY-MM-DD or ISO datetime) — filters by submission date (BUG-052)
    */
   @authenticate('jwt')
   @get('/admin/reports/grade-distribution')
   async getGradeDistribution(
     @inject(SecurityBindings.USER) currentUser: LmsUserProfile,
+    @param.query.string('from') from?: string,
+    @param.query.string('to') to?: string,
   ) {
     this.rbacService.validateRole(currentUser as any, ['admin', 'academic', 'operations']);
-    const distribution = await this.analyticsService.getGradeDistribution();
+    const distribution = await this.analyticsService.getGradeDistribution(from, to);
     return formatSuccessResponse(distribution, 'Grade distribution report retrieved successfully');
   }
 }
