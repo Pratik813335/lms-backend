@@ -1,0 +1,58 @@
+name: CI
+
+# Build + acceptance tests against a throwaway PostgreSQL on every push / PR.
+# Lint is intentionally not gated yet (the codebase has pre-existing lint/prettier debt).
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: lms_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    env:
+      NODE_ENV: test
+      PG_HOST: localhost
+      PG_PORT: 5432
+      PG_USER: postgres
+      PG_PASSWORD: postgres
+      PG_DATABASE: lms_ci
+      JWT_SECRET: ci-only-not-a-real-secret
+      JWT_EXPIRES_IN: 1h
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Build (TypeScript)
+        run: npm run build
+
+      - name: Migrate schema + default seed
+        run: node ./dist/migrate
+
+      - name: Acceptance tests
+        run: npx lb-mocha --allow-console-logs "dist/__tests__"
