@@ -25,4 +25,5 @@ export * from './writing-prompt.model';
 export * from './writing-lab-submission.model';
 export * from './compliance-audit.model';
 export * from './payment.model';
+export * from './content-asset.model';
 

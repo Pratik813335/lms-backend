@@ -25,4 +25,5 @@ export * from './writing-prompt.repository';
 export * from './writing-lab-submission.repository';
 export * from './compliance-audit.repository';
 export * from './payment.repository';
+export * from './content-asset.repository';
 

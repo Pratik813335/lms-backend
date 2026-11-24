@@ -14,6 +14,7 @@ export * from './ai-tutor.service';
 export * from './compliance.service';
 export * from './test-prep.service';
 export * from './payment.service';
+export * from './content-asset.service';
 export * from './analytics.service';
 
 

@@ -42,10 +42,11 @@ export async function migrate(args: string[]) {
       'WritingLabSubmission',
       'ComplianceAudit',
       'Payment',
+      'ContentAsset',
     ],
   });
 
-  // Ensure open courses can omit grade_level_id without breaking existing curriculum rows
+  // Ensure open courses can omit gradelevelid (Course.gradeLevelId) without breaking existing curriculum rows
   try {
     const ds = await app.get('datasources.db');
     await (ds as any).execute(`
@@ -71,7 +72,7 @@ export async function migrate(args: string[]) {
     `);
     await (ds as any).execute(`
       ALTER TABLE courses
-        ALTER COLUMN grade_level_id DROP NOT NULL;
+        ALTER COLUMN gradelevelid DROP NOT NULL;
     `);
     console.log('✅ Open-course columns applied (course_type, nullable grade_level_id).');
   } catch (err) {

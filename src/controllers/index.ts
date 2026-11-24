@@ -12,6 +12,7 @@ export * from './ai-tutor.controller';
 export * from './compliance.controller';
 export * from './test-prep.controller';
 export * from './payment.controller';
+export * from './content-asset.controller';
 export * from './analytics.controller';
 
 

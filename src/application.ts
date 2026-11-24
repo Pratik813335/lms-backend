@@ -42,6 +42,7 @@ import {
   WritingLabSubmissionRepository,
   ComplianceAuditRepository,
   PaymentRepository,
+  ContentAssetRepository,
 } from './repositories';
 import {MySequence} from './sequence';
 import {
@@ -62,6 +63,7 @@ import {
   TestPrepService,
   PaymentService,
   AnalyticsService,
+  ContentAssetService,
 } from './services';
 
 export {ApplicationConfig};
@@ -169,6 +171,7 @@ export class LmsBackendApplication extends BootMixin(
     this.bind('services.compliance').toClass(ComplianceService);
     this.bind('services.testPrep').toClass(TestPrepService);
     this.bind('services.payment').toClass(PaymentService);
+    this.bind('services.contentAsset').toClass(ContentAssetService);
     this.bind('services.analytics').toClass(AnalyticsService);
     this.bind(EmailManagerBindings.SEND_MAIL).toClass(EmailService);
 
@@ -209,5 +212,6 @@ export class LmsBackendApplication extends BootMixin(
     this.repository(WritingLabSubmissionRepository);
     this.repository(ComplianceAuditRepository);
     this.repository(PaymentRepository);
+    this.repository(ContentAssetRepository);
   }
 }
