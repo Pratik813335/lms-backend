@@ -675,17 +675,13 @@ export class StudentController {
       );
     }
 
-    // 2. Resolve & Validate Role consistency with Grade Level Tier
-    const expectedRole =
+    // 2. Role is always derived from grade tier (Class 1–6 Junior → student_junior).
+    // Client `role` is optional; ignore mismatches so a missing junior dropdown option
+    // cannot block creating a junior-tier student.
+    const roleKey =
       resolveGradeTier(gradeMaster) === 'junior'
         ? 'student_junior'
         : 'student_senior';
-    if (body.role && body.role !== expectedRole) {
-      throw new HttpErrors.BadRequest(
-        `Grade level '${gradeMaster.label || gradeMaster.value}' belongs to the ${gradeMaster.category} tier and cannot be assigned role senior. Expected junior.`,
-      );
-    }
-    const roleKey = expectedRole;
 
     const targetRole = await this.rolesRepo.findOne({
       where: { value: roleKey, isActive: true, isDeleted: false },

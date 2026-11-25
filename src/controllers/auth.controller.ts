@@ -12,6 +12,7 @@ import {
   ResponseObject,
 } from '@loopback/rest';
 import { SecurityBindings, UserProfile, securityId } from '@loopback/security';
+import { resolveGradeTier } from '../utils/grade.util';
 import { formatSuccessResponse } from '../utils/response.util';
 import { validatePersonName, validateStrongPassword } from '../utils/password.util';
 import {
@@ -175,9 +176,11 @@ export class AuthController {
         );
       }
 
-      // 2. Automatically map to student_junior or student_senior role based on gradeLevel.category
-      // BUG-026: junior category (incl. Grade 3–8) → student_junior
-      const roleKey = gradeMaster.category === 'junior' ? 'student_junior' : 'student_senior';
+      // 2. Automatically map to student_junior or student_senior from grade tier
+      // BUG-026: junior category (incl. Class 1–6 / Grade 3–8) → student_junior
+      // Use resolveGradeTier so category casing like "Junior" still maps correctly.
+      const gradeTier = resolveGradeTier(gradeMaster);
+      const roleKey = gradeTier === 'junior' ? 'student_junior' : 'student_senior';
       const targetRole = await this.rolesRepo.findOne({
         where: { value: roleKey, isActive: true, isDeleted: false },
       });
@@ -219,7 +222,7 @@ export class AuthController {
       await this.studentProfileRepo.create({
         usersId: savedUser.id,
         gradeLevelId: gradeMaster.id,
-        tier: gradeMaster.category === 'junior' ? 'junior' : 'senior',
+        tier: gradeTier,
         xp: 0,
         level: 1,
         streakDays: 0,

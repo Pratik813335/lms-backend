@@ -82,8 +82,12 @@ export class RbacService {
     userId: string,
     gradeCategory?: string | null,
   ): Promise<'student_junior' | 'student_senior'> {
+    const normalized =
+      String(gradeCategory ?? '').toLowerCase().trim() === 'junior'
+        ? 'junior'
+        : 'senior';
     const roleValue =
-      gradeCategory === 'junior' ? 'student_junior' : 'student_senior';
+      normalized === 'junior' ? 'student_junior' : 'student_senior';
 
     const studentRoles = await this.rolesRepo.find({
       where: {

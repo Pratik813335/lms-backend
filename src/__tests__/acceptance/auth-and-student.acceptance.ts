@@ -394,7 +394,7 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
     expect(secondLoginRes.body.user.isOnboarding).to.be.false();
   });
 
-  it('POST /admin/students rejects gradeLevelId and role mismatch with 400 Bad Request', async () => {
+  it('POST /admin/students derives role from grade when client role mismatches', async () => {
     const adminEmail = `admin_mismatch_${Date.now()}@example.com`;
     const adminSignup = await client
       .post('/auth/signup')
@@ -408,17 +408,20 @@ describe('Week 1 Authentication & Student Profile (Acceptance)', () => {
 
     const adminToken = adminSignup.body.token;
 
-    // Send junior grade with senior role -> expect 400
-    await client
+    // Junior grade + senior role in body → still created as student_junior
+    const created = await client
       .post('/admin/students')
       .set('Authorization', `Bearer ${adminToken}`)
       .send({
         fullName: 'Mismatch Student',
         email: `mismatch_${Date.now()}@example.com`,
         gradeLevelId: juniorGradeId, // Grade 6 (junior)
-        role: 'student_senior',       // Mismatch!
+        role: 'student_senior', // Ignored; derived from grade
         password: 'Student@123',
       })
-      .expect(400);
+      .expect(200);
+
+    expect(created.body.data.role).to.equal('student_junior');
+    expect(created.body.data.tier).to.equal('junior');
   });
 });

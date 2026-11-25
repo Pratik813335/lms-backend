@@ -1,6 +1,7 @@
 /**
  * Resolve junior vs senior from a grade master record.
- * Numeric class wins: 3–6 → junior, 7+ → senior. Falls back to category.
+ * Category on the grade master is authoritative (case-insensitive).
+ * Numeric fallback: 1–8 → junior, 9+ → senior.
  */
 export function parseGradeNumber(
   input?: string | number | null,
@@ -17,7 +18,7 @@ export function parseGradeNumber(
 }
 
 export function isJuniorGradeBand(gradeNumber?: number | null): boolean {
-  return typeof gradeNumber === 'number' && gradeNumber >= 3 && gradeNumber <= 6;
+  return typeof gradeNumber === 'number' && gradeNumber >= 1 && gradeNumber <= 8;
 }
 
 export function resolveGradeTier(grade?: {
@@ -26,13 +27,16 @@ export function resolveGradeTier(grade?: {
   category?: string | null;
 } | null): 'junior' | 'senior' {
   if (!grade) return 'senior';
+  const category = String(grade.category ?? '').toLowerCase().trim();
+  if (category === 'junior' || category === 'senior') {
+    return category;
+  }
   const n =
     parseGradeNumber(grade.value) ?? parseGradeNumber(grade.label);
   if (n != null) {
     return isJuniorGradeBand(n) ? 'junior' : 'senior';
   }
-  const category = String(grade.category ?? '').toLowerCase();
-  return category === 'junior' ? 'junior' : 'senior';
+  return 'senior';
 }
 
 export function gradeLabelOf(grade?: {
